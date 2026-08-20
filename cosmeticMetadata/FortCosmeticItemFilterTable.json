@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "FortCosmeticItemFilterTable",
+    "Name": "FortCosmeticItemFilterTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortCosmeticItemFilterTable'",
+    "Package": "/Game/Athena/Items/Cosmetics/Metadata/FortCosmeticItemFilterTable",
+    "Properties": {
+      "FilterTagTables": [
+        {
+          "ObjectName": "DataTable'CosmeticFilterTagDataRow'",
+          "ObjectPath": "/Game/Athena/Items/Cosmetics/Metadata/CosmeticFilterTagDataRow.0"
+        }
+      ]
+    }
+  }
+]
