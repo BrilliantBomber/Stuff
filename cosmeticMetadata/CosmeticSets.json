@@ -22909,8 +22909,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "0850EFB49ED04E1FA84E32EF16D7A703",
-          "SourceString": "Set_06",
-          "LocalizedString": "Set_06"
+          "SourceString": "Lil Tecca",
+          "LocalizedString": "Lil Tecca"
         },
         "Description": {
           "CultureInvariantString": null
@@ -22923,8 +22923,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "FC3A48970CE1433FB684BEBC1221D8A9",
-          "SourceString": "Set_03",
-          "LocalizedString": "Set_03"
+          "SourceString": "Phantom Blade Zero",
+          "LocalizedString": "Phantom Blade Zero"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23063,8 +23063,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "914CDA5EA5C44CADBC04F6508B7EC34D",
-          "SourceString": "Set_03",
-          "LocalizedString": "Set_03"
+          "SourceString": "CONTROL Resonant",
+          "LocalizedString": "CONTROL Resonant"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23133,7 +23133,7 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "365F407986DC40FC9A73EA43116AD3C9",
-          "SourceString": "Set_06",
+          "SourceString": "Addison Rae",
           "LocalizedString": "Addison Rae"
         },
         "Description": {
@@ -23147,7 +23147,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "721B973E472DCDF18FF2159AEAFD9F7B",
-          "SourceString": "Set_04",
+          "SourceString": "Brand New Day",
           "LocalizedString": "Brand New Day"
         },
         "Description": {
@@ -23161,7 +23161,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "581A4CC345D5A75BD121F0B4374DA54C",
-          "SourceString": "Set_05",
+          "SourceString": "Kernel Hearts",
           "LocalizedString": "Kernel Hearts"
         },
         "Description": {
@@ -23175,7 +23175,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "123B647B4D472681CC8423A006B64D23",
-          "SourceString": "Set_01",
+          "SourceString": "Arknights: Endfield",
           "LocalizedString": "Arknights: Endfield"
         },
         "Description": {
@@ -23205,6 +23205,216 @@
           "Key": "9895561B4A3F52DB94836782C7F057A2",
           "SourceString": "Cutie-bara",
           "LocalizedString": "Cutie-bara"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.PartyDisk": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.PartyDisk"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "E4303A64A61B4D0DA9EA1A2435488E56",
+          "SourceString": "Build-A-Ville",
+          "LocalizedString": "Build-A-Ville"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AsylumMerchant": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.AsylumMerchant"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "1B0C8D91B3CF44819444C3E78B46DA88",
+          "SourceString": "Go Kat!",
+          "LocalizedString": "Go Kat!"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FieldMonth": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.FieldMonth"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "47BE86FFEEAA42158BAC566E7800E7F7",
+          "SourceString": "Island Brawler XII",
+          "LocalizedString": "Island Brawler XII"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.SlamProvide": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.SlamProvide"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "918D191101974B7BB6A06F550896F4F7",
+          "SourceString": "Reality's Reign",
+          "LocalizedString": "Reality's Reign"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ChairConfusion": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ChairConfusion"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "EBB797584DAA40798AC6BC9D2FD4DA61",
+          "SourceString": "Singularity Approaching",
+          "LocalizedString": "Singularity Approaching"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.LiftPurple": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.LiftPurple"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "4498D7D606FF48B9A75B36D320A08690",
+          "SourceString": "Sonic the Hedgehog",
+          "LocalizedString": "Sonic the Hedgehog"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.RingCookie": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.RingCookie"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "A422D232A60E47D7823191BF66282B13",
+          "SourceString": "Stealth’s Crowne",
+          "LocalizedString": "Stealth’s Crowne"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.TicketSleeve": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.TicketSleeve"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "9984387816CA438982B51C32FD1CF493",
+          "SourceString": "The Ancient Tale",
+          "LocalizedString": "The Ancient Tale"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ChaoticRock": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ChaoticRock"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "3A98C55BF50046F797BA5A9D6936C8EB",
+          "SourceString": "Valor Strike: Global Frontier",
+          "LocalizedString": "Valor Strike: Global Frontier"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.PieMask": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.PieMask"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "2448F8234D7068BCE15B2F8D31A4EA1D",
+          "SourceString": "Set_02",
+          "LocalizedString": "Set_02"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ColdTake": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ColdTake"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E3B06211403148DFE57EBAA202367197",
+          "SourceString": "Set_03",
+          "LocalizedString": "Set_03"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.WarmTide": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.WarmTide"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "1C58C75E47C70B74754640BA4F6E8E73",
+          "SourceString": "Set_01",
+          "LocalizedString": "Set_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.NetInstinct": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.NetInstinct"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "CA27798D8F174A67834C5723E9C70683",
+          "SourceString": "Endgame Wraith",
+          "LocalizedString": "Endgame Wraith"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.LazyRumor": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.LazyRumor"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "F77CBA9369004355B6DB424955D22B11",
+          "SourceString": "Imagined Hush",
+          "LocalizedString": "Imagined Hush"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.RadioFossil": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.RadioFossil"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "A35A77E6FE6B48039535DE82D0BADE23",
+          "SourceString": "Prismatic Racer",
+          "LocalizedString": "Prismatic Racer"
         },
         "Description": {
           "CultureInvariantString": null
