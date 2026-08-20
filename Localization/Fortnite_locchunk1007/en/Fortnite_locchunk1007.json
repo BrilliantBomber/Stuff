@@ -1,0 +1,8 @@
+{
+  "": {
+    "EA0A5E684002B327639F8AA276E77200": "\r\nThis event has flashing lights. If you have a history of photosensitivity, seizure, loss of awareness, or other conditions linked to an epileptic condition, consult a doctor before entering. Even if you do not have a history, you may still experience severe dizziness, seizures, epileptic seizures or blackouts triggered by lights flashes or patterns while participating in this experience. IMMEDIATELY DISCONTINUE if you experience any discomfort.",
+    "AA04DB88402F176F0146309DD9BB0D41": "DESTROY  player built: {building}",
+    "F510D4A6441B72DDECA5F7B966298FED": "Ignore Next Fall Damage: {player}",
+    "36BB04E94D81F86E5087DF8DD6DC2BB4": "PHOTOSENSITIVITY/SEIZURES WARNING:"
+  }
+}
