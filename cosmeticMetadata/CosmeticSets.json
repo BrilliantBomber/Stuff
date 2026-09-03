@@ -23343,8 +23343,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "2448F8234D7068BCE15B2F8D31A4EA1D",
-          "SourceString": "Set_02",
-          "LocalizedString": "Set_02"
+          "SourceString": "Spyro",
+          "LocalizedString": "Spyro"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23357,8 +23357,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "E3B06211403148DFE57EBAA202367197",
-          "SourceString": "Set_03",
-          "LocalizedString": "Set_03"
+          "SourceString": "Crash Bandicoot",
+          "LocalizedString": "Crash Bandicoot"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23371,8 +23371,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "1C58C75E47C70B74754640BA4F6E8E73",
-          "SourceString": "Set_01",
-          "LocalizedString": "Set_01"
+          "SourceString": "Game of Thrones",
+          "LocalizedString": "Game of Thrones"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23415,6 +23415,118 @@
           "Key": "A35A77E6FE6B48039535DE82D0BADE23",
           "SourceString": "Prismatic Racer",
           "LocalizedString": "Prismatic Racer"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.PenaltyEternal": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.PenaltyEternal"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B9DB4B4C43473AAF7623F8B26F17EAB4",
+          "SourceString": "Set_04",
+          "LocalizedString": "Set_04"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.GolfFormat": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.GolfFormat"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "6BA95E54446E2B9B4B41BBA1EC55622D",
+          "SourceString": "Bunny Mummy",
+          "LocalizedString": "Bunny Mummy"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CalendarHunter": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CalendarHunter"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "656BE3284C90B624C58DAE83337DA78D",
+          "SourceString": "Set_03",
+          "LocalizedString": "Set_03"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ContactMushroom": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ContactMushroom"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "22ADF8B8408E23FBE503B1B478BBE3BA",
+          "SourceString": "Fractal Heroes",
+          "LocalizedString": "Fractal Heroes"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BorderAct": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BorderAct"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E4B3903549DA9A2C2D12558C62303D33",
+          "SourceString": "Moonlit Hunter",
+          "LocalizedString": "Moonlit Hunter"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ModuleLog": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ModuleLog"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "43C8362048DD66E734A1F5B1D438A5EB",
+          "SourceString": "Set_01",
+          "LocalizedString": "Set_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.KitAdvance": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.KitAdvance"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "DF1B09EA49C8CF2571BEC3A4D9925006",
+          "SourceString": "Set_02",
+          "LocalizedString": "Set_02"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.SandAdvice": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.SandAdvice"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B164E65D49A3940524693F8827E1B1FD",
+          "SourceString": "Set_05",
+          "LocalizedString": "Set_05"
         },
         "Description": {
           "CultureInvariantString": null
