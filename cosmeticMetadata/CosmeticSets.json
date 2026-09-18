@@ -23427,8 +23427,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "B9DB4B4C43473AAF7623F8B26F17EAB4",
-          "SourceString": "Set_04",
-          "LocalizedString": "Set_04"
+          "SourceString": "Screamer",
+          "LocalizedString": "Screamer"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23455,8 +23455,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "656BE3284C90B624C58DAE83337DA78D",
-          "SourceString": "Set_03",
-          "LocalizedString": "Set_03"
+          "SourceString": "Mega Man",
+          "LocalizedString": "Mega Man"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23497,8 +23497,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "43C8362048DD66E734A1F5B1D438A5EB",
-          "SourceString": "Set_01",
-          "LocalizedString": "Set_01"
+          "SourceString": "Kingdom Hearts",
+          "LocalizedString": "Kingdom Hearts"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23511,8 +23511,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "DF1B09EA49C8CF2571BEC3A4D9925006",
-          "SourceString": "Set_02",
-          "LocalizedString": "Set_02"
+          "SourceString": "Lil Wayne",
+          "LocalizedString": "Lil Wayne"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23525,8 +23525,162 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "B164E65D49A3940524693F8827E1B1FD",
-          "SourceString": "Set_05",
-          "LocalizedString": "Set_05"
+          "SourceString": "John Carpenter's Toxic Commando",
+          "LocalizedString": "John Carpenter's Toxic Commando"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.MiracleBalboa": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.MiracleBalboa"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "0C6BE1DD45F74E183E5CD2AF68F275AB",
+          "SourceString": "Pac-Man",
+          "LocalizedString": "Pac-Man"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CalmEnigma": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CalmEnigma"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "7E8B542347A62728ED656CAA37BA942F",
+          "SourceString": "Feathered Sentry",
+          "LocalizedString": "Feathered Sentry"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.LatePebble": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.LatePebble"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "EC48848B40667899A4BE7FB41206BB46",
+          "SourceString": "Set_01",
+          "LocalizedString": "Set_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BusyGhost": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BusyGhost"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9ACE09144BD3E001C41159A12D33F6A9",
+          "SourceString": "Set_02",
+          "LocalizedString": "Set_02"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FastSaturn": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.FastSaturn"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "62F2399145B1C724C1DA5F9309A9E3B8",
+          "SourceString": "Set_04",
+          "LocalizedString": "Set_04"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AridUnicorn": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.AridUnicorn"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "CA4C2B054D93A0F0D81ED1A7F08332DA",
+          "SourceString": "Dawning Apocalypse",
+          "LocalizedString": "Dawning Apocalypse"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ConfusedDigger": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ConfusedDigger"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3B93800745523EA1D42931AEAB610043",
+          "SourceString": "G00D B0T",
+          "LocalizedString": "G00D B0T"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FeistyTiger": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.FeistyTiger"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B6D287A74FA88EFBA4E4D6B1874A059A",
+          "SourceString": "Totally Rat-ical",
+          "LocalizedString": "Totally Rat-ical"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FirstCaravan": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.FirstCaravan"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E7D209EE4C2C63663DBC65A76D73DEDF",
+          "SourceString": "Set_03",
+          "LocalizedString": "Set_03"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.TwilightSun": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.TwilightSun"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "43395DC94061846C7113A59A2B076794",
+          "SourceString": "Feline Fractals",
+          "LocalizedString": "Feline Fractals"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.MutedPacker": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.MutedPacker"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "4CF613F44E9F6650CB2216963E24CFC7",
+          "SourceString": "Hammy Uncaged",
+          "LocalizedString": "Hammy Uncaged"
         },
         "Description": {
           "CultureInvariantString": null
