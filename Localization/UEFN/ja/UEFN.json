@@ -153,7 +153,7 @@
     "F522F0C7492984F80FF752B12C493D41": "素敵な家々や活気ある農場、そして豊かな自然に囲まれた日差しあふれるビーチが揃った、魅力的で居心地の良い村を探索しませんか UEFN にバディ コントロールが実装され、島を駆け回る愛らしいペットたちに出会えます",
     "E85986084C5768D45C744DA9F7199DB4": "ネヴァロにインスパイアされた街を探索しましょう火山のランドスケープを活用して、次の冒険の構築を始めましょう",
     "5D607756496D7D34534161A76D037AE0": "Walking Dead Universe の象徴的なプリズンを紹介しますこのスターター島を使用して、次のゲームを有利に開始しましょう",
-    "84FBC65D4990B009132E6288DDF37B4D": "Face your fears on this creepy haunted island. Observe lighting techniques and methods to add atmosphere in UEFN.",
+    "84FBC65D4990B009132E6288DDF37B4D": "不気味な幽霊の島で恐怖に立ち向かいましょう。UEFN で雰囲気を追加するライティング技術や手法を観察します",
     "688C10D94213786DF5B0D3B3D65BBA53": "FactCategoryText",
     "7BC1EF91495CE30F0A41BEA8E4D553CC": "機能例",
     "7DB4F10642BF6FC257A4A4BD4EF9D8F3": "Features Expo",
@@ -180,7 +180,7 @@
     "A04B36824B96B1D3730DB4819F0368B4": "使用を開始する",
     "FC4E8E504E39E595C80E27AB1628E729": "グレースケールsRGB",
     "40A2BADA49BF6943636D468D268C235C": "グリッド/s",
-    "193CF4DD4D3859505223E5967E9AFFF2": "Harrowville: Environment",
+    "193CF4DD4D3859505223E5967E9AFFF2": "ハロウヴィル：環境",
     "7C0AC7B546C8252B3CA90791C665F406": "現在：{0} 許容範囲：{1}",
     "1A37A12C46F34B2727DFE09389BFB29F": "ヘルパーアセット",
     "A2113EE54097BA5ED4DB19BF308694B9": "ヘルパーアセット",
@@ -790,6 +790,7 @@
     "SpatialMetricsGridCommands": "グリッド",
     "SpatialMetricsHistogramCommands": "ヒストグラム",
     "SpatialMetricsViewerCommands": "空間メトリクスビューア",
+    "MemoryCalculationCommands": "UEFN メモリ計算",
     "ValkyrieEditor": "Valkyrieエディタ"
   },
   "ConversationGraph": {
@@ -1168,7 +1169,8 @@
     "ProjectHomeDocumentation": "ドキュメント",
     "ProjectHomeForumsButton": "フォーラム",
     "LiveEditStatusColumnLabel": "ライブ編集ステータス",
-    "ValkyriePIENotAvailable": "{0} では利用不可",
+    "ValkyriePIERestrictiveMode": "プレイイン エディタは {0} でブロックされています：制限モードが有効です-unattended で起動した場合、自動実行は自動的に許可されます。インタラクティブにプレイするには、制限モードを無効にします",
+    "ValkyriePIENotAvailableCooked": "クック処理済みエディタ コンテンツを実行している間、{0} ではプレイイン エディタを使用できません",
     "ProjectHomeReleaseNotesButton": "リリースノート",
     "ProjectHomeRoadmapButton": "ロードマップ",
     "SupportName": "サポート",
@@ -1190,18 +1192,22 @@
     "PromptForProjectIdVariant_Hint": "プロジェクト GUID、Verse パス、またはリンク コード",
     "PromptForProjectIdVariant_SyntaxFeedbackMessage": "入力された値は有効な GUID、Verse パス、またはリンクコードではありません"
   },
-  "FXCosmeticVariant": {
-    "ParticleChannelName": "パーティクル"
-  },
   "Fab": {
     "ClearCacheButton": "キャッシュをクリア",
+    "ExtractError": "ダウンロードを抽出できませんでした",
     "DownloadError": "ダウンロード エラー",
     "DownloadFinished": "ダウンロードが終了しました",
     "Downloading": "ダウンロード中",
+    "DownloadingAsset": "{0}をダウンロード中",
+    "ExtractFinished": "抽出が完了しました",
+    "Extracting": "抽出中",
     "WebBrowserModuleNotEnabled": "プラグインの読み込みに失敗しましたEmporium を使用するには、プラグインマネージャで WebBrowserWindow を有効にしてください",
     "ImportError": "インポート エラー",
     "ImportFinished": "インポートが終了しました",
     "Importing": "インポートしています",
+    "NoProjectInArchive": "ダウンロードには UEFN プロジェクトが含まれていません",
+    "SourceAlreadyDownloading": "このアセットはすでにダウンロード中です",
+    "ProjectAlreadyImporting": "このソースはすでにダウンロード中です",
     "Fab.TooltipLoggedOut": "ログインして Fab からコンテンツを取得する必要があります"
   },
   "FeedbackHandleCustomization": {
@@ -1678,6 +1684,8 @@
     "Pick Map": "タグを選択",
     "SelectUEFNProject": "UEFNプロジェクトを選択",
     "UEFNProjectNameKey": "UEFNプロジェクトを選択",
+    "MapUIDataUpdateComplete": "UI マップ データ更新完了",
+    "MapUIDataUpdateFailed": "UI マップ データ更新が失敗しました\n\n一部または全てのテーブルが更新されませんでした次の場所にある最新の FortniteGame*.log を開いてください。\n{0}\n「Error:」を検索して理由を確認してください (他のユーザーによる排他チェックアウト、Perforce 接続の欠落、同期されていないファイルなど)",
     "UpdateMapUIData": "マップUIデータを更新"
   },
   "FortQuestObjectiveEditor": {
@@ -2177,9 +2185,6 @@
     "AssetTypeActions_ItemAbilityConfigurationAsset": "アイテムアビリティ構成アセット",
     "AssetDefinition_ItemAbilityEffectAsset": "アイテム アビリティ効果アセット",
     "AssetTypeActions_ItemAbilityEffectAsset": "アイテム アビリティ効果アセット",
-    "AssetDefinition_ItemOwnerPoseAsset": "アイテムオーナーポーズ",
-    "AssetTypeActions_ItemOwnerPoseAsset": "アイテムオーナーポーズ",
-    "ItemOwnerPoseAssetHasNullProxyTable": "アイテム オーナー ポーズには、プロキシテーブルを設定する必要があります",
     "AssetDefinition_ItemizationConfigurationAsset": "アイテム化構成アセット",
     "AssetTypeActions_ItemizationConfigurationAsset": "アイテム化構成アセット"
   },
@@ -2200,9 +2205,6 @@
   },
   "ItemComponentData_ItemTypeInventoryLimit": {
     "LimitAmount": "LimitAmount アイテム データ「{0}」が冗長です。これは、LimitAmount が 0 より大きい場合にのみ必要です"
-  },
-  "ItemComponentData_OwnerPose": {
-    "PoseAsset": "オーナー ポーズ アイテム データ「{0}」に、有効なポーズ アセットが指定されている必要があります"
   },
   "ItemComponentData_SlotSize": {
     "SlotSize": "スロット サイズのアイテム データ「{0}」が冗長です。SlotSize が 1 でない場合にのみ必要です"
@@ -2567,17 +2569,6 @@
     "BranchHistoryTooltipText": "[Branch History (ブランチ履歴)] タブを開きます",
     "ConflictResolutionTooltipText": "[Conflict Resolution (競合の解決)] タブを開きます"
   },
-  "MTFAcc": {
-    "LifecycleOrderCollision": "LifecycleOrderCollision",
-    "LifecycleOrderFixtureA": "LifecycleOrderFixtureA",
-    "LifecycleOrderFixtureZVerify": "LifecycleOrderFixtureZVerify",
-    "LifecycleSelfSkip": "LifecycleSelfSkip",
-    "LifecycleSetupAssertFail": "LifecycleSetupAssertFail",
-    "LifecycleSetupFail": "LifecycleSetupFail",
-    "LifecycleTeardownAssertFail": "LifecycleTeardownAssertFail",
-    "LifecycleTeardownFail": "LifecycleTeardownFail",
-    "SuiteSetup": "SuiteSetup"
-  },
   "MakeNextInSeriesScreen": {
     "FolderComboToolTipText": "コンテンツ ディレクトリを選択します",
     "CreateQuestAsset": "作成する",
@@ -2607,6 +2598,63 @@
     "InvalidContext": "リクエスト コンテキストが無効です",
     "CheatsNotSupported": "クライアント/専用サーバーからのチート コマンドの送信はサポートされなくなりました",
     "NoServicePerms": "サーバーに対するサービス権限が見つかりません"
+  },
+  "MemoryCalculationFlow": {
+    "Stage_Calculating": "メモリ使用量を計算中",
+    "Stage_AcquiringManifest": "クック済みビルドデータを取得中",
+    "Stage_AcquiringBudget": "プロジェクトのメモリ制限を取得中",
+    "Stage_ReportingResult": "レコーディング結果",
+    "Stage_WaitingForCook": "クックを待機中"
+  },
+  "MemoryCalculationGroupings": {
+    "GraphNodeExpandHint": "(ダブルクリックして展開)",
+    "PackageActorsExpandHint": "(ダブルクリックして展開)",
+    "NoActorGroup": "(参照アクタなし)",
+    "NoCellGroup": "(参照セルなし)",
+    "UnknownReferencerGroup": "(不明な参照元)",
+    "UntypedGroup": "(型指定なし)",
+    "ActorGroupingShort": "アクタ参照元",
+    "PackageActorsGroupingShort": "パッケージごとのアクタ数",
+    "PackageActorsGroupingTitle": "パッケージごとのアクタ数",
+    "ActorGroupingTitle": "アクタ参照元別",
+    "CellGroupingTitle": "セル参照元別",
+    "DependencyGroupingTitle": "パッケージ依存関係別",
+    "ReferencerGroupingTitle": "パッケージ参照元別",
+    "TypeGroupingTitle": "タイプ別",
+    "CellGroupingShort": "セル参照元",
+    "ActorGroupingDesc": "参照する全てのアクタの下でパッケージをグループ化します",
+    "CellGroupingDesc": "参照する全てのセルの下で各パッケージをグループ化します",
+    "TypeGroupingDesc": "アセット タイプ別にパッケージをグループ化し、コンテンツ ブラウザのタイプ アイコンと色を使用します",
+    "PackageActorsGroupingDesc": "パッケージごとに、それを参照するアクタを拡張可能な子としてリストします (アクタ参照者別の逆)",
+    "DependencyGroupingShort": "パッケージ依存関係",
+    "ReferencerGroupingShort": "パッケージ参照元",
+    "DependencyGroupingDesc": "パッケージ依存関係ツリー：ルート パッケージ (何も参照していません) は、参照しているパッケージに展開され、再帰的に行われます",
+    "ReferencerGroupingDesc": "パッケージ参照ツリー：ルート パッケージ (何も参照しない) が、それを参照するパッケージに展開され、再帰的に続きます",
+    "TypeGroupingShort": "タイプ"
+  },
+  "MemoryCalculationSubsystem": {
+    "MemoryCalculationTab_Tooltip": "エディタで計算されたメモリ結果とその最も重いパッケージを調査します",
+    "MemoryCalculationTab": "メモリ計算"
+  },
+  "MemoryCalculationTableViewModel": {
+    "PeakScope": "ピーク",
+    "PeakScopeFmt": "ピーク({0})"
+  },
+  "MemoryCalculationViewPresets": {
+    "Preset_PkgActors": "パッケージごとのアクタ数",
+    "Preset_Type": "アセットタイプ",
+    "Preset_PkgDep_Tip": "依存関係ツリー：ルート パッケージは、参照するパッケージに展開されます",
+    "Preset_PkgActors_Tip": "各パッケージは、それを参照するアクタに展開されます",
+    "Preset_Flat_Tip": "ピーク メモリ フットプリント内のすべてのパッケージ (グループ化なし、最大値が最初)",
+    "Preset_Flat": "フラット表示",
+    "Preset_PkgDep": "パッケージ依存関係",
+    "Preset_PkgRef": "パッケージ参照元",
+    "Preset_Type_Tip": "アセット タイプごとにグループ化され、最も大きいタイプが最初に表示されます",
+    "Preset_Cell_Tip": "各参照 World Partition セルの下にあるパッケージを、アセット タイプ別に分類したものです",
+    "Preset_Actor_Tip": "各参照アクタの下のパッケージ",
+    "Preset_PkgRef_Tip": "参照ツリー：ルート パッケージがそれを参照するパッケージに展開されます",
+    "Preset_Actor": "参照アクタ",
+    "Preset_Cell": "参照元のセル"
   },
   "MemoryTimingViewExtender": {
     "NoPlayerTargetAvailableTooltip": "プレイヤーはトレースターゲットとして使用されるセッションに接続する必要があります。",
@@ -2642,17 +2690,13 @@
     "ModularGateExpressionWidget_Title": "ゲート式エディタ",
     "ModularGateExpressionWidget_OK": "OK"
   },
-  "ModularTest": {
-    "SuiteSetup": "SuiteSetup",
-    "SuiteTeardown": "SuiteTeardown"
-  },
   "NPCCharacterDefinition": {
     "MissingType": "型がありません",
     "InvalidSkeletalMeshComponent": "{0}:キャラクターブループリント{1}にはスケルタルメッシュコンポーネントが必要です",
     "MissingCharacterModifier": "{0}：キャラクターモディファイアがありません",
     "DuplicatedModifier": "{0}：型 {1} のモディファイアが複数あります",
     "InvalidSkeletalMeshAsset": "{0}:スケルタルメッシュアセットは{1}のスケルタルメッシュコンポーネントではNullにできません",
-    "UnsupportedModifier": "{0}：アイデンティティ {1} に対する型 {0} の未サポートのモディファイアがあります！"
+    "UnsupportedModifier": "{0}：アイデンティティ {2} に対する型 {1} の未サポートのモディファイアがあります！"
   },
   "NPCCharacterDefinitionComponent": {
     "MissingDefinition": "{0}：NPC キャラクター定義{1} がありません",
@@ -3073,6 +3117,55 @@
   "SLoreSourceControlWidgets": {
     "InvalidComboEntryText": "<<Invalid option>>"
   },
+  "SMemoryCalculationDetailsView": {
+    "NoCells": "(常にロードされるか、セルによって参照されません)",
+    "NoActors": "(ロードされたエディタ ワールドにはありません)",
+    "Untyped": "(型指定なし)",
+    "Browse": "ブラウズ",
+    "FieldPath": "パス",
+    "FieldRefs": "参照元",
+    "ActorsHeader": "参照元のアクタ ({0})",
+    "CellsHeader": "参照元のセル ({0})",
+    "NoSelection": "パッケージを選択すると、その型、サイズ、およびそれを参照するセルとアクタが表示されます",
+    "BrowseTip": "エディタでこのアクタを選択します (現在ロードされている場合)",
+    "FieldSize": "サイズ",
+    "FieldType": "タイプ",
+    "FieldVersePath": "Verseパス"
+  },
+  "SMemoryCalculationPanel": {
+    "AlwaysLoadedLabel": "常にロード済み:",
+    "FailedReason": "計算に失敗しました：{0}",
+    "Details": "詳細",
+    "Fail": "失敗",
+    "HeadroomSegment": "ヘッドルーム{0}",
+    "InProgress": "進行中",
+    "InProgressStage": "進行中 ({0})",
+    "SamplesLabel": "サンプリングされた位置:",
+    "PeakLocationTip": "ピークが測定された位置にアクティブ ビューポートを移動します",
+    "NoResultInitial": "検索結果はありません",
+    "NoResult": "結果なし — メモリ計算を起動",
+    "OtherSegment": "その他",
+    "Pass": "パス",
+    "PackagesLabel": "パッケージ:",
+    "PeakLocationLabel": "ピーク位置:",
+    "Statistics": "統計情報",
+    "OtherSegmentTip": "バーの{0}の下のタイプ、結合: {1}",
+    "UntypedSegment": "型指定なし",
+    "NewerTip": "次の (新しい) 計算結果を表示します",
+    "OlderTip": "前の (古い) 計算結果を表示します",
+    "PeakLocation": "時刻: {0}",
+    "HistoryPos": "{0} / {1}  ({2})",
+    "HeadroomSegmentTip": "未使用のバジェットの{0}",
+    "PeakOfBudget": "{0}/{1}",
+    "PeakOverBudget": "{0} / {1} — {2}超過",
+    "SegmentTip": "{0}: {1} (バジェットの{2})"
+  },
+  "SMemoryCalculationTableTreeView": {
+    "AllScope": "全て",
+    "ContextMenu_Section_Browse": "ブラウズ",
+    "AllScope_Tip": "ピーク サンプルの常駐していないパッケージを含む、計算内のすべてのパッケージを表示します",
+    "PeakScope_Tip": "ピーク サンプル ポイントに常駐するパッケージのみを表示します。報告されたピークを構成するサイズを持つセットです"
+  },
   "SMetricsTreeView": {
     "HeaderCheckBoxTooltip": "全てのメトリクスを有効または無効にします",
     "HeaderRowMetricsColumn": "メトリクス",
@@ -3369,8 +3462,6 @@
     "Settings.SizeBreakdownView.ToolTip.ShowDependencies": "オンの場合、[By Type (タイプ別)] および [By Package (パッケージ別)] ビューで各タイプごと / パッケージごとの列にマージされ、ソースごとの子は各タイプで展開可能です (常に依存関係を表示する) [By Dependency (依存関係別)] ビューでは影響ありません",
     "LastUploadedTimestampWithVersionFmt": "{0} (v{1})",
     "ActorClassLabelFormat": "{0} ({1} {1}|plural(one=actor,other=actors))",
-    "SizeInKBFmt": "{0} KB",
-    "SizeInMBFmt": "{0} MB",
     "DownloadSizeWithLimitFmt": "{CombinedDownloadSize} / {ProjectDownloadSizeLimit}",
     "UploadSizeWithLimitFmt": "{ProjectUploadSize} / {ProjectUploadSizeLimit}",
     "EstimatedSizeFormat": "~{0}",
@@ -3406,50 +3497,49 @@
   "SValkyrieSessionInspector": {
     "SessionStatus_NewContentFinishedLoadingAll": "全てのコンテンツ サービス作業が完了しました。 サーバーとクライアントは現在実行中です。",
     "SessionStatus_ContentError": "コンテンツエラーが発生しました。 詳細については出力ログを確認してください。",
+    "SessionWallTime": "経過時間:",
     "ValkyrieProjectSubMenuSessionSection": "ライブ編集ツール",
     "SessionStatus_NotConnected": "セッションに接続されていません。",
-    "OpenProject": "プロジェクトを開く:",
     "Settings.GeneralSettings.Label.OpenOnLaunchSession": "セッションを開始するときに開く",
-    "ViewSessionDSPortal_ToolTip": "最新のセッションの DS ポータル ページを開きます",
-    "StatisticsHeading": "セッション詳細",
     "ValkyrieSessionInspector": "セッションインスペクター",
     "Unavailable": "セッション インスペクターは一時的に利用できません。 後でもう一度お試しください",
-    "SessionStatus": "セッションステータス:",
-    "SessionWallTime": "セッション壁時間:",
     "Settings.GeneralSettings": "設定",
-    "SettingsText": "設定",
+    "SettingsToolTip": "設定",
     "Settings.GeneralSettings.ToolTip.OpenOnLaunchSession": "[セッションを開始] をクリックしたときに自動的にセッション インスペクターが開くか",
+    "SessionStatus": "状態:",
     "SessionWallTimeTooltip": "[Launch Session] または [Push Changes] をクリックしてから、全てのモジュールがクックされダウンロードされるまでの経過時間",
-    "ViewSessionDSPortal": "DSポータルでセッションを表示(EpicDevのみ)",
+    "ViewLogsButton": "ログを表示",
     "ValkyrieSessionInspector_Tooltip": "ライブ編集セッションのステータスを表示",
     "SessionStatus_LoadingNewContent": "全てのモジュールがクックされ、サーバーがコンテンツを読み込むまで待機しています。",
     "SessionStatus_NewContentFinishedLoadingServer": "クライアントの準備ができるまで待機しています。",
     "SessionStatus_NewContentFinishedLoadingClients": "最終コンテンツの初期化を待機しています。",
-    "SessionStatus_DistributingToConnectedSession": "セッションサーバーを待機しています。",
-    "ViewSessionDSPortal_ToolTipEx": "{0}\n最新のセッションが開始されました {1}"
+    "SessionStatus_DistributingToConnectedSession": "セッションサーバーを待機しています。"
   },
   "SValkyrieSessionInspectorCookMonitor": {
-    "SessionBaseEntriesTree.Column.EndDate": "完了日",
+    "ViewAllCookJobsDashboard": "全てのジョブ",
+    "CookJobsLabel": "クックジョブ",
     "CookFailedStatusTooltip": "クックジョブが失敗しました。",
     "CookSuccessStatusTooltip": "クックジョブが成功しました。",
     "CookUnknownStatusTooltip": "クックステータスを取得できません。",
     "CookFromCache_ToolTip": "クック済みデータがキャッシュから取得されました",
     "ContextMenu_CopyTooltip": "列の値をコピーします",
     "ContextMenu_Copy": "コピー",
+    "ViewSessionDSPortal": "DSポータル",
+    "SessionBaseEntriesTree.Column.WallTime": "経過時間",
     "IndirectDependencies": "非直接依存関係",
+    "SessionBaseEntriesTree.Column.EndDate": "前回クック日時",
     "ModuleVersionMultiple": "複数",
     "SessionBaseEntriesTree.Column.Name": "名前",
     "NoCorrelationIds": "利用可能な相関 ID がありません",
-    "ViewAllCookJobsDashboardTooltip": "以下のクック ジョブの全ての相関 ID にフィルターされたコンテンツサービス ダッシュボードを開きます",
+    "ViewAllCookJobsDashboardTooltip": "以下のクック ジョブのすべての correlation-id にフィルターされたコンテンツ サービス ダッシュボードを開きます(EpicDev のみ)",
+    "ViewSessionDSPortal_ToolTip": "最新セッションの DS ポータル ページを開きます(EpicDev のみ)",
     "ReferencingProjects": "参照元のプロジェクト",
-    "CookJobsLabel": "セッションクックジョブ",
     "SessionBaseEntriesTree.Column.Status": "ステータス",
     "SessionBaseEntriesTree.Column.Version": "バージョン",
-    "ViewAllCookJobsDashboard": "全てのビューを表示 (EpicDev のみ)",
     "ViewCookStatus": "クックステータスを表示",
-    "SessionBaseEntriesTree.Column.ViewInJobDashboard": "ジョブ ダッシュボードで表示 (EpicDev 限定)",
+    "SessionBaseEntriesTree.Column.ViewJob": "ジョブを表示",
     "ViewJob": "ジョブを表示",
-    "SessionBaseEntriesTree.Column.WallTime": "壁時間",
+    "ViewSessionDSPortal_ToolTipEx": "{0}\n最新のセッションが開始されました {1}(EpicDev のみ)",
     "ModuleDisplayName": "{0} ({1})"
   },
   "SValkyrieSessionInspectorStagingLogs": {
@@ -3493,11 +3583,14 @@
   },
   "SValkyrieSessionInspectorStagingMonitor": {
     "Canceled": "キャンセルされました",
+    "StepStatus_Completed": "完了 ({0})",
     "Label_Cooking": "クック",
     "ToolTip_Versioning": "新しいモジュール バージョンを作成します このステップは、必要な場合にのみ実行されます。",
     "ToolTip_Downloading": "クック済みコンテンツをセッション サーバーにダウンロードします",
     "Label_Downloading": "ダウンロード中",
+    "StepStatus_Failed": "失敗しました ({0})",
     "ToolTip_Playing": "セッション設定を確定し、プレイの準備を整えます",
+    "StepStatus_InProgress": "進行中 ({0})",
     "NotStarted": "開始していません",
     "ToolTip_PreparingForUpload": "必要な前提条件を実行し、プロジェクトを検証してアップロードしてください",
     "Label_Playing": "再生中",
@@ -3508,8 +3601,8 @@
     "ToolTip_Validating": "プロジェクト アセットがアップロードに適しているかを確認してください",
     "Label_Validating": "検証しています",
     "Label_Versioning": "バージョン管理",
-    "ViewLogsButton": "ログを表示",
-    "ToolTip_Cooking": "全てのモジュールがクックされ、サーバーがコンテンツをロードするまでお待ちください"
+    "ToolTip_Cooking": "全てのモジュールがクックされ、サーバーがコンテンツをロードするまでお待ちください",
+    "StepToolTipFormat": "{0}: {1}\n{2}"
   },
   "SVerbDebugger": {
     "AdditionalFilters": "追加フィルター",
@@ -3558,8 +3651,10 @@
     "BuildErrorsMessage": "{0} を開いているときに Verse ビルド エラーが見つかりました Verse コードにある次のエラーを修正してから、再構築します エラーを修正せずにデータを保存すると、データが失われる可能性があります"
   },
   "SVkContentResolutionViewer": {
+    "PillDepsMore": "\t(+{0}個以上)",
     "ModuleDep": "\t{0}",
     "ModuleStaticDep": "\t{0}",
+    "PillDepPath": "\t{0}",
     "ForkStack": "**** フォークスタック ****",
     "ModuleDetails": "**** モジュールの詳細 ****",
     "ModuleAccess": "アクセス:{0}",
@@ -3591,6 +3686,8 @@
     "BuildForkError": "ビルドフォーク「{0}」が見つかりませんでした",
     "ForkCreated": "作成:{0}",
     "ModuleCreationDateTime": "作成日付:{0}",
+    "PillDepsLive": "ライブ公開された依存関係:",
+    "PillDepsFork": "フォークに公開された依存関係 {0}:",
     "ModuleDeps": "依存関係:",
     "ModuleDescription": "説明:{0}",
     "WsIdHint": "フォークIDを入力",
@@ -3630,6 +3727,7 @@
     "BrowseProjectTooltip": "ディスク上のプロジェクトから Verse パスを選択してください",
     "StarredLabel": "星付き",
     "WsModeTeam": "チーム",
+    "ForkStackCycleError": "フォークの親チェーンにサイクルが含まれています繰り返しフォークまで解決されたチェーンを表示します",
     "ModuleTitle": "タイトル:{0}",
     "ModuleCreationDateUnavailable": "利用不可",
     "ModuleVersePath": "Verseパス:{0}",
@@ -3639,6 +3737,7 @@
     "VkContentResolutionTree_ViewOnContentServiceTooltip": "コンテンツ サービスウェブサイトに選択されたモジュールを表示します",
     "NotLoggedIn": "このツールを使用するにはログインする必要があります",
     "VersionLabel": "v{0}",
+    "VersePathWithModuleId": "{0}  {1}",
     "ForkNameAndId": "{0} ({1})"
   },
   "SVkForkSelector": {
@@ -3873,6 +3972,8 @@
     "MemoryProfilerTabTooltip": "クライアント メモリ使用量の内訳を表示します"
   },
   "UE::SpatialMetrics::MetricActionUtils": {
+    "AlreadySnapshottingAction": "すでにトレース中",
+    "AlreadyTracingAction": "すでにトレース中",
     "StartCaptureAction": "キャプチャを開始",
     "TakeSnapshotAction": "スナップショットを撮る"
   },
@@ -3896,6 +3997,7 @@
     "UploadProject.Error.TargetVersionDocUnset": "編集セッション更新のためのルート エクスペリエンス プラグインの判定に失敗しました",
     "FailedToStageAndValidateFiles": "プロジェクト「{0}」のローカル ソース ファイルのステージおよび検証に失敗しました",
     "StagingFailed": "アップロード用にプロジェクトをステージングできませんでした\n{0}",
+    "WriteInternalApiDescriptorFailed": "プロジェクト「{0}」内部 API 記述子の書き込みに失敗しました",
     "WritePublicApiDescriptorFailed": "プロジェクト「{0}」パブリック API 記述子の書き込みに失敗しました",
     "InitSyncModules": "アップロードのためプロジェクト「{0}」を初期化中...",
     "Initializing": "初期化中...",
@@ -3910,6 +4012,7 @@
     "ValidationFailed": "プロジェクトの検証に失敗しました",
     "ValidationAutoFixup.RunButton": "修正を実行",
     "ValidationAutoFixup.Heading": "検証修正を実行しますか？",
+    "RunningContentValidation": "コンテンツ検証を実行中...",
     "ShowMessageLogHyperlink": "メッセージ ログを表示",
     "ShowOutputLogHyperlink": "出力ログを表示",
     "ValidationAutoFixup.SkipButton": "修正をスキップ",
@@ -3984,6 +4087,12 @@
     "ResetTextureOnSelectedSaticMeshBuildingActors_ToolTip": "選択したスタティックメッシュ建築アクタをデフォルト テクスチャにリセットします",
     "RotateSelectedBuildingActors": "選択した建築アクタを回転",
     "RotateSelectedBuildingActors_ToolTip": "ビューポートの選択した建築アクタを回転します"
+  },
+  "UICommands.MemoryCalculationCommands": {
+    "BrowseToAsset": "アセットにブラウズ",
+    "SelectInOutliner": "アウトライナーで選択",
+    "SelectInOutliner_ToolTip": "レベル内のアクタを選択します",
+    "BrowseToAsset_ToolTip": "コンテンツ ブラウザを選択したパッケージに同期しますディスク上のアセットがないパッケージ (生成されたセル、VerseDebugData など) はスキップされます"
   },
   "UICommands.SGridView": {
     "ShowAxes": "軸",
@@ -4456,6 +4565,26 @@
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Tooltip": "変位メッシュを必要とする現在のレベルからロードされたアクタを集め、不足しているものを生成します。再度保存が必要なアクタも、ツールによってダーティになります",
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Label": "永続的なNanite変位メッシュを生成"
   },
+  "VK_MEMCALC_ERRORS": {
+    "ManifestFileUnreadable": "「{Path}」からメモリ マニフェストを読み取れません",
+    "InvalidModuleBinaries": "コンテンツ アーティファクトにクック済みバイナリまたはクック ジョブがありません",
+    "ContentServiceUnavailable": "コンテンツ サービスは利用できません",
+    "ContentServiceFailure": "コンテンツ サービス リクエストが失敗しました：{Detail}",
+    "EmptyManifest": "MemoryManifest にはパッケージが含まれていません",
+    "ManifestMissingSizeChunkTypes": "MemoryManifest は SizeChunkTypes を宣言していません",
+    "ManifestParseFailed": "MemoryManifest は有効な JSON ではありません ({NumChars} 文字)",
+    "NoPublishedModuleVersion": "モジュール {Module} には公開されたバージョンがありません",
+    "NoClientArtifact": "ルート モジュールには「{Platform}」クライアント アーティファクトがありません",
+    "InvalidBuildCode": "結果を報告するビルド コードがありません",
+    "NoProjectOpen": "メイン プロジェクトが開かれていません",
+    "NoRootWorld": "MemoryManifest の World Partition セルまたは World 型のパッケージから派生したルート ワールドがありません",
+    "NoPublishingMemoryLimit": "プロジェクト {Project} には公開メモリ制限がありません",
+    "RequestAbandoned": "結果を報告せずにリクエストが終了しました",
+    "ManifestSizeChunkTypesMismatch": "SizeChunkTypes [{Declared}] が想定された [{Expected}] と一致しません",
+    "ManifestUnknownChunkType": "認識できない SizeChunkTypes エントリ「{ChunkType}」",
+    "EngineVersionMismatch": "{NumModules} モジュールが異なるエンジン バージョンによってアップロードされました。これには、「{UploadedEngineVersion}」による{Module} v {ModuleVersion} が含まれます。このエディタは「{CurrentEngineVersion}」ですセッションを起動してリフレッシュします",
+    "LatticeTooLarge": "{RequestedSamples} サンプルが {MaxSamples} 上限 ({SpatialPrecision}cm ステップ) を超えています"
+  },
   "ValidateSchematics": {
     "DisplayText": "ロード中...",
     "Test": "エラーなし",
@@ -4611,6 +4740,14 @@
   "ValkyrieChangelistValidator": {
     "VkChangelistInvalid": "チェンジリストは #preflight タグを正しく指定していません。Horde に進んで、送信前にプリフライトを実行してください"
   },
+  "ValkyrieContentGovernance": {
+    "PluginReferenceViolation": "許可されていないプラグイン「{0}」への参照が見つかりました",
+    "MutuallyExclusivePluginReferenceViolation": "相互に排他的なプラグイン セットへの参照が見つかりました",
+    "InvalidRuleField_EntitlementId": "フィールド EntitlementId の値がありません",
+    "InvalidRuleField_Tag": "フィールド Tag の値がありません",
+    "InvalidRuleField_Type": "不明なルールタイプ:",
+    "MutuallyExclusivePluginSet": "{0}: {1}"
+  },
   "ValkyrieContentServiceCmds": {
     "ArchiveProject": "プロジェクト「{0}」をアーカイブ中...",
     "ArchiveProjects": "プロジェクトをアーカイブ中...",
@@ -4682,20 +4819,20 @@
     "MemoryTestResults": "メモリテスト結果",
     "MemorySamplingAlreadyRunning": "メモリ サンプリングはすでに実行中です！",
     "VerseVersion.Title": "利用可能な新しいVerseバージョン",
-    "NoVersePathsAssigned": "変更されたVerseパスはありません。",
     "VerseVersion.RemindMeLater.Tooltip": "次回開いたときにこのプロジェクトが最新の安定した Verse バージョンを使用していない場合は、再度通知します",
     "UploadProjectsParallelAlreadyRunning": "同時アップロード フローがすでに実行中です",
     "PrepareProjectForUploadAlreadyRunning": "アップロードのためのプロジェクトの準備はすでに実行中です",
     "VerseVersion.Msg": "プロジェクト「{0}」では Verse バージョン {1} が使用されています。\nVerse バージョン {2} に今すぐ更新することも、後でプロジェクト設定から更新することもできます",
     "CreateBuildAlreadyRunning": "プロジェクトのビルドの作成はすでに実行中です",
-    "PublicAssetChangeNoContentService": "公開アセットに変更を加えるには、プロジェクトをコンテンツ サービスと同期する必要があります。\nログイン済みであることを確認してください",
+    "PublicAssetChangeNoContentService": "公開アセットまたはリダイレクタに変更を加えるには、プロジェクトをコンテンツ サービスと同期する必要があります。\nログイン済みであることを確認してください",
+    "ProjectValidationCanceled": "Project validation was canceled",
     "VerseVersion.RemindMeLater": "後で確認",
     "SanitizePublicApiAlreadyRunning": "パブリック API のサニタイズはすでに実行中です",
     "SaveOutputPageLabel": "アウトプットを保存",
     "SavePackagesAlreadyRunning": "パッケージ ファイルの保存はすでに実行中です",
-    "SelectProjectsToAssignVersePathsTo.Title": "プロジェクトを選択",
-    "SelectProjectsToAssignVersePathsTo.Message": "Verseパスを自動的に割り当てまたは更新したいプロジェクトを選択してください。",
-    "PromptForDestructiveAPIAction": "選択したアセットは、公開プロジェクトで一般に参照可能です：\n{0}\n\nこのアクションを続行するには、プロジェクトのブランチを作成する必要があります。\nそこでは、新規プロジェクトの下に公開する前に、公開アセットを変更できます",
+    "ExposedAssetDestructiveAPIAction": "選択したアセットは公開されたプロジェクトで外部参照可能です：\n{0}",
+    "RedirectorToExposedAssetDestructiveAPIAction": "選択したリダイレクタは公開されたプロジェクトの公開されたアセットにリダイレクトします：\n{0}",
+    "RedirectorAnotherProjectDestructiveAPIAction": "選択したリダイレクタは、公開されたプロジェクトから他のプロジェクトにリダイレクトします：\n{0}",
     "SimpleTemplateMapDisplayNameText": "シンプル",
     "SimpleTemplateMapDescriptionText": "シンプルなレベルの例",
     "BlankTemplateMapDescriptionText": "スポーナーが2つあるシンプルなレベル",
@@ -4704,8 +4841,8 @@
     "VerseVersion.Update.Tooltip": "このプロジェクトを最新の安定した Verse バージョン ({0}) にアップデートしてください。\nなお、[プロジェクト設定] でいつでも Verse の任意のバージョンに戻すことができます)",
     "UploadProjectsParallelNotRunning": "プロジェクトの同時アップロードが実行されていません",
     "ValidateProjectAlreadyRunning": "プロジェクトの検証はすでに実行中です",
-    "VersePathsAssigned": "Verseパスが以下のプロジェクトに割り当てられました。",
-    "Error.LocalizationDataEditingDisabled": "ローカライゼーション データを手動で編集する権限がありません。データを翻訳するには、[Build (ビルド)] -> [Build Auto Localization (自動ローカライゼーションをビルド)] を使用します"
+    "Error.LocalizationDataEditingDisabled": "ローカライゼーション データを手動で編集する権限がありません。データを翻訳するには、[Build (ビルド)] -> [Build Auto Localization (自動ローカライゼーションをビルド)] を使用します",
+    "PromptForDestructiveAPIAction": "{0}\n\nこのアクションを続行するには、プロジェクトのブランチを作成する必要があります\nそこでは、新規プロジェクトの下に公開する前に、プロジェクト API を変更できます"
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "{0}機能を設定",
@@ -4800,8 +4937,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}: {1}用データの準備に成功しました"
   },
   "ValkyrieEditorMemoryCalculation": {
-    "MemoryRatio": "{0}/{1}",
-    "MemoryRatioUnitsMb": "{0}/{1}Mb"
+    "MemoryRatioUnitsMb": "{0} / {1}",
+    "MemoryRatio": "{0}/{1}"
   },
   "ValkyrieEditorMenus": {
     "FixValidationIssues.ActorOptions.Tooltip": "これらのアクタにおける特定の検証の問題を自動的に解決しようとします",
@@ -4886,7 +5023,6 @@
   },
   "ValkyrieEditorUtils": {
     "CannotUseMoreThanOneBrand": "「{1}」がアクティブである間はブランド「{0}」を使用できません",
-    "CopyFiles": "ファイルをコピー中...",
     "FailCreatePerforceProvider": "Perforce リビジョン コントロール プロバイダの作成に失敗しました",
     "FailLoadBrandPlugins": "プラグイン「{0}」のロードに失敗しました",
     "FailUnloadBrandPlugins": "{0} プラグインのアンロードに失敗しました",
@@ -5407,6 +5543,7 @@
     "ValkyrieGFSSelectionWarningCancelButton": "キャンセル",
     "ValkyrieGFSSelectionWarningTitle": "ブランドを変更",
     "ValkyrieGFSSelectionWarningConfirmButton": "確認",
+    "ValkyrieFortniteGFSReloadFailed_Title": "ブランドを切り替えることができませんでした",
     "ValkyrieFortniteGFSSelectionToast_Dismiss": "却下",
     "ValkyrieFortniteGFSSelectionToast_Title": "プロジェクトのブランドが正常に変更されました！",
     "ValkyrieFortniteGFSSelectionToast_Body": "ブランドの変更を反映させるには、このプロジェクトを一度閉じてから再度開く必要があります。 プロジェクトを再度開いた後、検証エラーを防ぐために、以前のブランドのすべてのアセットを削除します。"
@@ -5537,6 +5674,32 @@
     "LocalLoreProjectAnnotationText": "このプロジェクトには Lore が利用されています",
     "RequiredProjectPermissions": "このプロジェクトを適切に編集するには {0} 権限が必要です",
     "IncompatibleProjectVersionText": "このプロジェクトのバージョン ({0}) は現在のエンジン ({1}) と互換性がありません"
+  },
+  "ValkyrieMemoryCalculationTable": {
+    "ColActorsTitle": "アクタ参照元",
+    "ColActors": "アクタ参照",
+    "ColTypeTitle": "アセットタイプ",
+    "ColNameDesc": "パッケージ ツリーの階層",
+    "ColName": "名前",
+    "ColActorsDesc": "このパッケージを参照するロード済みアクタの数",
+    "ColRefsDesc": "このパッケージを直接参照するパッケージの数",
+    "ColNameTitle": "パッケージ階層",
+    "ColPackagePath": "パッケージのパス",
+    "ColPathTitle": "パッケージのパス",
+    "ColRefsTitle": "パッケージ参照元",
+    "ColRefs": "パッケージ参照",
+    "ColSizeTitle": "パッケージサイズ",
+    "ColPath": "パス",
+    "ColPackagePathTitle": "生のパッケージ パス",
+    "ColSize": "サイズ",
+    "ColVersePathDesc": "パッケージの Verse パス。Verse パスがない場合は空です",
+    "ColPathDesc": "パッケージの完全パス：Verse パスがある場合は Verse パス、ない場合はパッケージ パス",
+    "ColPackagePathDesc": "Verse パスに関係なく、エディタ内のパッケージのパス",
+    "ColSizeDesc": "パッケージのサイズ",
+    "ColTypeDesc": "コンテンツ ブラウザに表示されるパッケージの主要なアセット タイプ",
+    "ColType": "タイプ",
+    "ColVersePath": "Verseパス",
+    "ColVersePathTitle": "Verseパス"
   },
   "ValkyrieMissingFileProjectCustomization": {
     "NoFile": "開くことができるプロジェクトファイルがありません。",
@@ -5680,7 +5843,7 @@
     "SyncedInvalidProjectFile": "リビジョン コントロールから同期したプロジェクト ファイルが無効です",
     "AssignVersePath.NotSyncedWithContentService": "Verseパスを割り当てるにはプロジェクトをコンテンツサービスと同期する必要があります",
     "PurgeVersePath.NotSyncedWithContentService": "Verseパスをパージするにはプロジェクトをコンテンツサービスと同期する必要があります",
-    "VerifyLivePublicAssetsNoContentService": "ライブの公開 API を検証するには、プロジェクトをコンテンツ サービスと同期する必要があります。\nログイン済みであることを確認してください",
+    "VerifyLivePublicAssetsNoContentService": "ライブ API を検証するには、\nプロジェクトをコンテンツ サービスと同期する必要があります。 ログイン済みであることを確認してください",
     "RemovePublicApiIfAllowed.ProjectNotOpened": "プロジェクトが開かれていません",
     "SanitizePublicApiIfAllowed.ProjectNotOpened": "プロジェクトが開かれていません",
     "FeatureSetInProjectPluginDependency": "この依存関係では、プロジェクトのプラグインが機能セットを持つことが許可されません。\n\n見つかった結果: {0}\n\n機能セットはプロジェクト ファイルで指定する必要があります",
@@ -6000,13 +6163,16 @@
     "RemapLocalVsReferencedContent.CannotFindExternalModule": "プロジェクト プラグイン {0} の参照先コンテンツを見つけられません",
     "RemapLocalVsReferencedContent.CannotFindLocalPlugin": "参照先コンテンツ「{0}」のパブリック プロジェクト プラグインが見つかりません",
     "VKCannotFindPlugin": "プラグインを見つけることができません",
+    "PublishTooManyModules": "一度に {0} モジュールを公開できません最大値は {1} です",
     "CloseRefSourceProjects.ProjectReload.Title": "ソースコンテンツを閉じる",
     "CloseRefSourceProject": "参照先コンテンツのソース プロジェクト「{0}」を閉じています...",
     "CloseRefSourceProjects": "参照先コンテンツのソース プロジェクトを閉じています...",
     "CopyPluginAssets.CopyingAssets": "アセットをコピーしています...",
     "CopyVerseFiles": "Verse ファイルをコピーしています...",
     "CopyLocFiles": "ローカライゼーションファイルをコピー中...",
+    "CopyingPluginContent": "プラグイン コンテンツをコピー中...",
     "CopyNonContentFiles": "プラグイン ファイルをコピーしています...",
+    "CopyingPlugin": "プラグインをコピー中...",
     "ErrorGettingLinkCodeInfoMessage": "「{0}」のプロジェクト ID が見つかりませんでした",
     "ErrorResolvingVersePathMessage": "「{0}」のプロジェクト ID が見つかりませんでした",
     "FeatureSetDefinitionNotFound": "機能セット「{0}メタデータ」の定義を取得できませんでした。 存在すること、読み込みが許可されていることを確認してください。",
@@ -6021,11 +6187,13 @@
     "VKFailLoadGameFeaturePlugin": "プラグインをロードできませんでした\n{0}\n\n{1}",
     "VKFailLoadPlugin": "プラグインをロードできませんでした\n{0}{1}",
     "RemapLocalVsReferencedContent.FailedToLoadAsset": "{0} をロードできませんでした",
+    "PublishModuleBatchItemError": "1 つ以上のモジュールをフォークに公開できませんでした",
     "RemapLocalVsReferencedContent.FailedToRemap": "{0} にある一部の参照を再マッピングできませんでした",
     "OpenSourceProjects.FailGetProjectInfo": "「{0}」の情報を取得できませんでした",
     "RemapLocalVsReferencedContent.FailSave": "一部のアセットを保存できませんでした (メッセージ ログを参照)",
     "VKFailTerminateGameFeaturePlugin": "異常なゲーム機能プラグインを終了できませんでした \n{0}\n\n{1}",
     "VKProjectFolderNotEmpty": "ファイルがすでに次の場所にあります\n{0}\nこれらのファイルを削除するか、別の名前または場所を選択してください",
+    "PublishFinalizing": "公開を確定中...",
     "FixingProjectSlowTask": "プロジェクトを修正中...",
     "GatherVerseFiles": "Verse ファイルを収集しています...",
     "CopyPluginAssets.GatherAssets": "アセットを収集しています...",
@@ -6073,8 +6241,9 @@
     "PublishToForkUploadFailed": "プロジェクトのアップロードに失敗しました",
     "PublishToForkCanceled": "フォークへの公開がキャンセルされました",
     "PublishToForkError": "フォークへの公開に失敗しました",
-    "PublishedModule": "「{0}」を公開しました...",
     "PublishSystemComment": "バージョン{0}の{1}で公開済み",
+    "PublishComplete": "{0} 個のモジュールを公開しました",
+    "PublishedModules": "{1} 個中 {0} 個のモジュールを公開しました...",
     "PublishProjectsToFork": "プロジェクトをフォーク「{0}」に公開中...",
     "PublishingModules": "{0} モジュールをフォークに公開中...",
     "RetrievingProjectInformationMessage": "オンラインプロジェクトに再バインド中...",
@@ -6109,6 +6278,7 @@
     "RemapLocalVsReferencedContent.NoRootPlugin": "プロジェクトにルート プラグインがありません",
     "RemapLocalVsReferencedContent.SinglePluginProject": "プロジェクトに 1 つのプラグインしかないため、再マッピングするものが何もありません",
     "RemapLocalVsReferencedContent.NoRefencedContent": "参照先のコンテンツがないため、再マッピングするものが何もありません",
+    "PublishModuleEmptyResult": "公開の結果を確認できません",
     "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "{0} の再マッピング時に予期しないエラーが発生しました",
     "UnloadingPlugins": "プラグインをアンロード中...",
     "GatherReferencedContentToLoad.MultiProjectIncompatible.Title": "注意",
@@ -6232,6 +6402,7 @@
     "Experimental_VerseCheckUnavailable": "実験的 Verse のチェックを実行できませんでした (クック診断が利用できません)",
     "PublishingReport_MemoryUsage": "メモリ使用量",
     "MemoryCheck_Calculating": "メモリ使用量: 計算中...",
+    "MemoryCheck_CalculationFailed": "メモリ使用量: 計算が失敗しました",
     "MemoryCheck_SamplerFailed": "メモリ使用量: 計算が失敗しました",
     "MemoryCheck_NotYetCalculated": "メモリ使用量: 未計算",
     "MemoryCheck_Result": "メモリ使用量: {0}",
@@ -6472,9 +6643,12 @@
     "UploadRate": "{0}/{1}{3}、{2}{3}/s をアップロードしています"
   },
   "ValkyrieValidator": {
-    "InventorySettingValidatorMessage": "「カスタム インベントリ」設定はレベルで有効になっていますが、プロジェクト設定では有効になっていません",
+    "InventorySettingValidatorMessage": "「カスタム インベントリ」設定はプロジェクト設定では有効ですが、レベルでは有効ではありません",
+    "InventorySettingValidatorMessageLevelActive": "「カスタム インベントリ」設定はレベルで有効になっていますが、プロジェクト設定では有効になっていません",
     "MetaSoundValidationFail_PresetInvalidObject": "MetaSound プリセットで参照されているアセットは有効なオブジェクトである必要があります",
     "Invalid Parent": "アセット {0} は、不正なクラス {1} の子です",
+    "CheckingAssetReferences": "アセット参照をチェック中...",
+    "CompilingBlueprintsPhase": "ブループリントをコンパイルしています...",
     "VirtualizedDataValidate": "仮想化されたデータが含まれているため、UEFN では機能しません！パッケージ ファイルは再ハイドレーションが必要です",
     "Blueprints.Fixer.NullBlueprint": "ブループリントが見つかりませんでした：{0}",
     "Properties.Fixer.NullObject": "オブジェクトが見つかりませんでした：{0}",
@@ -6498,6 +6672,8 @@
     "Blueprints.Fixer.Transaction": "サニタイズ済みブループリント",
     "Blueprints.Fixer.SanitizedBlueprint": "サニタイズ済みブループリント：{0}",
     "Blueprints.Error.RestrictedContent": "このブループリントには制限付きコンテンツが含まれています。ブループリントをサニタイズして、次の制限付きコンテンツを削除します：({ValidatorClass})",
+    "ValidatingAssetsPhase": "アセットを検証中...",
+    "ValidatingProjectContent": "プロジェクト コンテンツを検証中...",
     "VirtualizedData": "仮想化されたデータが含まれているため、UEFN では機能しません！パッケージ ファイルは再ハイドレーションが必要です",
     "ValkyrieVerseValidationError": "Verse のコンパイル中に {0} でエラーが発生しました。Verse のビルド診断を参照してください",
     "MissingGameFeatureData": "{0} に GameFeatureData アセットがありません",
@@ -6813,6 +6989,9 @@
     "CookedContentTimeout": "ゲーム サーバーとの通信中にエラーが発生しました：タイムアウト",
     "StopAutoLocalizationJob.Error.FailedToStop": "ローカライゼーション ジョブを停止できませんでした"
   },
+  "VkEditorModularTestResolver": {
+    "FailedToLoadRootPlugin": "Verse パス「{0}」のルート プラグインをロードできませんでした"
+  },
   "VkEventNodeDetails": {
     "Category": "会話イベント"
   },
@@ -6826,6 +7005,36 @@
   },
   "VkMaterialNodeDetails": {
     "Category": "マテリアル"
+  },
+  "VkProjectContentImport": {
+    "AddedReference": "参照コンテンツを追加しました：\n{0}",
+    "FeatureSetMismatch": "ブランド「{0}」を使用するコンテンツを、ブランド「{1}」を使用するプロジェクトにインポートできません",
+    "CompilingVerse": "Verse をコンパイル中...",
+    "CopyingContent": "コンテンツをコピー中...",
+    "AddingPublishedContent": "参照コンテンツをダウンロード / 読み込み中...",
+    "AddReferenceFailed": "参照コンテンツを追加できませんでした：\n{0}",
+    "CopyFailed": "ソース プロジェクト コンテンツをコピーできませんでした",
+    "FindPluginsFailed": "ソース プロジェクト プラグインが見つかりませんでした：\n{0}",
+    "SourceProjectLoadFailed": "ソース プロジェクトをロードできませんでした：\n{0}",
+    "GatherReferencesFailed": "ソース プロジェクトの参照を読み取れませんでした：\n{0}",
+    "SaveFeatureSetFailed": "対象プロジェクト ファイルを保存できませんでした：\n{0}",
+    "GatheringReferencedContent": "参照コンテンツを収集中...",
+    "UnsupportedPluginCount": "{0} プラグインがあるソース プロジェクトのインポートはサポートされていません (正確に 1 つ必要です)",
+    "ImportingProjectContent": "プロジェクト コンテンツをインポート中...",
+    "NoDestinationProject": "対象プロジェクトが指定されていません",
+    "AddingSourceContent": "参照ソース コンテンツを開いています...",
+    "ImportCanceled": "プロジェクト コンテンツのインポートがキャンセルされました",
+    "ImportFailed": "プロジェクト コンテンツのインポートに失敗しました",
+    "ImportSucceeded": "プロジェクト コンテンツがインポートされました",
+    "RollingBack": "ロールバック中...",
+    "ImportSourceProjectBrowseTitle": "インポートするソース {0} プロジェクトを選択します",
+    "DestinationNotOpened": "対象プロジェクト「{0}」が開いていません",
+    "NoDestinationRootPlugin": "対象プロジェクトにルート プラグインがありません",
+    "DestinationClosedDuringImport": "インポート中に対象プロジェクトが終了されました",
+    "SourceFileMissing": "ソース プロジェクト ファイルが存在しません：\n{0}",
+    "SourceGoneDuringImport": "ソース プロジェクトは利用できません",
+    "SourceIsDestination": "ソース プロジェクトは、対象プロジェクトです",
+    "ReferencedProjectReadError": "{0}:\n{1}"
   },
   "VkRepeatNodeDetails": {
     "Category": "繰り返し"

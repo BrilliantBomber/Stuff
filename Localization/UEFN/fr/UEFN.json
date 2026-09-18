@@ -153,7 +153,7 @@
     "F522F0C7492984F80FF752B12C493D41": "Explorez un charmant village avec ses adorables maisons, une ferme en activité et une plage baignée de soleil, au cœur d'une nature luxuriante. Rencontrez d'adorables animaux qui se promènent dans l'île avec l'arrivée des commandes de mascottes dans l'UEFN.",
     "E85986084C5768D45C744DA9F7199DB4": "Explorez la ville inspirée de Nevarro. Utilisez le paysage volcanique pour commencer à construire votre prochaine aventure.",
     "5D607756496D7D34534161A76D037AE0": "Explorez la prison emblématique de The Walking Dead Universe. Prenez une longueur d'avance lors de votre prochaine partie grâce à cette île de départ.",
-    "84FBC65D4990B009132E6288DDF37B4D": "Face your fears on this creepy haunted island. Observe lighting techniques and methods to add atmosphere in UEFN.",
+    "84FBC65D4990B009132E6288DDF37B4D": "Affrontez vos peurs sur cette île hantée.Observez les techniques et les méthodes d'éclairage permettant de créer une ambiance dans l'UEFN.",
     "688C10D94213786DF5B0D3B3D65BBA53": "FactCategoryText",
     "7BC1EF91495CE30F0A41BEA8E4D553CC": "Exemples de fonctionnalités",
     "7DB4F10642BF6FC257A4A4BD4EF9D8F3": "Exposition de fonctionnalités",
@@ -180,7 +180,7 @@
     "A04B36824B96B1D3730DB4819F0368B4": "Premiers pas",
     "FC4E8E504E39E595C80E27AB1628E729": "Niveaux de gris sRGB",
     "40A2BADA49BF6943636D468D268C235C": "Grille/s",
-    "193CF4DD4D3859505223E5967E9AFFF2": "Harrowville: Environment",
+    "193CF4DD4D3859505223E5967E9AFFF2": "Harrowville : environnement",
     "7C0AC7B546C8252B3CA90791C665F406": "Contient : {0} Acceptable : {1}",
     "1A37A12C46F34B2727DFE09389BFB29F": "Ressource d'assistance",
     "A2113EE54097BA5ED4DB19BF308694B9": "Ressource d'assistance",
@@ -790,6 +790,7 @@
     "SpatialMetricsGridCommands": "Grille",
     "SpatialMetricsHistogramCommands": "Histogramme",
     "SpatialMetricsViewerCommands": "Visionneuse de mesure spatiale",
+    "MemoryCalculationCommands": "Calcul de la mémoire UEFN",
     "ValkyrieEditor": "Éditeur Valkyrie"
   },
   "ConversationGraph": {
@@ -1168,7 +1169,8 @@
     "ProjectHomeDocumentation": "Documentation",
     "ProjectHomeForumsButton": "Forums",
     "LiveEditStatusColumnLabel": "État de la modification en direct",
-    "ValkyriePIENotAvailable": "Non disponible dans {0}",
+    "ValkyriePIERestrictiveMode": "Play in Editor est bloqué dans {0} : le mode restrictif est activé.Les exécutions automatisées sont automatiquement autorisées lorsqu'elles sont lancées avec -unattended ; pour jouer de manière interactive, désactivez le mode restrictif.",
+    "ValkyriePIENotAvailableCooked": "Play in Editor n'est pas disponible dans {0} lors de l'exécution d'un contenu d'éditeur préparé.",
     "ProjectHomeReleaseNotesButton": "Notes de version",
     "ProjectHomeRoadmapButton": "Feuille de route",
     "SupportName": "Support",
@@ -1190,18 +1192,22 @@
     "PromptForProjectIdVariant_Hint": "Guid du projet, chemin Verse d'accès au projet ou code de liaison du projet",
     "PromptForProjectIdVariant_SyntaxFeedbackMessage": "L'entrée saisie n'est pas un Guid valide, un chemin d'accès Verse valide ni un code de liaison valide."
   },
-  "FXCosmeticVariant": {
-    "ParticleChannelName": "Particule"
-  },
   "Fab": {
     "ClearCacheButton": "Effacer le cache",
+    "ExtractError": "Impossible d'extraire le téléchargement",
     "DownloadError": "Erreur de téléchargement",
     "DownloadFinished": "Téléchargement terminé",
     "Downloading": "Téléchargement",
+    "DownloadingAsset": "Téléchargement de {0}",
+    "ExtractFinished": "Extraction terminée",
+    "Extracting": "Extraction en cours",
     "WebBrowserModuleNotEnabled": "Échec de chargement du plug-in. Veuillez activer Web WebBrowserWindow dans le gestionnaire de plug-ins pour utiliser Emporium.",
     "ImportError": "Erreur d'importation",
     "ImportFinished": "Importation terminée",
     "Importing": "Importation",
+    "NoProjectInArchive": "Le téléchargement ne contient aucun projet UEFN",
+    "SourceAlreadyDownloading": "Cette ressource est déjà en cours de téléchargement",
+    "ProjectAlreadyImporting": "Cette source est déjà en cours de téléchargement",
     "Fab.TooltipLoggedOut": "Vous devez vous connecter pour obtenir du contenu depuis Fab."
   },
   "FeedbackHandleCustomization": {
@@ -1678,6 +1684,8 @@
     "Pick Map": "Sélectionner une carte",
     "SelectUEFNProject": "Sélectionner un projet UEFN",
     "UEFNProjectNameKey": "Sélectionner un projet UEFN",
+    "MapUIDataUpdateComplete": "Mise à jour des données de mappage d'IU terminée",
+    "MapUIDataUpdateFailed": "Échec de la mise à jour des données de mappage de l'IU.\n\nCertaines tables n'ont pas été mises à jour.Ouvrez le fichier FortniteGame*.log le plus récent dans :\n{0}\net recherchez 'Error:' pour connaître la raison (extraction exclusive par un autre utilisateur, connexion Perforce manquante, fichiers non synchronisés, etc.).",
     "UpdateMapUIData": "Mettre à jour les données d'IU de la carte"
   },
   "FortQuestObjectiveEditor": {
@@ -2177,9 +2185,6 @@
     "AssetTypeActions_ItemAbilityConfigurationAsset": "Ressource de configuration de compétence d'objet",
     "AssetDefinition_ItemAbilityEffectAsset": "Ressource d'effet de compétence d'objet",
     "AssetTypeActions_ItemAbilityEffectAsset": "Ressource d'effet de compétence d'objet",
-    "AssetDefinition_ItemOwnerPoseAsset": "Pose de propriétaire d'objet",
-    "AssetTypeActions_ItemOwnerPoseAsset": "Pose de propriétaire d'objet",
-    "ItemOwnerPoseAssetHasNullProxyTable": "La pose de propriétaire d'objet nécessite la définition d'un ProxyTable",
     "AssetDefinition_ItemizationConfigurationAsset": "Ressource de configuration d'itémisation",
     "AssetTypeActions_ItemizationConfigurationAsset": "Ressource de configuration d'itémisation"
   },
@@ -2200,9 +2205,6 @@
   },
   "ItemComponentData_ItemTypeInventoryLimit": {
     "LimitAmount": "Les données de l'objet LimitAmount '{0}' sont redondantes. Elles ne sont requises que lorsque LimitAmount est > 0."
-  },
-  "ItemComponentData_OwnerPose": {
-    "PoseAsset": "Les données d'élément de pose du propriétaire \"{0}\" doivent avoir une ressource de pose valide."
   },
   "ItemComponentData_SlotSize": {
     "SlotSize": "Les données d’objet relatives à la taille de l'emplacement '{0}' sont redondantes. Elles ne sont nécessaires que si SlotSize n'est pas égal à 1."
@@ -2567,17 +2569,6 @@
     "BranchHistoryTooltipText": "Ouvrir l'onglet Historique des branches.",
     "ConflictResolutionTooltipText": "Ouvrir l'onglet Résolution des conflits."
   },
-  "MTFAcc": {
-    "LifecycleOrderCollision": "LifecycleOrderCollision",
-    "LifecycleOrderFixtureA": "LifecycleOrderFixtureA",
-    "LifecycleOrderFixtureZVerify": "LifecycleOrderFixtureZVerify",
-    "LifecycleSelfSkip": "LifecycleSelfSkip",
-    "LifecycleSetupAssertFail": "LifecycleSetupAssertFail",
-    "LifecycleSetupFail": "LifecycleSetupFail",
-    "LifecycleTeardownAssertFail": "LifecycleTeardownAssertFail",
-    "LifecycleTeardownFail": "LifecycleTeardownFail",
-    "SuiteSetup": "SuiteSetup"
-  },
   "MakeNextInSeriesScreen": {
     "FolderComboToolTipText": "Choisir un répertoire de contenu",
     "CreateQuestAsset": "Créer",
@@ -2607,6 +2598,63 @@
     "InvalidContext": "Contexte de la demande non valide.",
     "CheatsNotSupported": "L'envoi de commandes de triche à partir du client/serveur dédié n'est plus pris en charge.",
     "NoServicePerms": "Impossible de trouver les autorisations de service pour le serveur."
+  },
+  "MemoryCalculationFlow": {
+    "Stage_Calculating": "calcul de l'utilisation de la mémoire",
+    "Stage_AcquiringManifest": "récupération des données de version préparées",
+    "Stage_AcquiringBudget": "récupération de la limite de mémoire du projet",
+    "Stage_ReportingResult": "résultat d'enregistrement",
+    "Stage_WaitingForCook": "en attente de préparation"
+  },
+  "MemoryCalculationGroupings": {
+    "GraphNodeExpandHint": "(double-cliquer pour développer)",
+    "PackageActorsExpandHint": "(double-cliquer pour développer)",
+    "NoActorGroup": "(pas d'acteur référenceur)",
+    "NoCellGroup": "(aucune cellule de référence)",
+    "UnknownReferencerGroup": "(référenceur inconnu)",
+    "UntypedGroup": "(sans type)",
+    "ActorGroupingShort": "Référenceur d'acteur",
+    "PackageActorsGroupingShort": "Acteurs par paquet",
+    "PackageActorsGroupingTitle": "Acteurs par paquet",
+    "ActorGroupingTitle": "Par référenceur d'acteur",
+    "CellGroupingTitle": "Par référenceur de cellule",
+    "DependencyGroupingTitle": "Par dépendance de paquet",
+    "ReferencerGroupingTitle": "Par référenceur de paquet",
+    "TypeGroupingTitle": "Par type",
+    "CellGroupingShort": "Référenceur de cellules",
+    "ActorGroupingDesc": "Regrouper chaque paquet sous chaque acteur qui le référence.",
+    "CellGroupingDesc": "Regrouper chaque paquet sous chaque cellule qui y fait référence.",
+    "TypeGroupingDesc": "Regrouper les paquets par type de ressource, avec l'icône et la couleur de type navigateur de contenu",
+    "PackageActorsGroupingDesc": "Répertorier chaque paquet avec les acteurs qui y font référence en tant qu'enfants développables (l'inverse de Par référenceur d'acteur).",
+    "DependencyGroupingShort": "Dépendance de paquet",
+    "ReferencerGroupingShort": "Référenceur de paquet",
+    "DependencyGroupingDesc": "Arborescence de dépendances de paquets : un paquet racine (rien n'y fait référence) s'étend aux paquets auxquels il fait référence, de manière récursive.",
+    "ReferencerGroupingDesc": "Arborescence de référenceurs de paquets : un paquet racine (sans référence) s'étend aux paquets qui y font référencent, de manière récursive.",
+    "TypeGroupingShort": "Type"
+  },
+  "MemoryCalculationSubsystem": {
+    "MemoryCalculationTab_Tooltip": "Inspecter le résultat de mémoire calculé par l'éditeur et ses paquets les plus lourds.",
+    "MemoryCalculationTab": "Calcul de la mémoire"
+  },
+  "MemoryCalculationTableViewModel": {
+    "PeakScope": "Pic",
+    "PeakScopeFmt": "Pic ({0})"
+  },
+  "MemoryCalculationViewPresets": {
+    "Preset_PkgActors": "Acteurs par paquet",
+    "Preset_Type": "Type de ressource",
+    "Preset_PkgDep_Tip": "Arborescence de dépendances : un paquet racine s'étend aux paquets auxquels il fait référence.",
+    "Preset_PkgActors_Tip": "Chaque paquet s'étend aux acteurs qui y font référence.",
+    "Preset_Flat_Tip": "Tous les paquets présents au niveau du pic de l'empreinte mémoire, non regroupés, du plus volumineux au moins volumineux.",
+    "Preset_Flat": "Plat",
+    "Preset_PkgDep": "Dépendance de paquet",
+    "Preset_PkgRef": "Référenceur de paquet",
+    "Preset_Type_Tip": "Paquets regroupés par type de ressource, le plus grand type en premier.",
+    "Preset_Cell_Tip": "Paquets sous chaque cellule World Partition de référencement, décomposés par type de ressource.",
+    "Preset_Actor_Tip": "Paquets sous chaque acteur de référencement.",
+    "Preset_PkgRef_Tip": "Arborescence de référenceurs : un paquet racine s'étend aux paquets qui y font référence.",
+    "Preset_Actor": "Acteur de référencement",
+    "Preset_Cell": "Cellule de référencement"
   },
   "MemoryTimingViewExtender": {
     "NoPlayerTargetAvailableTooltip": "Un joueur doit être connecté à la session pour être utilisé comme cible de tracé.",
@@ -2642,17 +2690,13 @@
     "ModularGateExpressionWidget_Title": "Éditeur d'expression de porte",
     "ModularGateExpressionWidget_OK": "OK"
   },
-  "ModularTest": {
-    "SuiteSetup": "SuiteSetup",
-    "SuiteTeardown": "SuiteTeardown"
-  },
   "NPCCharacterDefinition": {
     "MissingType": "Type manquant.",
     "InvalidSkeletalMeshComponent": "{0} : le blueprint de personnage {1} doit avoir un composant de maillage squelettique !",
     "MissingCharacterModifier": "{0} : Modificateur de personnage manquant",
     "DuplicatedModifier": "{0} : Plusieurs modificateurs de type {1}",
     "InvalidSkeletalMeshAsset": "{0} : la ressource de maillage squelettique ne peut pas être nul sur le composant de maillage squelettique de {1} !",
-    "UnsupportedModifier": "{0} : Modificateurs de type {0} non pris en charge pour l'identité {1} !"
+    "UnsupportedModifier": "{0} : Modificateurs de type {1} non pris en charge pour l'identité {2} !"
   },
   "NPCCharacterDefinitionComponent": {
     "MissingDefinition": "{0} : Définition de personnage PNJ manquante {1}",
@@ -3073,6 +3117,55 @@
   "SLoreSourceControlWidgets": {
     "InvalidComboEntryText": "<<Invalid option>>"
   },
+  "SMemoryCalculationDetailsView": {
+    "NoCells": "(toujours chargé ou non référencé par une cellule)",
+    "NoActors": "(aucun dans le monde de l'éditeur chargé)",
+    "Untyped": "(sans type)",
+    "Browse": "Parcourir",
+    "FieldPath": "Chemin",
+    "FieldRefs": "Référenceurs",
+    "ActorsHeader": "Référencement des acteurs ({0})",
+    "CellsHeader": "Référencement des cellules ({0})",
+    "NoSelection": "Sélectionnez un paquet pour voir son type et sa taille, ainsi que les cellules et les acteurs qui le référencent.",
+    "BrowseTip": "Sélectionner cet acteur dans l'éditeur (s'il est actuellement chargé).",
+    "FieldSize": "Taille",
+    "FieldType": "Type",
+    "FieldVersePath": "Chemin d’accès Verse"
+  },
+  "SMemoryCalculationPanel": {
+    "AlwaysLoadedLabel": "Toujours chargé :",
+    "FailedReason": "Échec du calcul : {0}",
+    "Details": "Détails",
+    "Fail": "ÉCHEC",
+    "HeadroomSegment": "Marge disponible {0}",
+    "InProgress": "EN COURS",
+    "InProgressStage": "EN COURS ({0})",
+    "SamplesLabel": "Emplacements échantillonnés :",
+    "PeakLocationTip": "Déplacer le hublot actif vers l'emplacement où le pic a été mesuré.",
+    "NoResultInitial": "Aucun résultat",
+    "NoResult": "Aucun résultat — lancer le calcul de la mémoire",
+    "OtherSegment": "Autre",
+    "Pass": "RÉUSSI",
+    "PackagesLabel": "Paquets :",
+    "PeakLocationLabel": "Emplacement du pic :",
+    "Statistics": "Statistiques",
+    "OtherSegmentTip": "Types situés sous {0} de la barre, combinés : {1}",
+    "UntypedSegment": "Sans type",
+    "NewerTip": "Afficher le résultat de calcul suivant (plus récent)",
+    "OlderTip": "Afficher le résultat de calcul précédent (plus ancien)",
+    "PeakLocation": "à {0}",
+    "HistoryPos": "{0}/{1}  ({2})",
+    "HeadroomSegmentTip": "{0} du budget inutilisé",
+    "PeakOfBudget": "{0} sur {1}",
+    "PeakOverBudget": "{0} sur {1} — dépassé de {2}",
+    "SegmentTip": "{0} : {1} ({2} du budget)"
+  },
+  "SMemoryCalculationTableTreeView": {
+    "AllScope": "Tout",
+    "ContextMenu_Section_Browse": "Parcourir",
+    "AllScope_Tip": "Afficher tous les paquets pris en compte dans le calcul, y compris ceux qui ne sont pas résidents au niveau de l'échantillon de pic.",
+    "PeakScope_Tip": "Afficher uniquement les paquets résidant au point d'échantillonnage de pic — l'ensemble dont les tailles constituent le pic signalé."
+  },
   "SMetricsTreeView": {
     "HeaderCheckBoxTooltip": "Activer ou désactiver toutes les mesures",
     "HeaderRowMetricsColumn": "Mesures",
@@ -3369,8 +3462,6 @@
     "Settings.SizeBreakdownView.ToolTip.ShowDependencies": "Si cette option est activée, les ressources de dépendance sont fusionnées dans chaque ligne par type ou par paquet dans les vues Par type et Par paquet, avec des éléments enfants par source pouvant être développés sous chaque type. N'a aucun effet dans la vue Par dépendance (qui affiche toujours les dépendances).",
     "LastUploadedTimestampWithVersionFmt": "{0} (v{1})",
     "ActorClassLabelFormat": "{0} ({1} {1}|plural(one=acteur,other=acteurs,many=d'acteurs))",
-    "SizeInKBFmt": "{0} Ko",
-    "SizeInMBFmt": "{0} Mo",
     "DownloadSizeWithLimitFmt": "{CombinedDownloadSize} / {ProjectDownloadSizeLimit}",
     "UploadSizeWithLimitFmt": "{ProjectUploadSize} / {ProjectUploadSizeLimit}",
     "EstimatedSizeFormat": "~ {0}",
@@ -3406,50 +3497,49 @@
   "SValkyrieSessionInspector": {
     "SessionStatus_NewContentFinishedLoadingAll": "Toutes les tâches liées au service de contenu sont terminées. Le serveur et le client sont désormais opérationnels.",
     "SessionStatus_ContentError": "Erreur de contenu reçue. Consultez le journal de sortie pour plus de détails.",
+    "SessionWallTime": "Temps écoulé :",
     "ValkyrieProjectSubMenuSessionSection": "Outils de modification en direct",
     "SessionStatus_NotConnected": "Non connecté à la session",
-    "OpenProject": "Ouvrir un projet :",
     "Settings.GeneralSettings.Label.OpenOnLaunchSession": "Ouvrir au lancement de la session",
-    "ViewSessionDSPortal_ToolTip": "Ouvrir la page du portail DS pour la dernière session",
-    "StatisticsHeading": "Détails de la session",
     "ValkyrieSessionInspector": "Inspecteur de session",
     "Unavailable": "L'inspecteur de session est temporairement indisponible. Veuillez réessayer ultérieurement.",
-    "SessionStatus": "État de la session :",
-    "SessionWallTime": "Temps de mur de la session :",
     "Settings.GeneralSettings": "Paramètres",
-    "SettingsText": "Paramètres",
+    "SettingsToolTip": "Paramètres",
     "Settings.GeneralSettings.ToolTip.OpenOnLaunchSession": "L'inspecteur de session doit-il s'ouvrir automatiquement lors du clic sur Lancer la session ?",
+    "SessionStatus": "État :",
     "SessionWallTimeTooltip": "Temps écoulé depuis le clic sur l'option Lancer la session ou Envoyer les modifications, jusqu'à ce que tous les modules soient préparés et téléchargés",
-    "ViewSessionDSPortal": "Afficher la session sur le portail DS (EpicDev uniquement)",
+    "ViewLogsButton": "Afficher les journaux",
     "ValkyrieSessionInspector_Tooltip": "Afficher l'état de votre session de modification en direct",
     "SessionStatus_LoadingNewContent": "En attente de la préparation de tous les modules et du chargement du contenu par le serveur",
     "SessionStatus_NewContentFinishedLoadingServer": "En attente de la disponibilité du client",
     "SessionStatus_NewContentFinishedLoadingClients": "En attente de l'initialisation finale du contenu.",
-    "SessionStatus_DistributingToConnectedSession": "En attente du serveur de session",
-    "ViewSessionDSPortal_ToolTipEx": "{0}\nDernière session démarrée {1}"
+    "SessionStatus_DistributingToConnectedSession": "En attente du serveur de session"
   },
   "SValkyrieSessionInspectorCookMonitor": {
-    "SessionBaseEntriesTree.Column.EndDate": "Date d'achèvement",
+    "ViewAllCookJobsDashboard": "Toutes les tâches",
+    "CookJobsLabel": "Tâches de préparation",
     "CookFailedStatusTooltip": "Échec de la tâche de préparation.",
     "CookSuccessStatusTooltip": "Réussite de la tâche de préparation.",
     "CookUnknownStatusTooltip": "État de la préparation indisponible.",
     "CookFromCache_ToolTip": "Les données préparées ont été récupérées du cache",
     "ContextMenu_CopyTooltip": "Copier la valeur de la colonne",
     "ContextMenu_Copy": "Copier",
+    "ViewSessionDSPortal": "Portail DS",
+    "SessionBaseEntriesTree.Column.WallTime": "Temps écoulé",
     "IndirectDependencies": "Dépendances indirectes",
+    "SessionBaseEntriesTree.Column.EndDate": "Date de la dernière préparation",
     "ModuleVersionMultiple": "Plusieurs",
     "SessionBaseEntriesTree.Column.Name": "Nom",
     "NoCorrelationIds": "Aucun identifiant de corrélation disponible.",
-    "ViewAllCookJobsDashboardTooltip": "Ouvrir le tableau de bord du service de contenu filtré sur chaque identifiant de corrélation pour les tâches de préparation ci-dessous.",
+    "ViewAllCookJobsDashboardTooltip": "Ouvrir le tableau de bord du service de contenu, filtré sur chaque identifiant de corrélation des tâches de préparation ci-dessous.(EpicDev uniquement)",
+    "ViewSessionDSPortal_ToolTip": "Ouvrir la page du portail DS pour la dernière session.(EpicDev uniquement)",
     "ReferencingProjects": "Référencement de projets",
-    "CookJobsLabel": "Tâches de préparation de session",
     "SessionBaseEntriesTree.Column.Status": "Statut",
     "SessionBaseEntriesTree.Column.Version": "Version",
-    "ViewAllCookJobsDashboard": "Voir toutes les tâches (EpicDev uniquement)",
     "ViewCookStatus": "Afficher l'état de la préparation",
-    "SessionBaseEntriesTree.Column.ViewInJobDashboard": "Afficher dans le tableau de bord des tâches (EpicDev uniquement)",
+    "SessionBaseEntriesTree.Column.ViewJob": "Afficher la tâche",
     "ViewJob": "Afficher la tâche",
-    "SessionBaseEntriesTree.Column.WallTime": "Temps réel",
+    "ViewSessionDSPortal_ToolTipEx": "{0}\nDernière session démarrée {1}.(EpicDev uniquement)",
     "ModuleDisplayName": "{0} ({1})"
   },
   "SValkyrieSessionInspectorStagingLogs": {
@@ -3493,11 +3583,14 @@
   },
   "SValkyrieSessionInspectorStagingMonitor": {
     "Canceled": "Annulé",
+    "StepStatus_Completed": "Terminé ({0})",
     "Label_Cooking": "Préparation",
     "ToolTip_Versioning": "Créez une nouvelle version du module. Cette étape n'est effectuée que si nécessaire.",
     "ToolTip_Downloading": "Télécharger le contenu préparé sur le serveur de session.",
     "Label_Downloading": "Téléchargement en cours",
+    "StepStatus_Failed": "Échec ({0})",
     "ToolTip_Playing": "Finaliser la configuration de la session et préparer la lecture",
+    "StepStatus_InProgress": "En cours ({0})",
     "NotStarted": "Non démarré",
     "ToolTip_PreparingForUpload": "Effectuer les opérations préalables nécessaires pour valider et mettre en ligne un projet.",
     "Label_Playing": "Lecture en cours",
@@ -3508,8 +3601,8 @@
     "ToolTip_Validating": "Vérifier que les ressources du projet sont compatibles avec la mise en ligne.",
     "Label_Validating": "Validation en cours",
     "Label_Versioning": "Contrôle de version",
-    "ViewLogsButton": "Afficher les journaux",
-    "ToolTip_Cooking": "Attendre la préparation de tous les modules et la mise en ligne du contenu par le serveur"
+    "ToolTip_Cooking": "Attendre la préparation de tous les modules et la mise en ligne du contenu par le serveur",
+    "StepToolTipFormat": "{0} : {1}\n{2}"
   },
   "SVerbDebugger": {
     "AdditionalFilters": "Filtres supplémentaires",
@@ -3558,8 +3651,10 @@
     "BuildErrorsMessage": "Des erreurs de build Verse ont été détectées lors de l'ouverture de {0}. Corrigez ces erreurs dans votre code Verse, puis recompilez. L'enregistrement des ressources sans corriger les erreurs peut entraîner une perte de données."
   },
   "SVkContentResolutionViewer": {
+    "PillDepsMore": "\t(+{0} autres)",
     "ModuleDep": "\t{0}",
     "ModuleStaticDep": "\t{0}",
+    "PillDepPath": "\t{0}",
     "ForkStack": "**** Pile de forks ****",
     "ModuleDetails": "**** Détails du module ****",
     "ModuleAccess": "Accès : {0}",
@@ -3591,6 +3686,8 @@
     "BuildForkError": "Impossible de trouver le fork de build '{0}'",
     "ForkCreated": "Date de création : {0}",
     "ModuleCreationDateTime": "Date de création : {0}",
+    "PillDepsLive": "Dépendances publiées en direct :",
+    "PillDepsFork": "Dépendances publiées dans le fork {0} :",
     "ModuleDeps": "Dépendances :",
     "ModuleDescription": "Description : {0}",
     "WsIdHint": "Saisir l'identifiant du fork",
@@ -3630,6 +3727,7 @@
     "BrowseProjectTooltip": "Sélectionner le chemin d'accès Verse à partir d'un projet sur le disque",
     "StarredLabel": "Étoilé",
     "WsModeTeam": "Équipe",
+    "ForkStackCycleError": "La chaîne parente du fork contient un cycle.Affichage de la chaîne résolue jusqu'au fork répété.",
     "ModuleTitle": "Titre : {0}",
     "ModuleCreationDateUnavailable": "Non disponible",
     "ModuleVersePath": "Chemin d'accès Verse : {0}",
@@ -3639,6 +3737,7 @@
     "VkContentResolutionTree_ViewOnContentServiceTooltip": "Afficher les modules sélectionnés sur le site Web de service de contenu",
     "NotLoggedIn": "La connexion est nécessaire pour utiliser cet outil.",
     "VersionLabel": "v{0}",
+    "VersePathWithModuleId": "{0}  {1}",
     "ForkNameAndId": "{0} ({1})"
   },
   "SVkForkSelector": {
@@ -3873,6 +3972,8 @@
     "MemoryProfilerTabTooltip": "Afficher une répartition de l'utilisation de mémoire du client"
   },
   "UE::SpatialMetrics::MetricActionUtils": {
+    "AlreadySnapshottingAction": "Déjà en cours de traçage",
+    "AlreadyTracingAction": "Déjà en cours de traçage",
     "StartCaptureAction": "Démarrer la capture",
     "TakeSnapshotAction": "Prendre un instantané"
   },
@@ -3896,6 +3997,7 @@
     "UploadProject.Error.TargetVersionDocUnset": "Échec de la détermination du plug-in d'expérience racine pour la mise à jour de la session d'édition",
     "FailedToStageAndValidateFiles": "Échec de stockage intermédiaire et de validation des fichiers sources locaux du projet \"{0}\"",
     "StagingFailed": "Échec de mise en scène du projet pour mise en ligne\n{0}",
+    "WriteInternalApiDescriptorFailed": "Échec de l'écriture du descripteur d'api interne du projet '{0}'.",
     "WritePublicApiDescriptorFailed": "Impossible d'écrire le descripteur d'API publique du projet \"{0}\".",
     "InitSyncModules": "Initialisation du projet \"{0}\" pour la mise en ligne...",
     "Initializing": "Initialisation…",
@@ -3910,6 +4012,7 @@
     "ValidationFailed": "Échec de validation du projet",
     "ValidationAutoFixup.RunButton": "Effectuer la correction",
     "ValidationAutoFixup.Heading": "Exécuter la correction de validation ?",
+    "RunningContentValidation": "Exécution de la validation du contenu...",
     "ShowMessageLogHyperlink": "Afficher le journal des messages",
     "ShowOutputLogHyperlink": "Afficher le journal de sortie",
     "ValidationAutoFixup.SkipButton": "Ignorer la correction",
@@ -3984,6 +4087,12 @@
     "ResetTextureOnSelectedSaticMeshBuildingActors_ToolTip": "Revenir à la texture par défaut pour les acteurs de bâtiment de maillage statique sélectionnés",
     "RotateSelectedBuildingActors": "Faire pivoter les acteurs de bâtiment sélectionnés",
     "RotateSelectedBuildingActors_ToolTip": "Faire pivoter les acteurs de bâtiment sélectionnés dans le hublot"
+  },
+  "UICommands.MemoryCalculationCommands": {
+    "BrowseToAsset": "Atteindre la ressource",
+    "SelectInOutliner": "Sélectionner dans l'organiseur",
+    "SelectInOutliner_ToolTip": "Sélectionner le ou les acteurs dans le niveau.",
+    "BrowseToAsset_ToolTip": "Synchroniser le navigateur de contenu avec le ou les paquets sélectionnés.Les paquets sans ressource sur le disque (cellules générées, VerseDebugData, etc.) sont ignorés."
   },
   "UICommands.SGridView": {
     "ShowAxes": "Axes",
@@ -4456,6 +4565,26 @@
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Tooltip": "Récupérer les acteurs chargés dans le niveau actuel nécessitant un maillage déplacé et générer les acteurs manquants. L'outil pollue également les acteurs qui doivent être réenregistrés.",
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Label": "Générer des maillages déplacés Nanite persistants"
   },
+  "VK_MEMCALC_ERRORS": {
+    "ManifestFileUnreadable": "Impossible de lire un manifeste de mémoire à partir de '{Path}'.",
+    "InvalidModuleBinaries": "L'artefact de contenu n'a pas de binaires préparés ni de tâche de préparation.",
+    "ContentServiceUnavailable": "Le service de contenu n'est pas disponible.",
+    "ContentServiceFailure": "Échec de la demande de service de contenu : {Detail}",
+    "EmptyManifest": "MemoryManifest ne contient aucun paquet.",
+    "ManifestMissingSizeChunkTypes": "MemoryManifest ne déclare aucun SizeChunkTypes.",
+    "ManifestParseFailed": "MemoryManifest n'est pas un JSON valide ({NumChars} caractères).",
+    "NoPublishedModuleVersion": "Le module {Module} n'a aucune version publiée.",
+    "NoClientArtifact": "Aucun artefact client '{Platform}' sur le module racine.",
+    "InvalidBuildCode": "Aucun code de version à utiliser pour générer un résultat.",
+    "NoProjectOpen": "Aucun projet principal n'est ouvert.",
+    "NoRootWorld": "Aucun monde racine dérivé des cellules World Partition de MemoryManifest ou des paquets de type Monde.",
+    "NoPublishingMemoryLimit": "Le projet {Project} n'a pas de limite de mémoire de publication.",
+    "RequestAbandoned": "La demande s'est terminée sans indiquer de résultat.",
+    "ManifestSizeChunkTypesMismatch": "Les SizeChunkTypes [{Declared}] ne correspondent pas à ceux attendus [{Expected}].",
+    "ManifestUnknownChunkType": "Entrée SizeChunkTypes non reconnue '{ChunkType}'.",
+    "EngineVersionMismatch": "{NumModules} module(s) mis en ligne par une version différente du moteur, y compris {Module} v{ModuleVersion} par '{UploadedEngineVersion}' ; cet éditeur est '{CurrentEngineVersion}'.Lancer la session pour actualiser.",
+    "LatticeTooLarge": "Le nombre d'échantillons de {RequestedSamples} dépasse le plafond de {MaxSamples} (pas de {SpatialPrecision} cm)."
+  },
   "ValidateSchematics": {
     "DisplayText": "Chargement...",
     "Test": "Pas d'erreur !",
@@ -4611,6 +4740,14 @@
   "ValkyrieChangelistValidator": {
     "VkChangelistInvalid": "La liste des modifications ne spécifie pas correctement la balise #preflight. Passez à Horde pour effectuer une vérification avant envoi."
   },
+  "ValkyrieContentGovernance": {
+    "PluginReferenceViolation": "Référence à un plug-in interdit '{0}' trouvée",
+    "MutuallyExclusivePluginReferenceViolation": "Références à des ensembles de plug-ins mutuellement exclusifs trouvées",
+    "InvalidRuleField_EntitlementId": "Valeur manquante pour le champ : EntitlementId",
+    "InvalidRuleField_Tag": "Valeur manquante pour le champ : Balise",
+    "InvalidRuleField_Type": "Type de règle inconnu :",
+    "MutuallyExclusivePluginSet": "{0} : {1}"
+  },
   "ValkyrieContentServiceCmds": {
     "ArchiveProject": "Archivage du projet '{0}'",
     "ArchiveProjects": "Archivage de projets...",
@@ -4682,20 +4819,20 @@
     "MemoryTestResults": "Résultats du test de mémoire",
     "MemorySamplingAlreadyRunning": "L'échantillonnage de mémoire est déjà en cours !",
     "VerseVersion.Title": "Nouvelle version de Verse disponible",
-    "NoVersePathsAssigned": "Aucun chemin d'accès Verse n'a été modifié.",
     "VerseVersion.RemindMeLater.Tooltip": "Notifier à nouveau si ce projet n'a pas la dernière version stable de Verse lors de sa prochaine ouverture",
     "UploadProjectsParallelAlreadyRunning": "Le flux de mise en ligne parallèle est déjà en cours",
     "PrepareProjectForUploadAlreadyRunning": "La préparation du projet pour la mise en ligne est déjà en cours",
     "VerseVersion.Msg": "Le projet \"{0}\" utilise la version {1} de Verse.\nVous pouvez passer à la version {2} de Verse maintenant ou plus tard via les paramètres du projet.",
     "CreateBuildAlreadyRunning": "La création de build du projet est déjà en cours",
-    "PublicAssetChangeNoContentService": "Le projet doit être synchronisé avec le service de contenu pour intervenir sur les ressources publiques\nVérifiez votre connexion",
+    "PublicAssetChangeNoContentService": "Le projet doit être synchronisé avec le service de contenu pour modifier les ressources exposées ou les redirecteurs\nAssurez-vous d'être connecté",
+    "ProjectValidationCanceled": "Project validation was canceled",
     "VerseVersion.RemindMeLater": "Me le rappeler plus tard",
     "SanitizePublicApiAlreadyRunning": "Le nettoyage de l'API publique est déjà en cours",
     "SaveOutputPageLabel": "Résultat d'enregistrement",
     "SavePackagesAlreadyRunning": "L'enregistrement de fichiers de paquets est déjà en cours",
-    "SelectProjectsToAssignVersePathsTo.Title": "Sélectionner des projets",
-    "SelectProjectsToAssignVersePathsTo.Message": "Sélectionnez les projets pour lesquels vous souhaitez attribuer ou mettre à jour automatiquement les chemins d'accès Verse :",
-    "PromptForDestructiveAPIAction": "Les ressources sélectionnées sont référençables publiquement dans le projet publié :\n{0}\n\nPour continuer cette action, vous devrez embrancher votre projet.\nVous pouvez y modifier les ressources publiques avant de les publier dans un nouveau projet",
+    "ExposedAssetDestructiveAPIAction": "La ou les ressources sélectionnées sont référençables en externe dans le projet publié :\n{0}",
+    "RedirectorToExposedAssetDestructiveAPIAction": "Le ou les redirecteurs sélectionnés redirigent vers les ressources exposées dans le projet publié :\n{0}",
+    "RedirectorAnotherProjectDestructiveAPIAction": "Le ou les redirecteurs sélectionnés redirigent vers d'autres projets à partir du projet publié :\n{0}",
     "SimpleTemplateMapDisplayNameText": "Simple",
     "SimpleTemplateMapDescriptionText": "Exemple de niveau simple.",
     "BlankTemplateMapDescriptionText": "Niveau simple avec deux générateurs.",
@@ -4704,8 +4841,8 @@
     "VerseVersion.Update.Tooltip": "Mettre à jour ce projet vers la dernière version stable de Verse ({0}).\nRemarque : vous pouvez revenir à la version Verse de votre choix à tout moment dans les paramètres du projet.",
     "UploadProjectsParallelNotRunning": "La mise en ligne parallèle de projets n'est pas en cours d'exécution",
     "ValidateProjectAlreadyRunning": "La validation du projet est déjà en cours",
-    "VersePathsAssigned": "Des chemins d'accès Verse ont été attribués aux projets suivants :",
-    "Error.LocalizationDataEditingDisabled": "Vous n'avez pas l'autorisation de modifier manuellement les données de localisation. Utiliser \"Générer -> Générer la localisation automatique\" pour traduire les données."
+    "Error.LocalizationDataEditingDisabled": "Vous n'avez pas l'autorisation de modifier manuellement les données de localisation. Utiliser \"Générer -> Générer la localisation automatique\" pour traduire les données.",
+    "PromptForDestructiveAPIAction": "{0}\n\nPour poursuivre cette action, vous devrez embrancher votre projet.\nVous pourrez alors modifier l'API du projet avant de le publier dans un nouveau projet."
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "{0} : configurer les fonctionnalités",
@@ -4800,8 +4937,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0} : données préparées pour {1}"
   },
   "ValkyrieEditorMemoryCalculation": {
-    "MemoryRatio": "{0}/{1}",
-    "MemoryRatioUnitsMb": "{0}/{1} Mo"
+    "MemoryRatioUnitsMb": "{0}/{1}",
+    "MemoryRatio": "{0}/{1}"
   },
   "ValkyrieEditorMenus": {
     "FixValidationIssues.ActorOptions.Tooltip": "Tenter de résoudre automatiquement certains problèmes de validation sur ces acteurs",
@@ -4886,7 +5023,6 @@
   },
   "ValkyrieEditorUtils": {
     "CannotUseMoreThanOneBrand": "Impossible d'utiliser la marque \"{0}\" pendant que \"{1}\" est actif",
-    "CopyFiles": "Copie de fichiers...",
     "FailCreatePerforceProvider": "Échec de création du fournisseur de contrôle de révision Perforce",
     "FailLoadBrandPlugins": "Échec du chargement de {0} plug-ins",
     "FailUnloadBrandPlugins": "Échec du déchargement de {0} plug-ins",
@@ -5407,6 +5543,7 @@
     "ValkyrieGFSSelectionWarningCancelButton": "Annuler",
     "ValkyrieGFSSelectionWarningTitle": "Changer de marque",
     "ValkyrieGFSSelectionWarningConfirmButton": "Confirmer",
+    "ValkyrieFortniteGFSReloadFailed_Title": "Impossible de changer de marque",
     "ValkyrieFortniteGFSSelectionToast_Dismiss": "Ignorer",
     "ValkyrieFortniteGFSSelectionToast_Title": "Changement de marque de projet réussi !",
     "ValkyrieFortniteGFSSelectionToast_Body": "Vous devez fermer et rouvrir ce projet pour que les changements de marque prennent effet. Après avoir rouvert le projet, supprimez toutes les ressources de la marque précédente afin d'éviter les erreurs de validation."
@@ -5537,6 +5674,32 @@
     "LocalLoreProjectAnnotationText": "Ce projet est pris en charge par Lore.",
     "RequiredProjectPermissions": "Ce projet nécessite l'autorisation {0} pour pouvoir être modifié correctement.",
     "IncompatibleProjectVersionText": "La version de ce projet ({0}) est incompatible avec le moteur actuel ({1})."
+  },
+  "ValkyrieMemoryCalculationTable": {
+    "ColActorsTitle": "Référenceurs d'acteurs",
+    "ColActors": "Références d'acteurs",
+    "ColTypeTitle": "Type de ressource",
+    "ColNameDesc": "Hiérarchie de l'arborescence des paquets.",
+    "ColName": "Nom",
+    "ColActorsDesc": "Nombre d'acteurs chargés qui référencent ce paquet.",
+    "ColRefsDesc": "Nombre de paquets qui référencent directement ce paquet.",
+    "ColNameTitle": "Hiérarchie des paquets",
+    "ColPackagePath": "Chemin d’accès au paquet",
+    "ColPathTitle": "Chemin d’accès au paquet",
+    "ColRefsTitle": "Référenceurs de paquets",
+    "ColRefs": "Références de paquets",
+    "ColSizeTitle": "Taille de paquet",
+    "ColPath": "Chemin",
+    "ColPackagePathTitle": "Chemin d'accès au paquet brut",
+    "ColSize": "Taille",
+    "ColVersePathDesc": "Le chemin d'accès Verse du paquet ; vide pour les paquets qui n'en ont pas.",
+    "ColPathDesc": "Le chemin d'accès complet du paquet : son chemin d'accès Verse, le cas échéant, sinon le chemin d'accès au paquet.",
+    "ColPackagePathDesc": "Le chemin d'accès au paquet dans l'éditeur quel que soit le chemin d'accès Verse.",
+    "ColSizeDesc": "La taille du paquet.",
+    "ColTypeDesc": "Le type de ressource primaire dans le paquet, tel qu'affiché dans le navigateur de contenu.",
+    "ColType": "Type",
+    "ColVersePath": "Chemin d’accès Verse",
+    "ColVersePathTitle": "Chemin d’accès Verse"
   },
   "ValkyrieMissingFileProjectCustomization": {
     "NoFile": "Aucun fichier de projet disponible à ouvrir",
@@ -5680,7 +5843,7 @@
     "SyncedInvalidProjectFile": "Le fichier de projet synchronisé à partir du contrôle de révision n'est pas valide",
     "AssignVersePath.NotSyncedWithContentService": "Le projet doit être synchronisé avec le service de contenu pour attribuer un chemin d'accès Verse",
     "PurgeVersePath.NotSyncedWithContentService": "Le projet doit être synchronisé avec le service de contenu pour purger un chemin d'accès Verse",
-    "VerifyLivePublicAssetsNoContentService": "Le projet doit être synchronisé avec le service de contenu pour vérifier son api publique en direct.\nVérifiez votre connexion",
+    "VerifyLivePublicAssetsNoContentService": "Le projet doit être synchronisé avec le service de contenu pour vérifier son API en production\nAssurez-vous d'être connecté",
     "RemovePublicApiIfAllowed.ProjectNotOpened": "Projet non ouvert",
     "SanitizePublicApiIfAllowed.ProjectNotOpened": "Projet non ouvert",
     "FeatureSetInProjectPluginDependency": "Les plug-ins de projet ne sont pas autorisés à avoir un ensemble de fonctionnalités dans leurs dépendances.\n\nTrouvé : {0}\n\nL'ensemble de fonctionnalités doit être spécifié dans le fichier de projet.",
@@ -6000,13 +6163,16 @@
     "RemapLocalVsReferencedContent.CannotFindExternalModule": "Contenu référencé introuvable pour le plug-in de projet {0}",
     "RemapLocalVsReferencedContent.CannotFindLocalPlugin": "Plug-in de projet public introuvable pour le contenu référencé '{0}'",
     "VKCannotFindPlugin": "Plug-in introuvable",
+    "PublishTooManyModules": "Impossible de publier {0} module(s) à la fois.Le maximum est de {1}.",
     "CloseRefSourceProjects.ProjectReload.Title": "Fermer le contenu source",
     "CloseRefSourceProject": "Fermeture du projet source de contenu référencé '{0}'…",
     "CloseRefSourceProjects": "Fermer le(s) projet(s) source(s) de contenu référencé…",
     "CopyPluginAssets.CopyingAssets": "Copie des ressources…",
     "CopyVerseFiles": "Copie des fichiers Verse…",
     "CopyLocFiles": "Copie des fichiers de localisation...",
+    "CopyingPluginContent": "Copie du contenu du plug-in...",
     "CopyNonContentFiles": "Copie des fichiers de plug-ins…",
+    "CopyingPlugin": "Copie du plug-in...",
     "ErrorGettingLinkCodeInfoMessage": "Identifiant de projet introuvable pour \"{0}\".",
     "ErrorResolvingVersePathMessage": "Identifiant de projet introuvable pour \"{0}\".",
     "FeatureSetDefinitionNotFound": "Impossible d'obtenir la définition de l'ensemble de fonctionnalités \"{0}Metadata\". Assurez-vous qu'il existe et que les autorisations permettent son chargement.",
@@ -6021,11 +6187,13 @@
     "VKFailLoadGameFeaturePlugin": "Échec de chargement du plug-in\n{0}\n\n{1}",
     "VKFailLoadPlugin": "Échec du chargement de plug-in\n{0}\n{1}",
     "RemapLocalVsReferencedContent.FailedToLoadAsset": "Échec du chargement de {0}",
+    "PublishModuleBatchItemError": "Échec de la publication d'un ou plusieurs modules dans le fork",
     "RemapLocalVsReferencedContent.FailedToRemap": "Échec du remappage d'une ou plusieurs références dans {0}",
     "OpenSourceProjects.FailGetProjectInfo": "Échec de récupération des informations sur \"{0}\"",
     "RemapLocalVsReferencedContent.FailSave": "Échec de l'enregistrement de certaines ressources (voir le journal des messages)",
     "VKFailTerminateGameFeaturePlugin": "Échec d'achèvement du plug-in de fonctionnalité de jeu \n{0}\n\n{1}",
     "VKProjectFolderNotEmpty": "Des fichiers existent sous :\n{0}\nSupprimez ces fichiers ou choisissez un nom ou un emplacement différent.",
+    "PublishFinalizing": "Finalisation de la publication...",
     "FixingProjectSlowTask": "Réparation du projet...",
     "GatherVerseFiles": "Collecte des fichiers Verse…",
     "CopyPluginAssets.GatherAssets": "Collecte des ressources...",
@@ -6073,8 +6241,9 @@
     "PublishToForkUploadFailed": "Échec de la mise en ligne du projet",
     "PublishToForkCanceled": "Publication vers le fork annulée",
     "PublishToForkError": "Échec de la publication sur le fork",
-    "PublishedModule": "\"{0}\" publié…",
     "PublishSystemComment": "Publié avec {0} version {1}",
+    "PublishComplete": "{0} module(s) publié(s)",
+    "PublishedModules": "Publication de {0} modules sur {1}...",
     "PublishProjectsToFork": "Publication des projets sur le fork '{0}'…",
     "PublishingModules": "Publication de {0} module(s) vers le fork…",
     "RetrievingProjectInformationMessage": "Nouvelle liaison au projet en ligne...",
@@ -6109,6 +6278,7 @@
     "RemapLocalVsReferencedContent.NoRootPlugin": "Il n'y a aucun plug-in racine dans le projet",
     "RemapLocalVsReferencedContent.SinglePluginProject": "Il n'y a rien à remapper car le projet n'a qu'un seul plug-in",
     "RemapLocalVsReferencedContent.NoRefencedContent": "Il n'y a rien à remapper, car il n'y a aucun contenu référencé",
+    "PublishModuleEmptyResult": "Impossible de confirmer les résultats de la publication",
     "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "Erreur inattendue lors du remappage de {0}",
     "UnloadingPlugins": "Déchargement des plug-ins…",
     "GatherReferencedContentToLoad.MultiProjectIncompatible.Title": "Avertissement",
@@ -6232,6 +6402,7 @@
     "Experimental_VerseCheckUnavailable": "Impossible d'exécuter la vérification expérimentale du code Verse (diagnostics de préparation non disponibles).",
     "PublishingReport_MemoryUsage": "Utilisation de la mémoire",
     "MemoryCheck_Calculating": "Utilisation de la mémoire : calcul en cours...",
+    "MemoryCheck_CalculationFailed": "Utilisation de la mémoire : échec du calcul",
     "MemoryCheck_SamplerFailed": "Utilisation de la mémoire : échec du calcul",
     "MemoryCheck_NotYetCalculated": "Utilisation de mémoire : non calculée",
     "MemoryCheck_Result": "Utilisation de la mémoire : {0}",
@@ -6472,9 +6643,12 @@
     "UploadRate": "Mise en ligne de {0}/{1}{3}, {2}{3}/s"
   },
   "ValkyrieValidator": {
-    "InventorySettingValidatorMessage": "Le paramètre \"Inventaire personnalisé\" est activé dans le niveau, mais pas dans les paramètres du projet.",
+    "InventorySettingValidatorMessage": "Le paramètre \"Inventaire personnalisé\" est activé dans les paramètres du projet, mais pas dans le niveau.",
+    "InventorySettingValidatorMessageLevelActive": "Le paramètre \"Inventaire personnalisé\" est activé dans le niveau, mais pas dans les paramètres du projet.",
     "MetaSoundValidationFail_PresetInvalidObject": "La ressource référencée par le préréglage MetaSound doit être un objet valide.",
     "Invalid Parent": "La ressource {0} est un enfant de la classe non conforme {1}",
+    "CheckingAssetReferences": "Vérification des références des ressources...",
+    "CompilingBlueprintsPhase": "Compilation des blueprints…",
     "VirtualizedDataValidate": "Contient des données virtualisées et ne fonctionnera pas avec l'UEFN. Il faudra réhydrater le fichier de paquet.",
     "Blueprints.Fixer.NullBlueprint": "Blueprint introuvable : {0}",
     "Properties.Fixer.NullObject": "Objet introuvable : {0}",
@@ -6498,6 +6672,8 @@
     "Blueprints.Fixer.Transaction": "Blueprint assaini",
     "Blueprints.Fixer.SanitizedBlueprint": "Blueprint assaini : {0}",
     "Blueprints.Error.RestrictedContent": "Ce blueprint contient du contenu restreint. Assainissez-le pour supprimer le contenu restreint suivant : ({ValidatorClass})",
+    "ValidatingAssetsPhase": "Validation des ressources...",
+    "ValidatingProjectContent": "Validation du contenu du projet...",
     "VirtualizedData": "contient des données virtualisées et ne fonctionnera pas avec l'UEFN. Il faudra réhydrater le fichier de paquet.",
     "ValkyrieVerseValidationError": "{0} Rencontré error(s) while Compilation de Verse. See Verse Build Diagnostics.",
     "MissingGameFeatureData": "Il manque une ressource GameFeatureData à {0}",
@@ -6813,6 +6989,9 @@
     "CookedContentTimeout": "Une erreur s'est produite lors de la communication avec les serveurs de jeu : expiration",
     "StopAutoLocalizationJob.Error.FailedToStop": "Échec de l'arrêt de la tâche de localisation"
   },
+  "VkEditorModularTestResolver": {
+    "FailedToLoadRootPlugin": "Échec du chargement d'un plug-in racine pour le chemin d'accès Verse '{0}'."
+  },
   "VkEventNodeDetails": {
     "Category": "Événement de conversation"
   },
@@ -6826,6 +7005,36 @@
   },
   "VkMaterialNodeDetails": {
     "Category": "Matériau"
+  },
+  "VkProjectContentImport": {
+    "AddedReference": "Contenu référencé ajouté :\n{0}",
+    "FeatureSetMismatch": "Impossible d'importer du contenu utilisant la marque '{0}' dans un projet qui utilise la marque '{1}'.",
+    "CompilingVerse": "Compilation Verse...",
+    "CopyingContent": "Copie du contenu...",
+    "AddingPublishedContent": "Téléchargement/chargement du contenu référencé...",
+    "AddReferenceFailed": "Échec de l'ajout du contenu référencé :\n{0}",
+    "CopyFailed": "Échec de la copie du contenu du projet source.",
+    "FindPluginsFailed": "Échec de la recherche des plug-ins du projet source :\n{0}",
+    "SourceProjectLoadFailed": "Échec du chargement du projet source :\n{0}",
+    "GatherReferencesFailed": "Échec de la lecture des références du projet source :\n{0}",
+    "SaveFeatureSetFailed": "Échec de l'enregistrement du fichier de projet de destination :\n{0}",
+    "GatheringReferencedContent": "Récupération du contenu référencé...",
+    "UnsupportedPluginCount": "L'importation d'un projet source avec {0} plug-ins n'est pas prise en charge (un seul plug-in est requis).",
+    "ImportingProjectContent": "Importation du contenu du projet...",
+    "NoDestinationProject": "Aucun projet de destination n'a été fourni.",
+    "AddingSourceContent": "Ouverture du contenu source référencé...",
+    "ImportCanceled": "Importation de contenu de projet annulée",
+    "ImportFailed": "Échec de l'importation du contenu du projet",
+    "ImportSucceeded": "Contenu de projet importé",
+    "RollingBack": "Rétablissement en cours...",
+    "ImportSourceProjectBrowseTitle": "Sélectionner le projet source {0} à importer",
+    "DestinationNotOpened": "Le projet de destination '{0}' n'est pas ouvert.",
+    "NoDestinationRootPlugin": "Le projet de destination n'a pas de plug-in racine.",
+    "DestinationClosedDuringImport": "Le projet de destination a été fermé pendant l'importation.",
+    "SourceFileMissing": "Le fichier du projet source n'existe pas :\n{0}",
+    "SourceGoneDuringImport": "Le projet source n'est plus disponible.",
+    "SourceIsDestination": "Le projet source est le projet de destination.",
+    "ReferencedProjectReadError": "{0} :\n{1}"
   },
   "VkRepeatNodeDetails": {
     "Category": "Répéter"

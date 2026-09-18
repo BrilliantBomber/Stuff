@@ -153,7 +153,7 @@
     "F522F0C7492984F80FF752B12C493D41": "استكشف قرية ساحرة ودافئة تضم منازل لطيفة ومزرعة عاملة وشاطئًا تغمره الشمس تحيط به طبيعة غنّاء. قابل الحيوانات الأليفة اللطيفة التي تتجوّل في الجزيرة، مع وصول عناصر التحكم في الرفيق إلى UEFN.",
     "E85986084C5768D45C744DA9F7199DB4": "استكشف المدينة المستوحاة من نيفارو. استخدم التضاريس البركانية لتبدأ في بناء مغامرتك القادمة.",
     "5D607756496D7D34534161A76D037AE0": "استكشاف السجن الشهير في عالم The Walking Dead Universe. احصل على انطلاقة قوية في لعبتك التالية مستخدمًا هذه الجزيرة الابتدائية.",
-    "84FBC65D4990B009132E6288DDF37B4D": "Face your fears on this creepy haunted island. Observe lighting techniques and methods to add atmosphere in UEFN.",
+    "84FBC65D4990B009132E6288DDF37B4D": "واجه مخاوفك في هذه الجزيرة المسكونة المخيفة. تعرّف على تقنيات وأساليب الإضاءة لإضفاء الأجواء في UEFN.",
     "688C10D94213786DF5B0D3B3D65BBA53": "FactCategoryText",
     "7BC1EF91495CE30F0A41BEA8E4D553CC": "أمثلة للمزايا",
     "7DB4F10642BF6FC257A4A4BD4EF9D8F3": "Features Expo",
@@ -180,7 +180,7 @@
     "A04B36824B96B1D3730DB4819F0368B4": "البدء",
     "FC4E8E504E39E595C80E27AB1628E729": "تدرّج رمادي بصيغة sRGB",
     "40A2BADA49BF6943636D468D268C235C": "شبكة/ شبكات مربعة",
-    "193CF4DD4D3859505223E5967E9AFFF2": "Harrowville: Environment",
+    "193CF4DD4D3859505223E5967E9AFFF2": "هاروفيل: البيئة",
     "7C0AC7B546C8252B3CA90791C665F406": "يمتلك: {0} المقبول: {1}",
     "1A37A12C46F34B2727DFE09389BFB29F": "أصل المساعد",
     "A2113EE54097BA5ED4DB19BF308694B9": "أصل المساعد",
@@ -790,6 +790,7 @@
     "SpatialMetricsGridCommands": "شبكة",
     "SpatialMetricsHistogramCommands": "مخطط تكراري",
     "SpatialMetricsViewerCommands": "عارض القياسات المكانية",
+    "MemoryCalculationCommands": "حساب ذاكرة UEFN",
     "ValkyrieEditor": "محرر Valkyrie"
   },
   "ConversationGraph": {
@@ -1168,7 +1169,8 @@
     "ProjectHomeDocumentation": "الوثائق",
     "ProjectHomeForumsButton": "المنتديات",
     "LiveEditStatusColumnLabel": "حالة التحرير المباشر",
-    "ValkyriePIENotAvailable": "غير متوفر في {0}",
+    "ValkyriePIERestrictiveMode": "تمّ حظر التشغيل داخل المحرر في {0}: تمّ تمكين الوضع التقييدي. يتم التصريح بعمليات التشغيل المؤتمتة تلقائيًا عند تشغيلها باستخدام ‎-unattended‎؛ وللتشغيل تفاعليًا، يتم تعطيل الوضع المقيّد.",
+    "ValkyriePIENotAvailableCooked": "التشغيل داخل المحرر غير متاح في {0} أثناء تشغيل محتوى المحرر المهيّأ.",
     "ProjectHomeReleaseNotesButton": "مزايا الإصدار",
     "ProjectHomeRoadmapButton": "خريطة الطريق",
     "SupportName": "الدعم",
@@ -1190,18 +1192,22 @@
     "PromptForProjectIdVariant_Hint": "المعرف المميز عالميًا للمشروع (Guid)، أو مسار Verse، أو رمز الرابط",
     "PromptForProjectIdVariant_SyntaxFeedbackMessage": "الإدخال غير صالح، فهو ليس المعرف المميز عالميًا (Guid)، ولا مسار Verse، ولا رمز رابط صحيح."
   },
-  "FXCosmeticVariant": {
-    "ParticleChannelName": "الجُسيم"
-  },
   "Fab": {
     "ClearCacheButton": "مسح ذاكرة التخزين المؤقت",
+    "ExtractError": "تعذّر استخراج التنزيل",
     "DownloadError": "خطأ في التنزيل",
     "DownloadFinished": "اكتمل التنزيل",
     "Downloading": "جارٍ التنزيل",
+    "DownloadingAsset": "جارٍ تنزيل {0}",
+    "ExtractFinished": "اكتمل الاستخراج",
+    "Extracting": "استخراج",
     "WebBrowserModuleNotEnabled": "فشل تحميل الأداة الإضافية. يُرجى تمكين نافذة متصفح الويب في مدير الأدوات الإضافية لاستخدام المتجر.",
     "ImportError": "خطأ في الاستيراد",
     "ImportFinished": "اكتمل الاستيراد",
     "Importing": "جارٍ الاستيراد",
+    "NoProjectInArchive": "لا يحتوي التنزيل على مشروع UEFN",
+    "SourceAlreadyDownloading": "هذا الأصل قيد التنزيل بالفعل",
+    "ProjectAlreadyImporting": "هذا المصدر قيد التنزيل بالفعل",
     "Fab.TooltipLoggedOut": "تحتاج إلى تسجيل الدخول للحصول على المحتوى من Fab"
   },
   "FeedbackHandleCustomization": {
@@ -1678,6 +1684,8 @@
     "Pick Map": "تحديد الخريطة",
     "SelectUEFNProject": "حدد مشروع UEFN",
     "UEFNProjectNameKey": "حدد مشروع UEFN",
+    "MapUIDataUpdateComplete": "اكتمل تحديث بيانات خريطة واجهة المستخدم",
+    "MapUIDataUpdateFailed": "تعذّر تحديث بيانات خريطة واجهة المستخدم.\n\nلم يتم تحديث بعض الجداول أو جميعها. يتم فتح أحدث ملف FortniteGame*.log في:\n{0}\nويتم البحث عن 'Error:' لمعرفة السبب (سحب حصري بواسطة مستخدم آخر، عدم وجود اتصال بـ Perforce، ملفات غير متزامنة، ...).",
     "UpdateMapUIData": "تحديث بيانات واجهة مستخدم الخريطة"
   },
   "FortQuestObjectiveEditor": {
@@ -2177,9 +2185,6 @@
     "AssetTypeActions_ItemAbilityConfigurationAsset": "أصل تكوين قدرة العنصر",
     "AssetDefinition_ItemAbilityEffectAsset": "أصل تأثير قدرة العنصر",
     "AssetTypeActions_ItemAbilityEffectAsset": "أصل تأثير قدرة العنصر",
-    "AssetDefinition_ItemOwnerPoseAsset": "وضعية مالك العنصر",
-    "AssetTypeActions_ItemOwnerPoseAsset": "وضعية مالك العنصر",
-    "ItemOwnerPoseAssetHasNullProxyTable": "وضعية مالك العنصر يتطلب ضبط جدول الوكيل",
     "AssetDefinition_ItemizationConfigurationAsset": "أصل تكوين التفصيل",
     "AssetTypeActions_ItemizationConfigurationAsset": "أصل تكوين التفصيل"
   },
@@ -2200,9 +2205,6 @@
   },
   "ItemComponentData_ItemTypeInventoryLimit": {
     "LimitAmount": "بيانات عنصر LimitAmount{0}زائدة عن الحاجة. مطلوب فقط عندما يكون LimitAmount > 0."
-  },
-  "ItemComponentData_OwnerPose": {
-    "PoseAsset": "بيانات عنصر وضعية المالك '{0}' يجب أن تتضمن أصل وضعية صالح!"
   },
   "ItemComponentData_SlotSize": {
     "SlotSize": "بيانات عنصر حجم الفتحة '{0}' زائدة عن الحاجة. تكون مطلوبة فقط عندما لا تكون قيمة SlotSize هي 1."
@@ -2567,17 +2569,6 @@
     "BranchHistoryTooltipText": "فتح علامة تبويب محفوظات الفرع.",
     "ConflictResolutionTooltipText": "فتح علامة تبويب حلّ التعارضات."
   },
-  "MTFAcc": {
-    "LifecycleOrderCollision": "LifecycleOrderCollision",
-    "LifecycleOrderFixtureA": "LifecycleOrderFixtureA",
-    "LifecycleOrderFixtureZVerify": "LifecycleOrderFixtureZVerify",
-    "LifecycleSelfSkip": "LifecycleSelfSkip",
-    "LifecycleSetupAssertFail": "LifecycleSetupAssertFail",
-    "LifecycleSetupFail": "LifecycleSetupFail",
-    "LifecycleTeardownAssertFail": "LifecycleTeardownAssertFail",
-    "LifecycleTeardownFail": "LifecycleTeardownFail",
-    "SuiteSetup": "SuiteSetup"
-  },
   "MakeNextInSeriesScreen": {
     "FolderComboToolTipText": "اختر فهرس المحتويات",
     "CreateQuestAsset": "إنشاء",
@@ -2607,6 +2598,63 @@
     "InvalidContext": "سياق الطلب غير صحيح.",
     "CheatsNotSupported": "لم يعد إرسال أوامر الغش من العميل/الخادم المخصص مدعومًا",
     "NoServicePerms": "غير قادر على العثور على أذونات الخدمة للخادم."
+  },
+  "MemoryCalculationFlow": {
+    "Stage_Calculating": "حساب استخدام الذاكرة",
+    "Stage_AcquiringManifest": "جلب بيانات الإصدار المهيأة",
+    "Stage_AcquiringBudget": "جلب حد ذاكرة المشروع",
+    "Stage_ReportingResult": "تسجيل النتيجة",
+    "Stage_WaitingForCook": "في انتظار التهيئة"
+  },
+  "MemoryCalculationGroupings": {
+    "GraphNodeExpandHint": "(يُرجى النقر نقرًا مزدوجًا للتوسيع)",
+    "PackageActorsExpandHint": "(يُرجى النقر نقرًا مزدوجًا للتوسيع)",
+    "NoActorGroup": "(لا يوجد كائن إشارة)",
+    "NoCellGroup": "(لا توجد خلية مرجعية)",
+    "UnknownReferencerGroup": "(أداة إشارة غير معروفة)",
+    "UntypedGroup": "(غير محدّد النوع)",
+    "ActorGroupingShort": "مُشير الكائن",
+    "PackageActorsGroupingShort": "الكائنات لكل حزمة",
+    "PackageActorsGroupingTitle": "الكائنات لكل حزمة",
+    "ActorGroupingTitle": "بحسب مُشير الكائن",
+    "CellGroupingTitle": "بحسب مُشير الخلية",
+    "DependencyGroupingTitle": "بحسب اعتماد الحزمة",
+    "ReferencerGroupingTitle": "بحسب مُشير الحزم",
+    "TypeGroupingTitle": "بحسب النوع",
+    "CellGroupingShort": "مُشير الخلية",
+    "ActorGroupingDesc": "تجميع كل حزمة تحت كل كائن يشير إليها.",
+    "CellGroupingDesc": "تجميع كل حزمة تحت كل خلية تشير إليها.",
+    "TypeGroupingDesc": "جمّع الحزم بحسب نوع الأصل، مع استخدام أيقونة النوع ولونه في مستعرض المحتويات.",
+    "PackageActorsGroupingDesc": "سرد كل حزمة مع الكائنات التي تشير إليها كعناصر فرعية قابلة للتوسيع (عكس بحسب مُشير الكائن).",
+    "DependencyGroupingShort": "اعتماد الحزمة",
+    "ReferencerGroupingShort": "مُشير الحزم",
+    "DependencyGroupingDesc": "شجرة اعتماد الحزم: تتوسع الحزمة الجذرية (لا تشير إليها أي حزمة) إلى الحزم التي تشير الحزمة إليها، بشكل متكرر.",
+    "ReferencerGroupingDesc": "شجرة مُشير الحزم: تتوسع الحزمة الجذرية (لا تشير إلى أي شيء) إلى الحزم التي تشير إلى الحزمة، بشكل متكرر.",
+    "TypeGroupingShort": "النوع"
+  },
+  "MemoryCalculationSubsystem": {
+    "MemoryCalculationTab_Tooltip": "يُرجى فحص نتيجة الذاكرة التي يحسبها المحرر وأكثر حزمها استهلاكًا للذاكرة.",
+    "MemoryCalculationTab": "حساب الذاكرة"
+  },
+  "MemoryCalculationTableViewModel": {
+    "PeakScope": "الذروة",
+    "PeakScopeFmt": "الذروة ({0})"
+  },
+  "MemoryCalculationViewPresets": {
+    "Preset_PkgActors": "الكائنات لكل حزمة",
+    "Preset_Type": "نوع الأصل",
+    "Preset_PkgDep_Tip": "شجرة الاعتمادات: تتوسع الحزمة الجذرية إلى الحزم التي تشير الحزمة إليها.",
+    "Preset_PkgActors_Tip": "يتم توسيع كل حزمة لتشمل الكائنات التي تشير إلى الحزمة.",
+    "Preset_Flat_Tip": "كل حزمة ضمن ذروة استهلاك الذاكرة، دون تجميع، بدءًا بالأكبر.",
+    "Preset_Flat": "مسطح",
+    "Preset_PkgDep": "اعتماد الحزمة",
+    "Preset_PkgRef": "مُشير الحزم",
+    "Preset_Type_Tip": "يتم تجميع الحزم بحسب نوع الأصل، مع عرض النوع الأكبر أولًا.",
+    "Preset_Cell_Tip": "الحزم ضمن كل خلية World Partition تشير إليها، مقسّمة بحسب نوع الأصل.",
+    "Preset_Actor_Tip": "الحزم التابعة لكل كائن مُشير.",
+    "Preset_PkgRef_Tip": "شجرة العناصر المُشيرة: تتوسع الحزمة الجذرية إلى الحزم التي تشير إليها.",
+    "Preset_Actor": "الكائن المُشير",
+    "Preset_Cell": "الخلية المرجعية"
   },
   "MemoryTimingViewExtender": {
     "NoPlayerTargetAvailableTooltip": "يجب أن يكون اللاعب متصلًا بالجلسة ليتم استخدامه كهدف للتتبع.",
@@ -2642,17 +2690,13 @@
     "ModularGateExpressionWidget_Title": "محرر تعبير البوابة",
     "ModularGateExpressionWidget_OK": "نعم"
   },
-  "ModularTest": {
-    "SuiteSetup": "SuiteSetup",
-    "SuiteTeardown": "SuiteTeardown"
-  },
   "NPCCharacterDefinition": {
     "MissingType": "النوع مفقود!",
     "InvalidSkeletalMeshComponent": "{0}: يجب أن تحتوي خطة الشخصية {1} على مكوّن شبكة هيكلية!",
     "MissingCharacterModifier": "{0}: معدِّل الشخصية مفقود!",
     "DuplicatedModifier": "{0}: مُعدِّلات متعددة من نوع {1}",
     "InvalidSkeletalMeshAsset": "{0}: لا يمكن أن يكون أصل الشبكة الهيكلية فارغًا في مكوّن الشبكة الهيكلية الخاص بـ {1}!",
-    "UnsupportedModifier": "{0}: مُعدِّلات غير مدعومة من نوع {0} للهوية {1}!"
+    "UnsupportedModifier": "{0}: مُعدِّلات غير مدعومة من نوع {1} للهوية {2}!"
   },
   "NPCCharacterDefinitionComponent": {
     "MissingDefinition": "{0}: تعريف الشخصية شخصية غير لاعب (NPC) مفقود {1}",
@@ -3073,6 +3117,55 @@
   "SLoreSourceControlWidgets": {
     "InvalidComboEntryText": "<<Invalid option>>"
   },
+  "SMemoryCalculationDetailsView": {
+    "NoCells": "(يتم تحميله دائمًا أو لا تشير إليه أي خلية)",
+    "NoActors": "(لا يوجد أي منها في عالم المحرر المحمّل)",
+    "Untyped": "(غير محدّد النوع)",
+    "Browse": "استعراض",
+    "FieldPath": "المسار",
+    "FieldRefs": "مُشيرات",
+    "ActorsHeader": "كائنات الإشارة ({0})",
+    "CellsHeader": "خلايا الإشارة ({0})",
+    "NoSelection": "يُرجى تحديد حزمة للاطلاع على نوعها وحجمها والخلايا والكائنات التي تشير إليها.",
+    "BrowseTip": "يُرجى تحديد هذا الكائن في المحرر (إذا كان محملًا حاليًا).",
+    "FieldSize": "الحجم",
+    "FieldType": "النوع",
+    "FieldVersePath": "مسار Verse"
+  },
+  "SMemoryCalculationPanel": {
+    "AlwaysLoadedLabel": "محمّل دائمًا:",
+    "FailedReason": "فشل الحساب: {0}",
+    "Details": "التفاصيل",
+    "Fail": "فشل",
+    "HeadroomSegment": "الهامش المتاح {0}",
+    "InProgress": "قيد التقدّم",
+    "InProgressStage": "قيد التقدّم ({0})",
+    "SamplesLabel": "المواقع التي يتم أخذ عينات منها:",
+    "PeakLocationTip": "نقل منفذ العرض النشط إلى الموقع الذي تمّ قياس الذروة فيه.",
+    "NoResultInitial": "لا توجد نتيجة",
+    "NoResult": "لا توجد نتيجة — يتم تشغيل «بدء حساب الذاكرة»",
+    "OtherSegment": "أخرى",
+    "Pass": "تمرير",
+    "PackagesLabel": "الحزم:",
+    "PeakLocationLabel": "موقع الذروة:",
+    "Statistics": "إحصائيات",
+    "OtherSegmentTip": "الأنواع التي تشغل أقل من {0} من الشريط، مجمعة: {1}",
+    "UntypedSegment": "غير محدّد النوع",
+    "NewerTip": "عرض نتيجة الحساب التالية (الأحدث).",
+    "OlderTip": "عرض نتيجة الحساب السابقة (الأقدم).",
+    "PeakLocation": "عند {0}",
+    "HistoryPos": "{0} / {1}  ({2})",
+    "HeadroomSegmentTip": "{0} من الميزانية غير مستخدم",
+    "PeakOfBudget": "{0} من {1}",
+    "PeakOverBudget": "{0} من {1} — تجاوز بمقدار {2}",
+    "SegmentTip": "{0}: {1} ({2} من الميزانية)"
+  },
+  "SMemoryCalculationTableTreeView": {
+    "AllScope": "الكل",
+    "ContextMenu_Section_Browse": "استعراض",
+    "AllScope_Tip": "عرض كل حزمة في الحساب، بما في ذلك الحزم غير الموجودة عند عينة الذروة.",
+    "PeakScope_Tip": "إظهار الحزم الموجودة عند نقطة عينة الذروة فقط — وهي المجموعة التي تشكّل أحجامها قيمة الذروة المُبلّغ عنها."
+  },
   "SMetricsTreeView": {
     "HeaderCheckBoxTooltip": "تمكين جميع المقاييس أو تعطيلها",
     "HeaderRowMetricsColumn": "مقاييس",
@@ -3369,8 +3462,6 @@
     "Settings.SizeBreakdownView.ToolTip.ShowDependencies": "عند التفعيل، يتم دمج أصول الاعتمادات في كل صف لكل نوع / لكل حزمة في طريقتي العرض بحسب النوع وبحسب الحزمة، مع إمكانية توسيع العناصر الفرعية لكل مصدر أسفل كل نوع. ليس له أي تأثير في طريقة العرض بحسب الاعتماد (التي تعرض الاعتمادات دائمًا).",
     "LastUploadedTimestampWithVersionFmt": "{0} (v{1})",
     "ActorClassLabelFormat": "{0} ({1} {1}|plural(zero=من الكائنات, one=من الكائنات, two=من الكائنات, few=من الكائنات, many=من الكائنات, other=من الكائنات))",
-    "SizeInKBFmt": "{0} كيلو بايت",
-    "SizeInMBFmt": "{0} ميجا بايت",
     "DownloadSizeWithLimitFmt": "{CombinedDownloadSize} / {ProjectDownloadSizeLimit}",
     "UploadSizeWithLimitFmt": "{ProjectUploadSize} / {ProjectUploadSizeLimit}",
     "EstimatedSizeFormat": "~{0}",
@@ -3406,50 +3497,49 @@
   "SValkyrieSessionInspector": {
     "SessionStatus_NewContentFinishedLoadingAll": "انتهاء عمل خدمة المحتوى. يتم تشغيل كل من الخادم والعميل الآن.",
     "SessionStatus_ContentError": "تلقي خطأ في المحتوى. تحقق من سجل المخرجات للحصول على التفاصيل.",
+    "SessionWallTime": "الوقت المنقضي:",
     "ValkyrieProjectSubMenuSessionSection": "أدوات تحرير مباشرة",
     "SessionStatus_NotConnected": "غير متصل بالجلسة.",
-    "OpenProject": "فتح المشروع:",
     "Settings.GeneralSettings.Label.OpenOnLaunchSession": "فتح عند تشغيل الجلسة",
-    "ViewSessionDSPortal_ToolTip": "فتح صفحة بوابة DS لأحدث جلسة",
-    "StatisticsHeading": "تفاصيل الجلسات",
     "ValkyrieSessionInspector": "راصد الجلسة",
     "Unavailable": "راصد الجلسات غير متوفر مؤقتًا. يُرجي إعادة المحاولة لاحقًا.",
-    "SessionStatus": "حالة الجلسة:",
-    "SessionWallTime": "الوقت الكلي للجلسة:",
     "Settings.GeneralSettings": "إعدادات",
-    "SettingsText": "إعدادات",
+    "SettingsToolTip": "الإعدادات",
     "Settings.GeneralSettings.ToolTip.OpenOnLaunchSession": "هل يجب فتح أداة فحص الجلسات تلقائيًا عند النقر على تشغيل الجلسة؟",
+    "SessionStatus": "الحالة:",
     "SessionWallTimeTooltip": "المدة الزمنية المنقضية منذ النقر على \"تشغيل الجلسة\" أو \"دفع التغييرات\"، وحتى يتم تجهيز وتنزيل جميع الوحدات.",
-    "ViewSessionDSPortal": "عرض الجلسة على بوابة DS (خاص بـ EpicDev فقط)",
+    "ViewLogsButton": "عرض السجلات",
     "ValkyrieSessionInspector_Tooltip": "عرض حالة جلسة التحرير المباشر الخاصة بك",
     "SessionStatus_LoadingNewContent": "في انتظار إنهاء إعداد جميع الوحدات وتحميل المحتوى من الخادم.",
     "SessionStatus_NewContentFinishedLoadingServer": "في انتظار جهازية العميل",
     "SessionStatus_NewContentFinishedLoadingClients": "في انتظار تهيئة نهائية للمحتوى...",
-    "SessionStatus_DistributingToConnectedSession": "في انتظارخادم الجلسة.",
-    "ViewSessionDSPortal_ToolTipEx": "{0}\nتمّ بدء أحدث جلسة {1}"
+    "SessionStatus_DistributingToConnectedSession": "في انتظارخادم الجلسة."
   },
   "SValkyrieSessionInspectorCookMonitor": {
-    "SessionBaseEntriesTree.Column.EndDate": "وقت الإكمال",
+    "ViewAllCookJobsDashboard": "جميع المهام",
+    "CookJobsLabel": "مهام التهيئة",
     "CookFailedStatusTooltip": "تعذّرت مهمة التهيئة.",
     "CookSuccessStatusTooltip": "نجحت مهمة التهيئة.",
     "CookUnknownStatusTooltip": "حالة التهيئة غير متاحة.",
     "CookFromCache_ToolTip": "تمّ استرداد البيانات المهيّأة من المخزن المؤقّت.",
     "ContextMenu_CopyTooltip": "نسخ قيمة العمود",
     "ContextMenu_Copy": "نسخ",
+    "ViewSessionDSPortal": "بوابة الخادم المخصّص",
+    "SessionBaseEntriesTree.Column.WallTime": "الوقت المنقضي",
     "IndirectDependencies": "الاعتمادات غير المباشرة",
+    "SessionBaseEntriesTree.Column.EndDate": "تاريخ آخر تهيئة",
     "ModuleVersionMultiple": "متعدد",
     "SessionBaseEntriesTree.Column.Name": "الاسم",
     "NoCorrelationIds": "لا تتوفر معرّفات ارتباط متاحة.",
-    "ViewAllCookJobsDashboardTooltip": "يتم فتح لوحة معلومات خدمة المحتوى مع تصفيتها بحسب كل معرّف ارتباط لمهام التهيئة أدناه.",
+    "ViewAllCookJobsDashboardTooltip": "فتح لوحة معلومات خدمة المحتوى بعد تصفيتها بحسب كل معرّف ارتباط لمهام التهيئة أدناه. (EpicDev فقط)",
+    "ViewSessionDSPortal_ToolTip": "فتح صفحة بوابة الخادم المخصّص لأحدث جلسة. (EpicDev فقط)",
     "ReferencingProjects": "الإشارة إلى المشاريع",
-    "CookJobsLabel": "مهام تهيئة الجلسة",
     "SessionBaseEntriesTree.Column.Status": "الحالة",
     "SessionBaseEntriesTree.Column.Version": "الإصدار",
-    "ViewAllCookJobsDashboard": "عرض جميع المهام (EpicDev فقط)",
     "ViewCookStatus": "عرض حالة التهيئة",
-    "SessionBaseEntriesTree.Column.ViewInJobDashboard": "عرض في لوحة معلومات المهام (EpicDev فقط)",
+    "SessionBaseEntriesTree.Column.ViewJob": "عرض الوظيفة",
     "ViewJob": "عرض الوظيفة",
-    "SessionBaseEntriesTree.Column.WallTime": "الزمن المنقضي",
+    "ViewSessionDSPortal_ToolTipEx": "{0}\nبدأت أحدث جلسة {1}. (EpicDev فقط)",
     "ModuleDisplayName": "{0} ({1})"
   },
   "SValkyrieSessionInspectorStagingLogs": {
@@ -3493,11 +3583,14 @@
   },
   "SValkyrieSessionInspectorStagingMonitor": {
     "Canceled": "ملغى",
+    "StepStatus_Completed": "تمّ إكمال ({0})",
     "Label_Cooking": "التهيئة",
     "ToolTip_Versioning": "إنشاء إصدار جديد للوحدة النمطية. يتم تنفيذ هذه الخطوة فقط إذا لزم الأمر.",
     "ToolTip_Downloading": "تنزيل المحتوى الذي تمت تهيئته إلى خادم الجلسة.",
     "Label_Downloading": "جارٍ التنزيل",
+    "StepStatus_Failed": "فشل ({0})",
     "ToolTip_Playing": "إنهاء إعداد الجلسة والتحضير للتشغيل.",
+    "StepStatus_InProgress": "قيد التقدّم ({0})",
     "NotStarted": "لم يبدأ",
     "ToolTip_PreparingForUpload": "تنفيذ المتطلبات الأساسية للتحقق من مشروع وتحميله.",
     "Label_Playing": "قيد التشغيل",
@@ -3508,8 +3601,8 @@
     "ToolTip_Validating": "التحقق من ملائمة أصول المشروع للتحميل.",
     "Label_Validating": "جارٍ التحقق من الصحة",
     "Label_Versioning": "إعداد الإصدار",
-    "ViewLogsButton": "عرض السجلات",
-    "ToolTip_Cooking": "انتظر تهيئة كل الوحدات النمطية وتحميل المحتوى من الخادم."
+    "ToolTip_Cooking": "انتظر تهيئة كل الوحدات النمطية وتحميل المحتوى من الخادم.",
+    "StepToolTipFormat": "{0}: {1}\n{2}"
   },
   "SVerbDebugger": {
     "AdditionalFilters": "عوامل تصفية إضافية",
@@ -3558,8 +3651,10 @@
     "BuildErrorsMessage": "تم العثور على أخطاء في إصدار Verse أثناء فتح {0}. أصلح الأخطاء التالية في تعليمة Verse البرمجية الخاصة بك، ثم أعد البناء. قد يسبب حفظ الأصول دون إصلاح الأخطاء في فقد البيانات."
   },
   "SVkContentResolutionViewer": {
+    "PillDepsMore": "\t(+{0} أخرى)",
     "ModuleDep": "\t{0}",
     "ModuleStaticDep": "\t{0}",
+    "PillDepPath": "\t{0}",
     "ForkStack": "**** مكدّس التفرّع ****",
     "ModuleDetails": "**** تفاصيل الوحدة ****",
     "ModuleAccess": "الوصول: {0}",
@@ -3591,6 +3686,8 @@
     "BuildForkError": "تعذّر العثور على تفرّع البناء '{0}'",
     "ForkCreated": "تمّ إنشاء: {0}",
     "ModuleCreationDateTime": "تاريخ الإنشاء: {0}",
+    "PillDepsLive": "الاعتمادات المنشورة مباشرةً:",
+    "PillDepsFork": "الاعتمادات المنشورة للتفرّع {0}:",
     "ModuleDeps": "الاعتمادات:",
     "ModuleDescription": "الوصف: {0}",
     "WsIdHint": "يُرجى إدخال معرّف التفرّع",
@@ -3630,6 +3727,7 @@
     "BrowseProjectTooltip": "تحديد مسار Verse من مشروع موجود على القرص.",
     "StarredLabel": "مُميَّز بنجمة",
     "WsModeTeam": "فريق",
+    "ForkStackCycleError": "تحتوي السلسلة الأصل للتفرّع على دورة. عرض السلسلة المحدّدة حتى التفرّع المتكرر.",
     "ModuleTitle": "العنوان: {0}",
     "ModuleCreationDateUnavailable": "غير متاح",
     "ModuleVersePath": "مسار Verse: {0}",
@@ -3639,6 +3737,7 @@
     "VkContentResolutionTree_ViewOnContentServiceTooltip": "الاطلاع على الوحدات المحدّدة على موقع خدمة المحتوى الإلكتروني.",
     "NotLoggedIn": "يجب تسجيل الدخول لاستخدام هذه الأداة",
     "VersionLabel": "الإصدار {0}",
+    "VersePathWithModuleId": "{0} {1}",
     "ForkNameAndId": "{0} ({1})"
   },
   "SVkForkSelector": {
@@ -3873,6 +3972,8 @@
     "MemoryProfilerTabTooltip": "عرض تفاصيل استخدام ذاكرة العميل."
   },
   "UE::SpatialMetrics::MetricActionUtils": {
+    "AlreadySnapshottingAction": "جارٍ التتبّع بالفعل",
+    "AlreadyTracingAction": "جارٍ التتبّع بالفعل",
     "StartCaptureAction": "بدء الالتقاط",
     "TakeSnapshotAction": "خذ لقطة"
   },
@@ -3896,6 +3997,7 @@
     "UploadProject.Error.TargetVersionDocUnset": "فشل تحديد مكون إضافي لتجربة الجذر لتحديث جلسة التحرير",
     "FailedToStageAndValidateFiles": "تعذّر إعداد ملفات المصدر المحلية للمشروع '{0}' والتحقّق من صحتها",
     "StagingFailed": "فشل تحميل مشروع المرحلة\n{0}",
+    "WriteInternalApiDescriptorFailed": "تعذّرت كتابة واصف واجهة برمجة التطبيقات الداخلية للمشروع '{0}'.",
     "WritePublicApiDescriptorFailed": "تعذّر كتابة واصف واجهة برمجة التطبيقات العامة للمشروع '{0}'.",
     "InitSyncModules": "جارٍ تهيئة المشروع '{0}' لتحميله...",
     "Initializing": "جارٍ التهيئة...",
@@ -3910,6 +4012,7 @@
     "ValidationFailed": "فشل التحقق من صحة المشروع",
     "ValidationAutoFixup.RunButton": "تشغيل الإصلاح",
     "ValidationAutoFixup.Heading": "هل تريد تشغيل إصلاح التحقق من الصحة؟",
+    "RunningContentValidation": "جارٍ تشغيل التحقّق من صحة المحتوى...",
     "ShowMessageLogHyperlink": "عرض سجل الرسائل",
     "ShowOutputLogHyperlink": "عرض سجل المخرجات",
     "ValidationAutoFixup.SkipButton": "تخطى الإصلاح",
@@ -3984,6 +4087,12 @@
     "ResetTextureOnSelectedSaticMeshBuildingActors_ToolTip": "يُعاد التعيين إلى الصورة الأولية الافتراضية لكائنات بناء الشبكة الثابتة المحددة",
     "RotateSelectedBuildingActors": "تدوير كائنات البناء المحددة",
     "RotateSelectedBuildingActors_ToolTip": "تدوير كائنات البناء المحددة في منفذ العرض"
+  },
+  "UICommands.MemoryCalculationCommands": {
+    "BrowseToAsset": "الاستعراض وصولاً إلى الأصل",
+    "SelectInOutliner": "التحديد في المُحدّد",
+    "SelectInOutliner_ToolTip": "تحديد الكائن (الكائنات) في المرحلة.",
+    "BrowseToAsset_ToolTip": "مزامنة مستعرض المحتوى مع الحزمة (الحزم) المحدّدة. يتم تخطي الحزم التي لا تحتوي على أصل على القرص (الخلايا المنشأة، VerseDebugData، ...)."
   },
   "UICommands.SGridView": {
     "ShowAxes": "الفؤوس",
@@ -4456,6 +4565,26 @@
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Tooltip": "جمع الكائن المحمّل من المستوى الحالي الذي يحتاج إلى شبكة مزاحة، وإنشاء الشبكات المفقودة. ستقوم الأداة أيضًا بالحفاظ على الكائنات المعدلة إلى أن يتم حفظها.",
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Label": "إنشاء شبكات مزاحة لشبكات Nanite الدائمة"
   },
+  "VK_MEMCALC_ERRORS": {
+    "ManifestFileUnreadable": "تعذّرت قراءة بيان الذاكرة من '{Path}'.",
+    "InvalidModuleBinaries": "لا يحتوي ناتج المحتوى على ملفات ثنائية مهيأة أو مهمة تهيئة.",
+    "ContentServiceUnavailable": "خدمة المحتوى غير متاحة.",
+    "ContentServiceFailure": "تعذّر طلب خدمة المحتوى: {Detail}",
+    "EmptyManifest": "لا تحتوي MemoryManifest على حزم.",
+    "ManifestMissingSizeChunkTypes": "لا يعلن بيان الذاكرة MemoryManifest عن أي أنواع SizeChunkTypes.",
+    "ManifestParseFailed": "بيان الذاكرة MemoryManifest ليس بتنسيق JSON صالح ({NumChars} من الأحرف).",
+    "NoPublishedModuleVersion": "لا توجد نسخة منشورة للوحدة {Module}.",
+    "NoClientArtifact": "لا يوجد ناتج للعميل '{Platform}' في الوحدة الجذرية.",
+    "InvalidBuildCode": "لا يوجد رمز إصدار لربط النتيجة به.",
+    "NoProjectOpen": "لا يوجد مشروع رئيسي مفتوح.",
+    "NoRootWorld": "لا يوجد عالم جذري مشتق من خلايا تقسيم العالم الخاصة ببيان الذاكرة MemoryManifest أو الحزم من نوع العالم.",
+    "NoPublishingMemoryLimit": "لا يحتوي المشروع {Project} على حد لذاكرة النشر.",
+    "RequestAbandoned": "انتهى الطلب بدون الإبلاغ عن نتيجة.",
+    "ManifestSizeChunkTypesMismatch": "لا تتطابق قيم SizeChunkTypes ‏[{Declared}] مع القيم المتوقعة [{Expected}].",
+    "ManifestUnknownChunkType": "الإدخال '{ChunkType}' الخاص بأنواع SizeChunkTypes غير معروف.",
+    "EngineVersionMismatch": "{NumModules} من الوحدات تمّ رفعها بواسطة إصدار مختلف من المحرك، بما في ذلك {Module} الإصدار {ModuleVersion} بواسطة '{UploadedEngineVersion}'، هذا المحرر '{CurrentEngineVersion}'. يُرجى بدء الجلسة للتحديث.",
+    "LatticeTooLarge": "تتجاوز {RequestedSamples} من العينات الحد الأقصى {MaxSamples} (الخطوة {SpatialPrecision} سم)."
+  },
   "ValidateSchematics": {
     "DisplayText": "جارٍالتحميل...",
     "Test": "لا يوجد أخطاء!",
@@ -4611,6 +4740,14 @@
   "ValkyrieChangelistValidator": {
     "VkChangelistInvalid": "لا تحدد قائمة التغييرات علامة ‎#preflight بشكل صحيح. يرجى المتابعة إلى Horde لإجراء اختبار أوليّ قبل الإرسال."
   },
+  "ValkyrieContentGovernance": {
+    "PluginReferenceViolation": "تمّ العثور على مرجع للأداة الإضافية '{0}' غير المسموحة",
+    "MutuallyExclusivePluginReferenceViolation": "تمّ العثور على مراجع لمجموعات أدوات إضافية حصرية مشتركة",
+    "InvalidRuleField_EntitlementId": "قيمة مفقودة للحقل: EntitlementId",
+    "InvalidRuleField_Tag": "قيمة مفقودة للحقل: العلامة",
+    "InvalidRuleField_Type": "نوع قاعدة غير معروف:",
+    "MutuallyExclusivePluginSet": "{0}: {1}"
+  },
   "ValkyrieContentServiceCmds": {
     "ArchiveProject": "جارٍ أرشفة مشروع '{0}'",
     "ArchiveProjects": "تتم أرشفة المشاريع...",
@@ -4682,20 +4819,20 @@
     "MemoryTestResults": "نتائج اختبار الذاكرة",
     "MemorySamplingAlreadyRunning": "جمع عينات الذاكرة جارٍ بالفعل!",
     "VerseVersion.Title": "نسخة Verse الجديدة المتاحة",
-    "NoVersePathsAssigned": "لم يتم تغيير أي مسارات Verse.",
     "VerseVersion.RemindMeLater.Tooltip": "قم بإعلام مرة أخرى إذا لم يكن هذا المشروع في أحدث إصدار ثابت من Verse في المرة القادمة التي يتم فيها فتحه",
     "UploadProjectsParallelAlreadyRunning": "تدفق التحميل المتوازي قيد التشغيل بالفعل",
     "PrepareProjectForUploadAlreadyRunning": "جار تحضير المشروع للتحميل بالفعل...",
     "VerseVersion.Msg": "يستخدم المشروع '{0}' الإصدار {1} من Verse.\nيمكنك التحديث الآن إلى الإصدار {2} من Verse أو تغييره لاحقًا من خلال إعدادات المشروع.",
     "CreateBuildAlreadyRunning": "جارٍ إنشاء بناء المشروع بالفعل",
-    "PublicAssetChangeNoContentService": "يجب مزامنة المشروع مع خدمة المحتوى للعبث بالأصول العامة\nتأكد من تسجيل الدخول",
+    "PublicAssetChangeNoContentService": "يجب مزامنة المشروع مع خدمة المحتوى لتعديل الأصول المكشوفة أو معيدات التوجيه\nيُرجى التأكّد من تسجيل الدخول",
+    "ProjectValidationCanceled": "Project validation was canceled",
     "VerseVersion.RemindMeLater": "قم بتذكيري لاحقًا",
     "SanitizePublicApiAlreadyRunning": "تنقية واجهة برمجة التطبيقات العامة قيد التشغيل بالفعل",
     "SaveOutputPageLabel": "حفظ الإخراج",
     "SavePackagesAlreadyRunning": "عملية حفظ ملفات الحزمة قيد التشغيل بالفعل",
-    "SelectProjectsToAssignVersePathsTo.Title": "تحديد المشاريع",
-    "SelectProjectsToAssignVersePathsTo.Message": "اختر المشاريع التي ترغب في تعيين أو تحديث مسارات Verse لها تلقائيًا:",
-    "PromptForDestructiveAPIAction": "يمكن الإشارة إلى (الأصل) الأصول المحددة بشكل عام في المشروع المنشور. \n{0}\n\nلمتابعة هذا الإجراء، ستحتاج إلى إنشاء فروع للمشروع لديك.\nهناImported Experimental Devices. يمكنك تعديل الأصول العامة قبل نشرها ضمن مشروع جديد.",
+    "ExposedAssetDestructiveAPIAction": "يمكن الإشارة إلى الأصل (الأصول) المحدّدة خارجيًا في المشروع المنشور:\n{0}",
+    "RedirectorToExposedAssetDestructiveAPIAction": "تعيد مُعيدات التوجيه المحدّدة التوجيه إلى أصول مكشوفة في المشروع المنشور:\n{0}",
+    "RedirectorAnotherProjectDestructiveAPIAction": "تُعيد مُعيدات التوجيه المحدّدة التوجيه إلى مشاريع أخرى من المشروع المنشور:\n{0}",
     "SimpleTemplateMapDisplayNameText": "بسيط",
     "SimpleTemplateMapDescriptionText": "مثال مستوى بسيط.",
     "BlankTemplateMapDescriptionText": "مرحلة بسيطة مع جهازي نشر.",
@@ -4704,8 +4841,8 @@
     "VerseVersion.Update.Tooltip": "قم بتحديث هذا المشروع إلى أحدث إصدار مستقر من Verse  ({0})\nلاحظ أنه يمكنك العودة مرة أخرى إلى أي إصدار Verse في أي وقت في إعدادات المشروع)",
     "UploadProjectsParallelNotRunning": "التحميل المتوازي للمشاريع لا يعمل",
     "ValidateProjectAlreadyRunning": "عملية التحقّق من صحة المشروع قيد التشغيل بالفعل",
-    "VersePathsAssigned": "تم تعيين مسارات Verse للمشاريع التالية:",
-    "Error.LocalizationDataEditingDisabled": "ليس لديك الإذن بتعديل بيانات الترجمة يدويًا. استخدم \"إنشاء -> إنشاء الترجمة التلقائية\" لترجمة البيانات."
+    "Error.LocalizationDataEditingDisabled": "ليس لديك الإذن بتعديل بيانات الترجمة يدويًا. استخدم \"إنشاء -> إنشاء الترجمة التلقائية\" لترجمة البيانات.",
+    "PromptForDestructiveAPIAction": "{0}\n\nللمتابعة في هذا الإجراء، ستحتاج إلى إنشاء فرع لمشروعك.\nهناك يمكنك تعديل واجهة برمجة تطبيقات المشروع قبل النشر ضمن مشروع جديد."
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "تكوين {0} الميزات",
@@ -4800,8 +4937,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}: تم إعداد البيانات بنجاح لـ {1}"
   },
   "ValkyrieEditorMemoryCalculation": {
-    "MemoryRatio": "{0}/{1}",
-    "MemoryRatioUnitsMb": "{0}/{1} ميغابايت"
+    "MemoryRatioUnitsMb": "{0} / {1}",
+    "MemoryRatio": "{0}/{1}"
   },
   "ValkyrieEditorMenus": {
     "FixValidationIssues.ActorOptions.Tooltip": "محاولة لحل بعض مشكلات التحقق من الصحة على هذه الكائنات تلقائيًا.",
@@ -4886,7 +5023,6 @@
   },
   "ValkyrieEditorUtils": {
     "CannotUseMoreThanOneBrand": "لا يمكن استخدام العلامة التجارية '{0}' أثناء '{1}' قيد التنشيط",
-    "CopyFiles": "جارٍ نسخ الملفات...",
     "FailCreatePerforceProvider": "تعذر إنشاء مقدم Perforce revision control",
     "FailLoadBrandPlugins": "تعذّر تحميل الأدوات الإضافية {0}",
     "FailUnloadBrandPlugins": "تعذّر إلغاء تحميل الأدوات الإضافية {0}",
@@ -5407,6 +5543,7 @@
     "ValkyrieGFSSelectionWarningCancelButton": "إلغاء",
     "ValkyrieGFSSelectionWarningTitle": "تغيير العلامة التجارية",
     "ValkyrieGFSSelectionWarningConfirmButton": "تأكيد",
+    "ValkyrieFortniteGFSReloadFailed_Title": "تعذّر تبديل العلامة التجارية",
     "ValkyrieFortniteGFSSelectionToast_Dismiss": "تجاهُل",
     "ValkyrieFortniteGFSSelectionToast_Title": "تمّ تغيير العلامة التجارية للمشروع بنجاح!",
     "ValkyrieFortniteGFSSelectionToast_Body": "يجب إغلاق هذا المشروع وإعادة فتحه حتى تصبح تغييرات العلامة التجارية مُطبّقة. بعد إعادة فتح المشروع، يتم إزالة جميع الأصول من العلامة التجارية السابقة لمنع حدوث أخطاء في التحقق من الصحة."
@@ -5537,6 +5674,32 @@
     "LocalLoreProjectAnnotationText": "هذا المشروع مدعوم من قبل Lore.",
     "RequiredProjectPermissions": "يتطلب هذا المشروع إذن {0} لتعديله بشكل صحيح.",
     "IncompatibleProjectVersionText": "نسخة المشروع ({0}) غير متوافقة مع المحرك الحالي ({1})"
+  },
+  "ValkyrieMemoryCalculationTable": {
+    "ColActorsTitle": "مُشيرات الكائنات",
+    "ColActors": "مراجع الكائنات",
+    "ColTypeTitle": "نوع الأصل",
+    "ColNameDesc": "التسلسل الهرمي لشجرة الحزم.",
+    "ColName": "الاسم",
+    "ColActorsDesc": "عدد الكائنات المحمّلة التي تشير إلى هذه الحزمة.",
+    "ColRefsDesc": "عدد الحزم التي تشير مباشرةً إلى هذه الحزمة.",
+    "ColNameTitle": "التسلسل الهرمي للحزم",
+    "ColPackagePath": "مسار الحزمة",
+    "ColPathTitle": "مسار الحزمة",
+    "ColRefsTitle": "مُشيرات الحزمة",
+    "ColRefs": "مراجع الحزمة",
+    "ColSizeTitle": "حجم الحزمة",
+    "ColPath": "المسار",
+    "ColPackagePathTitle": "مسار الحزمة الخام",
+    "ColSize": "الحجم",
+    "ColVersePathDesc": "مسار Verse الخاص بالحزمة، فارغ للحزم التي لا تحتوي على مسار.",
+    "ColPathDesc": "المسار الكامل للحزمة: مسار Verse الخاص بها عندما يكون لها مسار، وإلا فيكون مسار الحزمة الخاص بها.",
+    "ColPackagePathDesc": "مسار الحزمة في المحرر، بغض النظر عن أي مسار Verse.",
+    "ColSizeDesc": "حجم الحزمة.",
+    "ColTypeDesc": "نوع الأصل الأساسي في الحزمة، كما يظهر في مستعرض المحتويات.",
+    "ColType": "النوع",
+    "ColVersePath": "مسار Verse",
+    "ColVersePathTitle": "مسار Verse"
   },
   "ValkyrieMissingFileProjectCustomization": {
     "NoFile": "لا يتوفر ملف مشروع لفتحه",
@@ -5680,7 +5843,7 @@
     "SyncedInvalidProjectFile": "ملف المشروع الذي تم مزامنته من متحكم المراجعة غير صالح",
     "AssignVersePath.NotSyncedWithContentService": "يجب مزامنة المشروع مع خدمة المحتوى لتعيين مسار Verse",
     "PurgeVersePath.NotSyncedWithContentService": "يجب مزامنة المشروع مع خدمة المحتوى لحذف مسار Verse",
-    "VerifyLivePublicAssetsNoContentService": "يجب مزامنة المشروع مع خدمة المحتوى للتحقق من api العام المباشر الخاص به\nتأكد من تسجيل الدخول",
+    "VerifyLivePublicAssetsNoContentService": "يجب مزامنة المشروع مع خدمة المحتوى للتحقّق من واجهة برمجة التطبيقات المباشرة الخاصة به\nيُرجى التأكّد من تسجيل دخولك",
     "RemovePublicApiIfAllowed.ProjectNotOpened": "المشروع غير مفتوح",
     "SanitizePublicApiIfAllowed.ProjectNotOpened": "المشروع غير مفتوح",
     "FeatureSetInProjectPluginDependency": "لا يُسمح لمكونات المشروع الإضافية بتعيين ميزات في تبعياتها.\n\nنتيجة: {0}\n\nيجب تحديد مجموعة الميزات في ملف المشروع.",
@@ -6000,13 +6163,16 @@
     "RemapLocalVsReferencedContent.CannotFindExternalModule": "لا يمكن العثور على المحتوى المرجعي للوظيفة إضافية الإضافي للمشروع{0}",
     "RemapLocalVsReferencedContent.CannotFindLocalPlugin": "لا يمكن العثور على وظيفة إضافية إضافي للمشروع العام للمحتوى المرجعي'{0}'",
     "VKCannotFindPlugin": "لا يمكن العثور على الأداة الإضافية",
+    "PublishTooManyModules": "تعذّر نشر {0} من الوحدات دفعة واحدة. الحد الأقصى {1}.",
     "CloseRefSourceProjects.ProjectReload.Title": "إغلاق مصدر المحتوى",
     "CloseRefSourceProject": "جارٍ إغلاق مشروع مصدر المحتوى المشار إليه '{0}'...",
     "CloseRefSourceProjects": "جارٍ إغلاق مشروع (مشاريع) مصدر المحتوى المشار إليه...",
     "CopyPluginAssets.CopyingAssets": "جارٍ نسخ الأصول...",
     "CopyVerseFiles": "جارٍ نسخ ملفات Verse...",
     "CopyLocFiles": "جارٍ نسخ ملفات التوطين...",
+    "CopyingPluginContent": "جارٍ نسخ محتوى الأداة الإضافية...",
     "CopyNonContentFiles": "جارٍ نسخ ملفات المكونات الإضافية...",
+    "CopyingPlugin": "جارٍ نسخ الأداة الإضافية...",
     "ErrorGettingLinkCodeInfoMessage": "تعذّر العثور على معرّف المشروع لـ '{0}'.",
     "ErrorResolvingVersePathMessage": "تعذّر العثور على معرّف المشروع لـ '{0}'.",
     "FeatureSetDefinitionNotFound": "تعذر الحصول على تعريف لمجموعة الميزات 'البيانات الوصفية{0}'. تأكّد من وجوده ومن أنّ الأذونات تسمح بتحميله.",
@@ -6021,11 +6187,13 @@
     "VKFailLoadGameFeaturePlugin": "فشل تحميل الأداة الإضافية\n{0}\n\n{1}",
     "VKFailLoadPlugin": "فشل تحميل الأداة الإضافية\n{0}\n{1}",
     "RemapLocalVsReferencedContent.FailedToLoadAsset": "فشل التحميل {0}",
+    "PublishModuleBatchItemError": "تعذّر نشر وحدة أو أكثر إلى التفرّع",
     "RemapLocalVsReferencedContent.FailedToRemap": "فشل في إعادة تعيين بعض (المرجع) المراجع في {0}",
     "OpenSourceProjects.FailGetProjectInfo": "فشل في استرداد المعلومات على '{0}'",
     "RemapLocalVsReferencedContent.FailSave": "فشل حفظ بعض الأصول (راجع سجل الرسائل)",
     "VKFailTerminateGameFeaturePlugin": "فشل إنهاء الأداة الإضافية لميزة اللعبة غير الناجحة \n{0}\n\n{1}",
     "VKProjectFolderNotEmpty": "توجد الملفات ضمن:\n{0}\nيتم إزالة هذه الملفات أو يتم اختيار اسم أو موقع مختلف.",
+    "PublishFinalizing": "جارٍ إنهاء النشر...",
     "FixingProjectSlowTask": "يتم الآن إصلاح المشروع...",
     "GatherVerseFiles": "جارٍ تجميع ملفات Verse...",
     "CopyPluginAssets.GatherAssets": "جارٍ جمع الأصول...",
@@ -6073,8 +6241,9 @@
     "PublishToForkUploadFailed": "تعذّر تحميل المشروع",
     "PublishToForkCanceled": "تمّ إلغاء النشر إلى التفرّع",
     "PublishToForkError": "تعذّرت عملية النشر إلى التفرّع",
-    "PublishedModule": "تمّ نشر '{0}'...",
     "PublishSystemComment": "نُشر مع {0} الإصدار {1}",
+    "PublishComplete": "تمّ نشر {0} من الوحدات",
+    "PublishedModules": "تمّ نشر {0} من {1} الوحدات...",
     "PublishProjectsToFork": "جارٍ نشر المشاريع إلى تفرّع '{0}'...",
     "PublishingModules": "جارٍ نشر {0} من الوحدات النمطية إلى التفرّع...",
     "RetrievingProjectInformationMessage": "جارٍ إعادة الربط بالمشروع المتصل عبر الإنترنت...",
@@ -6109,6 +6278,7 @@
     "RemapLocalVsReferencedContent.NoRootPlugin": "لا توجد أداة إضافية جذر في المشروع",
     "RemapLocalVsReferencedContent.SinglePluginProject": "لا يوجد شيء لإعادة تعيينه لأن المشروع يحتوي على أداة إضافية واحدة فقط",
     "RemapLocalVsReferencedContent.NoRefencedContent": "لا يوجد شيء لإعادة تعيينه لعدم وجود محتوى مرجعي",
+    "PublishModuleEmptyResult": "تعذّر تأكيد نتائج النشر",
     "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "خطأ غير متوقع في إعادة التعيين {0}",
     "UnloadingPlugins": "جاري تحميل الأدوات الإضافية...",
     "GatherReferencedContentToLoad.MultiProjectIncompatible.Title": "تحذير",
@@ -6232,6 +6402,7 @@
     "Experimental_VerseCheckUnavailable": "لم يتم التمكن من تشغيل التحقق من ميزات Verse التجريبية (تشخيصات التهيئة غير متاحة).",
     "PublishingReport_MemoryUsage": "استخدام الذاكرة",
     "MemoryCheck_Calculating": "استخدام الذاكرة: جارٍ الاحتساب...",
+    "MemoryCheck_CalculationFailed": "استخدام الذاكرة: تعذّر الحساب",
     "MemoryCheck_SamplerFailed": "استخدام الذاكرة: فشل الاحتساب",
     "MemoryCheck_NotYetCalculated": "استخدام الذاكرة: لم يتم الاحتساب بعد",
     "MemoryCheck_Result": "استخدام الذاكرة: {0}",
@@ -6472,9 +6643,12 @@
     "UploadRate": "جاري تحميل {0}/{1}{3}، {2}{3}/ث"
   },
   "ValkyrieValidator": {
-    "InventorySettingValidatorMessage": "تمّ تمكين إعداد \"المخزون المخصّص\" في المرحلة ولكن ليس في إعدادات المشروع.",
+    "InventorySettingValidatorMessage": "إعداد \"المخزون المخصّص\" مفعّل في إعدادات المشروع ولكن ليس في المرحلة.",
+    "InventorySettingValidatorMessageLevelActive": "تمّ تمكين إعداد \"المخزون المخصّص\" في المرحلة ولكن ليس في إعدادات المشروع.",
     "MetaSoundValidationFail_PresetInvalidObject": "الأصل المشار إليه بواسطة الإعداد المسبق لـ MetaSound يجب أن يكون غرضًا صالحًا",
     "Invalid Parent": "الأصل {0} تابع لفئة غير قانونية {1}",
+    "CheckingAssetReferences": "جارٍ فحص مراجع الأصول...",
+    "CompilingBlueprintsPhase": "جارٍ شرح الخطط...",
     "VirtualizedDataValidate": "يحتوي على بيانات افتراضية ولن يعمل مع UEFN! سيحتاج ملف الحزمة إلى إعادة الترطيب.",
     "Blueprints.Fixer.NullBlueprint": "تعذر العثور على الخطة: {0}",
     "Properties.Fixer.NullObject": "تعذر العثور على الكائن: {0}",
@@ -6498,6 +6672,8 @@
     "Blueprints.Fixer.Transaction": "المخطط الذي تمّ تصحيحه",
     "Blueprints.Fixer.SanitizedBlueprint": "المخطط الذي تمّ تصحيحه: {0}",
     "Blueprints.Error.RestrictedContent": "يحتوي هذا المخطط على محتوى مقيد. يتم تصحيحه لإزالة المحتوى المقيد التالي: ({ValidatorClass})",
+    "ValidatingAssetsPhase": "جارٍ التحقق من الأصول...",
+    "ValidatingProjectContent": "جارٍ التحقق من محتوى المشروع...",
     "VirtualizedData": "يحتوي على بيانات افتراضية ولن يعمل مع UEFN! سيحتاج ملف الحزمة إلى إعادة الترطيب.",
     "ValkyrieVerseValidationError": "{0} واجه خطأ (أخطاء) أثناء عملية شرح Verse. مشاهدة تشخيصات بناء Verse.",
     "MissingGameFeatureData": "{0} يفتقد إلى أصل GameFeatureData",
@@ -6813,6 +6989,9 @@
     "CookedContentTimeout": "حدث خطأ أثناء التواصل مع خوادم اللعبة: انتهاء المهلة.",
     "StopAutoLocalizationJob.Error.FailedToStop": "فشل في إيقاف وظيفة التوطين"
   },
+  "VkEditorModularTestResolver": {
+    "FailedToLoadRootPlugin": "تعذّر تحميل أداة إضافية جذرية لمسار Verse '{0}'."
+  },
   "VkEventNodeDetails": {
     "Category": "حدث محادثة"
   },
@@ -6826,6 +7005,36 @@
   },
   "VkMaterialNodeDetails": {
     "Category": "المادة"
+  },
+  "VkProjectContentImport": {
+    "AddedReference": "تمّت إضافة المحتوى المشار إليه:\n{0}",
+    "FeatureSetMismatch": "لا يمكن استيراد محتوى يستخدم العلامة التجارية '{0}' إلى مشروع يستخدم العلامة التجارية '{1}'.",
+    "CompilingVerse": "جارٍ تنفيذ عملية شرح Verse...",
+    "CopyingContent": "جارٍ نسخ المحتوى...",
+    "AddingPublishedContent": "جارٍ تنزيل/تحميل المحتوى المرجعي...",
+    "AddReferenceFailed": "تعذّر إضافة المحتوى المشار إليه:\n{0}",
+    "CopyFailed": "تعذّر نسخ محتوى المشروع المصدر.",
+    "FindPluginsFailed": "تعذّر العثور على الأدوات الإضافية للمشروع المصدر:\n{0}",
+    "SourceProjectLoadFailed": "تعذّر تحميل المشروع المصدر:\n{0}",
+    "GatherReferencesFailed": "تعذّر قراءة مراجع المشروع المصدر:\n{0}",
+    "SaveFeatureSetFailed": "تعذّر حفظ ملف مشروع الوجهة:\n{0}",
+    "GatheringReferencedContent": "جارٍ جمع المحتوى المرجعي...",
+    "UnsupportedPluginCount": "لا يُدعم استيراد مشروع مصدر يحتوي على {0} من الأدوات الإضافية (يجب أن يحتوي على أداة واحدة فقط).",
+    "ImportingProjectContent": "جارٍ استيراد محتوى المشروع...",
+    "NoDestinationProject": "لم يتم تقديم مشروع وجهة.",
+    "AddingSourceContent": "جارٍ فتح المحتوى المصدر المشار إليه...",
+    "ImportCanceled": "تمّ إلغاء استيراد محتوى المشروع",
+    "ImportFailed": "تعذّر استيراد محتوى المشروع",
+    "ImportSucceeded": "تم استيراد محتوى المشروع",
+    "RollingBack": "جارٍ التراجع...",
+    "ImportSourceProjectBrowseTitle": "يُرجى تحديد مشروع {0} المصدر لاستيراده",
+    "DestinationNotOpened": "مشروع الوجهة '{0}' غير مفتوح.",
+    "NoDestinationRootPlugin": "لا يحتوي المشروع الوجهة على أداة إضافية جذرية.",
+    "DestinationClosedDuringImport": "تم إغلاق المشروع الوجهة أثناء الاستيراد.",
+    "SourceFileMissing": "ملف المشروع المصدر غير موجود:\n{0}",
+    "SourceGoneDuringImport": "لم يعد المشروع المصدر متاحًا.",
+    "SourceIsDestination": "المشروع المصدر هو نفسه مشروع الوجهة.",
+    "ReferencedProjectReadError": "{0}:\n{1}"
   },
   "VkRepeatNodeDetails": {
     "Category": "تكرار"

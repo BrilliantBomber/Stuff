@@ -153,7 +153,7 @@
     "F522F0C7492984F80FF752B12C493D41": "Исследуйте уютную живописную деревню с милыми домиками, работающей фермой и залитым солнцем пляжем среди пышной природы. Познакомьтесь с милыми питомцами, которые бродят по острову, — теперь в UEFN доступны элементы управления спутниками.",
     "E85986084C5768D45C744DA9F7199DB4": "Исследуйте город в стиле Неварро. Используйте вулканический ландшафт для создания новой захватывающей дух игры.",
     "5D607756496D7D34534161A76D037AE0": "Побывайте в культовой тюрьме из The Walking Dead Universe. Начните работу над новой игрой с хорошей стартовой позиции, где многое уже готово — с начального острова.",
-    "84FBC65D4990B009132E6288DDF37B4D": "Face your fears on this creepy haunted island. Observe lighting techniques and methods to add atmosphere in UEFN.",
+    "84FBC65D4990B009132E6288DDF37B4D": "Взгляните в лицо своим страхам на этом жутком острове. Ознакомьтесь с приёмами и методами освещения для придания необходимой атмосферы в UEFN.",
     "688C10D94213786DF5B0D3B3D65BBA53": "FactCategoryText",
     "7BC1EF91495CE30F0A41BEA8E4D553CC": "Демонстрация возможностей",
     "7DB4F10642BF6FC257A4A4BD4EF9D8F3": "Демонстрация функциональных возможностей",
@@ -180,7 +180,7 @@
     "A04B36824B96B1D3730DB4819F0368B4": "Начало работы",
     "FC4E8E504E39E595C80E27AB1628E729": "Оттенки серого sRGB",
     "40A2BADA49BF6943636D468D268C235C": "Решётка/с",
-    "193CF4DD4D3859505223E5967E9AFFF2": "Harrowville: Environment",
+    "193CF4DD4D3859505223E5967E9AFFF2": "Депрессвиль: окружение",
     "7C0AC7B546C8252B3CA90791C665F406": "Есть: {0} Допустимо: {1}",
     "1A37A12C46F34B2727DFE09389BFB29F": "Вспомогательный ресурс",
     "A2113EE54097BA5ED4DB19BF308694B9": "Вспомогательный ресурс",
@@ -790,6 +790,7 @@
     "SpatialMetricsGridCommands": "Решётка",
     "SpatialMetricsHistogramCommands": "Гистограмма",
     "SpatialMetricsViewerCommands": "Средство просмотра пространственных показателей",
+    "MemoryCalculationCommands": "Расчёт объёма памяти в UEFN",
     "ValkyrieEditor": "Редактор Valkyrie"
   },
   "ConversationGraph": {
@@ -1168,7 +1169,8 @@
     "ProjectHomeDocumentation": "Документация",
     "ProjectHomeForumsButton": "Форумы",
     "LiveEditStatusColumnLabel": "Статус редактирования по сети",
-    "ValkyriePIENotAvailable": "Недоступно в {0}",
+    "ValkyriePIERestrictiveMode": "Режим игры в редакторе в {0} заблокирован: включён режим ограничений. Автоматические запуски автоматически разрешаются при запуске с командой -unattended; для интерактивной игры отключите режим ограничений.",
+    "ValkyriePIENotAvailableCooked": "Режим игры в редакторе недоступен в {0} при использовании сконвертированного в формат платформы контента редактора.",
     "ProjectHomeReleaseNotesButton": "Примечания к версии",
     "ProjectHomeRoadmapButton": "План развития",
     "SupportName": "Поддержка",
@@ -1190,18 +1192,22 @@
     "PromptForProjectIdVariant_Hint": "ГУИД, путь в Verse или код ссылки проекта",
     "PromptForProjectIdVariant_SyntaxFeedbackMessage": "Введён недействительный ГУИД, путь в Verse или код ссылки."
   },
-  "FXCosmeticVariant": {
-    "ParticleChannelName": "Частица"
-  },
   "Fab": {
     "ClearCacheButton": "Очистить кэш",
+    "ExtractError": "Не удалось извлечь загруженный контент",
     "DownloadError": "Ошибка загрузки",
     "DownloadFinished": "Загрузка завершена",
     "Downloading": "Загрузка",
+    "DownloadingAsset": "Загрузка {0}",
+    "ExtractFinished": "Извлечение завершено",
+    "Extracting": "Извлечение",
     "WebBrowserModuleNotEnabled": "Не удалось загрузить подключаемый модуль. Для использования Emporium включите WebBrowserWindow в диспетчере подключаемых модулей.",
     "ImportError": "Ошибка инструмента импорта",
     "ImportFinished": "Импорт завершён",
     "Importing": "Импорт",
+    "NoProjectInArchive": "Загруженный контент не содержит проекта UEFN",
+    "SourceAlreadyDownloading": "Этот ресурс уже загружается",
+    "ProjectAlreadyImporting": "Этот источник уже загружается",
     "Fab.TooltipLoggedOut": "Для получения контента от Fab необходимо войти в систему"
   },
   "FeedbackHandleCustomization": {
@@ -1678,6 +1684,8 @@
     "Pick Map": "Выбрать карту",
     "SelectUEFNProject": "Выбрать проект UEFN",
     "UEFNProjectNameKey": "Выбрать проект UEFN",
+    "MapUIDataUpdateComplete": "Обновление данных карты интерфейса завершено",
+    "MapUIDataUpdateFailed": "СБОЙ обновления данных карты интерфейса.\n\nНе обновлены некоторые или все таблицы. Откройте самый последний журнал FortniteGame*.log здесь:\n{0}\nи найдите сообщение Error:, где будет указана причина ошибки (исключительная выгрузка другим пользователем, отсутствие соединения Perforce, отсутствие синхронизации файлов и т. д.).",
     "UpdateMapUIData": "Обновить данные интерфейса карты"
   },
   "FortQuestObjectiveEditor": {
@@ -2177,9 +2185,6 @@
     "AssetTypeActions_ItemAbilityConfigurationAsset": "Ресурс конфигурации способности предмета",
     "AssetDefinition_ItemAbilityEffectAsset": "Ресурс эффекта способности предмета",
     "AssetTypeActions_ItemAbilityEffectAsset": "Ресурс эффекта способности предмета",
-    "AssetDefinition_ItemOwnerPoseAsset": "Поза владельца предмета",
-    "AssetTypeActions_ItemOwnerPoseAsset": "Поза владельца предмета",
-    "ItemOwnerPoseAssetHasNullProxyTable": "Поза владельца предмета требует установки ProxyTable",
     "AssetDefinition_ItemizationConfigurationAsset": "Ресурс конфигурации детализации",
     "AssetTypeActions_ItemizationConfigurationAsset": "Ресурс конфигурации детализации"
   },
@@ -2200,9 +2205,6 @@
   },
   "ItemComponentData_ItemTypeInventoryLimit": {
     "LimitAmount": "Данные предмета LimitAmount '{0}' избыточны. Они требуются, только если LimitAmount > 0"
-  },
-  "ItemComponentData_OwnerPose": {
-    "PoseAsset": "Данные элемента позы владельца '{0}' должны содержать допустимый ресурс позы!"
   },
   "ItemComponentData_SlotSize": {
     "SlotSize": "Данные элемента размера ячейки '{0}' избыточны. Они требуются, только если SlotSize имеет значение, отличающееся от 1."
@@ -2567,17 +2569,6 @@
     "BranchHistoryTooltipText": "Открыть вкладку \"История ветки\".",
     "ConflictResolutionTooltipText": "Открыть вкладку \"Разрешение конфликтов\"."
   },
-  "MTFAcc": {
-    "LifecycleOrderCollision": "LifecycleOrderCollision",
-    "LifecycleOrderFixtureA": "LifecycleOrderFixtureA",
-    "LifecycleOrderFixtureZVerify": "LifecycleOrderFixtureZVerify",
-    "LifecycleSelfSkip": "LifecycleSelfSkip",
-    "LifecycleSetupAssertFail": "LifecycleSetupAssertFail",
-    "LifecycleSetupFail": "LifecycleSetupFail",
-    "LifecycleTeardownAssertFail": "LifecycleTeardownAssertFail",
-    "LifecycleTeardownFail": "LifecycleTeardownFail",
-    "SuiteSetup": "SuiteSetup"
-  },
   "MakeNextInSeriesScreen": {
     "FolderComboToolTipText": "Выбрать каталог для контента",
     "CreateQuestAsset": "Создать",
@@ -2607,6 +2598,63 @@
     "InvalidContext": "Недопустимый контекст запроса.",
     "CheatsNotSupported": "Отправка чит-команд от клиента/выделенного сервера больше не поддерживается.",
     "NoServicePerms": "Не удалось найти разрешения службы для сервера."
+  },
+  "MemoryCalculationFlow": {
+    "Stage_Calculating": "расчёт используемого объёма памяти",
+    "Stage_AcquiringManifest": "получение данных сборки, сконвертированных в формат платформы",
+    "Stage_AcquiringBudget": "получение ограничения объёма памяти для проекта",
+    "Stage_ReportingResult": "результат записи",
+    "Stage_WaitingForCook": "ожидание конвертации в формат платформы"
+  },
+  "MemoryCalculationGroupings": {
+    "GraphNodeExpandHint": "(нажмите дважды, чтобы развернуть)",
+    "PackageActorsExpandHint": "(нажмите дважды, чтобы развернуть)",
+    "NoActorGroup": "(нет ссылающегося актора)",
+    "NoCellGroup": "(нет ссылающейся ячейки)",
+    "UnknownReferencerGroup": "(неизвестный ссылающийся объект)",
+    "UntypedGroup": "(тип не определён)",
+    "ActorGroupingShort": "Объект, ссылающийся на актор",
+    "PackageActorsGroupingShort": "Количество акторов на пакет",
+    "PackageActorsGroupingTitle": "Количество акторов на пакет",
+    "ActorGroupingTitle": "По объекту, ссылающемуся на актор",
+    "CellGroupingTitle": "По объекту, ссылающемуся на ячейку",
+    "DependencyGroupingTitle": "По зависимости пакета",
+    "ReferencerGroupingTitle": "По объекту, ссылающемуся на пакет",
+    "TypeGroupingTitle": "По типу",
+    "CellGroupingShort": "Объект, ссылающийся на ячейку",
+    "ActorGroupingDesc": "Группировка каждого пакета под каждым актором, который на него ссылается.",
+    "CellGroupingDesc": "Группировка каждого пакета под каждой ячейкой, которая на него ссылается.",
+    "TypeGroupingDesc": "Группировка пакетов по типу ресурса, со значком типа и цветом в Каталоге ресурсов.",
+    "PackageActorsGroupingDesc": "Перечисление каждого из пакетов со ссылающимися на него акторами в виде разворачивающегося списка дочерних элементов (они противоположны варианту «По объекту, ссылающемуся на актор»).",
+    "DependencyGroupingShort": "Зависимость пакета",
+    "ReferencerGroupingShort": "Объект, ссылающийся на пакет",
+    "DependencyGroupingDesc": "Дерево зависимостей пакета: корневой пакет (на него ничего не ссылается) раскрывается до пакетов, на которые он ссылается, рекурсивно.",
+    "ReferencerGroupingDesc": "Дерево объектов, ссылающихся на пакет: корневой пакет (без ссылки на что-либо) раскрывается до пакетов, которые на него ссылаются, рекурсивно.",
+    "TypeGroupingShort": "Тип"
+  },
+  "MemoryCalculationSubsystem": {
+    "MemoryCalculationTab_Tooltip": "Проверьте результат расчёта объёма памяти для редактора и его наиболее крупные пакеты.",
+    "MemoryCalculationTab": "Подсчёт объёма памяти"
+  },
+  "MemoryCalculationTableViewModel": {
+    "PeakScope": "Пик",
+    "PeakScopeFmt": "Пиковое значение ({0})"
+  },
+  "MemoryCalculationViewPresets": {
+    "Preset_PkgActors": "Количество акторов на пакет",
+    "Preset_Type": "Тип ресурса",
+    "Preset_PkgDep_Tip": "Дерево зависимостей: корневой пакет раскрывается до пакетов, на которые он ссылается.",
+    "Preset_PkgActors_Tip": "Каждый пакет раскрывается до акторов, которые на него ссылаются.",
+    "Preset_Flat_Tip": "Каждый пакет в пиковом объёме занимаемой памяти, без группировки, первым идёт крупнейший из них.",
+    "Preset_Flat": "Простой список",
+    "Preset_PkgDep": "Зависимость пакета",
+    "Preset_PkgRef": "Объект, ссылающийся на пакет",
+    "Preset_Type_Tip": "Пакеты, сгруппированные по типу ресурса, первым идёт наиболее крупный тип.",
+    "Preset_Cell_Tip": "Пакеты под каждой ссылающейся ячейкой World Partition, разделённые по типу ресурса.",
+    "Preset_Actor_Tip": "Пакеты под каждым ссылающимся актором.",
+    "Preset_PkgRef_Tip": "Дерево ссылающихся объектов: корневой пакет раскрывается до пакетов, которые на него ссылаются.",
+    "Preset_Actor": "Ссылающийся актор",
+    "Preset_Cell": "Ссылающаяся ячейка"
   },
   "MemoryTimingViewExtender": {
     "NoPlayerTargetAvailableTooltip": "Чтобы игрок мог стать целью отслеживания, он должен быть подключён к сеансу.",
@@ -2642,17 +2690,13 @@
     "ModularGateExpressionWidget_Title": "Редактор выражения ворот",
     "ModularGateExpressionWidget_OK": "ОК"
   },
-  "ModularTest": {
-    "SuiteSetup": "SuiteSetup",
-    "SuiteTeardown": "SuiteTeardown"
-  },
   "NPCCharacterDefinition": {
     "MissingType": "Отсутствует тип!",
     "InvalidSkeletalMeshComponent": "{0}: схема персонажа {1} должна иметь компонент скелетной сетки!",
     "MissingCharacterModifier": "{0}: отсутствует модификатор персонажа",
     "DuplicatedModifier": "{0}: несколько модификаторов типа {1}",
     "InvalidSkeletalMeshAsset": "{0}: ресурс скелетной сетки не может оставаться пустым в компоненте скелетной сетки {1}!",
-    "UnsupportedModifier": "{0}: неподдерживаемые модификаторы типа {0} для идентификатора {1}!"
+    "UnsupportedModifier": "{0}: неподдерживаемые модификаторы типа {1} для идентификатора {2}!"
   },
   "NPCCharacterDefinitionComponent": {
     "MissingDefinition": "{0}: отсутствует определение неигрового персонажа {1}",
@@ -3073,6 +3117,55 @@
   "SLoreSourceControlWidgets": {
     "InvalidComboEntryText": "<<Invalid option>>"
   },
+  "SMemoryCalculationDetailsView": {
+    "NoCells": "(всегда загружается или не содержит ссылок ячеек)",
+    "NoActors": "(в загруженном мире редактора отсутствует)",
+    "Untyped": "(тип не определён)",
+    "Browse": "Обзор",
+    "FieldPath": "Путь",
+    "FieldRefs": "Ссылающиеся объекты",
+    "ActorsHeader": "Ссылающиеся акторы ({0})",
+    "CellsHeader": "Ссылающиеся ячейки ({0})",
+    "NoSelection": "Выберите пакет, чтобы определить его тип, размер и ссылающиеся на него ячейки и акторы.",
+    "BrowseTip": "Выберите этот актор в редакторе (если он уже загружен).",
+    "FieldSize": "Размер",
+    "FieldType": "Тип",
+    "FieldVersePath": "Путь Verse"
+  },
+  "SMemoryCalculationPanel": {
+    "AlwaysLoadedLabel": "Всегда загружается:",
+    "FailedReason": "Ошибка расчёта: {0}",
+    "Details": "Сведения",
+    "Fail": "ОШИБКА",
+    "HeadroomSegment": "Ресурсоёмкость {0}",
+    "InProgress": "В ПРОЦЕССЕ",
+    "InProgressStage": "ВЫПОЛНЯЕТСЯ ({0})",
+    "SamplesLabel": "Выборка местоположений:",
+    "PeakLocationTip": "Переместите активное окно просмотра в то место, где была измерено пиковое значение.",
+    "NoResultInitial": "Нет результата",
+    "NoResult": "Нет результата — запуск расчёта памяти",
+    "OtherSegment": "Другое",
+    "Pass": "ПРОЙДЕНО",
+    "PackagesLabel": "Пакеты:",
+    "PeakLocationLabel": "Расположение вершины:",
+    "Statistics": "Статистика",
+    "OtherSegmentTip": "Типы ниже строки {0} объединяются: {1}",
+    "UntypedSegment": "Тип не определён",
+    "NewerTip": "См. следующий (новейший) результат расчёта.",
+    "OlderTip": "См. предыдущий (старый) результат расчёта.",
+    "PeakLocation": "в {0}",
+    "HistoryPos": "{0} / {1}  ({2})",
+    "HeadroomSegmentTip": "{0} памяти не используется",
+    "PeakOfBudget": "{0} из {1}",
+    "PeakOverBudget": "{0} из {1} — превышение на {2}",
+    "SegmentTip": "{0}: {1} ({2} выделенного объёма памяти)"
+  },
+  "SMemoryCalculationTableTreeView": {
+    "AllScope": "Все",
+    "ContextMenu_Section_Browse": "Обзор",
+    "AllScope_Tip": "Показывать в расчёте каждый пакет, включая пакеты, отсутствующие в пиковой выборке.",
+    "PeakScope_Tip": "Показать только пакеты, находящиеся в точке пиковой выборки — набор, размеры которого составляют указанный пик."
+  },
   "SMetricsTreeView": {
     "HeaderCheckBoxTooltip": "Включить или отключить все показатели",
     "HeaderRowMetricsColumn": "Показатели",
@@ -3369,8 +3462,6 @@
     "Settings.SizeBreakdownView.ToolTip.ShowDependencies": "Если включено, ресурсы зависимостей объединяются в отдельные строки по типу и по пакету в представлениях \"По типу\" и \"По пакету\", при этом дочерние элементы по исходному коду можно развернуть под каждым типом. Не влияет на представление \"По зависимостям\" (в котором отображаются зависимости).",
     "LastUploadedTimestampWithVersionFmt": "{0} (v{1})",
     "ActorClassLabelFormat": "{0} ({1} {1}|plural(one=актор,few=актора,many=акторов,other=акторов))",
-    "SizeInKBFmt": "{0} Кбайт",
-    "SizeInMBFmt": "{0} Мбайт",
     "DownloadSizeWithLimitFmt": "{CombinedDownloadSize} / {ProjectDownloadSizeLimit}",
     "UploadSizeWithLimitFmt": "{ProjectUploadSize} / {ProjectUploadSizeLimit}",
     "EstimatedSizeFormat": "~{0}",
@@ -3406,50 +3497,49 @@
   "SValkyrieSessionInspector": {
     "SessionStatus_NewContentFinishedLoadingAll": "Вся работа сервиса управления контентом выполнена. Сервер и клиент запущены.",
     "SessionStatus_ContentError": "Получена ошибка контента. Подробности приведены в журнале выходных данных.",
+    "SessionWallTime": "Прошедшее время:",
     "ValkyrieProjectSubMenuSessionSection": "Инструменты редактирования по сети",
     "SessionStatus_NotConnected": "Не подключены к сеансу.",
-    "OpenProject": "Открыть проект:",
     "Settings.GeneralSettings.Label.OpenOnLaunchSession": "Открыть при запуске сеанса",
-    "ViewSessionDSPortal_ToolTip": "Открывает страницу портала выделенного сервера с последними сеансами",
-    "StatisticsHeading": "Сведения о сеансе",
     "ValkyrieSessionInspector": "Инспектор сеанса",
     "Unavailable": "Инспектор сеанса временно недоступен. Повторите попытку позже.",
-    "SessionStatus": "Статус сеанса:",
-    "SessionWallTime": "Время стены сеанса:",
     "Settings.GeneralSettings": "Настройки",
-    "SettingsText": "Настройки",
+    "SettingsToolTip": "Настройки",
     "Settings.GeneralSettings.ToolTip.OpenOnLaunchSession": "Должен инспектор сеанса автоматически открываться при выборе запуска сеанса?",
+    "SessionStatus": "Статус:",
     "SessionWallTimeTooltip": "Время, прошедшее с момента нажатия кнопки «Запуск сеанса» или «Применить изменения» и до конвертации и загрузки всех модулей.",
-    "ViewSessionDSPortal": "Посмотреть сеанс на портале выделенного сервера (только для разработчиков Epic)",
+    "ViewLogsButton": "Просмотреть журналы",
     "ValkyrieSessionInspector_Tooltip": "Просмотр состояния вашего сеанса редактирования по сети",
     "SessionStatus_LoadingNewContent": "Ожидание завершения конвертации всех модулей и загрузки контента сервером.",
     "SessionStatus_NewContentFinishedLoadingServer": "Ожидание готовности клиента.",
     "SessionStatus_NewContentFinishedLoadingClients": "Ожидание финальной инициализации контента.",
-    "SessionStatus_DistributingToConnectedSession": "Ожидание сервера сеанса.",
-    "ViewSessionDSPortal_ToolTipEx": "{0}\nПоследний сеанс начался {1}"
+    "SessionStatus_DistributingToConnectedSession": "Ожидание сервера сеанса."
   },
   "SValkyrieSessionInspectorCookMonitor": {
-    "SessionBaseEntriesTree.Column.EndDate": "Дата завершения",
+    "ViewAllCookJobsDashboard": "Все задания",
+    "CookJobsLabel": "Задания конвертации в формат платформы",
     "CookFailedStatusTooltip": "Сбой задачи конвертации в формат платформы.",
     "CookSuccessStatusTooltip": "Задача конвертации в формат платформы выполнена успешно.",
     "CookUnknownStatusTooltip": "Статус конвертации в формат платформы недоступен.",
     "CookFromCache_ToolTip": "Данные конвертации в формат платформы, полученные из кэша.",
     "ContextMenu_CopyTooltip": "Копирует значение столбца",
     "ContextMenu_Copy": "Копировать",
+    "ViewSessionDSPortal": "Портал выделенного сервера",
+    "SessionBaseEntriesTree.Column.WallTime": "Прошедшее время",
     "IndirectDependencies": "Непрямые зависимости",
+    "SessionBaseEntriesTree.Column.EndDate": "Дата последней конвертации в формат платформы",
     "ModuleVersionMultiple": "Несколько",
     "SessionBaseEntriesTree.Column.Name": "Название",
     "NoCorrelationIds": "Нет доступных идентификаторов корреляции.",
-    "ViewAllCookJobsDashboardTooltip": "Открыть информационную панель сервиса управления контентом с фильтром по каждому идентификатору корреляции для заданий конвертации в формат платформы, представленных ниже.",
+    "ViewAllCookJobsDashboardTooltip": "Открыть информационную панель сервиса управления контентом с фильтром по каждому идентификатору корреляции для заданий конвертации в формат платформы, представленных ниже. (Только для разработчиков Epic)",
+    "ViewSessionDSPortal_ToolTip": "Открывает страницу портала выделенного сервера для последнего сеанса. (Только для разработчиков Epic)",
     "ReferencingProjects": "Ссылающиеся проекты",
-    "CookJobsLabel": "Задачи конвертации в формат платформы для сеанса",
     "SessionBaseEntriesTree.Column.Status": "Статус",
     "SessionBaseEntriesTree.Column.Version": "Версия",
-    "ViewAllCookJobsDashboard": "Просмотреть все задания (только для разработчиков Epic)",
     "ViewCookStatus": "Просмотреть статус конвертации в формат платформы",
-    "SessionBaseEntriesTree.Column.ViewInJobDashboard": "Отобразить на рабочей панели управления (только для разработчиков Epic)",
+    "SessionBaseEntriesTree.Column.ViewJob": "Просмотреть задание",
     "ViewJob": "Просмотреть задания",
-    "SessionBaseEntriesTree.Column.WallTime": "Фактическое время",
+    "ViewSessionDSPortal_ToolTipEx": "{0}\nПоследний сеанс начался {1}. (Только для разработчиков Epic)",
     "ModuleDisplayName": "{0} ({1})"
   },
   "SValkyrieSessionInspectorStagingLogs": {
@@ -3493,11 +3583,14 @@
   },
   "SValkyrieSessionInspectorStagingMonitor": {
     "Canceled": "Отменено",
+    "StepStatus_Completed": "Завершено ({0})",
     "Label_Cooking": "Конвертация в формат платформы",
     "ToolTip_Versioning": "Создать новую версию модуля. Этот шаг выполняется только при необходимости.",
     "ToolTip_Downloading": "Не удалось загрузить сконвертированный в формат платформы контент на сервер сеанса.",
     "Label_Downloading": "Идёт загрузка",
+    "StepStatus_Failed": "Сбой ({0})",
     "ToolTip_Playing": "Завершить настройку сеанса и подготовиться к игре.",
+    "StepStatus_InProgress": "Выполняется ({0})",
     "NotStarted": "Не запущено",
     "ToolTip_PreparingForUpload": "Выполните необходимые предварительные условия для проверки и загрузки проекта.",
     "Label_Playing": "Воспроизводится",
@@ -3508,8 +3601,8 @@
     "ToolTip_Validating": "Проверить, что ресурсы проекта подходят для загрузки.",
     "Label_Validating": "Проверка",
     "Label_Versioning": "Управление версиями",
-    "ViewLogsButton": "Просмотреть журналы",
-    "ToolTip_Cooking": "Дождитесь завершения конвертации всех модулей и загрузки контента сервером."
+    "ToolTip_Cooking": "Дождитесь завершения конвертации всех модулей и загрузки контента сервером.",
+    "StepToolTipFormat": "{0}: {1}\n{2}"
   },
   "SVerbDebugger": {
     "AdditionalFilters": "Дополнительные фильтры",
@@ -3558,8 +3651,10 @@
     "BuildErrorsMessage": "При открытии файла {0} обнаружены ошибки сборки Verse. Устраните следующие ошибки в коде Verse и выполните сборку заново. Сохранение ресурсов без исправления ошибок может привести к потере данных."
   },
   "SVkContentResolutionViewer": {
+    "PillDepsMore": "\t(и ещё {0})",
     "ModuleDep": "\t{0}",
     "ModuleStaticDep": "\t{0}",
+    "PillDepPath": "\t{0}",
     "ForkStack": "**** Стек дубликата проекта ****",
     "ModuleDetails": "**** Сведения о модуле ****",
     "ModuleAccess": "Доступ: {0}",
@@ -3591,6 +3686,8 @@
     "BuildForkError": "Не удалось найти собранный дубликат проект {0}",
     "ForkCreated": "Создал: {0}",
     "ModuleCreationDateTime": "Дата создания: {0}",
+    "PillDepsLive": "Зависимости, опубликованные в общем доступе:",
+    "PillDepsFork": "Зависимости, опубликованные в дубликате проекта {0}:",
     "ModuleDeps": "Зависимости:",
     "ModuleDescription": "Описание: {0}",
     "WsIdHint": "Введите идентификатор дубликата проекта",
@@ -3630,6 +3727,7 @@
     "BrowseProjectTooltip": "Выберите путь Verse из проекта на диске.",
     "StarredLabel": "Отмечен звёздами",
     "WsModeTeam": "Команда",
+    "ForkStackCycleError": "Родительская цепочка дубликата проекта содержит цикл. Отображение преобразованной цепочки для повторяющегося дубликата проекта.",
     "ModuleTitle": "Название: {0}",
     "ModuleCreationDateUnavailable": "Недоступен",
     "ModuleVersePath": "Путь Verse: {0}",
@@ -3639,6 +3737,7 @@
     "VkContentResolutionTree_ViewOnContentServiceTooltip": "Посмотреть выбранные модули на странице сервиса управления контентом",
     "NotLoggedIn": "Для использования этого инструмента требуется вход в учётную запись",
     "VersionLabel": "v{0}",
+    "VersePathWithModuleId": "{0}  {1}",
     "ForkNameAndId": "{0} ({1})"
   },
   "SVkForkSelector": {
@@ -3873,6 +3972,8 @@
     "MemoryProfilerTabTooltip": "Представление с разбивкой по использованию памяти клиента."
   },
   "UE::SpatialMetrics::MetricActionUtils": {
+    "AlreadySnapshottingAction": "Уже отслеживает",
+    "AlreadyTracingAction": "Уже отслеживает",
     "StartCaptureAction": "Начать запись",
     "TakeSnapshotAction": "Сделать снимок состояния"
   },
@@ -3896,6 +3997,7 @@
     "UploadProject.Error.TargetVersionDocUnset": "Не удалось определить корневой плагин опыта для обновления сеанса редактирования",
     "FailedToStageAndValidateFiles": "Не удалось выполнить подбор и проверку локальных исходных файлов проекта {0}",
     "StagingFailed": "Не удалось подготовить проект к выгрузке\n{0}",
+    "WriteInternalApiDescriptorFailed": "Не удалось записать внутренний дескриптор API проекта {0}.",
     "WritePublicApiDescriptorFailed": "Не удалось записать файл дескриптор публичного API проекта {0}.",
     "InitSyncModules": "Инициализация проекта {0} для выгрузки…",
     "Initializing": "Инициализация…",
@@ -3910,6 +4012,7 @@
     "ValidationFailed": "Не удалось выполнить валидацию проекта",
     "ValidationAutoFixup.RunButton": "Запустить исправление",
     "ValidationAutoFixup.Heading": "Запустить исправление после проверки?",
+    "RunningContentValidation": "Проверка ресурсов…",
     "ShowMessageLogHyperlink": "Показать журнал сообщений",
     "ShowOutputLogHyperlink": "Показать журнал выходных данных",
     "ValidationAutoFixup.SkipButton": "Пропустить",
@@ -3984,6 +4087,12 @@
     "ResetTextureOnSelectedSaticMeshBuildingActors_ToolTip": "Сбрасывает до текстуры по умолчанию для выбранных акторов постройки статичной сетки",
     "RotateSelectedBuildingActors": "Поворачивать выбранные акторы постройки",
     "RotateSelectedBuildingActors_ToolTip": "Поворачивает выбранные акторы постройки в окне просмотра"
+  },
+  "UICommands.MemoryCalculationCommands": {
+    "BrowseToAsset": "Перейти к ресурсу",
+    "SelectInOutliner": "Выбрать на панели «Структура»",
+    "SelectInOutliner_ToolTip": "Выбор акторов на уровне.",
+    "BrowseToAsset_ToolTip": "Синхронизирует Каталог ресурсов с выбранными пакетами. Упаковывает без пропуска ресурсов на диске (сгенерированных ячеек, данных отладки Verse и т. д.)."
   },
   "UICommands.SGridView": {
     "ShowAxes": "Оси",
@@ -4456,6 +4565,26 @@
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Tooltip": "Получить загруженный актор из текущего уровня, которому требуется смещённая сетка, и сгенерировать недостающие. При этом инструмент оставит несохранёнными акторы, которые нужно будет вновь сохранить.",
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Label": "Сгенерировать сохраняемые смещённые сетки Nanite"
   },
+  "VK_MEMCALC_ERRORS": {
+    "ManifestFileUnreadable": "Невозможно считать манифест памяти из {Path}.",
+    "InvalidModuleBinaries": "В объекте данных контента нет конвертированных в формат платформы бинарных файлов или заданий на конвертацию.",
+    "ContentServiceUnavailable": "Сервис управления контентом недоступен.",
+    "ContentServiceFailure": "Ошибка запроса сервиса управления контентом: {Detail}",
+    "EmptyManifest": "MemoryManifest не содержит ни одного пакета.",
+    "ManifestMissingSizeChunkTypes": "MemoryManifest не объявляет SizeChunkTypes.",
+    "ManifestParseFailed": "MemoryManifest не является допустимым файлом JSON ({NumChars} симв.).",
+    "NoPublishedModuleVersion": "У модуля {Module} нет опубликованной версии.",
+    "NoClientArtifact": "В корневом модуле нет объекта данных клиента {Platform}.",
+    "InvalidBuildCode": "Нет кода сборки, для которого можно сообщить о результате.",
+    "NoProjectOpen": "Не открыт основной проект.",
+    "NoRootWorld": "Из ячеек World Partition или относящихся к миру пакетов не получен корневой мир.",
+    "NoPublishingMemoryLimit": "Проект {Project} не имеет ограничений объёма памяти для публикаций.",
+    "RequestAbandoned": "Запрос завершился без сообщения о результате.",
+    "ManifestSizeChunkTypesMismatch": "SizeChunkTypes [{Declared}] не совпадают с ожидаемым [{Expected}].",
+    "ManifestUnknownChunkType": "Нераспознанная запись SizeChunkTypes {ChunkType}.",
+    "EngineVersionMismatch": "{NumModules} — количество модулей, выгруженных по различным версиям движка, включая {Module} версии {ModuleVersion} по {UploadedEngineVersion}; данный редактор — {CurrentEngineVersion}. Запустите сеанс для обновления.",
+    "LatticeTooLarge": "{RequestedSamples} образцов — это больше предела {MaxSamples} (шаги по {SpatialPrecision} см)."
+  },
   "ValidateSchematics": {
     "DisplayText": "Загрузка…",
     "Test": "Ошибок нет!",
@@ -4611,6 +4740,14 @@
   "ValkyrieChangelistValidator": {
     "VkChangelistInvalid": "В списке изменений некорректно указан тег #preflight. Перейдите к Horde, чтобы запустить предварительную проверку перед отправкой."
   },
+  "ValkyrieContentGovernance": {
+    "PluginReferenceViolation": "Найдена ссылка на запрещённый плагин {0}",
+    "MutuallyExclusivePluginReferenceViolation": "Найдены ссылки на взаимоисключающие наборы плагинов",
+    "InvalidRuleField_EntitlementId": "Отсутствует значение для поля EntitlementId",
+    "InvalidRuleField_Tag": "Отсутствует значение для поля Tag",
+    "InvalidRuleField_Type": "Неизвестный тип правила:",
+    "MutuallyExclusivePluginSet": "{0}: {1}"
+  },
   "ValkyrieContentServiceCmds": {
     "ArchiveProject": "Архивация проекта '{0}'",
     "ArchiveProjects": "Архивация проектов…",
@@ -4682,20 +4819,20 @@
     "MemoryTestResults": "Результаты теста памяти",
     "MemorySamplingAlreadyRunning": "Выборка памяти уже осуществляется!",
     "VerseVersion.Title": "Доступна новая версия Verse",
-    "NoVersePathsAssigned": "Никакие пути Verse не менялись.",
     "VerseVersion.RemindMeLater.Tooltip": "Уведомить повторно при следующем открытии, если в этом проекте не установлена последняя стабильная версия Verse",
     "UploadProjectsParallelAlreadyRunning": "Поток параллельной выгрузки уже выполняется",
     "PrepareProjectForUploadAlreadyRunning": "Подготовка проекта к выгрузке уже выполняется",
     "VerseVersion.Msg": "В проекте '{0}' используется версия Verse {1}.\nВы можете обновить Verse до версии {2} сейчас или позже в настройках проекта.",
     "CreateBuildAlreadyRunning": "Создание сборки проекта уже осуществляется",
-    "PublicAssetChangeNoContentService": "Чтобы изменить общедоступные ресурсы, вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
+    "PublicAssetChangeNoContentService": "Чтобы изменить доступные ресурсы или указатели перенаправления, вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
+    "ProjectValidationCanceled": "Project validation was canceled",
     "VerseVersion.RemindMeLater": "Позже",
     "SanitizePublicApiAlreadyRunning": "Зачистка общедоступного API уже выполняется",
     "SaveOutputPageLabel": "Сохранить выходные данные",
     "SavePackagesAlreadyRunning": "Сохранение файлов пакета уже выполняется",
-    "SelectProjectsToAssignVersePathsTo.Title": "Выбрать проекты",
-    "SelectProjectsToAssignVersePathsTo.Message": "Выберите проекты, которые вы хотите назначать автоматически или для которых вы хотите обновлять пути Verse:",
-    "PromptForDestructiveAPIAction": "Выбранный(-е) ресурс(-ы) имеют общедоступные ссылки в опубликованном проекте.\n{0}\n\nЧтобы продолжить это действие, вам необходимо создать новую ветку проекта.\nТам вы можете изменить общедоступные ресурсы перед публикацией в составе нового проекта",
+    "ExposedAssetDestructiveAPIAction": "Выбранный ресурс (ресурсы) имеет внешние ссылки в опубликованном проекте:\n{0}",
+    "RedirectorToExposedAssetDestructiveAPIAction": "Выбранный указатель (указатели) перенаправления перенаправляет на доступные ресурсы в опубликованном проекте:\n{0}",
+    "RedirectorAnotherProjectDestructiveAPIAction": "Выбранный указатель (указатели) перенаправления перенаправляет на другие проекты из опубликованного проекта:\n{0}",
     "SimpleTemplateMapDisplayNameText": "Простой",
     "SimpleTemplateMapDescriptionText": "Пример простого уровня.",
     "BlankTemplateMapDescriptionText": "Простой уровень с двумя генераторами.",
@@ -4704,8 +4841,8 @@
     "VerseVersion.Update.Tooltip": "Обновите этот проект до последней стабильной версии Verse ({0})\n(Обратите внимание: вы можете вернуться к любой версии Verse в любой момент в настройках проекта)",
     "UploadProjectsParallelNotRunning": "Параллельный поток выгрузки проектов не выполняется",
     "ValidateProjectAlreadyRunning": "Валидация проекта уже выполняется",
-    "VersePathsAssigned": "Пути Verse были назначены для следующих проектов:",
-    "Error.LocalizationDataEditingDisabled": "У вас нет прав на ручное редактирование данных локализации. Используйте для перевода данных команду 'Сборка -> Собрать автоматическую локализацию'."
+    "Error.LocalizationDataEditingDisabled": "У вас нет прав на ручное редактирование данных локализации. Используйте для перевода данных команду 'Сборка -> Собрать автоматическую локализацию'.",
+    "PromptForDestructiveAPIAction": "{0}\n\nЧтобы продолжить это действие, вам необходимо создать новую ветку проекта.\nТам вы можете изменить API проекта перед публикацией в составе нового проекта."
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "Настройка функций {0}",
@@ -4800,8 +4937,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}: данные для {1} подготовлены"
   },
   "ValkyrieEditorMemoryCalculation": {
-    "MemoryRatio": "{0}/{1}",
-    "MemoryRatioUnitsMb": "{0}/{1} МБ"
+    "MemoryRatioUnitsMb": "{0} / {1}",
+    "MemoryRatio": "{0}/{1}"
   },
   "ValkyrieEditorMenus": {
     "FixValidationIssues.ActorOptions.Tooltip": "Попытка автоматического исправления определённых ошибок, обнаруженных в этих акторах при проверке.",
@@ -4886,7 +5023,6 @@
   },
   "ValkyrieEditorUtils": {
     "CannotUseMoreThanOneBrand": "Невозможно использовать бренд {0}, пока используется {1}",
-    "CopyFiles": "Копирование файлов…",
     "FailCreatePerforceProvider": "Не удалось создать поставщик контроля версий Perforce",
     "FailLoadBrandPlugins": "Не удалось загрузить плагины: {0}",
     "FailUnloadBrandPlugins": "Не удалось выгрузить плагины: {0}",
@@ -5407,6 +5543,7 @@
     "ValkyrieGFSSelectionWarningCancelButton": "Отменить",
     "ValkyrieGFSSelectionWarningTitle": "Изменить бренд",
     "ValkyrieGFSSelectionWarningConfirmButton": "Подтвердить",
+    "ValkyrieFortniteGFSReloadFailed_Title": "Не удалось переключить бренд",
     "ValkyrieFortniteGFSSelectionToast_Dismiss": "Отклонить",
     "ValkyrieFortniteGFSSelectionToast_Title": "Бренд проекта успешно изменён!",
     "ValkyrieFortniteGFSSelectionToast_Body": "Чтобы изменить бренд, нужно закрыть и снова открыть этот проект. После повторного открытия проекта удалите все ресурсы предыдущего бренда, чтобы избежать ошибок при проверке."
@@ -5537,6 +5674,32 @@
     "LocalLoreProjectAnnotationText": "У этого проекта имеется резервная копия в системе Lore.",
     "RequiredProjectPermissions": "Для редактирования в этом проекте требуются разрешения {0}.",
     "IncompatibleProjectVersionText": "Версия этого проекта ({0}) несовместима с установленным движком ({1})."
+  },
+  "ValkyrieMemoryCalculationTable": {
+    "ColActorsTitle": "Объекты, ссылающиеся на актор",
+    "ColActors": "Ссылки на актор",
+    "ColTypeTitle": "Тип ресурса",
+    "ColNameDesc": "Иерархия дерева пакетов.",
+    "ColName": "Название",
+    "ColActorsDesc": "Количество загруженных акторов, ссылающихся на данный пакет.",
+    "ColRefsDesc": "Количество пакетов, напрямую ссылающихся на данный пакет.",
+    "ColNameTitle": "Иерархия пакета",
+    "ColPackagePath": "Путь к пакету",
+    "ColPathTitle": "Путь к пакету",
+    "ColRefsTitle": "Объекты, ссылающиеся на пакет",
+    "ColRefs": "Ссылки на пакет",
+    "ColSizeTitle": "Размер пакета",
+    "ColPath": "Путь",
+    "ColPackagePathTitle": "Путь к необработанному пакету",
+    "ColSize": "Размер",
+    "ColVersePathDesc": "Путь Verse к пакету; пусто для пакетов, в которых его нет.",
+    "ColPathDesc": "Полный путь к пакету: его путь Verse, если он имеется, в противном случае — его путь к пакету.",
+    "ColPackagePathDesc": "Путь к пакету в редакторе, независимо от какого-либо пути Verse.",
+    "ColSizeDesc": "Размер пакета.",
+    "ColTypeDesc": "Тип первичного ресурса в пакете, отображаемый в Каталоге ресурсов.",
+    "ColType": "Тип",
+    "ColVersePath": "Путь Verse",
+    "ColVersePathTitle": "Путь Verse"
   },
   "ValkyrieMissingFileProjectCustomization": {
     "NoFile": "Нет файла Python для открытия.",
@@ -5680,7 +5843,7 @@
     "SyncedInvalidProjectFile": "Недопустимый файл проекта, синхронизированный с помощью системы контроля версий",
     "AssignVersePath.NotSyncedWithContentService": "Чтобы назначить путь к проекту в Verse, сам проект нужно синхронизировать с сервисом управления контентом",
     "PurgeVersePath.NotSyncedWithContentService": "Чтобы удалить путь Verse, проект нужно синхронизировать с сервисом управления контентом",
-    "VerifyLivePublicAssetsNoContentService": "Для проверки работы общедоступного API вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
+    "VerifyLivePublicAssetsNoContentService": "Для проверки работы доступного API вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
     "RemovePublicApiIfAllowed.ProjectNotOpened": "Проект ещё не открыт",
     "SanitizePublicApiIfAllowed.ProjectNotOpened": "Проект ещё не открыт",
     "FeatureSetInProjectPluginDependency": "Плагины проекта не могут иметь набор функций в своих зависимостях.\n\nОбнаружено: {0}\n\nНабор функций должен быть указан в файле проекта.",
@@ -6000,13 +6163,16 @@
     "RemapLocalVsReferencedContent.CannotFindExternalModule": "Не удалось найти внешний контент для плагина проекта {0}",
     "RemapLocalVsReferencedContent.CannotFindLocalPlugin": "Не удалось найти плагин общедоступного проекта для внешнего контента '{0}'",
     "VKCannotFindPlugin": "Не удалось найти плагин",
+    "PublishTooManyModules": "Невозможно опубликовать одновременно следующее количество модулей: {0}. Максимальное количество — {1}.",
     "CloseRefSourceProjects.ProjectReload.Title": "Закрыть исходный контент",
     "CloseRefSourceProject": "Закрытие исходного проекта '{0}' с внешним контентом…",
     "CloseRefSourceProjects": "Закрытие исходных проектов с внешним контентом…",
     "CopyPluginAssets.CopyingAssets": "Идёт копирование ресурсов…",
     "CopyVerseFiles": "Копирование файлов Verse…",
     "CopyLocFiles": "Идёт копирование файлов локализации…",
+    "CopyingPluginContent": "Копирование содержимого плагина…",
     "CopyNonContentFiles": "Копирование файлов плагина…",
+    "CopyingPlugin": "Копирование плагина…",
     "ErrorGettingLinkCodeInfoMessage": "Не удалось найти идентификатор проекта {0}.",
     "ErrorResolvingVersePathMessage": "Не удалось найти идентификатор проекта {0}.",
     "FeatureSetDefinitionNotFound": "Не удалось получить определение набора функций '{0}Metadata'. Убедитесь, что он существует, и что разрешения позволяют загрузить его.",
@@ -6021,11 +6187,13 @@
     "VKFailLoadGameFeaturePlugin": "Не удалось загрузить плагин\n{0}\n\n{1}",
     "VKFailLoadPlugin": "Не удалось загрузить плагин\n{0}\n{1}",
     "RemapLocalVsReferencedContent.FailedToLoadAsset": "Не удалось загрузить {0}",
+    "PublishModuleBatchItemError": "Не удалось опубликовать один или несколько модулей в дубликате проекта",
     "RemapLocalVsReferencedContent.FailedToRemap": "Не удалось переназначить ссылки в {0}",
     "OpenSourceProjects.FailGetProjectInfo": "Не удалось получить сведения о '{0}'",
     "RemapLocalVsReferencedContent.FailSave": "Не удалось сохранить некоторые ресурсы (см. журнал сообщений)",
     "VKFailTerminateGameFeaturePlugin": "Не удалось завершить плагин игровой функции, в котором произошла ошибка \n{0}\n\n{1}",
     "VKProjectFolderNotEmpty": "Файлы уже существуют по адресу:\n{0}\nУдалите эти файлы или выберите другое название или расположение.",
+    "PublishFinalizing": "Завершение процедуры публикации…",
     "FixingProjectSlowTask": "Идёт исправление проекта...",
     "GatherVerseFiles": "Сбор файлов Verse…",
     "CopyPluginAssets.GatherAssets": "Идёт сбор ресурсов…",
@@ -6073,8 +6241,9 @@
     "PublishToForkUploadFailed": "Не удалось выгрузить проект",
     "PublishToForkCanceled": "Публикация в дубликате проекта отменена",
     "PublishToForkError": "Не удалось выполнить публикацию в дубликате проекта",
-    "PublishedModule": "Опубликовано \"{0}\"…",
     "PublishSystemComment": "Опубликован с {0} версии {1}",
+    "PublishComplete": "Опубликовано модулей: {0}",
+    "PublishedModules": "Опубликовано {0} из {1} модулей…",
     "PublishProjectsToFork": "Публикация проектов в дубликате {0}…",
     "PublishingModules": "Публикация модулей {0} в дубликате проекта…",
     "RetrievingProjectInformationMessage": "Повторная привязка к онлайн-проекту…",
@@ -6109,6 +6278,7 @@
     "RemapLocalVsReferencedContent.NoRootPlugin": "В проекте нет корневого плагина",
     "RemapLocalVsReferencedContent.SinglePluginProject": "Нет контента для переназначения, так как в проекте всего один плагин",
     "RemapLocalVsReferencedContent.NoRefencedContent": "Нечего переназначать, так как внешнего контента нет",
+    "PublishModuleEmptyResult": "Невозможно подтвердить результаты публикации",
     "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "Непредвиденная ошибка переназначения {0}",
     "UnloadingPlugins": "Выгрузка плагинов…",
     "GatherReferencedContentToLoad.MultiProjectIncompatible.Title": "Внимание",
@@ -6232,6 +6402,7 @@
     "Experimental_VerseCheckUnavailable": "Не удалось запустить экспериментальную проверку Verse (диагностика сконвертированных в формат платформы файлов недоступна).",
     "PublishingReport_MemoryUsage": "Используемая память:",
     "MemoryCheck_Calculating": "Используемая память: расчёт…",
+    "MemoryCheck_CalculationFailed": "Используемая память: не удалось выполнить расчёт",
     "MemoryCheck_SamplerFailed": "Используемая память: не удалось выполнить расчёт",
     "MemoryCheck_NotYetCalculated": "Используемая память: ещё не рассчитана",
     "MemoryCheck_Result": "Используемая память: {0}",
@@ -6472,9 +6643,12 @@
     "UploadRate": "Выполняется выгрузка {0}/{1}{3}, {2}{3}/с"
   },
   "ValkyrieValidator": {
-    "InventorySettingValidatorMessage": "Настройка \"Пользовательский инвентарь\" включена на уровне, но не в настройках проекта.",
+    "InventorySettingValidatorMessage": "Настройка «Пользовательский инвентарь» включена в настройках проекта, но не на уровне.",
+    "InventorySettingValidatorMessageLevelActive": "Настройка \"Пользовательский инвентарь\" включена на уровне, но не в настройках проекта.",
     "MetaSoundValidationFail_PresetInvalidObject": "Ресурс, на который ссылается готовая настройка MetaSound, должен представлять собой допустимый объект",
     "Invalid Parent": "Ресурс {0} является дочерним ресурсом недопустимого класса {1}",
+    "CheckingAssetReferences": "Проверка ссылок на ресурсы…",
+    "CompilingBlueprintsPhase": "Компиляция схем Blueprint…",
     "VirtualizedDataValidate": "Содержит виртуальные данные и не работает в UEFN! Необходимо восстановить пакетный файл в физической памяти.",
     "Blueprints.Fixer.NullBlueprint": "Не удалось найти схему: {0}",
     "Properties.Fixer.NullObject": "Не удалось найти объект: {0}",
@@ -6498,6 +6672,8 @@
     "Blueprints.Fixer.Transaction": "Вычищенная схема",
     "Blueprints.Fixer.SanitizedBlueprint": "Вычищенная схема: {0}",
     "Blueprints.Error.RestrictedContent": "Эта схема содержит запрещённый контент. Вычистите её, чтобы удалить следующий запрещённый контент: ({ValidatorClass})",
+    "ValidatingAssetsPhase": "Проверка ресурсов…",
+    "ValidatingProjectContent": "Проверка контента проекта…",
     "VirtualizedData": "содержит виртуальные данные и не работает в UEFN! Необходимо восстановить пакетный файл в физической памяти.",
     "ValkyrieVerseValidationError": "При компиляции Verse возникла ошибка(-и) в {0}. См. диагностические сообщения сборки Verse.",
     "MissingGameFeatureData": "В {0} отсутствует ресурс GameFeatureData",
@@ -6813,6 +6989,9 @@
     "CookedContentTimeout": "Произошла ошибка во время связи с серверами игры: истекло время ожидания",
     "StopAutoLocalizationJob.Error.FailedToStop": "Не удалось прервать задачу по локализации"
   },
+  "VkEditorModularTestResolver": {
+    "FailedToLoadRootPlugin": "Не удалось загрузить корневой плагин для пути Verse {0}."
+  },
   "VkEventNodeDetails": {
     "Category": "Событие диалога"
   },
@@ -6826,6 +7005,36 @@
   },
   "VkMaterialNodeDetails": {
     "Category": "Материал"
+  },
+  "VkProjectContentImport": {
+    "AddedReference": "Добавлен внешний контент:\n{0}",
+    "FeatureSetMismatch": "Невозможно импортировать контент бренда {0} в проект, использующий бренд {1}.",
+    "CompilingVerse": "Компиляция Verse…",
+    "CopyingContent": "Копирование контента…",
+    "AddingPublishedContent": "Скачивание/загрузка внешнего контента…",
+    "AddReferenceFailed": "Не удалось добавить внешний контент:\n{0}",
+    "CopyFailed": "Не удалось скопировать контент исходного проекта.",
+    "FindPluginsFailed": "Не удалось найти плагины исходного проекта:\n{0}",
+    "SourceProjectLoadFailed": "Не удалось загрузить исходный проект:\n{0}",
+    "GatherReferencesFailed": "Не удалось считать ссылки исходного проекта:\n{0}",
+    "SaveFeatureSetFailed": "Не удалось сохранить файл целевого проекта:\n{0}",
+    "GatheringReferencedContent": "Сбор внешнего контента…",
+    "UnsupportedPluginCount": "Импорт исходных проектов с {0} плагинами не поддерживается (требуется ровно один).",
+    "ImportingProjectContent": "Импорт контента проекта…",
+    "NoDestinationProject": "Не предоставлен целевой проект.",
+    "AddingSourceContent": "Открытие внешнего исходного контента…",
+    "ImportCanceled": "Импорт контента проекта отменён",
+    "ImportFailed": "Сбой импортирования контента проекта",
+    "ImportSucceeded": "Контент проекта импортирован",
+    "RollingBack": "Выполняется откат…",
+    "ImportSourceProjectBrowseTitle": "Выбрать исходный проект {0} для импорта",
+    "DestinationNotOpened": "Целевой проект {0} не открыт.",
+    "NoDestinationRootPlugin": "Целевой проект не содержит корневой плагин.",
+    "DestinationClosedDuringImport": "Целевой проект был закрыт во время импорта.",
+    "SourceFileMissing": "Файл исходного проекта не существует:\n{0}",
+    "SourceGoneDuringImport": "Исходный проект больше не существует.",
+    "SourceIsDestination": "Исходный проект является целевым проектом.",
+    "ReferencedProjectReadError": "{0}:\n{1}"
   },
   "VkRepeatNodeDetails": {
     "Category": "Повторить"

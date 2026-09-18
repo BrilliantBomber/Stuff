@@ -790,6 +790,7 @@
     "SpatialMetricsGridCommands": "网格",
     "SpatialMetricsHistogramCommands": "柱状图",
     "SpatialMetricsViewerCommands": "空间采样查看器",
+    "MemoryCalculationCommands": "UEFN Memory Calculation",
     "ValkyrieEditor": "Valkyrie编辑器"
   },
   "ConversationGraph": {
@@ -1168,7 +1169,8 @@
     "ProjectHomeDocumentation": "文档",
     "ProjectHomeForumsButton": "论坛",
     "LiveEditStatusColumnLabel": "实时编辑状态",
-    "ValkyriePIENotAvailable": "在{0}中不可用",
+    "ValkyriePIERestrictiveMode": "Play In Editor is blocked in {0}: restrictive mode is enabled. Automated runs are authorized automatically when launched with -unattended; to play interactively, disable restrictive mode.",
+    "ValkyriePIENotAvailableCooked": "Play In Editor is not available in {0} while running cooked editor content.",
     "ProjectHomeReleaseNotesButton": "版本说明",
     "ProjectHomeRoadmapButton": "路线图",
     "SupportName": "支持",
@@ -1190,18 +1192,22 @@
     "PromptForProjectIdVariant_Hint": "项目Guid、Verse路径或链接代码",
     "PromptForProjectIdVariant_SyntaxFeedbackMessage": "输入的字符串不是有效的Guid、Verse路径或链接代码。"
   },
-  "FXCosmeticVariant": {
-    "ParticleChannelName": "Particle"
-  },
   "Fab": {
     "ClearCacheButton": "清除缓存",
+    "ExtractError": "Couldn't extract the download",
     "DownloadError": "下载错误",
     "DownloadFinished": "下载完成",
     "Downloading": "正在下载",
+    "DownloadingAsset": "Downloading {0}",
+    "ExtractFinished": "Extract finished",
+    "Extracting": "Extracting",
     "WebBrowserModuleNotEnabled": "加载插件失败。 请在插件管理器中启用 网络浏览器窗口（Web WebBrowserWindow）以使用商城（Emporium）。",
     "ImportError": "导入错误",
     "ImportFinished": "导入已完成",
     "Importing": "导入",
+    "NoProjectInArchive": "The download contains no UEFN project",
+    "SourceAlreadyDownloading": "This asset is already downloading",
+    "ProjectAlreadyImporting": "This source is already downloading",
     "Fab.TooltipLoggedOut": "你需要登录才能从Fab获取内容"
   },
   "FeedbackHandleCustomization": {
@@ -1678,6 +1684,8 @@
     "Pick Map": "选择地图",
     "SelectUEFNProject": "选择UEFN项目",
     "UEFNProjectNameKey": "选择UEFN项目",
+    "MapUIDataUpdateComplete": "UI Map Data Update Complete",
+    "MapUIDataUpdateFailed": "UI Map Data Update FAILED.\n\nSome or all tables were not updated. Open the newest FortniteGame*.log in:\n{0}\nand search for 'Error:' to see the reason (exclusive checkout by another user, missing Perforce connection, unsynced files, ...).",
     "UpdateMapUIData": "更新贴图UI数据"
   },
   "FortQuestObjectiveEditor": {
@@ -2177,9 +2185,6 @@
     "AssetTypeActions_ItemAbilityConfigurationAsset": "物品能力配置资产",
     "AssetDefinition_ItemAbilityEffectAsset": "物品能力效果资产",
     "AssetTypeActions_ItemAbilityEffectAsset": "物品能力效果资产",
-    "AssetDefinition_ItemOwnerPoseAsset": "物品所有者姿势",
-    "AssetTypeActions_ItemOwnerPoseAsset": "物品所有者姿势",
-    "ItemOwnerPoseAssetHasNullProxyTable": "物品持有者姿势需要设置代理表",
     "AssetDefinition_ItemizationConfigurationAsset": "物品配置资产",
     "AssetTypeActions_ItemizationConfigurationAsset": "物品配置资产"
   },
@@ -2200,9 +2205,6 @@
   },
   "ItemComponentData_ItemTypeInventoryLimit": {
     "LimitAmount": "物品数据{0}的LimitAmount字段存在冗余。 仅当LimitAmount大于0时，才需要此项设置。"
-  },
-  "ItemComponentData_OwnerPose": {
-    "PoseAsset": "所有者姿势物品数据'{0}'应包含有效的姿势资产！"
   },
   "ItemComponentData_SlotSize": {
     "SlotSize": "物品槽位数据'{0}'存在冗余。 仅当插槽大小不为1时必需。"
@@ -2567,17 +2569,6 @@
     "BranchHistoryTooltipText": "Open the Branch History tab.",
     "ConflictResolutionTooltipText": "Open the Conflict Resolution tab."
   },
-  "MTFAcc": {
-    "LifecycleOrderCollision": "LifecycleOrderCollision",
-    "LifecycleOrderFixtureA": "LifecycleOrderFixtureA",
-    "LifecycleOrderFixtureZVerify": "LifecycleOrderFixtureZVerify",
-    "LifecycleSelfSkip": "LifecycleSelfSkip",
-    "LifecycleSetupAssertFail": "LifecycleSetupAssertFail",
-    "LifecycleSetupFail": "LifecycleSetupFail",
-    "LifecycleTeardownAssertFail": "LifecycleTeardownAssertFail",
-    "LifecycleTeardownFail": "LifecycleTeardownFail",
-    "SuiteSetup": "SuiteSetup"
-  },
   "MakeNextInSeriesScreen": {
     "FolderComboToolTipText": "选择一个内容目录",
     "CreateQuestAsset": "创建",
@@ -2607,6 +2598,63 @@
     "InvalidContext": "请求上下文无效。",
     "CheatsNotSupported": "客户端/专用服务器发送作弊指令的功能已不再受支持",
     "NoServicePerms": "无法找到服务器的服务权限。"
+  },
+  "MemoryCalculationFlow": {
+    "Stage_Calculating": "calculating memory usage",
+    "Stage_AcquiringManifest": "fetching cooked build data",
+    "Stage_AcquiringBudget": "fetching the project's memory limit",
+    "Stage_ReportingResult": "recording result",
+    "Stage_WaitingForCook": "waiting for cook"
+  },
+  "MemoryCalculationGroupings": {
+    "GraphNodeExpandHint": "(double click to expand)",
+    "PackageActorsExpandHint": "(double click to expand)",
+    "NoActorGroup": "(no referencing actor)",
+    "NoCellGroup": "(no referencing cell)",
+    "UnknownReferencerGroup": "(unknown referencer)",
+    "UntypedGroup": "(untyped)",
+    "ActorGroupingShort": "Actor Referencer",
+    "PackageActorsGroupingShort": "Actors per Package",
+    "PackageActorsGroupingTitle": "Actors per Package",
+    "ActorGroupingTitle": "By Actor Referencer",
+    "CellGroupingTitle": "By Cell Referencer",
+    "DependencyGroupingTitle": "By Package Dependency",
+    "ReferencerGroupingTitle": "By Package Referencer",
+    "TypeGroupingTitle": "By Type",
+    "CellGroupingShort": "Cell Referencer",
+    "ActorGroupingDesc": "Groups each package under every actor that references it.",
+    "CellGroupingDesc": "Groups each package under every cell that references it.",
+    "TypeGroupingDesc": "Groups packages by asset type, with the Content-Browser type icon and color.",
+    "PackageActorsGroupingDesc": "Lists each package with the actors that reference it as expandable children (the inverse of By Actor Referencer).",
+    "DependencyGroupingShort": "Package Dependency",
+    "ReferencerGroupingShort": "Package Referencer",
+    "DependencyGroupingDesc": "Package dependency tree: a root package (nothing references it) expands into the packages it references, recursively.",
+    "ReferencerGroupingDesc": "Package referencer tree: a root package (referencing nothing) expands into the packages that reference it, recursively.",
+    "TypeGroupingShort": "Type"
+  },
+  "MemoryCalculationSubsystem": {
+    "MemoryCalculationTab_Tooltip": "Inspect the editor-computed memory result and its heaviest packages.",
+    "MemoryCalculationTab": "Memory Calculation"
+  },
+  "MemoryCalculationTableViewModel": {
+    "PeakScope": "Peak",
+    "PeakScopeFmt": "Peak ({0})"
+  },
+  "MemoryCalculationViewPresets": {
+    "Preset_PkgActors": "Actors per Package",
+    "Preset_Type": "Asset Type",
+    "Preset_PkgDep_Tip": "Dependency tree: a root package expands into the packages it references.",
+    "Preset_PkgActors_Tip": "Each package expands into the actors that reference it.",
+    "Preset_Flat_Tip": "Every package in the peak memory footprint, ungrouped, largest first.",
+    "Preset_Flat": "Flat",
+    "Preset_PkgDep": "Package Dependency",
+    "Preset_PkgRef": "Package Referencer",
+    "Preset_Type_Tip": "Packages grouped by asset type, largest type first.",
+    "Preset_Cell_Tip": "Packages under each referencing World Partition cell, broken down by asset type.",
+    "Preset_Actor_Tip": "Packages under each referencing actor.",
+    "Preset_PkgRef_Tip": "Referencer tree: a root package expands into the packages that reference it.",
+    "Preset_Actor": "Referencing Actor",
+    "Preset_Cell": "Referencing Cell"
   },
   "MemoryTimingViewExtender": {
     "NoPlayerTargetAvailableTooltip": "玩家必须连接至会话，方可被用作追踪目标。",
@@ -2642,17 +2690,13 @@
     "ModularGateExpressionWidget_Title": "门表达式编辑器",
     "ModularGateExpressionWidget_OK": "确定"
   },
-  "ModularTest": {
-    "SuiteSetup": "SuiteSetup",
-    "SuiteTeardown": "SuiteTeardown"
-  },
   "NPCCharacterDefinition": {
     "MissingType": "缺少类型！",
     "InvalidSkeletalMeshComponent": "{0}：角色蓝图{1}需要包含骨骼网格体组件！",
     "MissingCharacterModifier": "{0}：缺少的字符修饰符",
     "DuplicatedModifier": "{0}：以下类型的多个修饰符{1}",
     "InvalidSkeletalMeshAsset": "{0}：骨骼网格体组件上的骨骼网格体资产不能为空！",
-    "UnsupportedModifier": "{0}】：标识【{0}】不支持的修饰符类型【{1}】!"
+    "UnsupportedModifier": "{0}】：标识【{1}】不支持的修饰符类型【{2}】!"
   },
   "NPCCharacterDefinitionComponent": {
     "MissingDefinition": "{0}：缺少NPC角色定义{1}",
@@ -3073,6 +3117,55 @@
   "SLoreSourceControlWidgets": {
     "InvalidComboEntryText": "<<Invalid option>>"
   },
+  "SMemoryCalculationDetailsView": {
+    "NoCells": "(always loaded or not referenced by a cell)",
+    "NoActors": "(none in the loaded editor world)",
+    "Untyped": "(untyped)",
+    "Browse": "Browse",
+    "FieldPath": "Path",
+    "FieldRefs": "Referencers",
+    "ActorsHeader": "Referencing actors ({0})",
+    "CellsHeader": "Referencing cells ({0})",
+    "NoSelection": "Select a package to see its type, size, and the cells and actors that reference it.",
+    "BrowseTip": "Select this actor in the editor (if it is currently loaded).",
+    "FieldSize": "Size",
+    "FieldType": "Type",
+    "FieldVersePath": "Verse Path"
+  },
+  "SMemoryCalculationPanel": {
+    "AlwaysLoadedLabel": "Always loaded:",
+    "FailedReason": "Calculation failed: {0}",
+    "Details": "Details",
+    "Fail": "FAIL",
+    "HeadroomSegment": "Headroom {0}",
+    "InProgress": "IN PROGRESS",
+    "InProgressStage": "IN PROGRESS ({0})",
+    "SamplesLabel": "Locations sampled:",
+    "PeakLocationTip": "Move the active viewport to the location where the peak was measured.",
+    "NoResultInitial": "No result",
+    "NoResult": "No result — run Launch Memory Calculation",
+    "OtherSegment": "Other",
+    "Pass": "PASS",
+    "PackagesLabel": "Packages:",
+    "PeakLocationLabel": "Peak location:",
+    "Statistics": "Statistics",
+    "OtherSegmentTip": "Types below {0} of the bar, combined: {1}",
+    "UntypedSegment": "Untyped",
+    "NewerTip": "View the next (newer) calculation result.",
+    "OlderTip": "View the previous (older) calculation result.",
+    "PeakLocation": "at {0}",
+    "HistoryPos": "{0} / {1}  ({2})",
+    "HeadroomSegmentTip": "{0} of budget unused",
+    "PeakOfBudget": "{0} of {1}",
+    "PeakOverBudget": "{0} of {1} — over by {2}",
+    "SegmentTip": "{0}: {1} ({2} of budget)"
+  },
+  "SMemoryCalculationTableTreeView": {
+    "AllScope": "All",
+    "ContextMenu_Section_Browse": "Browse",
+    "AllScope_Tip": "Show every package in the calculation, including packages not resident at the peak sample.",
+    "PeakScope_Tip": "Show only the packages resident at the peak sample point — the set whose sizes make up the reported peak."
+  },
   "SMetricsTreeView": {
     "HeaderCheckBoxTooltip": "启用或禁用所有指标",
     "HeaderRowMetricsColumn": "参数",
@@ -3369,8 +3462,6 @@
     "Settings.SizeBreakdownView.ToolTip.ShowDependencies": "When on, dependency assets are merged into each per-type / per-package row in the By Type and By Package views, with per-source children expandable under each type. Has no effect in the By Dependency view (which always shows dependencies).",
     "LastUploadedTimestampWithVersionFmt": "{0} (v{1})",
     "ActorClassLabelFormat": "{0}个Actor",
-    "SizeInKBFmt": "{0} KB",
-    "SizeInMBFmt": "{0} 兆字节",
     "DownloadSizeWithLimitFmt": "{CombinedDownloadSize} / {ProjectDownloadSizeLimit}",
     "UploadSizeWithLimitFmt": "{ProjectUploadSize} / {ProjectUploadSizeLimit}",
     "EstimatedSizeFormat": "~{0}",
@@ -3406,50 +3497,49 @@
   "SValkyrieSessionInspector": {
     "SessionStatus_NewContentFinishedLoadingAll": "全部内容服务工作已完成。 服务器和客户端现在正在运行。",
     "SessionStatus_ContentError": "收到内容错误。 检查输出日志以获取详细信息。",
+    "SessionWallTime": "Elapsed Time:",
     "ValkyrieProjectSubMenuSessionSection": "实时编辑工具",
     "SessionStatus_NotConnected": "未连接到会话。",
-    "OpenProject": "打开项目：",
     "Settings.GeneralSettings.Label.OpenOnLaunchSession": "启动会话时打开",
-    "ViewSessionDSPortal_ToolTip": "打开最近会话的DS门户页面",
-    "StatisticsHeading": "会话详情",
     "ValkyrieSessionInspector": "会话检查器",
     "Unavailable": "会话检查器暂时不可用。请稍后重试。",
-    "SessionStatus": "会话状态：",
-    "SessionWallTime": "会话墙时间：",
     "Settings.GeneralSettings": "设置",
-    "SettingsText": "设置",
+    "SettingsToolTip": "Settings",
     "Settings.GeneralSettings.ToolTip.OpenOnLaunchSession": "点击“启动会话”时，会话检查器是否应自动打开？",
+    "SessionStatus": "Status:",
     "SessionWallTimeTooltip": "自点击“启动会话”或“推送变更”起，直到所有模块都已烘焙和下载的时间量。",
-    "ViewSessionDSPortal": "在DS门户上查看会话（仅限Epic开发者）",
+    "ViewLogsButton": "View Logs",
     "ValkyrieSessionInspector_Tooltip": "查看你的实时编辑会话状态",
     "SessionStatus_LoadingNewContent": "正在等待所有模块准备就绪并等待服务器加载内容。",
     "SessionStatus_NewContentFinishedLoadingServer": "正在等待客户端就绪。",
     "SessionStatus_NewContentFinishedLoadingClients": "正在等待最终内容初始化。",
-    "SessionStatus_DistributingToConnectedSession": "正在等待会话服务器。",
-    "ViewSessionDSPortal_ToolTipEx": "{0}\n最近会话开始于{1}"
+    "SessionStatus_DistributingToConnectedSession": "正在等待会话服务器。"
   },
   "SValkyrieSessionInspectorCookMonitor": {
-    "SessionBaseEntriesTree.Column.EndDate": "完成日期",
+    "ViewAllCookJobsDashboard": "All Jobs",
+    "CookJobsLabel": "Cook Jobs",
     "CookFailedStatusTooltip": "烘焙任务失败。",
     "CookSuccessStatusTooltip": "烘焙任务成功。",
     "CookUnknownStatusTooltip": "烘焙状态不可用。",
     "CookFromCache_ToolTip": "已从缓存中检索到烘焙数据。",
     "ContextMenu_CopyTooltip": "复制该列的值",
     "ContextMenu_Copy": "拷贝",
+    "ViewSessionDSPortal": "DS Portal",
+    "SessionBaseEntriesTree.Column.WallTime": "Elapsed Time",
     "IndirectDependencies": "间接依赖关系",
+    "SessionBaseEntriesTree.Column.EndDate": "Last Cook Date",
     "ModuleVersionMultiple": "多个",
     "SessionBaseEntriesTree.Column.Name": "名称",
     "NoCorrelationIds": "无可用关联ID。",
-    "ViewAllCookJobsDashboardTooltip": "打开内容服务控制板，筛选到下方烘焙任务的每个关联ID。",
+    "ViewAllCookJobsDashboardTooltip": "Open the Content Service dashboard filtered to every correlation-id for the cook jobs below. (EpicDev only)",
+    "ViewSessionDSPortal_ToolTip": "Opens the DS portal page for the most recent session. (EpicDev only)",
     "ReferencingProjects": "引用项目",
-    "CookJobsLabel": "会话烘焙作业",
     "SessionBaseEntriesTree.Column.Status": "状态",
     "SessionBaseEntriesTree.Column.Version": "版本",
-    "ViewAllCookJobsDashboard": "查看所有任务（仅限Epic开发者）",
     "ViewCookStatus": "查看烘焙状态",
-    "SessionBaseEntriesTree.Column.ViewInJobDashboard": "在任务控制板中查看（仅限EpicDev）",
+    "SessionBaseEntriesTree.Column.ViewJob": "View Job",
     "ViewJob": "查看任务",
-    "SessionBaseEntriesTree.Column.WallTime": "墙体时间",
+    "ViewSessionDSPortal_ToolTipEx": "{0}\nMost recent session started {1}. (EpicDev only)",
     "ModuleDisplayName": "{0}（{1}）"
   },
   "SValkyrieSessionInspectorStagingLogs": {
@@ -3493,11 +3583,14 @@
   },
   "SValkyrieSessionInspectorStagingMonitor": {
     "Canceled": "已取消",
+    "StepStatus_Completed": "Completed ({0})",
     "Label_Cooking": "烘焙",
     "ToolTip_Versioning": "创建新的模块版本。此步骤仅在需要时执行。",
     "ToolTip_Downloading": "下载烘焙内容到会话服务器。",
     "Label_Downloading": "正在下载",
+    "StepStatus_Failed": "Failed ({0})",
     "ToolTip_Playing": "完成会话设置并准备播放。",
+    "StepStatus_InProgress": "In progress ({0})",
     "NotStarted": "未启动",
     "ToolTip_PreparingForUpload": "执行必要的先决条件以验证并上传项目。",
     "Label_Playing": "正在播放",
@@ -3508,8 +3601,8 @@
     "ToolTip_Validating": "验证项目资产是否适合上传。",
     "Label_Validating": "正在验证",
     "Label_Versioning": "版本化",
-    "ViewLogsButton": "查看日志",
-    "ToolTip_Cooking": "正在等待所有模块完成烘焙，并等待服务器加载内容"
+    "ToolTip_Cooking": "正在等待所有模块完成烘焙，并等待服务器加载内容",
+    "StepToolTipFormat": "{0}: {1}\n{2}"
   },
   "SVerbDebugger": {
     "AdditionalFilters": "额外过滤器",
@@ -3558,8 +3651,10 @@
     "BuildErrorsMessage": "打开 {0} 时发现Verse编译错误。修复 Verse 代码中的以下错误，然后重建。在不修复错误的情况下保存资产可能会导致数据丢失。"
   },
   "SVkContentResolutionViewer": {
+    "PillDepsMore": "\t(+{0} more)",
     "ModuleDep": "\t{0}",
     "ModuleStaticDep": "\t{0}",
+    "PillDepPath": "\t{0}",
     "ForkStack": "**** Fork Stack ****",
     "ModuleDetails": "**** 模块详情 ****",
     "ModuleAccess": "Access: {0}",
@@ -3591,6 +3686,8 @@
     "BuildForkError": "Could not find build Fork '{0}'",
     "ForkCreated": "Created: {0}",
     "ModuleCreationDateTime": "Creation Date: {0}",
+    "PillDepsLive": "Dependencies published live:",
+    "PillDepsFork": "Dependencies published to fork {0}:",
     "ModuleDeps": "依赖项：",
     "ModuleDescription": "描述：{0}",
     "WsIdHint": "Enter Fork ID",
@@ -3630,6 +3727,7 @@
     "BrowseProjectTooltip": "从磁盘上的项目中选择Verse路径。",
     "StarredLabel": "已标星",
     "WsModeTeam": "Team",
+    "ForkStackCycleError": "The fork parent chain contains a cycle. Showing the resolved chain up to the repeated fork.",
     "ModuleTitle": "标题：{0}",
     "ModuleCreationDateUnavailable": "Unavailable",
     "ModuleVersePath": "Verse路径：{0}",
@@ -3639,6 +3737,7 @@
     "VkContentResolutionTree_ViewOnContentServiceTooltip": "在内容服务网站上查看选定模块",
     "NotLoggedIn": "你必须登录才能使用此工具。",
     "VersionLabel": "v{0}",
+    "VersePathWithModuleId": "{0}  {1}",
     "ForkNameAndId": "{0} ({1})"
   },
   "SVkForkSelector": {
@@ -3873,6 +3972,8 @@
     "MemoryProfilerTabTooltip": "查看客户端内存使用情况的详细分析。"
   },
   "UE::SpatialMetrics::MetricActionUtils": {
+    "AlreadySnapshottingAction": "Already Tracing",
+    "AlreadyTracingAction": "Already Tracing",
     "StartCaptureAction": "Start Capture",
     "TakeSnapshotAction": "Take Snapshot"
   },
@@ -3896,6 +3997,7 @@
     "UploadProject.Error.TargetVersionDocUnset": "未能确定编辑会话更新的根经验插件",
     "FailedToStageAndValidateFiles": "项目“{0}”本地源文件暂存和验证失败",
     "StagingFailed": "无法暂存项目以供上传\n{0}",
+    "WriteInternalApiDescriptorFailed": "Failed to write project '{0}' internal api descriptor.",
     "WritePublicApiDescriptorFailed": "未能写入项目“{0}”公共API描述符。",
     "InitSyncModules": "正在初始化项目“{0}”以进行上传……",
     "Initializing": "初始化中...",
@@ -3910,6 +4012,7 @@
     "ValidationFailed": "项目验证失败",
     "ValidationAutoFixup.RunButton": "运行修复",
     "ValidationAutoFixup.Heading": "是否运行验证修复？",
+    "RunningContentValidation": "Running content validation...",
     "ShowMessageLogHyperlink": "显示消息日志",
     "ShowOutputLogHyperlink": "显示输出日志",
     "ValidationAutoFixup.SkipButton": "跳过修复",
@@ -3984,6 +4087,12 @@
     "ResetTextureOnSelectedSaticMeshBuildingActors_ToolTip": "将所选静态网格体建筑Actor的纹理重置为默认纹理。",
     "RotateSelectedBuildingActors": "旋转选中的建筑Actor",
     "RotateSelectedBuildingActors_ToolTip": "旋转视口中选定的建筑元素"
+  },
+  "UICommands.MemoryCalculationCommands": {
+    "BrowseToAsset": "Browse to Asset",
+    "SelectInOutliner": "Select in Outliner",
+    "SelectInOutliner_ToolTip": "Selects the actor(s) in the level.",
+    "BrowseToAsset_ToolTip": "Syncs the Content Browser to the selected package(s). Packages with no on-disk asset (generated cells, VerseDebugData, ...) are skipped."
   },
   "UICommands.SGridView": {
     "ShowAxes": "轴",
@@ -4456,6 +4565,26 @@
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Tooltip": "从当前关卡中收集需要置换网格体的已加载Actor，并生成缺失的网格体。 该工具还会标记需要重新保存的Actor为脏数据。",
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Label": "生成持久化Nanite置换网格体"
   },
+  "VK_MEMCALC_ERRORS": {
+    "ManifestFileUnreadable": "Cannot read a memory manifest from '{Path}'.",
+    "InvalidModuleBinaries": "Content artifact has no cooked binaries or cook job.",
+    "ContentServiceUnavailable": "Content service is not available.",
+    "ContentServiceFailure": "Content service request failed: {Detail}",
+    "EmptyManifest": "MemoryManifest contains no packages.",
+    "ManifestMissingSizeChunkTypes": "MemoryManifest declares no SizeChunkTypes.",
+    "ManifestParseFailed": "MemoryManifest is not valid JSON ({NumChars} chars).",
+    "NoPublishedModuleVersion": "Module {Module} has no published version.",
+    "NoClientArtifact": "No '{Platform}' client artifact on the root module.",
+    "InvalidBuildCode": "No build code to report a result against.",
+    "NoProjectOpen": "No main project is open.",
+    "NoRootWorld": "No root world derived from MemoryManifest's World Partition cells or World-typed packages.",
+    "NoPublishingMemoryLimit": "Project {Project} has no publishing memory limit.",
+    "RequestAbandoned": "Request ended without reporting an outcome.",
+    "ManifestSizeChunkTypesMismatch": "SizeChunkTypes [{Declared}] do not match expected [{Expected}].",
+    "ManifestUnknownChunkType": "Unrecognized SizeChunkTypes entry '{ChunkType}'.",
+    "EngineVersionMismatch": "{NumModules} module(s) uploaded by a different engine version, including {Module} v{ModuleVersion} by '{UploadedEngineVersion}'; this editor is '{CurrentEngineVersion}'. Launch Session to refresh.",
+    "LatticeTooLarge": "{RequestedSamples} samples exceeds the {MaxSamples} ceiling ({SpatialPrecision}cm step)."
+  },
   "ValidateSchematics": {
     "DisplayText": "加载中……",
     "Test": "没有错误！",
@@ -4611,6 +4740,14 @@
   "ValkyrieChangelistValidator": {
     "VkChangelistInvalid": "变更列表未正确指定#preflight标签。 请在提交前前往Horde执行飞行前检查。"
   },
+  "ValkyrieContentGovernance": {
+    "PluginReferenceViolation": "Found reference to disallowed plugin '{0}'",
+    "MutuallyExclusivePluginReferenceViolation": "Found references to mutually exclusive plugin sets",
+    "InvalidRuleField_EntitlementId": "Missing value for field: EntitlementId",
+    "InvalidRuleField_Tag": "Missing value for field: Tag",
+    "InvalidRuleField_Type": "Unknown rule type:",
+    "MutuallyExclusivePluginSet": "{0}: {1}"
+  },
   "ValkyrieContentServiceCmds": {
     "ArchiveProject": "正在归档项目“{0}”",
     "ArchiveProjects": "正在归档项目...",
@@ -4682,20 +4819,20 @@
     "MemoryTestResults": "内存测试结果",
     "MemorySamplingAlreadyRunning": "内存采样已在进行中！",
     "VerseVersion.Title": "新版本可用",
-    "NoVersePathsAssigned": "没有Verse路径被更改。",
     "VerseVersion.RemindMeLater.Tooltip": "下次打开时若此项目未使用最新稳定版Verse，请再次提醒",
     "UploadProjectsParallelAlreadyRunning": "并行上传流程已在运行中",
     "PrepareProjectForUploadAlreadyRunning": "项目上传准备工作已在运行中",
     "VerseVersion.Msg": "项目'{0}'正在使用Verse版本{1} . \n你现在可以更新至{2}版本的Verse，或稍后通过项目设置进行更新。",
     "CreateBuildAlreadyRunning": "项目构建创建已在运行中",
-    "PublicAssetChangeNoContentService": "项目必须与内容服务同步才能修改公共资产\n请确保你已登录",
+    "PublicAssetChangeNoContentService": "Project must be synced with content service to tamper with exposed assets or redirectors\nMake sure you're logged in",
+    "ProjectValidationCanceled": "Project validation was canceled",
     "VerseVersion.RemindMeLater": "稍后提醒我",
     "SanitizePublicApiAlreadyRunning": "清理公共API正在运行",
     "SaveOutputPageLabel": "保存输出",
     "SavePackagesAlreadyRunning": "保存包文件任务正在进行中",
-    "SelectProjectsToAssignVersePathsTo.Title": "选择项目",
-    "SelectProjectsToAssignVersePathsTo.Message": "选择你希望自动分配或更新Verse路径的项目：",
-    "PromptForDestructiveAPIAction": "所选资产在已发布项目中可公开引用：\n{0}\n\n要继续此操作，你需要创建项目分支。\n你可以在发布新项目前，在那里修改公共资产。",
+    "ExposedAssetDestructiveAPIAction": "Selected asset(s) are externally referenceable in published project:\n{0}",
+    "RedirectorToExposedAssetDestructiveAPIAction": "Selected redirector(s) redirect to exposed assets in published project:\n{0}",
+    "RedirectorAnotherProjectDestructiveAPIAction": "Selected redirector(s) redirect to other projects from published project:\n{0}",
     "SimpleTemplateMapDisplayNameText": "简单",
     "SimpleTemplateMapDescriptionText": "简单关卡示例。",
     "BlankTemplateMapDescriptionText": "一个简单的关卡，包含两个生成器。",
@@ -4704,8 +4841,8 @@
     "VerseVersion.Update.Tooltip": "将此项目更新至最新稳定版Verse版本（{0}）\n请注意，你可随时在项目设置中回退至任意Verse版本）",
     "UploadProjectsParallelNotRunning": "并行上传项目未运行",
     "ValidateProjectAlreadyRunning": "验证项目已在运行",
-    "VersePathsAssigned": "Verse路径已分配给以下项目：",
-    "Error.LocalizationDataEditingDisabled": "你没有手动编辑本地化数据的权限。使用“构建 -> 构建自动本地化”来翻译数据。"
+    "Error.LocalizationDataEditingDisabled": "你没有手动编辑本地化数据的权限。使用“构建 -> 构建自动本地化”来翻译数据。",
+    "PromptForDestructiveAPIAction": "{0}\n\nTo continue with this action you will need to Branch your project.\nThere you can alter project API before publishing under a new Project."
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "配置{0}功能",
@@ -4800,8 +4937,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}：成功为{1}准备数据"
   },
   "ValkyrieEditorMemoryCalculation": {
-    "MemoryRatio": "{0}/{1}",
-    "MemoryRatioUnitsMb": "{0}/{1}Mb"
+    "MemoryRatioUnitsMb": "{0} / {1}",
+    "MemoryRatio": "{0}/{1}"
   },
   "ValkyrieEditorMenus": {
     "FixValidationIssues.ActorOptions.Tooltip": "尝试自动解决这些Actor上的某些验证问题。",
@@ -4886,7 +5023,6 @@
   },
   "ValkyrieEditorUtils": {
     "CannotUseMoreThanOneBrand": "当“{1}”处于激活状态时，无法使用品牌“{0}”",
-    "CopyFiles": "正在复制文件...",
     "FailCreatePerforceProvider": "创建Perforce修订版本控制提供程序失败",
     "FailLoadBrandPlugins": "未能加载{0}个插件",
     "FailUnloadBrandPlugins": "未能卸载{0}个插件",
@@ -5407,6 +5543,7 @@
     "ValkyrieGFSSelectionWarningCancelButton": "取消",
     "ValkyrieGFSSelectionWarningTitle": "更改品牌",
     "ValkyrieGFSSelectionWarningConfirmButton": "确认",
+    "ValkyrieFortniteGFSReloadFailed_Title": "Couldn't switch brand",
     "ValkyrieFortniteGFSSelectionToast_Dismiss": "忽略",
     "ValkyrieFortniteGFSSelectionToast_Title": "项目品牌变更成功！",
     "ValkyrieFortniteGFSSelectionToast_Body": "你必须关闭并重新打开该项目以使品牌更改生效。 重新打开项目后，移除之前品牌的所有资产，以防止验证错误。"
@@ -5537,6 +5674,32 @@
     "LocalLoreProjectAnnotationText": "This project is backed by Lore.",
     "RequiredProjectPermissions": "此项目需要{0}权限方可正常编辑。",
     "IncompatibleProjectVersionText": "此项目的版本（{0}）与当前引擎（{1}）不兼容。"
+  },
+  "ValkyrieMemoryCalculationTable": {
+    "ColActorsTitle": "Actor Referencers",
+    "ColActors": "Actor Refs",
+    "ColTypeTitle": "Asset Type",
+    "ColNameDesc": "Hierarchy of the package tree.",
+    "ColName": "Name",
+    "ColActorsDesc": "Number of loaded actors that reference this package.",
+    "ColRefsDesc": "Number of packages that directly reference this package.",
+    "ColNameTitle": "Package Hierarchy",
+    "ColPackagePath": "Package Path",
+    "ColPathTitle": "Package Path",
+    "ColRefsTitle": "Package Referencers",
+    "ColRefs": "Package Refs",
+    "ColSizeTitle": "Package Size",
+    "ColPath": "Path",
+    "ColPackagePathTitle": "Raw Package Path",
+    "ColSize": "Size",
+    "ColVersePathDesc": "The package's Verse path; empty for packages without one.",
+    "ColPathDesc": "The package's full path: its Verse path when it has one, else its package path.",
+    "ColPackagePathDesc": "The package's path in the editor, regardless of any Verse path.",
+    "ColSizeDesc": "The package's size.",
+    "ColTypeDesc": "The primary asset type in the package, as shown in the Content Browser.",
+    "ColType": "Type",
+    "ColVersePath": "Verse Path",
+    "ColVersePathTitle": "Verse Path"
   },
   "ValkyrieMissingFileProjectCustomization": {
     "NoFile": "无可用项目文件可打开。",
@@ -5680,7 +5843,7 @@
     "SyncedInvalidProjectFile": "项目文件从版本控制系统同步后无效",
     "AssignVersePath.NotSyncedWithContentService": "项目必须同步内容服务以分配Verse路径。",
     "PurgeVersePath.NotSyncedWithContentService": "项目必须与内容服务同步，以清除一条Verse路径。",
-    "VerifyLivePublicAssetsNoContentService": "项目必须与内容服务同步以验证其实时公共API\n请确保你已登录",
+    "VerifyLivePublicAssetsNoContentService": "Project must be synced with content service to verify its live api\nMake sure you're logged in",
     "RemovePublicApiIfAllowed.ProjectNotOpened": "项目未打开",
     "SanitizePublicApiIfAllowed.ProjectNotOpened": "项目未打开",
     "FeatureSetInProjectPluginDependency": "项目插件不允许在其依赖项中拥有功能集。\n\n已找到：{0}\n\n必须在项目文件中指定功能集。",
@@ -6000,13 +6163,16 @@
     "RemapLocalVsReferencedContent.CannotFindExternalModule": "无法找到项目插件{0}的引用内容",
     "RemapLocalVsReferencedContent.CannotFindLocalPlugin": "无法为引用内容'{0}'找到公共项目插件",
     "VKCannotFindPlugin": "无法找到插件",
+    "PublishTooManyModules": "Cannot publish {0} module(s) at once. The maximum is {1}.",
     "CloseRefSourceProjects.ProjectReload.Title": "闭源内容",
     "CloseRefSourceProject": "正在关闭引用的内容源项目'{0}'...",
     "CloseRefSourceProjects": "正在关闭引用的内容源项目...",
     "CopyPluginAssets.CopyingAssets": "正在复制资产...",
     "CopyVerseFiles": "正在复制Verse文件...",
     "CopyLocFiles": "正在复制本地化文件……",
+    "CopyingPluginContent": "Copying plugin content...",
     "CopyNonContentFiles": "正在复制插件文件...",
+    "CopyingPlugin": "Copying plugin...",
     "ErrorGettingLinkCodeInfoMessage": "未找到项目ID'{0}'。",
     "ErrorResolvingVersePathMessage": "未找到项目ID'{0}'。",
     "FeatureSetDefinitionNotFound": "无法获取特性集“{0}元数据”的定义。 请确保其存在，且权限允许加载。",
@@ -6021,11 +6187,13 @@
     "VKFailLoadGameFeaturePlugin": "未能加载插件\n{0}\n\n{1}",
     "VKFailLoadPlugin": "未能加载插件\n{0}\n{1}",
     "RemapLocalVsReferencedContent.FailedToLoadAsset": "无法加载{0}",
+    "PublishModuleBatchItemError": "Failed to publish one or more modules to fork",
     "RemapLocalVsReferencedContent.FailedToRemap": "未能重新映射{0}中的某些引用",
     "OpenSourceProjects.FailGetProjectInfo": "无法检索'{0}'的相关信息",
     "RemapLocalVsReferencedContent.FailSave": "未能保存部分资产（请查看消息日志）",
     "VKFailTerminateGameFeaturePlugin": "未能终止未成功运行的游戏功能插件\n{0}\n\n{1}",
     "VKProjectFolderNotEmpty": "文件存在于：\n{0}\n移除这些文件或选择不同的名称或位置。",
+    "PublishFinalizing": "Finalizing publish...",
     "FixingProjectSlowTask": "正在修复项目...",
     "GatherVerseFiles": "正在收集Verse文件…",
     "CopyPluginAssets.GatherAssets": "正在收集资产...",
@@ -6073,8 +6241,9 @@
     "PublishToForkUploadFailed": "Project upload failed",
     "PublishToForkCanceled": "Publish to fork canceled",
     "PublishToForkError": "Publish to fork failed",
-    "PublishedModule": "发布了'{0}'...",
     "PublishSystemComment": "使用{0}版本{1}发布",
+    "PublishComplete": "Published {0} module(s)",
+    "PublishedModules": "Published {0} of {1} module(s)...",
     "PublishProjectsToFork": "Publishing projects to fork '{0}'...",
     "PublishingModules": "Publishing {0} module(s) to fork...",
     "RetrievingProjectInformationMessage": "正在重新绑定到在线项目...",
@@ -6109,6 +6278,7 @@
     "RemapLocalVsReferencedContent.NoRootPlugin": "项目中没有根插件",
     "RemapLocalVsReferencedContent.SinglePluginProject": "无需重映射，因为该项目只有一个插件。",
     "RemapLocalVsReferencedContent.NoRefencedContent": "没有可重新映射的内容，因为没有引用内容",
+    "PublishModuleEmptyResult": "Unable to confirm results of the publish",
     "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "重新映射时出现意外错误{0}",
     "UnloadingPlugins": "正在卸载插件…",
     "GatherReferencedContentToLoad.MultiProjectIncompatible.Title": "警告",
@@ -6232,6 +6402,7 @@
     "Experimental_VerseCheckUnavailable": "实验性Verse检查无法运行（烘焙诊断不可用）。",
     "PublishingReport_MemoryUsage": "内存占用情况",
     "MemoryCheck_Calculating": "内存使用：正在计算...",
+    "MemoryCheck_CalculationFailed": "Memory Usage: Calculation failed",
     "MemoryCheck_SamplerFailed": "内存使用：计算失败",
     "MemoryCheck_NotYetCalculated": "内存使用：尚未计算",
     "MemoryCheck_Result": "内存使用量：{0}",
@@ -6472,9 +6643,12 @@
     "UploadRate": "正在上传{0}/{1}{3}，{2}{3}/s"
   },
   "ValkyrieValidator": {
-    "InventorySettingValidatorMessage": "“自定义物品栏”设置在关卡中启用，但在项目设置中未启用。",
+    "InventorySettingValidatorMessage": "\"Custom Inventory\" setting is enabled in Project Settings but not in the level.",
+    "InventorySettingValidatorMessageLevelActive": "\"Custom Inventory\" setting is enabled in the level but not in Project Settings.",
     "MetaSoundValidationFail_PresetInvalidObject": "MetaSound预设引用的资产必须是有效对象",
     "Invalid Parent": "资产{0}是非法类{1}的子项",
+    "CheckingAssetReferences": "Checking asset references...",
+    "CompilingBlueprintsPhase": "Compiling blueprints...",
     "VirtualizedDataValidate": "包含虚拟化数据，无法在UEFN中使用！ 该包文件需要重新水化。",
     "Blueprints.Fixer.NullBlueprint": "未能找到蓝图：{0}",
     "Properties.Fixer.NullObject": "无法找到对象：{0}",
@@ -6498,6 +6672,8 @@
     "Blueprints.Fixer.Transaction": "已清理的蓝图",
     "Blueprints.Fixer.SanitizedBlueprint": "已清理的蓝图：{0}",
     "Blueprints.Error.RestrictedContent": "此蓝图包含受限内容。 净化内容以移除以下受限内容：( {ValidatorClass} )",
+    "ValidatingAssetsPhase": "Validating assets...",
+    "ValidatingProjectContent": "Validating project content...",
     "VirtualizedData": "包含虚拟化数据，无法在UEFN中使用！ 该包文件需要重新水化。",
     "ValkyrieVerseValidationError": "{0}编译Verse时遇到错误。 查看Verse构建设计诊断。",
     "MissingGameFeatureData": "{0}缺少GameFeatureData资产",
@@ -6813,6 +6989,9 @@
     "CookedContentTimeout": "与游戏服务器通信时出现错误：超时",
     "StopAutoLocalizationJob.Error.FailedToStop": "失败，无法停止本地化任务。"
   },
+  "VkEditorModularTestResolver": {
+    "FailedToLoadRootPlugin": "Failed to load a root plugin for Verse path '{0}'."
+  },
   "VkEventNodeDetails": {
     "Category": "对话事件"
   },
@@ -6826,6 +7005,36 @@
   },
   "VkMaterialNodeDetails": {
     "Category": "材质"
+  },
+  "VkProjectContentImport": {
+    "AddedReference": "Added referenced content:\n{0}",
+    "FeatureSetMismatch": "Cannot import content that uses brand '{0}' into a project that uses brand '{1}'.",
+    "CompilingVerse": "Compiling Verse...",
+    "CopyingContent": "Copying content...",
+    "AddingPublishedContent": "Downloading/loading referenced content...",
+    "AddReferenceFailed": "Failed to add referenced content:\n{0}",
+    "CopyFailed": "Failed to copy the source project content.",
+    "FindPluginsFailed": "Failed to find the source project plugins:\n{0}",
+    "SourceProjectLoadFailed": "Failed to load the source project:\n{0}",
+    "GatherReferencesFailed": "Failed to read the source project's references:\n{0}",
+    "SaveFeatureSetFailed": "Failed to save the destination project file:\n{0}",
+    "GatheringReferencedContent": "Gathering referenced content...",
+    "UnsupportedPluginCount": "Importing a source project with {0} plugins is not supported (exactly one is required).",
+    "ImportingProjectContent": "Importing project content...",
+    "NoDestinationProject": "No destination project was provided.",
+    "AddingSourceContent": "Opening referenced source content...",
+    "ImportCanceled": "Project content import canceled",
+    "ImportFailed": "Project content import failed",
+    "ImportSucceeded": "Project content imported",
+    "RollingBack": "Rolling back...",
+    "ImportSourceProjectBrowseTitle": "Select the source {0} project to import",
+    "DestinationNotOpened": "The destination project '{0}' is not opened.",
+    "NoDestinationRootPlugin": "The destination project has no root plugin.",
+    "DestinationClosedDuringImport": "The destination project was closed during the import.",
+    "SourceFileMissing": "The source project file does not exist:\n{0}",
+    "SourceGoneDuringImport": "The source project is no longer available.",
+    "SourceIsDestination": "The source project is the destination project.",
+    "ReferencedProjectReadError": "{0}:\n{1}"
   },
   "VkRepeatNodeDetails": {
     "Category": "重复"

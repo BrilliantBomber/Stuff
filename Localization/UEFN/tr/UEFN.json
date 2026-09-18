@@ -153,7 +153,7 @@
     "F522F0C7492984F80FF752B12C493D41": "Sevimli evler, işleyen bir çiftlik ve yemyeşil doğayla çevrili güneşli plajıyla büyüleyici ve rahat bir köyü keşfet. Yoldaş kontrol sistemi UEFN'ye geliyor, adada dolaşan sevimli evcil hayvanlarla tanış.",
     "E85986084C5768D45C744DA9F7199DB4": "Nevarro'dan esinlenilmiş şehri keşfet. Sonraki maceranı oluşturmaya başlamak için volkanik manzarayı kullan.",
     "5D607756496D7D34534161A76D037AE0": "The Walking Dead Universe'ün ikonik hapishanesini keşfet. Bir sonraki oyununda bu başlangıç adasını kullanarak hızlı bir başlangıç yap.",
-    "84FBC65D4990B009132E6288DDF37B4D": "Face your fears on this creepy haunted island. Observe lighting techniques and methods to add atmosphere in UEFN.",
+    "84FBC65D4990B009132E6288DDF37B4D": "Bu ürkütücü perili adada korkularınla yüzleş. UEFN'de atmosfer eklemek için aydınlatma tekniklerini ve metotlarını gözlemle.",
     "688C10D94213786DF5B0D3B3D65BBA53": "FactCategoryText",
     "7BC1EF91495CE30F0A41BEA8E4D553CC": "Özellik Örnekleri",
     "7DB4F10642BF6FC257A4A4BD4EF9D8F3": "Özellikler Fuarı",
@@ -180,7 +180,7 @@
     "A04B36824B96B1D3730DB4819F0368B4": "Başlangıç Kılavuzu",
     "FC4E8E504E39E595C80E27AB1628E729": "Gri Tonlamalı sRGB",
     "40A2BADA49BF6943636D468D268C235C": "Izgara/sn.",
-    "193CF4DD4D3859505223E5967E9AFFF2": "Harrowville: Environment",
+    "193CF4DD4D3859505223E5967E9AFFF2": "Tırmıklı Tepeler: Çevre",
     "7C0AC7B546C8252B3CA90791C665F406": "Sahip olduğu: {0} Kabul edilen: {1}",
     "1A37A12C46F34B2727DFE09389BFB29F": "Yardımcı Öğe",
     "A2113EE54097BA5ED4DB19BF308694B9": "Yardımcı Öğe",
@@ -790,6 +790,7 @@
     "SpatialMetricsGridCommands": "Izgara",
     "SpatialMetricsHistogramCommands": "Histogram",
     "SpatialMetricsViewerCommands": "Mekânsal Ölçüm Görüntüleyici",
+    "MemoryCalculationCommands": "UEFN Bellek Hesaplaması",
     "ValkyrieEditor": "Valkyrie Editörü"
   },
   "ConversationGraph": {
@@ -1168,7 +1169,8 @@
     "ProjectHomeDocumentation": "Dokümantasyon",
     "ProjectHomeForumsButton": "Forumlar",
     "LiveEditStatusColumnLabel": "Canlı düzenleme durumu.",
-    "ValkyriePIENotAvailable": "{0} içinde yok",
+    "ValkyriePIERestrictiveMode": "Editörde Oyna (PIE), {0} içinde engellendi: Kısıtlayıcı mod etkinleştirildi. Otomatik çalıştırmalar, -unattended ile başlatıldığında otomatik olarak yetkilendirilir. Etkileşimli oynamak için kısıtlayıcı modu devre dışı bırak.",
+    "ValkyriePIENotAvailableCooked": "İşlenmiş içerik editörü içeriği çalıştırılırken Editörde Oyna (PIE) {0} içinde kullanılamaz.",
     "ProjectHomeReleaseNotesButton": "Sürüm Notları",
     "ProjectHomeRoadmapButton": "Yol Haritası",
     "SupportName": "Destek",
@@ -1190,18 +1192,22 @@
     "PromptForProjectIdVariant_Hint": "Proje Guid'i, Verse yolu veya bağlantı kodu.",
     "PromptForProjectIdVariant_SyntaxFeedbackMessage": "Girilen girdi geçerli bir Guid, Verse yolu veya bağlantı kodu değil."
   },
-  "FXCosmeticVariant": {
-    "ParticleChannelName": "Parçacık"
-  },
   "Fab": {
     "ClearCacheButton": "Önbelleği Temizle",
+    "ExtractError": "İndirme çıkartılamadı.",
     "DownloadError": "İndirme hatası",
     "DownloadFinished": "İndirme tamamlandı",
     "Downloading": "İndiriliyor",
+    "DownloadingAsset": "{0} indiriliyor",
+    "ExtractFinished": "Çıkarma işlemi tamamlandı.",
+    "Extracting": "Çıkarılıyor",
     "WebBrowserModuleNotEnabled": "Eklenti yüklenemedi. Emporium’u kullanmak için lütfen eklenti yöneticisinde Web WebBrowserWindow’u etkinleştir.",
     "ImportError": "İçe aktarma hatası",
     "ImportFinished": "İçe aktarma tamamlandı",
     "Importing": "İçe Aktarılıyor",
+    "NoProjectInArchive": "İndirme UEFN projesi içermiyor.",
+    "SourceAlreadyDownloading": "Bu öğe zaten indiriliyor.",
+    "ProjectAlreadyImporting": "Bu kaynak zaten indiriliyor.",
     "Fab.TooltipLoggedOut": "Fab'den içerik almak için oturum açman gerek."
   },
   "FeedbackHandleCustomization": {
@@ -1678,6 +1684,8 @@
     "Pick Map": "Harita Seç",
     "SelectUEFNProject": "UEFN Projesi Seç",
     "UEFNProjectNameKey": "UEFN Projesi Seç",
+    "MapUIDataUpdateComplete": "Kullanıcı Arayüzü Harita Verileri Güncellemesi Tamamlandı",
+    "MapUIDataUpdateFailed": "Kullanıcı Arayüzü Harita Verileri Güncellemesi BAŞARISIZ OLDU.\n\nBazı tablolar veya hiçbir tablo güncellenmedi. Nedeni (başka bir kullanıcı tarafından özel olarak kullanıma alma, eksik Perforce bağlantısı, senkronize edilmemiş dosyalar, ...) görmek için\n{0}\niçindeki en yeni FortniteGame*.log dosyasını aç ve \"Hata\" için arama yap.",
     "UpdateMapUIData": "Harita Kullanıcı Arayüzü Verilerini Güncelle"
   },
   "FortQuestObjectiveEditor": {
@@ -2177,9 +2185,6 @@
     "AssetTypeActions_ItemAbilityConfigurationAsset": "Eşya Becerisi Yapılandırma Öğesi",
     "AssetDefinition_ItemAbilityEffectAsset": "Eşya Becerisi Efekt Öğesi",
     "AssetTypeActions_ItemAbilityEffectAsset": "Eşya Becerisi Efekt Öğesi",
-    "AssetDefinition_ItemOwnerPoseAsset": "Eşya Sahibi Pozu",
-    "AssetTypeActions_ItemOwnerPoseAsset": "Eşya Sahibi Pozu",
-    "ItemOwnerPoseAssetHasNullProxyTable": "Eşya Sahibi Pozu bir ProxyTable’ın ayarlanmasını gerektirir.",
     "AssetDefinition_ItemizationConfigurationAsset": "Listeleme Yapılandırma Öğesi",
     "AssetTypeActions_ItemizationConfigurationAsset": "Listeleme Yapılandırma Öğesi"
   },
@@ -2200,9 +2205,6 @@
   },
   "ItemComponentData_ItemTypeInventoryLimit": {
     "LimitAmount": "LimitAmount öğe verileri \"{0}\" gereksiz. Bu yalnızca LimitAmount > 0 olduğunda gereklidir."
-  },
-  "ItemComponentData_OwnerPose": {
-    "PoseAsset": "\"{0}\" sahip pozu eşya verileri geçerli bir poz öğesi içermeli!"
   },
   "ItemComponentData_SlotSize": {
     "SlotSize": "\"{0}\" yuva boyutu eşya verileri gereksiz. Yalnızca SlotSize, 1 olmadığında gereklidir."
@@ -2567,17 +2569,6 @@
     "BranchHistoryTooltipText": "Dal Geçmişi sekmesini aç.",
     "ConflictResolutionTooltipText": "Çakışma Çözümü sekmesini aç."
   },
-  "MTFAcc": {
-    "LifecycleOrderCollision": "LifecycleOrderCollision",
-    "LifecycleOrderFixtureA": "LifecycleOrderFixtureA",
-    "LifecycleOrderFixtureZVerify": "LifecycleOrderFixtureZVerify",
-    "LifecycleSelfSkip": "LifecycleSelfSkip",
-    "LifecycleSetupAssertFail": "LifecycleSetupAssertFail",
-    "LifecycleSetupFail": "LifecycleSetupFail",
-    "LifecycleTeardownAssertFail": "LifecycleTeardownAssertFail",
-    "LifecycleTeardownFail": "LifecycleTeardownFail",
-    "SuiteSetup": "SuiteSetup"
-  },
   "MakeNextInSeriesScreen": {
     "FolderComboToolTipText": "Bir içerik dizini seç.",
     "CreateQuestAsset": "Oluştur",
@@ -2607,6 +2598,63 @@
     "InvalidContext": "Geçersiz talep bağlamı.",
     "CheatsNotSupported": "İstemciden/ayrılmış sunucudan hile komutları hile komutlarının gönderilmesi artık desteklenmiyor",
     "NoServicePerms": "Sunucu için hizmet izinleri bulunamadı."
+  },
+  "MemoryCalculationFlow": {
+    "Stage_Calculating": "bellek kullanımı hesaplanıyor",
+    "Stage_AcquiringManifest": "işlenmiş derleme verileri alınıyor",
+    "Stage_AcquiringBudget": "projenin bellek sınırı alınıyor",
+    "Stage_ReportingResult": "sonuç kaydediliyor",
+    "Stage_WaitingForCook": "işleme bekleniyor"
+  },
+  "MemoryCalculationGroupings": {
+    "GraphNodeExpandHint": "(genişletmek için çift tıkla)",
+    "PackageActorsExpandHint": "(genişletmek için çift tıkla)",
+    "NoActorGroup": "(referans veren aktör yok)",
+    "NoCellGroup": "(referans veren hücre yok)",
+    "UnknownReferencerGroup": "(bilinmeyen referans verici)",
+    "UntypedGroup": "(türü belirsiz)",
+    "ActorGroupingShort": "Aktör Referans Verici",
+    "PackageActorsGroupingShort": "Paket Başına Aktör",
+    "PackageActorsGroupingTitle": "Paket Başına Aktör",
+    "ActorGroupingTitle": "Aktör Referans Vericiye Göre",
+    "CellGroupingTitle": "Hücre Referans Vericiye Göre",
+    "DependencyGroupingTitle": "Paket Bağımlılığına Göre",
+    "ReferencerGroupingTitle": "Paket Referans Vericiye Göre",
+    "TypeGroupingTitle": "Türe Göre",
+    "CellGroupingShort": "Hücre Referans Verici",
+    "ActorGroupingDesc": "Her paketi, ona referans veren her aktörün altında gruplandırır.",
+    "CellGroupingDesc": "Her paketi, ona referans veren her hücre altında gruplandırır.",
+    "TypeGroupingDesc": "Paketleri, içerik tarayıcısı türü simgesi ve rengiyle, öğe türüne göre gruplandırır.",
+    "PackageActorsGroupingDesc": "Her paketi, genişletilebilir alt öğeler olarak ona referans veren aktörlerle birlikte listeler (Aktör Referans Vericiye Göre'nin tersi).",
+    "DependencyGroupingShort": "Paket Bağımlılığı",
+    "ReferencerGroupingShort": "Paket Referans Verici",
+    "DependencyGroupingDesc": "Paket bağımlılığı ağacı: Kök paket (ona referans veren yoktur), referans verdiği paketlere doğru yinelemeli olarak genişler.",
+    "ReferencerGroupingDesc": "Paket bağımlılığı ağacı: Kök paket (hiçbir şeye referans vermez), ona referans veren paketlere doğru yinelemeli olarak genişler.",
+    "TypeGroupingShort": "Tür"
+  },
+  "MemoryCalculationSubsystem": {
+    "MemoryCalculationTab_Tooltip": "Editör tarafından hesaplanmış bellek sonucunu ve en ağır paketlerini incele.",
+    "MemoryCalculationTab": "Bellek Hesaplaması"
+  },
+  "MemoryCalculationTableViewModel": {
+    "PeakScope": "Zirve",
+    "PeakScopeFmt": "Zirve ({0})"
+  },
+  "MemoryCalculationViewPresets": {
+    "Preset_PkgActors": "Paket Başına Aktör",
+    "Preset_Type": "Öğe Türü",
+    "Preset_PkgDep_Tip": "Bağımlılık ağacı: Kök paket referans verdiği paketlere doğru genişler.",
+    "Preset_PkgActors_Tip": "Her paketi, ona referans veren her aktöre genişletilir.",
+    "Preset_Flat_Tip": "En yüksek bellek ayak izindeki, gruplandırılmamış, büyükten küçüğe doğru sıralanmış tüm paketler.",
+    "Preset_Flat": "Düz",
+    "Preset_PkgDep": "Paket Bağımlılığı",
+    "Preset_PkgRef": "Paket Referans Verici",
+    "Preset_Type_Tip": "En büyük türden başlayarak öğe türüne göre gruplandırılmış paketler.",
+    "Preset_Cell_Tip": "Referans veren her bir World Partition hücresi altında bulunan, öğe türüne göre ayrılmış paketler.",
+    "Preset_Actor_Tip": "Referans veren her aktörün altındaki paketler.",
+    "Preset_PkgRef_Tip": "Referans verici ağacı: Kök paket ona referans veren paketlere doğru genişler.",
+    "Preset_Actor": "Referans Veren Aktör",
+    "Preset_Cell": "Referans Veren Hücre"
   },
   "MemoryTimingViewExtender": {
     "NoPlayerTargetAvailableTooltip": "Bir oyuncunun izleme hedefi olarak kullanılabilmesi için oturuma bağlı olması gerekir.",
@@ -2642,17 +2690,13 @@
     "ModularGateExpressionWidget_Title": "Kapı İfadesi Editörü",
     "ModularGateExpressionWidget_OK": "Tamam"
   },
-  "ModularTest": {
-    "SuiteSetup": "SuiteSetup",
-    "SuiteTeardown": "SuiteTeardown"
-  },
   "NPCCharacterDefinition": {
     "MissingType": "Tür eksik!",
     "InvalidSkeletalMeshComponent": "{0}: Karakter Blueprint'i {1}, bir İskelet Örgü Bileşeni içemelidir.",
     "MissingCharacterModifier": "{0}: Karakter değiştirici eksik.",
     "DuplicatedModifier": "{0}: {1} türünde birden fazla değiştirici.",
     "InvalidSkeletalMeshAsset": "{0}: İskelet Örgü Bileşeni, {1} ile ilişkili İskelet Örgü Bileşeni üzerinde boş olamaz.",
-    "UnsupportedModifier": "{0}: {1} kimliği için {0} türünde desteklenmeyen değiştiriciler!"
+    "UnsupportedModifier": "{0}: {2} kimliği için {0} türünde desteklenmeyen değiştiriciler!"
   },
   "NPCCharacterDefinitionComponent": {
     "MissingDefinition": "{0}: NPC Karakter Tanımı {1} eksik.",
@@ -3073,6 +3117,55 @@
   "SLoreSourceControlWidgets": {
     "InvalidComboEntryText": "<<Invalid option>>"
   },
+  "SMemoryCalculationDetailsView": {
+    "NoCells": "(her zaman yüklü veya bir hücre tarafından referans verilmiyor)",
+    "NoActors": "(yüklenmiş editör dünyasında yok)",
+    "Untyped": "(türü belirsiz)",
+    "Browse": "Göz at",
+    "FieldPath": "Yol",
+    "FieldRefs": "Referans Vericiler",
+    "ActorsHeader": "Referans veren aktörler ({0}).",
+    "CellsHeader": "Referans veren hücreler ({0}).",
+    "NoSelection": "Bir paket seçerek türünü, boyutunu ve ona referans veren hücre ve aktörleri görüntüle.",
+    "BrowseTip": "Bu aktörü editörde seç (geçerli durumda yüklüyse).",
+    "FieldSize": "Boyut",
+    "FieldType": "Tür",
+    "FieldVersePath": "Verse Yolu"
+  },
+  "SMemoryCalculationPanel": {
+    "AlwaysLoadedLabel": "Her zaman yüklü:",
+    "FailedReason": "Hesaplama başarısız oldu: {0}",
+    "Details": "Ayrıntılar",
+    "Fail": "BAŞARISIZ",
+    "HeadroomSegment": "Başlangıç payı {0}",
+    "InProgress": "DEVAM EDİYOR",
+    "InProgressStage": "DEVAM EDİYOR ({0})",
+    "SamplesLabel": "Örneklendirilen konumlar:",
+    "PeakLocationTip": "Aktif görünüm penceresini zirve değerin ölçüldüğü konuma taşı.",
+    "NoResultInitial": "Sonuç yok",
+    "NoResult": "Sonuç yok. Başlangıç belleği hesaplamasını çalıştır.",
+    "OtherSegment": "Diğer",
+    "Pass": "GEÇTİ",
+    "PackagesLabel": "Paketler:",
+    "PeakLocationLabel": "Zirve konumu:",
+    "Statistics": "İstatistikler",
+    "OtherSegmentTip": "Çubuğun {0} altındaki türler birleştirildi: {1}",
+    "UntypedSegment": "Türü belirsiz",
+    "NewerTip": "Sonraki (daha yeni) hesaplama sonucunu görüntüle.",
+    "OlderTip": "Önceki (daha eski) hesaplama sonucunu görüntüle.",
+    "PeakLocation": "{0} konumunda.",
+    "HistoryPos": "{0}/{1}  ({2})",
+    "HeadroomSegmentTip": "Bütçenin {0} kadarı kullanılmadı.",
+    "PeakOfBudget": "{0}/{1}",
+    "PeakOverBudget": "{0}/{1}: {2} üzerinde",
+    "SegmentTip": "{0}: {1} (bütçenin{2} kadarı)"
+  },
+  "SMemoryCalculationTableTreeView": {
+    "AllScope": "Tümü",
+    "ContextMenu_Section_Browse": "Göz at",
+    "AllScope_Tip": "En yüksek örnekte bulunmayan paketler de dahil olmak üzere hesaplamadaki tüm paketleri göster.",
+    "PeakScope_Tip": "Yalnızca en yüksek örnek noktasında bulunan paketleri göster: Boyutları, bildirilen zirve değeri oluşturan paketleri göster."
+  },
   "SMetricsTreeView": {
     "HeaderCheckBoxTooltip": "Tüm ölçümleri etkinleştir veya devre dışı bırak.",
     "HeaderRowMetricsColumn": "Ölçümler",
@@ -3369,8 +3462,6 @@
     "Settings.SizeBreakdownView.ToolTip.ShowDependencies": "Açıkken, Türe Göre ve Pakete Göre görünümlerinde bağımlılık öğeleri türe göre / pakete göre satırlarında birleştirilir. Her türün altında kaynak başına alt genişletilebilir öğeler bulunur. Bağımlılığa Göre görünümüne etkisi yoktur (her zaman bağımlılıkları gösterir).",
     "LastUploadedTimestampWithVersionFmt": "{0} (v{1})",
     "ActorClassLabelFormat": "{0} ({1} {1}|plural(one=aktör,other=aktör))",
-    "SizeInKBFmt": "{0} KB",
-    "SizeInMBFmt": "{0} MB",
     "DownloadSizeWithLimitFmt": "{CombinedDownloadSize} / {ProjectDownloadSizeLimit}",
     "UploadSizeWithLimitFmt": "{ProjectUploadSize} / {ProjectUploadSizeLimit}",
     "EstimatedSizeFormat": "~{0}",
@@ -3406,50 +3497,49 @@
   "SValkyrieSessionInspector": {
     "SessionStatus_NewContentFinishedLoadingAll": "Tüm içeri̇k hi̇zmeti̇ işleri tamamlandı. Sunucu ve istemci şu anda çalışıyor.",
     "SessionStatus_ContentError": "İçerik hatası alındı. Ayrıntılar için Çıktı Günlüğü'nü kontrol et.",
+    "SessionWallTime": "Geçen Süre:",
     "ValkyrieProjectSubMenuSessionSection": "Canlı Düzenleme Araçları",
     "SessionStatus_NotConnected": "Oturuma bağlı değil.",
-    "OpenProject": "Projeyi Aç:",
     "Settings.GeneralSettings.Label.OpenOnLaunchSession": "Oturum başlatılırken aç",
-    "ViewSessionDSPortal_ToolTip": "En yeni oturum için DS portal sayfasını açar.",
-    "StatisticsHeading": "Oturum Ayrıntıları",
     "ValkyrieSessionInspector": "Oturum Denetleyici",
     "Unavailable": "Oturum Denetleyici geçici olarak kullanım dışı. Lütfen daha sonra tekrar dene.",
-    "SessionStatus": "Oturum Durumu:",
-    "SessionWallTime": "Oturum Duvar Süresi:",
     "Settings.GeneralSettings": "Ayarlar",
-    "SettingsText": "Ayarlar",
+    "SettingsToolTip": "Ayarlar",
     "Settings.GeneralSettings.ToolTip.OpenOnLaunchSession": "Oturumu Başlat butonuna tıklandığında Oturum Denetleyici otomatik olarak açılacak mı?",
+    "SessionStatus": "Durum:",
     "SessionWallTimeTooltip": "Oturumu Başlat veya Değişiklikleri Gönder seçeneğine tıkladıktan sonra tüm modüllerin işlenip indirilmesine kadar geçen süre.",
-    "ViewSessionDSPortal": "Oturumu DS Portalda Görüntüle (Yalnızca EpicDev için)",
+    "ViewLogsButton": "Günlükleri Görüntüle",
     "ValkyrieSessionInspector_Tooltip": "Canlı Düzenleme oturumunun durumunu görüntüle.",
     "SessionStatus_LoadingNewContent": "Tüm modüllerin işlenmesi ve sunucunun içeriği yüklemesi bekleniyor.",
     "SessionStatus_NewContentFinishedLoadingServer": "İstemcinin hazır olması bekleniyor.",
     "SessionStatus_NewContentFinishedLoadingClients": "Son içeriğin başlatılması bekleniyor.",
-    "SessionStatus_DistributingToConnectedSession": "Oturum sunucusu bekleniyor.",
-    "ViewSessionDSPortal_ToolTipEx": "{0}\nBaşlatılan en yeni oturum{1}"
+    "SessionStatus_DistributingToConnectedSession": "Oturum sunucusu bekleniyor."
   },
   "SValkyrieSessionInspectorCookMonitor": {
-    "SessionBaseEntriesTree.Column.EndDate": "Tamamlama Tarihi",
+    "ViewAllCookJobsDashboard": "Tüm İşler",
+    "CookJobsLabel": "İşleme İşleri",
     "CookFailedStatusTooltip": "İşleme işi başarısız oldu.",
     "CookSuccessStatusTooltip": "İşleme işi başarılı oldu.",
     "CookUnknownStatusTooltip": "İşleme durumu alınamıyor.",
     "CookFromCache_ToolTip": "İşlenmiş veriler önbellekten alındı.",
     "ContextMenu_CopyTooltip": "Sütunun değerini kopyalar.",
     "ContextMenu_Copy": "Kopyala",
+    "ViewSessionDSPortal": "DS Portal",
+    "SessionBaseEntriesTree.Column.WallTime": "Geçen Süre",
     "IndirectDependencies": "Dolaylı Bağımlılıklar",
+    "SessionBaseEntriesTree.Column.EndDate": "Son İşleme Tarihi",
     "ModuleVersionMultiple": "Birden Fazla",
     "SessionBaseEntriesTree.Column.Name": "Ad",
     "NoCorrelationIds": "Kullanılabilir korelasyon kimliği yok.",
-    "ViewAllCookJobsDashboardTooltip": "Aşağıdaki işleme işleri için tüm korelasyon kimliklerine göre filtrelenmiş içerik hizmeti panosunu aç.",
+    "ViewAllCookJobsDashboardTooltip": "Aşağıdaki işleme işleri için tüm korelasyon kimliklerine göre filtrelenmiş içerik hizmeti panosunu aç. (Yalnızca EpicDev)",
+    "ViewSessionDSPortal_ToolTip": "En son oturum için DS portal sayfasını açar. (Yalnızca EpicDev)",
     "ReferencingProjects": "Referans Verilen Projeler",
-    "CookJobsLabel": "Oturum İşleme İşleri",
     "SessionBaseEntriesTree.Column.Status": "Durum",
     "SessionBaseEntriesTree.Column.Version": "Sürüm",
-    "ViewAllCookJobsDashboard": "Tüm İşleri Görüntüle (Yalnızca EpicDev için)",
     "ViewCookStatus": "İşleme Durumunu Görüntüle",
-    "SessionBaseEntriesTree.Column.ViewInJobDashboard": "İş Panosunda Görüntüle (Sadece EpicDev)",
+    "SessionBaseEntriesTree.Column.ViewJob": "İşi Görüntüle",
     "ViewJob": "İşi Görüntüle",
-    "SessionBaseEntriesTree.Column.WallTime": "Duvar Süresi",
+    "ViewSessionDSPortal_ToolTipEx": "{0}\nBaşlatılan en son oturum {1}. (Yalnızca EpicDev)",
     "ModuleDisplayName": "{0} ({1})"
   },
   "SValkyrieSessionInspectorStagingLogs": {
@@ -3493,11 +3583,14 @@
   },
   "SValkyrieSessionInspectorStagingMonitor": {
     "Canceled": "İptal Edildi",
+    "StepStatus_Completed": "Tamamlandı ({0})",
     "Label_Cooking": "İşleme",
     "ToolTip_Versioning": "Yeni modül sürümü oluştur. Bu adım yalnızca gerekliyse gerçekleştirilir.",
     "ToolTip_Downloading": "İşlenmiş içeriği oturum sunucusuna indir.",
     "Label_Downloading": "İndiriliyor",
+    "StepStatus_Failed": "Başarısız ({0})",
     "ToolTip_Playing": "Oturum kurulumunu tamamla ve oynatmaya hazırla.",
+    "StepStatus_InProgress": "Devam ediyor ({0})",
     "NotStarted": "Başlatılmadı",
     "ToolTip_PreparingForUpload": "Gerekli proje doğrulama ve karşıya yükleme önkoşullarını gerçekleştir.",
     "Label_Playing": "Oynatma",
@@ -3508,8 +3601,8 @@
     "ToolTip_Validating": "Doğrulanan proje öğeleri karşıya yükleme için uygundur.",
     "Label_Validating": "Doğrulanıyor",
     "Label_Versioning": "Sürüm Oluşturma",
-    "ViewLogsButton": "Günlükleri Görüntüle",
-    "ToolTip_Cooking": "Tüm modüllerin işlenmesini ve sunucunun içeriği yüklemesini bekle."
+    "ToolTip_Cooking": "Tüm modüllerin işlenmesini ve sunucunun içeriği yüklemesini bekle.",
+    "StepToolTipFormat": "{0}: {1}\n{2}"
   },
   "SVerbDebugger": {
     "AdditionalFilters": "Ek Filtreler",
@@ -3558,8 +3651,10 @@
     "BuildErrorsMessage": "{0} açılırken Verse derleme hatalarıyla karşılaşıldı. Aşağıdaki hataları Verse kodunda düzelt ve sonra yeniden derle. Hataları düzeltmeden öğeleri kaydetmek veri kaybına neden olabilir."
   },
   "SVkContentResolutionViewer": {
+    "PillDepsMore": "\t({0} tane daha)",
     "ModuleDep": "\t{0}",
     "ModuleStaticDep": "\t{0}",
+    "PillDepPath": "\t{0}",
     "ForkStack": "**** Çatallama Yığını ****",
     "ModuleDetails": "**** Modül Ayrıntıları****",
     "ModuleAccess": "Erişim: {0}",
@@ -3591,6 +3686,8 @@
     "BuildForkError": "\"{0}\" çatallaması bulunamadı.",
     "ForkCreated": "Oluşturulma tarihi: {0}",
     "ModuleCreationDateTime": "Oluşturma Tarihi: {0}",
+    "PillDepsLive": "Canlı yayınlanan bağımlılıklar:",
+    "PillDepsFork": "{0} çatallamasına yayınlanan bağımlılıklar:",
     "ModuleDeps": "Bağımlılıklar:",
     "ModuleDescription": "Açıklama: {0}",
     "WsIdHint": "Çatallama kimliğini gir.",
@@ -3630,6 +3727,7 @@
     "BrowseProjectTooltip": "Verse yolunu diskteki bir projeden seç.",
     "StarredLabel": "Yıldızlı",
     "WsModeTeam": "Takım",
+    "ForkStackCycleError": "Çatallama üst zinciri bir döngü içeriyor. Tekrarlanan çatallamaya kadar olan çözümlenmiş zincir gösteriliyor.",
     "ModuleTitle": "Başlık: {0}",
     "ModuleCreationDateUnavailable": "Kullanılamaz",
     "ModuleVersePath": "Verse Dizini: {0}",
@@ -3639,6 +3737,7 @@
     "VkContentResolutionTree_ViewOnContentServiceTooltip": "Seçilen modülleri İçerik Hizmeti web sitesinde görüntüle.",
     "NotLoggedIn": "Bir aracı kullanmak için oturum açmış olmalısın.",
     "VersionLabel": "v{0}",
+    "VersePathWithModuleId": "{0}  {1}",
     "ForkNameAndId": "{0} ({1})"
   },
   "SVkForkSelector": {
@@ -3873,6 +3972,8 @@
     "MemoryProfilerTabTooltip": "İstemci belleği kullanımının bir dökümünü görüntüle."
   },
   "UE::SpatialMetrics::MetricActionUtils": {
+    "AlreadySnapshottingAction": "Zaten İzleniyor",
+    "AlreadyTracingAction": "Zaten İzleniyor",
     "StartCaptureAction": "Kaydı Başlat",
     "TakeSnapshotAction": "Anlık Görüntü Al"
   },
@@ -3896,6 +3997,7 @@
     "UploadProject.Error.TargetVersionDocUnset": "Düzenleme oturumu güncellemesi için kök deneyim eklentisi belirlenemedi.",
     "FailedToStageAndValidateFiles": "\"{0}\" projesinin yerel kaynak dosyaları hazırlanıp doğrulanamadı.",
     "StagingFailed": "Proje yükleme için hazırlanamadı.\n{0}",
+    "WriteInternalApiDescriptorFailed": "\"{0}\" projesinin dahili API tanımlayıcısı yazılamadı.",
     "WritePublicApiDescriptorFailed": "\"{0}\" projesinin herkese açık API tanımlayıcısı yazılamadı.",
     "InitSyncModules": "\"{0}\" projesi yükleme için başlatılıyor...",
     "Initializing": "Başlatılıyor...",
@@ -3910,6 +4012,7 @@
     "ValidationFailed": "Proje doğrulanamadı.",
     "ValidationAutoFixup.RunButton": "Düzeltmeyi Çalıştır",
     "ValidationAutoFixup.Heading": "Doğrulama Düzeltme Çalıştırılsın mı?",
+    "RunningContentValidation": "İçerik doğrulama çalıştırılıyor...",
     "ShowMessageLogHyperlink": "Mesaj Günlüğünü Göster",
     "ShowOutputLogHyperlink": "Çıktı Günlüğü'nü Göster",
     "ValidationAutoFixup.SkipButton": "Düzeltmeyi Atla",
@@ -3984,6 +4087,12 @@
     "ResetTextureOnSelectedSaticMeshBuildingActors_ToolTip": "Seçilmiş statik örgü inşa aktörleri üzerindeki varsayılan dokuyu sıfırlar.",
     "RotateSelectedBuildingActors": "Seçilmiş İnşa Aktörlerini Döndür",
     "RotateSelectedBuildingActors_ToolTip": "Görünüm penceresinde seçilmiş inşa aktörlerini döndürür."
+  },
+  "UICommands.MemoryCalculationCommands": {
+    "BrowseToAsset": "Öğeye Göz At",
+    "SelectInOutliner": "Anahat Düzenleyicisinde Seç",
+    "SelectInOutliner_ToolTip": "Bölümdeki aktörleri seçer.",
+    "BrowseToAsset_ToolTip": "İçerik tarayıcısını seçilen paketlerle senkronize eder. Disk üzerinde öğesi (oluşturulan hücreler, VerseDebugData, ...) bulunmayan paketler atlanır."
   },
   "UICommands.SGridView": {
     "ShowAxes": "Eksenler",
@@ -4456,6 +4565,26 @@
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Tooltip": "Yeri değiştirilmiş örgülere ihtiyaç duyan yüklü aktörü geçerli bölümden topla ve eksik olanları oluştur. Araç ayrıca yeniden kaydedilmesi gereken aktörleri kaydedilmemiş hale getirir.",
     "ValkyrieGeneratePersistentLinkToDisplacedMeshForCurrentLevel.Label": "Kalıcı Nanite Yeri Değiştirilmiş Örgüler Oluştur"
   },
+  "VK_MEMCALC_ERRORS": {
+    "ManifestFileUnreadable": "\"{Path}\" adresinden bellek manifestosu okunamıyor.",
+    "InvalidModuleBinaries": "İçerik yapıtının işlenmiş ikilileri veya işleme işi yok.",
+    "ContentServiceUnavailable": "İçeri̇k hi̇zmeti̇ kullanılamıyor.",
+    "ContentServiceFailure": "İçeri̇k hi̇zmeti̇ isteği başarısız oldu: {Detail}.",
+    "EmptyManifest": "MemoryManifest paket içermiyor.",
+    "ManifestMissingSizeChunkTypes": "MemoryManifest SizeChunkTypes bildirmiyor.",
+    "ManifestParseFailed": "MemoryManifest geçerli bir JSON değil ({NumChars} karakter).",
+    "NoPublishedModuleVersion": "{Module} modülünün yayınlanmış sürümü yok.",
+    "NoClientArtifact": "Kök modülde \"{Platform}\" istemci yapıtı yok.",
+    "InvalidBuildCode": "Sonuç bildirilecek derleme kodu yok.",
+    "NoProjectOpen": "Açık ana proje yok.",
+    "NoRootWorld": "MemoryManifest'in World Partition hücrelerinden veya dünya türündeki paketlerden kök dünya türetilmedi.",
+    "NoPublishingMemoryLimit": "{Project} projesinin yayınlama bellek sınırı yok.",
+    "RequestAbandoned": "İstek, çıktı raporlamadan sona erdi.",
+    "ManifestSizeChunkTypesMismatch": "SizeChunkTypes [{Declared}] beklenen [{Expected}] ile eşleşmiyor.",
+    "ManifestUnknownChunkType": "Tanınmayan \"{ChunkType}\" SizeChunkTypes girişi.",
+    "EngineVersionMismatch": "{NumModules} modül farklı bir motor sürümüyle yüklendi. Buna \"{UploadedEngineVersion}\" ile yüklenen {Module} ve {ModuleVersion} sürümü de dahil. Bu editörün sürümü: \"{CurrentEngineVersion}\". Yenilemek için oturumu başlat.",
+    "LatticeTooLarge": "{RequestedSamples} örnek {MaxSamples} tavanını ({SpatialPrecision} cm adım) aşıyor."
+  },
   "ValidateSchematics": {
     "DisplayText": "Yükleniyor...",
     "Test": "Hata Yok!",
@@ -4611,6 +4740,14 @@
   "ValkyrieChangelistValidator": {
     "VkChangelistInvalid": "Değişiklik listesi  #ön denetim etiketini doğru şekilde belirtmiyor. Gönderimden önce bir ön denetim gerçekleştirmek için lütfen Horde’a devam et."
   },
+  "ValkyrieContentGovernance": {
+    "PluginReferenceViolation": "İzin verilmeyen \"{0}\" eklentisine referans bulundu.",
+    "MutuallyExclusivePluginReferenceViolation": "Birlikte kullanılmayan eklenti kümelerine referanslar bulundu.",
+    "InvalidRuleField_EntitlementId": "Eksik alan değeri: EntitlementId",
+    "InvalidRuleField_Tag": "Eksik alan değeri: Etiket",
+    "InvalidRuleField_Type": "Bilinmeyen kural türü:",
+    "MutuallyExclusivePluginSet": "{0}: {1}"
+  },
   "ValkyrieContentServiceCmds": {
     "ArchiveProject": "‘{0}’ projesi arşivleniyor",
     "ArchiveProjects": "Projeler arşivleniyor...",
@@ -4682,20 +4819,20 @@
     "MemoryTestResults": "Bellek Test Sonuçları",
     "MemorySamplingAlreadyRunning": "Bellek örneği oluşturma işlemi zaten devam ediyor!",
     "VerseVersion.Title": "Yeni Verse Sürümü Mevcut",
-    "NoVersePathsAssigned": "Hiçbir Verse yolu değiştirilmedi.",
     "VerseVersion.RemindMeLater.Tooltip": "Bu proje bir sonraki açılışında en son kararlı Verse sürümünde değilse tekrar bildir.",
     "UploadProjectsParallelAlreadyRunning": "Paralel yükleme akışı zaten çalışıyor.",
     "PrepareProjectForUploadAlreadyRunning": "Projeyi yükleme için hazırlama işlemi zaten devam ediyor.",
     "VerseVersion.Msg": "\"{0}\" projesi, Verse'ün {1} sürümünü kullanıyor.\nŞimdi Verse {2} sürümüne güncelleyebilir veya daha sonra proje ayarlarından güncelleyebilirsin.",
     "CreateBuildAlreadyRunning": "Proje derleme işlemi zaten devam ediyor.",
-    "PublicAssetChangeNoContentService": "Genel öğelerde değişiklik yapmak için proje, içerik hizmetiyle senkronize edilmelidir\nOturum açtığından emin ol",
+    "PublicAssetChangeNoContentService": "Kullanıma açılmış öğelerde veya yönlendiricilerde değişiklik yapmak için projenin içerik hizmetiyle senkronize edilmesi gerekir.\nOturum açtığından emin ol.",
+    "ProjectValidationCanceled": "Project validation was canceled",
     "VerseVersion.RemindMeLater": "Sonra Hatırlat",
     "SanitizePublicApiAlreadyRunning": "Herkese açık API'yi temizleme işlemi zaten devam ediyor.",
     "SaveOutputPageLabel": "Çıkışı Kaydet",
     "SavePackagesAlreadyRunning": "Paket dosyalarını kaydetme işlemi zaten devam ediyor.",
-    "SelectProjectsToAssignVersePathsTo.Title": "Projeleri Seç",
-    "SelectProjectsToAssignVersePathsTo.Message": "Otomatik olarak Verse yolları atamak veya mevcut Verse yollarını güncellemek istediğin projeleri seç:",
-    "PromptForDestructiveAPIAction": "Seçili öğelere yayımlanan projede genel olarak referans verilebilir:\n{0}\n\nBu işleme devam etmek için projeni dallandırman gerekir.\nBurada, yeni bir proje altında yayınlamadan önce genel öğeleri değiştirebilirsin.",
+    "ExposedAssetDestructiveAPIAction": "Seçilen öğelere yayınlanmış projede harici olarak referans verilebilir:\n{0}",
+    "RedirectorToExposedAssetDestructiveAPIAction": "Seçilen yönlendiriciler yayınlanmış projede kullanıma açılmış öğelere yönlendirir:\n{0}",
+    "RedirectorAnotherProjectDestructiveAPIAction": "Seçilen yönlendiriciler yayınlanmış projeden diğer projelere yönlendirir:\n{0}",
     "SimpleTemplateMapDisplayNameText": "Basit",
     "SimpleTemplateMapDescriptionText": "Basit bölüm örneği.",
     "BlankTemplateMapDescriptionText": "İki çıkma yerli basit bölüm.",
@@ -4704,8 +4841,8 @@
     "VerseVersion.Update.Tooltip": "Bu projeyi en son kararlı Verse sürümüne ({0}) güncelle.\nProje ayarlarından istediğin zaman istediğin Verse sürümüne geri dönebileceğini unutma.",
     "UploadProjectsParallelNotRunning": "Yükleme projeleri paralel çalışmıyor.",
     "ValidateProjectAlreadyRunning": "Proje doğrulama işlemi zaten devam ediyor.",
-    "VersePathsAssigned": "Aşağıdaki projelere Verse yolları atandı:",
-    "Error.LocalizationDataEditingDisabled": "Yerelleştirme verilerini manuel olarak düzenlemene izin verilmez. Verileri çevirmek için \"Oluştur -> Otomatik Yerelleştirme Oluştur\"u kullan."
+    "Error.LocalizationDataEditingDisabled": "Yerelleştirme verilerini manuel olarak düzenlemene izin verilmez. Verileri çevirmek için \"Oluştur -> Otomatik Yerelleştirme Oluştur\"u kullan.",
+    "PromptForDestructiveAPIAction": "{0}\n\nBu işleme devam etmek için projeni dallandırman gerekecek.\nBurada, yeni bir proje altında yayınlamadan önce proje API'sini değiştirebilirsin."
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "{0} özelliklerini yapılandır.",
@@ -4800,8 +4937,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}: {1} için başarıyla veri hazırlandı"
   },
   "ValkyrieEditorMemoryCalculation": {
-    "MemoryRatio": "{0}/{1}",
-    "MemoryRatioUnitsMb": "{0}/{1} Mb"
+    "MemoryRatioUnitsMb": "{0}/{1}",
+    "MemoryRatio": "{0}/{1}"
   },
   "ValkyrieEditorMenus": {
     "FixValidationIssues.ActorOptions.Tooltip": "Bu aktörlerdeki belirli doğrulama sorunlarını otomatik olarak çözmeye çalış.",
@@ -4886,7 +5023,6 @@
   },
   "ValkyrieEditorUtils": {
     "CannotUseMoreThanOneBrand": "\"{1}\" aktifken \"{0}\" markası kullanılamaz.",
-    "CopyFiles": "Dosyalar Kopyalanıyor...",
     "FailCreatePerforceProvider": "Perforce revizyon kontrolü sağlayıcısı oluşturulamadı.",
     "FailLoadBrandPlugins": "{0} eklenti yüklenemedi.",
     "FailUnloadBrandPlugins": "{0} eklenti kaldırılamadı.",
@@ -5407,6 +5543,7 @@
     "ValkyrieGFSSelectionWarningCancelButton": "İptal",
     "ValkyrieGFSSelectionWarningTitle": "Markayı Değiştir",
     "ValkyrieGFSSelectionWarningConfirmButton": "Onayla",
+    "ValkyrieFortniteGFSReloadFailed_Title": "Marka değiştirilemedi.",
     "ValkyrieFortniteGFSSelectionToast_Dismiss": "Kapat",
     "ValkyrieFortniteGFSSelectionToast_Title": "Proje markası başarıyla değiştirildi!",
     "ValkyrieFortniteGFSSelectionToast_Body": "Marka değişikliklerinin etkili olması için bu projeyi kapatıp yeniden açmalısın. Projeyi yeniden açtıktan sonra doğrulama hatalarını önlemek için önceki markaya ait tüm öğeleri kaldır."
@@ -5537,6 +5674,32 @@
     "LocalLoreProjectAnnotationText": "Bu proje Lore tarafından destekleniyor.",
     "RequiredProjectPermissions": "Bu proje, düzgün bir şekilde düzenleme için {0} iznini gerektirmektedir.",
     "IncompatibleProjectVersionText": "Bu projenin sürümü ({0}) geçerli motorla ({1}) uyumsuz."
+  },
+  "ValkyrieMemoryCalculationTable": {
+    "ColActorsTitle": "Aktör Referans Vericiler",
+    "ColActors": "Aktör Referansları",
+    "ColTypeTitle": "Öğe Türü",
+    "ColNameDesc": "Paket ağacının hiyerarşisi.",
+    "ColName": "Ad",
+    "ColActorsDesc": "Bu pakete referans veren yüklenmiş aktörlerin sayısı.",
+    "ColRefsDesc": "Bu pakete doğrudan referans veren paket sayısı.",
+    "ColNameTitle": "Paket Hiyerarşisi",
+    "ColPackagePath": "Paket Yolu",
+    "ColPathTitle": "Paket Yolu",
+    "ColRefsTitle": "Paket Referansı Vericileri",
+    "ColRefs": "Paket Referansları",
+    "ColSizeTitle": "Paket Boyutu",
+    "ColPath": "Yol",
+    "ColPackagePathTitle": "Ham Paket Yolu",
+    "ColSize": "Boyut",
+    "ColVersePathDesc": "Paketin Verse yolu, buna sahip olmayan paketler için boştur.",
+    "ColPathDesc": "Paketin tam yolu: Sahipse Verse yolu, aksi takdirde paket yolu.",
+    "ColPackagePathDesc": "Herhangi bir Verse yolundan bağımsız olarak editördeki paket yolu.",
+    "ColSizeDesc": "Paket boyutu.",
+    "ColTypeDesc": "İçerik tarayıcısında gösterildiği şekliyle paketteki birincil öğe türü.",
+    "ColType": "Tür",
+    "ColVersePath": "Verse Yolu",
+    "ColVersePathTitle": "Verse Yolu"
   },
   "ValkyrieMissingFileProjectCustomization": {
     "NoFile": "Açılacak bir proje dosyası yok.",
@@ -5680,7 +5843,7 @@
     "SyncedInvalidProjectFile": "Revizyon Kontrolü'nden senkronize edilen proje dosyası geçersiz.",
     "AssignVersePath.NotSyncedWithContentService": "Verse yolu atamak için proje, içerik hizmetiyle senkronize edilmelidir.",
     "PurgeVersePath.NotSyncedWithContentService": "Verse yolunu kaldırmak için proje, içerik hizmetiyle senkronize edilmelidir.",
-    "VerifyLivePublicAssetsNoContentService": "Proje, canlı genel api'sini doğrulamak için içerik hizmeti ile senkronize edilmelidir\nOturum açtığından emin ol",
+    "VerifyLivePublicAssetsNoContentService": "Proje, canlı genel API'sini doğrulamak için içerik hizmeti ile senkronize edilmeli.\nOturum açtığından emin ol.",
     "RemovePublicApiIfAllowed.ProjectNotOpened": "Proje açılmadı",
     "SanitizePublicApiIfAllowed.ProjectNotOpened": "Proje açılmadı",
     "FeatureSetInProjectPluginDependency": "Proje eklentileri, kendi bağımlılıklarında özellik seti içeremez.\n\nBulundu: {0}\n\nÖzellik seti, proje dosyasında belirltilmeli.",
@@ -6000,13 +6163,16 @@
     "RemapLocalVsReferencedContent.CannotFindExternalModule": "Proje eklentisi '{0}' için Referanslı İçerik bulunamadı.",
     "RemapLocalVsReferencedContent.CannotFindLocalPlugin": "'{0}‘ Referanslı İçerik için genel bir proje eklentisi bulunamadı.",
     "VKCannotFindPlugin": "Eklenti bulunamıyor",
+    "PublishTooManyModules": "{0} modül aynı anda yayınlanamaz. En fazla {1} tane yayınlanabilir.",
     "CloseRefSourceProjects.ProjectReload.Title": "Kaynak İçeriği Kapat",
     "CloseRefSourceProject": "Referans verilen içerik kaynak projesi \"{0}\" kapatılıyor...",
     "CloseRefSourceProjects": "Referans verilen içerik kaynak projeleri kapatılıyor...",
     "CopyPluginAssets.CopyingAssets": "Öğeler Kopyalanıyor...",
     "CopyVerseFiles": "Verse dosyaları kopyalanıyor...",
     "CopyLocFiles": "Yerelleştirme dosyaları kopyalanıyor...",
+    "CopyingPluginContent": "Eklenti içeriği kopyalanıyor...",
     "CopyNonContentFiles": "Eklenti dosyaları kopyalanıyor...",
+    "CopyingPlugin": "Eklenti kopyalanıyor...",
     "ErrorGettingLinkCodeInfoMessage": "\"{0}\" için proje kimliği bulunamadı.",
     "ErrorResolvingVersePathMessage": "\"{0}\" için proje kimliği bulunamadı.",
     "FeatureSetDefinitionNotFound": "\"{0} Meta Verileri\" özellik setinin tanımı alınamadı. Var olduğundan ve izinlerin yüklenmesine izin verdiğinden emin ol.",
@@ -6021,11 +6187,13 @@
     "VKFailLoadGameFeaturePlugin": "\n{0}\n\neklentisi yüklenemedi{1}.",
     "VKFailLoadPlugin": "Eklenti yüklenemedi\n{0}\n{1}",
     "RemapLocalVsReferencedContent.FailedToLoadAsset": "{0} yüklenemedi",
+    "PublishModuleBatchItemError": "Bir veya daha fazla modül çatallamaya yayınlanamadı.",
     "RemapLocalVsReferencedContent.FailedToRemap": "{0} içindeki bazı referanslar yeniden eşleştirilemedi",
     "OpenSourceProjects.FailGetProjectInfo": "‘{0}’ üzerindeki bilgileri alınamadı.",
     "RemapLocalVsReferencedContent.FailSave": "Bazı öğeler kaydedilemedi (bkz. Mesaj Günlüğü)",
     "VKFailTerminateGameFeaturePlugin": "Başarısız oyun özelliği \n{0}eklentisi sonlandırılamadı\n\n{1}.",
     "VKProjectFolderNotEmpty": "Dosyaları şu konumda:\n{0}\nBu dosyaları kaldır veya farklı bir ad veya konum seç.",
+    "PublishFinalizing": "Yayınlama sonlandırılıyor...",
     "FixingProjectSlowTask": "Proje düzeltiliyor...",
     "GatherVerseFiles": "Verse dosyaları alınıyor...",
     "CopyPluginAssets.GatherAssets": "Öğeler alınıyor...",
@@ -6073,8 +6241,9 @@
     "PublishToForkUploadFailed": "Proje yüklenemedi.",
     "PublishToForkCanceled": "Çatallamaya yayın iptal edildi.",
     "PublishToForkError": "Çatallamaya yayınlanamadı.",
-    "PublishedModule": "\"{0}\" yayınlandı...",
     "PublishSystemComment": "{0} sürüm {1} ile yayınlandı",
+    "PublishComplete": "{0} modül yayınlandı.",
+    "PublishedModules": "{0}/{1} modül yayınlandı...",
     "PublishProjectsToFork": "\"{0}\" çatallamasına projeler yayınlanıyor...",
     "PublishingModules": "Çatallamaya {0} modül yayınlanıyor...",
     "RetrievingProjectInformationMessage": "Çevrimiçi projeye yeniden bağlanıyor...",
@@ -6109,6 +6278,7 @@
     "RemapLocalVsReferencedContent.NoRootPlugin": "Projede kök eklenti yok",
     "RemapLocalVsReferencedContent.SinglePluginProject": "Yeniden eşleştirilecek bir şey yok çünkü projede sadece tek bir eklenti var",
     "RemapLocalVsReferencedContent.NoRefencedContent": "Referanslı İçerik olmadığı için yeniden eşleştirilecek bir şey yok",
+    "PublishModuleEmptyResult": "Yayınlama sonuçları doğrulanamıyor.",
     "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "Beklenmeyen hata yeniden eşleştirmesi {0}",
     "UnloadingPlugins": "Eklentiler kaldırılıyor...",
     "GatherReferencedContentToLoad.MultiProjectIncompatible.Title": "Uyarı",
@@ -6232,6 +6402,7 @@
     "Experimental_VerseCheckUnavailable": "Deneysel Verse kontrolü çalıştırılamadı (işleme tanılaması kullanılamıyor).",
     "PublishingReport_MemoryUsage": "Bellek Kullanımı",
     "MemoryCheck_Calculating": "Bellek Kullanımı: Hesaplanıyor...",
+    "MemoryCheck_CalculationFailed": "Bellek Kullanımı: Hesaplanamadı",
     "MemoryCheck_SamplerFailed": "Bellek Kullanımı: Hesaplanamadı.",
     "MemoryCheck_NotYetCalculated": "Bellek Kullanımı: Henüz Hesaplanmadı.",
     "MemoryCheck_Result": "Bellek Kullanımı: {0}",
@@ -6472,9 +6643,12 @@
     "UploadRate": "Yükleniyor: {0}/{1}{3}, {2}{3}/s"
   },
   "ValkyrieValidator": {
-    "InventorySettingValidatorMessage": "\"Özel Çanta\" ayarı bölümde etkin fakat Proje Ayarları içinde değil.",
+    "InventorySettingValidatorMessage": "\"Özel Çanta\" ayarı Proje Ayarları'nda etkin fakat bölümde etkinleştirilmemiş.",
+    "InventorySettingValidatorMessageLevelActive": "\"Özel Çanta\" ayarı bölümde etkin fakat Proje Ayarları'nda etkinleştirilmemiş.",
     "MetaSoundValidationFail_PresetInvalidObject": "MetaSound önayarı tarafından referans gösterilen öğe geçerli bir öğe olmalıdır.",
     "Invalid Parent": "{0} öğesi geçersiz sınıfın bir alt öğesidir {1}",
+    "CheckingAssetReferences": "Öğe referansları kontrol ediliyor...",
+    "CompilingBlueprintsPhase": "Blueprint'ler derleniyor...",
     "VirtualizedDataValidate": "Sanallaştırılmış veriler içerir ve UEFN ile çalışmaz. Paket dosyasının yeniden erişilebilir hale getirilmesi gerekir.",
     "Blueprints.Fixer.NullBlueprint": "{0} Blueprint'i bulunamadı.",
     "Properties.Fixer.NullObject": "Obje bulunamadı: {0}",
@@ -6498,6 +6672,8 @@
     "Blueprints.Fixer.Transaction": "Temizlenmiş Blueprint",
     "Blueprints.Fixer.SanitizedBlueprint": "Temizlenmiş Blueprint: {0}",
     "Blueprints.Error.RestrictedContent": "Bu Blueprint kısıtlanmış içerik barındırmaktadır. ({ValidatorClass}) kısıtlı içeriğini kaldırmak için Blueprint'i temizle.",
+    "ValidatingAssetsPhase": "Öğeler doğrulanıyor...",
+    "ValidatingProjectContent": "Proje içeriği doğrulanıyor...",
     "VirtualizedData": "Sanallaştırılmış veriler içerir ve UEFN ile çalışmaz. Paket dosyasının yeniden erişilebilir hale getirilmesi gerekir.",
     "ValkyrieVerseValidationError": "Verse derlenirken {0} hatalarla karşılaştı. Bkz. Verse Derleme Tanılaması.",
     "MissingGameFeatureData": "{0} bir GameFeatureData öğesi içermiyor",
@@ -6813,6 +6989,9 @@
     "CookedContentTimeout": "Oyun sunucuları ile iletişim kurulurken bir hata oluştu: Zaman aşımı.",
     "StopAutoLocalizationJob.Error.FailedToStop": "Yerelleştirme işi durdurulamadı."
   },
+  "VkEditorModularTestResolver": {
+    "FailedToLoadRootPlugin": "\"{0}\" Verse yolu için kök eklenti yüklenemedi."
+  },
   "VkEventNodeDetails": {
     "Category": "Konuşma Olayı"
   },
@@ -6826,6 +7005,36 @@
   },
   "VkMaterialNodeDetails": {
     "Category": "Materyal"
+  },
+  "VkProjectContentImport": {
+    "AddedReference": "Referans verilen içerik eklendi:\n{0}.",
+    "FeatureSetMismatch": "\"{0}\" markasını kullanan bir içerik \"{1}\" markasını kullanan bir projeye aktarılamaz.",
+    "CompilingVerse": "Verse derleniyor...",
+    "CopyingContent": "İçerik kopyalanıyor...",
+    "AddingPublishedContent": "Referans alınan içerik indiriliyor/yükleniyor...",
+    "AddReferenceFailed": "Referans verilen içerik eklenemedi:\n{0}.",
+    "CopyFailed": "Kaynak proje içeriği kopyalanamadı.",
+    "FindPluginsFailed": "Kaynak proje eklentileri bulunamadı:\n{0}.",
+    "SourceProjectLoadFailed": "Kaynak proje yüklenemedi:\n{0}.",
+    "GatherReferencesFailed": "Kaynak projenin referansları okunamadı:\n{0}.",
+    "SaveFeatureSetFailed": "Hedef proje dosyası kaydedilemedi:\n{0}.",
+    "GatheringReferencedContent": "Referans alınan içerik toplanıyor...",
+    "UnsupportedPluginCount": "{0} eklentiyle kaynak projeyi içe aktarmak desteklenmez (tam olarak bir eklenti gerekli).",
+    "ImportingProjectContent": "Proje içeriği içe aktarılıyor...",
+    "NoDestinationProject": "Hedef proje sağlanmadı.",
+    "AddingSourceContent": "Referans verilmiş kaynak içerik açılıyor...",
+    "ImportCanceled": "Proje içeriğini içe aktarma işlemi iptal edildi.",
+    "ImportFailed": "Proje içeriği içe aktarılamadı.",
+    "ImportSucceeded": "Proje içeriği içe aktarıldı.",
+    "RollingBack": "Geri döndürülüyor...",
+    "ImportSourceProjectBrowseTitle": "İçe aktarılacak {0} kaynak projeyi seç.",
+    "DestinationNotOpened": "\"{0}\" adlı hedef proje açılmadı.",
+    "NoDestinationRootPlugin": "Hedef projenin kök eklentisi yok.",
+    "DestinationClosedDuringImport": "İçe aktarma sırasında hedef proje kapatıldı.",
+    "SourceFileMissing": "Kaynak proje dosyası mevcut değil:\n{0}.",
+    "SourceGoneDuringImport": "Kaynak proje artık kullanılamıyor.",
+    "SourceIsDestination": "Kaynak proje, hedef projedir.",
+    "ReferencedProjectReadError": "{0}:\n{1}"
   },
   "VkRepeatNodeDetails": {
     "Category": "Tekrar"
