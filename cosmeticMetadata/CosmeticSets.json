@@ -23567,8 +23567,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "EC48848B40667899A4BE7FB41206BB46",
-          "SourceString": "Set_01",
-          "LocalizedString": "Set_01"
+          "SourceString": "Persona 5 Royal",
+          "LocalizedString": "Persona 5 Royal"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23581,8 +23581,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "9ACE09144BD3E001C41159A12D33F6A9",
-          "SourceString": "Set_02",
-          "LocalizedString": "Set_02"
+          "SourceString": "Cyberpunk Edgerunners",
+          "LocalizedString": "Cyberpunk Edgerunners"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23595,8 +23595,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "62F2399145B1C724C1DA5F9309A9E3B8",
-          "SourceString": "Set_04",
-          "LocalizedString": "Set_04"
+          "SourceString": "Ironmouse",
+          "LocalizedString": "Ironmouse"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23651,8 +23651,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "E7D209EE4C2C63663DBC65A76D73DEDF",
-          "SourceString": "Set_03",
-          "LocalizedString": "Set_03"
+          "SourceString": "Madison Beer",
+          "LocalizedString": "Madison Beer"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23681,6 +23681,174 @@
           "Key": "4CF613F44E9F6650CB2216963E24CFC7",
           "SourceString": "Hammy Uncaged",
           "LocalizedString": "Hammy Uncaged"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BleakBulldog": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BleakBulldog"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "ACFBCEF94FF399A35B8701BF7A8BEBC2",
+          "SourceString": "Freddy Krueger",
+          "LocalizedString": "Freddy Krueger"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.PreyingTower": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.PreyingTower"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3249F5F34C02D616AFA0E88B15FB719F",
+          "SourceString": "End of Abyss",
+          "LocalizedString": "End of Abyss"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.GracefulBadger": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.GracefulBadger"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3AA4F55340FA6C3873BCADA075378D9D",
+          "SourceString": "Five Nights at Freddy's",
+          "LocalizedString": "Five Nights at Freddy's"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.JollyGeyser": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.JollyGeyser"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "CCCA762A4BCB00F66BF05F9E40C05F59",
+          "SourceString": "Set_01",
+          "LocalizedString": "Set_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.DizzyScout": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.DizzyScout"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B155C963466491954FA2869C8CDA6C7D",
+          "SourceString": "Set_02",
+          "LocalizedString": "Set_02"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ImaginaryBear": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ImaginaryBear"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F2531AD74330F01D37A6FE896FBA6EDF",
+          "SourceString": "99 Nights in the Forest",
+          "LocalizedString": "99 Nights in the Forest"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.GlassLizard": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.GlassLizard"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "033E326D42566BFB065B18BA502D0720",
+          "SourceString": "Clockwork Circus Chimp",
+          "LocalizedString": "Clockwork Circus Chimp"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.DustyTower": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.DustyTower"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "4DEC4249419939E33D80E09FCCB82813",
+          "SourceString": "Set_04",
+          "LocalizedString": "Set_04"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.OddBird": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.OddBird"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9062049F42BD811343165F8B4081544C",
+          "SourceString": "Lost Dolls",
+          "LocalizedString": "Lost Dolls"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.DualSurgeon": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.DualSurgeon"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "EB57C2DB49FC9AB458789BBC2F778183",
+          "SourceString": "Vicious Little Rabbit",
+          "LocalizedString": "Vicious Little Rabbit"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.IronRibbon": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.IronRibbon"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "79A124DD4F888442FEFCD7AC69BE7328",
+          "SourceString": "Jimothy",
+          "LocalizedString": "Jimothy"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BulkyBee": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BulkyBee"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "7394D1334A5BFADEC39998816535891C",
+          "SourceString": "Chic Cat",
+          "LocalizedString": "Chic Cat"
         },
         "Description": {
           "CultureInvariantString": null
