@@ -356,7 +356,6 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "Una spada con un potente attacco in salto secondario.",
     "144AC202422D81D8ECA7FDADA0248752": "Un fucile classico con precisione e gittata elevate.",
     "174ADE3045B991036DAB808BA3802CDA": "Un fucile classico con precisione e gittata elevate.",
-    "A633A07540E67656A515748EC42D2BFA": "Un fucile classico con precisione e gittata elevate.",
     "5CA4C768442DACE154F650919AEBF7CC": "Un'esplosione di emozioni e divertimento a tutta birra. Inizia saltando mentre sei in aria.",
     "62060089487721326B23BBA33709B481": "Un'esplosione di emozioni e divertimento a tutta birra. Avvia saltando mentre sei in aria.",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "Un'esplosione di emozioni e divertimento a tutta birra. Avvia saltando mentre sei in aria.",
@@ -1029,6 +1028,8 @@
     "E30F49304F96387D777824B552323084": "Cura i giocatori vicini mentre è attivo.",
     "2B4A2EC64C34C0E3DF8EC8A039979786": "FdA pesante",
     "2118AC47465E7B7FC3544E9411BEDFC9": "FdA pesante +",
+    "3643B4A94A5C6BB2254661BD6A92AC40": "Fucile d'assalto pesante",
+    "6F59A98A484163C0B20075AB5FAF04BF": "Fucile d'assalto pesante",
     "4D1E3CCE4AB63DBE205F768CC950F2D3": "Fucile pesante",
     "6202063447BC0BE9C686E0B7FA3EE710": "Fucile pesante",
     "7E9D83BD49686D2C9D75B9B31698D5D6": "Fucile pesante",
@@ -1089,7 +1090,6 @@
     "3B23812B4104C655B1751DAB80ED2993": "Giravolta a \"G\" indy",
     "118BD9B247A79B6E7AB2189A409B7EFA": "Giravolta indy",
     "55F09A7841788A6D5EABF7AE7C720557": "Fucile da fanteria",
-    "C115B50C4700A573DC237EAC7C92E21B": "Fucile da fanteria",
     "F1638A45469F392DAF5444BE0A097644": "Fucile da fanteria",
     "F317A4514DE5AEE182F39DA192E355AD": "Fucile da fanteria",
     "1D7BBE454E1553569F9589A7E633F06D": "Infiniti",
@@ -1141,7 +1141,6 @@
     "C21BFCC843ECBDD4244B80BC06CC68DC": "Vince chi resta in piedi",
     "1740E88D4507B5C9B2AAD1892CFA36A8": "L'ultima squadra che sopravvive vince",
     "0E7DAF39462A8FDB208B1B94A8372C42": "Prendi il volo e sghignazza nel cielo. Entra in fase di recupero.",
-    "203048A346124F2326AE7489CF3CF605": "Prendi il volo e sghignazza nel cielo. Riattivala per annullare in anticipo.",
     "907C815D4FCFB0C6BC3A0DBB738CAC9D": "Prendi il volo e sghignazza nel cielo. Riattivala per annullare in anticipo.",
     "261743A8479BF496B7D041B28AA7D369": "Scaglia i giocatori in aria.",
     "86CE1B5747A296D9410A23BD7ED6275C": "Lancia un contenitore esplosivo di vernice cinematica.",
@@ -1403,7 +1402,6 @@
     "9EC314644018A0419EA1F482397A0E43": "Posiziona punti intermedi per guidare i giocatori.",
     "3867525B47775904DD3B9FB4C779F25E": "Placeholder item. DO NOT SHIP.",
     "291AD5F7469E20890EFCD288976C3A9B": "Gettone idoneità sondaggio giocatore",
-    "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "Associa di nuovo l'azione {s}.",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "Arco sturalavandini",
     "4567895244A3DDF0A6347DB93EA4AB9A": "Bomba ballerina tascabile",
@@ -1412,7 +1410,6 @@
     "E522F4A843D34DAEB2A0018323D90C65": "Bolla scudo tascabile",
     "FB786D2942DF31556A360EBB36845337": "Granata a onda d'urto tascabile",
     "32E0A00C47255BAEBDF72AAF92DD94C1": "Scopa da strega tascabile",
-    "09BC060C4709B5E30DB790861955D110": "Potenza",
     "4CBE793B4385D3726F1EA5950991BC9C": "Potenza",
     "D13EC04349B8427E99FF49AFABDD232A": "Potenza",
     "D6FFC2F1422B954E038F569E60AA52EE": "Modello Potenza concentrata",
@@ -1579,6 +1576,7 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Ruba scudo",
     "4F611C954A5378BFC1804C96BB3981FE": "Sinergia scudo",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Lancio di scudo",
+    "6FE5EF624909BEBF19A4F7A143733F40": "Cannone nave",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Cannone nave",
     "85A285654B56001B52E9ABBC806822EB": "Gadget Onda d'urto",
     "8E57565847BBBCA8EE6AD38208D056E1": "Granata a onda d'urto +",
@@ -1602,6 +1600,7 @@
     "4D0811B84A251BD52C82C89A6F3E409B": "Furtivo",
     "61B1F6E14915E099FA166191039CA76B": "Pupazzo di neve subdolo",
     "E72D7990488977EC9E88CAA2F852A420": "Pupazzo di neve subdolo",
+    "8C3D91E34BDE4D5E650D8FA688A0926D": "Fucile di precisione: semiautomatico. Fucile a media e lunga gittata che infligge una buona quantità di danni a cadenza elevata. Il mirino ottico migliora la precisione.",
     "0EDC01BF43DF751F9F5E58A4AA5A5DFF": "Fucile di precisione: silenziato. Un potente fucile di precisione con silenziatore studiato per singoli colpi di precisione, con cadenza di tiro ridotta.",
     "AD1D0E4849B9874FC0ADF397EB542112": "Fucile di precisione: silenziato. Un potente fucile di precisione con silenziatore studiato per singoli colpi di precisione, con cadenza di tiro ridotta.",
     "719A80194FE6CA987DF1FF92404DF970": "Fucile di precisione che si può <Emphasized>ricaricare quando non lo tieni in mano</>",
@@ -1982,7 +1981,6 @@
     "9BD108A54CA8FA397E1DBD95E37958BB": "Gettone di completamento sfida Mezz'inverno",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "Chiave di Mezz'inverno",
     "194B94D745612B291C0C0CAC0487B727": "Scopa da strega",
-    "EFCEF17944284794FC6D49B915B991EE": "Scopa da strega",
     "E802A4F6446FEB69B7765E9251FD766E": "X",
     "71184DB949BE8B082462B7B962C39E48": "La X segna il punto!",
     "D40AA64648243870B6889FA424D3E046": "X4 Stormwing",
@@ -2419,6 +2417,35 @@
     "RecipientCantReceiveGiftsTitle": "Qualcosa è andato storto!",
     "AlreadyOwnItemTitle": "Qualcosa è andato storto!",
     "AlreadyOwnBPDescription": "Siccome il tuo amico <text color=\"FFF\">{DisplayName}</> ha acquistato un Pass battaglia mentre stavi per regalarglielo, riceverai un Gettone dono Pass battaglia.\n Puoi usarlo per regalare un Pass battaglia a un altro amico. Se il Gettone dono rimarrà inutilizzato, al termine della stagione verrà convertito in 950 V-buck sul tuo account."
+  },
+  "AthenaGiftingFlowConfirmationScreen": {
+    "NewGiftBoxReceived": "Nuova opzione carta regalo ottenuta!"
+  },
+  "AthenaGiftingFlowErrorsPanel": {
+    "GenericErrorDescription": "Si è verificato un errore sconosciuto",
+    "RecipientCantReceiveGiftsDescription": "<text color=\"FFF\">{DisplayName}</> non è idoneo a ricevere doni",
+    "RecipientBoughtItemsDescription": "Sembra che <text color=\"FFF\">{DisplayName}</> abbia appena acquistato gli oggetti qui sotto:",
+    "AlreadyOwnItemDescription": "Sembra che <text color=\"FFF\">{DisplayName}</> abbia appena acquistato quest'oggetto.",
+    "GiftChangedDescription": "Pare che il contenuto del dono sia cambiato...",
+    "GiftChangedTitle": "OPS!",
+    "GenericErrorTitle": "OPS! Qualcosa è andato storto!",
+    "RecipientBoughtItemsTitle": "Qualcosa è andato storto!",
+    "RecipientCantReceiveGiftsTitle": "Qualcosa è andato storto!",
+    "AlreadyOwnItemTitle": "Qualcosa è andato storto!",
+    "AlreadyOwnBPDescription": "Siccome il tuo amico <text color=\"FFF\">{DisplayName}</> ha acquistato un Pass battaglia mentre stavi per regalarglielo, riceverai un Gettone dono Pass battaglia.\n Puoi usarlo per regalare un Pass battaglia a un altro amico. Se il Gettone dono rimarrà inutilizzato, al termine della stagione verrà convertito in 950 V-buck sul tuo account."
+  },
+  "AthenaGiftingFlowPurchaseButton": {
+    "Continue": "Continua",
+    "GetVBucks": "Ottieni V-buck",
+    "PurchaseGift": "Acquista un dono!",
+    "ReloadVBucks": "Ricarica V-buck",
+    "SendGift": "Manda dono!"
+  },
+  "AthenaGiftingFlowPurchasePanel": {
+    "RetrySocialNameInfo": "Ora {DisplayName} riceverà",
+    "SocialNameInfo": "{DisplayName} riceverà",
+    "ItemsCount": "{GiftItemsCount} {GiftItemsCount}|plural(one=oggetto,other=oggetti)",
+    "ItemsAndMaxCount": "{GiftItemsCount}/{ItemsTotalCount} {ItemsTotalCount}|plural(one=oggetto,other=oggetti)"
   },
   "AthenaGiftingPurchaseButton": {
     "Continue": "Continua",
@@ -4659,7 +4686,7 @@
     "ItemCapacityReachedText": "Non posso raccoglierne ancora!",
     "PlayerKickedCallout": "Il giocatore {PlayerName} è stato espulso per inattività.",
     "PlayerKickedSoonCallout": "Il giocatore {PlayerName} verrà presto espulso per inattività.",
-    "IdleWarning": "La tua squadra ha bisogno d'aiuto! Dai una mano prima che Ray ti rimandi a Casa base.\nRitorno tra {SecondsRemaining}"
+    "IdleWarning": "La tua squadra ha bisogno d'aiuto!Dai una mano prima che Ray ti rimandi indietro.\nRitorno tra {SecondsRemaining}"
   },
   "Fort.PlaysetInventoryPanel": {
     "InteractionText": "Visualizza playset"
@@ -4794,6 +4821,7 @@
     "FortAnimNode_PoseDebug_Tooltip": "Nodo per accedere alle opzioni di debug pose",
     "OrientationWarping": "Salto di orientamento",
     "OrientationWarpingTooltip": "Orienta RootBone per adattarsi alla direzione di movimento, ed effettua una contro-rotazione della spina.",
+    "SimpleFootPlantingTooltip": "Blocca i piedi con l'IK in posizione quando toccano terra, sfumando gradualmente l'effetto quando il piede animato si allontana dalla posizione di appoggio,indipendentemente dal salto inclinato.",
     "AttackIKTooltip": "Posiziona mani/piedi in base alle ossa IK durante un'animazione d'attacco.",
     "FortAnimNode_CurveFilterSlot_Tooltip": "Riproduce l'animazione dal codice utilizzando AnimMontage",
     "FortAnimNode_NoBlendCurveSlot_Tooltip": "Riproduce l'animazione dal codice utilizzando AnimMontage",
@@ -4811,6 +4839,7 @@
     "ScaleCharacterBonesTooltip": "Cambia scala bone personaggi con un mutatore.",
     "ScaleHuskBonesTooltip": "Ridimensiona le ossa di un Abietto in base alla tipologia (ad esempio, gli Abietti nani sono piccoli ma hanno grandi teste)",
     "SetIKTarget_Description": "Set Foot IK Targets",
+    "SimpleFootPlanting": "Piantamento dei piedi semplice",
     "SpeedWarping": "Salto veloce",
     "RootSlopeTiltTooltip": "Inclina la radice dello scheletro verso il piano del pavimento di una frazione limitata, in modo che un nodo di deformazione della pendenza a valle ricalcoli nuovamente le estremità in base un corpo già inclinato.",
     "TransformRollerTreads": "Trasforma rotelle/cingoli",
@@ -5216,6 +5245,10 @@
     "EnergyCostUnits": "energia",
     "CostFmtStr": "{CostValue} {CostType}"
   },
+  "FortGiftingFlowSocialUserListView": {
+    "GiftingFriendsList": "AMICI",
+    "GiftingPartyMembersList": "MEMBRI DEL GRUPPO"
+  },
   "FortGiftingSocialUserListView": {
     "GiftingFriendsList": "AMICI",
     "GiftingPartyMembersList": "MEMBRI DEL GRUPPO"
@@ -5620,6 +5653,7 @@
     "DisconnectingFromLobby": "Pulizia in corso...",
     "LogoutUsabilityExperiment": "Pulizia in corso...",
     "FailedClientSettingsDownloadTitle": "Errore di scaricamento dal cloud",
+    "LoginXmppAsync": "Connessione ai servizi di gruppo...",
     "ConsoleConnectionChangePromptTitle": "Cambiamento di stato connessione",
     "QueryKeychainNoMcpMsg": "Impossibile accedere all'MCP per scaricare la keychain",
     "CreatingParty": "Creazione gruppo in corso...",
@@ -6644,6 +6678,7 @@
     "AutoFireName": "Fuoco automatico",
     "AutoInteractContainers_Name": "Apertura automatica contenitori",
     "AutoOpenDoors_Name": "Apertura automatica porte",
+    "AutoPickUpEnabled_Name": "Raccolta automatica oggetti",
     "AutoPickupWeaponsConsolePC_Name": "Raccolta automatica armi",
     "AutoPickupWeapons_Name": "Raccolta automatica armi",
     "AutoInteractRevives_Name": "Rianima automaticamente compagno",
@@ -6657,6 +6692,7 @@
     "AutoHideBuildingMaterials_Name": "Nascondi automaticamente materiali da costruzione",
     "AutoSetQuality_Action": "Impostazione automatica",
     "AutoSetQuality_Name": "Impostazione automatica qualità",
+    "MobileAutofireCollection_Name": "AutoFire",
     "TouchAutomationsCollection_Name": "Azioni automatiche",
     "AutomaticallyApplyXP_Name": "Applicazione automatica - PE persone",
     "DynamicResolution_Description": "Regola automaticamente la risoluzione 3D in base al carico della GPU. Quando l'utilizzo della GPU è basso, la risoluzione aumenta fino a quella nativa. Quando l'utilizzo della GPU è alto, la risoluzione diminuisce fino all'impostazione Risoluzione 3D (minima).",
@@ -7123,6 +7159,8 @@
     "MeshQuality_Description": "Un valore della geometria più alto conferisce agli oggetti una forma più dettagliata. L'aumento del valore di questa impostazione renderà i bordi più lisci, ma potrebbe ridurre le prestazioni.",
     "TextureQuality_Description_Default": "Un valore della texture più alto conferisce agli oggetti bidimensionali un aspetto più dettagliato. L'aumento del valore di questa impostazione renderà i bordi più lisci, ma potrebbe ridurre le prestazioni.",
     "TextureQuality_Description_NoHighMips": "Impostazioni texture più alte conferiscono agli oggetti bidimensionali un aspetto più dettagliato. Aumentare questa impostazione renderà gli oggetti più dettagliati, ma potrebbe ridurre le prestazioni.\n\n<Icon.Warning></> Le texture di alta qualità non sono installate. Possono essere scaricate dal launcher di Epic Games nelle opzioni di installazione di Fortnite.",
+    "TextureQuality_Description_EpicAssetsInstalled": "Impostazioni texture più alte conferiscono agli oggetti bidimensionali un aspetto più dettagliato. Aumentare questa impostazione renderà gli oggetti più dettagliati, ma potrebbe ridurre le prestazioni.\n\nLe texture di qualità epica sono attualmente installate. Per liberare spazio e caricare le risorse durante il gioco, le texture possono essere disinstallate dal launcher di Epic Games nelle opzioni di installazione di Fortnite.",
+    "TextureQuality_Description_EpicAssetsStreamed": "Impostazioni texture più alte conferiscono agli oggetti bidimensionali un aspetto più dettagliato. Aumentare questa impostazione renderà gli oggetti più dettagliati, ma potrebbe ridurre le prestazioni.\n\nPer impostazione predefinita, le texture di qualità epica vengono trasmesse su richiesta. Per ridurre i download durante il gioco, è possibile installarli, se lo si desidera, dal launcher di Epic Games nelle opzioni di installazione di Fortnite.",
     "Hitmarkers_Name": "Segnalatore",
     "AutoClamber_On": "Tieni premuto Avanti",
     "AutoHurdle_On": "Tieni premuto Avanti",
@@ -7369,6 +7407,7 @@
     "MeshQuality_Name": "Mesh",
     "MapPickupDotRarity_Name": "Indicatori minimappa - punto di recupero",
     "FOVMinimum_Name": "Campo visivo (FOV) minimo",
+    "MobileCheatsCollection_Name": "Trucchi per dispositivi mobili",
     "MobileFPSType_Name": "Framerate mobile",
     "MotionBlur_Name": "Motion blur",
     "MouseAndKeyboardBindingsCollection_Name": "Mouse e tastiera",
@@ -7966,6 +8005,7 @@
     "InvertPitchForAircraftPrimary_Description": "Attiva/disattiva l'inversione di sterzo con controller per i velivoli. Quando è attiva, un movimento in avanti farà inclinare il velivolo verso il basso.",
     "InvertPitchForAircraftSecondary_Description": "Attiva o disattiva l'inversione dello sterzo con mouse per i velivoli. Quando è attiva, spostando il mouse in avanti, il velivolo si inclinerà verso il basso.",
     "InvertPitchForAircraftTouch_Description": "Attiva/disattiva l'inversione di sterzo con touch per i velivoli. Quando è attiva, eseguendo un movimento in avanti con il touch, il velivolo si inclinerà verso il basso.",
+    "AutoPickUpEnabled_Description": "Attiva/disattiva la raccolta automatica degli oggetti. Se attiva, gli oggetti verranno automaticamente raccolti quando ci si passa sopra.",
     "AutoSortConsumablesToHigherSlots_Description": "Attiva/disattiva l'ordinamento automatico degli oggetti negli slot con numero maggiore. Se attivo, gli oggetti consumabili (come salute e scudi) saranno posizionati automaticamente nello slot vuoto maggiore sulla barra rapida quando vengono raccolti.",
     "AutoSortConsumablesToRight_Description": "Attiva/disattiva l'ordinamento automatico degli oggetti consumabili a destra. Se attiva, gli oggetti consumabili (come salute e scudi) saranno posizionati automaticamente nello slot vuoto più a destra della barra rapida quando vengono raccolti.",
     "GamepadAutoRun_Description_PS4": "Attiva/disattiva la corsa automatica tramite controller. Se attiva, premendo il pulsante L3 due volte potrai iniziare a correre in automatico senza bisogno di tenere la levetta sinistra inclinata in avanti.",
@@ -9008,9 +9048,8 @@
     "Social_MutualFriendsFormat": "{0} {0}|plural(one=amico,other=amici) in comune"
   },
   "FortValidator_ArmoryTemplates": {
-    "ArmoryTemplates_NonShotgunForbidsMulti": "L'entità \"{0}\" trasporta fort_multi_trace_weapon_component, ma il suo modello non è shotgun_template. Solo i modelli di fucile pesante possono usare fort_multi_trace_weapon_component; pistol_teplate, assault_rifle_template e sub_machine_gun_template devono usare fort_trace_weapon_component.",
-    "ArmoryTemplates_RequiresWeaponEntity": "L'entità \"{0}\" trasporta {1}. Si può usare solo su uno dei modelli di arma (ad esempio pistol_template, assault_rifle_template, shotgun_template, sub_machine_gun_template).",
-    "ArmoryTemplates_ShotgunRequiresMulti": "L'entità \"{0}\" è shotgun_template che non trasporta fort_multi_trace_weapon_component. I fucili pesanti devono usare fort_multi_trace_weapon_component (non fort_trace_weapon_component)."
+    "ArmoryTemplates_WeaponEntityClassComponentRequirements": "L'entità \"{0}\" trasporta {1} mentre consente solo {2}.",
+    "ArmoryTemplates_RequiresWeaponEntity_WeaponComponent": "Entity '{0}' carries a {1}. This can only be used on one of the weapon templates (i.e. pistol_template, assault_rifle_template, shotgun_template, sub_machine_gun_template, held_item_template)."
   },
   "FortValidator_ExtractionAssetMapping": {
     "NoMainVariant": "L'archetipo \"{0}\" non ha nessuna variante principale. Deve esserci esattamente una variante con il tag \"{1}\".",
@@ -10503,7 +10542,6 @@
     "FallGuysTag": "Fall Guys",
     "BrightCoilIslandTag": "KPop Demon Hunters",
     "LegoIslandTag": "Isola LEGO",
-    "RocketRacingTag": "Rocket Racing",
     "SpeedrunTag": "Gara di velocità",
     "SolidWaveIslandTag": "Squid Game",
     "TmntIslandTag": "TMNT",
@@ -10600,6 +10638,14 @@
     "JunoValidator_GeometryCollection_NullProxyMeshes": "Ha una mesh proxy nulla",
     "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
     "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+  },
+  "JunoValidator_POI": {
+    "ReplaceWithoutReplacement": "La riga PDI \"{0}\" è impostata su Sostituisci, ma non assegna alcun nome ReplacementPOI, quindi verrà solo rimossa.Assegna un sostituto o imposta IneligibleAction su Rimuovi.",
+    "ReplacementDisabled": "La riga PDI \"{0}\" nomina la riga disabilita \"{1}\" come ReplacementPOI, quindi la sostituzione non riuscirà mai e verrà liberato solo lo slot.",
+    "ReplaceWithSelf": "La riga PDI \"{0}\" si autodefinisce come il proprio ReplacementPOI.La sostituzione sarebbe non idonea tanto quanto la riga che sostituisce.",
+    "EmptyBiomes": "La riga PDI \"{0}\" non indica alcun bioma, quindi non può essere posizionata.Indica i biomi a cui appartiene.",
+    "IneligibleActionOnUnsupportedType": "La riga PDI \"{0}\" imposta IneligibleAction ma non è un PDI del Sopramondo, quindi verrà ignorata.Il pass ritiro non modella lo stato proprio di teardown dei PDI di caverna, ingresso della caverna, ponte e punto di pesca.",
+    "ReplacementCycle": "Le righe PDI \"{0}\" e \"{1}\" si nominano reciprocamente come sostituzioni.Rompi il ciclo: una deve essere un Rimuovi."
   },
   "JunoValidator_PlaylistDataTableOverrides": {
     "MismatchedRowStruct": "PlaylistBaseDataTableOverrides[{0}] per tag playlist \"{1}\": la tabella di Override \"{2}\" ha una struttura a riga \"{3}\", ma la tabella base \"{4}\" usa una struttura a riga \"{5}\". Sovrascrivere una tabella dati con un tipo di riga diverso causa il danneggiamento della memoria in fase di esecuzione. La tabella Override DEVE usare la stessa struttura a riga della tabella base."
@@ -10825,6 +10871,9 @@
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "({0})"
   },
+  "LiteUIKit": {
+    "WidgetPaletteCategory": "Kit IU lite"
+  },
   "LoadingScreen": {
     "DebugLoadingScreenReason": "*Dev* Motivo indicato: {0}",
     "Connecting": "CONNESSIONE IN CORSO",
@@ -10849,8 +10898,8 @@
     "Europe": "Europa",
     "Middle East": "Medio Oriente",
     "NA-Central": "NA-Centrale",
-    "NA-East": "NA-Est",
     "NA-West": "NA-Ovest",
+    "North America": "Nord America",
     "Oceania": "Oceania",
     "Undefined": "Indefinito"
   },
@@ -11105,6 +11154,11 @@
     "NearbySubjectsNoSelf": "Nessun UMonologueComponent passato a NearbySubject",
     "SpatialContextNoSelf": "No UMonologueComponent passed to SpatialContext",
     "SpatialContextNoPawn": "SpatialContext - Impossibile ottenere il Pawn dal soggetto"
+  },
+  "MorningBellSetting": {
+    "HideLobbyDrops_Name": "Nascondi drop della lobby",
+    "LobbyDropsCollectionGame_Name": "Drop della lobby",
+    "HideLobbyDrops_Description": "Quando si abilita, nasconde i drop della lobby dalle lobby di Battaglia reale, Blitz e Rientro.Non potrai riscattare drop della lobby."
   },
   "MyTownManager": {
     "MissingPersonalityName": "Nessuna localizzazione per {0}",
@@ -11464,6 +11518,7 @@
     "MemberLeftToast": "<Username>{Username}</> ha abbandonato il gruppo",
     "MemberKickedToast": "<Username>{Username}</> è stato espulso dal gruppo",
     "UnableToJoinCheckingForRejoin": "Ricerca partita esistente in corso, attendere...",
+    "EpicPartyJoinFailedNoResponse_Title": "Impossibile unirsi al gruppo",
     "EpicPartyJoinFailedPrivate_Title": "Impossibile unirsi al gruppo",
     "UnableToJoinPartyPrivate_Title": "Impossibile unirsi al gruppo",
     "FailedPartyJoin": "Impossibile unirsi al gruppo",
@@ -11495,6 +11550,7 @@
     "UnableToJoinFailedPowerRatingUnknown": "Impossibile recuperare le info sul grado di potenza",
     "UnableToJoinUserBuildHigherFormat": "Impossibile unirsi al gruppo di <Username>{0}</>, la loro versione di Fortnite è più recente della tua.",
     "UnableToJoinUserBuildLowerFormat": "Impossibile unirsi al gruppo di <Username>{0}</>, la loro versione di Fortnite è più vecchia della tua.",
+    "EpicPartyJoinFailedNoResponse": "Impossibile unirsi al gruppo di <Username>{0}</>.",
     "UnableToJoinDeniedUserUnknownResult": "Impossibile unirsi al gruppo di <Username>{0}</>. Codice del motivo di rifiuto: {1}",
     "EpicPartyJoinFailedUnknown": "Impossibile unirsi al gruppo di <Username>{0}</>. Codice errore {1}",
     "UnableToJoinUserUnknownResult": "Impossibile unirsi al gruppo di <Username>{0}</>. Codice errore {1}",
@@ -11504,6 +11560,7 @@
     "UnableToJoinDeniedPartyUnknownResult": "Impossibile unirsi al gruppo. Codice del motivo di rifiuto: {0}",
     "EpicPartyJoinFailedUnknown_UnknownName": "Impossibile unirsi al gruppo. Codice errore {0}",
     "UnableToJoinPartyUnknownResult": "Impossibile unirsi al gruppo. Codice errore {0}",
+    "EpicPartyJoinFailedNoResponse_UnknownName": "Impossibile unirsi a quel gruppo.",
     "ReadyTextSpectatingGame": "Guarda la partita",
     "ReadyTextWatchingReplay": "Guarda un replay",
     "EpicPartyJoinFailedAlreadyInParty_UnknownName": "Sei già in quel gruppo",
@@ -12517,6 +12574,9 @@
     "TwoTeamScore": "{0}"
   },
   "UAthenaGiftConfirmedPanel": {
+    "RecipientInfo": "Hai inviato un dono a <text color=\"FFF\">{DisplayName}</>!"
+  },
+  "UAthenaGiftFlowConfirmedPanel": {
     "RecipientInfo": "Hai inviato un dono a <text color=\"FFF\">{DisplayName}</>!"
   },
   "UAthenaLockerCategorySortConfig": {
