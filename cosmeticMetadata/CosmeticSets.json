@@ -23539,8 +23539,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "0C6BE1DD45F74E183E5CD2AF68F275AB",
-          "SourceString": "Pac-Man",
-          "LocalizedString": "Pac-Man"
+          "SourceString": "PAC-MAN",
+          "LocalizedString": "PAC-MAN"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23735,8 +23735,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "CCCA762A4BCB00F66BF05F9E40C05F59",
-          "SourceString": "Set_01",
-          "LocalizedString": "Set_01"
+          "SourceString": "Black Clover",
+          "LocalizedString": "Black Clover"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23749,8 +23749,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "B155C963466491954FA2869C8CDA6C7D",
-          "SourceString": "Set_02",
-          "LocalizedString": "Set_02"
+          "SourceString": "Hollow Knight",
+          "LocalizedString": "Hollow Knight"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23791,8 +23791,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "4DEC4249419939E33D80E09FCCB82813",
-          "SourceString": "Set_04",
-          "LocalizedString": "Set_04"
+          "SourceString": "Halloween Horror Nights",
+          "LocalizedString": "Halloween Horror Nights"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23849,6 +23849,188 @@
           "Key": "7394D1334A5BFADEC39998816535891C",
           "SourceString": "Chic Cat",
           "LocalizedString": "Chic Cat"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ChannelFrogs": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ChannelFrogs"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "B3E481BAAFEE4D97A760C45A4D0B03C3",
+          "SourceString": "Beetlejuice",
+          "LocalizedString": "Beetlejuice"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CrowdOrganic": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CrowdOrganic"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "73B570E75FFA4FEEB18EE68F44E9D47C",
+          "SourceString": "Hazbin Hotel",
+          "LocalizedString": "Hazbin Hotel"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ElegantCut": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ElegantCut"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "AC1F4F2BA2EF45228DE0EC591D63AE1F",
+          "SourceString": "Set_01",
+          "LocalizedString": "Set_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CarMass": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CarMass"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "C88B59697BD24642A8C7E25A73C366C4",
+          "SourceString": "Nevermore Nurse",
+          "LocalizedString": "Nevermore Nurse"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.SquareRule": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.SquareRule"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "15EB292AFA2440DCA93878469742CE21",
+          "SourceString": "Obsession",
+          "LocalizedString": "Obsession"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.IceIdea": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.IceIdea"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "0F45874F93B34678A364A762DD85DBDB",
+          "SourceString": "Predator Badlands",
+          "LocalizedString": "Predator Badlands"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BendNote": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BendNote"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "9BAF804C323F45278FB1211102F9E155",
+          "SourceString": "The Purge",
+          "LocalizedString": "The Purge"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.NoisyBirds": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.NoisyBirds"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "658A8695BC3B47018AB8BD58F93317C3",
+          "SourceString": "The Slender Man",
+          "LocalizedString": "The Slender Man"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.GluePurple": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.GluePurple"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "886A4253B5B64085AFA7441927AC1B23",
+          "SourceString": "Set_02",
+          "LocalizedString": "Set_02"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ShyTraveler": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ShyTraveler"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "4BBDB5324AB1392B962228AFF378A455",
+          "SourceString": "Dark Monarch",
+          "LocalizedString": "Dark Monarch"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BlindBee": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BlindBee"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "60BFF0214E4512C840A6EAA033F539F3",
+          "SourceString": "Shadow's Hunter",
+          "LocalizedString": "Shadow's Hunter"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.WarmOak": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.WarmOak"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "039A750F429B4BD01C1DDD82A5DF790A",
+          "SourceString": "Nitemare Cat",
+          "LocalizedString": "Nitemare Cat"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "NewRow": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ShadeFly"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "D294DD6E46389DA13364D78B62FC2997",
+          "SourceString": "Harrowing Nightmare",
+          "LocalizedString": "Harrowing Nightmare"
         },
         "Description": {
           "CultureInvariantString": null
