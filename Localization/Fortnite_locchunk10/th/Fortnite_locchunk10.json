@@ -356,6 +356,7 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "ดาบที่มีการโจมตีรองเป็นการกระโดดโจมตีที่รุนแรง",
     "144AC202422D81D8ECA7FDADA0248752": "ปืนไรเฟิลสุดคลาสสิกที่มีความแม่นยำสูงและระยะการยิงยอดเยี่ยม",
     "174ADE3045B991036DAB808BA3802CDA": "ปืนไรเฟิลสุดคลาสสิกที่มีความแม่นยำสูงและระยะการยิงยอดเยี่ยม",
+    "A633A07540E67656A515748EC42D2BFA": "ปืนไรเฟิลสุดคลาสสิกที่มีความแม่นยำสูงและระยะการยิงยอดเยี่ยม",
     "5CA4C768442DACE154F650919AEBF7CC": "ความตื่นเต้นและสนุกสนานเต็มสูบ ติดเครื่องด้วยการกระโดดขณะอยู่กลางอากาศ",
     "62060089487721326B23BBA33709B481": "ความตื่นเต้นและสนุกสนานเต็มสูบ ติดเครื่องด้วยการกระโดดขณะอยู่กลางอากาศ",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "ความตื่นเต้นและสนุกสนานเต็มสูบ ติดเครื่องด้วยการกระโดดขณะอยู่กลางอากาศ",
@@ -422,10 +423,7 @@
     "F259347F4F2842296238EB82C300F898": "ใดๆ",
     "165B7E9748BBE879107084AD2F2A831F": "ไอเทมฟื้นฟูพลังชีวิตแบบวงกว้าง รักษา ไอเทมอเนกประสงค์ ",
     "979E143F4DB80482F7115A92CA8BCD4A": "ไอเทมฟื้นฟูพลังชีวิตแบบวงกว้าง รักษา ไอเทมอเนกประสงค์ ",
-    "A9FA7E534DAB697646EE6AB42C93C1D7": "เขียวแอปเปิล",
     "A2C33D7A4650D1311D24238FC644F05A": "มอบ<Emphasized>เกราะ</>ให้ตัวเองและเพื่อนร่วมทีมที่อยู่ใกล้เคียง",
-    "2C724915401F1A7787FFCB8FD290B616": "อควา",
-    "46C56F454E6F3673CEF647A6D72F3EDA": "อความารีน",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "ช่องคลังอาวุธ",
     "14FE8E964665F3F20099A0B16A9D68F7": "แอชตัน",
     "F00BAD564EF2DC73C32CB18F94A85EAE": "แอชตัน",
@@ -555,7 +553,6 @@
     "120BA8004C6678552C7377A6A5483152": "สไตล์ตัวส่งสัญญาณ",
     "851AC090485097B263B626A83A02C0FE": "ลำแสง",
     "C1DC37B04598D140C5BD808AB61F9712": "รับบทมนุษย์หิมะ",
-    "21BB6A4D48D2430058D509B4F3D02AA9": "เบจ",
     "0A9381554E499FD10B15438EDCFD41B0": "บิ๊กบาร์เรลพิเศษ",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "เครื่องบินปีกสองชั้น",
     "5B5236944941BFD7DE82B8B05FE11D94": "เครื่องบินปีกสองชั้น",
@@ -626,7 +623,6 @@
     "2AA0C53148468770E238D6825BF85BAC": "หมวดหมู่ดาว",
     "EE922BB945F58FB9604A58A2D82D680C": "ปืนกลมือยิงรัวของแคทวูแมน",
     "AA86FAD842ADDE0E9D552E92F44CDD7C": "ปืนกลมือยิงรัวปรับแต่งของแคทวูแมน สร้างขึ้นอย่างพิถีพิถันเพื่อเพิ่มความจุของกระสุนให้มากขึ้น",
-    "D76CF3D846DE65E8BE51F39F748DAA43": "เซรูลีน",
     "EB4A9CD946CF1CAD986993958FEC99A7": "บทที่ 2 ซีซั่น 5 ",
     "5D048A7F45BDC6C054F4528378401CD0": "บทที่ 2 ซีซั่น 7",
     "02BD54134B723F96AC01628F3924C431": "บทที่ 2 ซีซั่น 8",
@@ -929,7 +925,6 @@
     "7D608A2348789E08EF3A60ABB1E09742": "ทีมพันธมิตร",
     "2FB297854AA101161395379E33167490": "หลบเลี่ยงความตาย",
     "2277279745E5A2A74BC60299806407F0": "ปืนแช่แข็ง",
-    "E37268214ECAE0FDB58EF1A6BD1E9A81": "ฟิวเชีย",
     "1D2EEEBF4370BF8C411B08B64DCE4F2E": "บิ๊กบาร์เรลเต็มรูปแบบ",
     "F6260A434A2F549B51B59F842C778EA8": "แฟลตไลเนอร์เต็มรูปแบบ",
     "CA598A9647DDFFF9012FFE88BAC6D842": "จีฟลิปเต็มรูปแบบ",
@@ -975,7 +970,6 @@
     "87E39EA04808B27EA30A908F811EF0FA": "เครื่องร่อน",
     "3C063B974F09C8A673507CBE3ADDB71D": "ลุยเดี่ยวในการต่อสู้เพื่อเป็นผู้ยืนหยัดเป็นคนสุดท้าย",
     "8BEC89B8499664826B111685672B4E29": "ลุยเดี่ยวในการต่อสู้เพื่อเป็นผู้ยืนหยัดเป็นคนสุดท้าย",
-    "B8C59B304999B1F6964D1696FAB0E456": "ทอง",
     "F92ED6D24B56EACA844D27A473619CF5": "ทอง",
     "3636D06A4ADE66F6A3C73D9AAB04186F": "สกุลเงินทองคำ",
     "7B0936A2458A998274ED3484DE00BCDA": "ทรัฟเฟิลทองคำ",
@@ -994,7 +988,6 @@
     "2BAF9D994E20140BCD7F59A7CAC81BA3": "สวิตช์เทิร์นป่าช้า",
     "A4341A0045390C670F4757948E6E3CE5": "สึนามิป่าช้า",
     "F0737F4E40417749A441A59843B932F0": "นักเดินทางท่องป่าช้า",
-    "0B5C62D0400E95930AEE12B1D2116EE2": "เขียว",
     "5D14C5F74CA277758C0476AA504D7CEA": "ถ้ำชายฝั่ง",
     "331DB866438F7C72234C5B8338CC44A0": "รวมกลุ่มและเอาชนะทีมอื่นๆ ทั้งหมดเพื่อมุ่งสู่ชัยชนะ",
     "99E9D5F34DC01FC6B8774DB154EAC42E": "ปืน ปืนไรเฟิลจู่โจม ปืนกล กระสุนเบา อัตโนมัติ",
@@ -1042,7 +1035,6 @@
     "2EAFA04B4FCA57C7AF24E29E7C4450D7": "ปืนซุ่มยิงหนัก +",
     "A935E8954E7200704C91A0A3A85B8C71": "ปืนซุ่มยิงหนักที่มีโอกาส<Emphasized>รีโหลดทันที</>",
     "56AA82F146826F523FA9119C01362035": "ความสูง",
-    "0B86EC9C474C4633272C9787A10B7795": "ไอเทมที่ถืออยู่",
     "465E0326425E1043865BEB8E4C811AE3": "ไอเทมที่ถืออยู่",
     "6C0951C64B0DA937087B0284224F92F4": "ไอเทมที่ถืออยู่",
     "6EF1E84B40FA9D7CD51697ABF897FE4A": "ไอเทมที่ถืออยู่",
@@ -1090,6 +1082,7 @@
     "3B23812B4104C655B1751DAB80ED2993": "จีฟลิปอินดี้",
     "118BD9B247A79B6E7AB2189A409B7EFA": "ราวน์เดอร์อินดี้",
     "55F09A7841788A6D5EABF7AE7C720557": "ปืนไรเฟิลทหารราบ",
+    "C115B50C4700A573DC237EAC7C92E21B": "ปืนไรเฟิลทหารราบ",
     "F1638A45469F392DAF5444BE0A097644": "ปืนไรเฟิลทหารราบ",
     "F317A4514DE5AEE182F39DA192E355AD": "ปืนไรเฟิลทหารราบ",
     "1D7BBE454E1553569F9589A7E633F06D": "ไม่จำกัด",
@@ -1236,7 +1229,6 @@
     "/Fortnite.com/Devices/NPCSpawner/npc_behavior_template_message_module/OnEndMessage": "NPC Agent = {Agent}: สิ้นสุดการทำงานแล้ว มาเก็บกวาดกันเถอะ",
     "0DD368AE4439FC99C95A4595D62837AC": "ชาเลนจ์เกิดมาเป็นนักสร้าง",
     "688E65C943BC171D5807FE974D7E59A9": "ชาเลนจ์เนดผู้เป็นนิจนิรันดร์",
-    "B80ED9CD455EDCE5BB4214A10A82B828": "เขียวนีออน",
     "NetworkConnectionLost": "การเชื่อมต่อเครือข่ายสูญหาย",
     "44067A6E421888DD39877E82D6DABB58": "ข้อความไอคอนเป็นกลาง",
     "AB88B4554EDBE594A34706AED40BB6C4": "ไม่เลย",
@@ -1358,7 +1350,6 @@
     "19A0DCA742B5AC4CB1D227AEE0A19601": "เฉพาะที่เลือก",
     "B95E8C564EE3D7A237E5DEB35283797C": "เฉพาะเมื่อจำเป็น",
     "BAC5E80D44DA978242043B9497A8E286": "คู่ต่อสู้ที่คุณกำจัดจะ<Emphasized>เผย</>ตำแหน่งของคู่ต่อสู้ที่อยู่ใกล้เคียง",
-    "95FD548C4AFFA37C807335BD7AF1AB6A": "ส้ม",
     "658517F44C1678AB75F76FB69BD46F60": "เครื่องพ่นสีส้ม  ",
     "516CA75D4CF5403A2F82BF838CD51DB7": "โมดูลและการเชื่อมโยงตกรุ่นแล้ว",
     "6EB89D324C5E00500994CD96A83D5A72": "โมดูลและการเชื่อมโยงตกรุ่นแล้ว",
@@ -1385,7 +1376,6 @@
     "B3CFEDE943AA56C0AEE82CA08F806463": "เก็บ",
     "7240B5BC46A81D296CBCA080DF98ECB7": "วิ่งพร้อมขวานเจาะ",
     "91F4A2794D81253C6E03C7A0B78CC383": "เก็บถังดับเพลิง",
-    "F75FBF44462332D5DFE17691FCD37DFF": "ชมพู",
     "2C211AA048AE4A1A5D9423B297E1023D": "ปืนใหญ่โจรสลัด",
     "BB93B4574E7A8EF0105C4DAADCA4D5F8": "ปืนใหญ่โจรสลัด",
     "CFBFEBC248741ED6E0FCC88CC754A22E": "ปืนใหญ่โจรสลัด",
@@ -1407,7 +1397,7 @@
     "4567895244A3DDF0A6347DB93EA4AB9A": "ระเบิดบูกี้พกพา",
     "ECC1B5C641A0A7993449F39BB4F46B87": "ระเบิดอิมพัลส์พกพา ",
     "E61C38174110702E2CD630BAA89685BF": "รอยร้าวมิติพกพา",
-    "E522F4A843D34DAEB2A0018323D90C65": "ระเบิดเกราะพกพา",
+    "E522F4A843D34DAEB2A0018323D90C65": "ระเบิดโดมเกราะพกพา",
     "FB786D2942DF31556A360EBB36845337": "ระเบิดคลื่นกระแทกพกพา",
     "32E0A00C47255BAEBDF72AAF92DD94C1": "ไม้กวาดแม่มดพกพา",
     "4CBE793B4385D3726F1EA5950991BC9C": "พลัง",
@@ -1438,7 +1428,6 @@
     "85A2E3C041A433B1B8D87C914FAFCC13": "โทเคนพิชิตบัตรสะสม",
     "8FDD93294EE611E28D499E8504C6C314": "โทเคนเจาะบัตรสะสม",
     "B06F5AB34BA2C7C48F6D2982E60EC524": "โทเคนเจาะบัตรสะสม",
-    "A4A746BE47363A8193CEE4BC9E663930": "ม่วง",
     "A1D607174B6E2B132A79E0A3242425BE": "ปืนพ่นสีม่วง  ",
     "02D599B84C45A32A6BAB92925A070A51": "ผลัก (กด) / ปล่อยไหล (กดค้าง)",
     "25171EA942DC385DE7E5798BBB4969A1": "วางลง",
@@ -1459,7 +1448,6 @@
     "B1CFA5584EBD1878822A699ECEB629A6": "หีบหายาก",
     "101BBD144878EB1AA8CCD292737797AE": "เครื่องสแกนสอดแนม",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "ทหารใหม่",
-    "1C77EAFB46C48299170B7486AEFB6294": "สีส้มแดง",
     "7125E4704BEA318C6BD3D69B5893D080": "วัตถุดิบคราฟต์กลั่น สามารถทำได้ด้วยวัตถุดิบอื่นๆ และมักพบในหีบ",
     "16DA40C14B2BC801935504956E31A9C9": "ฟื้นฟู<Emphasized>พลังชีวิต</>ในขณะว่ายน้ำ",
     "D956F3B24B85A136EDFF7681AD74FB8C": "ฟื้นคืนพลัง",
@@ -1590,10 +1578,8 @@
     "029C79824756DFCA21B1AB85821FF31C": "แสดงข่าว",
     "2496EF09404F18FFE2EA0AB9BA7CFA8F": "แสดงลูกศรนอกจอ",
     "D2AA34D248C42439671352909952AF0C": "แสดงหน้าจอข่าวเมื่อมีข่าวใหม่",
-    "D5A97BEC41D14A772F78AD85787561D5": "เงิน",
     "37EA8D3C4FCA282792A19089FF9D264F": "ปืนไรเฟิลซุ่มยิงกระสุนเดี่ยวที่มีกล้องเล็ง<Emphasized>ระยะไกล</>",
     "9A6F1EDF4BBD286B035BA49BDF31635E": "โทเคนชาเลนจ์นายกะโหลก",
-    "89373C3241ED5AC276FBA08F64FC6020": "สีฟ้า",
     "C3F806054CE1F1D1A8FFFC9F8DF839BC": "ช้า",
     "252EFAEE4A3593A47968A9B628C86826": "<Emphasized>ปืนพกทรงพลัง</>แบบยิงช้า",
     "F415822746674FEAC04DCB8D1D0EC153": "อนุภาคควัน",
@@ -1976,7 +1962,6 @@
     "A8CDADF8471D9C4CFEBFF598C94692E3": "เมื่อยานพาหนะถูกทำลาย ให้เกิดใหม่หลังจากดีเลย์นี้ (ยานพาหนะคันแรกที่เกิดจะไม่ใช้ดีเลย์นี้)",
     "0D756F6B4F770EF0A8F90CAC0113EB78": "ปืนพกแวร์วีดร็อปปิ้ง",
     "E710C08E4E5C70FF8A286CB6EA101B4F": "กำหนดว่าจะให้แสดงตัวส่งสัญญาณ แสดงองค์ประกอบ HUD หรือทั้งสองอย่าง",
-    "D3A54EAE40408580269CF39BCCA37888": "ขาว",
     "195F2EE048C26E190C845691145D6CF6": "ความกว้าง",
     "9BD108A54CA8FA397E1DBD95E37958BB": "โทเคนพิชิตชาเลนจ์เทศกาลฤดูหนาว",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "กุญแจเทศกาลฤดูหนาว",
@@ -2139,23 +2124,35 @@
     "MergeSquadsText": "รวมทีม",
     "SquadsTooBigToMerge": "ทีมมีขนาดใหญ่เกินกว่าที่จะรวมกันได้"
   },
+  "AnimInEdTools": {
+    "SourceLink_NotASequence": "'{0}' ไม่สามารถโหลดเป็นเลเวลซีเควนซ์ได้",
+    "SourceLink_NoItem": "'{0}' ไม่ได้บันทึกลิงก์กลับไปยังแอนิเมชันนี้",
+    "SourceLink_OpenRange": "'{0}' มีช่วงเพลย์แบ็กแบบไม่จำกัด ดังนั้นจึงไม่สามารถกำหนดช่วงที่จะส่งออกได้",
+    "SourceLink_NoTrack": "'{0}' ไม่มีแทร็กคอนโทรลริกในไบน์ดิ้งของแอนิเมชันนี้",
+    "SourceLink_BadRate": "'{0}' บันทึกช่วงส่งออกแบบกำหนดเองด้วยอัตราเฟรมที่ไม่ถูกต้อง",
+    "SourceLink_NoAnim": "ไม่มีแอนิเมชันที่เปิดอยู่",
+    "SourceLink_Missing": "ข้อมูลเลเวลซีเควนซ์ '{0}' ที่เชื่อมโยงหายไป",
+    "SourceLink_NoLink": "แอนิเมชันนี้ไม่ได้เชื่อมโยงกับเลเวลซีเควนซ์ จึงไม่มีระยะเวลาคีย์ต้นฉบับให้อ่าน"
+  },
   "AnimInEdToolsModule": {
     "AnimToCRImportTabLabel": "Anim → Control Rig",
     "AnimToCRImportTabTooltip": "นำเข้าแอนิเมชันที่กำลังแสดงตัวอย่าง (ท่าโพส ระยะ หรือทั้งคลิป) ไปยัง Control Rig ใน Level Sequence ที่เปิดอยู่"
   },
   "AnimToCRImport": {
-    "Clear": "ล้าง",
+    "ImportKeyTimings": "ใช้จังหวะเวลาของคีย์ต้นฉบับ",
+    "ClearInOutTip": "เคลียร์ In/Out",
     "CurFrame": "เฟรมปัจจุบัน",
-    "DelStatic": "ลบ Static Channels",
-    "RangeHdr": "ช่วงเฟรม",
     "ImportPose": "นำเข้าท่าทางโพส",
     "ImportRange": "นำเข้าระยะ",
-    "OnlyStatic": "ลดเฉพาะ Static Channels",
-    "OptionsHdr": "ตัวเลือก",
-    "SelOnly": "เฉพาะส่วนควบคุมที่เลือก",
+    "KeyTimingsTip": "คงไว้เฉพาะคีย์ที่ตรงกับตำแหน่งคีย์เดิมในเลเยอร์พื้นฐานของเลเวลซีเควนซ์ ต้นฉบับเท่านั้น แทนที่จะเป็นคีย์ในทุกเฟรม ค่าต่างๆ ยังคงมาจากแอนิเมชันนี้ แทนที่การตั้งค่าลดคีย์",
+    "NoLoadSettings": "การตั้งค่าโหลดแอนิเมชันไม่พร้อมใช้งาน (ไม่พบ LoadAnimToControlRigSettings)",
+    "SimpleViewTip": "ยุบหน้าต่างแอนิเมชันให้กลับไปแสดงเฉพาะวิวพอร์ต ไทม์ไลน์ เครื่องมือนี้ และบราวเซอร์แอสเซ็ต สลับเป็นปิดเพื่อคืนค่าแท็บที่คุณเปิดไว้ก่อนหน้านี้",
+    "RestoreLayoutTip": "เปิดแท็บที่เปิดไว้ครั้งล่าสุดเมื่อเข้าสู่มุมมองแบบง่ายอีกครั้ง ใช้งานได้เมื่อเคยใช้มุมมองแบบง่ายอย่างน้อยหนึ่งครั้ง",
+    "RestoreLayout": "คืนค่าเลย์เอาต์",
     "SetIn": "กำหนดจุดเริ่มต้น",
     "SetOut": "กำหนดจุดสิ้นสุด",
-    "SmartReduce": "ลดคีย์เฟรมอัจฉริยะ"
+    "SimpleView": "มุมมองแบบง่าย",
+    "SourceLabel": "ต้นฉบับ: {0} เฟรม {1}-{2}"
   },
   "AntiCheat": {
     "ClientErrorMessage": "{provider} ข้อผิดพลาด: {message}\n\nโปรดดู {provider} คำถามที่พบบ่อย เพื่อดูข้อมูลเพิ่มเติม"
@@ -2189,7 +2186,7 @@
   },
   "AssetTypeActions": {
     "AIActionSequence": "ลำดับแอ็กชันของ Ai",
-    "UJunoAssetListAssetFactory": "Asset List"
+    "UJunoAssetListAssetFactory": "รายชื่อแอสเซท"
   },
   "Athena": {
     "NPCHiredIndication": " (ผู้ติดตาม)",
@@ -3033,7 +3030,7 @@
   },
   "Contexts": {
     "HLTv2ToCustomizableUI": "ปลั๊กอิน HLTv2ToCustomizableUI",
-    "JunoViewportToolsCommands": "Juno Tools",
+    "JunoViewportToolsCommands": "เครื่องมือจูโน่",
     "SpatialMetricProfiler": "ตัววิเคราะห์เชิงพื้นที่",
     "WeaponModernizationEditorCommands": "เครื่องมือปรับปรุงอาวุธ"
   },
@@ -3532,7 +3529,7 @@
   },
   "DownloadOnDemandAddProjectModal": {
     "DownloadOnDemandAddProjectModalAlreadyHasLinkCode": "โปรดลองอีกครั้ง - คุณมีรหัสอยู่แล้ว",
-    "DownloadOnDemandAddProjectModalInvalidLinkCode": "โปรดลองอีกครั้ง - รหัสเชื่อมโยงไม่ถูกต้อง"
+    "DownloadOnDemandAddProjectModalInvalidLinkCode": "โปรดลองอีกครั้ง - รหัสเชื่อมต่อไม่ถูกต้อง"
   },
   "DownloadOnDemandComponent": {
     "ProjectDownloadedOnServerFailedTitle": "ข้อผิดพลาดสัญญาณข้อมูล",
@@ -3864,7 +3861,7 @@
   },
   "FJunoViewportToolsModule": {
     "SectionName": "จูโน่",
-    "ExtensionName": "JunoTools",
+    "ExtensionName": "เครื่องมือจูโน่",
     "ConfigurePrefabTool": "ชิ้นส่วนสำเร็จรูป"
   },
   "FStateDrivenEvent_DepositResource": {
@@ -5189,6 +5186,20 @@
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "พิเศษ"
   },
+  "FortEpicParty": {
+    "AccountResolution": "InternalError",
+    "ExistingInviteMissing": "InternalError",
+    "FrameworkUnavailable": "InternalError",
+    "JoinRetryAbandoned": "InternalError",
+    "JoinableInfoMissing": "InternalError",
+    "RetryAccountResolution": "InternalError",
+    "RetryFrameworkUnavailable": "InternalError",
+    "RetryJoinableInfoMissing": "InternalError",
+    "RetryPartyPrivate": "InternalError",
+    "RetrySameParty": "InternalError",
+    "TargetNotFriend": "InternalError",
+    "TargetNotJoinable": "InternalError"
+  },
   "FortErrorOverrides": {
     "IoStoreHttpError": "เกิดข้อผิดพลาดในการสื่อสารกับบริการเบื้องหลังของเรา โปรดตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้งในภายหลัง {ModuleIdString}.{ErrorCodeString}"
   },
@@ -5232,6 +5243,9 @@
   },
   "FortGameMode": {
     "FailedToStartMatchTimeout": "เซิร์ฟเวอร์ไม่สามารถเริ่มต้นได้ทันเวลา"
+  },
+  "FortGameStateHestiaBeauty": {
+    "SittingOutPlayersToJumpInNotAllowed": "ไม่สามารถเข้าร่วมเซสชันของปาร์ตี้ได้"
   },
   "FortGameStateOutpost": {
     "LimitThresholdReached": "คำเตือน: เหลือสิ่งก่อสร้างให้วางอีก {0} แห่ง"
@@ -5451,10 +5465,8 @@
     "StorageItemDescription_BR": "จำเป็นสำหรับโหมดแบทเทิลรอยัล ซีโร่บิลด์ และรีโหลด",
     "StorageItemDescription_Sparks": "จำเป็นสำหรับ Fortnite Festival",
     "StorageItemDescription_Juno": "จำเป็นสำหรับ LEGO® Fortnite",
-    "StorageItemDescription_DelMar": "จำเป็นสำหรับโหมด Rocket Racing และแผนที่ Rocket Racing ที่ผู้เล่นสร้าง",
     "StorageItemDescription_Core": "เนื้อหาที่ต้องการสำหรับทุกประสบการณ์",
-    "StorageItemDescription_Creative": "จำเป็นต้องมีเพื่อเล่นและแก้ไขเกาะที่สร้างโดยครีเอเตอร์ [และผู้ดุร้าย]",
-    "StorageItemTitle_DelMar": "เนื้อหา Rocket Powered"
+    "StorageItemDescription_Creative": "จำเป็นต้องมีเพื่อเล่นและแก้ไขเกาะที่สร้างโดยครีเอเตอร์ [และผู้ดุร้าย]"
   },
   "FortLinkedGraphGate": {
     "LinkedGraphTagInvalid": "@@ - กราฟที่เชื่อมโยงไม่มีแท็กที่ถูกต้อง",
@@ -6825,6 +6837,7 @@
     "TweakZoneCollection_Name": "โซนปรับแต่งคอนโทรลเลอร์",
     "TelekineticonToggleActivation_Description": "กำหนดวิธีการเปิดใช้งานเทเลคิเนติคอน\n\nกดไกค้าง - กดไกค้างไว้เพื่อหยิบวัตถุ และปล่อยไกเพื่อปล่อยวัตถุ\nสลับ - กดเพื่อหยิบและปล่อยวัตถุ",
     "SocialPrivacy_MutualFriends_Description": "ควบคุมว่าผู้เล่นคนอื่นจะมองเห็นเพื่อนที่มีร่วมกันของคุณหรือไม่\n\n<strong>ส่วนตัว</>: จะไม่มีใครมองเห็นเพื่อนที่มีร่วมกันของคุณ\n\n<strong>เพื่อนเท่านั้น</>: เฉพาะเพื่อนเท่านั้นที่มองเห็นเพื่อนที่มีร่วมกันของคุณ\n\n<strong>สาธารณะ</>: ทุกคนจะมองเห็นเพื่อนที่มีร่วมกันของคุณ",
+    "StrictInjectionPolicy_Description": "ควบคุมว่าโปรแกรมใดบ้างที่สามารถโต้ตอบกับ Fortnite ได้\n\nเมื่อทำงาน โปรแกรมอื่นและหน้าต่างโอเวอร์เลย์จะไม่สามารถเข้าถึง Fortnite ได้ เพื่อเพิ่มความปลอดภัย อาจจำเป็นต้องใช้การตั้งค่าเหล่านี้ในบางกิจกรรมการแข่งขัน",
     "GyroOffsetBuild_Description": "กำหนดว่าอินพุตการเล็งจะขยับจุดเล็งก่อน แล้วจึงหมุนกล้องหรือไม่ ในขณะก่อสร้างหรือแก้ไข",
     "MouseOffsetBuild_Description": "กำหนดว่าอินพุตการเล็งจะขยับจุดเล็งก่อน แล้วจึงหมุนกล้องหรือไม่ ในขณะก่อสร้างหรือแก้ไข",
     "TouchOffsetBuild_Description": "กำหนดว่าอินพุตการเล็งจะขยับจุดเล็งก่อน แล้วจึงหมุนกล้องหรือไม่ ในขณะก่อสร้างหรือแก้ไข",
@@ -6939,6 +6952,7 @@
     "GyroButtonEnable": "เปิดใช้งานไจโร",
     "EnergySavingIdle_Name": "โหมดประหยัดพลังงานเมื่อไม่ได้ใช้งาน (Frontend)",
     "EnergySavingFocusLoss_Name": "โหมดประหยัดพลังงานเมื่อหน้าต่างไม่ได้ถูกใช้งาน",
+    "VoiceChatUseNoiseReduction_Name": "เปิดใช้งานการลดเสียงรบกวน",
     "HeadphoneMode_Description": "เปิดใช้ระบบเสียงแบบ 3D รอบทิศทาง\nเสียง 3D แบบรอบทิศทางช่วยให้คุณได้ยินตำแหน่งของเสียงได้แม่นยำยิ่งขึ้น\nทั้งเสียงจากด้านบน ด้านล่าง และด้านหลังของคุณ\nแนะนำให้ใช้กับหูฟังสเตอริโอเท่านั้น",
     "QuickWeaponToggle_Description_Switch": "เปิดใช้งานปุ่มสลับอาวุธด่วนเวอร์ชันทดลอง เมื่อเปิดใช้ ปุ่ม \"สลับอาวุธด่วน\" จะมาแทนที่ปุ่ม \"อาวุธถัดไป\"\n\nกด \"สลับอาวุธด่วน\" เพื่อสวมไอเทมหลักของคุณ กดปุ่ม A/B/X/Y พร้อมกับกดปุ่มสลับอาวุธด่วนเพื่อเปลี่ยนไปใช้ไอเทมช่องอื่น คุณสามารถกดสลับอาวุธด่วนและปุ่ม A/B/X/Y พร้อมกันเพื่อสลับไปใช้อุปกรณ์นั้นทันที หรือจะกดปุ่มสลับอาวุธด่วนค้างไว้เท่าใดก็ได้เพื่อให้ชินว่าปุ่ม A/B/X/Y ผูกกับไอเทมไหนในที่เก็บของของคุณ\n\nเมื่อเปิดใช้โหมดนี้ ปุ่ม \"อาวุธก่อนหน้า\" จะกลายเป็นปุ่ม \"ทำเครื่องหมาย\" ช่วยให้คุณสื่อสารกับทีมได้ง่ายขึ้น หรือคุณจะตั้งค่าปุ่ม \"อาวุธก่อนหน้า\" ให้เป็นปุ่มทำอย่างอื่นตามต้องการได้ โดยปรับแต่งการควบคุมของคุณในแถบ \"การปรับแต่งคอนโทรลเลอร์\"",
     "QuickWeaponToggle_Description_Switch2": "เปิดใช้งานปุ่มสลับอาวุธด่วนเวอร์ชันทดลอง เมื่อเปิดใช้ ปุ่ม \"สลับอาวุธด่วน\" จะมาแทนที่ปุ่ม \"อาวุธถัดไป\"\n\nกด \"สลับอาวุธด่วน\" เพื่อสวมไอเทมหลักของคุณ กดปุ่ม A/B/X/Y พร้อมกับกดปุ่มสลับอาวุธด่วนเพื่อเปลี่ยนไปใช้ไอเทมช่องอื่น คุณสามารถกดสลับอาวุธด่วนและปุ่ม A/B/X/Y พร้อมกันเพื่อสลับไปใช้อุปกรณ์นั้นทันที หรือจะกดปุ่มสลับอาวุธด่วนค้างไว้เท่าใดก็ได้เพื่อให้ชินว่าปุ่ม A/B/X/Y ผูกกับไอเทมไหนในที่เก็บของของคุณ\n\nเมื่อเปิดใช้โหมดนี้ ปุ่ม \"อาวุธก่อนหน้า\" จะกลายเป็นปุ่ม \"ทำเครื่องหมาย\" ช่วยให้คุณสื่อสารกับทีมได้ง่ายขึ้น หรือคุณจะตั้งค่าปุ่ม \"อาวุธก่อนหน้า\" ให้เป็นปุ่มทำอย่างอื่นตามต้องการได้ โดยปรับแต่งการควบคุมของคุณในแถบ \"การปรับแต่งคอนโทรลเลอร์\"",
@@ -7613,6 +7627,7 @@
     "WindingSpeedScaledByZoom_Description_Switch": "ลดความเร็วในการหมุนของ Flick Stick โดยอัตโนมัติตามระยะที่คุณซูมเข้า ยกตัวอย่างเช่น การดำเนินการนี้จะช่วยให้คุณสามารถสำรวจภูมิประเทศในขณะที่กำลังซุ่มยิงได้อย่างมั่นคง ซึ่งจะไม่ส่งผลต่อการสะบัดเมื่อคุณกดก้านอนาล็อกครั้งแรก",
     "WindingSpeedScaledByZoom_Description": "ลดความเร็วในการหมุนของ Flick Stick โดยอัตโนมัติตามระยะที่คุณซูมเข้ายกตัวอย่างเช่น การดำเนินการนี้จะช่วยให้คุณสามารถสำรวจภูมิประเทศในขณะที่กำลังซุ่มยิงได้โดยมีมุมมองที่นิ่งซึ่งจะไม่ส่งผลต่อการสะบัดเมื่อคุณกดก้านอนาล็อกครั้งแรก",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "ลดความเร็วในการหมุนของ Flick Stick โดยอัตโนมัติตามระยะที่คุณซูมเข้า ยกตัวอย่างเช่น การดำเนินการนี้จะช่วยให้คุณสามารถสำรวจภูมิประเทศในขณะที่กำลังซุ่มยิงได้อย่างมั่นคง ซึ่งจะไม่ส่งผลต่อการสะบัดเมื่อคุณกดจอยสติ๊กครั้งแรก",
+    "VoiceChatUseNoiseReduction_Description": "ลดเสียงรบกวนพื้นหลังเมื่อเวลาคุณใช้ไมโครโฟน เช่น เสียงพัดลม เสียงพิมพ์ หรือเสียงก้องในห้อง ปิดตัวเลือกนี้ หากผู้เล่นคนอื่นรายงานว่าเสียงพูดของคุณมีปัญหา เช่น ขาดๆ หายๆ ฟังดูเหมือนหุ่นยนต์ หรือติดๆ ดับๆ",
     "ReducedDataUsage_Description": "ลดปริมาณข้อมูลที่ดาวน์โหลดโดยอัตโนมัติ \n\nสิ่งนี้อาจมีประโยชน์หากแพ็กเกจมือถือหรืออินเทอร์เน็ตของคุณมีการจำกัดปริมาณข้อมูลและคุณมีความเสี่ยงที่จะใช้เกินขีดจำกัดนั้น",
     "GyroSensitivityScaledByZoom_Description": "ลดความไวในการเล็งโดยอัตโนมัติตามระยะที่คุณซูมเข้า\nฟังก์ชันนี้จะช่วยคุณเล็งได้นิ่งขึ้นเมื่อใช้อาวุธระยะไกล",
     "Reflections_Description": "คุณภาพเงาสะท้อนจะกำหนดความละเอียดและความเสมือนจริงของเงาสะท้อน\n\nตัวเลือก \"Lumen High\" และ \"Lumen Epic\" ให้คุณภาพเงาสะท้อนที่สูงกว่า\nแต่อาจทำให้ประสิทธิภาพลดลงได้\n\nปิด: เงาสะท้อนจะถูกปิดใช้งาน\n\nพื้นที่หน้าจอ: คำนวณเงาสะท้อนจากสิ่งที่แสดงบนหน้าจออยู่ในขณะนั้นเท่านั้น\n\nLumen High/Epic: เรนเดอร์เงาสะท้อนคุณภาพสูงด้วย Ray Tracing\nแบบเรียลไทม์",
@@ -7832,6 +7847,7 @@
     "StopRenderingInBackground_Name": "หยุดการเรนเดอร์เมื่อทำงานในเบื้องหลัง",
     "StopRenderingInBackground_Description": "ระบบจะหยุดการเรนเดอร์เมื่อไม่ได้โฟกัสที่หน้าต่างเกมในกรณีที่ทำได้ ซึ่งจะช่วยเคลียร์ทรัพยากร GPU เพื่อใช้สำหรับแอปพลิเคชันอื่นๆ",
     "KeyboardMovementStrafeDiagonal_Name": "มุมวิ่งทแยงไปด้านข้าง",
+    "StrictInjectionPolicy_Name": "นโยบาย Injection เข้มงวด",
     "MatchmakingSubregion_Name": "ภูมิภาคย่อยที่ต้องการ",
     "SubtitlePage_Name": "คำบรรยาย",
     "SubtitlesCollection_Name": "คำบรรยาย",
@@ -8005,7 +8021,7 @@
     "InvertPitchForAircraftPrimary_Description": "เปิด/ปิด การกลับทิศทางบังคับยานบิน เมื่อเปิด การเคลื่อนที่ไปข้างหน้าจะกดหัวเครื่องบินลง",
     "InvertPitchForAircraftSecondary_Description": "เปิด/ปิดใช้งานการกลับทิศทางการบังคับเครื่องบินด้วยเมาส์\nเมื่อเปิดใช้งาน การเคลื่อนเมาส์ไปข้างหน้าจะกดหัวเครื่องบินลง",
     "InvertPitchForAircraftTouch_Description": "เปิด/ปิด การกลับทิศทางบังคับแบบสัมผัสของยานรบ เมื่อเปิด การสัมผัสไปข้างหน้าจะทำให้ยานรบกดหัวลง",
-    "AutoPickUpEnabled_Description": "เปิด/ปิดการเก็บไอเทมอัตโนมัติ เมื่อเปิดใช้งาน จะเก็บไอเทมโดยอัตโนมัติเมื่อเดินผ่าน",
+    "AutoPickUpEnabled_Description": "เปิด/ปิดเก็บไอเทมอัตโนมัติ เมื่อเปิดใช้งาน ไอเทมจะถูกเก็บโดยอัตโนมัติเมื่อตัวละครเคลื่อนผ่าน และเปลี่ยนใช้ไอเทมที่ดีกว่าให้ตามความเหมาะสม",
     "AutoSortConsumablesToHigherSlots_Description": "เปิด/ปิดการจัดเรียงไอเทมใช้งานไปช่องข้างบนโดยอัตโนมัติ เมื่อเปิดใช้งาน ไอเทมใช้งาน\nเช่น พลังชีวิตและเกราะ จะถูกจัดเรียงไปยังช่องว่างด้านบนสุดในแถบควิกบาร์โดยอัตโนมัติ",
     "AutoSortConsumablesToRight_Description": "เปิด/ปิดการจัดเรียงไอเทมใช้งานไปช่องด้านขวาโดยอัตโนมัติ เมื่อเปิดใช้งาน\nไอเทมใช้งาน เช่น พลังชีวิตและเกราะ จะถูกจัดเรียงไปยังช่องว่างด้านขวาสุด\nในแถบควิกบาร์โดยอัตโนมัติ",
     "GamepadAutoRun_Description_PS4": "เปิด/ปิดฟังก์ชันการวิ่งอัตโนมัติของคอนโทรลเลอร์\nเมื่อเปิดใช้งาน การกดปุ่ม L3 สองครั้งจะทำให้คุณวิ่งไปข้างหน้าโดยอัตโนมัติ\nโดยไม่จำเป็นต้องดันจอยสติ๊กอนาล็อกซ้ายไปข้างหน้าค้างไว้",
@@ -8499,6 +8515,7 @@
     "ErrorSendingMessage": "เกิดข้อผิดพลาดในการส่งข้อความ:{0}",
     "HiddenPlayerSays": "ผู้เล่นที่ซ่อนอยู่พูดว่า: ",
     "BlockedPlayerMessage": "ข้อความถูกซ่อน",
+    "FilteringUnavailableMessage": "ไม่สามารถแสดงข้อความได้เนื่องจากการกรองข้อความล้มเหลว",
     "TextChatDisabledByPlasterBeach": "TDB",
     "TextChatDisabledByTournamentMode": "ปิดใช้งานแชทข้อความแล้ว เนื่องจากไคลเอนต์นี้อยู่ในโหมดทัวร์นาเมนต์",
     "TextChatEnabled": "เปิดใช้แชทข้อความแล้ว",
@@ -8511,6 +8528,7 @@
     "WelcomeDelMar": "ยินดีต้อนรับสู่ Rocket Racing!คุยแชทกับเหล่าสหายนักแข่งของคุณได้เลย!",
     "WelcomeSparks": "ยินดีต้อนรับสู่เวทีหลัก! แชทกับสมาชิกวงขณะตัดสินว่าจะเล่นอะไร",
     "WelcomeJuno": "ยินดีต้อนรับสู่{0}!\nบอกทุกคนที่นี่ให้รู้ได้เลยว่าคุณกำลังทำอะไรอยู่ที่นี่!",
+    "VerseSubChannelSendBlockedMessage": "คุณไม่สามารถส่งข้อความในแชแนลนี้ได้",
     "TextChatDisabledByUser": "คุณปิดใช้งานแชทข้อความในการตั้งค่า",
     "YouJoinedGameMessage": "คุณเข้าร่วมแชนแนลเกมแล้ว",
     "YouJoinedPartyMessage": "คุณเข้าร่วมปาร์ตี้แล้ว",
@@ -8756,6 +8774,25 @@
     "SettingSaveFailed_Title": "บันทึกการตั้งค่าล้มเหลว",
     "SettingSaveFailed_Description": "ดูเหมือนว่าบริการควบคุมดูแลโดยผู้ปกครองกำลังเจอปัญหาอยู่ ลองใหม่อีกครั้งในอีกสักครู่นะ ถ้ายังมีปัญหาอยู่ ลองไปดูที่ https://status.epicgames.com"
   },
+  "FortSystemConfigRequirements": {
+    "IOMMU": "การจำลองฮาร์ดแวร์เสมือน IOMMU",
+    "DmaRemapping": "Kernel DMA Protection",
+    "KernelCodeIntegrity": "Memory Integrity",
+    "InvalidConfigReason": "การกำหนดค่าความปลอดภัยของระบบที่จำเป็นไม่พร้อมใช้งานโปรดลองอีกครั้งภายหลัง",
+    "SecureBoot": "Secure Boot",
+    "StableOSVersion": "เวอร์ชันระบบปฏิบัติการที่เสถียร",
+    "StrictInjectionPolicy": "นโยบาย Injection เข้มงวด",
+    "InvalidConfig": "การกำหนดค่าความปลอดภัยของระบบ",
+    "CryptoProcessor": "โมดูลแพลตฟอร์มที่เชื่อถือได้ (TPM)"
+  },
+  "FortSystemConfigRequirementsModalVM": {
+    "DialogTitle": "ข้อกำหนดด้านความปลอดภัยเพิ่มเติม",
+    "Enabled": "เปิดใช้งานแล้ว",
+    "EnabledWithWarning": "เปิดใช้งานพร้อมคำเตือน",
+    "NotEnabled": "ไม่ได้เปิดใช้งาน",
+    "UnknownStatus": "สถานะไม่พร้อมใช้งาน",
+    "DialogIntroduction": "ระบบของคุณไม่เป็นไปตามข้อกำหนดความปลอดภัยเพิ่มเติมที่จำเป็นสำหรับการเล่น เลือกเรียนรู้เพิ่มเติมเพื่อไปยังฝ่ายสนับสนุนของ Easy Anti-Cheat"
+  },
   "FortTabListWidgetBase": {
     "UnspecifiedTab": "ไม่ได้ระบุ"
   },
@@ -8775,7 +8812,9 @@
   },
   "FortTextChatConversationVM": {
     "PartyFrameworkUnavailable": "ระบบปาร์ตี้ไม่พร้อมใช้งาน",
-    "SocialToolkitUnavailable": "ทูลคิทโซเชียลไม่พร้อมใช้งาน"
+    "SocialToolkitUnavailable": "ทูลคิทโซเชียลไม่พร้อมใช้งาน",
+    "InvalidJoinPartyConversation": "ไม่สามารถเข้าร่วมปาร์ตี้ได้เนื่องจากการสนทนาไม่พร้อมให้บริการ",
+    "InvalidStartPartyConversation": "ไม่สามารถเริ่มปาร์ตี้ได้เนื่องจากการสนทนาไม่พร้อมใช้งาน"
   },
   "FortTextChatPlayerVM": {
     "RedactedUserBlocked": "<Blocked player>",
@@ -8783,10 +8822,14 @@
     "MessageDelayedFont": "<Message delayed, until we can load a new font>",
     "ConversationsDest": "แชท",
     "TempTitle": "กำลังดึงชื่อ...",
+    "VerseSubChannelDefaultName": "เกม",
     "NewChatOption": "แชทใหม่",
+    "VerseSubChannelChanged": "กำลังแชทใน {0}",
     "ClamOneMessage": "โปรดจำไว้ว่า คุณสามารถปิดเสียงหรือบล็อกผู้เล่นได้จากปุ่ม … หรือโดยการเลือกข้อความของพวกเขาในแชทภายหลัง",
     "SendDM": "ส่ง DM",
-    "DMWelcomeMessage": "ยินดีต้อนรับสู่ข้อความโดยตรงของคุณกับ {0}!"
+    "DMWelcomeMessage": "ยินดีต้อนรับสู่ข้อความโดยตรงของคุณกับ {0}!",
+    "VerseSubChannelMuted": "ตอนนี้คุณไม่สามารถเขียนใน {0} ได้",
+    "VerseChatSenderNameFormat": "[{0}] {1}"
   },
   "FortTournamentLobbyPanel": {
     "NoMatchTimeDescription": "เวลาเริ่มแมตช์ล่าสุด",
@@ -8893,7 +8936,6 @@
     "EpicPartyGroupInviteDetailsSent": "ส่งคำเชิญเข้าร่วมปาร์ตี้ให้ <Username>{0}</> แล้ว",
     "EpicPartyInviteDetailsSent": "ส่งคำเชิญเข้าร่วมปาร์ตี้ให้ <Username>{0}</> แล้ว",
     "PartyInviteDetailsSent": "ส่งคำเชิญเข้าร่วมปาร์ตี้ให้ <Username>{0}</> แล้ว",
-    "EpicPartyJoinabilityChangedInviteOnlyDetails": "ปาร์ตี้เข้าร่วมได้เฉพาะผู้ได้รับเชิญ",
     "EpicPartyJoinRequestReceived_Title": "คำขอเข้าร่วมปาร์ตี้",
     "EpicPartyMemberCreated": "มีผู้เล่นเข้าร่วมปาร์ตี้",
     "PartyMemberCreated": "มีผู้เล่นเข้าร่วมปาร์ตี้",
@@ -8918,6 +8960,7 @@
     "RequestToJoinParty_RateLimited": "คุณส่งคำขอบ่อยเกินไป โปรดลองใหม่อีกครั้งเร็วๆ นี้",
     "FriendToastSelfTooManyFriends": "คุณมีเพื่อนจำนวนมากเกินไป",
     "FriendToastSelfOutboxFull": "คุณส่งคำขอเป็นเพื่อนมากเกินไป",
+    "EpicPartyJoinabilityChangedInviteOnlyDetails": "ตอนนี้ปาร์ตี้ของคุณเข้าร่วมได้เฉพาะผู้ได้รับเชิญ",
     "EpicPartyJoinabilityChangedOpenDetails": "ผู้เล่นอื่นสามารถเข้าร่วมปาร์ตี้ของคุณได้แล้ว",
     "NotifMgrForkMemberNoAccessToast": "{Username} ไม่มีสิทธิ์เข้าถึง Fork ที่เลือก หากดำเนินการต่อ ระบบจะข้าม Fork ดังกล่าว"
   },
@@ -8938,7 +8981,7 @@
     "NoInternetDesc": "โปรดตรวจสอบการเชื่อมต่อของคุณและลองใหม่อีกครั้ง",
     "QuitText": "ออก",
     "Benchmark": "กำลังรันการวัดประสิทธิภาพ...",
-    "ServicesSlow": "เซิร์ฟเวอร์ไม่ตอบสนอง",
+    "ServicesSlow": "ตอนนี้เซิร์ฟเวอร์ยังไม่เปิดให้บริการ ลองอีกครั้งในภายหลัง",
     "RHIChangeSettingsApplied_Title": "ใช้การตั้งค่าแล้ว",
     "LogoutComplete": "ออกจากระบบสำเร็จแล้ว",
     "OfferRHIChangeForStability_FullDescription": "เป็นที่ทราบกันว่าไดรเวอร์การ์ดจอที่ติดตั้งบนคอมพิวเตอร์ของคุณมีปัญหาความเสถียรกับโหมดการเรนเดอร์ปัจจุบัน (DirectX 12) และ Fortnite อาจค้างระหว่างเล่นได้คุณต้องการเปลี่ยนเป็น {NewRHI} เพื่อให้เล่นได้เสถียรยิ่งขึ้นหรือไม่?{OptionalAutoRestartText}",
@@ -9722,8 +9765,17 @@
     "ProgressFormat": "กำลังย้ายปลั๊กอิน {0} จาก {1}",
     "PhasePrimaryModule": "กำลังย้ายโมดูลหลักของเกม...",
     "PhaseComplete": "ย้ายข้อมูลเสร็จสิ้น",
+    "MigrationFailed": "การย้ายข้อมูลล้มเหลวเนื่องจากข้อผิดพลาด: {0}\n\nบันทึกความคืบหน้าไว้ถึงจุดที่เกิดข้อผิดพลาด",
     "PhaseFailed": "ย้ายข้อมูลล้มเหลว: {0}",
-    "ProgressReady": "พร้อมสำหรับการย้ายข้อมูล"
+    "NoFortMobileHUDElementWrapperClassProvided": "ไม่มีคลาส Fort HUD Element Wrapper สำหรับการย้ายข้อมูลโปรดระบุในส่วนการตั้งค่าการย้าย HLTv2 ไปยัง UI ที่ปรับแต่งได้ในแท็บการตั้งค่าโปรเจกต์",
+    "NoBaseHLTRegistryProvided": "ไม่มี HUD Layout Tool Mobile HUD Widget Registry แบบพื้นฐานสำหรับการย้ายข้อมูล โปรดระบุในส่วนการตั้งค่าการย้าย HLTv2 ไปยัง UI ที่ปรับแต่งได้ในแท็บการตั้งค่าโปรเจกต์",
+    "NoBaseMoveStickCanvasClassProvided": "ไม่มี Move Stick Canvas Class แบบพื้นฐานสำหรับการย้ายข้อมูล โปรดระบุในส่วนการตั้งค่าการย้าย HLTv2 ไปยัง UI ที่ปรับแต่งได้ในแท็บการตั้งค่าโปรเจกต์",
+    "NoMigrationConfigProvided": "ไม่มี config asset สำหรับการย้ายข้อมูล โปรดระบุในส่วนการตั้งค่าการย้าย HLTv2 ไปยัง UI ที่ปรับแต่งได้ในแท็บการตั้งค่าโปรเจกต์",
+    "NoExcludeConditionProvided": "ไม่ได้ระบุเงื่อนไขยกเว้น UI แบบไดนามิกในการย้ายข้อมูล โปรดระบุในส่วนการตั้งค่าการย้าย HLTv2 ไปยัง UI ที่ปรับแต่งได้ในแท็บการตั้งค่าโปรเจกต์",
+    "NoTouchActionButtonWrapperClassProvided": "ไม่ได้ระบุปุ่มแรปเปอร์ทัชแอ็กชันสำหรับการย้ายข้อมูล โปรดระบุในส่วนการตั้งค่าการย้าย HLTv2 ไปยัง UI ที่ปรับแต่งได้ในแท็บการตั้งค่าโปรเจกต์",
+    "ProgressReady": "พร้อมสำหรับการย้ายข้อมูล",
+    "AllHLTv2SetupsMigratedToCustomizableUISuccessfully": "ย้ายปลั๊กอินที่ลงทะเบียนทั้งหมดเรียบร้อยแล้วด้วยการตั้งค่า HLTv2 ไปยัง UI ที่ปรับแต่งได้",
+    "NoBaseCustomizableUIRegistryPluginProvided": "ตัวย้ายปลั๊กอินฟีเจอร์รูทของเกมจำเป็นต้องรัน HLT Widget Registry Migration แบบพื้นฐานก่อน โปรดระบุข้อมูลฟีเจอร์ของเกมเป้าหมายในส่วนการตั้งค่าการย้าย HLTv2 ไปยัง UI ที่ปรับแต่งได้ในแท็บการตั้งค่าโปรเจกต์"
   },
   "HUD": {
     "Cancel": "ยกเลิก",
@@ -9801,8 +9853,6 @@
   },
   "IARC": {
     "USK_AGE_0_Abbreviated": "0",
-    "EPIC_SUGGESTED_RATING_AGE_0": "0+",
-    "EPIC_SUGGESTED_RATING_AGE_0_Abbreviated": "0+",
     "RUSSIA_AGE_0_Abbreviated": "0+",
     "TCA_AGE_G_Abbreviated": "0+",
     "CLASSIND_AGE_10_Abbreviated": "10",
@@ -9821,8 +9871,6 @@
     "PEGI_AGE_12_Abbreviated": "12",
     "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "อายุ 12 ปี",
-    "EPIC_SUGGESTED_RATING_AGE_12": "12+",
-    "EPIC_SUGGESTED_RATING_AGE_12_Abbreviated": "12+",
     "GEN_AGE_12": "12+",
     "GEN_AGE_12_Abbreviated": "12+",
     "RUSSIA_AGE_12": "12+",
@@ -9835,52 +9883,18 @@
     "IGRS_AGE_13_Abbreviated": "13+",
     "CLASSIND_AGE_14_Abbreviated": "14",
     "CLASSIND_AGE_14": "14 ปี",
-    "EPIC_SUGGESTED_RATING_AGE_14": "14 ปีขึ้นไป",
-    "EPIC_SUGGESTED_RATING_AGE_14_Abbreviated": "14 ปีขึ้นไป",
     "CERO_AGE_15_Abbreviated": "15",
     "IGRS_AGE_15": "15+",
     "IGRS_AGE_15_Abbreviated": "15+",
     "TCA_AGE_PG_15_Abbreviated": "15+",
     "CLASSIND_AGE_16_Abbreviated": "16",
-    "FPB_AGE_16": "16",
-    "FPB_AGE_16_Abbreviated": "16",
-    "GCAM_AGE_16": "16",
-    "GCAM_AGE_16_Abbreviated": "16",
     "GMEDIA_AGE_16": "16",
     "GMEDIA_AGE_16_Abbreviated": "16",
-    "MRO_AGE_16": "16",
-    "MRO_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 ปี",
-    "EPIC_SUGGESTED_RATING_AGE_16": "16+",
-    "EPIC_SUGGESTED_RATING_AGE_16_Abbreviated": "16+",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
-    "RUSSIA_AGE_16": "16+",
-    "RUSSIA_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
-    "FPB_AGE_18": "18",
-    "FPB_AGE_18_Abbreviated": "18",
-    "GCAM_AGE_18": "18",
-    "GCAM_AGE_18_Abbreviated": "18",
-    "GMEDIA_AGE_18": "18",
-    "GMEDIA_AGE_18_Abbreviated": "18",
-    "MRO_AGE_18": "18",
-    "MRO_AGE_18_Abbreviated": "18",
+    "CLASSIND_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 ปี",
-    "CLASSIND_AGE_18_Abbreviated": "18 ปี",
-    "EPIC_SUGGESTED_RATING_AGE_18": "18 ปีขึ้นไป",
-    "EPIC_SUGGESTED_RATING_AGE_18_Abbreviated": "18 ปีขึ้นไป",
-    "GEN_AGE_18": "18 ปีขึ้นไป",
-    "GEN_AGE_18_Abbreviated": "18 ปีขึ้นไป",
-    "IGRS_AGE_18": "18 ปีขึ้นไป",
-    "IGRS_AGE_18_Abbreviated": "18 ปีขึ้นไป",
-    "RUSSIA_AGE_18": "18 ปีขึ้นไป",
-    "RUSSIA_AGE_18_Abbreviated": "18 ปีขึ้นไป",
-    "GMEDIA_AGE_21": "21",
-    "GMEDIA_AGE_21_Abbreviated": "21",
-    "MRO_AGE_21": "21",
-    "MRO_AGE_21_Abbreviated": "21",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
     "GMEDIA_AGE_3": "3",
@@ -9892,11 +9906,7 @@
     "GEN_AGE_3_Abbreviated": "3+",
     "IGRS_AGE_3": "3+",
     "IGRS_AGE_3_Abbreviated": "3+",
-    "CLASSIND_AGE_6_Abbreviated": "6",
     "USK_AGE_6_Abbreviated": "6",
-    "CLASSIND_AGE_6": "6 ปี",
-    "EPIC_SUGGESTED_RATING_AGE_6": "6+",
-    "EPIC_SUGGESTED_RATING_AGE_6_Abbreviated": "6+",
     "RUSSIA_AGE_6": "6+",
     "RUSSIA_AGE_6_Abbreviated": "6+",
     "TCA_AGE_P_Abbreviated": "6+",
@@ -9914,12 +9924,13 @@
     "IGRS_AGE_7_Abbreviated": "7+",
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
+    "ClassInd_AIInteraction_v11_0": "การโต้ตอบของ AI",
     "USK_AbstrakteGewalt": "ความรุนแรงที่เป็นนามธรรม",
     "ACB_ActionViolence_v10_0": "ความรุนแรงแอคชั่น",
     "ClassInd_AdolescentThemes": "ธีมวัยรุ่น",
+    "ClassInd_AdultContent_v11_0": "เนื้อหาสำหรับผู้ใหญ่",
     "ClassInd_AdultThemes": "ธีมสำหรับผู้ใหญ่",
-    "ESRB_AGE_AO": "สำหรับผู้ใหญ่เท่านั้น 18+",
-    "ESRB_AGE_AO_Abbreviated": "สำหรับผู้ใหญ่เท่านั้น 18+",
+    "ClassInd_Advertising_v11_0": "การโฆษณา",
     "USK_Alokohol_v9_0": "แอลกอฮอล์",
     "ESRB_AlcoholReference": "การอ้างอิงถึงแอลกอฮอล์",
     "USK_Alkoholkonsum": "การดื่มแอลกอฮอล์",
@@ -9932,6 +9943,7 @@
     "ESRB_AnimatedBlood": "เลือดในรูปแบบแอนิเมชัน",
     "TCA_AntiSociety": "ต่อต้านสังคม",
     "ClassInd_AttenuatedAdultThemes": "ธีมสำหรับผู้ใหญ่แบบเบาบาง",
+    "ClassInd_AudioVideoSharing_v11_0": "การแชร์เสียงและวิดีโอ",
     "GEN_BadLanguage": "ภาษาที่ไม่เหมาะสม",
     "PEGI_BadLanguage": "ภาษาที่ไม่เหมาะสม",
     "ACB_BattleViolence": "ความรุนแรงในการต่อสู้",
@@ -9946,10 +9958,6 @@
     "CERO_AGE_0": "CERO A",
     "CERO_AGE_12": "CERO B",
     "CERO_AGE_15": "CERO C",
-    "CERO_AGE_17": "17 ปีขึ้นไป",
-    "CERO_AGE_17_Abbreviated": "17 ปีขึ้นไป",
-    "CERO_AGE_18": "18 ปีขึ้นไป",
-    "CERO_AGE_18_Abbreviated": "18 ปีขึ้นไป",
     "IE_Competitive_Intensity": "CI (ระดับความเข้มข้นของการแข่งขัน)",
     "TCA_CardOrCasualGames": "เกมการ์ดหรือเกมเล่นคลายเครียด",
     "ESRB_CartoonViolence": "ความรุนแรงแบบการ์ตูน",
@@ -9961,12 +9969,14 @@
     "IGRS_CharacterAppearance": "รูปลักษณ์ตัวละคร",
     "TCA_ChessGames": "เกมหมากรุก",
     "ACB_CoarseLanguage": "ภาษาหยาบคาย",
+    "EPIC_OFLC_Coarse_Language": "ภาษาหยาบคาย",
     "ACB_ComedicViolence": "ความรุนแรงแบบตลก",
     "ESRB_ComicMischief": "การเล่นแผลงๆ แบบตลก",
     "USK_ComicGewalt_v9_0": "ความรุนแรงแบบตลก",
     "FPB_CompetitiveIntensity": "ความเข้มข้นในการแข่งขัน",
     "ClassInd_ConsumptionofAlcohol": "การดื่มแอลกอฮอล์",
     "USK_Kontaktrisiken_v10_0": "ความเสี่ยงในการติดต่อ",
+    "ClassInd_ContentRecommendation_v11_0": "รายการแนะนำเนื้อหา",
     "USK_InhalteFuerVerschiedeneAltersgruppen_v7_0": "เนื้อหาสำหรับกลุ่มอายุต่างๆ",
     "CERO_ControlledSubstances": "สารเสพติด",
     "CERO_Crime": "อาชญากรรม",
@@ -10032,12 +10042,8 @@
     "RUS_Fear_v7_0": "ความกลัว",
     "IGRS_FearHorror": "ความกลัว/สยองขวัญ",
     "GRAC_AGE_12": "สำหรับอายุ 12 ปีขึ้นไป",
-    "GRAC_AGE_15": "สำหรับอายุ 15 ปีขึ้นไป",
-    "GRAC_AGE_15_Abbreviated": "สำหรับอายุ 15 ปีขึ้นไป",
     "GRAC_AGE_ALL": "สำหรับทุกเพศทุกวัย",
     "ACB_AGE_G_Abbreviated": "G",
-    "CSRR_AGE_0": "G",
-    "CSRR_AGE_0_Abbreviated": "G",
     "OFLC_AGE_0": "G",
     "OFLC_AGE_0_Abbreviated": "G",
     "CERO_Gambling": "การพนัน",
@@ -10105,6 +10111,7 @@
     "ACB_HorrorViolence": "ความรุนแรงสยองขวัญ",
     "ACB_HuntingViolence": "ความรุนแรงในการล่าสัตว์",
     "ClassInd_DrogasIlicitas": "ยาเสพติดผิดกฎหมาย",
+    "ClassInd_ImageManipulation_v11_0": "การตัดต่อรูปภาพ",
     "FPB_ImitativeActsAndTechniques": "การกระทำและเทคนิคที่เลียนแบบได้",
     "ClassInd_ConteudoImpactante": "เนื้อหาที่ส่งผลกระทบ",
     "ACB_ImpliedSexualViolence": "การชี้นำถึงความรุนแรงทางเพศ",
@@ -10144,8 +10151,6 @@
     "OFLC_AGE_15": "M",
     "OFLC_AGE_15_Abbreviated": "M",
     "ACB_AGE_M": "สำหรับผู้ใหญ่",
-    "ESRB_AGE_M": "17 ปีขึ้นไป",
-    "ESRB_AGE_M_Abbreviated": "17 ปีขึ้นไป",
     "ESRB_MatureHumor": "มุกตลกสำหรับผู้ใหญ่",
     "ACB_MatureThemes": "ธีมสำหรับผู้ใหญ่",
     "ClassInd_ProcedimentosMedicos_v8_0": "ขั้นตอนทางการแพทย์",
@@ -10207,26 +10212,12 @@
     "PEGI_ModerateViolence": "ความรุนแรงปานกลาง",
     "ClassInd_ModerateViolenceAnimated": "ความรุนแรงในรูปแบบแอนิเมชันปานกลาง",
     "ClassInd_ModeratelyRealisticViolence": "ความรุนแรงสมจริงปานกลาง",
-    "ACB_AGE_NA": "N/A",
-    "ACB_AGE_NA_Abbreviated": "N/A",
-    "GRAC_AGE_NA": "N/A",
-    "GRAC_AGE_NA_Abbreviated": "N/A",
-    "TCA_AGE_NA": "N/A",
-    "TCA_AGE_NA_Abbreviated": "N/A",
     "ACB_NoConsumerAdvice": "ไม่มีคำแนะนำสำหรับผู้บริโภค",
     "ClassInd_Naohainadequacoes": "ไม่มีคำอธิบาย",
     "ESRB_NoDescriptors": "ไม่มีคำอธิบาย",
     "GEN_NoDescriptors": "ไม่มีคำอธิบาย",
     "PEGI_NoDescriptors": "ไม่มีคำอธิบาย",
     "USK_NoDescriptors": "ไม่มีคำอธิบาย",
-    "USK_AGE_18": "ไม่เหมาะสำหรับเยาวชน",
-    "USK_AGE_18_Abbreviated": "ไม่เหมาะสำหรับเยาวชน",
-    "GMEDIA_AGE_NA": "ไม่สามารถใช้ได้",
-    "GMEDIA_AGE_NA_Abbreviated": "ไม่สามารถใช้ได้",
-    "IGRS_AGE_NA": "ไม่สามารถใช้ได้",
-    "IGRS_AGE_NA_Abbreviated": "ไม่สามารถใช้ได้",
-    "GRAC_AGE_ADULT": "ไม่เหมาะสำหรับเยาวชน",
-    "GRAC_AGE_ADULT_Abbreviated": "ไม่เหมาะสำหรับเยาวชน",
     "ACB_Nudity": "ภาพเปลือย",
     "ClassInd_Nudez": "ภาพเปลือย",
     "ESRB_Nudity": "ภาพเปลือย",
@@ -10245,14 +10236,8 @@
     "ACB_GEMCO": "การเล่นแบบออนไลน์",
     "ACB_OnlineInteractivityAndChat_v10_0": "การเล่นแบบออนไลน์และการแชท",
     "IE_OnlineMusicNotRatedByESRB": "เพลงออนไลน์ไม่ได้รับการจัดเรตโดย ESRB",
-    "CSRR_AGE_6": "P",
-    "CSRR_AGE_6_Abbreviated": "P",
     "PEGI_AGE_PG": "ควรได้รับคำแนะนำจากผู้ปกครอง",
     "PEGI_AGE_12": "PEGI 12 (อายุ 12 ปีขึ้นไป)",
-    "PEGI_AGE_16": "16 ปีขึ้นไป",
-    "PEGI_AGE_16_Abbreviated": "16 ปีขึ้นไป",
-    "PEGI_AGE_18": "18 ปีขึ้นไป",
-    "PEGI_AGE_18_Abbreviated": "18 ปีขึ้นไป",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10261,10 +10246,6 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
-    "CSRR_AGE_12": "12 ปีขึ้นไป",
-    "CSRR_AGE_12_Abbreviated": "12 ปีขึ้นไป",
-    "CSRR_AGE_15": "15 ปีขึ้นไป",
-    "CSRR_AGE_15_Abbreviated": "15 ปีขึ้นไป",
     "TCA_AGE_PG_12": "ควรมีผู้ปกครองให้คำแนะนำ (อายุ 12 ปีขึ้นไป)",
     "TCA_AGE_PG_15": "ควรมีผู้ปกครองให้คำแนะนำ (อายุ 15 ปีขึ้นไป)",
     "GEN_ParentalGuidanceRecommended": "ควรได้รับคำแนะนำจากผู้ปกครอง",
@@ -10283,22 +10264,6 @@
     "PEGI_ProminentGamblingImagery_v9_0": "ภาพการพนันที่เด่นชัด",
     "TCA_AGE_P": "เนื้อหาที่มีการจำกัด",
     "ClassInd_PsychologicalConflicts": "ความขัดแย้งทางจิตใจ",
-    "CSRR_AGE_18": "R",
-    "CSRR_AGE_18_Abbreviated": "R",
-    "OFLC_AGE_13": "13 ปีขึ้นไป",
-    "OFLC_AGE_13_Abbreviated": "13 ปีขึ้นไป",
-    "OFLC_AGE_R15": "15 ปีขึ้นไป",
-    "OFLC_AGE_R15_Abbreviated": "15 ปีขึ้นไป",
-    "OFLC_AGE_16": "16 ปีขึ้นไป",
-    "OFLC_AGE_16_Abbreviated": "16 ปีขึ้นไป",
-    "OFLC_AGE_18": "18 ปีขึ้นไป",
-    "OFLC_AGE_18_Abbreviated": "18 ปีขึ้นไป",
-    "ESRB_RATING_PENDING_AGE_10": "รอการจัดเรต",
-    "ESRB_RATING_PENDING_AGE_10_Abbreviated": "รอการจัดเรต",
-    "ESRB_RATING_PENDING_AGE_17": "รอการจัดเรต",
-    "ESRB_RATING_PENDING_AGE_17_Abbreviated": "รอการจัดเรต",
-    "ESRB_RATING_PENDING_M_AGE_17": "รอการจัดเรตอย่างเป็นทางการ และคาดว่าเหมาะสำหรับผู้เล่น 17 ปีขึ้นไป",
-    "ESRB_RATING_PENDING_M_AGE_17_Abbreviated": "รอการจัดเรตอย่างเป็นทางการ และคาดว่าเหมาะสำหรับผู้เล่น 17 ปีขึ้นไป",
     "GRAC_RandomBox_v7_1": "กล่องสุ่ม",
     "USK_SelteneSchreckmomente": "สถานการณ์น่ากลัวที่เกิดขึ้นน้อยครั้ง",
     "ESRB_RealGamblingOnly_v9_0": "การพนันด้วยเงินจริง",
@@ -10308,27 +10273,7 @@
     "ClassInd_RealisticBlood": "เลือดสมจริง",
     "USK_AndeutungenSexuellerGewalt": "การอ้างอิงถึงความรุนแรงทางเพศ",
     "ACB_ReferencestoSexualViolence": "การอ้างอิงถึงความรุนแรงทางเพศ",
-    "ACB_AGE_RC": "ปฏิเสธการจัดประเภท",
-    "ACB_AGE_RC_Abbreviated": "ปฏิเสธการจัดประเภท",
     "ACB_RefusedClassification": "ปฏิเสธการจัดประเภท",
-    "GMEDIA_AGE_RC": "ปฏิเสธการจัดประเภท",
-    "GMEDIA_AGE_RC_Abbreviated": "ปฏิเสธการจัดประเภท",
-    "GRAC_AGE_RC": "ปฏิเสธการจัดประเภท",
-    "GRAC_AGE_RC_Abbreviated": "ปฏิเสธการจัดประเภท",
-    "IGRS_AGE_RC": "ปฏิเสธการจัดประเภท",
-    "IGRS_AGE_RC_Abbreviated": "ปฏิเสธการจัดประเภท",
-    "RUSSIA_AGE_RC": "ปฏิเสธการจัดประเภท",
-    "RUSSIA_AGE_RC_Abbreviated": "ปฏิเสธการจัดประเภท",
-    "TCA_AGE_RC": "ปฏิเสธการจัดประเภท",
-    "TCA_AGE_RC_Abbreviated": "ปฏิเสธการจัดประเภท",
-    "USK_AGE_RC": "ปฏิเสธการจัดประเภท",
-    "USK_AGE_RC_Abbreviated": "ปฏิเสธการจัดประเภท",
-    "ACB_AGE_MA15": "จำกัดอายุ",
-    "ACB_AGE_MA15_Abbreviated": "จำกัดอายุ",
-    "ACB_AGE_R18": "จำกัดอายุ",
-    "ACB_AGE_R18_Abbreviated": "จำกัดอายุ",
-    "TCA_AGE_R": "จำกัดอายุ",
-    "TCA_AGE_R_Abbreviated": "จำกัดอายุ",
     "USK_AngstigendeInhalte": "เนื้อหาที่น่ากลัว",
     "USK_Schreckmomente_v9_0": "เหตุการณ์ที่น่ากลัว",
     "ACB_ScaryScenes": "ฉากน่ากลัว",
@@ -10442,8 +10387,6 @@
     "ESRB_TobaccoReference": "การอ้างอิงถึงบุหรี่",
     "USK_Tabakkonsum": "การสูบบุหรี่",
     "TCA_TobaccoAndAlcohol": "บุหรี่และแอลกอฮอล์",
-    "EPIC_GRAC_AGE_19": "ไม่ได้จัดเรต",
-    "EPIC_GRAC_AGE_19_Abbreviated": "ไม่ได้จัดเรต",
     "IE_UnrestrictedInternet": "อินเทอร์เน็ตไม่จำกัด",
     "ESRB_UseofAlcohol": "การดื่มแอลกอฮอล์",
     "ESRB_UseofAlcoholandTobacco": "การดื่มแอลกอฮอล์และการสูบบุหรี่",
@@ -10483,6 +10426,7 @@
     "ACB_VeryMildSexualisedImagery": "ภาพอนาจารน้อยมาก",
     "ACB_VeryMildSlapstickViolence_v10_0": "ความรุนแรงแบบตลกขบขันน้อยมาก",
     "ACB_VeryMildSportingViolence_v10_0": "ความรุนแรงในการเล่นกีฬาน้อยมาก",
+    "EPIC_OFLC_Mild_Sports_Violence": "ความรุนแรงในกีฬาเพียงเล็กน้อย",
     "ACB_VeryMildSuggestiveThemes": "ธีมชี้นำน้อยมาก",
     "ACB_VeryMildSupernaturalThemes": "ธีมเหนือธรรมชาติน้อยมาก",
     "ACB_VeryMildSupernaturalViolence_v10_0": "ความรุนแรงเหนือธรรมชาติน้อยมาก",
@@ -10597,8 +10541,8 @@
     "RestrictionLineFormat": "{Index} {Restriction}"
   },
   "JunoBuildingSnapEditorDetails": {
-    "SnapEditorRotateInPlace": "In Place",
-    "Toolbar": "Snap Editor Toolbar"
+    "SnapEditorRotateInPlace": "อยู่กับที่",
+    "Toolbar": "แถบเครื่องมือสแน็ปเอดิเตอร์"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "ธงข้อมูลการเชื่อมต่อจูโน",
@@ -10614,30 +10558,30 @@
     "ConsolidatePrimitivesCombined": "ตัวเปลี่ยนเส้นทางการสร้าง - /JunoAtomAssets/CombinedMeshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesMeshes": "ตัวเปลี่ยนเส้นทางการสร้าง - /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "ตัวเปลี่ยนเส้นทางการสร้าง - /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
-    "GetAssetsOfType": "Gathering '{0}' Assets",
-    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
-    "PrintAtomModelsInfo": "Printing out a AtomModels info",
+    "GetAssetsOfType": "กำลังรวบรวมแอสเซท '{0}'",
+    "UpdateGeneratedMeshes": "กำลังสร้าง Dirty Meshes",
+    "PrintAtomModelsInfo": "กำลังพิมพ์ข้อมูลโมเดลอะตอม",
     "RepairGeneratedMeshes": "ซ่อมโมเดลอะตอม",
-    "RegeneratePrimitivesOnPrimitive": "Running Primitive Processor : {0} ({1})",
-    "RegeneratePrimitives": "Running Primitive Processor...",
-    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+    "RegeneratePrimitivesOnPrimitive": "กำลังเรียกใช้โปรเซสเซอร์ระดับพื้นฐาน: {0} ({1})",
+    "RegeneratePrimitives": "กำลังรันโปรเซสเซอร์ระดับพื้นฐาน...",
+    "UpdateAllAtomModelsToUseProcessors": "กำลังอัปเดตโมเดลอะตอม"
   },
   "JunoFECraftingDataTool": {
     "ImGuiFrontendCraftingDataTool": "เครื่องมือข้อมูลคราฟติ้ง Juno Frontend",
     "ImGuiFrontendCraftingDataToolTooltip": "เครื่องมือสำหรับคัดลอกข้อมูล UI เพื่อใช้ใน frontend"
   },
   "JunoValidator_AtomModel": {
-    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
-    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "มีเซ็ตโปรเซสเซอร์แล้ว แต่ต้องสร้างเมช",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "ไม่มีเซ็ตโปรเซสเซอร์ แต่อ้างอิงถึงเมชที่สร้างขึ้น"
   },
   "JunoValidator_ClientOnlyGameFeatureData": {
     "ClientOnlyRowStructOnServer": "แถว Struct '{0}' ถูกกำหนดไว้ในโมดูลเฉพาะไคลเอนต์ '{1}' แต่อ้างอิงโดย '{2}' ซึ่งโหลดบนเซิร์ฟเวอร์ ย้าย Struct ไปยังโมดูลรันไทม์ หรือตรวจสอบให้แน่ใจว่าข้อมูลจะโหลดบนไคลเอนต์เท่านั้น"
   },
   "JunoValidator_GeometryCollection": {
-    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "มี Null Auto Instanced Mesh",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "มีพร็อกซี่เมชที่เป็น Null",
-    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
-    "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "ต้องมี Auto Instanced Mesh อย่างน้อย 1 รายการ",
+    "JunoValidator_GeometryCollection_ProxyMeshes": "ต้องมี Proxy Mesh อย่างน้อย 1 รายการ"
   },
   "JunoValidator_POI": {
     "ReplaceWithoutReplacement": "แถว POI '{0}' ถูกตั้งค่าเป็น Replace แต่ไม่ได้ระบุ ReplacementPOI ดังนั้นจึงจะถูกลบออกเท่านั้น ระบุ Replacement หรือกำหนด IneligibleAction เป็น Remove",
@@ -10651,14 +10595,14 @@
     "MismatchedRowStruct": "PlaylistBaseDataTableOverrides[{0}] สำหรับแท็กเพลย์ลิสต์ '{1}': ตาราง Override '{2}' ใช้ Row Struct '{3}' แต่ตารางต้นฉบับ '{4}' ใช้ Row Struct '{5}' การ Override Data Table ด้วย Row Type ที่แตกต่างกันจะทำให้หน่วยความจำเสียหายขณะรันไทม์ ตาราง Override ต้องใช้ Row Struct เดียวกันกับตารางต้นฉบับทุกประการ"
   },
   "JunoValidator_StaticMesh": {
-    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
-    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
-    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
-    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
-    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
-    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
-    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
-    "JunoValidator_StaticMesh_NumLODs": "Only has one LOD"
+    "JunoValidator_StaticMesh_InvalidLODs": "แอสเซทมี LOD Chain ที่ไม่ถูกต้อง",
+    "JunoValidator_StaticMesh_OpaqueExport": "สามารถลบได้เนื่องจากไม่มีวัสดุโปร่งใสแล้ว",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "เมซ Common Parts ไม่มีแท็กอะตอม 'Render.CommonParts'",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "เมซ Common Parts ไม่มี AtomMergedMesh_CommonParts LODGroup",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "เมซ Common Parts ไม่ได้มี LOD แค่อันเดียว",
+    "JunoValidator_StaticMesh_WrongLODGroup": "ชื่อ LODGroup ไม่ได้ขึ้นต้นด้วย 'AtomMergedMesh'",
+    "JunoValidator_StaticMesh_TransparentExport": "ต้องสร้างใหม่โดยไม่มีวัสดุโปร่งใส",
+    "JunoValidator_StaticMesh_NumLODs": "มี LOD ได้เพียงแค่อันเดียว"
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "ความจำต่ำ",
@@ -11248,7 +11192,10 @@
     "UnsafeEnvironment_BodyBadInstall": "พบข้อมูลเสียหายในไฟล์เกม ทำให้ไม่สามารถเล่นออนไลน์ได้ โปรดติดตั้ง Fortnite ใหม่จากแอป Epic Games เพื่อแก้ไขปัญหาเหล่านี้ คุณสามารถดาวน์โหลดแอป Epic Games ได้โดยไปที่ fortnite.com/download",
     "UnsafeEnvironment_BodyBadInstallGP": "พบข้อมูลเสียหายในไฟล์เกม ทำให้ไม่สามารถเล่นออนไลน์ได้ โปรดติดตั้ง Fortnite ใหม่จาก Google Play Store เพื่อแก้ไขปัญหาเหล่านี้",
     "UnsafeEnvironment_BodyCorruptedContent": "พบข้อมูลเสียหายในไฟล์เกม ทำให้ไม่สามารถเล่นออนไลน์ได้ โปรดยืนยันหรือติดตั้ง Fortnite ใหม่เพื่อแก้ไขปัญหาเหล่านี้",
+    "UnsafeEnvironment_StrictInjectionApply": "เปิดใช้งานและรีสตาร์ท",
     "UnsafeEnvironment_Title": "ผิดพลาด",
+    "UnsafeEnvironment_StrictInjectionNotActive": "อีเวนต์ต้องการนโยบาย Injection เข้มงวด มันเปิดใช้งานอยู่แล้วในการตั้งค่าเกม Fortnite ต้องรีสตาร์ทเพื่อให้การเปลี่ยนแปลงมีผลคุณต้องการรีสตาร์ทตอนนี้ไหม?",
+    "UnsafeEnvironment_StrictInjectionNotEnabled": "อีเวนต์ต้องการนโยบาย Injection เข้มงวด คุณต้องเปิดใช้งานใน การตั้งค่าเกม แล้วรีสตาร์ท Fortnite เพื่อให้การเปลี่ยนแปลงมีผลคุณต้องการใช้การเปลี่ยนแปลงตอนนี้ไหม?",
     "UnsafeEnvironment_BodyMissingLauncher": "Fortnite เริ่มต้นทำงานไม่ถูกต้อง และจำเป็นต้องปิดตัวลง เราแนะนำให้พยายามเปิดเกมโดยใช้ Epic Games Launcher หรือติดต่อฝ่ายสนับสนุนผู้เล่น",
     "UnsafeEnvironment_Body": "พบโปรแกรมโกงเกมหรือเครื่องมือวิศวกรรมย้อนกลับเปิดใช้งานอยู่ โปรดปิดสิ่งเหล่านี้ก่อนเล่น Fortnite เพื่อหลีกเลี่ยงการถูกแบนบัญชี",
     "UnsafeEnvironment_EventTPMAuth": "เราไม่สามารถตรวจสอบความถูกต้อง TPM อุปกรณ์ของคุณได้ อุปกรณ์นี้อาจไม่สามารถเข้าร่วมทัวร์นาเมนต์ได้ ในการอัปเดตครั้งต่อไป เยี่ยมชม fn.gg/tpm สำหรับรายละเอียดเพิ่มเติม",
@@ -11334,6 +11281,8 @@
     "FailedLoginConsole_SystemUpdateAvailable": "ไม่สามารถเข้าสู่ระบบได้ เนื่องจากมีอัปเดตระบบใหม่ที่พร้อมใช้งาน โปรดติดตั้งและลองใหม่อีกครั้ง",
     "FailedLoginConsole_PatchAvailable": "ไม่สามารถเข้าสู่ระบบได้ เนื่องจากมีแพตช์ใหม่ที่พร้อมใช้งาน {0}",
     "FailedStartLogin": "ไม่สามารถเข้าสู่ระบบบัญชี Epic Games ของคุณได้ในขณะนี้ โปรดลองอีกครั้งภายหลัง",
+    "FailedStartLogin_InvalidRefreshToken": "ไม่สามารถเข้าสู่ระบบบัญชี Epic Games ของคุณได้ในขณะนี้ โปรดลองอีกครั้งภายหลัง",
+    "FailedStartLogin_NoConnection": "ไม่สามารถเข้าสู่ระบบบัญชี Epic Games ของคุณได้ในขณะนี้ โปรดลองอีกครั้งภายหลัง",
     "UserLoginFailed": "ไม่สามารถเข้าสู่ระบบบัญชี Epic Games ของคุณได้ในขณะนี้ โปรดลองอีกครั้งภายหลัง",
     "FailedLoginMsg": "ไม่สามารถเข้าสู่ระบบไปยังเซิร์ฟเวอร์ {0} ได้ โปรดลองอีกครั้งภายหลัง",
     "FailedLoginConsole_UnableToSignIn": "ไม่สามารถเข้าสู่บัญชีของคุณสำหรับ {0} ได้ โปรดลองอีกครั้งภายหลัง",
@@ -11983,10 +11932,10 @@
     "OutDateFormat": "สิ้นสุดวันที่ {Day} {Month} {Year} เวลา {Time} ({TimeZone})"
   },
   "SnapEditorVisualizer": {
-    "DeleteSnapEntries": "Delete Snap Entries",
-    "DuplicateSnapEntries": "Duplicate Snap Entries",
-    "PasteSnapEntries": "Paste Snap Entries",
-    "SelectSnapEntry": "Select Snap Point"
+    "DeleteSnapEntries": "ลบรายการสแน็ป",
+    "DuplicateSnapEntries": "ทำซ้ำรายการสแนป",
+    "PasteSnapEntries": "วางรายการสแน็ป",
+    "SelectSnapEntry": "เลือกจุดสแนป"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "เหลืออีก {0}"
@@ -12601,7 +12550,7 @@
     "EmptyEntryError": "ชื่อที่ตั้งว่างเปล่า"
   },
   "UConfigurePrefabTool": {
-    "ToolName": "Configure Prefab"
+    "ToolName": "กำหนดค่าพรีแฟบ"
   },
   "UEFN": {
     "LaunchDataLeaveMatchAndMatchmakeLinkCode": "ออกจากแมตช์และเล่น {LinkCode}?",
@@ -12788,8 +12737,8 @@
     "OpenHLTv2ToCustomizableUIMigrator_ToolTip": "เปิด HLTv2 ที่เครื่องมือย้าย UI ที่ปรับแต่งได้เพื่อย้ายการตั้งค่า HLTv2 ทั้งหมดไปที่เฟรมเวิร์ก UI ที่ปรับแต่งได้อันใหม่"
   },
   "UICommands.JunoViewportToolsCommands": {
-    "BeginConfigurePrefabTool": "Configure Prefab",
-    "BeginConfigurePrefabTool_ToolTip": "Configure Prefab"
+    "BeginConfigurePrefabTool": "กำหนดค่าพรีแฟบ",
+    "BeginConfigurePrefabTool_ToolTip": "กำหนดค่าพรีแฟบ"
   },
   "UICommands.SpatialMetricsProfiler": {
     "OpenSpatialProfiler": "เปิด Spatial Profiler",
@@ -12813,24 +12762,24 @@
     "MaxRejoinFail": "ไม่สามารถกลับเข้าร่วมเกมได้ จำนวนครั้งที่พยายามกลับเข้าร่วมเกมเกินขีดจำกัด"
   },
   "UJunoAssetListAssetFactory": {
-    "MenuEntry": "Asset List"
+    "MenuEntry": "รายชื่อแอสเซท"
   },
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "ตารางข้อมูลคู่มือ [แถว {0}] ไม่มีแท็กหมวดหมู่ย่อยที่ถูกต้อง",
     "NeitherItemNorTag": "ตารางข้อมูลคู่มือ [แถว {0}] ไม่มีทั้งนิยามรายการหรือแท็กข้อมูลระบุตัวตน ต้องมีอย่างน้อยหนึ่งอัน",
-    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "NPCNoSpawnerDat": "ตารางข้อมูลบันทึก [แถว {0}] ดูเหมือนว่าจะเป็น NPC ที่เป็นมิตร แต่ไม่มีชุดข้อมูล AI Spawner",
     "CategoryTagInvalid": "ตารางข้อมูลคู่มือ [แถว {0}] ไม่มีแท็กหมวดหมู่ที่ถูกต้อง",
-    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "ตารางข้อมูลบันทึก [{0}] อ้างอิงไอเทม [{1}] ซึ่งจะไม่มีอยู่อีกต่อไปเมื่อปลั๊กอินของแพ็กเกจทำการประมวลผลสำเร็จใน [{2}] ลบแถวหรืออัปเดตเวอร์ชันเผยแพร่ของไอเทมให้ตรงกัน"
   },
   "UJunoValidator_ContextualMessageConfig": {
     "TextInvalid": "แถว {0} ของ Dialog Data Table มีข้อความที่ไม่ถูกต้องในพร็อพเพอร์ตี [{1}]: {2} \"{3}\""
   },
   "UJunoValidator_CraftingFormula": {
-    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime.",
+    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] มีแท็ก RequiredIngredients ว่างเปล่า!! สิ่งนี้อาจทำให้เกิดปัญหาขณะรันเกม",
     "DirectOutputsWithLootTierKey": "FCraftingFormula [{0}] มีทั้ง ResultLootTierKey และ Direct Output (รายการ ExtraData) ลบ ResultLootTierKey หรือรายการ Direct Output ออก"
   },
   "UJunoValidator_GuidedBuildingActorValidator": {
-    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
+    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData ที่มี ActorName [{0}] มีสูตรอาหารว่าง!! สิ่งนี้อาจทำให้เกิดปัญหาขณะรันเกม"
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingDisplayActorDataEntry ที่ดัชนี [{0}] มีสูตรว่างเปล่า!! สิ่งนี้อาจทำให้เกิดปัญหาขณะรันเกม"
@@ -12842,7 +12791,7 @@
     "ItemNewerThanLootTablePlugin": "ไอเทม [{0}] มีเวอร์ชันเผยแพร่ [{1}] แต่ถูกอ้างอิงโดยตารางไอเทม [{2}] ซึ่งปลั๊กอินจะคอมไพล์ใน [{3}] ไอเทมนี้จะยังไม่มีอยู่ในช่วงที่ตารางไอเทมนี้ทำงาน กรุณานำไอเทมนี้ออกจากตารางไอเทม หรืออัปเดตเวอร์ชันเผยแพร่ของไอเทมให้ตรงกับเวอร์ชันของปลั๊กอิน"
   },
   "UJunoValidator_Journal": {
-    "RewardsInvalid": "Journal data table [row {0}] has a CompletionReaction type that grants a reward, but is set to GrantToWorld.  It must be GrantToParticipants to correctly grant to all players..",
+    "RewardsInvalid": "ตารางข้อมูลบันทึก [แถว {0}] มีประเภท CompletionReaction ที่ให้รางวัล แต่ตั้งค่าเป็น GrantToWorld  ต้องเป็น GrantToParticipants เพื่อมอบให้ผู้เล่นทุกคนได้อย่างถูกต้อง..",
     "TextInvalid": "[แถว {0}] ของ Journal Data Table มีข้อความที่ไม่ถูกต้องในพร็อพเพอร์ตี [{1}]: {2} \"{3}\"",
     "PrereqQuestProgressNotification": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] ค่า bHideQuestProgressNotification ของเควสต์ควรถูกเปิด",
     "PrereqQuestStartingToast": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] ค่า bShouldDisplayStartingToast ของเควสต์ควรถูกปิด",
@@ -12850,7 +12799,7 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] AwesomeLevelIndex ไม่ใช่ดัชนีที่ถูกต้องสำหรับ UpgradeRequirements ของ {2}",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] CampTagConfigKey ไม่แม็ปไปยังตารางข้อมูล FJunoAwesomePoiConfigTableRow",
     "PrereqTownbuilderInvalidNoValidALI": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] ไม่มี AwesomeLevelIndex ที่ถูกต้อง",
-    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
+    "PrereqTownbuilderInvalid": "ตารางข้อมูลบันทึก [แถว {0}] Prerequistites Index [{1}] ไม่มีแท็ก CampTagConfigKey ที่ถูกต้อง",
     "PrerequistitesInvalidNoValidPreReqType": "ข้อมูลตารางบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] ไม่มีประเภท Prereq ที่ถูกต้อง",
     "PrereqQuestInvalidNotNeededPFComponent": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] มีคอมโพเนนต์ PersistenceFramework ซึ่งไม่จำเป็น",
     "PrereqQuestInvalidQuestSoftPtr": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] Quest SoftPtr [{2}] ไม่ถูกต้อง",
@@ -12858,17 +12807,17 @@
     "PrereqQuestNull": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] ไม่มี QuestDef",
     "PrereqTownbuilderInvalidRCButEmptyRL": "ตารางข้อมูลบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}] อ้างอิงถึง ResourceCost แต่ {2} มี ResourceList ว่างเปล่า",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "ข้อมูลตารางบันทึก [แถว {0}], ดัชนีข้อกำหนดเบื้องต้น [{1}], ไม่พบ UpgradeStep ที่มี UpgradeStepIdentifer {2} สำหรับ UpgradeStages ของ {3}",
-    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
-    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
-    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "PrerequistitesInvalid": "ตารางข้อมูลบันทึก [แถว {0}] ไม่มี Prerequistites ใดๆ",
+    "CategoryTagInvalid": "ตารางข้อมูลบันทึก [แถว {0}] ไม่มีแท็กหมวดหมู่ที่ถูกต้อง",
+    "CompletionReactionsInvalid": "ตารางข้อมูลบันทึก [แถว {0}] ถูกตั้งค่าให้เปิดเผยผ่าน CompletionReaction Index [{1}]",
     "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "ข้อมูลตารางบันทึก [แถว {0}] ตั้งค่าให้เปิดเผยตัวเองผ่าน NextTaskRowName ยกเลิกการเลือก RevealNextTaskOnComplete เพื่อเลิกบล็อกและพูดคุยกับวิศวกร!",
     "CompletionReactionsInvalid_RowNotExist": "ตารางข้อมูลบันทึก [แถว {0}] เผยให้เห็น [แถว {1}] เมื่อเสร็จสิ้น ซึ่งไม่มีอยู่จริง",
     "CompletionReactionsInvalid_AutoReveal": "ตารางข้อมูลบันทึก [แถว {0}] เผยให้เห็น [แถว {1}] เมื่อเสร็จสิ้น ซึ่งจะใช้ AutoRevealCondition  ไม่อนุญาตให้ทำเช่นนี้ ระบบ ConditionsForAutoRevealOrHide จะจัดการการเปิดเผยหรือซ่อน Task โดยอัตโนมัติ",
-    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
-    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+    "NextTaskRowNameInvalid": "ตารางข้อมูลบันทึก [แถว {0}] ใช้ RevealNextTaskOnComplete แต่ NextTaskRowName {1} ไม่ถูกต้อง  โปรดตรวจสอบกล่องอีกครั้ง",
+    "ValidateLoadedAsset": "ตารางข้อมูลบันทึก [{0}] Prerequistites Index {1} อ้างอิงเควสต์ [{2}] ซึ่งจะไม่มีอยู่อีกต่อไปเมื่อปลั๊กอินของแพ็กเกจทำการประมวลผลสำเร็จใน [{3}] ลบแถวหรืออัปเดตเวอร์ชันเผยแพร่ของไอเทมให้ตรงกัน"
   },
   "UJunoValidator_LootTables": {
-    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "LootPackage [{0}] อ้างอิงไอเทม [{1}] ซึ่งจะไม่มีอยู่อีกต่อไปเมื่อปลั๊กอินของแพ็กเกจทำการประมวลผลสำเร็จใน [{2}] ลบแถวหรืออัปเดตเวอร์ชันเผยแพร่ของไอเทมให้ตรงกัน"
   },
   "UK2Node_ModifyObject": {
     "NodeTitle": "ปรับแต่งวัตถุ",

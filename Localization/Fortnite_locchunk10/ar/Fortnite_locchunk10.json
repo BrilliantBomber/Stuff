@@ -356,6 +356,7 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "سيف يتمتع بهجوم وثبة ثانوي قوي.",
     "144AC202422D81D8ECA7FDADA0248752": "بندقية كلاسيكية ذات دقة عالية ومدى كبير.",
     "174ADE3045B991036DAB808BA3802CDA": "بندقية كلاسيكية ذات دقة عالية ومدى كبير.",
+    "A633A07540E67656A515748EC42D2BFA": "بندقية كلاسيكية ذات دقة عالية ومدى كبير.",
     "5CA4C768442DACE154F650919AEBF7CC": "انفجار شديد من الإثارة والمتعة. ابدأ بالقفز وأنت في الهواء.",
     "62060089487721326B23BBA33709B481": "انفجار شديد من الإثارة والمتعة. ابدأ بالقفز وأنت في الهواء.",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "انفجار شديد من الإثارة والمتعة. ابدأ بالقفز وأنت في الهواء.",
@@ -422,10 +423,7 @@
     "F259347F4F2842296238EB82C300F898": "أي",
     "165B7E9748BBE879107084AD2F2A831F": "AoEHealing Heal UtilityItem ",
     "979E143F4DB80482F7115A92CA8BCD4A": "AoEHealing Heal UtilityItem ",
-    "A9FA7E534DAB697646EE6AB42C93C1D7": "أخضر تفاحي",
     "A2C33D7A4650D1311D24238FC644F05A": "يوفر درعًا <Emphasized>لنفسك</> ولزملاء الفريق القريبين",
-    "2C724915401F1A7787FFCB8FD290B616": "أزرق مائي",
-    "46C56F454E6F3673CEF647A6D72F3EDA": "زمردي",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "موضع مستودع الأسلحة",
     "14FE8E964665F3F20099A0B16A9D68F7": "Ashton",
     "F00BAD564EF2DC73C32CB18F94A85EAE": "Ashton",
@@ -555,7 +553,6 @@
     "120BA8004C6678552C7377A6A5483152": "طراز الإشارة التنبيهية",
     "851AC090485097B263B626A83A02C0FE": "أشعة",
     "C1DC37B04598D140C5BD808AB61F9712": "كن رجل ثلج",
-    "21BB6A4D48D2430058D509B4F3D02AA9": "بيج",
     "0A9381554E499FD10B15438EDCFD41B0": "العجلة الدوارة دي إكس",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "الطائرة ذات الجناحين",
     "5B5236944941BFD7DE82B8B05FE11D94": "الطائرة ذات الجناحين",
@@ -626,7 +623,6 @@
     "2AA0C53148468770E238D6825BF85BAC": "نجوم الفئة",
     "EE922BB945F58FB9604A58A2D82D680C": "رشّاش كات وومن السريع",
     "AA86FAD842ADDE0E9D552E92F44CDD7C": "رشّاش نيران كثيفة خفيف مخصص لكات وومن. صُنع بعناية لزيادة سعة الذخيرة.",
-    "D76CF3D846DE65E8BE51F39F748DAA43": "لازوردي",
     "EB4A9CD946CF1CAD986993958FEC99A7": "الفصل 2 الموسم 5 ",
     "5D048A7F45BDC6C054F4528378401CD0": "الفصل 2 الموسم 7",
     "02BD54134B723F96AC01628F3924C431": "الفصل 2 الموسم 8",
@@ -929,7 +925,6 @@
     "7D608A2348789E08EF3A60ABB1E09742": "فريق صديق",
     "2FB297854AA101161395379E33167490": "من حافة الهاوية",
     "2277279745E5A2A74BC60299806407F0": "مُجمد",
-    "E37268214ECAE0FDB58EF1A6BD1E9A81": "فوشيا",
     "1D2EEEBF4370BF8C411B08B64DCE4F2E": "فوهة كبيرة ممتلئة",
     "F6260A434A2F549B51B59F842C778EA8": "فلاتلاينر كامل",
     "CA598A9647DDFFF9012FFE88BAC6D842": "جي فليب الكامل",
@@ -975,7 +970,6 @@
     "87E39EA04808B27EA30A908F811EF0FA": "الطائرات الشراعية",
     "3C063B974F09C8A673507CBE3ADDB71D": "انطلق وحدك في معركة لتصبح آخر لاعب صامد.",
     "8BEC89B8499664826B111685672B4E29": "انطلق وحدك في معركة لتصبح آخر لاعب صامد.",
-    "B8C59B304999B1F6964D1696FAB0E456": "ذهب",
     "F92ED6D24B56EACA844D27A473619CF5": "ذهب",
     "3636D06A4ADE66F6A3C73D9AAB04186F": "العملة الذهبية",
     "7B0936A2458A998274ED3484DE00BCDA": "الشوكولاتة الذهبية",
@@ -994,7 +988,6 @@
     "2BAF9D994E20140BCD7F59A7CAC81BA3": "مفتاح تبديل المقبرة",
     "A4341A0045390C670F4757948E6E3CE5": "تسونامي المقبرة",
     "F0737F4E40417749A441A59843B932F0": "رحالة المقبرة",
-    "0B5C62D0400E95930AEE12B1D2116EE2": "أخضر",
     "5D14C5F74CA277758C0476AA504D7CEA": "المغارة",
     "331DB866438F7C72234C5B8338CC44A0": "انضم لمجموعة وتفوق على جميع الفرق الأخرى التي تقاتل للوصول للنصر.",
     "99E9D5F34DC01FC6B8774DB154EAC42E": "أسلحة بنادق هجومية، بندقية آلية ذات طلقات خفيفة",
@@ -1042,7 +1035,6 @@
     "2EAFA04B4FCA57C7AF24E29E7C4450D7": "قناصة ثقيلة +",
     "A935E8954E7200704C91A0A3A85B8C71": "بندقية قنص ثقيلة مع فرصة <Emphasized>إعادة التعبئة على الفور</>",
     "56AA82F146826F523FA9119C01362035": "الارتفاع",
-    "0B86EC9C474C4633272C9787A10B7795": "عنصر مَحمُول",
     "465E0326425E1043865BEB8E4C811AE3": "عنصر مَحمُول",
     "6C0951C64B0DA937087B0284224F92F4": "عنصر مَحمُول",
     "6EF1E84B40FA9D7CD51697ABF897FE4A": "عنصر مَحمُول",
@@ -1090,6 +1082,7 @@
     "3B23812B4104C655B1751DAB80ED2993": "جي فليب إندي",
     "118BD9B247A79B6E7AB2189A409B7EFA": "مستدير إندي",
     "55F09A7841788A6D5EABF7AE7C720557": "بندقية مشاة",
+    "C115B50C4700A573DC237EAC7C92E21B": "بندقية مشاة",
     "F1638A45469F392DAF5444BE0A097644": "بندقية مشاة",
     "F317A4514DE5AEE182F39DA192E355AD": "بندقية مشاة",
     "1D7BBE454E1553569F9589A7E633F06D": "لا نهائي",
@@ -1236,7 +1229,6 @@
     "/Fortnite.com/Devices/NPCSpawner/npc_behavior_template_message_module/OnEndMessage": "شخصية غير قابلة للعب = {Agent}: تم تفعيل OnEnd، لنُنهِ المهمة.",
     "0DD368AE4439FC99C95A4595D62837AC": "تحديات بنّاء الطبيعة",
     "688E65C943BC171D5807FE974D7E59A9": "تحديات نيد الأبدي",
-    "B80ED9CD455EDCE5BB4214A10A82B828": "أخضر نيون",
     "NetworkConnectionLost": "فُقد الاتصال بالشبكة",
     "44067A6E421888DD39877E82D6DABB58": "نص أيقونة المحايد",
     "AB88B4554EDBE594A34706AED40BB6C4": "مطلقًا",
@@ -1358,7 +1350,6 @@
     "19A0DCA742B5AC4CB1D227AEE0A19601": "المُحدد فقط",
     "B95E8C564EE3D7A237E5DEB35283797C": "عند الحاجة فقط",
     "BAC5E80D44DA978242043B9497A8E286": "الخصوم الذين تقوم بتصفيتهم <Emphasized>يكشفون</> الخصوم القريبين",
-    "95FD548C4AFFA37C807335BD7AF1AB6A": "برتقالي",
     "658517F44C1678AB75F76FB69BD46F60": "قاذفة الطلاء البرتقالي  ",
     "516CA75D4CF5403A2F82BF838CD51DB7": "وحدات ورعاية أبوية غير محدثة",
     "6EB89D324C5E00500994CD96A83D5A72": "وحدات ورعاية أبوية غير محدثة",
@@ -1385,7 +1376,6 @@
     "B3CFEDE943AA56C0AEE82CA08F806463": "التقط",
     "7240B5BC46A81D296CBCA080DF98ECB7": "طريقة عمل الفأس",
     "91F4A2794D81253C6E03C7A0B78CC383": "التقط مطفأة النار",
-    "F75FBF44462332D5DFE17691FCD37DFF": "وردي",
     "2C211AA048AE4A1A5D9423B297E1023D": "مدفع القرصان",
     "BB93B4574E7A8EF0105C4DAADCA4D5F8": "مدفع القرصان",
     "CFBFEBC248741ED6E0FCC88CC754A22E": "مدفع القرصان",
@@ -1438,7 +1428,6 @@
     "85A2E3C041A433B1B8D87C914FAFCC13": "الرمز المميز لإكمال البطاقة المختومة",
     "8FDD93294EE611E28D499E8504C6C314": "الرمز المميز تسجيلات البطاقة المختومة",
     "B06F5AB34BA2C7C48F6D2982E60EC524": "الرمز المميز تسجيلات البطاقة المثقوبة",
-    "A4A746BE47363A8193CEE4BC9E663930": "بنفسجي",
     "A1D607174B6E2B132A79E0A3242425BE": "قاذفة الطلاء الأرجواني  ",
     "02D599B84C45A32A6BAB92925A070A51": "الدفع (انقر) / الانطلاق (اضغط باستمرار)",
     "25171EA942DC385DE7E5798BBB4969A1": "ترك",
@@ -1459,7 +1448,6 @@
     "B1CFA5584EBD1878822A699ECEB629A6": "صندوق نادر",
     "101BBD144878EB1AA8CCD292737797AE": "جهاز الفحص والاستطلاع",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "تجنيد",
-    "1C77EAFB46C48299170B7486AEFB6294": "برتقالة حمراء",
     "7125E4704BEA318C6BD3D69B5893D080": "مكون تصنيع مُحسَّن. يمكن تصنيعه باستخدام مكونات أخرى التي توجد غالبًا في الصناديق.",
     "16DA40C14B2BC801935504956E31A9C9": "تجديد <Emphasized>الصحة</> أثناء السباحة",
     "D956F3B24B85A136EDFF7681AD74FB8C": "معاد تنشيطه",
@@ -1590,10 +1578,8 @@
     "029C79824756DFCA21B1AB85821FF31C": "إظهار الأخبار",
     "2496EF09404F18FFE2EA0AB9BA7CFA8F": "إظهار سهم لاتجاه خارج الشاشة",
     "D2AA34D248C42439671352909952AF0C": "تظهر شاشة الأخبار عند وصول أخبار جديدة",
-    "D5A97BEC41D14A772F78AD85787561D5": "فضي",
     "37EA8D3C4FCA282792A19089FF9D264F": "بندقية قنص ذات طلقة واحدة <Emphasized>بمنظار</> بعيد المدى",
     "9A6F1EDF4BBD286B035BA49BDF31635E": "رمز تحدي رجل الجمجمة المميز",
-    "89373C3241ED5AC276FBA08F64FC6020": "أزرق سماوي",
     "C3F806054CE1F1D1A8FFFC9F8DF839BC": "بطيء",
     "252EFAEE4A3593A47968A9B628C86826": "<Emphasized>مسدس قوي</> بطيء الإطلاق",
     "F415822746674FEAC04DCB8D1D0EC153": "جُسيم الدخان",
@@ -1976,7 +1962,6 @@
     "A8CDADF8471D9C4CFEBFF598C94692E3": "عند تدمير المركبة، أعد نشرها بعد هذه المهلة (أول مركبة منشورة لن تستخدم هذه المهلة).",
     "0D756F6B4F770EF0A8F90CAC0113EB78": "مسدس أين سنهبط",
     "E710C08E4E5C70FF8A286CB6EA101B4F": "ما إذا كان يتم إظهار الإشارة التنبيهية أو عنصر شاشة HUD أو كليهما.",
-    "D3A54EAE40408580269CF39BCCA37888": "أبيض",
     "195F2EE048C26E190C845691145D6CF6": "العرض",
     "9BD108A54CA8FA397E1DBD95E37958BB": "توكن إكمال تحدي ونترفست",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "مفتاح ونترفست",
@@ -2139,23 +2124,35 @@
     "MergeSquadsText": "دمج الفِرق",
     "SquadsTooBigToMerge": "الفرق كبيرة جدًا لتُدمج"
   },
+  "AnimInEdTools": {
+    "SourceLink_NotASequence": "تعذّر تحميل '{0}' باعتباره تسلسل مستوى.",
+    "SourceLink_NoItem": "'{0}' لا يسجّل رابطًا يشير إلى هذه الرسوم المتحركة.",
+    "SourceLink_OpenRange": "'{0}' يضم نطاق تشغيل غير محدود، لذلك يتعذر تحديد النطاق المُصدَّر.",
+    "SourceLink_NoTrack": "'{0}' لا يملك مسار هيكل التحكم في عملية الربط التي استُخدمت في هذه الرسوم المتحركة.",
+    "SourceLink_BadRate": "يُسجّل '{0}' نطاق تصدير مخصصًا بمعدل إطارات غير صالح.",
+    "SourceLink_NoAnim": "لا توجد رسوم متحركة مفتوحة.",
+    "SourceLink_Missing": "تسلسل المستوى المربوط '{0}' مفقود.",
+    "SourceLink_NoLink": "هذه الحركة غير مرتبطة بتسلسل مستوى، لذا لا توجد توقيتات رئيسية للمصدر لتُقرأ."
+  },
   "AnimInEdToolsModule": {
     "AnimToCRImportTabLabel": "الحركة ← منصة التحكّم",
     "AnimToCRImportTabTooltip": "استورد الرسوم المتحركة المعاينة (وضعية أو نطاقًا أو مقطعًا كاملًا) إلى منصة التحكم في تسلسل المستوى المفتوح."
   },
   "AnimToCRImport": {
-    "Clear": "حذف",
+    "ImportKeyTimings": "تطبيق توقيتات الحركة الأساسية",
+    "ClearInOutTip": "إزالة تأثير الدخول/الخروج",
     "CurFrame": "الإطار الحالي",
-    "DelStatic": "حذف القنوات الثابتة",
-    "RangeHdr": "نطاق الإطار",
     "ImportPose": "استيراد وضعية",
     "ImportRange": "استيراد النطاق",
-    "OnlyStatic": "تقليل القنوات الثابتة فقط",
-    "OptionsHdr": "الخيارات",
-    "SelOnly": "عناصر التحكم المحددة فقط",
+    "KeyTimingsTip": "احتفظ فقط بالمفاتيح التي تم تطبيقها حين كانت هناك مفاتيح في الطبقة الأساسية لتسلسل مستوى المصدر، بدلًا من وجود مفتاح لكل إطار. ما زالت القيم تأتي من هذه الرسوم المتحركة. يستبدل إعدادات تقليل المفاتيح.",
+    "NoLoadSettings": "إعدادات تحميل الرسوم المتحركة غير متوفرة (لم يتم العثور على LoadAnimToControlRigSettings).",
+    "SimpleViewTip": "قم بإعادة محرر الرسوم المتحركة إلى نافذة العرض والمخطط الزمني وهذه الأداة ومتصفح العناصر. يؤدي إيقاف التشغيل إلى استعادة علامات التبويب التي كانت مفتوحة لديك.",
+    "RestoreLayoutTip": "أعِد فتح التبويبات التي كانت مفتوحة آخر مرة دخلت فيها إلى العرض البسيط. متاح بمجرد استخدام العرض البسيط مرة واحدة على الأقل.",
+    "RestoreLayout": "استعادة التخطيط",
     "SetIn": "تشغيل",
     "SetOut": "إيقاف",
-    "SmartReduce": "التقليل الذكي"
+    "SimpleView": "عرض بسيط",
+    "SourceLabel": "المصدر: {0} الإطارات {1}-{2}"
   },
   "AntiCheat": {
     "ClientErrorMessage": "خطأ{provider}: {message}\n\nيُرجى مراجعة أسئلة {provider} الشائعة لمزيد من المعلومات."
@@ -2189,7 +2186,7 @@
   },
   "AssetTypeActions": {
     "AIActionSequence": "تسلسل حركات الذكاء الاصطناعي",
-    "UJunoAssetListAssetFactory": "Asset List"
+    "UJunoAssetListAssetFactory": "قائمة الأصول"
   },
   "Athena": {
     "NPCHiredIndication": " (مُتابع)",
@@ -3033,7 +3030,7 @@
   },
   "Contexts": {
     "HLTv2ToCustomizableUI": "مكوّن HLTv2 إلى واجهة مستخدم قابلة للتخصيص",
-    "JunoViewportToolsCommands": "Juno Tools",
+    "JunoViewportToolsCommands": "أدوات Juno",
     "SpatialMetricProfiler": "المحلل المكاني",
     "WeaponModernizationEditorCommands": "أداة تحديث الأسلحة"
   },
@@ -3864,8 +3861,8 @@
   },
   "FJunoViewportToolsModule": {
     "SectionName": "Juno",
-    "ExtensionName": "JunoTools",
-    "ConfigurePrefabTool": "Prefab"
+    "ExtensionName": "أدوات Juno",
+    "ConfigurePrefabTool": "مبني جاهز"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "قم بإيداع {amount} {resourcetype}",
@@ -5189,6 +5186,20 @@
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "خاص"
   },
+  "FortEpicParty": {
+    "AccountResolution": "خطأ داخلي",
+    "ExistingInviteMissing": "خطأ داخلي",
+    "FrameworkUnavailable": "خطأ داخلي",
+    "JoinRetryAbandoned": "خطأ داخلي",
+    "JoinableInfoMissing": "خطأ داخلي",
+    "RetryAccountResolution": "خطأ داخلي",
+    "RetryFrameworkUnavailable": "خطأ داخلي",
+    "RetryJoinableInfoMissing": "خطأ داخلي",
+    "RetryPartyPrivate": "خطأ داخلي",
+    "RetrySameParty": "خطأ داخلي",
+    "TargetNotFriend": "خطأ داخلي",
+    "TargetNotJoinable": "خطأ داخلي"
+  },
   "FortErrorOverrides": {
     "IoStoreHttpError": "حدث خطأ في الاتصال بخدمات الجهة الخلفية الخاصة بنا، يُرجى التحقق من الاتصال بالشبكة والمحاولة مجددًا بعد قليل. {ModuleIdString}.{ErrorCodeString}"
   },
@@ -5232,6 +5243,9 @@
   },
   "FortGameMode": {
     "FailedToStartMatchTimeout": "تعذر بدء الخادم في الوقت المناسب."
+  },
+  "FortGameStateHestiaBeauty": {
+    "SittingOutPlayersToJumpInNotAllowed": "يتعذر الانضمام إلى جلسة المجموعة."
   },
   "FortGameStateOutpost": {
     "LimitThresholdReached": "تحذير: تبقى {0} من الهياكل للوضع."
@@ -5451,10 +5465,8 @@
     "StorageItemDescription_BR": "مطلوبة في الأوضاع باتل رويال وبلا بناء والإعادة.",
     "StorageItemDescription_Sparks": "مطلوبة في Fortnite Festival.",
     "StorageItemDescription_Juno": "مطلوبة في LEGO® Fortnite.",
-    "StorageItemDescription_DelMar": "مطلوبة في Rocket Racing وخرائط Rocket Racing من صنع اللاعبين.",
     "StorageItemDescription_Core": "محتوى لازم لكل التجارب.",
-    "StorageItemDescription_Creative": "لازم للعب وتعديل الجزر التي أنشأها المبدعون [وأيضًا الضاري].",
-    "StorageItemTitle_DelMar": "محتوى الصواريخ"
+    "StorageItemDescription_Creative": "لازم للعب وتعديل الجزر التي أنشأها المبدعون [وأيضًا الضاري]."
   },
   "FortLinkedGraphGate": {
     "LinkedGraphTagInvalid": "@@ - الرسم البياني المتصل لا يحتوي على علامة صالحة",
@@ -6499,7 +6511,7 @@
     "LookEditModeMultiplier_Description": "مُضاعِف يتم تطبيقه على حساسية الرؤية في وضع التحرير.  سيؤدي تقليل الإعدادات إلى أقل من 1x إلى تخفيض الحساسية عند التواجد في وضع التحرير.  سيؤدي رفع الإعدادات إلى أكثر من 1x إلى زيادة الحساسية عند التواجد في وضع التحرير.",
     "BuildingPossession_Description": "ستظهر نظرة سريعة على مبنى إذا كان يمكن تعديله أو لا.",
     "QuickWeaponButtonGroupSecondaryFaceButtons_Switch": "أزرار A/B/X/Y",
-    "ToggleTargeting_Name": "ADS",
+    "ToggleTargeting_Name": "التصويب",
     "LookHorizontalSpeedAds_Name": "سرعة النظر الأفقية لحساسية التصويب",
     "LookVerticalSpeedAds_Name": "سرعة النظر الرأسية لحساسية التصويب",
     "ADSManualReloadResponse_Name": "إعادة التلقيم في أثناء التصويب بمنظار",
@@ -6825,6 +6837,7 @@
     "TweakZoneCollection_Name": "منطقة تعديل وحدة التحكم",
     "TelekineticonToggleActivation_Description": "يتحكم في كيفية تنشيط المحرّك الذهني.\n\nاضغط باستمرار على الزناد - أبقِ الزناد مضغوطًا لالتقاط الأشياء وأفلت الزناد لتركها.\nتبديل - اضغط لالتقاط الأشياء وتركها.",
     "SocialPrivacy_MutualFriends_Description": "للتحكم في ظهور الأصدقاء المشتركين للاعبين الآخرين.\n\n<strong>خاص</>: لن يتمكن أحد من رؤية الأصدقاء المشتركين.\n\n<strong>الأصدقاء فقط</>: يمكن للأصدقاء فقط رؤية الأصدقاء المشتركين.\n\n<strong>عام</>: يمكن لأي شخص رؤية الأصدقاء المشتركين.",
+    "StrictInjectionPolicy_Description": "يحدد البرامج التي يمكنها التفاعل مع Fortnite.\n\nعندما يكون نشطًا، سيتم منع البرامج الأخرى وتراكباتها من الوصول إلى Fortnite لزيادة الأمان. قد يلزم تفعيل هذه الإعدادات في بعض الأحداث التنافسية.",
     "GyroOffsetBuild_Description": "يتحكم في ما إذا كان مدخل التصويب سيحرك مؤشر التصويب قبل إدارة الكاميرا عند البناء أو التعديل.",
     "MouseOffsetBuild_Description": "يتحكم في ما إذا كان مدخل التصويب سيحرك مؤشر التصويب قبل إدارة الكاميرا عند البناء أو التعديل.",
     "TouchOffsetBuild_Description": "يتحكم في ما إذا كان مدخل التصويب سيحرك مؤشر التصويب قبل إدارة الكاميرا عند البناء أو التعديل.",
@@ -6939,6 +6952,7 @@
     "GyroButtonEnable": "تفعيل الجيروسكوب",
     "EnergySavingIdle_Name": "تفعيل توفير الطاقة عند الخمول (الواجهة الأمامية)",
     "EnergySavingFocusLoss_Name": "تفعيل توفير الطاقة لنافذة اللعبة غير النشطة.",
+    "VoiceChatUseNoiseReduction_Name": "تمكين تقليل الضوضاء",
     "HeadphoneMode_Description": "تمكين الصوت للأذنين.  يوفر تصفية صوتية ثلاثية الأبعاد، بحيث يمكنك سماع موقع الأصوات بدقة أكبر، بما يشمل فوقك وتحتك وخلفك. يوصى به للاستخدام مع سماعات رأس استيريو فقط.",
     "QuickWeaponToggle_Description_Switch": "فعّل إجراء السلاح السريع التجريبي. عند تفعيله، يحل السلاح السريع محل زر السلاح التالي.\n\nاضغط على السلاح السريع لتجهيز عنصرك الأساسي. يؤدي الضغط على أحد أزرار A/B/X/Y في أثناء الضغط على السلاح السريع إلى التبديل إلى إحدى فتحات العناصر الأخرى. يمكنك الضغط على السلاح السريع وأحد أزرار A/B/X/Y في آن واحد لتبديل ذلك العنصر على الفور، أو الضغط باستمرار على زر السلاح السريع للمدة التي تريدها لتتعود طريقة مطابقة أزرار A/B/X/Y للعناصر في المستودع.\n\nعند تفعيل هذا، تحل علامة محل السلاح السابق لتسهيل التواصل مع فرقتك. أو يمكنك استبدال إجراء من اختيارك بسلاح سابق من خلال تخصيص عناصر التحكم لديك من تبويب تخصيص وحدة التحكم.",
     "QuickWeaponToggle_Description_Switch2": "فعّل إجراء السلاح السريع التجريبي. عند تفعيله، يحل السلاح السريع محل زر السلاح التالي.\n\nاضغط على السلاح السريع لتجهيز عنصرك الأساسي. يؤدي الضغط على أحد أزرار A/B/X/Y في أثناء الضغط على السلاح السريع إلى التبديل إلى إحدى فتحات العناصر الأخرى. يمكنك الضغط على السلاح السريع وأحد أزرار A/B/X/Y في آن واحد لتبديل ذلك العنصر على الفور، أو الضغط باستمرار على زر السلاح السريع للمدة التي تريدها لتتعود طريقة مطابقة أزرار A/B/X/Y للعناصر في المستودع.\n\nعند تفعيل هذا، تحل علامة محل السلاح السابق لتسهيل التواصل مع فرقتك. أو يمكنك استبدال إجراء من اختيارك بسلاح سابق من خلال تخصيص عناصر التحكم لديك من تبويب تخصيص وحدة التحكم.",
@@ -7385,7 +7399,7 @@
     "FortReticleColorMagenta_Name": "أرجواني",
     "EasyAutorunLockZone_Description": "يسهّل تفعيل الركض التلقائي عند استخدام منطقة قفل الركض التلقائي.",
     "AutoClamber_Name": "تنشيط التمدّد",
-    "PingPlaceDangerMarkerWhenTargeting_Name": "وضع علامة خطر عند التصويب بالمنظار",
+    "PingPlaceDangerMarkerWhenTargeting_Name": "وضع علامة خطر عند التصويب",
     "MarketingPushNotificationCollection_Name": "إشعارات التسويق اللحظية",
     "MatchmakingRegion_Name": "منطقة إعداد المباريات",
     "MatchmakingRegion_Name_PS4": "منطقة العثور على اللاعبين",
@@ -7613,6 +7627,7 @@
     "WindingSpeedScaledByZoom_Description_Switch": "لتقليل سرعة دوران ذراع التمرير السريع تلقائيًا اعتمادًا على قدر التكبير. يساعد هذا في مسح المنطقة بثبات أثناء القنص مثلًا. لا يؤثر هذا على التمرير نفسه عندما تحرك الذراع في البداية.",
     "WindingSpeedScaledByZoom_Description": "لتقليل سرعة دوران ذراع التمرير السريع تلقائيًا اعتمادًا على قدر التكبير. يساعد هذا في مسح المنطقة بثبات أثناء القنص مثلًا. لا يؤثر هذا على التمرير نفسه عندما تحرك الذراع في البداية.",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "لتقليل سرعة دوران ذراع التمرير السريع تلقائيًا اعتمادًا على قدر التكبير. يساعد هذا في مسح المنطقة بثبات أثناء القنص مثلًا. لا يؤثر هذا على التمرير نفسه عندما تحرك الذراع في البداية.",
+    "VoiceChatUseNoiseReduction_Description": "يقلل من الضوضاء الخلفية في الميكروفون، مثل المراوح أو الكتابة أو صدى الغرفة. قم بإيقاف تشغيل هذا الخيار إذا أبلغ اللاعبون الآخرون أن صوتك يبدو مشوشاً أو آلياً أو متقطعاً.",
     "ReducedDataUsage_Description": "يخفض كم البيانات التي تُنزّل تلقائيًا. \n\nسيفيدك هذا الخيار إذا كانت خطة جهازك الخلوي أو خطة الإنترنت لها حد أقصى للبيانات ولا تريد تجاوزه.",
     "GyroSensitivityScaledByZoom_Description": "يقلل من حساسية التصويب تلقائيًا اعتمادًا على مقدار التكبير. يمكن أن يساعد هذا في ثبات تصويبك عند استخدام أسلحة بعيدة المدى.",
     "Reflections_Description": "تحدد جودة الانعكاس دقة الانعكاسات في الصورة.\n\nخيارا \"لومن عالية\" و\"لومن ملحمية\" يقدمان جودة أعلى ولكن قد يقللان من الأداء.\n\nإيقاف: إيقاف تشغيل الانعكاسات.\n\nمساحة الشاشة: يحسب الانعكاسات وفقًا لما يظهر حاليًا على الشاشة فقط.\n\nلومن عالية/ملحمية: تتبع أشعة عالي الجودة في الوقت الفعلي.",
@@ -7714,7 +7729,7 @@
     "TimeLimitsActionDescription": "عيّن حدود الوقت لإجمالي الوقت الذي يقضيه طفلك في Fortnite ووضع Fortnite الإبداعي وUnreal Editor لـ Fortnite ‏(UEFN).",
     "SafeZone_Description": "قم بتعيين منطقة أمان واجهة المستخدم للمنصة.",
     "TouchDragSensitivity_Description": "يحدد حساسة اللمس والسحب. يؤدي رفع الإعدادات إلى تحريك الكاميرا بسرعة أكبر عند السحب للنظر حولك.",
-    "ToggleTargeting_Description": "يحدد التصويب بالمنظار ليكون من خلال مفتاح التشغيل/الإيقاف أو الضغط المستمر عند استخدام وحدة تحكم أو أجهزة أخرى لا تدعم اللمس.",
+    "ToggleTargeting_Description": "يقوم هذا الخيار بتعيين خاصية التصويب لتكون مفتاح تشغيل/إيقاف أو زر ضغط مستمر عند استخدام وحدة تحكم أو أجهزة أخرى غير تعمل باللمس.",
     "ToggleTargetingTouch_Description": "يحدد التصويب بالمنظار ليكون من خلال مفتاح التشغيل/الإيقاف أو الضغط باستمرار عند استخدام عناصر التحكم باللمس.",
     "TouchSmoothing_Description": "تحديد مدى سلاسة حركة الكاميرا عند النظر حولك باستخدام عناصر التحكم باللمس. القيم الأعلى أكثر سلاسة.",
     "ShowTextChat_Description": "يحدد نطاق اللاعبين الآخرين الذين ترغب في إجراء دردشة نصية معهم. يمكنك إرسال رسائل مباشرة وتلقيها فقط من اللاعبين في قائمة أصدقائك.\n\n<strong>الجميع</>: يمكنك إرسال رسائل الدردشة النصية وتلقيها من الجميع في قنوات اللعبة والمجموعة.\n\n<strong>الأصدقاء وزملاء الفريق</>: يمكنك إرسال رسائل الدردشة النصية وتلقيها من الأصدقاء وزملاء الفريق في قنوات اللعبة والمجموعة. سيختلف حجم الفريق وفقًا للتجربة، بحيث سيتراوح من بضعة لاعبين إلى جميع المشاركين في جلسة اللعبة. يمكنك عرض قائمة أعضاء الفريق في الشريط الجانبي.\n\n<strong>الأصدقاء فقط</>: يمكنك إرسال رسائل الدردشة النصية وتلقيها من أصدقائك في قنوات اللعبة والمجموعة. لن يتمكن اللاعبون الذين ليسوا أصدقاء لك من إرسال رسائل الدردشة النصية إليك، ولن يتلقوا رسائلك.\n\n<strong>معطّلة</>: الدردشة النصية والإبلاغ النصي معطّلان.\n\n<strong>حول الإبلاغ النصي</>\nعند تفعيل الإبلاغ النصي، يتيح هذا إرسال محتويات قنوات الدردشة النصية الخاصة بك إلى Epic Games فقط إذا أبلغ أحد المشاركين عن انتهاك ما. عادةً ما يكون الإبلاغ النصي مفعلًا، باستثناء الرسائل المباشرة والمجموعات المكونة بين الأصدقاء حيث يفضّل جميع اللاعبين تعطيل الإبلاغ النصي. يمكنك معرفة إذا ما كان الإبلاغ النصي مفعلًا أم معطلًا حاليًا في حقل إدخال النصوص قبل كتابة رسالة. يكون الإبلاغ النصي مفعلًا دائمًا للاعبين الذين تقل أعمارهم عن 18 عامًا.{0}\n\nتفقّد إعداد الإبلاغ النصي لمزيد من التفاصيل والخيارات.",
@@ -7832,6 +7847,7 @@
     "StopRenderingInBackground_Name": "إيقاف العرض في الخلفية",
     "StopRenderingInBackground_Description": "توقف عن العرض عندما لا تكون نافذة اللعبة مركّزة إن أمكن. توفّر موارد وحدة معالج رسوميات من أجل تطبيقات أخرى.",
     "KeyboardMovementStrafeDiagonal_Name": "زاوية القصف",
+    "StrictInjectionPolicy_Name": "سياسة الدخول الصارمة",
     "MatchmakingSubregion_Name": "تفضيل المنطقة الفرعية",
     "SubtitlePage_Name": "الترجمة",
     "SubtitlesCollection_Name": "الترجمة",
@@ -8005,7 +8021,7 @@
     "InvertPitchForAircraftPrimary_Description": "لتشغيل/ إيقاف عكس توجيه وحدة تحكم الطائرة. عند التشغيل، يؤدي التحريك إلى الأمام إلى توجيه الطائرة إلى أسفل.",
     "InvertPitchForAircraftSecondary_Description": "تشغيل/إيقاف عكس توجيه الطائرة من خلال الماوس عند التشغيل، يؤدي تحريك الماوس للأمام إلى توجيه الطائرة للأسفل",
     "InvertPitchForAircraftTouch_Description": "لتشغيل/ إيقاف عكس توجيه عناصر تحكم الطائرة باللمس. عند التشغيل، يؤدي تحريك عناصر التحكم باللمس إلى الأمام إلى توجيه الطائرة إلى أسفل.",
-    "AutoPickUpEnabled_Description": "تشغيل/إيقاف الالتقاط التلقائي للعناصر.عند التشغيل، ستُلتقط العناصر تلقائيًا عند المرور فوقها.",
+    "AutoPickUpEnabled_Description": "تشغيل/إيقاف التقاط العناصر تلقائيًا. عند التشغيل، يتم التقاط العناصر تلقائيًا عند المرور فوقها، وتستبدل العناصر الأفضل العناصر الحالية عند الحاجة.",
     "AutoSortConsumablesToHigherSlots_Description": "عند تشغيل/إيقاف تشغيل الفرز التلقائي للعناصر القابلة للاستهلاك إلى أعلى خانات مرقمة عند التشغيل، سيتم إدراج العناصر القابلة للاستهلاك مثل الصحة والدروع افتراضيًا للخانة الفارغة الأعلى عند اختيارها.",
     "AutoSortConsumablesToRight_Description": "تشغيل/إيقاف تشغيل الفرز التلقائي للعناصر القابلة للاستهلاك إلى اليمين عند التشغيل، سيتم إدراج العناصر القابلة للاستهلاك مثل الصحة والدروع افتراضيًا للخانة الفارغة أقصى اليمين عند اختيارها.",
     "GamepadAutoRun_Description_PS4": "تشغيل/إيقاف الجري التلقائي بوحدة التحكم. عند التشغيل، سيؤدي الضغط على زر L3 مرتين إلى جعلك تجري للأمام تلقائيًا دون الحاجة إلى الضغط مطولًا على الذراع الأيسر للأمام.",
@@ -8499,6 +8515,7 @@
     "ErrorSendingMessage": "حدث خطأ عند إرسال الرسالة:{0}",
     "HiddenPlayerSays": "يقول لاعب متخفٍ: ",
     "BlockedPlayerMessage": "رسالة مخفية",
+    "FilteringUnavailableMessage": "الرسالة غير متوفرة بسبب فشل تصفية النص.",
     "TextChatDisabledByPlasterBeach": "TDB",
     "TextChatDisabledByTournamentMode": "تم تعطيل الدردشة النصية لأن برنامج اللعبة هذا في وضع البطولة.",
     "TextChatEnabled": "تم تفعيل الدردشة النصية.",
@@ -8511,6 +8528,7 @@
     "WelcomeDelMar": "مرحبًا بك في Rocket Racing! دردش مع زملائك المتسابقين!",
     "WelcomeSparks": "مرحبًا بك في المنصة الرئيسية! تحدث إلى أعضاء فرقتك في أثناء اختيار ما ستلعبونه.",
     "WelcomeJuno": "مرحبًا بك في {0}! أخبر الجميع لماذا أنت هنا!",
+    "VerseSubChannelSendBlockedMessage": "لا يمكنك إرسال رسائل في هذه القناة.",
     "TextChatDisabledByUser": "عطّلت الدردشة النصية في الإعدادات.",
     "YouJoinedGameMessage": "انضممت إلى قناة اللعبة.",
     "YouJoinedPartyMessage": "انضممت إلى المجموعة.",
@@ -8756,6 +8774,25 @@
     "SettingSaveFailed_Title": "فشل في حفظ الإعدادات",
     "SettingSaveFailed_Description": "يبدو أن خدمة الرقابة الأبوية تواجه مشكلة. حاول مرة أخرى بعد بضع دقائق. إذا استمرت المشكلة، فيُرجى زيارة https://status.epicgames.com."
   },
+  "FortSystemConfigRequirements": {
+    "IOMMU": "محاكاة مُعدات IOMMU الافتراضية",
+    "DmaRemapping": "حماية Kernel DMA",
+    "KernelCodeIntegrity": "سلامة الذاكرة",
+    "InvalidConfigReason": "تكوين أمان النظام المطلوب غير متوفر. يُرجى إعادة المحاولة لاحقًا.",
+    "SecureBoot": "الحصول على حذاء برقبة",
+    "StableOSVersion": "إصدار نظام تشغيل مستقر",
+    "StrictInjectionPolicy": "سياسة الدخول الصارمة",
+    "InvalidConfig": "تكوين أمان النظام",
+    "CryptoProcessor": "وحدة النظام الأساسي الموثوق (TPM)"
+  },
+  "FortSystemConfigRequirementsModalVM": {
+    "DialogTitle": "متطلبات أمنية إضافية",
+    "Enabled": "مفعّل",
+    "EnabledWithWarning": "مُفعّل مع تحذير",
+    "NotEnabled": "غير مُفعل",
+    "UnknownStatus": "الحالة غير متوفرة",
+    "DialogIntroduction": "لا يستوفي نظامك متطلبات الأمان الإضافية اللازمة للعب. اختر اعرف المزيد لزيارة دعم Easy Anti-Cheat."
+  },
   "FortTabListWidgetBase": {
     "UnspecifiedTab": "غير محدد"
   },
@@ -8775,7 +8812,9 @@
   },
   "FortTextChatConversationVM": {
     "PartyFrameworkUnavailable": "إطار عمل المجموعة غير متاح",
-    "SocialToolkitUnavailable": "مجموعة الأدوات الاجتماعية غير متاحة"
+    "SocialToolkitUnavailable": "مجموعة الأدوات الاجتماعية غير متاحة",
+    "InvalidJoinPartyConversation": "تعذر الانضمام إلى المجموعة لأن المحادثة غير متاحة.",
+    "InvalidStartPartyConversation": "يتعذر بدء مجموعة لأن المحادثة غير متاحة."
   },
   "FortTextChatPlayerVM": {
     "RedactedUserBlocked": "<Blocked player>",
@@ -8783,10 +8822,14 @@
     "MessageDelayedFont": "<تأخرت الرسالة، حتى يصبح تحميل خط جديد ممكنًا>",
     "ConversationsDest": "الدردشات",
     "TempTitle": "جارٍ إحضار الاسم...",
+    "VerseSubChannelDefaultName": "اللعبة",
     "NewChatOption": "دردشة جديدة",
+    "VerseSubChannelChanged": "يمكنك الآن الدردشة في {0}",
     "ClamOneMessage": "تذكّر أنك تستطيع كتم أصوات اللاعبين أو حظرهم عن طريق زر ... أو عن طريق تحديد رسائلهم في المحادثة لاحقًا",
     "SendDM": "أرسِل رسالة",
-    "DMWelcomeMessage": "مرحبًا بك في الرسائل المباشرة مع {0}!"
+    "DMWelcomeMessage": "مرحبًا بك في الرسائل المباشرة مع {0}!",
+    "VerseSubChannelMuted": "لا يمكنك الكتابة في {0} الآن",
+    "VerseChatSenderNameFormat": "[{0}] {1}"
   },
   "FortTournamentLobbyPanel": {
     "NoMatchTimeDescription": "آخر مواجهة بدأت",
@@ -8893,7 +8936,6 @@
     "EpicPartyGroupInviteDetailsSent": "تم إرسال دعوة المجموعة إلى <Username>{0}</>",
     "EpicPartyInviteDetailsSent": "تم إرسال دعوة المجموعة إلى <Username>{0}</>",
     "PartyInviteDetailsSent": "تم إرسال دعوة المجموعة إلى <Username>{0}</>",
-    "EpicPartyJoinabilityChangedInviteOnlyDetails": "يمكن دخول المجموعة بالدعوات فقط",
     "EpicPartyJoinRequestReceived_Title": "طلب الانضمام إلى المجموعة",
     "EpicPartyMemberCreated": "انضم لاعب إلى المجموعة",
     "PartyMemberCreated": "انضم لاعب إلى المجموعة",
@@ -8918,6 +8960,7 @@
     "RequestToJoinParty_RateLimited": "لقد أرسلت عددًا كبيرًا من الطلبات، حاول مرة أخرى لاحقًا",
     "FriendToastSelfTooManyFriends": "لديك عدد كبير من الأصدقاء",
     "FriendToastSelfOutboxFull": "لديك الكثير من طلبات الصداقة الصادرة",
+    "EpicPartyJoinabilityChangedInviteOnlyDetails": "يمكن الانضمام إلى مجموعتك بالدعوات فقط",
     "EpicPartyJoinabilityChangedOpenDetails": "الانضمام إلى مجموعتك متاح",
     "NotifMgrForkMemberNoAccessToast": "لا يملك {Username} صلاحية الوصول إلى التفريع المحدد، وستؤدي المتابعة إلى تجاهل التفريع"
   },
@@ -8938,7 +8981,7 @@
     "NoInternetDesc": "يرجى التحقق من اتصالك وإعادة المحاولة مرة أخرى.",
     "QuitText": "خروج",
     "Benchmark": "المعايير النموذجية قيد التشغيل...",
-    "ServicesSlow": "الخوادم لا تستجيب",
+    "ServicesSlow": "الخوادم غير متاحة الآن. تحقق مجددًا لاحقًا.",
     "RHIChangeSettingsApplied_Title": "الإعدادات مفعّلة",
     "LogoutComplete": "تم تسجيل الخروج بنجاح.",
     "OfferRHIChangeForStability_FullDescription": "برنامج تشغيل الرسومات المُثبّت على جهاز الكمبيوتر الخاص بك يواجه مشكلات في الاستقرار مع وضع العرض الحالي (DirextX 12) وقد يحدث خطأ في أثناء لعب Fortnite. هل تود أن تغيّر إلى {NewRHI} لتحظى بتجربة لعب أكثر استقرارًا؟ {OptionalAutoRestartText}",
@@ -9722,8 +9765,17 @@
     "ProgressFormat": "ترحيل المكوّن الإضافي {0} من {1}",
     "PhasePrimaryModule": "جارٍ ترحيل وحدة اللعبة الرئيسية…",
     "PhaseComplete": "اكتمل الترحيل",
+    "MigrationFailed": "فشل الترحيل مع ظهور خطأ: {0}⏎⏎تم الاحتفاظ بالتقدم عند نقطة الفشل.",
     "PhaseFailed": "فشل الترحيل: {0}",
-    "ProgressReady": "على استعداد للترحيل"
+    "NoFortMobileHUDElementWrapperClassProvided": "لم تتوفر فئة Fort HUD Element Wrapper للنقل. يُرجى تحديده في إعدادات نقل HLTv2 إلى واجهة المستخدم القابلة للتخصيص، في علامة تبويب إعدادات المشروع",
+    "NoBaseHLTRegistryProvided": "لم يتم توفير سجل عناصر واجهة مستخدم شاشة عرض المعلومات على الأجهزة المحمولة لأداة تخطيط شاشة عرض المعلومات الأساسية لعملية النقل. يُرجى تحديده في إعدادات نقل HLTv2 إلى واجهة المستخدم القابلة للتخصيص، في علامة تبويب إعدادات المشروع",
+    "NoBaseMoveStickCanvasClassProvided": "لم يتم توفير فئة لوحة عصا التحريك الأساسية للترحيل. يُرجى تحديده في إعدادات نقل HLTv2 إلى واجهة المستخدم القابلة للتخصيص، في علامة تبويب إعدادات المشروع",
+    "NoMigrationConfigProvided": "لم يتم توفير أصل تهيئة للترحيل. يُرجى تحديده في إعدادات نقل HLTv2 إلى واجهة المستخدم القابلة للتخصيص، في علامة تبويب إعدادات المشروع",
+    "NoExcludeConditionProvided": "لم يتم توفير شرط استبعاد لواجهة المستخدم الديناميكية للترحيل. يُرجى تحديده في إعدادات نقل HLTv2 إلى واجهة المستخدم القابلة للتخصيص، في علامة تبويب إعدادات المشروع",
+    "NoTouchActionButtonWrapperClassProvided": "لم يُوفَّر غلاف أزرار إجراء اللمس من أجل الترحيل. يُرجى تحديده في إعدادات نقل HLTv2 إلى واجهة المستخدم القابلة للتخصيص، في علامة تبويب إعدادات المشروع",
+    "ProgressReady": "على استعداد للترحيل",
+    "AllHLTv2SetupsMigratedToCustomizableUISuccessfully": "تم ترحيل جميع المكونات الإضافية المسجلة باستخدام إعدادات HLTv2 بنجاح إلى واجهة المستخدم القابلة للتخصيص.",
+    "NoBaseCustomizableUIRegistryPluginProvided": "يتطلب ترحيل المكوّنات الإضافية لميزة لعبة الجذر تشغيل ترحيل سجل أداة HLT الأساسي أولًا. يرجى تحديد بيانات ميزة اللعبة المقصودة في إعدادات نقل HLTv2 إلى واجهة مستخدم قابلة للتخصيص، في تبويب إعدادات المشروع"
   },
   "HUD": {
     "Cancel": "إلغاء",
@@ -9801,8 +9853,6 @@
   },
   "IARC": {
     "USK_AGE_0_Abbreviated": "0",
-    "EPIC_SUGGESTED_RATING_AGE_0": "0+",
-    "EPIC_SUGGESTED_RATING_AGE_0_Abbreviated": "0+",
     "RUSSIA_AGE_0_Abbreviated": "0+",
     "TCA_AGE_G_Abbreviated": "0+",
     "CLASSIND_AGE_10_Abbreviated": "10",
@@ -9821,8 +9871,6 @@
     "PEGI_AGE_12_Abbreviated": "12",
     "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "12 عامًا",
-    "EPIC_SUGGESTED_RATING_AGE_12": "أكبر من 12",
-    "EPIC_SUGGESTED_RATING_AGE_12_Abbreviated": "أكبر من 12",
     "GEN_AGE_12": "12+",
     "GEN_AGE_12_Abbreviated": "12+",
     "RUSSIA_AGE_12": "أكبر من ١٢",
@@ -9835,52 +9883,18 @@
     "IGRS_AGE_13_Abbreviated": "13+",
     "CLASSIND_AGE_14_Abbreviated": "14",
     "CLASSIND_AGE_14": "14 عامًا",
-    "EPIC_SUGGESTED_RATING_AGE_14": "14+",
-    "EPIC_SUGGESTED_RATING_AGE_14_Abbreviated": "14+",
     "CERO_AGE_15_Abbreviated": "15",
     "IGRS_AGE_15": "15+",
     "IGRS_AGE_15_Abbreviated": "15+",
     "TCA_AGE_PG_15_Abbreviated": "15+",
     "CLASSIND_AGE_16_Abbreviated": "16",
-    "FPB_AGE_16": "16",
-    "FPB_AGE_16_Abbreviated": "16",
-    "GCAM_AGE_16": "16",
-    "GCAM_AGE_16_Abbreviated": "16",
     "GMEDIA_AGE_16": "16",
     "GMEDIA_AGE_16_Abbreviated": "16",
-    "MRO_AGE_16": "16",
-    "MRO_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 عامًا",
-    "EPIC_SUGGESTED_RATING_AGE_16": "أكبر من 16",
-    "EPIC_SUGGESTED_RATING_AGE_16_Abbreviated": "أكبر من 16",
-    "GEN_AGE_16": "أكبر من 16",
-    "GEN_AGE_16_Abbreviated": "أكبر من 16",
-    "RUSSIA_AGE_16": "أكبر من 16",
-    "RUSSIA_AGE_16_Abbreviated": "أكبر من 16",
     "USK_AGE_16": "أكبر من 16",
-    "FPB_AGE_18": "18",
-    "FPB_AGE_18_Abbreviated": "18",
-    "GCAM_AGE_18": "18",
-    "GCAM_AGE_18_Abbreviated": "18",
-    "GMEDIA_AGE_18": "18",
-    "GMEDIA_AGE_18_Abbreviated": "18",
-    "MRO_AGE_18": "18",
-    "MRO_AGE_18_Abbreviated": "18",
+    "CLASSIND_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 سنة",
-    "CLASSIND_AGE_18_Abbreviated": "18 سنة",
-    "EPIC_SUGGESTED_RATING_AGE_18": "18+",
-    "EPIC_SUGGESTED_RATING_AGE_18_Abbreviated": "18+",
-    "GEN_AGE_18": "18+",
-    "GEN_AGE_18_Abbreviated": "18+",
-    "IGRS_AGE_18": "18+",
-    "IGRS_AGE_18_Abbreviated": "18+",
-    "RUSSIA_AGE_18": "18+",
-    "RUSSIA_AGE_18_Abbreviated": "18+",
-    "GMEDIA_AGE_21": "21",
-    "GMEDIA_AGE_21_Abbreviated": "21",
-    "MRO_AGE_21": "21",
-    "MRO_AGE_21_Abbreviated": "21",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
     "GMEDIA_AGE_3": "3",
@@ -9892,11 +9906,7 @@
     "GEN_AGE_3_Abbreviated": "3+",
     "IGRS_AGE_3": "3+",
     "IGRS_AGE_3_Abbreviated": "3+",
-    "CLASSIND_AGE_6_Abbreviated": "6",
     "USK_AGE_6_Abbreviated": "6",
-    "CLASSIND_AGE_6": "6 أعوام",
-    "EPIC_SUGGESTED_RATING_AGE_6": "أكبر من 6",
-    "EPIC_SUGGESTED_RATING_AGE_6_Abbreviated": "أكبر من 6",
     "RUSSIA_AGE_6": "أكبر من ٦",
     "RUSSIA_AGE_6_Abbreviated": "6+",
     "TCA_AGE_P_Abbreviated": "أكبر من 6",
@@ -9914,12 +9924,13 @@
     "IGRS_AGE_7_Abbreviated": "7+",
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
+    "ClassInd_AIInteraction_v11_0": "تفاعل الذكاء الاصطناعي",
     "USK_AbstrakteGewalt": "عنف تجريدي",
     "ACB_ActionViolence_v10_0": "‫عنف الحركة",
     "ClassInd_AdolescentThemes": "سمات مراهقة",
+    "ClassInd_AdultContent_v11_0": "محتوى للبالغين",
     "ClassInd_AdultThemes": "سمات للبالغين",
-    "ESRB_AGE_AO": "للبالغين فقط 18+",
-    "ESRB_AGE_AO_Abbreviated": "للبالغين فقط 18+",
+    "ClassInd_Advertising_v11_0": "إعلان",
     "USK_Alokohol_v9_0": "الكحول",
     "ESRB_AlcoholReference": "إشارة خاصة بالمخدرات والكحوليات",
     "USK_Alkoholkonsum": "تناول الكحول",
@@ -9932,6 +9943,7 @@
     "ESRB_AnimatedBlood": "إراقة الدماء",
     "TCA_AntiSociety": "معاداة للمجتمع",
     "ClassInd_AttenuatedAdultThemes": "سمات للبالغين غير مهينة",
+    "ClassInd_AudioVideoSharing_v11_0": "مشاركة الصوت والفيديو",
     "GEN_BadLanguage": "لغة نابية",
     "PEGI_BadLanguage": "لغة نابية",
     "ACB_BattleViolence": "عنف قتالي",
@@ -9946,10 +9958,6 @@
     "CERO_AGE_0": "CERO A",
     "CERO_AGE_12": "CERO B",
     "CERO_AGE_15": "CERO C",
-    "CERO_AGE_17": "CERO D",
-    "CERO_AGE_17_Abbreviated": "CERO D",
-    "CERO_AGE_18": "CERO Z",
-    "CERO_AGE_18_Abbreviated": "CERO Z",
     "IE_Competitive_Intensity": "الشدة التنافسية (CI)",
     "TCA_CardOrCasualGames": "ألعاب بطاقات أو ألعاب الجميع",
     "ESRB_CartoonViolence": "‏‫عنف الرسوم المتحركة‬",
@@ -9961,12 +9969,14 @@
     "IGRS_CharacterAppearance": "مظهر الشخصية",
     "TCA_ChessGames": "ألعاب شطرنج",
     "ACB_CoarseLanguage": "لغة للبالغين",
+    "EPIC_OFLC_Coarse_Language": "لغة للبالغين",
     "ACB_ComedicViolence": "عنف كوميدي",
     "ESRB_ComicMischief": "‏‫عنف هزلي‬",
     "USK_ComicGewalt_v9_0": "عنف هزلي",
     "FPB_CompetitiveIntensity": "الشدة التنافسية",
     "ClassInd_ConsumptionofAlcohol": "معاقرة الكحول",
     "USK_Kontaktrisiken_v10_0": "مخاطر الاتصال",
+    "ClassInd_ContentRecommendation_v11_0": "توصية المحتوى",
     "USK_InhalteFuerVerschiedeneAltersgruppen_v7_0": "محتويات لمجموعات الفئة العمرية المختلفة",
     "CERO_ControlledSubstances": "مواد خاضعة للرقابة",
     "CERO_Crime": "الجريمة",
@@ -10032,12 +10042,8 @@
     "RUS_Fear_v7_0": "خوف",
     "IGRS_FearHorror": "الخوف أو الرعب",
     "GRAC_AGE_12": "للأعمار من 12 عام وأكثر",
-    "GRAC_AGE_15": "للأعمار من 15 فأكثر",
-    "GRAC_AGE_15_Abbreviated": "للأعمار من 15 فأكثر",
     "GRAC_AGE_ALL": "لجميع الأعمار",
     "ACB_AGE_G_Abbreviated": "عام",
-    "CSRR_AGE_0": "G",
-    "CSRR_AGE_0_Abbreviated": "G",
     "OFLC_AGE_0": "G",
     "OFLC_AGE_0_Abbreviated": "عام",
     "CERO_Gambling": "مقامرة",
@@ -10105,6 +10111,7 @@
     "ACB_HorrorViolence": "عنف مرعب",
     "ACB_HuntingViolence": "عنف خاص بالصيد",
     "ClassInd_DrogasIlicitas": "العقاقير المحظورة",
+    "ClassInd_ImageManipulation_v11_0": "معالجة الصور",
     "FPB_ImitativeActsAndTechniques": "Imitative Acts and Techniques",
     "ClassInd_ConteudoImpactante": "محتوى مؤثر",
     "ACB_ImpliedSexualViolence": "عنف جنسي ضمني",
@@ -10144,8 +10151,6 @@
     "OFLC_AGE_15": "M",
     "OFLC_AGE_15_Abbreviated": "بالغون",
     "ACB_AGE_M": "بالغون",
-    "ESRB_AGE_M": "للبالغين 17+",
-    "ESRB_AGE_M_Abbreviated": "للبالغين 17+",
     "ESRB_MatureHumor": "‏‫فكاهة للكبار‬",
     "ACB_MatureThemes": "موضوعات للبالغين",
     "ClassInd_ProcedimentosMedicos_v8_0": "الإجراءات الطبية",
@@ -10207,26 +10212,12 @@
     "PEGI_ModerateViolence": "عنف متوسط",
     "ClassInd_ModerateViolenceAnimated": "عنف متوسط متحرك",
     "ClassInd_ModeratelyRealisticViolence": "عنف واقعي إلى حد ما",
-    "ACB_AGE_NA": "غير متاح",
-    "ACB_AGE_NA_Abbreviated": "غير متاح",
-    "GRAC_AGE_NA": "غير متاح",
-    "GRAC_AGE_NA_Abbreviated": "غير متاح",
-    "TCA_AGE_NA": "غير متاح",
-    "TCA_AGE_NA_Abbreviated": "غير متاح",
     "ACB_NoConsumerAdvice": "لا توجد توجيهات للمستهلكين",
     "ClassInd_Naohainadequacoes": "لا توجد واصفات",
     "ESRB_NoDescriptors": "لا توجد واصفات",
     "GEN_NoDescriptors": "لا توجد واصفات",
     "PEGI_NoDescriptors": "لا توجد واصفات",
     "USK_NoDescriptors": "لا توجد واصفات",
-    "USK_AGE_18": "ليس للناشئين",
-    "USK_AGE_18_Abbreviated": "ليس للناشئين",
-    "GMEDIA_AGE_NA": "لا ينطبق",
-    "GMEDIA_AGE_NA_Abbreviated": "لا ينطبق",
-    "IGRS_AGE_NA": "لا ينطبق",
-    "IGRS_AGE_NA_Abbreviated": "لا ينطبق",
-    "GRAC_AGE_ADULT": "غير مناسب للناشئين",
-    "GRAC_AGE_ADULT_Abbreviated": "غير مناسب للناشئين",
     "ACB_Nudity": "عُري",
     "ClassInd_Nudez": "عُري",
     "ESRB_Nudity": "عُري",
@@ -10245,14 +10236,8 @@
     "ACB_GEMCO": "تفاعل عبر الإنترنت",
     "ACB_OnlineInteractivityAndChat_v10_0": "التفاعل والدردشة عبر الإنترنت",
     "IE_OnlineMusicNotRatedByESRB": "الموسيقى عبر الإنترنت لا تخضع لتصنيف ESRB",
-    "CSRR_AGE_6": "P",
-    "CSRR_AGE_6_Abbreviated": "P",
     "PEGI_AGE_PG": "الإرشاد الأبوي موصى به",
     "PEGI_AGE_12": "PEGI 12",
-    "PEGI_AGE_16": "PEGI 16",
-    "PEGI_AGE_16_Abbreviated": "PEGI 16",
-    "PEGI_AGE_18": "PEGI 18",
-    "PEGI_AGE_18_Abbreviated": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10261,10 +10246,6 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
-    "CSRR_AGE_12": "إرشاد أبوي للأقل من 12 سنة",
-    "CSRR_AGE_12_Abbreviated": "إرشاد أبوي للأقل من 12 سنة",
-    "CSRR_AGE_15": "إرشاد أبوي للأقل من 15 سنة",
-    "CSRR_AGE_15_Abbreviated": "إرشاد أبوي للأقل من 15 سنة",
     "TCA_AGE_PG_12": "الإرشاد الأبوي",
     "TCA_AGE_PG_15": "الإرشاد الأبوي 15",
     "GEN_ParentalGuidanceRecommended": "الإرشاد الأبوي موصى به",
@@ -10283,22 +10264,6 @@
     "PEGI_ProminentGamblingImagery_v9_0": "صور مميزة للمقامرة",
     "TCA_AGE_P": "محمي",
     "ClassInd_PsychologicalConflicts": "تضاربات اجتماعية",
-    "CSRR_AGE_18": "R",
-    "CSRR_AGE_18_Abbreviated": "R",
-    "OFLC_AGE_13": "مناسب لسن 13",
-    "OFLC_AGE_13_Abbreviated": "مناسب لسن 13",
-    "OFLC_AGE_R15": "مناسب لسن 15",
-    "OFLC_AGE_R15_Abbreviated": "مناسب لسن 15",
-    "OFLC_AGE_16": "مناسب لسن 16",
-    "OFLC_AGE_16_Abbreviated": "مناسب لسن 16",
-    "OFLC_AGE_18": "مناسب لسن 18",
-    "OFLC_AGE_18_Abbreviated": "مناسب لسن 18",
-    "ESRB_RATING_PENDING_AGE_10": "التقييم معلق",
-    "ESRB_RATING_PENDING_AGE_10_Abbreviated": "التقييم معلق",
-    "ESRB_RATING_PENDING_AGE_17": "التقييم معلق",
-    "ESRB_RATING_PENDING_AGE_17_Abbreviated": "التقييم معلق",
-    "ESRB_RATING_PENDING_M_AGE_17": "التقييم معلق، من المحتمل أن يكون للبالغين 17+",
-    "ESRB_RATING_PENDING_M_AGE_17_Abbreviated": "التقييم معلق، من المحتمل أن يكون للبالغين 17+",
     "GRAC_RandomBox_v7_1": "مربع عشوائي",
     "USK_SelteneSchreckmomente": "مواقف مرعبة نادرة",
     "ESRB_RealGamblingOnly_v9_0": "مقامرة حقيقية",
@@ -10308,27 +10273,7 @@
     "ClassInd_RealisticBlood": "دم واقعي",
     "USK_AndeutungenSexuellerGewalt": "عنف جنسي مشار إليه",
     "ACB_ReferencestoSexualViolence": "إشارات للعنف الجنسي",
-    "ACB_AGE_RC": "تصنيف مرفوض",
-    "ACB_AGE_RC_Abbreviated": "تصنيف مرفوض",
     "ACB_RefusedClassification": "تصنيف مرفوض",
-    "GMEDIA_AGE_RC": "تصنيف مرفوض",
-    "GMEDIA_AGE_RC_Abbreviated": "تصنيف مرفوض",
-    "GRAC_AGE_RC": "تصنيف مرفوض",
-    "GRAC_AGE_RC_Abbreviated": "تصنيف مرفوض",
-    "IGRS_AGE_RC": "تصنيف مرفوض",
-    "IGRS_AGE_RC_Abbreviated": "تصنيف مرفوض",
-    "RUSSIA_AGE_RC": "تصنيف مرفوض",
-    "RUSSIA_AGE_RC_Abbreviated": "تصنيف مرفوض",
-    "TCA_AGE_RC": "تصنيف مرفوض",
-    "TCA_AGE_RC_Abbreviated": "تصنيف مرفوض",
-    "USK_AGE_RC": "تصنيف مرفوض",
-    "USK_AGE_RC_Abbreviated": "تصنيف مرفوض",
-    "ACB_AGE_MA15": "مقيد",
-    "ACB_AGE_MA15_Abbreviated": "مقيد",
-    "ACB_AGE_R18": "مقيد",
-    "ACB_AGE_R18_Abbreviated": "مقيد",
-    "TCA_AGE_R": "مقيد",
-    "TCA_AGE_R_Abbreviated": "مقيد",
     "USK_AngstigendeInhalte": "محتوى مخيف",
     "USK_Schreckmomente_v9_0": "لحظات مخيفة",
     "ACB_ScaryScenes": "مشاهد مخيفة",
@@ -10442,8 +10387,6 @@
     "ESRB_TobaccoReference": "إشارات خاصة بالتبغ",
     "USK_Tabakkonsum": "تدخين التبغ",
     "TCA_TobaccoAndAlcohol": "تبغ وكحول",
-    "EPIC_GRAC_AGE_19": "غير مُصنف",
-    "EPIC_GRAC_AGE_19_Abbreviated": "غير مُصنف",
     "IE_UnrestrictedInternet": "إنترنت غير مقيد",
     "ESRB_UseofAlcohol": "تناول الكحول",
     "ESRB_UseofAlcoholandTobacco": "تناول الكحول وتدخين التبغ",
@@ -10483,6 +10426,7 @@
     "ACB_VeryMildSexualisedImagery": "صور ذات طابع جنسي معتدلة تمامًا",
     "ACB_VeryMildSlapstickViolence_v10_0": "عنف مصفع معتدل جداً",
     "ACB_VeryMildSportingViolence_v10_0": "عنف خفيف جداً في الرياضة",
+    "EPIC_OFLC_Mild_Sports_Violence": "عنف رياضي طفيف للغاية",
     "ACB_VeryMildSuggestiveThemes": "موضوعات إيحائية غير حادة تمامًا",
     "ACB_VeryMildSupernaturalThemes": "موضوعات خارقة معتدلة تمامًا",
     "ACB_VeryMildSupernaturalViolence_v10_0": "عنف خارق معتدل جداً",
@@ -10597,8 +10541,8 @@
     "RestrictionLineFormat": "{Index}. {Restriction}"
   },
   "JunoBuildingSnapEditorDetails": {
-    "SnapEditorRotateInPlace": "In Place",
-    "Toolbar": "Snap Editor Toolbar"
+    "SnapEditorRotateInPlace": "في المكان",
+    "Toolbar": "شريط أدوات مُحرر اللقطات"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "علامات بيانات Juno Connectivity",
@@ -10614,30 +10558,30 @@
     "ConsolidatePrimitivesCombined": "Creating Redirectors - /JunoAtomAssets/CombinedMeshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesMeshes": "Creating Redirectors - /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "Creating Redirectors - /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
-    "GetAssetsOfType": "Gathering '{0}' Assets",
-    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
-    "PrintAtomModelsInfo": "Printing out a AtomModels info",
+    "GetAssetsOfType": "جارٍ جمع \"{0}\" من الأصول",
+    "UpdateGeneratedMeshes": "جارٍ توليد شبكات غير محفوظة",
+    "PrintAtomModelsInfo": "جارٍ طباعة معلومات النماذج الذرية",
     "RepairGeneratedMeshes": "جارٍ إصلاح النماذج الذَرية",
-    "RegeneratePrimitivesOnPrimitive": "Running Primitive Processor : {0} ({1})",
-    "RegeneratePrimitives": "Running Primitive Processor...",
-    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+    "RegeneratePrimitivesOnPrimitive": "جارٍ تشغيل المعالج الأولي: {0} ({1})",
+    "RegeneratePrimitives": "جارٍ تشغيل المعالج الأولي...",
+    "UpdateAllAtomModelsToUseProcessors": "جارٍ تحديث النماذج الذرية"
   },
   "JunoFECraftingDataTool": {
     "ImGuiFrontendCraftingDataTool": "أداة بيانات تصنيع Juno الأمامية",
     "ImGuiFrontendCraftingDataToolTooltip": "أداة لنسخ بيانات واجهة المستخدم لاستخدامها في الواجهة الأمامية"
   },
   "JunoValidator_AtomModel": {
-    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
-    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "يحتوي على مجموعة معالجات ولكنه يحتاج إلى إنشاء الشبكات.",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "لا يحتوي على مجموعة معالجات ولكنه يشير إلى الشبكات التي تم إنشاؤها"
   },
   "JunoValidator_ClientOnlyGameFeatureData": {
     "ClientOnlyRowStructOnServer": "هيكل الصف \"{0}\" ينتمي إلى الوحدة \"{1}\" الخاصة ببرنامج اللعبة فقط، ولكن يستخدمه \"{2}\" الذي يتم تحميله على الخادم. انقل الهيكل إلى وحدة وقت التشغيل أو تأكد من تحميل البيانات على برنامج اللعبة فقط."
   },
   "JunoValidator_GeometryCollection": {
-    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "يحتوي على شبكة مجهزة تلقائيًا فارغة",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "يمتلك شبكة وكيل فارغة",
-    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
-    "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "يتطلب شبكة واحدة على الأقل مُشغّلة تلقائيًا",
+    "JunoValidator_GeometryCollection_ProxyMeshes": "يتطلب شبكة وكيل واحدة على الأقل"
   },
   "JunoValidator_POI": {
     "ReplaceWithoutReplacement": "يُضبط صف نقطة الاهتمام '{0}' على استبدال، لكن لا تُعيّن أي نقطة اهتمام بديلة، لذا سيُزال فقط.عيّن بديلًا أو اضبط إجراءً غير صالح على إزالة.",
@@ -10651,14 +10595,14 @@
     "MismatchedRowStruct": "تجاوزات جدول بيانات أساسي لقائمة التشغيل[{0}] لعلامة قائمة التشغيل '{1}': يحتوي جدول التجاوز '{2}' على هيكل الصف '{3}'، لكن الجدول الأساسي '{4}' يستخدم هيكل صف '{5}'. يؤدي تجاوز جدول بيانات بنوع صف مختلف إلى تلف الذاكرة في أثناء التشغيل. يجب أن يستخدم جدول التجاوز هيكل الصف نفسه المستخدم في الجدول الأساسي."
   },
   "JunoValidator_StaticMesh": {
-    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
-    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
-    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
-    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
-    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
-    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
-    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
-    "JunoValidator_StaticMesh_NumLODs": "Only has one LOD"
+    "JunoValidator_StaticMesh_InvalidLODs": "يحتوي الأصل على سلسلة LOD غير صالحة",
+    "JunoValidator_StaticMesh_OpaqueExport": "يمكن الحذف بسبب عدم وجود مواد شفافة",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "لا تحتوي شبكة الأجزاء المشتركة على علامة 'Render.CommonParts' الذرية",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "لا تحتوي شبكة الأجزاء المشتركة على AtomMergedMesh_CommonParts LODGroup",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "لا تحتوي شبكة الأجزاء المشتركة على LOD واحد فقط",
+    "JunoValidator_StaticMesh_WrongLODGroup": "لا يبدأ اسم LODGroup بـ\"AtomMergedMesh\"",
+    "JunoValidator_StaticMesh_TransparentExport": "يلزم تطبيق إعادة الإنشاء دون مواد شفافة",
+    "JunoValidator_StaticMesh_NumLODs": "يحتوي على LOD واحد فقط"
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "مساحة الذاكرة منخفضة",
@@ -11248,7 +11192,10 @@
     "UnsafeEnvironment_BodyBadInstall": "تم العثور على بيانات تالفة في ملفات اللعبة تمنع اللعب عبر الإنترنت. يرجى إعادة تثبيت Fortnite من تطبيق Epic Games لإصلاح هذه المشكلات. يمكنك تنزيل تطبيق Epic Games من خلال التوجه إلى fortnite.com/download",
     "UnsafeEnvironment_BodyBadInstallGP": "تم العثور على بيانات تالفة في ملفات اللعبة تحول دون اللعب عبر الإنترنت. يُرجى إعادة تثبيت Fortnite من متجر Google Play لإصلاح هذه المشكلات.",
     "UnsafeEnvironment_BodyCorruptedContent": "تم العثور على بيانات تالفة في ملفات اللعبة تحول دون اللعب عبر الإنترنت. يُرجى التحقق من Fortnite أو إعادة تثبيتها لإصلاح هذه المشكلات.",
+    "UnsafeEnvironment_StrictInjectionApply": "تمكين وإعادة التشغيل",
     "UnsafeEnvironment_Title": "خطأ",
+    "UnsafeEnvironment_StrictInjectionNotActive": "يتطلب الحدث سياسة الدخول الصارمة. الخيار مفعَّل في إعدادات اللعبة، لكن تحتاج Fortnite إلى إعادة التشغيل لتطبيق التغييرات.\n\nهل تريد إعادة التشغيل الآن؟",
+    "UnsafeEnvironment_StrictInjectionNotEnabled": "يتطلب الحدث سياسة الدخول الصارمة. يتعين عليك تمكينها من إعدادات اللعبة ثم إعادة تشغيل Fortnite لتصبح التغييرات سارية المفعول.\n\nهل تريد تطبيق التغييرات الآن؟",
     "UnsafeEnvironment_BodyMissingLauncher": "لم يتم بدء Fortnite على نحو صحيح ويجب إغلاقها. نوصي بمحاولة تشغيل اللعبة باستخدام أداة تشغيل Epic Games أو الاتصال بدعم اللاعبين.",
     "UnsafeEnvironment_Body": "عُثر على أداة غش أو برمجة عكسية مُفعلة. يُرجى إغلاقها قبل بدء لعب Fortnite لتجنب حظر الحساب.",
     "UnsafeEnvironment_EventTPMAuth": "لم نتمكن من التحقق من صحة وحدة النظام الموثقة الخاصة بجهازك. قد لا يتمكن هذا الجهاز من المشاركة في البطولات في التحديث المستقبلي. زر fn.gg/tpm لمزيد من التفاصيل.",
@@ -11334,6 +11281,8 @@
     "FailedLoginConsole_SystemUpdateAvailable": "يتعذر تسجيل الدخول لتوافر تحديث نظام جديد. يرجى تثبيته وإعادة المحاولة.",
     "FailedLoginConsole_PatchAvailable": "يتعذر تسجيل الدخول لتوافر حزمة أحدث. {0}",
     "FailedStartLogin": "يتعذر تسجيل الدخول إلى حسابك على Epic Games في الوقت الحالي. يرجى إعادة المحاولة لاحقًا.",
+    "FailedStartLogin_InvalidRefreshToken": "يتعذر تسجيل الدخول إلى حساب ألعاب Epic Games الخاص بك في الوقت الحالي. يُرجى إعادة المحاولة لاحقًا.",
+    "FailedStartLogin_NoConnection": "يتعذر تسجيل الدخول إلى حساب ألعاب Epic Games الخاص بك في الوقت الحالي. يُرجى إعادة المحاولة لاحقًا.",
     "UserLoginFailed": "يتعذر تسجيل الدخول إلى حسابك على Epic Games في الوقت الحالي. يرجى إعادة المحاولة لاحقًا.",
     "FailedLoginMsg": "يتعذر تسجيل الدخول إلى خوادم {0}. يرجى إعادة المحاولة لاحقًا.",
     "FailedLoginConsole_UnableToSignIn": "يتعذر تسجيل الدخول إلى حسابك لمدة {0}. يرجى إعادة المحاولة لاحقًا.",
@@ -11983,10 +11932,10 @@
     "OutDateFormat": "ينتهي في {Month} {Day}، {Year} الساعة {Time} ({TimeZone})"
   },
   "SnapEditorVisualizer": {
-    "DeleteSnapEntries": "Delete Snap Entries",
-    "DuplicateSnapEntries": "Duplicate Snap Entries",
-    "PasteSnapEntries": "Paste Snap Entries",
-    "SelectSnapEntry": "Select Snap Point"
+    "DeleteSnapEntries": "حذف إدخالات اللقطة",
+    "DuplicateSnapEntries": "تكرار إدخالات اللقطة",
+    "PasteSnapEntries": "لصق إدخالات اللقطة",
+    "SelectSnapEntry": "اختر نقطة الالتقاط"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "متبقي {0}"
@@ -12601,7 +12550,7 @@
     "EmptyEntryError": "محاولة تعيين اسم فارغ."
   },
   "UConfigurePrefabTool": {
-    "ToolName": "Configure Prefab"
+    "ToolName": "تهيئة مبنى جاهز"
   },
   "UEFN": {
     "LaunchDataLeaveMatchAndMatchmakeLinkCode": "أتود مغادرة المواجهة ولعب {LinkCode}؟",
@@ -12788,8 +12737,8 @@
     "OpenHLTv2ToCustomizableUIMigrator_ToolTip": "تفتح أداة نقل HLTv2 إلى واجهة المستخدم القابلة للتخصيص لنقل جميع إعدادات HLTv2 إلى إطار عمل واجهة المستخدم القابلة للتخصيص الجديد."
   },
   "UICommands.JunoViewportToolsCommands": {
-    "BeginConfigurePrefabTool": "Configure Prefab",
-    "BeginConfigurePrefabTool_ToolTip": "Configure Prefab"
+    "BeginConfigurePrefabTool": "تهيئة مبنى جاهز",
+    "BeginConfigurePrefabTool_ToolTip": "تهيئة مبنى جاهز"
   },
   "UICommands.SpatialMetricsProfiler": {
     "OpenSpatialProfiler": "افتح المحلل المكاني",
@@ -12813,24 +12762,24 @@
     "MaxRejoinFail": "تتعذر إعادة الانضمام إلى اللعبة. تم تجاوز الحد الأقصى لمحاولات إعادة الانضمام إلى اللعبة."
   },
   "UJunoAssetListAssetFactory": {
-    "MenuEntry": "Asset List"
+    "MenuEntry": "قائمة الأصول"
   },
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "جدول بيانات المخطوطات [الصف {0}] لا يحتوي على علامة فئة فرعية صالحة.",
     "NeitherItemNorTag": "جدول بيانات المخطوطات [الصف {0}] لا يحتوي على تعريف عنصر ولا علامة هوية. يجب وجود أحدهما على الأقل.",
-    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "NPCNoSpawnerDat": "يبدو أن جدول بيانات المخطوطات [الصف {0}] هو لشخصية غير قابلة للعب ودودة، لكن ليس له مجموعة بيانات ناشر الذكاء الاصطناعي.",
     "CategoryTagInvalid": "جدول بيانات المخطوطات [الصف {0}] لا يحتوي على علامة فئة صالحة.",
-    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "يشير جدول بيانات المخطوطات [{0}] إلى عنصر [{1}] لن يكون موجودًا عند تحضير المكوّن الإضافي للحزمة في [{2}]. يجب إزالة الصف أو تحديث نسخة إصدار العنصر للمطابقة."
   },
   "UJunoValidator_ContextualMessageConfig": {
     "TextInvalid": "يحتوي جدول بيانات الحوار [الصف {0}] على نص غير صالح في الخاصية [{1}]:{2}\"{3}\""
   },
   "UJunoValidator_CraftingFormula": {
-    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime.",
+    "ValidateLoadedAsset_Implementation": "تتضمن FCraftingFormula [{0}] بطاقة RequiredIngredients فارغة!! قد يسبب هذا مشكلات في أثناء وقت التشغيل.",
     "DirectOutputsWithLootTierKey": "لتركيبة التصنيع F (FCraftingFormula) [{0}] مفتاح مستوى غنائم النتيجة (ResultLootTierKey) وإخراج مباشر (إدخال بيانات إضافي). قم بإزالة مفتاح مستوى غنائم النتيجة (ResultLootTierKey) أو إدخال الإخراج المباشر"
   },
   "UJunoValidator_GuidedBuildingActorValidator": {
-    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
+    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData بـActorName [{0}] يحتوي على وصفة فارغة!! قد يسبب هذا مشكلات في أثناء وقت التشغيل."
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "لدى FJunoGuidedBuildingDisplayActorDataEntry في فهرس [{0}] وصفة فارغة!! قد يسبب هذا مشكلات في أثناء وقت التشغيل."
@@ -12842,7 +12791,7 @@
     "ItemNewerThanLootTablePlugin": "للعنصر [{0}] نسخة إصدار [{1}] ولكنه مشار إليه في جدول غنائم [{2}] الذي يتم تحضير مكوّنه الإضافي في [{3}]. لن يكون العنصر موجودًا عند تشغيل جدول الغنائم هذا. يجب إزالة العنصر من جدول الغنائم أو تحديث نسخة إصدار العنصر لمطابقة نسخة المكوّن الإضافي."
   },
   "UJunoValidator_Journal": {
-    "RewardsInvalid": "Journal data table [row {0}] has a CompletionReaction type that grants a reward, but is set to GrantToWorld.  It must be GrantToParticipants to correctly grant to all players..",
+    "RewardsInvalid": "جدول بيانات المذكرة [الصف {0}] يحتوي على نوع CompletionReaction يمنح مكافأة، ولكنه مضبوط على GrantToWorld.  يجب أن تكون GrantToParticipants لمنح جميع اللاعبين بشكل صحيح..",
     "TextInvalid": "يحتوي جدول بيانات المذكرة [الصف {0}] على نص غير صالح في الخاصية [{1}]:{2}\"{3}\"",
     "PrereqQuestProgressNotification": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات الأساسية [{1}]، يجب تشغيل bHideQuestProgressNotification الخاص بالمهمة",
     "PrereqQuestStartingToast": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات الأساسية [{1}]، يجب إيقاف تشغيل bShouldDisplayStartingToast الخاص بالمهمة",
@@ -12850,7 +12799,7 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}] AwesomeLevelIndex ليس فهرسًا صالحًا لـUpgradeRequirements الخاصة بـ{2}.",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}]، لا يتم تعيين CampTagConfigKey إلى جدول بيانات FJunoAwesomePoiConfigTableRow.",
     "PrereqTownbuilderInvalidNoValidALI": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}]، لا يحتوي على AwesomeLevelIndex صالح.",
-    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
+    "PrereqTownbuilderInvalid": "جدول بيانات المذكرة [الصف {0}]، مؤشر المتطلبات المسبقة [{1}] لا يحتوي على علامة CampTagConfigKey صالحة.",
     "PrerequistitesInvalidNoValidPreReqType": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}]، لا يحتوي على نوع متطلب مسبق صالح.",
     "PrereqQuestInvalidNotNeededPFComponent": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}]، يحتوي على مكون Persistence Framework، وهو ليس ضروريًا.",
     "PrereqQuestInvalidQuestSoftPtr": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}]، يحتوي على مؤشر مهمة (Quest SoftPtr) غير صالح [{2}].",
@@ -12858,17 +12807,17 @@
     "PrereqQuestNull": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}]، لا يحتوي على تعريف المهمة (QuestDef).",
     "PrereqTownbuilderInvalidRCButEmptyRL": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}]، يشير إلى ResourceCost، ولكن لدى {2} ResourceList فارغة.",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "جدول بيانات الدفتر [الصف {0}]، مؤشر المتطلبات المسبقة [{1}]، تعذر العثور على UpgradeStep باستخدام UpgradeStepIdentifer {2} لـUpgradeStages الخاص بـ{3}.",
-    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
-    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
-    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "PrerequistitesInvalid": "جدول بيانات المذكرة [الصف {0}]، لا يحتوي على أي متطلبات مسبقة.",
+    "CategoryTagInvalid": "جدول بيانات المذكرة [{0} الصف]، لا يحتوي على علامة فئة صالحة.",
+    "CompletionReactionsInvalid": "تم إعداد جدول بيانات المذكرة [الصف {0}] لإظهار نفسه عبر مؤشر CompletionReaction [{1}].",
     "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "جدول بيانات الدفتر [الصف {0}]، تم إعداده ليكشف عن نفسه عبر NextTaskRowName، قم بإلغاء تحديد RevealNextTaskOnComplete لإلغاء الحظر والتحدث إلى مهندس!",
     "CompletionReactionsInvalid_RowNotExist": "جدول بيانات الدفتر [الصف {0}]، يكشف عن [الصف {1}] عند الإكمال وهو ليس موجودًا.",
     "CompletionReactionsInvalid_AutoReveal": "جدول بيانات الدفتر [الصف {0}]، يكشف عن [الصف {1}] عند الإكمال مستخدمًا شرط الكشف التلقائي.  هذا غير مسموح، شروط الكشف أو الإخفاء التلقائي تتحكم بنفسها في الكشف عن المهام.",
-    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
-    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+    "NextTaskRowNameInvalid": "جدول بيانات المذكرة [صف {0}]، يستخدم RevealNextTaskOnComplete، لكن NextTaskRowName {1} غير صحيح.  يُرجى التحقق مرة أخرى من الصندوق.",
+    "ValidateLoadedAsset": "يشير جدول بيانات المذكرة [{0}] المؤشر المسبق {1} إلى مهمة [{2}] لن تكون موجودة عند إعداد المكون الإضافي للحزمة [{3}]. يجب إزالة الصف أو تحديث نسخة إصدار العنصر للمطابقة."
   },
   "UJunoValidator_LootTables": {
-    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "تشير LootPackage [{0}] إلى عنصر [{1}] لن يكون موجودًا عندما يجري تحضير المكوّن الإضافي الخاص بالحزمة في [{2}]. يجب إزالة الصف أو تحديث نسخة إصدار العنصر للمطابقة."
   },
   "UK2Node_ModifyObject": {
     "NodeTitle": "تعديل غرض",

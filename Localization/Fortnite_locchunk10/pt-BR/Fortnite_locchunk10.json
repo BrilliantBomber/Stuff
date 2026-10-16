@@ -356,6 +356,7 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "Lâmina com um potente ataque Saltar e Golpear secundário.",
     "144AC202422D81D8ECA7FDADA0248752": "Rifle clássico com alta precisão e alcance longo.",
     "174ADE3045B991036DAB808BA3802CDA": "Rifle clássico com alta precisão e alcance longo.",
+    "A633A07540E67656A515748EC42D2BFA": "Rifle clássico com alta precisão e alcance longo.",
     "5CA4C768442DACE154F650919AEBF7CC": "Emoção e diversão nas alturas. Inicie ao pular quando está no ar.",
     "62060089487721326B23BBA33709B481": "Emoção e diversão nas alturas. Inicie ao pular quando está no ar.",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "Emoção e diversão nas alturas. Inicie ao pular quando está no ar.",
@@ -422,10 +423,7 @@
     "F259347F4F2842296238EB82C300F898": "Qualquer Uma",
     "165B7E9748BBE879107084AD2F2A831F": "Cura AdE Item Utilitário ",
     "979E143F4DB80482F7115A92CA8BCD4A": "Cura AdE Item Utilitário ",
-    "A9FA7E534DAB697646EE6AB42C93C1D7": "Verde-maçã",
     "A2C33D7A4650D1311D24238FC644F05A": "Aplica <Emphasized>escudo</> a você e a companheiros próximos",
-    "2C724915401F1A7787FFCB8FD290B616": "Aqua",
-    "46C56F454E6F3673CEF647A6D72F3EDA": "Água-marinha",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "Espaço de Arsenal",
     "14FE8E964665F3F20099A0B16A9D68F7": "Ashton",
     "F00BAD564EF2DC73C32CB18F94A85EAE": "Ashton",
@@ -555,7 +553,6 @@
     "120BA8004C6678552C7377A6A5483152": "Estilo do Sinalizador",
     "851AC090485097B263B626A83A02C0FE": "Feixe",
     "C1DC37B04598D140C5BD808AB61F9712": "Transformar-se em Boneco de Neve",
-    "21BB6A4D48D2430058D509B4F3D02AA9": "Bege",
     "0A9381554E499FD10B15438EDCFD41B0": "Parafuso Duplo",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Biplano",
     "5B5236944941BFD7DE82B8B05FE11D94": "Biplano",
@@ -626,7 +623,6 @@
     "2AA0C53148468770E238D6825BF85BAC": "Estrelas da Categoria",
     "EE922BB945F58FB9604A58A2D82D680C": "SMG de Disparo Rápido da Mulher-Gato",
     "AA86FAD842ADDE0E9D552E92F44CDD7C": "SMG de Disparo Rápido personalizado da Mulher-Gato. Projetada meticulosamente para aumentar a capacidade de munição.",
-    "D76CF3D846DE65E8BE51F39F748DAA43": "Cerúleo",
     "EB4A9CD946CF1CAD986993958FEC99A7": "Capítulo 2: Temporada 5 ",
     "5D048A7F45BDC6C054F4528378401CD0": "Capítulo 2: Temporada 7",
     "02BD54134B723F96AC01628F3924C431": "Capítulo 2: Temporada 8",
@@ -929,7 +925,6 @@
     "7D608A2348789E08EF3A60ABB1E09742": "Equipe Aliada",
     "2FB297854AA101161395379E33167490": "De Volta do Precipício",
     "2277279745E5A2A74BC60299806407F0": "Congelada",
-    "E37268214ECAE0FDB58EF1A6BD1E9A81": "Fúcsia",
     "1D2EEEBF4370BF8C411B08B64DCE4F2E": "Parafuso Completo",
     "F6260A434A2F549B51B59F842C778EA8": "Mortal Completo",
     "CA598A9647DDFFF9012FFE88BAC6D842": "Meio Mortal Completo",
@@ -975,7 +970,6 @@
     "87E39EA04808B27EA30A908F811EF0FA": "Asas-deltas",
     "3C063B974F09C8A673507CBE3ADDB71D": "Entre sozinho em uma batalha para ser o último sobrevivente.",
     "8BEC89B8499664826B111685672B4E29": "Entre sozinho em uma batalha para ser o último sobrevivente.",
-    "B8C59B304999B1F6964D1696FAB0E456": "Ouro",
     "F92ED6D24B56EACA844D27A473619CF5": "Ouro",
     "3636D06A4ADE66F6A3C73D9AAB04186F": "Moeda Ouro",
     "7B0936A2458A998274ED3484DE00BCDA": "Trufa Dourada",
@@ -994,7 +988,6 @@
     "2BAF9D994E20140BCD7F59A7CAC81BA3": "Mudança Esticada",
     "A4341A0045390C670F4757948E6E3CE5": "Tsunami Esticado",
     "F0737F4E40417749A441A59843B932F0": "Voyager Cruzado",
-    "0B5C62D0400E95930AEE12B1D2116EE2": "Verde",
     "5D14C5F74CA277758C0476AA504D7CEA": "Gruta",
     "331DB866438F7C72234C5B8338CC44A0": "Agrupe-se e dure mais que todos os outros esquadrões que almejam a vitória.",
     "99E9D5F34DC01FC6B8774DB154EAC42E": "Armas de Fogo Rifles de Assalto Metralhadora Balas Leves Automático Automática",
@@ -1042,7 +1035,6 @@
     "2EAFA04B4FCA57C7AF24E29E7C4450D7": "Rifle de Precisão Pesado +",
     "A935E8954E7200704C91A0A3A85B8C71": "Rifle de Precisão Pesado com chance de <Emphasized>recarregar instantaneamente</>",
     "56AA82F146826F523FA9119C01362035": "Altura",
-    "0B86EC9C474C4633272C9787A10B7795": "Item de Coleta",
     "465E0326425E1043865BEB8E4C811AE3": "Item de Coleta",
     "6C0951C64B0DA937087B0284224F92F4": "Item de Coleta",
     "6EF1E84B40FA9D7CD51697ABF897FE4A": "Item de Coleta",
@@ -1090,6 +1082,7 @@
     "3B23812B4104C655B1751DAB80ED2993": "Meio Mortal Indy",
     "118BD9B247A79B6E7AB2189A409B7EFA": "Parafuso Reverso Indy",
     "55F09A7841788A6D5EABF7AE7C720557": "Rifle de Infantaria",
+    "C115B50C4700A573DC237EAC7C92E21B": "Rifle de Infantaria",
     "F1638A45469F392DAF5444BE0A097644": "Rifle de Infantaria",
     "F317A4514DE5AEE182F39DA192E355AD": "Rifle de Infantaria",
     "1D7BBE454E1553569F9589A7E633F06D": "Infinitos",
@@ -1236,7 +1229,6 @@
     "/Fortnite.com/Devices/NPCSpawner/npc_behavior_template_message_module/OnEndMessage": "Agente PNJ = {Agent}: OnEnd ativou \"vamos encerrar\".",
     "0DD368AE4439FC99C95A4595D62837AC": "Desafios Construtora Nata",
     "688E65C943BC171D5807FE974D7E59A9": "Desafios Ned, o Eterno",
-    "B80ED9CD455EDCE5BB4214A10A82B828": "Verde Neon",
     "NetworkConnectionLost": "A conexão de rede foi perdida",
     "44067A6E421888DD39877E82D6DABB58": "Texto de Ícone Neutro",
     "AB88B4554EDBE594A34706AED40BB6C4": "Nunca",
@@ -1358,7 +1350,6 @@
     "19A0DCA742B5AC4CB1D227AEE0A19601": "Apenas Selecionada",
     "B95E8C564EE3D7A237E5DEB35283797C": "Apenas Se Necessário",
     "BAC5E80D44DA978242043B9497A8E286": "Oponentes eliminados <Emphasized>revelam</> oponentes próximos",
-    "95FD548C4AFFA37C807335BD7AF1AB6A": "Laranja",
     "658517F44C1678AB75F76FB69BD46F60": "Lançador de Tinta (Laranja)  ",
     "516CA75D4CF5403A2F82BF838CD51DB7": "Módulos e paternidade desnecessários.",
     "6EB89D324C5E00500994CD96A83D5A72": "Módulos e paternidade desnecessários.",
@@ -1385,7 +1376,6 @@
     "B3CFEDE943AA56C0AEE82CA08F806463": "Coletar",
     "7240B5BC46A81D296CBCA080DF98ECB7": "Corrida com Picareta",
     "91F4A2794D81253C6E03C7A0B78CC383": "Coletar Extintor de Incêndio",
-    "F75FBF44462332D5DFE17691FCD37DFF": "Rosa",
     "2C211AA048AE4A1A5D9423B297E1023D": "Canhão Pirata",
     "BB93B4574E7A8EF0105C4DAADCA4D5F8": "Canhão Pirata",
     "CFBFEBC248741ED6E0FCC88CC754A22E": "Canhão Pirata",
@@ -1438,7 +1428,6 @@
     "85A2E3C041A433B1B8D87C914FAFCC13": "Ficha de Conclusão de Mural",
     "8FDD93294EE611E28D499E8504C6C314": "Ficha de Medalha do Mural",
     "B06F5AB34BA2C7C48F6D2982E60EC524": "Ficha de Medalha do Mural",
-    "A4A746BE47363A8193CEE4BC9E663930": "Roxo",
     "A1D607174B6E2B132A79E0A3242425BE": "Lançador de Tinta (Roxo)  ",
     "02D599B84C45A32A6BAB92925A070A51": "Empurrar (Toque)/Desacelerar (Segure)",
     "25171EA942DC385DE7E5798BBB4969A1": "Largar",
@@ -1459,7 +1448,6 @@
     "B1CFA5584EBD1878822A699ECEB629A6": "Baú Raro",
     "101BBD144878EB1AA8CCD292737797AE": "Scanner de Reconhecimento",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Recruta",
-    "1C77EAFB46C48299170B7486AEFB6294": "Vermelho Alaranjado",
     "7125E4704BEA318C6BD3D69B5893D080": "Componente de criação refinado. Pode ser feito com outros ingredientes e costuma ser encontrado em baús.",
     "16DA40C14B2BC801935504956E31A9C9": "Regenere <Emphasized>vida</> ao nadar",
     "D956F3B24B85A136EDFF7681AD74FB8C": "Revigorado",
@@ -1590,10 +1578,8 @@
     "029C79824756DFCA21B1AB85821FF31C": "Exibir Notícias",
     "2496EF09404F18FFE2EA0AB9BA7CFA8F": "Exibir Seta para Fora da Tela",
     "D2AA34D248C42439671352909952AF0C": "Mostra a tela de novidades quando surge algo novo",
-    "D5A97BEC41D14A772F78AD85787561D5": "Prata",
     "37EA8D3C4FCA282792A19089FF9D264F": "Rifle de Precisão de disparo único com mira de <Emphasized>longo alcance</>",
     "9A6F1EDF4BBD286B035BA49BDF31635E": "Ficha de Desafio Caveirão",
-    "89373C3241ED5AC276FBA08F64FC6020": "Azul-céu",
     "C3F806054CE1F1D1A8FFFC9F8DF839BC": "Lenta",
     "252EFAEE4A3593A47968A9B628C86826": "<Emphasized>Pistola poderosa</> lenta",
     "F415822746674FEAC04DCB8D1D0EC153": "Partícula de Fumaça",
@@ -1976,7 +1962,6 @@
     "A8CDADF8471D9C4CFEBFF598C94692E3": "Quando o veículo é destruído, ele ressurge após este atraso (o primeiro veículo gerado não sofre este atraso).",
     "0D756F6B4F770EF0A8F90CAC0113EB78": "Pistola Onde Vamos Dropar",
     "E710C08E4E5C70FF8A286CB6EA101B4F": "Determina a exibição do Sinalizador, de um Elemento do HUD ou de Ambos.",
-    "D3A54EAE40408580269CF39BCCA37888": "Branco",
     "195F2EE048C26E190C845691145D6CF6": "Largura",
     "9BD108A54CA8FA397E1DBD95E37958BB": "Ficha de Conclusão de Desafio Festival Invernal",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "Chave do Festival Invernal",
@@ -2139,23 +2124,35 @@
     "MergeSquadsText": "Unificar esquadrões",
     "SquadsTooBigToMerge": "Esquadrões grandes demais para combinar."
   },
+  "AnimInEdTools": {
+    "SourceLink_NotASequence": "Não foi possível carregar \"{0}\" como uma Sequência de Nível.",
+    "SourceLink_NoItem": "\"{0}\" não registra um link de volta para esta animação.\"",
+    "SourceLink_OpenRange": "\"{0}\" tem um intervalo de reprodução ilimitado, então o intervalo exportado não pode ser determinado.",
+    "SourceLink_NoTrack": "\"{0}\" não tem faixa de Rig de Controle na vinculação de onde veio esta animação.",
+    "SourceLink_BadRate": "\"{0}\" registra um intervalo de exportação personalizado com uma taxa de quadros inválida.",
+    "SourceLink_NoAnim": "Nenhuma animação aberta.",
+    "SourceLink_Missing": "A Sequência de Nível vinculada \"{0}\" está faltando.",
+    "SourceLink_NoLink": "Essa animação não está vinculada a uma Sequência de Nível, então não há tempos de chave de origem para ler."
+  },
   "AnimInEdToolsModule": {
     "AnimToCRImportTabLabel": "Animação → Plataforma de Controle",
     "AnimToCRImportTabTooltip": "Importe a animação pré-visualizada (pose, alcance ou clipe completo) para a Plataforma de Controle na Sequência de Nível aberta."
   },
   "AnimToCRImport": {
-    "Clear": "Limpar",
+    "ImportKeyTimings": "Aplicar Tempo do Tom de Origem",
+    "ClearInOutTip": "Alternar Visibilidade",
     "CurFrame": "Quadro atual",
-    "DelStatic": "Excluir Canais Estáticos",
-    "RangeHdr": "Intervalo de Quadros",
     "ImportPose": "Importar Pose",
     "ImportRange": "Importar Alcance",
-    "OnlyStatic": "Apenas Reduzir Canais Estáticos",
-    "OptionsHdr": "Opções",
-    "SelOnly": "Apenas controles selecionados",
+    "KeyTimingsTip": "Mantém apenas as chaves onde a camada base da Sequência de Nível de origem tinha chaves, em vez de uma chave em cada quadro. Os valores ainda virão dessa animação. Substitui as configurações para Reduzir Teclas.",
+    "NoLoadSettings": "Configurações de Animação de Carregamento indisponíveis (LoadAnimToControlRigSettings não encontrada).",
+    "SimpleViewTip": "Ajuste o editor de animação de volta para a janela de visualização, Linha do Tempo, esta ferramenta e o navegador de ativos.Desativar restaura as abas que você tinha aberto.",
+    "RestoreLayoutTip": "Reabre as abas que estavam abertas da última vez que a Visão Simples foi acessada.Disponível após a Visão Simples ser usada pelo menos uma vez.",
+    "RestoreLayout": "Restaurar Layout",
     "SetIn": "Definir Entrada",
     "SetOut": "Definir Saída",
-    "SmartReduce": "Redução Inteligente"
+    "SimpleView": "Visualização simples",
+    "SourceLabel": "Origem: {0}  quadros {1}-{2}"
   },
   "AntiCheat": {
     "ClientErrorMessage": "Erro em {provider}: {message}\n\nConsulte as Perguntas Frequentes — {provider} para mais informações."
@@ -2189,7 +2186,7 @@
   },
   "AssetTypeActions": {
     "AIActionSequence": "Sequência de Ação de IA",
-    "UJunoAssetListAssetFactory": "Asset List"
+    "UJunoAssetListAssetFactory": "Lista de ativos"
   },
   "Athena": {
     "NPCHiredIndication": " (Seguidor)",
@@ -3033,7 +3030,7 @@
   },
   "Contexts": {
     "HLTv2ToCustomizableUI": "Plugin HLTv2ToCustomizableUI",
-    "JunoViewportToolsCommands": "Juno Tools",
+    "JunoViewportToolsCommands": "Ferramentas de Juno",
     "SpatialMetricProfiler": "SpatialProfiler",
     "WeaponModernizationEditorCommands": "Ferramenta de Modernização de Arma"
   },
@@ -3865,7 +3862,7 @@
   "FJunoViewportToolsModule": {
     "SectionName": "Juno",
     "ExtensionName": "JunoTools",
-    "ConfigurePrefabTool": "Prefab"
+    "ConfigurePrefabTool": "Estrutura pré-fabricada"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "Depositar {amount} de {resourcetype}",
@@ -5189,6 +5186,20 @@
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "Especial"
   },
+  "FortEpicParty": {
+    "AccountResolution": "Erro interno",
+    "ExistingInviteMissing": "Erro interno",
+    "FrameworkUnavailable": "Erro interno",
+    "JoinRetryAbandoned": "Erro interno",
+    "JoinableInfoMissing": "Erro interno",
+    "RetryAccountResolution": "Erro interno",
+    "RetryFrameworkUnavailable": "Erro interno",
+    "RetryJoinableInfoMissing": "Erro interno",
+    "RetryPartyPrivate": "Erro interno",
+    "RetrySameParty": "Erro interno",
+    "TargetNotFriend": "Erro interno",
+    "TargetNotJoinable": "Erro interno"
+  },
   "FortErrorOverrides": {
     "IoStoreHttpError": "Ocorreu um erro na comunicação com nossos serviços internos. Verifique sua conexão de rede e tente novamente em breve. {ModuleIdString}.{ErrorCodeString}"
   },
@@ -5232,6 +5243,9 @@
   },
   "FortGameMode": {
     "FailedToStartMatchTimeout": "Falha em iniciar o servidor a tempo."
+  },
+  "FortGameStateHestiaBeauty": {
+    "SittingOutPlayersToJumpInNotAllowed": "Não é possível entrar na sessão do grupo."
   },
   "FortGameStateOutpost": {
     "LimitThresholdReached": "Aviso: falta colocar {0} estruturas."
@@ -5451,10 +5465,8 @@
     "StorageItemDescription_BR": "Necessário para Battle Royale, Trocação e Reload.",
     "StorageItemDescription_Sparks": "Necessário para Fortnite Festival.",
     "StorageItemDescription_Juno": "Necessário para LEGO® Fortnite.",
-    "StorageItemDescription_DelMar": "Necessário para Rocket Racing e mapas feitos por outras pessoas do Rocket Racing.",
     "StorageItemDescription_Core": "Conteúdo necessário para todas as experiências.",
-    "StorageItemDescription_Creative": "Necessário para editar e jogar em Ilhas feitas por criadores [e Feroz].",
-    "StorageItemTitle_DelMar": "Conteúdo Movido a Foguete"
+    "StorageItemDescription_Creative": "Necessário para editar e jogar em Ilhas feitas por criadores [e Feroz]."
   },
   "FortLinkedGraphGate": {
     "LinkedGraphTagInvalid": "@@ - O gráfico vinculado conectado não tem tag válida",
@@ -6825,6 +6837,7 @@
     "TweakZoneCollection_Name": "Área de Ajuste do Controle",
     "TelekineticonToggleActivation_Description": "Controla como o telecinético é ativado.\n\nSegurar Gatilho — Mantenha o gatilho pressionado para agarrar objetos e solte o gatilho para soltá-los.\nAlternar — Pressione para pegar e soltar objetos.",
     "SocialPrivacy_MutualFriends_Description": "Controla a visibilidade dos seus amigos em comum para outros jogadores.\n\n<strong>PRIVADO</>: ninguém pode ver seus amigos em comum.\n\n<strong>APENAS AMIGOS</>: só seus amigos podem ver seus amigos em comum.\n\n<strong>PÚBLICO</>: qualquer um pode ver seus amigos em comum.",
+    "StrictInjectionPolicy_Description": "Controla quais programas podem interagir com o Fortnite.\n\nQuando ativo, outros programas e as sobreposições deles são impedidos de acessar o Fortnite para aumentar a segurança. Essa configuração pode ser necessária em alguns eventos competitivos.",
     "GyroOffsetBuild_Description": "Controla se o comando de mira move a retícula antes de girar a câmera ao Construir ou Editar.",
     "MouseOffsetBuild_Description": "Controla se o comando de mira move a retícula antes de girar a câmera ao Construir ou Editar.",
     "TouchOffsetBuild_Description": "Controla se o comando de mira move a retícula antes de girar a câmera ao Construir ou Editar.",
@@ -6939,6 +6952,7 @@
     "GyroButtonEnable": "Habilitar Giroscópio",
     "EnergySavingIdle_Name": "Habilitar Economia de Energia com Ociosidade (Frontend)",
     "EnergySavingFocusLoss_Name": "Habilitar Economia de Energia com Janela Inativa",
+    "VoiceChatUseNoiseReduction_Name": "Habilitar redução de ruído",
     "HeadphoneMode_Description": "Habilita áudio binauricular. Fornece espacialização de áudio 3D para aprimorar a precisão da localização dos sons, incluindo sons de cima, de baixo e atrás de você. Recomendamos usar apenas com fones de ouvido estéreo.",
     "QuickWeaponToggle_Description_Switch": "Habilita a ação experimental Troca Rápida. Quando habilitada, a Troca Rápida substitui o botão de \"Próxima Arma\".\n\nPressione o botão de Troca Rápida para equipar seu item principal. Pressione um dos botões A/B/X/Y enquanto pressiona o botão de Troca Rápida para trocar de espaço de item. Pressione simultaneamente o botão de Troca Rápida e A/B/X/Y para mudar de item instantaneamente, ou segure o botão de Troca Rápida para se acostumar com a combinação entre os botões A/B/X/Y e os itens do seu inventário.\n\nQuando esta opção está habilitada, o botão \"Arma Anterior\" é substituído por \"Colocar Marcador\", facilitando a comunicação com o esquadrão. Personalize os controles na aba Personalização de Controle para substituir o botão de Arma Anterior por uma ação da sua escolha.",
     "QuickWeaponToggle_Description_Switch2": "Habilita a ação experimental Troca Rápida. Quando habilitada, a Troca Rápida substitui o botão de \"Próxima Arma\".\n\nPressione o botão de Troca Rápida para equipar seu item principal. Pressione um dos botões A/B/X/Y enquanto pressiona o botão de Troca Rápida para trocar de espaço de item. Pressione simultaneamente o botão de Troca Rápida e A/B/X/Y para mudar de item instantaneamente, ou segure o botão de Troca Rápida para se acostumar com a combinação entre os botões A/B/X/Y e os itens do seu inventário.\n\nQuando esta opção está habilitada, o botão \"Arma Anterior\" é substituído por \"Colocar Marcador\", facilitando a comunicação com o esquadrão. Personalize os controles na aba Personalização de Controle para substituir o botão de Arma Anterior por uma ação da sua escolha.",
@@ -7613,6 +7627,7 @@
     "WindingSpeedScaledByZoom_Description_Switch": "Reduz automaticamente a velocidade de rotação ao fazer o Giro Rápido no Botão Analógico (Flick Stick) dependendo do zoom. Isso pode, por exemplo, ajudar a analisar os arredores de forma mais estável ao fazer disparos de precisão. Isso não afeta o início do movimento de giro.",
     "WindingSpeedScaledByZoom_Description": "Reduz automaticamente a velocidade de rotação ao fazer o Giro Rápido no Botão Analógico (Flick Stick) dependendo do zoom. Isso pode, por exemplo, ajudar a analisar os arredores de forma mais estável ao fazer disparos de precisão. Isso não afeta o início do movimento de giro.",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "Reduz automaticamente a velocidade de rotação ao fazer o Giro Rápido no Botão Analógico (Flick Stick) dependendo do zoom. Isso pode, por exemplo, ajudar a analisar os arredores de forma mais estável ao fazer disparos de precisão. Isso não afeta o início do movimento de giro.",
+    "VoiceChatUseNoiseReduction_Description": "Reduz o ruído de fundo do seu microfone, como ventiladores, digitação ou eco na sala. Desative isso se outras pessoas relatarem que sua voz está distorcida, robótica ou cortando..",
     "ReducedDataUsage_Description": "Reduz quantos dados são baixados automaticamente. \n\nIsso pode ser útil caso seu plano de internet ou celular tenha limite de dados e você esteja perto de ultrapassá-lo.",
     "GyroSensitivityScaledByZoom_Description": "Reduz automaticamente a sensibilidade de mira de acordo com o nível de zoom. Pode ajudar a estabilizar sua mira em armas de longo alcance.",
     "Reflections_Description": "A qualidade de reflexão determina a resolução e a precisão das reflexões.\n\nAs opções \"Lumen Alto\" e \"Lumen Épico\" oferecem muito mais qualidade, mas podem reduzir o desempenho.\n\nDesligada: as reflexões são desligadas.\n\nEspaço de Tela: calcula as reflexões apenas do que está em exibição na tela.\n\nLumen Alto/Épico: reflexões de alta qualidade com Ray Tracing em tempo real.",
@@ -7832,6 +7847,7 @@
     "StopRenderingInBackground_Name": "Parar Renderização no Plano de Fundo",
     "StopRenderingInBackground_Description": "Sempre que possível, para a renderização quando a janela do jogo não está em foco. Libera recursos da GPU para outros aplicativos.",
     "KeyboardMovementStrafeDiagonal_Name": "Ângulo de Correr e Atirar",
+    "StrictInjectionPolicy_Name": "Política de Injeção Restrita",
     "MatchmakingSubregion_Name": "Preferência de Subregião",
     "SubtitlePage_Name": "Legendas",
     "SubtitlesCollection_Name": "Legendas",
@@ -8005,7 +8021,7 @@
     "InvertPitchForAircraftPrimary_Description": "Liga/Desliga a inversão dos comandos na pilotagem da aeronave no controle. Quando ligado, o movimento para frente vai inclinar a aeronave para baixo.",
     "InvertPitchForAircraftSecondary_Description": "Liga/Desliga a inversão dos controles do mouse na pilotagem de aeronave. Quando ligado, mover o mouse para a frente faz a aeronave se inclinar para baixo.",
     "InvertPitchForAircraftTouch_Description": "Habilita/desabilita a inversão de controle de toque de aeronave. Quando habilitada, usar o controle de toque para frente vai mover a aeronave para baixo.",
-    "AutoPickUpEnabled_Description": "Ativa/desativa coleta automática de itens.Quando essa opção estiver ativada, itens serão coletados automaticamente ao passar por cima deles.",
+    "AutoPickUpEnabled_Description": "Liga ou Desliga a coleta automática de itens. Quando a opção estiver habilitada, os itens serão coletados automaticamente ao passar por cima deles, e itens melhores substituirão os existentes quando apropriado.",
     "AutoSortConsumablesToHigherSlots_Description": "Liga/Desliga organizar consumíveis automaticamente em espaços do número mais alto para mais baixo. Quando ligada, o padrão dos itens consumíveis, como poções de vida e de escudo, será entrar no espaço vazio de número mais alto da barra de acesso rápido ao serem coletados.",
     "AutoSortConsumablesToRight_Description": "Liga/Desliga organizar consumíveis automaticamente. Quando ligada, o padrão dos itens consumíveis, como poções de vida e de escudo, será entrar no espaço vazio mais à direita da barra de acesso rápido ao serem coletados.",
     "GamepadAutoRun_Description_PS4": "Liga/Desliga correr automático no controle. Quando ligado, apertar duas vezes o botão L3 fará você correr automaticamente para frente sem precisar segurar o controle esquerdo para frente.",
@@ -8499,6 +8515,7 @@
     "ErrorSendingMessage": "Erro ao enviar mensagem:{0}",
     "HiddenPlayerSays": "Jogador oculto diz: ",
     "BlockedPlayerMessage": "Mensagem Oculta",
+    "FilteringUnavailableMessage": "Mensagem indisponível porque a filtragem de texto falhou.",
     "TextChatDisabledByPlasterBeach": "TDB",
     "TextChatDisabledByTournamentMode": "O bate-papo de texto foi desabilitado porque este cliente está no modo torneio.",
     "TextChatEnabled": "O Bate-papo de Texto foi habilitado.",
@@ -8511,6 +8528,7 @@
     "WelcomeDelMar": "Boas-vindas ao Rocket Racing! Bata um papo com a galera que ama corridas!",
     "WelcomeSparks": "Boas-vindas ao Palco Principal! Converse com outras pessoas da banda enquanto decidem o que tocar.",
     "WelcomeJuno": "{0} te dá as boas-vindas! Conte a todo mundo o que você está fazendo aqui!",
+    "VerseSubChannelSendBlockedMessage": "Você não pode enviar mensagens neste canal.",
     "TextChatDisabledByUser": "Você desabilitou o Bate-papo de Texto nas configurações.",
     "YouJoinedGameMessage": "Você entrou no canal do jogo.",
     "YouJoinedPartyMessage": "Você se juntou ao grupo.",
@@ -8756,6 +8774,25 @@
     "SettingSaveFailed_Title": "Falha ao salvar configurações",
     "SettingSaveFailed_Description": "Parece que houve um problema com os serviços de Controle dos Pais. Tente novamente em alguns minutos. Se o problema persistir, acesse https://status.epicgames.com."
   },
+  "FortSystemConfigRequirements": {
+    "IOMMU": "Virtualização de Hardware IOMMU",
+    "DmaRemapping": "Proteção do DMA do Kernel",
+    "KernelCodeIntegrity": "Integridade da Memória",
+    "InvalidConfigReason": "A configuração de segurança de sistema necessária está indisponível.Tente novamente mais tarde.",
+    "SecureBoot": "Inicialização Segura",
+    "StableOSVersion": "Versão de Sistema Operacional Estável",
+    "StrictInjectionPolicy": "Política de Injeção Restrita",
+    "InvalidConfig": "Configuração de segurança do sistema",
+    "CryptoProcessor": "Módulo de Plataforma Confiável (TPM)"
+  },
+  "FortSystemConfigRequirementsModalVM": {
+    "DialogTitle": "Requisitos Adicionais de Segurança",
+    "Enabled": "Habilitado",
+    "EnabledWithWarning": "Habilitado com aviso",
+    "NotEnabled": "Não habilitado",
+    "UnknownStatus": "Status indisponível",
+    "DialogIntroduction": "Seu sistema não atende aos requisitos de segurança adicionais necessários para jogar.Selecione Saiba Mais para visitar o Suporte do Easy Anti-Cheat."
+  },
   "FortTabListWidgetBase": {
     "UnspecifiedTab": "Não especificado"
   },
@@ -8775,7 +8812,9 @@
   },
   "FortTextChatConversationVM": {
     "PartyFrameworkUnavailable": "Estrutura de grupo indisponível",
-    "SocialToolkitUnavailable": "Kit de ferramentas social indisponível"
+    "SocialToolkitUnavailable": "Kit de ferramentas social indisponível",
+    "InvalidJoinPartyConversation": "Não é possível entrar em um grupo porque a conversa não está disponível.",
+    "InvalidStartPartyConversation": "Não foi possível iniciar um grupo porque a conversa não está disponível."
   },
   "FortTextChatPlayerVM": {
     "RedactedUserBlocked": "<Blocked player>",
@@ -8783,10 +8822,14 @@
     "MessageDelayedFont": "<Message delayed, until we can load a new font>",
     "ConversationsDest": "Bate-papos",
     "TempTitle": "Carregando Nome...",
+    "VerseSubChannelDefaultName": "Jogo",
     "NewChatOption": "Novo Bate-papo",
+    "VerseSubChannelChanged": "Batendo-papo em {0}",
     "ClamOneMessage": "Lembre-se: você pode Silenciar ou Bloquear as pessoas com o botão ... ou selecionando a mensagem da pessoa em questão no bate-papo",
     "SendDM": "ENVIAR MENSAGEM PRIVADA",
-    "DMWelcomeMessage": "Veja aqui suas mensagens diretas com {0}!"
+    "DMWelcomeMessage": "Veja aqui suas mensagens diretas com {0}!",
+    "VerseSubChannelMuted": "Você não pode escrever em {0} no momento",
+    "VerseChatSenderNameFormat": "[{0}] {1}"
   },
   "FortTournamentLobbyPanel": {
     "NoMatchTimeDescription": "Última Partida Começou",
@@ -8893,7 +8936,6 @@
     "EpicPartyGroupInviteDetailsSent": "Convite para grupo enviado para <Username>{0}</>",
     "EpicPartyInviteDetailsSent": "Convite para grupo enviado para <Username>{0}</>",
     "PartyInviteDetailsSent": "Convite para grupo enviado para <Username>{0}</>",
-    "EpicPartyJoinabilityChangedInviteOnlyDetails": "Este grupo é somente para convidados",
     "EpicPartyJoinRequestReceived_Title": "Solicitação de Entrada no Grupo",
     "EpicPartyMemberCreated": "Jogador entrou no grupo",
     "PartyMemberCreated": "Jogador entrou no grupo",
@@ -8918,6 +8960,7 @@
     "RequestToJoinParty_RateLimited": "Você enviou muitas solicitações, tente novamente mais tarde",
     "FriendToastSelfTooManyFriends": "Você tem amigos demais",
     "FriendToastSelfOutboxFull": "Você tem solicitações de amizade enviadas demais",
+    "EpicPartyJoinabilityChangedInviteOnlyDetails": "Seu grupo agora é somente para convidados",
     "EpicPartyJoinabilityChangedOpenDetails": "Seu grupo agora está aberto",
     "NotifMgrForkMemberNoAccessToast": "{Username} não tem acesso à derivação selecionada, prosseguir irá ignorar a derivação."
   },
@@ -8938,7 +8981,7 @@
     "NoInternetDesc": "Verifique a sua conexão e tente novamente.",
     "QuitText": "Sair",
     "Benchmark": "Executando Pontos de Referência...",
-    "ServicesSlow": "Os servidores não estão respondendo",
+    "ServicesSlow": "Os servidores não estão disponíveis no momento. Confira mais tarde.",
     "RHIChangeSettingsApplied_Title": "Configurações aplicadas",
     "LogoutComplete": "Desconectado.",
     "OfferRHIChangeForStability_FullDescription": "O driver da placa de vídeo instalado no seu computador tem problemas de estabilidade conhecidos com o modo de renderização atual (DirectX 12), e o Fortnite pode travar durante o jogo. Gostaria de alterar para {NewRHI} para ter uma experiência mais estável? {OptionalAutoRestartText}",
@@ -9722,8 +9765,17 @@
     "ProgressFormat": "Migrando plugin {0} de {1}",
     "PhasePrimaryModule": "Migrando módulo de jogo principal...",
     "PhaseComplete": "Migração concluída",
+    "MigrationFailed": "\"Falha na migração com erro: {0}\n\nO progresso foi preservado no ponto em que ocorreu a falha.\"",
     "PhaseFailed": "Falha na migração: {0}",
-    "ProgressReady": "Pronto para migrar"
+    "NoFortMobileHUDElementWrapperClassProvided": "Não foi fornecida uma classe Fort HUD Element Wrapper para a migração. Especifique isso nas configurações de migração do HLTv2 para UI personalizável, na guia Configurações do projeto",
+    "NoBaseHLTRegistryProvided": "Nenhum Registro de Widget de HUD do Dispositivo Móvel para a Ferramenta de Layout do HUD base foi fornecido para a migração. Especifique isso nas configurações de migração do HLTv2 para UI personalizável, na guia Configurações do projeto",
+    "NoBaseMoveStickCanvasClassProvided": "Nenhuma classe base do editor do stick de movimento fornecida para a migração. Especifique isso nas configurações de migração do HLTv2 para UI personalizável, na guia Configurações do projeto",
+    "NoMigrationConfigProvided": "Nenhum ativo de configuração forneceu a migração.Especifique isso nas configurações de migração do HLTv2 para UI personalizável, na guia Configurações do projeto",
+    "NoExcludeConditionProvided": "Nenhuma condição de exclusão de IU dinâmica fornecida na migração. Especifique isso nas configurações de migração do HLTv2 para UI personalizável, na guia Configurações do projeto",
+    "NoTouchActionButtonWrapperClassProvided": "Nenhum botão de ação por toque fornecido para a migração.Especifique isso nas configurações de migração do HLTv2 para UI personalizável, na guia Configurações do projeto",
+    "ProgressReady": "Pronto para migrar",
+    "AllHLTv2SetupsMigratedToCustomizableUISuccessfully": "Todos os plugins registrados com configurações HLTv2 foram migrados com sucesso para uma interface personalizada.",
+    "NoBaseCustomizableUIRegistryPluginProvided": "O migrador de plugins de recurso de jogo raiz requer que a migração do registro básico de widgets HLT seja executada primeiro.Especifique os dados do recurso do jogo de destino nas configurações de migração HLTv2 para UI Customizável, na aba Configurações do Projeto"
   },
   "HUD": {
     "Cancel": "Cancelar",
@@ -9801,8 +9853,6 @@
   },
   "IARC": {
     "USK_AGE_0_Abbreviated": "0",
-    "EPIC_SUGGESTED_RATING_AGE_0": "Todas as idades",
-    "EPIC_SUGGESTED_RATING_AGE_0_Abbreviated": "Todas as idades",
     "RUSSIA_AGE_0_Abbreviated": "0+",
     "TCA_AGE_G_Abbreviated": "Todas as idades",
     "CLASSIND_AGE_10_Abbreviated": "10",
@@ -9821,8 +9871,6 @@
     "PEGI_AGE_12_Abbreviated": "12",
     "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "12 anos",
-    "EPIC_SUGGESTED_RATING_AGE_12": "12 ou mais",
-    "EPIC_SUGGESTED_RATING_AGE_12_Abbreviated": "12 ou mais",
     "GEN_AGE_12": "12+",
     "GEN_AGE_12_Abbreviated": "12+",
     "RUSSIA_AGE_12": "12+",
@@ -9835,52 +9883,18 @@
     "IGRS_AGE_13_Abbreviated": "13 ou mais",
     "CLASSIND_AGE_14_Abbreviated": "14",
     "CLASSIND_AGE_14": "14 anos",
-    "EPIC_SUGGESTED_RATING_AGE_14": "Maiores de 14",
-    "EPIC_SUGGESTED_RATING_AGE_14_Abbreviated": "Maiores de 14",
     "CERO_AGE_15_Abbreviated": "15",
     "IGRS_AGE_15": "15+",
     "IGRS_AGE_15_Abbreviated": "15+",
     "TCA_AGE_PG_15_Abbreviated": "15+",
     "CLASSIND_AGE_16_Abbreviated": "16",
-    "FPB_AGE_16": "16",
-    "FPB_AGE_16_Abbreviated": "16",
-    "GCAM_AGE_16": "16",
-    "GCAM_AGE_16_Abbreviated": "16",
     "GMEDIA_AGE_16": "16",
     "GMEDIA_AGE_16_Abbreviated": "16",
-    "MRO_AGE_16": "16",
-    "MRO_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 anos",
-    "EPIC_SUGGESTED_RATING_AGE_16": "16+",
-    "EPIC_SUGGESTED_RATING_AGE_16_Abbreviated": "16+",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
-    "RUSSIA_AGE_16": "16+",
-    "RUSSIA_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
-    "FPB_AGE_18": "18",
-    "FPB_AGE_18_Abbreviated": "18",
-    "GCAM_AGE_18": "18",
-    "GCAM_AGE_18_Abbreviated": "18",
-    "GMEDIA_AGE_18": "18",
-    "GMEDIA_AGE_18_Abbreviated": "18",
-    "MRO_AGE_18": "18",
-    "MRO_AGE_18_Abbreviated": "18",
+    "CLASSIND_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 anos",
-    "CLASSIND_AGE_18_Abbreviated": "18 anos",
-    "EPIC_SUGGESTED_RATING_AGE_18": "Adultos",
-    "EPIC_SUGGESTED_RATING_AGE_18_Abbreviated": "Adultos",
-    "GEN_AGE_18": "Adultos",
-    "GEN_AGE_18_Abbreviated": "Adultos",
-    "IGRS_AGE_18": "Adultos",
-    "IGRS_AGE_18_Abbreviated": "Adultos",
-    "RUSSIA_AGE_18": "Adultos",
-    "RUSSIA_AGE_18_Abbreviated": "Adultos",
-    "GMEDIA_AGE_21": "21",
-    "GMEDIA_AGE_21_Abbreviated": "21",
-    "MRO_AGE_21": "21",
-    "MRO_AGE_21_Abbreviated": "21",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
     "GMEDIA_AGE_3": "3",
@@ -9892,11 +9906,7 @@
     "GEN_AGE_3_Abbreviated": "3+",
     "IGRS_AGE_3": "3+",
     "IGRS_AGE_3_Abbreviated": "3+",
-    "CLASSIND_AGE_6_Abbreviated": "6",
     "USK_AGE_6_Abbreviated": "6",
-    "CLASSIND_AGE_6": "6 anos",
-    "EPIC_SUGGESTED_RATING_AGE_6": "6 ou mais",
-    "EPIC_SUGGESTED_RATING_AGE_6_Abbreviated": "6 ou mais",
     "RUSSIA_AGE_6": "6+",
     "RUSSIA_AGE_6_Abbreviated": "6+",
     "TCA_AGE_P_Abbreviated": "6 ou mais",
@@ -9914,12 +9924,13 @@
     "IGRS_AGE_7_Abbreviated": "7+",
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
+    "ClassInd_AIInteraction_v11_0": "Interação com IA",
     "USK_AbstrakteGewalt": "Violência Abstrata",
     "ACB_ActionViolence_v10_0": "Ação Violenta",
     "ClassInd_AdolescentThemes": "Temática Adolescente",
+    "ClassInd_AdultContent_v11_0": "Conteúdo adulto",
     "ClassInd_AdultThemes": "Temática Adulta",
-    "ESRB_AGE_AO": "Adults Only (Maiores de 18 anos)",
-    "ESRB_AGE_AO_Abbreviated": "Adults Only (Maiores de 18 anos)",
+    "ClassInd_Advertising_v11_0": "publicidade",
     "USK_Alokohol_v9_0": "Álcool",
     "ESRB_AlcoholReference": "Referência a Álcool",
     "USK_Alkoholkonsum": "Uso de Álcool",
@@ -9932,6 +9943,7 @@
     "ESRB_AnimatedBlood": "Sangue Animado",
     "TCA_AntiSociety": "Antissociedade",
     "ClassInd_AttenuatedAdultThemes": "Temática Adulta Atenuada",
+    "ClassInd_AudioVideoSharing_v11_0": "Compartilhamento de Áudio e Vídeo",
     "GEN_BadLanguage": "Linguajar Impróprio",
     "PEGI_BadLanguage": "Linguajar Impróprio",
     "ACB_BattleViolence": "Violência de Batalha",
@@ -9946,10 +9958,6 @@
     "CERO_AGE_0": "CERO A",
     "CERO_AGE_12": "CERO B",
     "CERO_AGE_15": "CERO C",
-    "CERO_AGE_17": "CERO D",
-    "CERO_AGE_17_Abbreviated": "CERO D",
-    "CERO_AGE_18": "ZERO Z",
-    "CERO_AGE_18_Abbreviated": "ZERO Z",
     "IE_Competitive_Intensity": "IC (Intensidade competitiva)",
     "TCA_CardOrCasualGames": "Jogos de Cartas ou Casuais",
     "ESRB_CartoonViolence": "Violência em Desenho Animado",
@@ -9961,12 +9969,14 @@
     "IGRS_CharacterAppearance": "Aparência do Personagem",
     "TCA_ChessGames": "Jogos de Xadrez",
     "ACB_CoarseLanguage": "Linguajar Ofensivo",
+    "EPIC_OFLC_Coarse_Language": "Linguajar Ofensivo",
     "ACB_ComedicViolence": "Violência Cômica",
     "ESRB_ComicMischief": "Travessuras Cômicas",
     "USK_ComicGewalt_v9_0": "Violência Cômica",
     "FPB_CompetitiveIntensity": "Intensidade competitiva",
     "ClassInd_ConsumptionofAlcohol": "Consumo de Álcool",
     "USK_Kontaktrisiken_v10_0": "Riscos de Contato",
+    "ClassInd_ContentRecommendation_v11_0": "Recomendação de Conteúdo",
     "USK_InhalteFuerVerschiedeneAltersgruppen_v7_0": "Conteúdos para Diferentes Grupos Etários",
     "CERO_ControlledSubstances": "Substâncias de Uso Controlado",
     "CERO_Crime": "Crime",
@@ -10032,12 +10042,8 @@
     "RUS_Fear_v7_0": "Medo",
     "IGRS_FearHorror": "Medo/Terror",
     "GRAC_AGE_12": "Para maiores de 12 anos",
-    "GRAC_AGE_15": "Para maiores de 15 anos",
-    "GRAC_AGE_15_Abbreviated": "Para maiores de 15 anos",
     "GRAC_AGE_ALL": "Para todas as idades",
     "ACB_AGE_G_Abbreviated": "G",
-    "CSRR_AGE_0": "g",
-    "CSRR_AGE_0_Abbreviated": "g",
     "OFLC_AGE_0": "G",
     "OFLC_AGE_0_Abbreviated": "G",
     "CERO_Gambling": "Apostas",
@@ -10105,6 +10111,7 @@
     "ACB_HorrorViolence": "Violência de Terror",
     "ACB_HuntingViolence": "Violência de Caça",
     "ClassInd_DrogasIlicitas": "Drogas Ilegais",
+    "ClassInd_ImageManipulation_v11_0": "Manipulação de Imagem",
     "FPB_ImitativeActsAndTechniques": "Imitação de Técnicas e Atos",
     "ClassInd_ConteudoImpactante": "Conteúdo Impactante",
     "ACB_ImpliedSexualViolence": "Violência Sexual Implícita",
@@ -10144,8 +10151,6 @@
     "OFLC_AGE_15": "M",
     "OFLC_AGE_15_Abbreviated": "M",
     "ACB_AGE_M": "Mature (Maiores de 16 anos)",
-    "ESRB_AGE_M": "Mature (Maiores de 16 anos)",
-    "ESRB_AGE_M_Abbreviated": "Mature (Maiores de 16 anos)",
     "ESRB_MatureHumor": "Humor Adulto",
     "ACB_MatureThemes": "Temática Adulta",
     "ClassInd_ProcedimentosMedicos_v8_0": "Procedimentos Médicos",
@@ -10207,26 +10212,12 @@
     "PEGI_ModerateViolence": "Violência Moderada",
     "ClassInd_ModerateViolenceAnimated": "Violência Animada Moderada",
     "ClassInd_ModeratelyRealisticViolence": "Violência Realista Moderada",
-    "ACB_AGE_NA": "N/A",
-    "ACB_AGE_NA_Abbreviated": "N/A",
-    "GRAC_AGE_NA": "N/A",
-    "GRAC_AGE_NA_Abbreviated": "N/A",
-    "TCA_AGE_NA": "N/A",
-    "TCA_AGE_NA_Abbreviated": "N/A",
     "ACB_NoConsumerAdvice": "Sem Orientação ao Consumidor",
     "ClassInd_Naohainadequacoes": "Sem Descrição",
     "ESRB_NoDescriptors": "Sem Descrição",
     "GEN_NoDescriptors": "Sem Descrição",
     "PEGI_NoDescriptors": "Sem Descrição",
     "USK_NoDescriptors": "Sem Descrição",
-    "USK_AGE_18": "Inapropriado para jovens",
-    "USK_AGE_18_Abbreviated": "Inapropriado para jovens",
-    "GMEDIA_AGE_NA": "Não Aplicável",
-    "GMEDIA_AGE_NA_Abbreviated": "Não Aplicável",
-    "IGRS_AGE_NA": "Não Aplicável",
-    "IGRS_AGE_NA_Abbreviated": "Não Aplicável",
-    "GRAC_AGE_ADULT": "Não apropriado para jovens",
-    "GRAC_AGE_ADULT_Abbreviated": "Não apropriado para jovens",
     "ACB_Nudity": "Nudez",
     "ClassInd_Nudez": "Nudez",
     "ESRB_Nudity": "Nudez",
@@ -10245,14 +10236,8 @@
     "ACB_GEMCO": "Interatividade On-line",
     "ACB_OnlineInteractivityAndChat_v10_0": "Interatividade Online e Chat",
     "IE_OnlineMusicNotRatedByESRB": "Música online não classificada pela ESRB",
-    "CSRR_AGE_6": "P",
-    "CSRR_AGE_6_Abbreviated": "P",
     "PEGI_AGE_PG": "RECOMENDAMOS O ACOMPANHAMENTO DE RESPONSÁVEIS",
     "PEGI_AGE_12": "PEGI 12",
-    "PEGI_AGE_16": "PEGI 16",
-    "PEGI_AGE_16_Abbreviated": "PEGI 16",
-    "PEGI_AGE_18": "PEGI 18",
-    "PEGI_AGE_18_Abbreviated": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10261,10 +10246,6 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
-    "CSRR_AGE_12": "12 anos",
-    "CSRR_AGE_12_Abbreviated": "12 anos",
-    "CSRR_AGE_15": "15 anos",
-    "CSRR_AGE_15_Abbreviated": "15 anos",
     "TCA_AGE_PG_12": "Acompanhamento de responsáveis 12",
     "TCA_AGE_PG_15": "Acompanhamento de responsáveis 15",
     "GEN_ParentalGuidanceRecommended": "Acompanhamento de responsáveis Recomendado",
@@ -10283,22 +10264,6 @@
     "PEGI_ProminentGamblingImagery_v9_0": "Imagens Proeminentes de Apostas",
     "TCA_AGE_P": "Protegido",
     "ClassInd_PsychologicalConflicts": "Conflitos Psicológicos",
-    "CSRR_AGE_18": "R",
-    "CSRR_AGE_18_Abbreviated": "R",
-    "OFLC_AGE_13": "R13",
-    "OFLC_AGE_13_Abbreviated": "R13",
-    "OFLC_AGE_R15": "R15",
-    "OFLC_AGE_R15_Abbreviated": "R15",
-    "OFLC_AGE_16": "R16",
-    "OFLC_AGE_16_Abbreviated": "R16",
-    "OFLC_AGE_18": "R18",
-    "OFLC_AGE_18_Abbreviated": "R18",
-    "ESRB_RATING_PENDING_AGE_10": "CLASSIFICAÇÃO PENDENTE",
-    "ESRB_RATING_PENDING_AGE_10_Abbreviated": "CLASSIFICAÇÃO PENDENTE",
-    "ESRB_RATING_PENDING_AGE_17": "CLASSIFICAÇÃO PENDENTE",
-    "ESRB_RATING_PENDING_AGE_17_Abbreviated": "CLASSIFICAÇÃO PENDENTE",
-    "ESRB_RATING_PENDING_M_AGE_17": "CLASSIFICAÇÃO PENDENTE, PROVÁVEL MATURE (Maiores de 16 anos)",
-    "ESRB_RATING_PENDING_M_AGE_17_Abbreviated": "CLASSIFICAÇÃO PENDENTE, PROVÁVEL MATURE (Maiores de 16 anos)",
     "GRAC_RandomBox_v7_1": "Caixa Aleatória",
     "USK_SelteneSchreckmomente": "Situações Reais Assustadoras",
     "ESRB_RealGamblingOnly_v9_0": "Apostas Reais",
@@ -10308,27 +10273,7 @@
     "ClassInd_RealisticBlood": "Sangue Realista",
     "USK_AndeutungenSexuellerGewalt": "Referência à Violência Sexual",
     "ACB_ReferencestoSexualViolence": "Referência à Violência Sexual",
-    "ACB_AGE_RC": "Classificação Proibida",
-    "ACB_AGE_RC_Abbreviated": "Classificação Proibida",
     "ACB_RefusedClassification": "Classificação Proibida",
-    "GMEDIA_AGE_RC": "Classificação Proibida",
-    "GMEDIA_AGE_RC_Abbreviated": "Classificação Proibida",
-    "GRAC_AGE_RC": "Classificação Proibida",
-    "GRAC_AGE_RC_Abbreviated": "Classificação Proibida",
-    "IGRS_AGE_RC": "Classificação Proibida",
-    "IGRS_AGE_RC_Abbreviated": "Classificação Proibida",
-    "RUSSIA_AGE_RC": "Classificação Proibida",
-    "RUSSIA_AGE_RC_Abbreviated": "Classificação Proibida",
-    "TCA_AGE_RC": "Classificação Proibida",
-    "TCA_AGE_RC_Abbreviated": "Classificação Proibida",
-    "USK_AGE_RC": "Classificação Proibida",
-    "USK_AGE_RC_Abbreviated": "Classificação Proibida",
-    "ACB_AGE_MA15": "Restrito",
-    "ACB_AGE_MA15_Abbreviated": "Restrito",
-    "ACB_AGE_R18": "Restrito",
-    "ACB_AGE_R18_Abbreviated": "Restrito",
-    "TCA_AGE_R": "Restrito",
-    "TCA_AGE_R_Abbreviated": "Restrito",
     "USK_AngstigendeInhalte": "Conteúdo Assustador",
     "USK_Schreckmomente_v9_0": "Momentos Assustadores",
     "ACB_ScaryScenes": "Cenas Assustadoras",
@@ -10442,8 +10387,6 @@
     "ESRB_TobaccoReference": "Referência a Tabaco",
     "USK_Tabakkonsum": "Uso de Tabaco",
     "TCA_TobaccoAndAlcohol": "Tabaco e Álcool",
-    "EPIC_GRAC_AGE_19": "Unrated (Sem Classificação)",
-    "EPIC_GRAC_AGE_19_Abbreviated": "Unrated (Sem Classificação)",
     "IE_UnrestrictedInternet": "Internet Irrestrita",
     "ESRB_UseofAlcohol": "Uso de Álcool",
     "ESRB_UseofAlcoholandTobacco": "Uso de Álcool e Tabaco",
@@ -10483,6 +10426,7 @@
     "ACB_VeryMildSexualisedImagery": "Imagens Sexualizadas Muito Leves",
     "ACB_VeryMildSlapstickViolence_v10_0": "Violência Pastelão Muito Leve",
     "ACB_VeryMildSportingViolence_v10_0": "Violência Desportiva Muito Leve",
+    "EPIC_OFLC_Mild_Sports_Violence": "Violência Esportiva Muito Leve",
     "ACB_VeryMildSuggestiveThemes": "Temática Sugestiva Muito Leve",
     "ACB_VeryMildSupernaturalThemes": "Temática Sobrenatural Muito Leve",
     "ACB_VeryMildSupernaturalViolence_v10_0": "Violência Sobrenatural Muito Leve",
@@ -10597,8 +10541,8 @@
     "RestrictionLineFormat": "{Index}.{Restriction}"
   },
   "JunoBuildingSnapEditorDetails": {
-    "SnapEditorRotateInPlace": "In Place",
-    "Toolbar": "Snap Editor Toolbar"
+    "SnapEditorRotateInPlace": "Em posição",
+    "Toolbar": "Barra de ferramentas do editor de encaixe"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "Indicadores de Dados de Conectividade de Juno",
@@ -10614,30 +10558,30 @@
     "ConsolidatePrimitivesCombined": "Criando Redirecionadores - /JunoAtomAssets/CombinedMeshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesMeshes": "Criando Redirecionadores - /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "Criando Redirecionadores - /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
-    "GetAssetsOfType": "Gathering '{0}' Assets",
-    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
-    "PrintAtomModelsInfo": "Printing out a AtomModels info",
+    "GetAssetsOfType": "Coletando ativos de \"{0}\"",
+    "UpdateGeneratedMeshes": "Gerando malhas sujas",
+    "PrintAtomModelsInfo": "Imprimindo informações sobre modelos de átomos",
     "RepairGeneratedMeshes": "Reparando Modelos de Átomo",
-    "RegeneratePrimitivesOnPrimitive": "Running Primitive Processor : {0} ({1})",
-    "RegeneratePrimitives": "Running Primitive Processor...",
-    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+    "RegeneratePrimitivesOnPrimitive": "Executando processador primitivo : {0} ({1})",
+    "RegeneratePrimitives": "Executando processador primitivo...",
+    "UpdateAllAtomModelsToUseProcessors": "Atualizando modelos de átomos"
   },
   "JunoFECraftingDataTool": {
     "ImGuiFrontendCraftingDataTool": "Ferramenta de Fabricação de Frontend de Juno",
     "ImGuiFrontendCraftingDataToolTooltip": "Ferramenta para copiar dados da interface para uso no frontend"
   },
   "JunoValidator_AtomModel": {
-    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
-    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Tem processador definido, mas precisa gerar as malhas.",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "Não tem processador definido, mas há referência a malhas geradas."
   },
   "JunoValidator_ClientOnlyGameFeatureData": {
     "ClientOnlyRowStructOnServer": "A estrutura de linha '{0}' é definida no módulo apenas para cliente '{1}', mas é referenciada por '{2}' que carrega no servidor. Mova a estrutura para um módulo de Tempo de Execução ou garanta que os dados sejam carregados apenas no cliente."
   },
   "JunoValidator_GeometryCollection": {
-    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Tem uma malha instanciada automaticamente nula",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "Possui uma Malha de Proxy nula",
-    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
-    "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requer pelo menos uma malha instanciada automaticamente",
+    "JunoValidator_GeometryCollection_ProxyMeshes": "Requer pelo menos uma Malha de Proximidade"
   },
   "JunoValidator_POI": {
     "ReplaceWithoutReplacement": "A linha de PI \"{0}\" está definida para Substituir, mas não possui ReplacementPOI, então ela só será removida.Estabeleça uma substituição ou defina IneligibleAction como Remover.",
@@ -10651,14 +10595,14 @@
     "MismatchedRowStruct": "PlaylistBaseDataTableOverrides[{0}] para a tag de playlist '{1}': a tabela de substituição '{2}' tem a estrutura de linha '{3}', mas a tabela base '{4}' usa a estrutura de linha '{5}'. Substituir uma tabela de dados com um tipo de linha diferente causa corrupção de memória durante a execução. A tabela de substituição DEVE usar exatamente a mesma estrutura de linha que a tabela base."
   },
   "JunoValidator_StaticMesh": {
-    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
-    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
-    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
-    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
-    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
-    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
-    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
-    "JunoValidator_StaticMesh_NumLODs": "Only has one LOD"
+    "JunoValidator_StaticMesh_InvalidLODs": "Ativo contém uma cadeia de LOD inválida",
+    "JunoValidator_StaticMesh_OpaqueExport": "Pode ser excluído, pois não contém mais materiais transparentes",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "A malha de partes comuns não tem a tag átomo \"Render.CommonParts\"",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "A malha de partes comuns não tem o LODGroup AtomMergedMesh_CommonParts",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "A malha de partes comuns não tem apenas um LOD",
+    "JunoValidator_StaticMesh_WrongLODGroup": "O nome do LODGroup não começa com \"AtomMergedMesh\"",
+    "JunoValidator_StaticMesh_TransparentExport": "Deve ser gerado sem materiais transparentes",
+    "JunoValidator_StaticMesh_NumLODs": "Possui apenas um LOD"
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "Pouca memória",
@@ -11248,7 +11192,10 @@
     "UnsafeEnvironment_BodyBadInstall": "Encontramos dados de jogo corrompidos que impedem jogar on-line. Reinstale o Fortnite usando o aplicativo da Epic Games para corrigir esses problemas. Você pode baixar o aplicativo da Epic Games em fortnite.com/download",
     "UnsafeEnvironment_BodyBadInstallGP": "Encontramos dados de jogo corrompidos que impedem jogar on-line. Acesse o Google Play Store e reinstale o Fortnite para corrigir esses problemas.",
     "UnsafeEnvironment_BodyCorruptedContent": "Encontramos dados de jogo corrompidos que impedem jogar on-line. Verifique ou reinstale o Fortnite para corrigir esses problemas.",
+    "UnsafeEnvironment_StrictInjectionApply": "Habilitar e reiniciar",
     "UnsafeEnvironment_Title": "Erro",
+    "UnsafeEnvironment_StrictInjectionNotActive": "O Evento requer Política de Injeção Restrita. Já está habilitado nas configurações do jogo, o Fortnite precisa ser reiniciado para que as alterações entrem em vigor.\n\nDeseja reiniciar agora?",
+    "UnsafeEnvironment_StrictInjectionNotEnabled": "O Evento requer Política de Injeção Restrita. Você precisa habilitar essa opção nas configurações de jogo e reiniciar o Fortnite para aplicar as alterações.\n\nVocê quer aplicar as alterações agora?",
     "UnsafeEnvironment_BodyMissingLauncher": "O Fortnite não foi inicializado corretamente e precisa ser fechado. Recomendamos tentar inicializar o jogo usando o Inicializador da Epic Games ou entrar em contato com o suporte ao jogador.",
     "UnsafeEnvironment_Body": "Trapaça ou ferramenta de engenharia reversa ativas encontradas. Desative-as antes de jogar Fortnite para evitar banimento de conta.",
     "UnsafeEnvironment_EventTPMAuth": "Não foi possível autenticar o TPM do seu dispositivo. Esse dispositivo pode não ser capaz de participar de torneios em uma atualização futura. Acesse fn.gg/tpm para mais informações.",
@@ -11334,6 +11281,8 @@
     "FailedLoginConsole_SystemUpdateAvailable": "Não foi possível fazer o login porque uma nova atualização do sistema está disponível. Instale-a e tente novamente.",
     "FailedLoginConsole_PatchAvailable": "Não foi possível fazer o login porque um patch mais recente está disponível. {0}",
     "FailedStartLogin": "Não é possível fazer login na sua conta Epic Games no momento. Tente novamente mais tarde.",
+    "FailedStartLogin_InvalidRefreshToken": "Não é possível fazer login na sua conta Epic Games no momento. Tente novamente mais tarde.",
+    "FailedStartLogin_NoConnection": "Não é possível fazer login na sua conta Epic Games no momento. Tente novamente mais tarde.",
     "UserLoginFailed": "Não é possível fazer login na sua conta Epic Games no momento. Tente novamente mais tarde.",
     "FailedLoginMsg": "Não foi possível fazer login nos servidores {0}. Tente novamente mais tarde.",
     "FailedLoginConsole_UnableToSignIn": "Não foi possível iniciar sessão com a sua conta {0}. Tente novamente mais tarde.",
@@ -11983,10 +11932,10 @@
     "OutDateFormat": "Termina em {Day} de {Month} de {Year}, às {Time} ({TimeZone})"
   },
   "SnapEditorVisualizer": {
-    "DeleteSnapEntries": "Delete Snap Entries",
-    "DuplicateSnapEntries": "Duplicate Snap Entries",
-    "PasteSnapEntries": "Paste Snap Entries",
-    "SelectSnapEntry": "Select Snap Point"
+    "DeleteSnapEntries": "Excluir entradas de encaixe",
+    "DuplicateSnapEntries": "Duplicar entradas de encaixe",
+    "PasteSnapEntries": "Colar entradas de encaixe",
+    "SelectSnapEntry": "Selecionar ponto de encaixe"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "{0} Restante(s)"
@@ -12601,7 +12550,7 @@
     "EmptyEntryError": "Tentando definir um nome vazio."
   },
   "UConfigurePrefabTool": {
-    "ToolName": "Configure Prefab"
+    "ToolName": "Configurar estrutura pré-fabricada"
   },
   "UEFN": {
     "LaunchDataLeaveMatchAndMatchmakeLinkCode": "Sair da partida e jogar {LinkCode}?",
@@ -12788,8 +12737,8 @@
     "OpenHLTv2ToCustomizableUIMigrator_ToolTip": "Abre o HLTv2 para que a Ferramenta de Migração para Interface Personalizável possa migrar todas as configurações de HLTv2 para a nova estrutura de interface personalizável."
   },
   "UICommands.JunoViewportToolsCommands": {
-    "BeginConfigurePrefabTool": "Configure Prefab",
-    "BeginConfigurePrefabTool_ToolTip": "Configure Prefab"
+    "BeginConfigurePrefabTool": "Configurar estrutura pré-fabricada",
+    "BeginConfigurePrefabTool_ToolTip": "Configurar estrutura pré-fabricada"
   },
   "UICommands.SpatialMetricsProfiler": {
     "OpenSpatialProfiler": "Abrir Analista Espacial",
@@ -12813,24 +12762,24 @@
     "MaxRejoinFail": "Não foi possível voltar ao jogo. Tentativas máximas de voltar excedidas."
   },
   "UJunoAssetListAssetFactory": {
-    "MenuEntry": "Asset List"
+    "MenuEntry": "Lista de ativos"
   },
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "A tabela de dados do Catálogo [fileira {0}] não tem uma etiqueta de Subcategoria válida.",
     "NeitherItemNorTag": "A tabela de dados do Catálogo [fileira {0}] não tem uma definição de item nem uma etiqueta de identidade. É preciso ter ao menos uma.",
-    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "NPCNoSpawnerDat": "A tabela de dados do Catálogo [linha {0}] parece ser um PNJ amigável, mas não tem dados definidos de gerador de IA.",
     "CategoryTagInvalid": "A tabela de dados do Catálogo [fileira {0}] não tem uma etiqueta de Categoria válida.",
-    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "A tabela de dados do Catálogo [{0}] faz referência a um item [{1}] que não existirá quando o plugin do pacote for preparado em [{2}].  Remova a linha ou atualize a versão de lançamento do item para corresponder."
   },
   "UJunoValidator_ContextualMessageConfig": {
     "TextInvalid": "A tabela de dados de diálogo [linha {0}] tem texto inválido na propriedade [{1}]:{2}\"{3}\""
   },
   "UJunoValidator_CraftingFormula": {
-    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime.",
+    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contém uma tag RequiredIngredients em branco!!Isso pode causar problemas durante a execução.",
     "DirectOutputsWithLootTierKey": "A FCraftingFormula [{0}] tem tanto uma ResultLootTierKey quanto uma Saída Direta (entrada de ExtraData). Remova a entrada de ResultLootTierKey ou Saída Direta"
   },
   "UJunoValidator_GuidedBuildingActorValidator": {
-    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
+    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData com ActorName [{0}] tem uma receita em branco!!Isso pode causar problemas durante a execução."
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingDisplayActorDataEntry no catálogo [{0}] possui uma receita em branco!! Isso pode causar erros durante a execução."
@@ -12842,7 +12791,7 @@
     "ItemNewerThanLootTablePlugin": "O Item [{0}] tem a versão de lançamento [{1}], mas é referenciado pela tabela de saque [{2}], cujo plugin é compilado em [{3}]. O item não existirá quando esta tabela de saque for executada. Remova o item da tabela de saque ou atualize a versão de lançamento do item para corresponder à versão do plugin."
   },
   "UJunoValidator_Journal": {
-    "RewardsInvalid": "Journal data table [row {0}] has a CompletionReaction type that grants a reward, but is set to GrantToWorld.  It must be GrantToParticipants to correctly grant to all players..",
+    "RewardsInvalid": "Tabela de dados do registro [linha {0}] tem um tipo CompletionReaction que concede uma recompensa, mas está definido como GrantToWorld.  Deve ser GrantToParticipants para conceder corretamente a todos os jogadores..",
     "TextInvalid": "A tabela de dados do Diário [linha {0}] tem texto inválido na propriedade [{1}]:{2}\"{3}\"",
     "PrereqQuestProgressNotification": "O item bHideQuestProgressNotification da tarefa na tabela de dados de registro [linha {0}], Índice de Pré-requisitos [{1}], deve estar ligado",
     "PrereqQuestStartingToast": "O item bShouldDisplayStartingToast da tarefa na tabela de dados de registro [linha {0}], Índice de Pré-requisitos [{1}], deve estar desligado",
@@ -12850,7 +12799,7 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "Tabela de dados do registro [fileira {0}], o Índice de Pré-requisitos [{1}] de AwesomeLevelIndex não é um índice válido para UpgradeRequirements de {2}.",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "Tabela de dados do registro [fileira {0}], o Índice de Pré-requisitos [{1}] de CampTagConfigKey não está mapeado em uma tabela de dados de FJunoAwesomePoiConfigTableRow.",
     "PrereqTownbuilderInvalidNoValidALI": "Tabela de dados do registro [fileira {0}], o Índice de Pré-requisitos [{1}] não possui um AwesomeLevelIndex válido.",
-    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
+    "PrereqTownbuilderInvalid": "Tabela de dados do registro [linha {0}], Índice de Pré-requisitos [{1}] não tem uma tag CampTagConfigKey válida.",
     "PrerequistitesInvalidNoValidPreReqType": "Tabela de dados do registro [fileira {0}], o Índice de Pré-requisitos [{1}] não possui um tipo de pré-requisito válido.",
     "PrereqQuestInvalidNotNeededPFComponent": "Tabela de dados do registro [fileira {0}], o Índice de Pré-requisitos [{1}] possui um componente PersistenceFramework desnecessário.",
     "PrereqQuestInvalidQuestSoftPtr": "Tabela de dados do registro [linha {0}], o Índice de Pré-requisitos [{1}] possui um Quest SoftPtr inválido [{2}].",
@@ -12858,17 +12807,17 @@
     "PrereqQuestNull": "Tabela de dados do registro [linha {0}], o Índice de Pré-requisitos [{1}] não possui QuestDef.",
     "PrereqTownbuilderInvalidRCButEmptyRL": "Tabela de dados do registro [fileira {0}], o Índice de Pré-requisitos [{1}] relativo a ResourceCost, mas {2} possui um ResourceList vazio.",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "Tabela de dados do registro [fileira {0}], Índice de Pré-requisitos [{1}]. Não foi possível encontrar UpgradeStep com UpgradeStepIdentifer {2} para UpgradeStages de {3}.",
-    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
-    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
-    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "PrerequistitesInvalid": "Tabela de dados do registro [linha {0}] não possui Pré-requisitos.",
+    "CategoryTagInvalid": "Tabela de dados do registro [{0}], não tem uma tag de Categoria válida.",
+    "CompletionReactionsInvalid": "Tabela de dados do registro [linha {0}] está configurada para se revelar por meio do Índice de Reação de Conclusão [{1}].",
     "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "Tabela de dados do registro [fileira {0}] está configurada para se relevar através de NextTaskRowName, desmarque RevealNextTaskOnComplete para se desbloquear e fale com um engenheiro!",
     "CompletionReactionsInvalid_RowNotExist": "Tabela de dados do diário [linha {0}], revela [linha {1}] na conclusão, que não existe.",
     "CompletionReactionsInvalid_AutoReveal": "Tabela de dados do diário [linha {0}], revela [linha {1}] na conclusão, que usa uma AutoRevealCondition.  Isto não é permitido, ConditionsForAutoRevealOrHide gerencia a revelação de tarefas por conta própria.",
-    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
-    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+    "NextTaskRowNameInvalid": "Tabela de dados do registro [linha {0}] usa RevealNextTaskOnComplete, mas NextTaskRowName {1} está incorreta.  Marque a opção novamente.",
+    "ValidateLoadedAsset": "Tabela de dados do registro [{0}], Índice de Pré-requisitos {1} referencia uma tarefa [{2}] que não existirá quando o plugin do pacote for preparado em [{3}]. Remova a linha ou atualize a versão de lançamento do item para corresponder."
   },
   "UJunoValidator_LootTables": {
-    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "LootPackage [{0}] faz referência a um item [{1}] que não existirá quando o plugin do pacote for preparado em [{2}]. Remova a linha ou atualize a versão de lançamento do item para corresponder."
   },
   "UK2Node_ModifyObject": {
     "NodeTitle": "Modificar Objeto",

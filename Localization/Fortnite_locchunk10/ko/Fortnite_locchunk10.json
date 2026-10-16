@@ -356,6 +356,7 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "강력한 보조 점프 공격이 있는 검입니다.",
     "144AC202422D81D8ECA7FDADA0248752": "높은 명중률과 사거리를 자랑하는 클래식한 소총입니다.",
     "174ADE3045B991036DAB808BA3802CDA": "높은 명중률과 사거리를 자랑하는 클래식한 소총입니다.",
+    "A633A07540E67656A515748EC42D2BFA": "높은 명중률과 사거리를 자랑하는 클래식한 소총입니다.",
     "5CA4C768442DACE154F650919AEBF7CC": "전속력 발진! 흥분과 재미가 넘쳐납니다. 공중에서 점프하면 작동합니다.",
     "62060089487721326B23BBA33709B481": "전속력 발진! 흥분과 재미가 넘쳐납니다. 공중에서 점프하면 작동합니다.",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "전속력 발진! 흥분과 재미가 넘쳐납니다. 공중에서 점프하면 작동합니다.",
@@ -422,10 +423,7 @@
     "F259347F4F2842296238EB82C300F898": "모두",
     "165B7E9748BBE879107084AD2F2A831F": "광역치유 치유 유틸리티아이템 ",
     "979E143F4DB80482F7115A92CA8BCD4A": "광역치유 치유 유틸리티아이템 ",
-    "A9FA7E534DAB697646EE6AB42C93C1D7": "연두색",
     "A2C33D7A4650D1311D24238FC644F05A": "자신과 주변 아군에게 <Emphasized>보호막</> 적용",
-    "2C724915401F1A7787FFCB8FD290B616": "청록색",
-    "46C56F454E6F3673CEF647A6D72F3EDA": "연한 청록색",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "무기고 슬롯",
     "14FE8E964665F3F20099A0B16A9D68F7": "애슈턴",
     "F00BAD564EF2DC73C32CB18F94A85EAE": "애슈턴",
@@ -555,7 +553,6 @@
     "120BA8004C6678552C7377A6A5483152": "비컨 스타일",
     "851AC090485097B263B626A83A02C0FE": "광선",
     "C1DC37B04598D140C5BD808AB61F9712": "눈사람으로 위장",
-    "21BB6A4D48D2430058D509B4F3D02AA9": "베이지색",
     "0A9381554E499FD10B15438EDCFD41B0": "빅배럴 DX",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "복엽기",
     "5B5236944941BFD7DE82B8B05FE11D94": "복엽기",
@@ -626,7 +623,6 @@
     "2AA0C53148468770E238D6825BF85BAC": "카테고리 스타",
     "EE922BB945F58FB9604A58A2D82D680C": "캣우먼의 속사 기관단총",
     "AA86FAD842ADDE0E9D552E92F44CDD7C": "캣우먼의 맞춤 속사 기관단총입니다. 정교하게 제작되어 탄약 용량이 증가합니다.",
-    "D76CF3D846DE65E8BE51F39F748DAA43": "짙은 파란색",
     "EB4A9CD946CF1CAD986993958FEC99A7": "챕터 2 - 시즌 5 ",
     "5D048A7F45BDC6C054F4528378401CD0": "챕터 2 시즌 7",
     "02BD54134B723F96AC01628F3924C431": "챕터 2 시즌 8",
@@ -929,7 +925,6 @@
     "7D608A2348789E08EF3A60ABB1E09742": "아군 팀",
     "2FB297854AA101161395379E33167490": "구사일생",
     "2277279745E5A2A74BC60299806407F0": "프로즌",
-    "E37268214ECAE0FDB58EF1A6BD1E9A81": "진분홍색",
     "1D2EEEBF4370BF8C411B08B64DCE4F2E": "풀 빅배럴",
     "F6260A434A2F549B51B59F842C778EA8": "풀 플랫라이너",
     "CA598A9647DDFFF9012FFE88BAC6D842": "풀 지플립",
@@ -975,7 +970,6 @@
     "87E39EA04808B27EA30A908F811EF0FA": "글라이더",
     "3C063B974F09C8A673507CBE3ADDB71D": "죽느냐 사느냐... 혼자서 싸우는 서바이벌 혈투!",
     "8BEC89B8499664826B111685672B4E29": "죽느냐 사느냐... 혼자서 싸우는 서바이벌 혈투!",
-    "B8C59B304999B1F6964D1696FAB0E456": "황금색",
     "F92ED6D24B56EACA844D27A473619CF5": "골드",
     "3636D06A4ADE66F6A3C73D9AAB04186F": "골드 화폐",
     "7B0936A2458A998274ED3484DE00BCDA": "황금 트러플",
@@ -994,7 +988,6 @@
     "2BAF9D994E20140BCD7F59A7CAC81BA3": "그레이브야드 스위치턴",
     "A4341A0045390C670F4757948E6E3CE5": "그레이브야드 쓰나미",
     "F0737F4E40417749A441A59843B932F0": "그레이브야드 보이저",
-    "0B5C62D0400E95930AEE12B1D2116EE2": "초록색",
     "5D14C5F74CA277758C0476AA504D7CEA": "그로토",
     "331DB866438F7C72234C5B8338CC44A0": "단체로 총격전을 벌여 다른 스쿼드보다 오래 살아남으면 승리합니다!",
     "99E9D5F34DC01FC6B8774DB154EAC42E": "총기 돌격소총 기관총 소형탄환 자동",
@@ -1042,7 +1035,6 @@
     "2EAFA04B4FCA57C7AF24E29E7C4450D7": "중저격소총 +",
     "A935E8954E7200704C91A0A3A85B8C71": "일정 확률로 <Emphasized>즉시 재장전</>되는 중저격소총",
     "56AA82F146826F523FA9119C01362035": "높이",
-    "0B86EC9C474C4633272C9787A10B7795": "보유 아이템",
     "465E0326425E1043865BEB8E4C811AE3": "보유 아이템",
     "6C0951C64B0DA937087B0284224F92F4": "보유 아이템",
     "6EF1E84B40FA9D7CD51697ABF897FE4A": "보유 아이템",
@@ -1090,6 +1082,7 @@
     "3B23812B4104C655B1751DAB80ED2993": "인디 지플립",
     "118BD9B247A79B6E7AB2189A409B7EFA": "인디 라운더",
     "55F09A7841788A6D5EABF7AE7C720557": "보병소총",
+    "C115B50C4700A573DC237EAC7C92E21B": "보병소총",
     "F1638A45469F392DAF5444BE0A097644": "보병소총",
     "F317A4514DE5AEE182F39DA192E355AD": "보병소총",
     "1D7BBE454E1553569F9589A7E633F06D": "무한",
@@ -1236,7 +1229,6 @@
     "/Fortnite.com/Devices/NPCSpawner/npc_behavior_template_message_module/OnEndMessage": "NPC Agent = {Agent}: OnEnd triggered let's cleanup.",
     "0DD368AE4439FC99C95A4595D62837AC": "타고난 제작가 도전",
     "688E65C943BC171D5807FE974D7E59A9": "영원의 네드 도전",
-    "B80ED9CD455EDCE5BB4214A10A82B828": "네온 초록색",
     "NetworkConnectionLost": "네트워크 연결 해제",
     "44067A6E421888DD39877E82D6DABB58": "중립 아이콘 텍스트",
     "AB88B4554EDBE594A34706AED40BB6C4": "없음",
@@ -1358,7 +1350,6 @@
     "19A0DCA742B5AC4CB1D227AEE0A19601": "선택만",
     "B95E8C564EE3D7A237E5DEB35283797C": "필요한 경우만",
     "BAC5E80D44DA978242043B9497A8E286": "적을 처치하면 주변에 있는 적들의 <Emphasized>위치 노출</>",
-    "95FD548C4AFFA37C807335BD7AF1AB6A": "주황색",
     "658517F44C1678AB75F76FB69BD46F60": "주황색 페인트 발사기  ",
     "516CA75D4CF5403A2F82BF838CD51DB7": "만료된 모듈과 부모",
     "6EB89D324C5E00500994CD96A83D5A72": "만료된 모듈과 부모",
@@ -1385,7 +1376,6 @@
     "B3CFEDE943AA56C0AEE82CA08F806463": "줍기",
     "7240B5BC46A81D296CBCA080DF98ECB7": "곡괭이 달리기",
     "91F4A2794D81253C6E03C7A0B78CC383": "소화기 줍기",
-    "F75FBF44462332D5DFE17691FCD37DFF": "분홍색",
     "2C211AA048AE4A1A5D9423B297E1023D": "해적 캐넌",
     "BB93B4574E7A8EF0105C4DAADCA4D5F8": "해적 캐넌",
     "CFBFEBC248741ED6E0FCC88CC754A22E": "해적 캐넌",
@@ -1438,7 +1428,6 @@
     "85A2E3C041A433B1B8D87C914FAFCC13": "펀치카드 완료 토큰",
     "8FDD93294EE611E28D499E8504C6C314": "펀치카드 펀치 토큰",
     "B06F5AB34BA2C7C48F6D2982E60EC524": "펀치카드 펀치 토큰",
-    "A4A746BE47363A8193CEE4BC9E663930": "보라색",
     "A1D607174B6E2B132A79E0A3242425BE": "보라색 페인트 발사기  ",
     "02D599B84C45A32A6BAB92925A070A51": "밀기 (탭하기) / 매달리기 (길게 누르기)",
     "25171EA942DC385DE7E5798BBB4969A1": "내려놓기",
@@ -1459,7 +1448,6 @@
     "B1CFA5584EBD1878822A699ECEB629A6": "희귀 상자",
     "101BBD144878EB1AA8CCD292737797AE": "정찰용 스캐너",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "신병",
-    "1C77EAFB46C48299170B7486AEFB6294": "주홍색",
     "7125E4704BEA318C6BD3D69B5893D080": "정제된 제작 재료입니다. 다른 재료를 사용해서 만들 수 있으며 보통 상자에서 발견됩니다.",
     "16DA40C14B2BC801935504956E31A9C9": "수영할 때 <Emphasized>체력</> 회복",
     "D956F3B24B85A136EDFF7681AD74FB8C": "되찾은 활기",
@@ -1590,10 +1578,8 @@
     "029C79824756DFCA21B1AB85821FF31C": "뉴스 보기",
     "2496EF09404F18FFE2EA0AB9BA7CFA8F": "화면 밖 화살표 표시",
     "D2AA34D248C42439671352909952AF0C": "새 소식이 있으면 뉴스 화면을 보여줍니다.",
-    "D5A97BEC41D14A772F78AD85787561D5": "은색",
     "37EA8D3C4FCA282792A19089FF9D264F": "<Emphasized>원거리</> 조준경이 장착된 단발 저격소총",
     "9A6F1EDF4BBD286B035BA49BDF31635E": "해골친구 도전 토큰",
-    "89373C3241ED5AC276FBA08F64FC6020": "하늘색",
     "C3F806054CE1F1D1A8FFFC9F8DF839BC": "느림",
     "252EFAEE4A3593A47968A9B628C86826": "발사 속도가 느리고 <Emphasized>강력한 권총</>",
     "F415822746674FEAC04DCB8D1D0EC153": "연기 파티클",
@@ -1976,7 +1962,6 @@
     "A8CDADF8471D9C4CFEBFF598C94692E3": "탈것이 파괴되면, 설정한 시간이 지난 뒤에 다시 생성합니다. (처음 생성할 때는 적용되지 않습니다.)",
     "0D756F6B4F770EF0A8F90CAC0113EB78": "낙하 지점 권총",
     "E710C08E4E5C70FF8A286CB6EA101B4F": "비컨과 HUD 구성요소 중 하나만 표시할지, 둘 다 표시할지 설정합니다.",
-    "D3A54EAE40408580269CF39BCCA37888": "흰색",
     "195F2EE048C26E190C845691145D6CF6": "너비",
     "9BD108A54CA8FA397E1DBD95E37958BB": "겨울축제 도전 완료 토큰",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "겨울축제 열쇠",
@@ -2139,23 +2124,35 @@
     "MergeSquadsText": "스쿼드 합치기",
     "SquadsTooBigToMerge": "스쿼드가 너무 커서 합칠 수 없습니다"
   },
+  "AnimInEdTools": {
+    "SourceLink_NotASequence": "\"{0}\"을(를) 레벨 시퀀스로 로드할 수 없습니다.",
+    "SourceLink_NoItem": "\"'{0}'에 이 애니메이션으로 되돌아가는 링크가 기록되지 않습니다.\"",
+    "SourceLink_OpenRange": "\"'{0}'에 재생 범위 제한이 없어 내보낸 범위를 결정할 수 없습니다.\"",
+    "SourceLink_NoTrack": "\"'{0}'에 이 애니메이션의 소스 바인딩 컨트롤 릭 트랙이 없습니다.\"",
+    "SourceLink_BadRate": "\"'{0}'에 유효하지 않은 프레임률의 커스텀 내보내기 범위가 기록되어 있습니다.\"",
+    "SourceLink_NoAnim": "애니메이션이 열려 있지 않습니다.",
+    "SourceLink_Missing": "연결된 레벨 시퀀스 '{0}'(이)가 누락되었습니다.",
+    "SourceLink_NoLink": "이 애니메이션은 레벨 시퀀스에 연결되지 않아 읽을 수 있는 소스 키 타이밍이 없습니다."
+  },
   "AnimInEdToolsModule": {
     "AnimToCRImportTabLabel": "애님 → 컨트롤 릭",
     "AnimToCRImportTabTooltip": "미리 본 애니메이션(포즈, 범위 또는 전체 클립)을 열려 있는 레벨 시퀀스의 컨트롤 릭으로 임포트합니다."
   },
   "AnimToCRImport": {
-    "Clear": "지우기",
+    "ImportKeyTimings": "소스 키 타이밍 적용",
+    "ClearInOutTip": "안쪽/바깥쪽 청소",
     "CurFrame": "현재 프레임",
-    "DelStatic": "스태틱 채널 삭제",
-    "RangeHdr": "프레임 범위",
     "ImportPose": "포즈 임포트",
     "ImportRange": "범위 임포트",
-    "OnlyStatic": "스태틱 채널만 감소",
-    "OptionsHdr": "옵션",
-    "SelOnly": "선택한 컨트롤만",
+    "KeyTimingsTip": "모든 프레임에 키를 두는 대신, 소스 레벨 시퀀스의 기본 레이어에 키가 있었던 위치에만 키를 유지합니다. 값은 여전히 이 애니메이션에서 가져옵니다. 열쇠 최소화 설정 대신 사용할 수 있습니다.",
+    "NoLoadSettings": "애니메이션 불러오기 설정을 사용할 수 없습니다(LoadAnimToControlRigSettings 찾을 수 없음).",
+    "SimpleViewTip": "애니메이션 편집기를 뷰포트, 타임라인, 이 도구, 에셋 브라우저로 다시 되돌리세요. 설정을 끄면 열려 있던 탭이 복원됩니다.",
+    "RestoreLayoutTip": "마지막으로 간편 보기를 사용했을 때 열려 있던 탭을 다시 엽니다. 단순 보기를 한 번 이상 사용하면 사용 가능합니다.",
+    "RestoreLayout": "레이아웃 복원",
     "SetIn": "시작 설정",
     "SetOut": "종료 설정",
-    "SmartReduce": "스마트 감소"
+    "SimpleView": "단순 뷰",
+    "SourceLabel": "출처: {0}  프레임 {1}-{2}"
   },
   "AntiCheat": {
     "ClientErrorMessage": "{provider} 오류: {message}\n\n{provider}의 FAQ에서 자세한 정보를 확인하세요."
@@ -2189,7 +2186,7 @@
   },
   "AssetTypeActions": {
     "AIActionSequence": "AI 액션 시퀀스",
-    "UJunoAssetListAssetFactory": "Asset List"
+    "UJunoAssetListAssetFactory": "에셋 목록"
   },
   "Athena": {
     "NPCHiredIndication": " (부하)",
@@ -3033,7 +3030,7 @@
   },
   "Contexts": {
     "HLTv2ToCustomizableUI": "HLTv2-커스터마이징 가능한 UI 플러그인",
-    "JunoViewportToolsCommands": "Juno Tools",
+    "JunoViewportToolsCommands": "주노 도구",
     "SpatialMetricProfiler": "공간 프로파일러",
     "WeaponModernizationEditorCommands": "무기 현대화 도구"
   },
@@ -3863,9 +3860,9 @@
     "FailedToWriteDescriptor": "'{0}' 플러그인을 찾을 수 없음"
   },
   "FJunoViewportToolsModule": {
-    "SectionName": "Juno",
-    "ExtensionName": "JunoTools",
-    "ConfigurePrefabTool": "Prefab"
+    "SectionName": "주노",
+    "ExtensionName": "주노도구",
+    "ConfigurePrefabTool": "프리팹"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "{resourcetype} {amount}개 투입",
@@ -5189,6 +5186,20 @@
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "특별"
   },
+  "FortEpicParty": {
+    "AccountResolution": "내부오류",
+    "ExistingInviteMissing": "내부오류",
+    "FrameworkUnavailable": "내부오류",
+    "JoinRetryAbandoned": "내부오류",
+    "JoinableInfoMissing": "내부오류",
+    "RetryAccountResolution": "내부오류",
+    "RetryFrameworkUnavailable": "내부오류",
+    "RetryJoinableInfoMissing": "내부오류",
+    "RetryPartyPrivate": "내부오류",
+    "RetrySameParty": "내부오류",
+    "TargetNotFriend": "내부오류",
+    "TargetNotJoinable": "내부오류"
+  },
   "FortErrorOverrides": {
     "IoStoreHttpError": "백엔드 서비스와 통신하는 중에 오류가 발생했습니다. 네트워크 연결을 확인하고 잠시 후 다시 시도하시기 바랍니다. {ModuleIdString}.{ErrorCodeString}"
   },
@@ -5232,6 +5243,9 @@
   },
   "FortGameMode": {
     "FailedToStartMatchTimeout": "서버가 시간 내에 시작되지 못했습니다."
+  },
+  "FortGameStateHestiaBeauty": {
+    "SittingOutPlayersToJumpInNotAllowed": "파티의 세션에 참가할 수 없습니다."
   },
   "FortGameStateOutpost": {
     "LimitThresholdReached": "경고: 설치할 수 있는 구조물이 {0}개 남았습니다."
@@ -5451,10 +5465,8 @@
     "StorageItemDescription_BR": "배틀로얄, 빌드 제로, 리로드에서 필요합니다.",
     "StorageItemDescription_Sparks": "포트나이트 페스티벌에서 필요합니다.",
     "StorageItemDescription_Juno": "레고® 포트나이트에서 필요합니다.",
-    "StorageItemDescription_DelMar": "로켓 레이싱 및 플레이어 제작 로켓 레이싱 맵에서 필요합니다.",
     "StorageItemDescription_Core": "모든 경험에 대한 콘텐츠가 필요합니다.",
-    "StorageItemDescription_Creative": "크리에이터 제작 섬 [및 Feral] 플레이와 편집에 필요합니다.",
-    "StorageItemTitle_DelMar": "로켓 파워 콘텐츠"
+    "StorageItemDescription_Creative": "크리에이터 제작 섬 [및 Feral] 플레이와 편집에 필요합니다."
   },
   "FortLinkedGraphGate": {
     "LinkedGraphTagInvalid": "@@ - 연결된 링크 그래프에 유효한 태그 없음",
@@ -6825,6 +6837,7 @@
     "TweakZoneCollection_Name": "컨트롤러 보정 영역",
     "TelekineticonToggleActivation_Description": "염력티콘이 활성화되는 방식을 제어합니다.\n\n트리거 유지 - 트리거를 계속 누르고 있으면 물체를 잡고, 트리거를 놓으면 물체를 떨어뜨립니다.\n토글 - 누르면 물체를 잡고 놓습니다.",
     "SocialPrivacy_MutualFriends_Description": "플레이어와 함께 아는 친구 목록을 볼 수 있는 공개 범위를 설정합니다.\n\n<strong>비공개</>: 아무도 볼 수 없습니다.\n\n<strong>친구만</>: 친구들만 볼 수 있습니다.\n\n<strong>공개</>: 모두가 볼 수 있습니다.",
+    "StrictInjectionPolicy_Description": "포트나이트와 상호작용할 수 있는 프로그램을 제어합니다.\n\n활성화하면 다른 프로그램과 그 오버레이가 포트나이트에 접근하는 것을 차단해 보안을 강화합니다. 이 설정은 일부 경쟁 이벤트에 필요할 수 있습니다.",
     "GyroOffsetBuild_Description": "건설 또는 편집에서 조준 입력 시 카메라가 회전하기 전에 조준선이 먼저 이동할지 여부를 설정합니다.",
     "MouseOffsetBuild_Description": "건설 또는 편집에서 조준 입력 시 카메라가 회전하기 전에 조준선이 먼저 이동할지 여부를 설정합니다.",
     "TouchOffsetBuild_Description": "건설 또는 편집에서 조준 입력 시 카메라가 회전하기 전에 조준선이 먼저 이동할지 여부를 설정합니다.",
@@ -6939,6 +6952,7 @@
     "GyroButtonEnable": "자이로 센서 활성화",
     "EnergySavingIdle_Name": "유휴 상태 에너지 절약 사용 (프론트엔드)",
     "EnergySavingFocusLoss_Name": "비활성 창 에너지 절약 사용",
+    "VoiceChatUseNoiseReduction_Name": "노이즈 감소 활성화",
     "HeadphoneMode_Description": "바이노럴 오디오를 활성화합니다. 3d 오디오 공간화를 제공하여 위, 아래, 뒤 등 소리의 위치를 보다 정확하게 들을 수 있습니다. 스테레오 헤드폰에만 사용할 것을 권장합니다.",
     "QuickWeaponToggle_Description_Switch": "실험적 빠른 무기 액션을 사용 상태로 설정합니다. 사용 상태로 설정 시 빠른 무기 액션이 다음 무기 버튼을 대체합니다.\n\n빠른 무기 키를 누르면 주 아이템을 장착합니다. 빠른 무기를 누른 상태로 ABXY 버튼 중 하나를 누르면 다른 아이템 슬롯 중 하나의 아이템으로 교체합니다. 빠른 무기와 ABXY 버튼을 동시에 누르면 즉시 그 아이템으로 교체되고, 빠른 무기 버튼을 길게 누르면 ABXY 버튼이 인벤토리의 어떤 아이템과 일치하는지 확인할 수 있습니다.\n\n사용 상태로 설정하면 이전 무기 버튼이 마커 배치로 교체되어 스쿼드와 더 쉽게 소통할 수 있습니다. 그 외에 컨트롤러 커스터마이징 탭에서 조작 방식을 설정하여 이전 무기 버튼을 원하는 액션으로 교체할 수 있습니다.",
     "QuickWeaponToggle_Description_Switch2": "실험적 빠른 무기 액션을 사용 상태로 설정합니다. 사용 상태로 설정 시 빠른 무기 액션이 다음 무기 버튼을 대체합니다.\n\n빠른 무기 키를 누르면 주 아이템을 장착합니다. 빠른 무기를 누른 상태로 A/B/X/Y 버튼 중 하나를 누르면 다른 아이템 슬롯 중 하나의 아이템으로 교체합니다. 빠른 무기와 A/B/X/Y 버튼을 동시에 누르면 즉시 그 아이템으로 교체되고, 빠른 무기 버튼을 길게 누르면 A/B/X/Y 버튼이 인벤토리의 어떤 아이템과 일치하는지 확인할 수 있습니다.\n\n사용 상태로 설정하면 이전 무기 버튼이 마커 배치로 교체되어 스쿼드와 더 쉽게 소통할 수 있습니다. 그 외에 컨트롤러 커스터마이징 탭에서 조작 방식을 설정하여 이전 무기 버튼을 원하는 액션으로 교체할 수 있습니다.",
@@ -7613,6 +7627,7 @@
     "WindingSpeedScaledByZoom_Description_Switch": "줌인 배율에 따라 플릭 스틱 회전 속도를 자동으로 낮춥니다. 예를 들어 저격 중 먼 곳을 살필 때 안정되게 해 줍니다. 스틱을 처음 조작할 때의 카메라 이동에는 영향을 주지 않습니다.",
     "WindingSpeedScaledByZoom_Description": "줌인 배율에 따라 플릭 스틱 회전 속도를 자동으로 낮춥니다. 예를 들어 저격 중 먼 곳을 살필 때 안정되게 해 줍니다. 스틱을 처음 조작할 때의 카메라 이동에는 영향을 주지 않습니다.",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "줌인 배율에 따라 플릭 스틱 회전 속도를 자동으로 낮춥니다. 예를 들어 저격 중 먼 곳을 살필 때 안정되게 해 줍니다. 스틱을 처음 조작할 때의 카메라 이동에는 영향을 주지 않습니다.",
+    "VoiceChatUseNoiseReduction_Description": "선풍기, 타이핑, 방 안의 에코 등 마이크에 들어오는 배경 소음을 줄입니다. 다른 플레이어가 내 목소리가 찌그러지거나 로봇처럼 들린다거나 끊긴다고 하면 이 설정을 끄세요..",
     "ReducedDataUsage_Description": "자동으로 다운로드되는 데이터 용량을 줄입니다. \n\n셀룰러 또는 인터넷 요금제에 데이터 제한이 있고, 이 제한을 초과할 위험이 있을 때 유용합니다.",
     "GyroSensitivityScaledByZoom_Description": "확대 배율에 따라 조준 감도를 자동으로 낮춥니다. 원거리 무기 사용 시 조준을 안정화하는 데 도움이 됩니다.",
     "Reflections_Description": "리플렉션 퀄리티는 리플렉션의 해상도와 정확도를 결정합니다.\n\n'루멘 높음' 및 '루멘 에픽' 옵션은 훨씬 높은 품질을 제공하지만 성능을 저하시킬 수 있습니다.\n\n끄기: 리플렉션이 꺼집니다.\n\n화면 공간: 현재 화면에 표시된 내용만을 기준으로 리플렉션을 계산합니다.\n\n루멘높음/에픽: 고품질 리얼타임 레이 트레이싱 리플렉션.",
@@ -7832,6 +7847,7 @@
     "StopRenderingInBackground_Name": "배경 렌더링 중단",
     "StopRenderingInBackground_Description": "가능한 경우, 게임 화면이 포커싱되어 있지 않을 때 렌더링을 중단합니다. 다른 애플리케이션을 위해 GPU 리소스를 납겨둡니다.",
     "KeyboardMovementStrafeDiagonal_Name": "옆걸음 각도",
+    "StrictInjectionPolicy_Name": "엄격한 주입 정책",
     "MatchmakingSubregion_Name": "하위 지역 선호 설정",
     "SubtitlePage_Name": "자막",
     "SubtitlesCollection_Name": "자막",
@@ -8005,7 +8021,7 @@
     "InvertPitchForAircraftPrimary_Description": "항공기 컨트롤러 조작 반전을 켜고 끕니다. 이 옵션을 켜면, 앞으로 이동할 때 항공기가 아래로 기웁니다.",
     "InvertPitchForAircraftSecondary_Description": "항공기 마우스 조작 반전을 켜거나 끕니다. 이 옵션을 켜면, 마우스를 앞으로 이동할 때 항공기가 아래로 기웁니다.",
     "InvertPitchForAircraftTouch_Description": "항공기 터치 조종 반전을 켜고 끕니다. 이 옵션을 켜면, 터치를 앞으로 이동할 때 항공기가 아래로 기웁니다.",
-    "AutoPickUpEnabled_Description": "자동 아이템 줍기 기능을 켜거나 끕니다. 켜져 있는 경우, 아이템 위를 지나갈 때 아이템을 자동으로 줍습니다.",
+    "AutoPickUpEnabled_Description": "아이템 자동 줍기 기능을 켜거나 끕니다. 켜져 있는 경우, 아이템 위를 지나갈 때 아이템을 자동으로 줍고, 상황에 따라 더 좋은 아이템이 기존 아이템을 대체합니다.",
     "AutoSortConsumablesToHigherSlots_Description": "숫자가 높은 슬롯으로 소모품 자동 정렬 기능을 켜거나 끕니다. 켜져 있는 경우, 체력 또는 보호막 아이템과 같은 소모품을 주우면 퀵바에서 가장 높은 빈 슬롯에 채워집니다.",
     "AutoSortConsumablesToRight_Description": "오른쪽으로 소모품 자동 정렬 기능을 켜거나 끕니다. 켜져 있는 경우, 체력 또는 보호막 아이템과 같은 소모품을 주우면 퀵바에서 맨 오른쪽 빈 슬롯에 채워집니다.",
     "GamepadAutoRun_Description_PS4": "컨트롤러 자동 달리기 기능을 켜거나 끕니다. 켜져 있는 경우, L3 버튼을 두 번 누르면 왼쪽 스틱 버튼을 계속 누르고 있지 않아도 자동으로 달리기를 실행합니다.",
@@ -8499,6 +8515,7 @@
     "ErrorSendingMessage": "메시지 전송 중 오류 발생: {0}",
     "HiddenPlayerSays": "숨겨진 플레이어의 메시지: ",
     "BlockedPlayerMessage": "메시지 숨겨짐",
+    "FilteringUnavailableMessage": "텍스트 필터링에 실패하여 메시지를 사용할 수 없습니다.",
     "TextChatDisabledByPlasterBeach": "TDB",
     "TextChatDisabledByTournamentMode": "이 클라이언트가 토너먼트 모드이므로 텍스트 채팅이 비활성화되었습니다.",
     "TextChatEnabled": "텍스트 채팅이 활성화되었습니다.",
@@ -8511,6 +8528,7 @@
     "WelcomeDelMar": "로켓 레이싱에 오신 것을 환영합니다! 동료 레이서들과 대화하세요!",
     "WelcomeSparks": "메인 스테이지에 어서 오세요! 연주할 곡을 결정하는 동안 밴드원과 채팅해 보세요.",
     "WelcomeJuno": "{0}에 오신 것을 환영합니다! 모두에게 뭘 하러 왔는지 알리세요!",
+    "VerseSubChannelSendBlockedMessage": "이 채널에 메시지를 보낼 수 없습니다.",
     "TextChatDisabledByUser": "설정에서 텍스트 채팅을 비활성화했습니다.",
     "YouJoinedGameMessage": "게임 채널에 참가했습니다.",
     "YouJoinedPartyMessage": "파티에 참가했습니다.",
@@ -8756,6 +8774,25 @@
     "SettingSaveFailed_Title": "설정 저장에 실패했습니다.",
     "SettingSaveFailed_Description": "자녀 보호 기능 서비스에 문제가 발생한 것 같습니다. 몇 분 뒤에 다시 시도하세요. 문제가 계속되면 https://status.epicgames.com을 확인해 보세요."
   },
+  "FortSystemConfigRequirements": {
+    "IOMMU": "IOMMU 하드웨어 가상화",
+    "DmaRemapping": "커널 DMA 보호",
+    "KernelCodeIntegrity": "메모리 무결성",
+    "InvalidConfigReason": "필수 시스템 보안 설정이 없습니다. 나중에 다시 시도해 주세요.",
+    "SecureBoot": "안전 부팅",
+    "StableOSVersion": "안정적인 운영 체제 버전",
+    "StrictInjectionPolicy": "엄격한 주입 정책",
+    "InvalidConfig": "시스템 보안 구성",
+    "CryptoProcessor": "신뢰할 수 있는 플랫폼 모듈(TPM)"
+  },
+  "FortSystemConfigRequirementsModalVM": {
+    "DialogTitle": "추가 보안 요구사항",
+    "Enabled": "사용",
+    "EnabledWithWarning": "경고 메시지와 함께 활성화됨",
+    "NotEnabled": "활성화되지 않음",
+    "UnknownStatus": "상태 정보 없음",
+    "DialogIntroduction": "플레이에 필요한 추가 보안 요구 사항을 충족하지 않는 시스템입니다. 자세히 보기를 선택해 Easy Anti-Cheat 지원 센터를 방문하세요."
+  },
   "FortTabListWidgetBase": {
     "UnspecifiedTab": "지정되지 않음"
   },
@@ -8775,7 +8812,9 @@
   },
   "FortTextChatConversationVM": {
     "PartyFrameworkUnavailable": "파티 프레임워크 이용 불가",
-    "SocialToolkitUnavailable": "소셜 툴키트 이용 불가"
+    "SocialToolkitUnavailable": "소셜 툴키트 이용 불가",
+    "InvalidJoinPartyConversation": "대화가 불가능하여 파티에 참가할 수 없습니다.",
+    "InvalidStartPartyConversation": "대화가 불가능하여 파티를 시작할 수 없습니다."
   },
   "FortTextChatPlayerVM": {
     "RedactedUserBlocked": "<Blocked player>",
@@ -8783,10 +8822,14 @@
     "MessageDelayedFont": "<Message delayed, until we can load a new font>",
     "ConversationsDest": "채팅",
     "TempTitle": "이름 불러오는 중...",
+    "VerseSubChannelDefaultName": "게임",
     "NewChatOption": "신규 채팅",
+    "VerseSubChannelChanged": "{0}",
     "ClamOneMessage": "기억해 주세요. 나중에 채팅에서 ... 버튼을 누르거나 플레이어 메시지를 선택하여 플레이어를 음소거하거나 차단할 수 있습니다.",
     "SendDM": "DM 전송",
-    "DMWelcomeMessage": "{0} 님과 다이렉트 메시지를 나눠보세요!"
+    "DMWelcomeMessage": "{0} 님과 다이렉트 메시지를 나눠보세요!",
+    "VerseSubChannelMuted": "지금은 {0}에 쓸 수 없습니다",
+    "VerseChatSenderNameFormat": "[{0}] {1}"
   },
   "FortTournamentLobbyPanel": {
     "NoMatchTimeDescription": "마지막 매치 시작 시간",
@@ -8893,7 +8936,6 @@
     "EpicPartyGroupInviteDetailsSent": "<Username>{0}</> 님을 파티에 초대했습니다",
     "EpicPartyInviteDetailsSent": "<Username>{0}</> 님을 파티에 초대했습니다",
     "PartyInviteDetailsSent": "<Username>{0}</> 님을 파티에 초대했습니다",
-    "EpicPartyJoinabilityChangedInviteOnlyDetails": "초대 전용 파티입니다",
     "EpicPartyJoinRequestReceived_Title": "파티 참가 요청",
     "EpicPartyMemberCreated": "플레이어가 파티에 참가했습니다.",
     "PartyMemberCreated": "플레이어가 파티에 참가했습니다.",
@@ -8918,6 +8960,7 @@
     "RequestToJoinParty_RateLimited": "요청을 너무 많이 보냈습니다. 잠시 후 다시 시도해 주세요.",
     "FriendToastSelfTooManyFriends": "친구가 너무 많습니다.",
     "FriendToastSelfOutboxFull": "보내신 친구 신청이 너무 많습니다.",
+    "EpicPartyJoinabilityChangedInviteOnlyDetails": "이제 파티가 초대 전용으로 설정되었습니다",
     "EpicPartyJoinabilityChangedOpenDetails": "이제 내 파티에 참가가 허용됩니다",
     "NotifMgrForkMemberNoAccessToast": "{Username} 님은 선택한 포크에 액세스할 수 없습니다. 계속 진행하면 해당 포크를 무시합니다."
   },
@@ -8938,7 +8981,7 @@
     "NoInternetDesc": "인터넷 연결을 확인한 다음 다시 시도해보세요.",
     "QuitText": "종료",
     "Benchmark": "벤치마크 실시 중...",
-    "ServicesSlow": "서버가 응답하지 않습니다.",
+    "ServicesSlow": "지금은 서버를 이용할 수 없습니다. 나중에 다시 확인하세요.",
     "RHIChangeSettingsApplied_Title": "설정 적용됨",
     "LogoutComplete": "성공적으로 로그아웃했습니다.",
     "OfferRHIChangeForStability_FullDescription": "컴퓨터에 설치된 그래픽 드라이버에 현재 렌더링 모드(DirectX 12)의 안정성 문제가 있어서 포트나이트 플레이 중 충돌이 발생할 수 있습니다. 보다 안정적인 환경을 위해서 {NewRHI}|hpp(으로,로) 변경하시겠습니까? {OptionalAutoRestartText}",
@@ -9722,8 +9765,17 @@
     "ProgressFormat": "플러그인 {0}/{1}개 마이그레이션 중",
     "PhasePrimaryModule": "주요 게임 모듈 마이그레이션 중...",
     "PhaseComplete": "마이그레이션 완료",
+    "MigrationFailed": "마이그레이션 실패. 오류: {0}⏎⏎실패 시점의 진행 상황이 보존되었습니다.",
     "PhaseFailed": "마이그레이션 실패: {0}",
-    "ProgressReady": "마이그레이션 준비 완료"
+    "NoFortMobileHUDElementWrapperClassProvided": "마이그레이션을 위한 Fort HUD 엘리먼트 래퍼 클래스가 제공되지 않았습니다. 프로젝트 설정 탭의 HLTv2 to Customizable UI migration settings에서 지정하세요.",
+    "NoBaseHLTRegistryProvided": "이동에 필요한 기본 HUD 레이아웃 도구 모바일 HUD 위젯 레지스트리가 제공되지 않았습니다. 프로젝트 설정 탭의 HLTv2 to Customizable UI migration settings에서 지정하세요.",
+    "NoBaseMoveStickCanvasClassProvided": "마이그레이션에 사용할 베이스 이동 스틱 캔버스 클래스가 제공되지 않았습니다. 프로젝트 설정 탭의 HLTv2 to Customizable UI migration settings에서 지정하세요.",
+    "NoMigrationConfigProvided": "마이그레이션할 설정 에셋이 없습니다. 프로젝트 설정 탭의 HLTv2 to Customizable UI migration settings에서 지정하세요.",
+    "NoExcludeConditionProvided": "마이그레이션에 제공된 동적 UI 제외 조건이 없습니다. 프로젝트 설정 탭의 HLTv2 to Customizable UI migration settings에서 지정하세요.",
+    "NoTouchActionButtonWrapperClassProvided": "마이그레이션용 터치 액션 버튼 래퍼가 제공되지 않았습니다. 프로젝트 설정 탭의 HLTv2 to Customizable UI migration settings에서 지정하세요.",
+    "ProgressReady": "마이그레이션 준비 완료",
+    "AllHLTv2SetupsMigratedToCustomizableUISuccessfully": "HLTv2 설정으로 등록된 모든 플러그인을 사용자 정의 가능한 UI로 성공적으로 이전했습니다.",
+    "NoBaseCustomizableUIRegistryPluginProvided": "루트 게임 기능 플러그인 마이그레이션 도구를 사용하려면 먼저 기본 HLT 위젯 레지스트리 마이그레이션을 실행해야 합니다. 프로젝트 설정 탭의 HLTv2 to Customizable UI migration settings에서 대상 게임 기능 데이터를 지정하세요."
   },
   "HUD": {
     "Cancel": "취소",
@@ -9801,8 +9853,6 @@
   },
   "IARC": {
     "USK_AGE_0_Abbreviated": "0",
-    "EPIC_SUGGESTED_RATING_AGE_0": "0세 이상",
-    "EPIC_SUGGESTED_RATING_AGE_0_Abbreviated": "0세 이상",
     "RUSSIA_AGE_0_Abbreviated": "0+",
     "TCA_AGE_G_Abbreviated": "0세 이상",
     "CLASSIND_AGE_10_Abbreviated": "10",
@@ -9821,8 +9871,6 @@
     "PEGI_AGE_12_Abbreviated": "12",
     "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "만 12세",
-    "EPIC_SUGGESTED_RATING_AGE_12": "12세 이상",
-    "EPIC_SUGGESTED_RATING_AGE_12_Abbreviated": "12세 이상",
     "GEN_AGE_12": "12세 이상",
     "GEN_AGE_12_Abbreviated": "12+",
     "RUSSIA_AGE_12": "12세 이상",
@@ -9835,52 +9883,18 @@
     "IGRS_AGE_13_Abbreviated": "13+",
     "CLASSIND_AGE_14_Abbreviated": "14",
     "CLASSIND_AGE_14": "14세",
-    "EPIC_SUGGESTED_RATING_AGE_14": "14세 이상",
-    "EPIC_SUGGESTED_RATING_AGE_14_Abbreviated": "14세 이상",
     "CERO_AGE_15_Abbreviated": "15",
     "IGRS_AGE_15": "15+",
     "IGRS_AGE_15_Abbreviated": "15+",
     "TCA_AGE_PG_15_Abbreviated": "15+",
     "CLASSIND_AGE_16_Abbreviated": "16",
-    "FPB_AGE_16": "16",
-    "FPB_AGE_16_Abbreviated": "16",
-    "GCAM_AGE_16": "16",
-    "GCAM_AGE_16_Abbreviated": "16",
     "GMEDIA_AGE_16": "16",
     "GMEDIA_AGE_16_Abbreviated": "16",
-    "MRO_AGE_16": "16",
-    "MRO_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16세",
-    "EPIC_SUGGESTED_RATING_AGE_16": "16세 이상",
-    "EPIC_SUGGESTED_RATING_AGE_16_Abbreviated": "16세 이상",
-    "GEN_AGE_16": "16세 이상",
-    "GEN_AGE_16_Abbreviated": "16세 이상",
-    "RUSSIA_AGE_16": "16세 이상",
-    "RUSSIA_AGE_16_Abbreviated": "16세 이상",
     "USK_AGE_16": "16세 이상",
-    "FPB_AGE_18": "18",
-    "FPB_AGE_18_Abbreviated": "18",
-    "GCAM_AGE_18": "18",
-    "GCAM_AGE_18_Abbreviated": "18",
-    "GMEDIA_AGE_18": "18",
-    "GMEDIA_AGE_18_Abbreviated": "18",
-    "MRO_AGE_18": "18",
-    "MRO_AGE_18_Abbreviated": "18",
+    "CLASSIND_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18세",
-    "CLASSIND_AGE_18_Abbreviated": "18세",
-    "EPIC_SUGGESTED_RATING_AGE_18": "18세 이상",
-    "EPIC_SUGGESTED_RATING_AGE_18_Abbreviated": "18세 이상",
-    "GEN_AGE_18": "18세 이상",
-    "GEN_AGE_18_Abbreviated": "18세 이상",
-    "IGRS_AGE_18": "18세 이상",
-    "IGRS_AGE_18_Abbreviated": "18세 이상",
-    "RUSSIA_AGE_18": "18세 이상",
-    "RUSSIA_AGE_18_Abbreviated": "18세 이상",
-    "GMEDIA_AGE_21": "21",
-    "GMEDIA_AGE_21_Abbreviated": "21",
-    "MRO_AGE_21": "21",
-    "MRO_AGE_21_Abbreviated": "21",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
     "GMEDIA_AGE_3": "3",
@@ -9892,11 +9906,7 @@
     "GEN_AGE_3_Abbreviated": "3+",
     "IGRS_AGE_3": "3+",
     "IGRS_AGE_3_Abbreviated": "3+",
-    "CLASSIND_AGE_6_Abbreviated": "6",
     "USK_AGE_6_Abbreviated": "6",
-    "CLASSIND_AGE_6": "6세",
-    "EPIC_SUGGESTED_RATING_AGE_6": "6세 이상",
-    "EPIC_SUGGESTED_RATING_AGE_6_Abbreviated": "6세 이상",
     "RUSSIA_AGE_6": "6세 이상",
     "RUSSIA_AGE_6_Abbreviated": "6+",
     "TCA_AGE_P_Abbreviated": "6세 이상",
@@ -9914,12 +9924,13 @@
     "IGRS_AGE_7_Abbreviated": "7+",
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
+    "ClassInd_AIInteraction_v11_0": "AI 상호작용",
     "USK_AbstrakteGewalt": "추상적인 폭력",
     "ACB_ActionViolence_v10_0": "액션 폭력",
     "ClassInd_AdolescentThemes": "청소년 테마",
+    "ClassInd_AdultContent_v11_0": "성인용 콘텐츠",
     "ClassInd_AdultThemes": "성인 주제",
-    "ESRB_AGE_AO": "성인 전용 18세 이상",
-    "ESRB_AGE_AO_Abbreviated": "성인 전용 18세 이상",
+    "ClassInd_Advertising_v11_0": "광고",
     "USK_Alokohol_v9_0": "주류",
     "ESRB_AlcoholReference": "음주 관련",
     "USK_Alkoholkonsum": "음주 사용",
@@ -9932,6 +9943,7 @@
     "ESRB_AnimatedBlood": "유혈 묘사",
     "TCA_AntiSociety": "반사회",
     "ClassInd_AttenuatedAdultThemes": "감쇠된 성인 주제",
+    "ClassInd_AudioVideoSharing_v11_0": "오디오 및 비디오 공유",
     "GEN_BadLanguage": "저속한 언어",
     "PEGI_BadLanguage": "저속한 언어",
     "ACB_BattleViolence": "전투 폭력",
@@ -9946,10 +9958,6 @@
     "CERO_AGE_0": "CERO A",
     "CERO_AGE_12": "CERO B",
     "CERO_AGE_15": "CERO C",
-    "CERO_AGE_17": "CERO D",
-    "CERO_AGE_17_Abbreviated": "CERO D",
-    "CERO_AGE_18": "CERO Z",
-    "CERO_AGE_18_Abbreviated": "CERO Z",
     "IE_Competitive_Intensity": "CI(경쟁 강도)",
     "TCA_CardOrCasualGames": "카드 또는 캐주얼 게임",
     "ESRB_CartoonViolence": "만화화된 폭력",
@@ -9961,12 +9969,14 @@
     "IGRS_CharacterAppearance": "캐릭터 외형",
     "TCA_ChessGames": "체스 게임",
     "ACB_CoarseLanguage": "욕설",
+    "EPIC_OFLC_Coarse_Language": "욕설",
     "ACB_ComedicViolence": "희극적 폭력",
     "ESRB_ComicMischief": "짖궂은 장난",
     "USK_ComicGewalt_v9_0": "코믹한 폭력",
     "FPB_CompetitiveIntensity": "경쟁 강도",
     "ClassInd_ConsumptionofAlcohol": "음주 소비",
     "USK_Kontaktrisiken_v10_0": "접촉 위험",
+    "ClassInd_ContentRecommendation_v11_0": "콘텐츠 추천",
     "USK_InhalteFuerVerschiedeneAltersgruppen_v7_0": "여러 연령 그룹용 콘텐츠",
     "CERO_ControlledSubstances": "규제 약물",
     "CERO_Crime": "범죄",
@@ -10032,12 +10042,8 @@
     "RUS_Fear_v7_0": "공포감",
     "IGRS_FearHorror": "공포/호러",
     "GRAC_AGE_12": "12세이용가",
-    "GRAC_AGE_15": "15세 이상",
-    "GRAC_AGE_15_Abbreviated": "15세 이상",
     "GRAC_AGE_ALL": "전체이용가",
     "ACB_AGE_G_Abbreviated": "G",
-    "CSRR_AGE_0": "G",
-    "CSRR_AGE_0_Abbreviated": "G",
     "OFLC_AGE_0": "G",
     "OFLC_AGE_0_Abbreviated": "G",
     "CERO_Gambling": "도박",
@@ -10105,6 +10111,7 @@
     "ACB_HorrorViolence": "공포 폭력",
     "ACB_HuntingViolence": "사냥 폭력",
     "ClassInd_DrogasIlicitas": "불법 마약",
+    "ClassInd_ImageManipulation_v11_0": "이미지 조작",
     "FPB_ImitativeActsAndTechniques": "모방 행위 및 기술",
     "ClassInd_ConteudoImpactante": "영향력 있는 콘텐츠",
     "ACB_ImpliedSexualViolence": "성폭력 암시",
@@ -10144,8 +10151,6 @@
     "OFLC_AGE_15": "M",
     "OFLC_AGE_15_Abbreviated": "M",
     "ACB_AGE_M": "성인",
-    "ESRB_AGE_M": "성인 17세 이상",
-    "ESRB_AGE_M_Abbreviated": "성인 17세 이상",
     "ESRB_MatureHumor": "성인 유머",
     "ACB_MatureThemes": "성인용 주제",
     "ClassInd_ProcedimentosMedicos_v8_0": "의료 절차",
@@ -10207,26 +10212,12 @@
     "PEGI_ModerateViolence": "보통 수준의 폭력",
     "ClassInd_ModerateViolenceAnimated": "보통 수준의 폭력 묘사",
     "ClassInd_ModeratelyRealisticViolence": "대체로 사실적인 폭력",
-    "ACB_AGE_NA": "N/A",
-    "ACB_AGE_NA_Abbreviated": "N/A",
-    "GRAC_AGE_NA": "N/A",
-    "GRAC_AGE_NA_Abbreviated": "N/A",
-    "TCA_AGE_NA": "N/A",
-    "TCA_AGE_NA_Abbreviated": "N/A",
     "ACB_NoConsumerAdvice": "소비자 조언 없음",
     "ClassInd_Naohainadequacoes": "설명자 없음",
     "ESRB_NoDescriptors": "설명자 없음",
     "GEN_NoDescriptors": "설명자 없음",
     "PEGI_NoDescriptors": "설명자 없음",
     "USK_NoDescriptors": "설명자 없음",
-    "USK_AGE_18": "청소년 이용불가",
-    "USK_AGE_18_Abbreviated": "청소년 이용불가",
-    "GMEDIA_AGE_NA": "해당하지 않음",
-    "GMEDIA_AGE_NA_Abbreviated": "해당하지 않음",
-    "IGRS_AGE_NA": "해당하지 않음",
-    "IGRS_AGE_NA_Abbreviated": "해당하지 않음",
-    "GRAC_AGE_ADULT": "청소년 대상 부적합",
-    "GRAC_AGE_ADULT_Abbreviated": "청소년 대상 부적합",
     "ACB_Nudity": "노출",
     "ClassInd_Nudez": "노출",
     "ESRB_Nudity": "노출",
@@ -10245,14 +10236,8 @@
     "ACB_GEMCO": "온라인 상호 작용",
     "ACB_OnlineInteractivityAndChat_v10_0": "온라인 대화형 작업 및 채팅",
     "IE_OnlineMusicNotRatedByESRB": "ESRB에서 등급을 지정하지 않은 온라인 음악",
-    "CSRR_AGE_6": "P",
-    "CSRR_AGE_6_Abbreviated": "P",
     "PEGI_AGE_PG": "보호자 동반 권장",
     "PEGI_AGE_12": "PEGI 12",
-    "PEGI_AGE_16": "PEGI 16",
-    "PEGI_AGE_16_Abbreviated": "PEGI 16",
-    "PEGI_AGE_18": "PEGI 18",
-    "PEGI_AGE_18_Abbreviated": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10261,10 +10246,6 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
-    "CSRR_AGE_12": "PG12",
-    "CSRR_AGE_12_Abbreviated": "PG12",
-    "CSRR_AGE_15": "PG15",
-    "CSRR_AGE_15_Abbreviated": "PG15",
     "TCA_AGE_PG_12": "보호자 지도 필요 12세",
     "TCA_AGE_PG_15": "보호자 지도 필요 15세",
     "GEN_ParentalGuidanceRecommended": "보호자 동반 권장",
@@ -10283,22 +10264,6 @@
     "PEGI_ProminentGamblingImagery_v9_0": "유명한 도박 이미지",
     "TCA_AGE_P": "보호",
     "ClassInd_PsychologicalConflicts": "심리적인 충돌",
-    "CSRR_AGE_18": "R",
-    "CSRR_AGE_18_Abbreviated": "R",
-    "OFLC_AGE_13": "R13",
-    "OFLC_AGE_13_Abbreviated": "R13",
-    "OFLC_AGE_R15": "R15",
-    "OFLC_AGE_R15_Abbreviated": "R15",
-    "OFLC_AGE_16": "R16",
-    "OFLC_AGE_16_Abbreviated": "R16",
-    "OFLC_AGE_18": "R18",
-    "OFLC_AGE_18_Abbreviated": "R18",
-    "ESRB_RATING_PENDING_AGE_10": "이용등급 대기 중",
-    "ESRB_RATING_PENDING_AGE_10_Abbreviated": "이용등급 대기 중",
-    "ESRB_RATING_PENDING_AGE_17": "이용등급 대기 중",
-    "ESRB_RATING_PENDING_AGE_17_Abbreviated": "이용등급 대기 중",
-    "ESRB_RATING_PENDING_M_AGE_17": "이용등급 대기 중, 예상 성인 17세 이상",
-    "ESRB_RATING_PENDING_M_AGE_17_Abbreviated": "이용등급 대기 중, 예상 성인 17세 이상",
     "GRAC_RandomBox_v7_1": "확률형 아이템",
     "USK_SelteneSchreckmomente": "드물게 무서운 상황",
     "ESRB_RealGamblingOnly_v9_0": "실제 도박",
@@ -10308,27 +10273,7 @@
     "ClassInd_RealisticBlood": "사실적인 유혈 묘사",
     "USK_AndeutungenSexuellerGewalt": "성적 폭력 언급",
     "ACB_ReferencestoSexualViolence": "성폭력 언급",
-    "ACB_AGE_RC": "거부된 분류",
-    "ACB_AGE_RC_Abbreviated": "거부된 분류",
     "ACB_RefusedClassification": "거부된 분류",
-    "GMEDIA_AGE_RC": "거부된 분류",
-    "GMEDIA_AGE_RC_Abbreviated": "거부된 분류",
-    "GRAC_AGE_RC": "거부된 분류",
-    "GRAC_AGE_RC_Abbreviated": "거부된 분류",
-    "IGRS_AGE_RC": "거부된 분류",
-    "IGRS_AGE_RC_Abbreviated": "거부된 분류",
-    "RUSSIA_AGE_RC": "거부된 분류",
-    "RUSSIA_AGE_RC_Abbreviated": "거부된 분류",
-    "TCA_AGE_RC": "거부된 분류",
-    "TCA_AGE_RC_Abbreviated": "거부된 분류",
-    "USK_AGE_RC": "거부된 분류",
-    "USK_AGE_RC_Abbreviated": "거부된 분류",
-    "ACB_AGE_MA15": "연령 제한",
-    "ACB_AGE_MA15_Abbreviated": "연령 제한",
-    "ACB_AGE_R18": "연령 제한",
-    "ACB_AGE_R18_Abbreviated": "연령 제한",
-    "TCA_AGE_R": "연령 제한",
-    "TCA_AGE_R_Abbreviated": "연령 제한",
     "USK_AngstigendeInhalte": "무서운 콘텐츠",
     "USK_Schreckmomente_v9_0": "무서운 순간들",
     "ACB_ScaryScenes": "무서운 장면",
@@ -10442,8 +10387,6 @@
     "ESRB_TobaccoReference": "담배 언급",
     "USK_Tabakkonsum": "흡연 사용",
     "TCA_TobaccoAndAlcohol": "음주 및 흡연",
-    "EPIC_GRAC_AGE_19": "Unrated",
-    "EPIC_GRAC_AGE_19_Abbreviated": "Unrated",
     "IE_UnrestrictedInternet": "제한 없는 인터넷",
     "ESRB_UseofAlcohol": "음주",
     "ESRB_UseofAlcoholandTobacco": "음주 및 흡연",
@@ -10483,6 +10426,7 @@
     "ACB_VeryMildSexualisedImagery": "아주 가벼운 성적 이미지",
     "ACB_VeryMildSlapstickViolence_v10_0": "매우 가벼운 슬랩스틱 폭력",
     "ACB_VeryMildSportingViolence_v10_0": "매우 가벼운 스포츠 폭력",
+    "EPIC_OFLC_Mild_Sports_Violence": "매우 가벼운 스포츠 폭력",
     "ACB_VeryMildSuggestiveThemes": "아주 가벼운 외설적 주제",
     "ACB_VeryMildSupernaturalThemes": "아주 가벼운 초자연적 주제",
     "ACB_VeryMildSupernaturalViolence_v10_0": "매우 가벼운 초자연적 폭력",
@@ -10597,8 +10541,8 @@
     "RestrictionLineFormat": "{Index}.{Restriction}"
   },
   "JunoBuildingSnapEditorDetails": {
-    "SnapEditorRotateInPlace": "In Place",
-    "Toolbar": "Snap Editor Toolbar"
+    "SnapEditorRotateInPlace": "제자리",
+    "Toolbar": "스냅 에디터 툴바"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "Juno 연결 데이터 플래그",
@@ -10614,30 +10558,30 @@
     "ConsolidatePrimitivesCombined": "리디렉터 생성 중 - /JunoAtomAssets/CombinedMeshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesMeshes": "리디렉터 생성 중 - /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "리디렉터 생성 중 - /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
-    "GetAssetsOfType": "Gathering '{0}' Assets",
-    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
-    "PrintAtomModelsInfo": "Printing out a AtomModels info",
+    "GetAssetsOfType": "'{0}' 에셋 수집 중",
+    "UpdateGeneratedMeshes": "더티 메시 생성 중",
+    "PrintAtomModelsInfo": "아톰모델 정보 프린트 중",
     "RepairGeneratedMeshes": "아톰 모델 복원 중",
-    "RegeneratePrimitivesOnPrimitive": "Running Primitive Processor : {0} ({1})",
-    "RegeneratePrimitives": "Running Primitive Processor...",
-    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+    "RegeneratePrimitivesOnPrimitive": "프리미티브 프로세서 : {0} ({1})",
+    "RegeneratePrimitives": "프리미티브 프로세서 실행 중...",
+    "UpdateAllAtomModelsToUseProcessors": "아톰 모델 업데이트 중"
   },
   "JunoFECraftingDataTool": {
     "ImGuiFrontendCraftingDataTool": "Juno 프론트엔드 제작 데이터 툴",
     "ImGuiFrontendCraftingDataToolTooltip": "프론트에서 사용하기 위해 UI 데이터를 복사하는 툴"
   },
   "JunoValidator_AtomModel": {
-    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
-    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "프로세스를 설정했으나 메시를 생성해야 합니다.",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "프로세서를 설정하지 않았으나 생성된 메시를 참조합니다"
   },
   "JunoValidator_ClientOnlyGameFeatureData": {
     "ClientOnlyRowStructOnServer": "행 구조체 '{0}'이(가) 클라이언트 전용 모듈 '{1}'에 정의되어 있지만, 서버에서 로드되는 '{2}'에서 참조합니다. 구조체를 런타임 모듈로 옮기거나 데이터가 클라이언트에서만 로드되도록 하세요."
   },
   "JunoValidator_GeometryCollection": {
-    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Null 자동 인스턴스화 메시가 있음",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "널 프록시 메시 있음",
-    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
-    "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "최소 1개의 자동 인스턴스화 메시 필요",
+    "JunoValidator_GeometryCollection_ProxyMeshes": "하나 이상의 프록시 메시 필요"
   },
   "JunoValidator_POI": {
     "ReplaceWithoutReplacement": "관심 지점 행 '{0}'에 Replace가 설정되어 있지만 ReplacementPOI를 지정하지 않아 제거됩니다. 대체 항목을 지정하거나 IneligibleAction을 Remove로 설정하세요.",
@@ -10651,14 +10595,14 @@
     "MismatchedRowStruct": "'{1}' 플레이리스트 태그의 PlaylistBaseDataTableOverrides[{0}]: '{2}' 오버라이드 테이블은 '{3}' 행 구조체를 사용하지만, '{4}' 기본 테이블은 '{5}' 행 구조체를 사용합니다. 다른 행 유형으로 데이터 테이블을 오버라이드하면 런타임 시 메모리 손상이 발생합니다. 오버라이드 테이블은 반드시 기본 테이블과 정확히 동일한 행 구조체를 사용해야 합니다."
   },
   "JunoValidator_StaticMesh": {
-    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
-    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
-    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
-    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
-    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
-    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
-    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
-    "JunoValidator_StaticMesh_NumLODs": "Only has one LOD"
+    "JunoValidator_StaticMesh_InvalidLODs": "에셋에 유효하지 않은 LOD 체인이 포함되어 있습니다",
+    "JunoValidator_StaticMesh_OpaqueExport": "더 이상 투명 머티리얼을 포함하고 있지 않아서 삭제할 수 없습니다",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "커먼 파츠 메시에 'Render.CommonParts' 아톰 태그가 없습니다",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "커먼 파츠 메시에 AtomMergedMesh_CommonParts LODGroup이 없습니다",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "커먼 파츠 메시에 LOD가 하나가 아닙니다",
+    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup 이름이 'AtomMergedMesh'로 시작하지 않습니다",
+    "JunoValidator_StaticMesh_TransparentExport": "투명 머티리얼 없이 재생성해야 합니다",
+    "JunoValidator_StaticMesh_NumLODs": "LOD가 하나뿐입니다"
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "메모리 부족",
@@ -11248,7 +11192,10 @@
     "UnsafeEnvironment_BodyBadInstall": "게임 파일에서 손상된 데이터가 발견되어 온라인에 접속할 수 없습니다. 이 문제를 해결하기 위해 Epic Games 앱에서 포트나이트를 다시 설치해보세요. Epic Games 앱은 fortnite.com/download에서 다운로드할 수 있습니다.",
     "UnsafeEnvironment_BodyBadInstallGP": "게임 파일에서 손상된 데이터가 발견되어서 온라인에 접속할 수 없습니다. 이 문제를 해결하기 위해 Google Play Store에서 포트나이트를 다시 설치해보세요.",
     "UnsafeEnvironment_BodyCorruptedContent": "게임 파일에서 손상된 데이터가 발견되어서 온라인에 접속할 수 없습니다. 이 문제를 해결하기 위해 포트나이트를 검증하거나 다시 설치해보세요.",
+    "UnsafeEnvironment_StrictInjectionApply": "활성화 및 재시작",
     "UnsafeEnvironment_Title": "오류",
+    "UnsafeEnvironment_StrictInjectionNotActive": "이벤트에는 엄격한 주입 정책이 필요합니다. 게임 설정에서 이미 활성화되었습니다. 변경 사항을 적용하려면 포트나이트를 다시 시작해야 합니다.\n\n지금 재시작하시겠습니까?",
+    "UnsafeEnvironment_StrictInjectionNotEnabled": "이벤트에는 엄격한 주입 정책이 필요합니다. 게임 설정에서 활성화한 후 포트나이트를 다시 실행해야 변경 사항이 적용됩니다.\n\n지금 변경 사항을 적용하시겠습니까?",
     "UnsafeEnvironment_BodyMissingLauncher": "포트나이트가 정상적으로 실행되지 않아서 이를 종료해야 합니다. 에픽게임즈 런처로 포트나이트를 실행해보세요. 계속 문제가 발생하면 지원센터에 문의하시기 바랍니다.",
     "UnsafeEnvironment_Body": "부정 행위나 불법 프로그램이 발견되었습니다. 계정 정지 조치를 피하시려면 포트나이트를 플레이하기 전에 해당 프로그램을 종료해주시기 바랍니다.",
     "UnsafeEnvironment_EventTPMAuth": "기기의 TPM을 인증하지 못했습니다. 이 장치로는 추후 업데이트 시 토너먼트에 참가하지 못할 수도 있습니다. 자세한 정보는 fn.gg/tpm에서 확인하세요.",
@@ -11334,6 +11281,8 @@
     "FailedLoginConsole_SystemUpdateAvailable": "새로운 시스템 업데이트를 설치해야 로그인할 수 있습니다. 시스템 업데이트를 설치한 다음 다시 시도해주세요.",
     "FailedLoginConsole_PatchAvailable": "새로운 패치를 설치해야 로그인할 수 있습니다. {0}",
     "FailedStartLogin": "지금은 해당 에픽게임즈 계정으로 로그인할 수 없습니다. 나중에 다시 시도해주세요.",
+    "FailedStartLogin_InvalidRefreshToken": "지금은 해당 에픽게임즈 계정으로 로그인할 수 없습니다. 나중에 다시 시도해주세요.",
+    "FailedStartLogin_NoConnection": "지금은 해당 에픽게임즈 계정으로 로그인할 수 없습니다. 나중에 다시 시도해주세요.",
     "UserLoginFailed": "지금은 해당 에픽게임즈 계정으로 로그인할 수 없습니다. 나중에 다시 시도해주세요.",
     "FailedLoginMsg": "{0} 서버로 로그인할 수 없습니다. 나중에 다시 시도해주세요.",
     "FailedLoginConsole_UnableToSignIn": "{0} 계정으로 로그인할 수 없습니다. 나중에 다시 시도해주세요.",
@@ -11983,10 +11932,10 @@
     "OutDateFormat": "{Year}년 {Month}월 {Day}일 {Time}({TimeZone})에 종료"
   },
   "SnapEditorVisualizer": {
-    "DeleteSnapEntries": "Delete Snap Entries",
-    "DuplicateSnapEntries": "Duplicate Snap Entries",
-    "PasteSnapEntries": "Paste Snap Entries",
-    "SelectSnapEntry": "Select Snap Point"
+    "DeleteSnapEntries": "스냅 항목 삭제",
+    "DuplicateSnapEntries": "중복 스냅 항목",
+    "PasteSnapEntries": "스냅 항목 붙여넣기",
+    "SelectSnapEntry": "스냅 포인트 선택"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "{0} 남음"
@@ -12601,7 +12550,7 @@
     "EmptyEntryError": "비어 있는 이름을 설정하려 했습니다."
   },
   "UConfigurePrefabTool": {
-    "ToolName": "Configure Prefab"
+    "ToolName": "프리팹 구성"
   },
   "UEFN": {
     "LaunchDataLeaveMatchAndMatchmakeLinkCode": "매치에서 나와 {LinkCode} 경험을 플레이하시겠습니까?",
@@ -12788,8 +12737,8 @@
     "OpenHLTv2ToCustomizableUIMigrator_ToolTip": "HLTv2-커스터마이징 가능한 UI 마이그레이터 도구를 열어 모든 HLTv2 설정을 새로운 커스터마이징 가능한 UI 프레임워크로 마이그레이션합니다."
   },
   "UICommands.JunoViewportToolsCommands": {
-    "BeginConfigurePrefabTool": "Configure Prefab",
-    "BeginConfigurePrefabTool_ToolTip": "Configure Prefab"
+    "BeginConfigurePrefabTool": "프리팹 구성",
+    "BeginConfigurePrefabTool_ToolTip": "프리팹 구성"
   },
   "UICommands.SpatialMetricsProfiler": {
     "OpenSpatialProfiler": "공간 프로파일러 열기",
@@ -12813,24 +12762,24 @@
     "MaxRejoinFail": "게임에 재참가할 수 없습니다. 재합류 시도 최대 횟수를 초과했습니다."
   },
   "UJunoAssetListAssetFactory": {
-    "MenuEntry": "Asset List"
+    "MenuEntry": "에셋 목록"
   },
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "코덱스 데이터 테이블 [열 {0}]에 유효한 서브 카테고리 태그가 없습니다.",
     "NeitherItemNorTag": "코덱스 데이터 테이블 [열 {0}]에 아이템 정의와 아이덴티티 태그가 모두 없습니다. 적어도 하나는 있어야 합니다.",
-    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "NPCNoSpawnerDat": "코덱스 데이터 테이블 [{0}행]이 아군 NPC처럼 보이지만 AI 생성 장치 데이터 세트가 없습니다.",
     "CategoryTagInvalid": "코덱스 데이터 테이블 [열 {0}]에 유효한 카테고리 태그가 없습니다.",
-    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "[{2}]에서 패키지의 플러그인이 쿠킹될 때 존재하지 않을 아이템 [{1}]을(를) 코덱스 데이터 테이블 [{0}]이(가) 참조합니다. 행을 제거하거나 아이템의 출시 버전을 일치하도록 업데이트하세요."
   },
   "UJunoValidator_ContextualMessageConfig": {
     "TextInvalid": "대화 데이터 테이블[행 {0}]의 프로퍼티[{1}]에 유효하지 않은 텍스트가 있습니다:{2}\"{3}\""
   },
   "UJunoValidator_CraftingFormula": {
-    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime.",
+    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}]에 빈 RequiredIngredients 태그가 포함되어 있습니다!! 런타임 시 문제가 발생할 수 있습니다.",
     "DirectOutputsWithLootTierKey": "FCraftingFormula [{0}]에 ResultLootTierKey 및 직접 출력(ExtraData 엔트리)가 모두 있습니다. ResultLootTierKey 또는 직접 출력 엔트리 제거"
   },
   "UJunoValidator_GuidedBuildingActorValidator": {
-    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
+    "ValidateLoadedAsset_Implementation": "액터 이름[{0}]이 있는 FJunoGuidedBuildingData에 레시피가 비어 있습니다!! 런타임 시 문제가 발생할 수 있습니다."
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "인덱스 [{0}]의 FJunoGuidedBuildingDisplayActorDataEntry에 빈 레시피가 있습니다!! 런타임 시 문제가 발생할 수 있습니다."
@@ -12842,7 +12791,7 @@
     "ItemNewerThanLootTablePlugin": "아이템 [{0}]에 [{1}] 출시 버전이 있지만, 플러그인이 [{3}]에서 쿠킹되는 전리품 테이블 [{2}]에서 참조됩니다. 이 전리품 테이블이 실행될 때 아이템은 존재하지 않습니다. 전리품 테이블에서 아이템을 제거하거나, 플러그인 버전과 일치하도록 아이템의 출시 버전을 업데이트합니다."
   },
   "UJunoValidator_Journal": {
-    "RewardsInvalid": "Journal data table [row {0}] has a CompletionReaction type that grants a reward, but is set to GrantToWorld.  It must be GrantToParticipants to correctly grant to all players..",
+    "RewardsInvalid": "일지 데이터 테이블 [{0}행]에 보상을 지급하는 CompletionReaction 유형이 있지만, GrantToWorld로 설정되어 있습니다.  GrantToParticipants로 지정해야 모든 플레이어에게 올바르게 지급됩니다..",
     "TextInvalid": "일지 데이터 테이블[행 {0}]의 프로퍼티[{1}]에 유효하지 않은 텍스트가 있습니다:{2}\"{3}\"",
     "PrereqQuestProgressNotification": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}] 퀘스트의 bHideQuestProgressNotification은 켜기로 설정되어 있어야 합니다",
     "PrereqQuestStartingToast": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}] 퀘스트의 bShouldDisplayStartingToast는 끄기로 설정되어 있어야 합니다",
@@ -12850,7 +12799,7 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}] AwesomeLevelIndex는 {2}의 UpgradeRequirements에 대한 유효한 인덱스가 아닙니다.",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}] CampTagConfigKey가 FJunoAwesomePoiConfigTableRow DataTable에 매핑되지 않습니다.",
     "PrereqTownbuilderInvalidNoValidALI": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}]에 유효한 AwesomeLevelIndex가 없습니다.",
-    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
+    "PrereqTownbuilderInvalid": "일지 데이터 테이블 [{0}행], 전제 조건 인덱스[{1}]에 유효한 CampTagConfigKey 태그가 없습니다.",
     "PrerequistitesInvalidNoValidPreReqType": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}]에 유효한 Prereq 타입이 없습니다.",
     "PrereqQuestInvalidNotNeededPFComponent": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}]에 불필요한 PersistenceFramework 컴포넌트가 있습니다.",
     "PrereqQuestInvalidQuestSoftPtr": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}]에 유효하지 않은 퀘스트 SoftPtr [{2}]|hpp(이,가) 있습니다.",
@@ -12858,17 +12807,17 @@
     "PrereqQuestNull": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}]에 퀘스트 정의가 없습니다",
     "PrereqTownbuilderInvalidRCButEmptyRL": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}]|hpp(을,를) ResourceCost를 참조하지만, {2}의 ResourceList는 비어 있습니다.",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "일지 데이터 테이블 [열 {0}], 전제 조건 인덱스 [{1}]에서 {3}의 UpgradeStages에 대한 UpgradeStepIdentifer {2}|hpp(이,가) 있는 UpgradeStep을 찾지 못했습니다.",
-    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
-    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
-    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "PrerequistitesInvalid": "일지 데이터 테이블 [{0}행]에 전제 조건이 없습니다.",
+    "CategoryTagInvalid": "일지 데이터 테이블 [{0}행]에 유효한 카테고리 태그가 없습니다.",
+    "CompletionReactionsInvalid": "일지 데이터 테이블 [{0}행]이 CompletionReaction 인덱스 [{1}]를 통해 공개되도록 설정되어 있습니다.",
     "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "일지 데이터 테이블 [열 {0}]|hpp(은,는) NextTaskRowName을 통해 스스로 드러나는 구성입니다. 차단 해제를 위해 RevealNextTaskOnComplete를 체크 해제하고 엔지니어에게 문의하세요!",
     "CompletionReactionsInvalid_RowNotExist": "일지 데이터 테이블 [{0}열]은 완료 시 존재하지 않는 [{1}열]을 드러냅니다.",
     "CompletionReactionsInvalid_AutoReveal": "일지 데이터 테이블 [{0}열]은 완료 시 AutoRevealCondition을 사용하는 [{1}열]을 드러냅니다.  허용되지 않습니다. ConditionsForAutoRevealOrHide가 자동 공개되는 태스크를 관리합니다.",
-    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
-    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+    "NextTaskRowNameInvalid": "일지 데이터 테이블 [{0}행]에서 RevealNextTaskOnComplete를 사용하지만, NextTaskRowName {1}|hpp(이,가) 잘못되었습니다.  상자를 다시 확인해 주세요.",
+    "ValidateLoadedAsset": "[{3}]에 패키지의 플러그인을 쿠킹할 때 존재하지 않을 퀘스트 [{2}]을 일지 데이터 테이블 [{0}] 전제 조건 인덱스 {1}(이)가 참조합니다. 행을 제거하거나 아이템의 출시 버전을 일치하도록 업데이트하세요."
   },
   "UJunoValidator_LootTables": {
-    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "전리품 패키지 [{0}](은)는 패키지의 플러그인이 [{2}](으)로 쿠킹될 때 존재하지 않을 아이템 [{1}](을)를 참조합니다. 행을 제거하거나 아이템의 출시 버전을 일치하도록 업데이트하세요."
   },
   "UK2Node_ModifyObject": {
     "NodeTitle": "오브젝트 수정",

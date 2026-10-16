@@ -356,6 +356,7 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "Pedang yang memiliki serangan kuat pada lompatan kedua.",
     "144AC202422D81D8ECA7FDADA0248752": "Senapan klasik dengan tingkat akurasi tinggi dan jangkauan yang jauh.",
     "174ADE3045B991036DAB808BA3802CDA": "Senapan klasik dengan tingkat akurasi tinggi dan jangkauan yang jauh.",
+    "A633A07540E67656A515748EC42D2BFA": "Senapan klasik dengan tingkat akurasi tinggi dan jangkauan yang jauh.",
     "5CA4C768442DACE154F650919AEBF7CC": "Ledakan penuh sensasi dan kesenangan. Mulai dengan Melompat selagi di udara.",
     "62060089487721326B23BBA33709B481": "Ledakan penuh sensasi dan kesenangan. Mulai dengan Melompat selagi di udara.",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "Ledakan penuh sensasi dan kesenangan. Mulai dengan Melompat selagi di udara.",
@@ -422,10 +423,7 @@
     "F259347F4F2842296238EB82C300F898": "Apa pun",
     "165B7E9748BBE879107084AD2F2A831F": "AoEHealing Heal UtilityItem ",
     "979E143F4DB80482F7115A92CA8BCD4A": "AoEHealing Heal UtilityItem ",
-    "A9FA7E534DAB697646EE6AB42C93C1D7": "Hijau Apel",
     "A2C33D7A4650D1311D24238FC644F05A": "Memberikan <Emphasized>perisai </> kepadamu dan rekan tim di sekitar",
-    "2C724915401F1A7787FFCB8FD290B616": "Aqua",
-    "46C56F454E6F3673CEF647A6D72F3EDA": "Biru Bahari",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "Slot Gudang Senjata",
     "14FE8E964665F3F20099A0B16A9D68F7": "Ashton",
     "F00BAD564EF2DC73C32CB18F94A85EAE": "Ashton",
@@ -555,7 +553,6 @@
     "120BA8004C6678552C7377A6A5483152": "Gaya Suar",
     "851AC090485097B263B626A83A02C0FE": "Sinar",
     "C1DC37B04598D140C5BD808AB61F9712": "Jadilah Boneka Salju",
-    "21BB6A4D48D2430058D509B4F3D02AA9": "Cokelat Muda",
     "0A9381554E499FD10B15438EDCFD41B0": "DX Tong-Besar",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Biplane",
     "5B5236944941BFD7DE82B8B05FE11D94": "Biplane",
@@ -626,7 +623,6 @@
     "2AA0C53148468770E238D6825BF85BAC": "Bintang Kategori",
     "EE922BB945F58FB9604A58A2D82D680C": "SMG Tembakan Cepat Catwoman",
     "AA86FAD842ADDE0E9D552E92F44CDD7C": "SMG Tembakan Cepat kustom milik Catwoman. Dibuat dengan teliti untuk meningkatkan kapasitas amunisi.",
-    "D76CF3D846DE65E8BE51F39F748DAA43": "Biru Samudra",
     "EB4A9CD946CF1CAD986993958FEC99A7": "Chapter 2 Musim 5 ",
     "5D048A7F45BDC6C054F4528378401CD0": "Chapter 2 Musim 7",
     "02BD54134B723F96AC01628F3924C431": "Chapter 2 - Musim 8",
@@ -929,7 +925,6 @@
     "7D608A2348789E08EF3A60ABB1E09742": "Tim Kawan",
     "2FB297854AA101161395379E33167490": "Dari Ujung Jurang",
     "2277279745E5A2A74BC60299806407F0": "SMG Frozen",
-    "E37268214ECAE0FDB58EF1A6BD1E9A81": "Fuchsia",
     "1D2EEEBF4370BF8C411B08B64DCE4F2E": "Tong-Besar Penuh",
     "F6260A434A2F549B51B59F842C778EA8": "Indikator Garis Datar Penuh",
     "CA598A9647DDFFF9012FFE88BAC6D842": "G-Flip Penuh",
@@ -975,7 +970,6 @@
     "87E39EA04808B27EA30A908F811EF0FA": "Gantole",
     "3C063B974F09C8A673507CBE3ADDB71D": "Bertarung sendirian untuk menjadi orang terakhir yang bertahan.",
     "8BEC89B8499664826B111685672B4E29": "Bertarung sendirian untuk menjadi orang terakhir yang bertahan.",
-    "B8C59B304999B1F6964D1696FAB0E456": "Emas",
     "F92ED6D24B56EACA844D27A473619CF5": "Emas",
     "3636D06A4ADE66F6A3C73D9AAB04186F": "Mata Uang Emas",
     "7B0936A2458A998274ED3484DE00BCDA": "Truffle Emas",
@@ -994,7 +988,6 @@
     "2BAF9D994E20140BCD7F59A7CAC81BA3": "Putaran Balik Kuburan",
     "A4341A0045390C670F4757948E6E3CE5": "Tsunami Kuburan",
     "F0737F4E40417749A441A59843B932F0": "Voyager Kuburan",
-    "0B5C62D0400E95930AEE12B1D2116EE2": "Hijau",
     "5D14C5F74CA277758C0476AA504D7CEA": "Grotto",
     "331DB866438F7C72234C5B8338CC44A0": "Bentuk grup dan bertahan lebih lama dari skuad lain untuk meraih kemenangan.",
     "99E9D5F34DC01FC6B8774DB154EAC42E": "Senjata Api Senapan Serbu Senapan Mesin PeluruRingan Otomatis",
@@ -1042,7 +1035,6 @@
     "2EAFA04B4FCA57C7AF24E29E7C4450D7": "Senapan Runduk Berat +",
     "A935E8954E7200704C91A0A3A85B8C71": "Senapan Runduk Berat dengan kesempatan untuk <Emphasized>langsung memuat ulang</>",
     "56AA82F146826F523FA9119C01362035": "Tinggi",
-    "0B86EC9C474C4633272C9787A10B7795": "Item Dimiliki",
     "465E0326425E1043865BEB8E4C811AE3": "Item Dimiliki",
     "6C0951C64B0DA937087B0284224F92F4": "Item Dimiliki",
     "6EF1E84B40FA9D7CD51697ABF897FE4A": "Item Dimiliki",
@@ -1090,6 +1082,7 @@
     "3B23812B4104C655B1751DAB80ED2993": "G-Flip Indy",
     "118BD9B247A79B6E7AB2189A409B7EFA": "Putaran Indy",
     "55F09A7841788A6D5EABF7AE7C720557": "Senapan Infanteri",
+    "C115B50C4700A573DC237EAC7C92E21B": "Senapan Infanteri",
     "F1638A45469F392DAF5444BE0A097644": "Senapan Infanteri",
     "F317A4514DE5AEE182F39DA192E355AD": "Senapan Infanteri",
     "1D7BBE454E1553569F9589A7E633F06D": "Tak Terbatas",
@@ -1236,7 +1229,6 @@
     "/Fortnite.com/Devices/NPCSpawner/npc_behavior_template_message_module/OnEndMessage": "Agen NPC = {Agent}: OnEnd terpicu ayo kita bersihkan.",
     "0DD368AE4439FC99C95A4595D62837AC": "Tantangan Pembangun Alami",
     "688E65C943BC171D5807FE974D7E59A9": "Semua Tantangan Ned si Manusia Abadi",
-    "B80ED9CD455EDCE5BB4214A10A82B828": "Hijau Neon",
     "NetworkConnectionLost": "Koneksi Internet Hilang",
     "44067A6E421888DD39877E82D6DABB58": "Teks Ikon Netral",
     "AB88B4554EDBE594A34706AED40BB6C4": "Tidak Pernah",
@@ -1358,7 +1350,6 @@
     "19A0DCA742B5AC4CB1D227AEE0A19601": "Hanya Terpilih",
     "B95E8C564EE3D7A237E5DEB35283797C": "Hanya jika Diperlukan",
     "BAC5E80D44DA978242043B9497A8E286": "Lawan yang kamu eliminasi <Emphasized>akan menguak</> lawan di sekitar",
-    "95FD548C4AFFA37C807335BD7AF1AB6A": "Oranye",
     "658517F44C1678AB75F76FB69BD46F60": "Peluncur Cat Oranye  ",
     "516CA75D4CF5403A2F82BF838CD51DB7": "Modul dan Program Parenting yang Sudah Kedaluwarsa",
     "6EB89D324C5E00500994CD96A83D5A72": "Modul dan Program Parenting yang Sudah Kedaluwarsa",
@@ -1385,7 +1376,6 @@
     "B3CFEDE943AA56C0AEE82CA08F806463": "Ambil",
     "7240B5BC46A81D296CBCA080DF98ECB7": "Balap Beliung",
     "91F4A2794D81253C6E03C7A0B78CC383": "Ambil Pemadam Api",
-    "F75FBF44462332D5DFE17691FCD37DFF": "Pink",
     "2C211AA048AE4A1A5D9423B297E1023D": "Meriam Bajak Laut",
     "BB93B4574E7A8EF0105C4DAADCA4D5F8": "Meriam Bajak Laut",
     "CFBFEBC248741ED6E0FCC88CC754A22E": "Meriam Bajak Laut",
@@ -1438,7 +1428,6 @@
     "85A2E3C041A433B1B8D87C914FAFCC13": "Token Penyelesaian Kartu Pons",
     "8FDD93294EE611E28D499E8504C6C314": "Token Tinju Kartu Tinju",
     "B06F5AB34BA2C7C48F6D2982E60EC524": "Token Tinju Kartu Tinju",
-    "A4A746BE47363A8193CEE4BC9E663930": "Ungu",
     "A1D607174B6E2B132A79E0A3242425BE": "Peluncur Cat Ungu  ",
     "02D599B84C45A32A6BAB92925A070A51": "Dorong (Ketuk) / Meluncur (Tahan)",
     "25171EA942DC385DE7E5798BBB4969A1": "Letakkan",
@@ -1459,7 +1448,6 @@
     "B1CFA5584EBD1878822A699ECEB629A6": "Peti Rare",
     "101BBD144878EB1AA8CCD292737797AE": "Pemindai Pengintai",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Prajurit Rekrutan",
-    "1C77EAFB46C48299170B7486AEFB6294": "Oranye Merah",
     "7125E4704BEA318C6BD3D69B5893D080": "Bahan perakitan yang disempurnakan. Bisa dibuat dengan bahan lain, dan biasanya ditemukan di peti.",
     "16DA40C14B2BC801935504956E31A9C9": "Memulihkan <Emphasized>HP</> saat berenang",
     "D956F3B24B85A136EDFF7681AD74FB8C": "Dipulihkan",
@@ -1590,10 +1578,8 @@
     "029C79824756DFCA21B1AB85821FF31C": "Tampilkan Berita",
     "2496EF09404F18FFE2EA0AB9BA7CFA8F": "Tampilkan Panah ke Luar Layar",
     "D2AA34D248C42439671352909952AF0C": "Menampilkan layar berita saat baru",
-    "D5A97BEC41D14A772F78AD85787561D5": "Perak",
     "37EA8D3C4FCA282792A19089FF9D264F": "Senapan penembak runduk sekali tembak dengan teropong <Emphasized>jarak jauh</>",
     "9A6F1EDF4BBD286B035BA49BDF31635E": "Token Tantangan Prajurit Tengkorak",
-    "89373C3241ED5AC276FBA08F64FC6020": "Biru Langit",
     "C3F806054CE1F1D1A8FFFC9F8DF839BC": "Lambat",
     "252EFAEE4A3593A47968A9B628C86826": "<Emphasized>Pistol kuat</> dengan tembakan lambat.",
     "F415822746674FEAC04DCB8D1D0EC153": "Partikel Asap",
@@ -1976,7 +1962,6 @@
     "A8CDADF8471D9C4CFEBFF598C94692E3": "Saat Kendaraan dihancurkan, respawn setelah jeda ini (kendaraan pertama yang spawn tidak menggunakan jeda ini).",
     "0D756F6B4F770EF0A8F90CAC0113EB78": "Pistol yang Diberikan",
     "E710C08E4E5C70FF8A286CB6EA101B4F": "Menentukan apakah menampilkan Suar, menampilkan Elemen HUD, atau keduanya.",
-    "D3A54EAE40408580269CF39BCCA37888": "Putih",
     "195F2EE048C26E190C845691145D6CF6": "Lebar",
     "9BD108A54CA8FA397E1DBD95E37958BB": "Token Penyelesaian Tantangan Festival Musim Dingin",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "Kunci Festival Musim Dingin",
@@ -2139,23 +2124,35 @@
     "MergeSquadsText": "Gabungkan skuad",
     "SquadsTooBigToMerge": "Skuad terlalu besar untuk digabung"
   },
+  "AnimInEdTools": {
+    "SourceLink_NotASequence": "'{0}' tidak dapat dimuat sebagai Level Sequence.",
+    "SourceLink_NoItem": "'{0}' tidak merekam tautan kembali ke animasi ini.",
+    "SourceLink_OpenRange": "'{0}' memiliki rentang pemutaran yang tidak terbatas, sehingga rentang yang diekspor tidak dapat ditentukan.",
+    "SourceLink_NoTrack": "'{0}' tidak memiliki trek Control Rig pada ikatan asal animasi ini.",
+    "SourceLink_BadRate": "'{0}' merekam rentang ekspor kustom dengan rasio frame tidak valid.",
+    "SourceLink_NoAnim": "Tidak ada animasi yang terbuka.",
+    "SourceLink_Missing": "{0} Level Sequence yang ditautkan tidak ditemukan.",
+    "SourceLink_NoLink": "Animasi ini tidak ditautkan ke Level Sequence, jadi tidak ada pengaturan waktu source key untuk dibaca."
+  },
   "AnimInEdToolsModule": {
     "AnimToCRImportTabLabel": "Anim → Rig Kontrol",
     "AnimToCRImportTabTooltip": "Impor animasi yang dipratinjau (pose, jangkauan, atau seluruh klip) ke Rig Kontrol dalam Urutan Level yang terbuka."
   },
   "AnimToCRImport": {
-    "Clear": "Hapus",
+    "ImportKeyTimings": "Terapkan Pengaturan Waktu Source Key",
+    "ClearInOutTip": "Masuk/Keluar",
     "CurFrame": "Frame saat ini",
-    "DelStatic": "Hapus Saluran Statis",
-    "RangeHdr": "Jangkauan Frame",
     "ImportPose": "Impor Pose",
     "ImportRange": "Impor Jangkauan",
-    "OnlyStatic": "Hanya Kurangi Saluran Statis",
-    "OptionsHdr": "Opsi",
-    "SelOnly": "Hanya kontrol terpilih",
+    "KeyTimingsTip": "Hanya pertahankan keyframe yang ada di lapisan dasar Sequence Level source yang memiliki keyframe, bukan keyframe di tiap frame. Nilai masih berasal dari animasi ini. Menggantikan pengaturan Kurangi Keyframe.",
+    "NoLoadSettings": "Pengaturan Animasi Muat tidak tersedia (LoadAnimToControlRigSettings tidak ditemukan).",
+    "SimpleViewTip": "Pasangkan kembali editor Animasi ke viewport, lini masa, alat ini, dan peramban aset.Menonaktifkannya akan memulihkan tab yang sebelumnya kamu buka.",
+    "RestoreLayoutTip": "Buka kembali tab yang dibuka saat terakhir kali Tampilan Sederhana dimasuki. Tersedia jika Tampilan Sederhana sudah digunakan setidaknya sekali.",
+    "RestoreLayout": "Pulihkan Tata Letak",
     "SetIn": "Titik Awal",
     "SetOut": "Titik Akhir",
-    "SmartReduce": "Pengurangan Cerdas"
+    "SimpleView": "Tampilan Sederhana",
+    "SourceLabel": "Source: {0}  frame {1}-{2}"
   },
   "AntiCheat": {
     "ClientErrorMessage": "Kesalahan {provider}: {message}\n\nSilakan periksa {provider} Pertanyaan Umum untuk informasi lebih lanjut."
@@ -2189,7 +2186,7 @@
   },
   "AssetTypeActions": {
     "AIActionSequence": "Urutan Aksi AI",
-    "UJunoAssetListAssetFactory": "Asset List"
+    "UJunoAssetListAssetFactory": "Daftar Aset"
   },
   "Athena": {
     "NPCHiredIndication": " (Pengikut)",
@@ -3033,7 +3030,7 @@
   },
   "Contexts": {
     "HLTv2ToCustomizableUI": "Plugin HLTv2ToCustomizableUI",
-    "JunoViewportToolsCommands": "Juno Tools",
+    "JunoViewportToolsCommands": "Alat Juno",
     "SpatialMetricProfiler": "SpatialProfiler",
     "WeaponModernizationEditorCommands": "Alat Modernisasi Senjata"
   },
@@ -3864,7 +3861,7 @@
   },
   "FJunoViewportToolsModule": {
     "SectionName": "Juno",
-    "ExtensionName": "JunoTools",
+    "ExtensionName": "Peralatan Juno",
     "ConfigurePrefabTool": "Pracetak"
   },
   "FStateDrivenEvent_DepositResource": {
@@ -5189,6 +5186,20 @@
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "Spesial"
   },
+  "FortEpicParty": {
+    "AccountResolution": "InternalError",
+    "ExistingInviteMissing": "InternalError",
+    "FrameworkUnavailable": "InternalError",
+    "JoinRetryAbandoned": "InternalError",
+    "JoinableInfoMissing": "InternalError",
+    "RetryAccountResolution": "InternalError",
+    "RetryFrameworkUnavailable": "InternalError",
+    "RetryJoinableInfoMissing": "InternalError",
+    "RetryPartyPrivate": "InternalError",
+    "RetrySameParty": "InternalError",
+    "TargetNotFriend": "InternalError",
+    "TargetNotJoinable": "InternalError"
+  },
   "FortErrorOverrides": {
     "IoStoreHttpError": "Terjadi kesalahan dalam komunikasi dengan layanan backend kami, periksa jaringan dan coba lagi dalam beberapa saat. {ModuleIdString}.{ErrorCodeString}"
   },
@@ -5232,6 +5243,9 @@
   },
   "FortGameMode": {
     "FailedToStartMatchTimeout": "Server gagal untuk memulai tepat waktu."
+  },
+  "FortGameStateHestiaBeauty": {
+    "SittingOutPlayersToJumpInNotAllowed": "Gagal bergabung dengan sesi kelompok."
   },
   "FortGameStateOutpost": {
     "LimitThresholdReached": "Peringatan: Tinggal {0} struktur untuk ditempatkan."
@@ -5451,10 +5465,8 @@
     "StorageItemDescription_BR": "Diperlukan oleh Battle Royale, Zero Build, dan Reload.",
     "StorageItemDescription_Sparks": "Diperlukan oleh Fortnite Festival.",
     "StorageItemDescription_Juno": "Diperlukan oleh LEGO® Fortnite.",
-    "StorageItemDescription_DelMar": "Diperlukan oleh Rocket Racing dan peta Rocket Racing buatan pemain.",
     "StorageItemDescription_Core": "Konten yang diperlukan untuk semua pengalaman.",
-    "StorageItemDescription_Creative": "Diperlukan untuk memainkan dan mengedit pulau buatan kreator [dan Liar].",
-    "StorageItemTitle_DelMar": "Konten Berdaya Roket"
+    "StorageItemDescription_Creative": "Diperlukan untuk memainkan dan mengedit pulau buatan kreator [dan Liar]."
   },
   "FortLinkedGraphGate": {
     "LinkedGraphTagInvalid": "@@ - Grafik terhubung yang terhubung tidak memiliki tag yang valid",
@@ -6825,6 +6837,7 @@
     "TweakZoneCollection_Name": "Zona Penyesuaian Controller",
     "TelekineticonToggleActivation_Description": "Mengatur cara telekinetikon diaktifkan.\n\nTahan Pemicu - Tetap tekan pemicu untuk mengambil objek dan lepaskan pemicu untuk menjatuhkan objek.\nPengalihan - Tekan untuk mengambil dan melepaskan objek.",
     "SocialPrivacy_MutualFriends_Description": "Mengontrol visibilitas teman bersamamu terhadap pemain lain.\n\n<strong>PRIVAT</>: Tidak ada yang bisa melihat teman bersamamu.\n\n<strong>HANYA TEMAN</>: Hanya teman yang bisa melihat teman bersamamu.\n\n<strong>PUBLIK</>: Siapa pun bisa melihat teman bersamamu.",
+    "StrictInjectionPolicy_Description": "Mengontrol program yang bisa berinteraksi dengan Fortnite.\n\nSaat aktif, program lain dan overlay-nya akan dicegah mengakses Fortnite untuk meningkatkan keamanan. Pengaturan ini mungkin diperlukan di beberapa event kompetitif.",
     "GyroOffsetBuild_Description": "Mengatur apakah input bidik akan menggerakkan retikel sebelum menggerakkan kamera saat Membangun atau Mengedit.",
     "MouseOffsetBuild_Description": "Mengatur apakah input bidik akan menggerakkan retikel sebelum menggerakkan kamera saat Membangun atau Mengedit.",
     "TouchOffsetBuild_Description": "Mengatur apakah input bidik akan menggerakkan retikel sebelum menggerakkan kamera saat Membangun atau Mengedit.",
@@ -6939,6 +6952,7 @@
     "GyroButtonEnable": "Aktifkan Gyro",
     "EnergySavingIdle_Name": "Aktifkan Penghematan Energi Idle (Frontend)",
     "EnergySavingFocusLoss_Name": "Aktifkan Penghematan Energi Jendela Tidak Aktif",
+    "VoiceChatUseNoiseReduction_Name": "Aktifkan Pengurangan Noise",
     "HeadphoneMode_Description": "Aktifkan audio binaural.  Memberikan spasialisasi audio 3D, sehingga kamu bisa mendengar lokasi suara dengan lebih tepat, termasuk dari atas, bawah, dan belakang. Direkomendasikan untuk digunakan hanya dengan headphone stereo.",
     "QuickWeaponToggle_Description_Switch": "Aktifkan aksi Senjata Cepat eksperimental. Saat diaktifkan, Senjata Cepat menggantikan tombol Senjata Berikutnya.\n\nTekan Senjata Cepat untuk memasang item utamamu. Tekan salah satu tombol A/B/X/Y sambil menekan Senjata Cepat untuk beralih ke salah satu slot item lainnya. Kamu bisa menekan Senjata Cepat dan A/B/X/Y secara bersamaan untuk langsung beralih ke item tersebut, atau menahan tombol Senjata Cepat selama yang kamu inginkan untuk membiasakan diri dengan bagaimana tombol A/B/X/Y mencocokkan item yang ada di dalam inventarismu.\n\nKetika ini diaktifkan, Senjata Sebelumnya digantikan oleh Penanda Tempat untuk mempermudah komunikasi dengan skuadmu. Atau kamu dapat mengganti Senjata Sebelumnya dengan aksi pilihanmu melalui kustomisasi kontrolmu pada tab Kustomisasi Controller.",
     "QuickWeaponToggle_Description_Switch2": "Aktifkan aksi Senjata Cepat eksperimental. Saat diaktifkan, Senjata Cepat menggantikan tombol Senjata Berikutnya.\n\nTekan Senjata Cepat untuk memasang item utamamu. Tekan salah satu tombol A/B/X/Y sambil menekan Senjata Cepat untuk beralih ke salah satu slot item lainnya. Kamu bisa menekan Senjata Cepat dan A/B/X/Y secara bersamaan untuk langsung beralih ke item tersebut, atau menahan tombol Senjata Cepat selama yang kamu inginkan untuk membiasakan diri dengan bagaimana tombol A/B/X/Y mencocokkan item yang ada di dalam inventarismu.\n\nKetika ini diaktifkan, Senjata Sebelumnya digantikan oleh Penanda Tempat untuk mempermudah komunikasi dengan skuadmu. Atau kamu dapat mengganti Senjata Sebelumnya dengan aksi pilihanmu melalui kustomisasi kontrolmu pada tab Kustomisasi Controller.",
@@ -7613,6 +7627,7 @@
     "WindingSpeedScaledByZoom_Description_Switch": "Secara otomatis mengurangi kecepatan rotasi flick stick tergantung pada seberapa jauh kamu memperbesar. Misalnya, ini dapat membantu menjaga stabilitas saat mengamati lansekap menggunakan senapan penembak runduk. Ini tidak memengaruhi flick ketika kamu menggerakkan stick untuk pertama kalinya.",
     "WindingSpeedScaledByZoom_Description": "Secara otomatis mengurangi kecepatan rotasi flick stick tergantung pada seberapa jauh kamu memperbesar. Misalnya, ini dapat membantu menjaga stabilitas saat mengamati lansekap menggunakan senapan penembak runduk. Ini tidak memengaruhi flick ketika kamu menggerakkan stick untuk pertama kalinya.",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "Secara otomatis mengurangi kecepatan rotasi flick stick tergantung pada seberapa jauh kamu memperbesar. Misalnya, ini dapat membantu menjaga stabilitas saat mengamati lansekap menggunakan senapan penembak runduk. Ini tidak memengaruhi flick ketika kamu menggerakkan stick untuk pertama kalinya.",
+    "VoiceChatUseNoiseReduction_Description": "Mengurangi kebisingan latar belakang pada mikrofonmu, seperti kipas, pengetikan, atau gema ruangan. Nonaktifkan ini jika pemain lain melaporkan suaramu terdengar tidak jelas, seperti robot, atau putus-putus.",
     "ReducedDataUsage_Description": "Mengurangi seberapa banyak data yang akan diunduh secara otomatis. \n\nPengaturan ini mungkin berguna jika paket seluler atau internetmu punya batas data dan kamu berisiko melampauinya.",
     "GyroSensitivityScaledByZoom_Description": "Mengurangi sensitivitas bidikanmu secara otomatis bergantung pada seberapa banyak perbesaran yang kamu lakukan. Ini dapat membantu menjaga bidikanmu stabil dengan senjata jarak jauh.",
     "Reflections_Description": "Kualitas refleksi menentukan resolusi dan akurasi refleksi.\n\nOpsi 'Lumen Tinggi' dan 'Lumen Epic' memiliki kualitas yang jauh lebih tinggi, tetapi dapat mengurangi performa.\n\nNonaktif: Refleksi dinonaktifkan.\n\nRuang Layar: Menghitung hanya berdasarkan apa yang sedang ditampilkan di layar.\n\nLumen Tinggi/Epic: Refleksi ray tracing waktu nyata dengan kualitas tinggi.",
@@ -7832,6 +7847,7 @@
     "StopRenderingInBackground_Name": "Hentikan Rendering di Latar Belakang",
     "StopRenderingInBackground_Description": "Hentikan rendering saat jendela game tidak difokuskan jika memungkinkan. Mengosongkan sumber daya GPU untuk aplikasi lain.",
     "KeyboardMovementStrafeDiagonal_Name": "Sudut Menyamping",
+    "StrictInjectionPolicy_Name": "Kebijakan Injeksi Ketat",
     "MatchmakingSubregion_Name": "Preferensi Subwilayah",
     "SubtitlePage_Name": "Subtitle",
     "SubtitlesCollection_Name": "Subtitle",
@@ -8005,7 +8021,7 @@
     "InvertPitchForAircraftPrimary_Description": "Mengaktifkan atau menonaktifkan fitur pembalikan kemudi controller pada pesawat. Saat diaktifkan, pergerakan maju akan mengarahkan pesawat ke bawah.",
     "InvertPitchForAircraftSecondary_Description": "Mengaktifkan/menonaktifkan inversi kemudi mouse pesawat. Bila diaktifkan, menggerakkan mouse ke depan akan mengarahkan pesawat ke bawah.",
     "InvertPitchForAircraftTouch_Description": "Mengaktifkan/menonaktifkan inversi kemudi sentuh pesawat. Bila diaktifkan, menggerakkan sentuhan ke depan akan mengarahkan pesawat ke bawah.",
-    "AutoPickUpEnabled_Description": "Mengaktifkan/menonaktifkan ambil item otomatis. Bila diaktifkan, item akan otomatis diambil ketika dilangkahi.",
+    "AutoPickUpEnabled_Description": "Mengaktifkan/menonaktifkan ambil item otomatis. Saat aktif, item akan otomatis diambil ketika dilewati, dan item yang lebih baik akan menggantikan item yang ada jika sesuai.",
     "AutoSortConsumablesToHigherSlots_Description": "Mengaktifkan/menonaktifkan urutkan otomatis item habis pakai ke slot lebih tinggi. Saat aktif, item habis pakai seperti HP dan perisai akan secara otomatis berada pada slot bilah alih kosong paling atas saat diambil.",
     "AutoSortConsumablesToRight_Description": "Mengaktifkan/menonaktifkan sortir otomatis item habis pakai. Saat aktif, item habis pakai seperti HP dan perisai akan secara otomatis berada pada slot bilah alih kosong paling atas saat diambil.",
     "GamepadAutoRun_Description_PS4": "Mengaktifkan/menonaktifkan lari otomatis pada controller. Saat aktif, menekan Tombol L3 dua kali akan membuatmu berlari ke secara otomatis depan tanpa perlu menahan Tuas Kiri ke arah depan.",
@@ -8499,6 +8515,7 @@
     "ErrorSendingMessage": "Kesalahan pengiriman pesan: {0}",
     "HiddenPlayerSays": "Pemain tersembunyi berkata: ",
     "BlockedPlayerMessage": "Pesan Disembunyikan",
+    "FilteringUnavailableMessage": "Pesan tidak tersedia karena penyaringan teks gagal.",
     "TextChatDisabledByPlasterBeach": "Akan Ditentukan",
     "TextChatDisabledByTournamentMode": "Obrolan teks telah dinonaktifkan karena klien ini dalam mode turnamen.",
     "TextChatEnabled": "Obrolan teks telah diaktifkan.",
@@ -8511,6 +8528,7 @@
     "WelcomeDelMar": "Selamat datang di Rocket Racing! Mengobrol dengan sesama pembalap!",
     "WelcomeSparks": "Selamat datang di Panggung Utama! Mengobrollah dengan anggota band-mu sembari memutuskan apa yang akan kamu mainkan.",
     "WelcomeJuno": "Selamat datang di {0}! Biarkan semua orang tahu kegiatanmu di sini!",
+    "VerseSubChannelSendBlockedMessage": "Kamu tidak bisa mengirim pesan di saluran ini.",
     "TextChatDisabledByUser": "Kamu sudah menonaktifkan Obrolan Teks dalam pengaturan.",
     "YouJoinedGameMessage": "Kamu bergabung dalam saluran game.",
     "YouJoinedPartyMessage": "Kamu bergabung dalam kelompok.",
@@ -8756,6 +8774,25 @@
     "SettingSaveFailed_Title": "Gagal menyimpan pengaturan",
     "SettingSaveFailed_Description": "Sepertinya layanan Kontrol Orang Tua mengalami masalah. Coba lagi beberapa menit lagi. Jika masalah masih berlanjut, kunjungi https://status.epicgames.com."
   },
+  "FortSystemConfigRequirements": {
+    "IOMMU": "Virtualisasi Perangkat Keras IOMMU",
+    "DmaRemapping": "Perlindungan Kernel DMA",
+    "KernelCodeIntegrity": "Integritas Memori",
+    "InvalidConfigReason": "Konfigurasi keamanan sistem yang diperlukan tidak tersedia. Silakan coba lagi nanti.",
+    "SecureBoot": "Boot Aman",
+    "StableOSVersion": "Versi Sistem Operasi Stabil",
+    "StrictInjectionPolicy": "Kebijakan Injeksi Ketat",
+    "InvalidConfig": "Konfigurasi keamanan sistem",
+    "CryptoProcessor": "Trusted Platform Module (TPM)"
+  },
+  "FortSystemConfigRequirementsModalVM": {
+    "DialogTitle": "Persyaratan Keamanan Tambahan",
+    "Enabled": "Diaktifkan",
+    "EnabledWithWarning": "Diaktifkan dengan peringatan",
+    "NotEnabled": "Tidak diaktifkan",
+    "UnknownStatus": "Status tidak tersedia",
+    "DialogIntroduction": "Sistemmu tidak memenuhi persyaratan keamanan tambahan yang diperlukan untuk bermain. Pilih Pelajari Lebih Lanjut untuk mengunjungi Dukungan Easy Anti-Cheat."
+  },
   "FortTabListWidgetBase": {
     "UnspecifiedTab": "Belum ditentukan"
   },
@@ -8775,7 +8812,9 @@
   },
   "FortTextChatConversationVM": {
     "PartyFrameworkUnavailable": "Kerangka kerja Kelompok tidak tersedia",
-    "SocialToolkitUnavailable": "Kit peralatan Sosial tidak tersedia"
+    "SocialToolkitUnavailable": "Kit peralatan Sosial tidak tersedia",
+    "InvalidJoinPartyConversation": "Tidak bisa bergabung dalam kelompok karena percakapan tidak tersedia.",
+    "InvalidStartPartyConversation": "Tidak bisa memulai kelompok karena percakapan tidak tersedia."
   },
   "FortTextChatPlayerVM": {
     "RedactedUserBlocked": "<Blocked player>",
@@ -8783,10 +8822,14 @@
     "MessageDelayedFont": "<Message delayed, until we can load a new font>",
     "ConversationsDest": "Obrolan",
     "TempTitle": "Mengambil Nama ...",
+    "VerseSubChannelDefaultName": "Game",
     "NewChatOption": "Obrolan Baru",
+    "VerseSubChannelChanged": "Sekarang mengobrol di {0}",
     "ClamOneMessage": "Ingat, kamu dapat Membisukan atau Memblokir pemain dari tombol ... atau dengan memilih pesan mereka di dalam obrolan nanti",
     "SendDM": "KIRIM DM",
-    "DMWelcomeMessage": "Selamat datang di pesan langsungmu dengan {0}!"
+    "DMWelcomeMessage": "Selamat datang di pesan langsungmu dengan {0}!",
+    "VerseSubChannelMuted": "Kamu tidak bisa menulis di {0} saat ini",
+    "VerseChatSenderNameFormat": "[{0}] {1}"
   },
   "FortTournamentLobbyPanel": {
     "NoMatchTimeDescription": "Pertandingan Terakhir yang Dimulai",
@@ -8893,7 +8936,6 @@
     "EpicPartyGroupInviteDetailsSent": "Undangan kelompok terkirim ke <Username>{0}</>",
     "EpicPartyInviteDetailsSent": "Undangan kelompok terkirim ke <Username>{0}</>",
     "PartyInviteDetailsSent": "Undangan kelompok terkirim ke <Username>{0}</>",
-    "EpicPartyJoinabilityChangedInviteOnlyDetails": "Kelompok khusus undangan",
     "EpicPartyJoinRequestReceived_Title": "Permintaan bergabung ke kelompok",
     "EpicPartyMemberCreated": "Pemain bergabung dengan kelompok",
     "PartyMemberCreated": "Pemain bergabung dengan kelompok",
@@ -8918,6 +8960,7 @@
     "RequestToJoinParty_RateLimited": "Kamu telah mengirim terlalu banyak permintaan pertemanan, coba beberapa waktu lagi",
     "FriendToastSelfTooManyFriends": "Kamu memiliki terlalu banyak teman",
     "FriendToastSelfOutboxFull": "Kamu telah mengirimkan terlalu banyak permintaan pertemanan",
+    "EpicPartyJoinabilityChangedInviteOnlyDetails": "Kelompokmu sekarang khusus undangan",
     "EpicPartyJoinabilityChangedOpenDetails": "Kelompokmu sekarang terbuka",
     "NotifMgrForkMemberNoAccessToast": "{Username} tidak memiliki akses ke fork yang dipilih, melanjutkan akan mengabaikan fork"
   },
@@ -8938,7 +8981,7 @@
     "NoInternetDesc": "Periksa koneksimu dan coba lagi.",
     "QuitText": "Keluar",
     "Benchmark": "Menjalankan Benchmark ...",
-    "ServicesSlow": "Server tidak merespons",
+    "ServicesSlow": "Server tidak tersedia saat ini. Silakan periksa lagi nanti.",
     "RHIChangeSettingsApplied_Title": "Pengaturan diterapkan",
     "LogoutComplete": "Berhasil keluar.",
     "OfferRHIChangeForStability_FullDescription": "Driver grafis yang terinstal pada komputermu mengalami masalah stabilitas umum dengan mode render yang sedang digunakan (DirectX 12), dan Fortnite mungkin akan macet-macet. Kamu ingin beralih ke {NewRHI} untuk mendapatkan pengalaman yang lebih stabil? {OptionalAutoRestartText}",
@@ -9722,8 +9765,17 @@
     "ProgressFormat": "Memigrasi plugin {0} dari {1}",
     "PhasePrimaryModule": "Memigrasi modul game primer ...",
     "PhaseComplete": "Migrasi selesai",
+    "MigrationFailed": "Migrasi gagal dengan kesalahan: {0}⏎⏎Progres telah dipertahankan di titik kegagalan.",
     "PhaseFailed": "Migrasi gagal: {0}",
-    "ProgressReady": "Siap dimigrasi"
+    "NoFortMobileHUDElementWrapperClassProvided": "Tidak ada Class Wrapper Elemen HUD Fort yang disediakan untuk migrasi. Tolong tentukan di pengaturan migrasi HLTv2 ke UI yang Bisa Dikustomisasi, di tab Pengaturan Proyek",
+    "NoBaseHLTRegistryProvided": "Tidak ada dasar Alat Tata Letak HUD Mobile HUD Widget Registry yang disediakan untuk migrasi. Tolong tentukan di pengaturan migrasi HLTv2 ke UI yang Bisa Dikustomisasi, di tab Pengaturan Proyek",
+    "NoBaseMoveStickCanvasClassProvided": "Tidak ada class base move stick canvas yang disediakan untuk migrasi. Tolong tentukan di pengaturan migrasi HLTv2 ke UI yang Bisa Dikustomisasi, di tab Pengaturan Proyek",
+    "NoMigrationConfigProvided": "Tidak ada aset konfigurasi yang disediakan untuk migrasi. Tolong tentukan di pengaturan migrasi HLTv2 ke UI yang Bisa Dikustomisasi, di tab Pengaturan Proyek",
+    "NoExcludeConditionProvided": "Tidak ada kondisi pengecualian UI dinamis yang disediakan untuk migrasi. Tolong tentukan di pengaturan migrasi HLTv2 ke UI yang Bisa Dikustomisasi, di tab Pengaturan Proyek",
+    "NoTouchActionButtonWrapperClassProvided": "Tidak ada wrapper tombol aksi sentuh yang disediakan untuk migrasi. Tolong tentukan di pengaturan migrasi HLTv2 ke UI yang Bisa Dikustomisasi, di tab Pengaturan Proyek",
+    "ProgressReady": "Siap dimigrasi",
+    "AllHLTv2SetupsMigratedToCustomizableUISuccessfully": "Berhasil memigrasikan semua plugin terdaftar dengan pengaturan HLTv2 ke UI yang dapat disesuaikan.",
+    "NoBaseCustomizableUIRegistryPluginProvided": "Migrator plugin fitur game root memerlukan migrasi registri widget HLT dasar untuk dijalankan terlebih dahulu. Tentukan data fitur game target dalam pengaturan migrasi HLTv2 ke UI yang Dapat Disesuaikan, di tab Pengaturan Proyek"
   },
   "HUD": {
     "Cancel": "Batalkan",
@@ -9801,8 +9853,6 @@
   },
   "IARC": {
     "USK_AGE_0_Abbreviated": "0",
-    "EPIC_SUGGESTED_RATING_AGE_0": "0+",
-    "EPIC_SUGGESTED_RATING_AGE_0_Abbreviated": "0+",
     "RUSSIA_AGE_0_Abbreviated": "0+",
     "TCA_AGE_G_Abbreviated": "0+",
     "CLASSIND_AGE_10_Abbreviated": "10",
@@ -9821,8 +9871,6 @@
     "PEGI_AGE_12_Abbreviated": "12",
     "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "12 tahun",
-    "EPIC_SUGGESTED_RATING_AGE_12": "12+",
-    "EPIC_SUGGESTED_RATING_AGE_12_Abbreviated": "12+",
     "GEN_AGE_12": "12+",
     "GEN_AGE_12_Abbreviated": "12+",
     "RUSSIA_AGE_12": "12+",
@@ -9835,52 +9883,18 @@
     "IGRS_AGE_13_Abbreviated": "13+",
     "CLASSIND_AGE_14_Abbreviated": "14",
     "CLASSIND_AGE_14": "14 tahun",
-    "EPIC_SUGGESTED_RATING_AGE_14": "14+",
-    "EPIC_SUGGESTED_RATING_AGE_14_Abbreviated": "14+",
     "CERO_AGE_15_Abbreviated": "15",
     "IGRS_AGE_15": "15+",
     "IGRS_AGE_15_Abbreviated": "15+",
     "TCA_AGE_PG_15_Abbreviated": "15+",
     "CLASSIND_AGE_16_Abbreviated": "16",
-    "FPB_AGE_16": "16",
-    "FPB_AGE_16_Abbreviated": "16",
-    "GCAM_AGE_16": "16",
-    "GCAM_AGE_16_Abbreviated": "16",
     "GMEDIA_AGE_16": "16",
     "GMEDIA_AGE_16_Abbreviated": "16",
-    "MRO_AGE_16": "16",
-    "MRO_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 tahun",
-    "EPIC_SUGGESTED_RATING_AGE_16": "16+",
-    "EPIC_SUGGESTED_RATING_AGE_16_Abbreviated": "16+",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
-    "RUSSIA_AGE_16": "16+",
-    "RUSSIA_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
-    "FPB_AGE_18": "18",
-    "FPB_AGE_18_Abbreviated": "18",
-    "GCAM_AGE_18": "18",
-    "GCAM_AGE_18_Abbreviated": "18",
-    "GMEDIA_AGE_18": "18",
-    "GMEDIA_AGE_18_Abbreviated": "18",
-    "MRO_AGE_18": "18",
-    "MRO_AGE_18_Abbreviated": "18",
+    "CLASSIND_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 tahun",
-    "CLASSIND_AGE_18_Abbreviated": "18 tahun",
-    "EPIC_SUGGESTED_RATING_AGE_18": "18+",
-    "EPIC_SUGGESTED_RATING_AGE_18_Abbreviated": "18+",
-    "GEN_AGE_18": "18+",
-    "GEN_AGE_18_Abbreviated": "18+",
-    "IGRS_AGE_18": "18+",
-    "IGRS_AGE_18_Abbreviated": "18+",
-    "RUSSIA_AGE_18": "18+",
-    "RUSSIA_AGE_18_Abbreviated": "18+",
-    "GMEDIA_AGE_21": "21",
-    "GMEDIA_AGE_21_Abbreviated": "21",
-    "MRO_AGE_21": "21",
-    "MRO_AGE_21_Abbreviated": "21",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
     "GMEDIA_AGE_3": "3",
@@ -9892,11 +9906,7 @@
     "GEN_AGE_3_Abbreviated": "3+",
     "IGRS_AGE_3": "3+",
     "IGRS_AGE_3_Abbreviated": "3+",
-    "CLASSIND_AGE_6_Abbreviated": "6",
     "USK_AGE_6_Abbreviated": "6",
-    "CLASSIND_AGE_6": "6 tahun",
-    "EPIC_SUGGESTED_RATING_AGE_6": "6+",
-    "EPIC_SUGGESTED_RATING_AGE_6_Abbreviated": "6+",
     "RUSSIA_AGE_6": "6+",
     "RUSSIA_AGE_6_Abbreviated": "6+",
     "TCA_AGE_P_Abbreviated": "6+",
@@ -9914,12 +9924,13 @@
     "IGRS_AGE_7_Abbreviated": "7+",
     "FPB_AGE_7": "7-9 Bimbingan Orang Tua",
     "FPB_AGE_7_Abbreviated": "7-9 Bimbingan Orang Tua",
+    "ClassInd_AIInteraction_v11_0": "Interaksi AI",
     "USK_AbstrakteGewalt": "Kekerasan Abstrak",
     "ACB_ActionViolence_v10_0": "Aksi Kekerasan",
     "ClassInd_AdolescentThemes": "Tema Remaja",
+    "ClassInd_AdultContent_v11_0": "Konten Dewasa",
     "ClassInd_AdultThemes": "Tema Dewasa",
-    "ESRB_AGE_AO": "Khusus Dewasa 18+",
-    "ESRB_AGE_AO_Abbreviated": "Khusus Dewasa 18+",
+    "ClassInd_Advertising_v11_0": "Iklan",
     "USK_Alokohol_v9_0": "Alkohol",
     "ESRB_AlcoholReference": "Referensi Alkohol",
     "USK_Alkoholkonsum": "Penggunaan Alkohol",
@@ -9932,6 +9943,7 @@
     "ESRB_AnimatedBlood": "Darah Animasi",
     "TCA_AntiSociety": "Anti-masyarakat",
     "ClassInd_AttenuatedAdultThemes": "Tema Dewasa yang Dilemahkan",
+    "ClassInd_AudioVideoSharing_v11_0": "Berbagi Audio dan Video",
     "GEN_BadLanguage": "Bahasa Kasar",
     "PEGI_BadLanguage": "Bahasa Kasar",
     "ACB_BattleViolence": "Kekerasan Pertarungan",
@@ -9946,10 +9958,6 @@
     "CERO_AGE_0": "CERO A",
     "CERO_AGE_12": "CERO B",
     "CERO_AGE_15": "CERO C",
-    "CERO_AGE_17": "CERO D",
-    "CERO_AGE_17_Abbreviated": "CERO D",
-    "CERO_AGE_18": "CERO Z",
-    "CERO_AGE_18_Abbreviated": "CERO Z",
     "IE_Competitive_Intensity": "CI (Intensitas Kompetitif)",
     "TCA_CardOrCasualGames": "Game Kartu atau Kasual",
     "ESRB_CartoonViolence": "Kartun Kekerasan",
@@ -9961,12 +9969,14 @@
     "IGRS_CharacterAppearance": "Penampilan Karakter",
     "TCA_ChessGames": "Game Catur",
     "ACB_CoarseLanguage": "Bahasa Kasar",
+    "EPIC_OFLC_Coarse_Language": "Bahasa Kasar",
     "ACB_ComedicViolence": "Kekerasan Komedi",
     "ESRB_ComicMischief": "Kenakalan Komik",
     "USK_ComicGewalt_v9_0": "Kekerasan Komik",
     "FPB_CompetitiveIntensity": "Intensitas Kompetitif",
     "ClassInd_ConsumptionofAlcohol": "Konsumsi Alkohol",
     "USK_Kontaktrisiken_v10_0": "Risiko Kontak",
+    "ClassInd_ContentRecommendation_v11_0": "Rekomendasi Konten",
     "USK_InhalteFuerVerschiedeneAltersgruppen_v7_0": "Konten untuk Berbagai Kelompok Usia",
     "CERO_ControlledSubstances": "Zat yang dikendalikan",
     "CERO_Crime": "Kejahatan",
@@ -10032,12 +10042,8 @@
     "RUS_Fear_v7_0": "Takut",
     "IGRS_FearHorror": "Takut/Horor",
     "GRAC_AGE_12": "Untuk umur 12 tahun keatas",
-    "GRAC_AGE_15": "Untuk usia 15 tahun ke atas",
-    "GRAC_AGE_15_Abbreviated": "Untuk usia 15 tahun ke atas",
     "GRAC_AGE_ALL": "Untuk semua umur",
     "ACB_AGE_G_Abbreviated": "G",
-    "CSRR_AGE_0": "G",
-    "CSRR_AGE_0_Abbreviated": "G",
     "OFLC_AGE_0": "G",
     "OFLC_AGE_0_Abbreviated": "G",
     "CERO_Gambling": "Judi",
@@ -10105,6 +10111,7 @@
     "ACB_HorrorViolence": "Kekerasan Horor",
     "ACB_HuntingViolence": "Kekerasan Berburu",
     "ClassInd_DrogasIlicitas": "Obat-obatan Ilegal",
+    "ClassInd_ImageManipulation_v11_0": "Manipulasi Gambar",
     "FPB_ImitativeActsAndTechniques": "Tindakan dan Teknik Imitatif",
     "ClassInd_ConteudoImpactante": "Konten yang Berdampak",
     "ACB_ImpliedSexualViolence": "Kekerasan Seksual Tersirat",
@@ -10144,8 +10151,6 @@
     "OFLC_AGE_15": "M",
     "OFLC_AGE_15_Abbreviated": "M",
     "ACB_AGE_M": "Dewasa",
-    "ESRB_AGE_M": "Dewasa 17+",
-    "ESRB_AGE_M_Abbreviated": "Dewasa 17+",
     "ESRB_MatureHumor": "Humor Dewasa",
     "ACB_MatureThemes": "Tema Dewasa",
     "ClassInd_ProcedimentosMedicos_v8_0": "Prosedur medis",
@@ -10207,26 +10212,12 @@
     "PEGI_ModerateViolence": "Kekerasan Sedang",
     "ClassInd_ModerateViolenceAnimated": "Animasi Kekerasan Sedang",
     "ClassInd_ModeratelyRealisticViolence": "Kekerasan yang Cukup Realistis",
-    "ACB_AGE_NA": "N/A",
-    "ACB_AGE_NA_Abbreviated": "N/A",
-    "GRAC_AGE_NA": "N/A",
-    "GRAC_AGE_NA_Abbreviated": "N/A",
-    "TCA_AGE_NA": "N/A",
-    "TCA_AGE_NA_Abbreviated": "N/A",
     "ACB_NoConsumerAdvice": "Tidak Ada Saran Konsumen",
     "ClassInd_Naohainadequacoes": "Tidak Ada Deskriptor",
     "ESRB_NoDescriptors": "Tidak Ada Deskriptor",
     "GEN_NoDescriptors": "Tidak Ada Deskriptor",
     "PEGI_NoDescriptors": "Tidak Ada Deskriptor",
     "USK_NoDescriptors": "Tidak Ada Deskriptor",
-    "USK_AGE_18": "Khusus Dewasa",
-    "USK_AGE_18_Abbreviated": "Khusus Dewasa",
-    "GMEDIA_AGE_NA": "Tidak Berlaku",
-    "GMEDIA_AGE_NA_Abbreviated": "Tidak Berlaku",
-    "IGRS_AGE_NA": "Tidak Berlaku",
-    "IGRS_AGE_NA_Abbreviated": "Tidak Berlaku",
-    "GRAC_AGE_ADULT": "Bukan untuk digunakan oleh kalangan remaja",
-    "GRAC_AGE_ADULT_Abbreviated": "Bukan untuk digunakan oleh kalangan remaja",
     "ACB_Nudity": "Ketelanjangan",
     "ClassInd_Nudez": "Ketelanjangan",
     "ESRB_Nudity": "Ketelanjangan",
@@ -10245,14 +10236,8 @@
     "ACB_GEMCO": "Interaktivitas Online",
     "ACB_OnlineInteractivityAndChat_v10_0": "Interaktivitas Daring dan Obrolan",
     "IE_OnlineMusicNotRatedByESRB": "Musik online tidak diberi rating oleh ESRB",
-    "CSRR_AGE_6": "P",
-    "CSRR_AGE_6_Abbreviated": "P",
     "PEGI_AGE_PG": "BIMBINGAN ORANG TUA DIREKOMENDASIKAN",
     "PEGI_AGE_12": "PEGI 12",
-    "PEGI_AGE_16": "PEGI 16",
-    "PEGI_AGE_16_Abbreviated": "PEGI 16",
-    "PEGI_AGE_18": "PEGI 18",
-    "PEGI_AGE_18_Abbreviated": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "Bimbingan Orang Tua",
@@ -10261,10 +10246,6 @@
     "OFLC_AGE_8": "Bimbingan Orang Tua",
     "OFLC_AGE_8_Abbreviated": "Bimbingan Orang Tua",
     "PEGI_AGE_PG_Abbreviated": "Bimbingan Orang Tua",
-    "CSRR_AGE_12": "PG12",
-    "CSRR_AGE_12_Abbreviated": "PG12",
-    "CSRR_AGE_15": "PG15",
-    "CSRR_AGE_15_Abbreviated": "PG15",
     "TCA_AGE_PG_12": "Bimbingan Orang Tua 12",
     "TCA_AGE_PG_15": "Bimbingan Orang Tua 15",
     "GEN_ParentalGuidanceRecommended": "Bimbingan Orang Tua Direkomendasikan",
@@ -10283,22 +10264,6 @@
     "PEGI_ProminentGamblingImagery_v9_0": "Citra Perjudian yang Menonjol",
     "TCA_AGE_P": "Terlindungi",
     "ClassInd_PsychologicalConflicts": "Konflik Psikologis",
-    "CSRR_AGE_18": "R",
-    "CSRR_AGE_18_Abbreviated": "R",
-    "OFLC_AGE_13": "R13",
-    "OFLC_AGE_13_Abbreviated": "R13",
-    "OFLC_AGE_R15": "R15",
-    "OFLC_AGE_R15_Abbreviated": "R15",
-    "OFLC_AGE_16": "R16",
-    "OFLC_AGE_16_Abbreviated": "R16",
-    "OFLC_AGE_18": "R18",
-    "OFLC_AGE_18_Abbreviated": "R18",
-    "ESRB_RATING_PENDING_AGE_10": "RATING BELUM TERSEDIA",
-    "ESRB_RATING_PENDING_AGE_10_Abbreviated": "RATING BELUM TERSEDIA",
-    "ESRB_RATING_PENDING_AGE_17": "RATING BELUM TERSEDIA",
-    "ESRB_RATING_PENDING_AGE_17_Abbreviated": "RATING BELUM TERSEDIA",
-    "ESRB_RATING_PENDING_M_AGE_17": "RATING BELUM TERSEDIA KEMUNGKINAN DEWASA 17+",
-    "ESRB_RATING_PENDING_M_AGE_17_Abbreviated": "RATING BELUM TERSEDIA KEMUNGKINAN DEWASA 17+",
     "GRAC_RandomBox_v7_1": "Kotak Acak",
     "USK_SelteneSchreckmomente": "Situasi Menakutkan yang Langka",
     "ESRB_RealGamblingOnly_v9_0": "Perjudian Sungguhan",
@@ -10308,27 +10273,7 @@
     "ClassInd_RealisticBlood": "Darah Realistis",
     "USK_AndeutungenSexuellerGewalt": "Kekerasan Seksual yang Direferensikan",
     "ACB_ReferencestoSexualViolence": "Referensi tentang Kekerasan Seksual",
-    "ACB_AGE_RC": "Klasifikasi Ditolak",
-    "ACB_AGE_RC_Abbreviated": "Klasifikasi Ditolak",
     "ACB_RefusedClassification": "Klasifikasi Ditolak",
-    "GMEDIA_AGE_RC": "Klasifikasi Ditolak",
-    "GMEDIA_AGE_RC_Abbreviated": "Klasifikasi Ditolak",
-    "GRAC_AGE_RC": "Klasifikasi Ditolak",
-    "GRAC_AGE_RC_Abbreviated": "Klasifikasi Ditolak",
-    "IGRS_AGE_RC": "Klasifikasi Ditolak",
-    "IGRS_AGE_RC_Abbreviated": "Klasifikasi Ditolak",
-    "RUSSIA_AGE_RC": "Klasifikasi Ditolak",
-    "RUSSIA_AGE_RC_Abbreviated": "Klasifikasi Ditolak",
-    "TCA_AGE_RC": "Klasifikasi Ditolak",
-    "TCA_AGE_RC_Abbreviated": "Klasifikasi Ditolak",
-    "USK_AGE_RC": "Klasifikasi Ditolak",
-    "USK_AGE_RC_Abbreviated": "Klasifikasi Ditolak",
-    "ACB_AGE_MA15": "Dibatasi",
-    "ACB_AGE_MA15_Abbreviated": "Dibatasi",
-    "ACB_AGE_R18": "Dibatasi",
-    "ACB_AGE_R18_Abbreviated": "Dibatasi",
-    "TCA_AGE_R": "Dibatasi",
-    "TCA_AGE_R_Abbreviated": "Dibatasi",
     "USK_AngstigendeInhalte": "Konten Menakutkan",
     "USK_Schreckmomente_v9_0": "Momen Menakutkan",
     "ACB_ScaryScenes": "Adegan Menakutkan",
@@ -10442,8 +10387,6 @@
     "ESRB_TobaccoReference": "Referensi Tembakau",
     "USK_Tabakkonsum": "Penggunaan Tembakau",
     "TCA_TobaccoAndAlcohol": "Tembakau dan Alkohol",
-    "EPIC_GRAC_AGE_19": "Tanpa Peringkat",
-    "EPIC_GRAC_AGE_19_Abbreviated": "Tanpa Peringkat",
     "IE_UnrestrictedInternet": "Internet Tanpa Batas",
     "ESRB_UseofAlcohol": "Penggunaan Alkohol",
     "ESRB_UseofAlcoholandTobacco": "Penggunaan Alkohol dan Tembakau",
@@ -10483,6 +10426,7 @@
     "ACB_VeryMildSexualisedImagery": "Citra Seksual yang Sangat Ringan",
     "ACB_VeryMildSlapstickViolence_v10_0": "Kekerasan Slapstick Sangat Ringan",
     "ACB_VeryMildSportingViolence_v10_0": "Kekerasan Olahraga Sangat Ringan",
+    "EPIC_OFLC_Mild_Sports_Violence": "Kekerasan Olahraga yang Sangat Ringan",
     "ACB_VeryMildSuggestiveThemes": "Tema Sugestif yang Sangat Ringan",
     "ACB_VeryMildSupernaturalThemes": "Tema Supernatural yang Sangat Ringan",
     "ACB_VeryMildSupernaturalViolence_v10_0": "Kekerasan Supernatural Sangat Ringan",
@@ -10597,8 +10541,8 @@
     "RestrictionLineFormat": "{Index}. {Restriction}"
   },
   "JunoBuildingSnapEditorDetails": {
-    "SnapEditorRotateInPlace": "In Place",
-    "Toolbar": "Snap Editor Toolbar"
+    "SnapEditorRotateInPlace": "Di Tempat",
+    "Toolbar": "Bilah Alat Editor Snap"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "Bendera Data Konektivitas Juno",
@@ -10614,30 +10558,30 @@
     "ConsolidatePrimitivesCombined": "Membuat Redirector - /JunoAtomAssets/CombinedMeshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesMeshes": "Membuat Redirector - /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "Membuat Redirector - /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
-    "GetAssetsOfType": "Gathering '{0}' Assets",
-    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
-    "PrintAtomModelsInfo": "Printing out a AtomModels info",
+    "GetAssetsOfType": "Mengumpulkan Aset '{0}'",
+    "UpdateGeneratedMeshes": "Membuat Mesh Kotor",
+    "PrintAtomModelsInfo": "Mencetak info AtomModels",
     "RepairGeneratedMeshes": "Memperbaiki Model Atom",
-    "RegeneratePrimitivesOnPrimitive": "Running Primitive Processor : {0} ({1})",
-    "RegeneratePrimitives": "Running Primitive Processor...",
-    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+    "RegeneratePrimitivesOnPrimitive": "Menjalankan Primitive Processor: {0} ({1})",
+    "RegeneratePrimitives": "Menjalankan Primitive Processor ....",
+    "UpdateAllAtomModelsToUseProcessors": "Memperbarui Model Atom"
   },
   "JunoFECraftingDataTool": {
     "ImGuiFrontendCraftingDataTool": "Alat Data Pembuatan Frontend Juno",
     "ImGuiFrontendCraftingDataToolTooltip": "Alat untuk menyalin data UI untuk digunakan di frontend"
   },
   "JunoValidator_AtomModel": {
-    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
-    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Telah memiliki processor tetapi perlu menghasilkan mesh.",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "Tidak memiliki pengaturan processor, tetapi mereferensikan mesh yang dihasilkan"
   },
   "JunoValidator_ClientOnlyGameFeatureData": {
     "ClientOnlyRowStructOnServer": "Struktur baris '{0}' didefinisikan dalam modul khusus klien '{1}', tetapi direferensikan oleh '{2}' yang dimuat di server. Pindahkan struktur ke modul Runtime atau pastikan data hanya dimuat di klien."
   },
   "JunoValidator_GeometryCollection": {
-    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Memiliki Auto Instanced Mesh kosong",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "Memiliki Proxy Mesh kosong",
-    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
-    "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Memerlukan setidaknya satu Mesh Instance Auto",
+    "JunoValidator_GeometryCollection_ProxyMeshes": "Memerlukan setidaknya satu Mesh Proxy"
   },
   "JunoValidator_POI": {
     "ReplaceWithoutReplacement": "Baris POI '{0}' disetel ke Replace, tetapi tidak menamai ReplacementPOI, jadi baris ini hanya akan dihapus. Beri nama pengganti atau atur IneligibleAction ke Remove.",
@@ -10651,14 +10595,14 @@
     "MismatchedRowStruct": "PlaylistBaseDataTableOverrides[{0}] untuk tag daftar putar '{1}': tabel pengambilalihan '{2}' memiliki struktur baris '{3}', tetapi tabel dasar '{4}' menggunakan struktur baris '{5}'. Mengganti tabel data dengan tipe baris yang berbeda menyebabkan kerusakan memori saat runtime. Tabel pengambilalihan HARUS menggunakan struktur baris yang sama persis dengan tabel dasar."
   },
   "JunoValidator_StaticMesh": {
-    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
-    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
-    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
-    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
-    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
-    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
-    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
-    "JunoValidator_StaticMesh_NumLODs": "Only has one LOD"
+    "JunoValidator_StaticMesh_InvalidLODs": "Aset berisi rangkaian LOD yang tidak valid",
+    "JunoValidator_StaticMesh_OpaqueExport": "Bisa dihapus karena tidak lagi berisi material transparan",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "Jaring Komponen Umum tidak memiliki tag Atom 'Render.CommonParts'",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Jaring Komponen Biasa tidak memiliki AtomMergedMesh_CommonParts LODGroup",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Mesh Komponen Umum atom memiliki lebih dari satu LOD",
+    "JunoValidator_StaticMesh_WrongLODGroup": "Nama LODGroup tidak diawali dengan 'AtomMergedMesh'",
+    "JunoValidator_StaticMesh_TransparentExport": "Perlu dibuat ulang tanpa material transparan",
+    "JunoValidator_StaticMesh_NumLODs": "Hanya memiliki satu LOD"
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "Memori rendah",
@@ -11248,7 +11192,10 @@
     "UnsafeEnvironment_BodyBadInstall": "Data yang rusak ditemukan dalam file game, sehingga permainan online tidak bisa dilakukan. Silakan instal ulang Fortnite dari aplikasi Epic Games untuk mengatasi masalah ini. Kamu bisa mengunduh aplikasi Epic Games di fortnite.com/download",
     "UnsafeEnvironment_BodyBadInstallGP": "Data yang rusak ditemukan dalam file game, sehingga permainan online tidak bisa dilakukan. Silakan instal ulang Fortnite dari Google Play Store untuk mengatasi masalah ini.",
     "UnsafeEnvironment_BodyCorruptedContent": "Data yang rusak ditemukan dalam file game, sehingga permainan online tidak bisa dilakukan. Lakukan verifikasi atau instal ulang Fortnite untuk mengatasi masalah ini.",
+    "UnsafeEnvironment_StrictInjectionApply": "Aktifkan dan mulai ulang",
     "UnsafeEnvironment_Title": "Kesalahan",
+    "UnsafeEnvironment_StrictInjectionNotActive": "Event memerlukan Kebijakan Injeksi Ketat. Sudah diaktifkan di pengaturan game, Fortnite perlu dimulai ulang agar perubahan diterapkan.\n\nApakah kamu ingin memulai ulang sekarang?",
+    "UnsafeEnvironment_StrictInjectionNotEnabled": "Event memerlukan Kebijakan Injeksi Ketat. Kamu perlu mengaktifkannya dalam pengaturan game, lalu memulai ulang Fortnite agar perubahan dapat diterapkan.Apakah kamu ingin menerapkan perubahan sekarang?",
     "UnsafeEnvironment_BodyMissingLauncher": "Fortnite tidak dimulai dengan benar dan harus ditutup. Kami menyarankan untuk memulai game menggunakan Epic Games Launcher, atau hubungi dukungan pemain.",
     "UnsafeEnvironment_Body": "Ditemukan alat kecurangan atau rekayasa balik yang aktif. Silakan tutup sebelum bermain Fortnite agar akun tidak diblokir.",
     "UnsafeEnvironment_EventTPMAuth": "Kami tidak dapat mengautentikasi TPM di perangkat kamu. Perangkat ini mungkin tidak bisa ikut serta di turnamen pada pembaruan di masa depan. Untuk informasi lebih lanjut, silakan kunjungi fn.gg/tpm.",
@@ -11334,6 +11281,8 @@
     "FailedLoginConsole_SystemUpdateAvailable": "Tidak bisa login karena tersedia pembaruan sistem baru. Instal dan coba lagi.",
     "FailedLoginConsole_PatchAvailable": "Tidak bisa login karena tersedia patch yang lebih baru. {0}",
     "FailedStartLogin": "Tidak bisa login ke akun Epic Games saat ini. Coba lagi nanti.",
+    "FailedStartLogin_InvalidRefreshToken": "Tidak bisa login ke akun Epic Games saat ini. Silakan coba lagi nanti.",
+    "FailedStartLogin_NoConnection": "Tidak bisa login ke akun Epic Games saat ini. Silakan coba lagi nanti.",
     "UserLoginFailed": "Tidak bisa login ke akun Epic Games saat ini. Coba lagi nanti.",
     "FailedLoginMsg": "Tidak bisa login ke server {0}. Coba lagi nanti.",
     "FailedLoginConsole_UnableToSignIn": "Tidak bisa masuk ke akunmu untuk {0}. Coba lagi nanti.",
@@ -11983,10 +11932,10 @@
     "OutDateFormat": "Berakhir {Day} {Month} {Year} pukul ({Time} ({TimeZone})"
   },
   "SnapEditorVisualizer": {
-    "DeleteSnapEntries": "Delete Snap Entries",
-    "DuplicateSnapEntries": "Duplicate Snap Entries",
-    "PasteSnapEntries": "Paste Snap Entries",
-    "SelectSnapEntry": "Select Snap Point"
+    "DeleteSnapEntries": "Hapus Entri Snap",
+    "DuplicateSnapEntries": "Salin Entri Snap",
+    "PasteSnapEntries": "Tempel Entri Snap",
+    "SelectSnapEntry": "Pilih Titik Snap"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "Sisa {0}"
@@ -12601,7 +12550,7 @@
     "EmptyEntryError": "Mencoba mengatur nama yang kosong."
   },
   "UConfigurePrefabTool": {
-    "ToolName": "Configure Prefab"
+    "ToolName": "Konfigurasi Prefab"
   },
   "UEFN": {
     "LaunchDataLeaveMatchAndMatchmakeLinkCode": "Tinggalkan pertandingan dan mainkan {LinkCode}?",
@@ -12788,8 +12737,8 @@
     "OpenHLTv2ToCustomizableUIMigrator_ToolTip": "Buka HLTv2 ke Alat Migrator UI yang Bisa Dikustom untuk melakukan migrasi semua pengaturan HLTv2 ke kerangka kerja UI baru yang bisa dikustom."
   },
   "UICommands.JunoViewportToolsCommands": {
-    "BeginConfigurePrefabTool": "Configure Prefab",
-    "BeginConfigurePrefabTool_ToolTip": "Configure Prefab"
+    "BeginConfigurePrefabTool": "Konfigurasi Prefab",
+    "BeginConfigurePrefabTool_ToolTip": "Konfigurasi Prefab"
   },
   "UICommands.SpatialMetricsProfiler": {
     "OpenSpatialProfiler": "Buka Profiler Spasial",
@@ -12813,24 +12762,24 @@
     "MaxRejoinFail": "Tidak dapat bergabung kembali ke game. Upaya maks untuk bergabung kembali telah terlampaui."
   },
   "UJunoAssetListAssetFactory": {
-    "MenuEntry": "Asset List"
+    "MenuEntry": "Daftar Aset"
   },
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "Tabel data kodeks [baris {0}] tidak memiliki tag SubCategory yang valid.",
     "NeitherItemNorTag": "Tabel data kodeks [baris {0}] tidak memiliki definisi item maupun tag identitas. Harus memiliki setidaknya satu.",
-    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "NPCNoSpawnerDat": "Tabel data kodeks [baris {0}] sepertinya merupakan NPC ramah tetapi tidak memiliki set data Spawner AI.",
     "CategoryTagInvalid": "Tabel data kodeks [baris {0}], tidak memiliki tag Kategori yang valid.",
-    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "Tabel data Codex [{0}] mereferensikan item [{1}] yang tidak akan ada saat plugin paket dimuat di [{2}]. Hapus baris, atau perbarui versi rilis item agar sesuai."
   },
   "UJunoValidator_ContextualMessageConfig": {
     "TextInvalid": "Tabel data dialog [baris {0}] memiliki teks tidak valid di properti [{1}]:{2}\"{3}\""
   },
   "UJunoValidator_CraftingFormula": {
-    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime.",
+    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] berisi tag RequiredIngredients kosong!! Ini mungkin akan menyebabkan masalah saat runtime.",
     "DirectOutputsWithLootTierKey": "FCraftingFormula [{0}] memiliki ResultLootTierKey dan Output Langsung (entri ExtraData). Hapus entri ResultLootTierKey atau Output Langsung"
   },
   "UJunoValidator_GuidedBuildingActorValidator": {
-    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
+    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData dengan ActorName [{0}] punya resep kosong!!Ini mungkin akan menyebabkan masalah saat runtime."
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingDisplayActorDataEntry pada indeks [{0}] berisi resep kosong! Ini mungkin akan menyebabkan masalah saat pengoperasian."
@@ -12842,7 +12791,7 @@
     "ItemNewerThanLootTablePlugin": "Item [{0}] memiliki versi rilis [{1}] tapi dirujuk oleh tabel jarahan [{2}] yang plugin-nya diproses di [{3}]. Item tidak akan ada saat tabel jarahan ini berjalan. Hapus item dari tabel jarahan, atau perbarui versi rilis item agar sesuai dengan versi plugin."
   },
   "UJunoValidator_Journal": {
-    "RewardsInvalid": "Journal data table [row {0}] has a CompletionReaction type that grants a reward, but is set to GrantToWorld.  It must be GrantToParticipants to correctly grant to all players..",
+    "RewardsInvalid": "Tabel data jurnal [baris {0}] memiliki tipe CompletionReaction yang memberikan hadiah, tetapi diatur ke GrantToWorld.Harus GrantToParticipants untuk memberikan ke semua pemain dengan benar..",
     "TextInvalid": "Tabel data jurnal [baris {0}] memiliki teks tidak valid di properti [{1}]:{2}\"{3}\"",
     "PrereqQuestProgressNotification": "Tabel data jurnal [baris {0}], quest Indeks Prasyarat [{1}] bHideQuestProgressNotification harus aktif",
     "PrereqQuestStartingToast": "Tabel data jurnal [baris {0}], quest Indeks Prasyarat [{1}] bShouldDisplayStartingToast harus nonaktif",
@@ -12850,7 +12799,7 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}], AwesomeLevelIndex bukan indeks yang valid untuk UpgradeRequirements {2}.",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}] CampTagConfigKey tidak memetakan ke DataTable FJunoAwesomePoiConfigTableRow.",
     "PrereqTownbuilderInvalidNoValidALI": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}] tidak memiliki AwesomeLevelIndex yang valid.",
-    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
+    "PrereqTownbuilderInvalid": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}] tidak memiliki tag CampTagConfigKey yang valid.",
     "PrerequistitesInvalidNoValidPreReqType": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}] tidak memiliki Tipe Prasyarat yang valid.",
     "PrereqQuestInvalidNotNeededPFComponent": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}] memiliki komponen PersistenceFramework, ini tidak diperlukan.",
     "PrereqQuestInvalidQuestSoftPtr": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}] memiliki SoftPtr Quest yang tidak valid [{2}].",
@@ -12858,17 +12807,17 @@
     "PrereqQuestNull": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}] tidak memiliki QuestDef.",
     "PrereqTownbuilderInvalidRCButEmptyRL": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}] mereferensikan ResourceCost, tapi {2} memiliki ResourceList yang kosong.",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "Tabel data jurnal [baris {0}], Indeks Prasyarat [{1}], Tidak dapat menemukan UpgradeStep dengan UpgradeStepIdentifer {2} untuk UpgradeStages {3}.",
-    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
-    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
-    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "PrerequistitesInvalid": "Tabel data jurnal [baris {0}], tidak memiliki Prasyarat.",
+    "CategoryTagInvalid": "Tabel data jurnal [baris {0}], tidak memiliki tag Kategori yang valid.",
+    "CompletionReactionsInvalid": "Tabel data jurnal [baris {0}], diatur untuk ditampilkan via Indeks Reaksi Penyelesaian [{1}].",
     "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "Tabel data jurnal [baris {0}], diatur untuk mengungkapkan dirinya melalui NextTaskRowName, hapus centang RevealNextTaskOnComplete untuk membuka blokir dan berbicara dengan teknisi!",
     "CompletionReactionsInvalid_RowNotExist": "Tabel data jurnal [baris {0}], menampilkan [baris {1}] setelah penyelesaian, tetapi tidak ada.",
     "CompletionReactionsInvalid_AutoReveal": "Tabel data jurnal [baris {0}], menampilkan [baris {1}] setelah penyelesaian menggunakan AutoRevealCondition.  Ini tidak diizinkan, ConditionsForAutoRevealOrHide mengelola pengungkapan Tugas secara mandiri.",
-    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
-    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+    "NextTaskRowNameInvalid": "Tabel data jurnal [baris {0}] menggunakan RevealNextTaskOnComplete, tetapi NextTaskRowName {1} salah.  Silakan periksa kembali.",
+    "ValidateLoadedAsset": "Tabel data jurnal [{0}] Indeks Prasyarat {1} merujuk ke quest [{2}] yang tidak akan ada ketika plugin paket dimatangkan [{3}]. Hapus baris, atau perbarui versi rilis item agar sesuai."
   },
   "UJunoValidator_LootTables": {
-    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "LootPackage [{0}] merujuk pada item [{1}] yang tidak akan ada saat plugin paketnya selesai diproses di [{2}]. Hapus baris, atau perbarui versi rilis item agar sesuai."
   },
   "UK2Node_ModifyObject": {
     "NodeTitle": "Modifikasi Objek",

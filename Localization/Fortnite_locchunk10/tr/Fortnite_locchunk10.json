@@ -356,6 +356,7 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "Güçlü bir ikincil sıçrama saldırısına sahip bir kılıç.",
     "144AC202422D81D8ECA7FDADA0248752": "Yüksek isabetliliğe ve menzile sahip klasik bir tüfektir.",
     "174ADE3045B991036DAB808BA3802CDA": "Yüksek isabetliliğe ve menzile sahip klasik bir tüfektir.",
+    "A633A07540E67656A515748EC42D2BFA": "Yüksek isabetliliğe ve menzile sahip klasik bir tüfektir.",
     "5CA4C768442DACE154F650919AEBF7CC": "Tam gaz bir eğlence ve heyecan patlaması. Havadayken zıplayarak başlatabilirsin.",
     "62060089487721326B23BBA33709B481": "Tam gaz bir eğlence ve heyecan patlaması. Havadayken zıplayarak başlatabilirsin.",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "Tam gaz bir eğlence ve heyecan patlaması. Havadayken zıplayarak başlatabilirsin.",
@@ -422,10 +423,7 @@
     "F259347F4F2842296238EB82C300F898": "Herhangi Biri",
     "165B7E9748BBE879107084AD2F2A831F": "AlanEtkiliİyileştiren İyileştirici DestekEşyası ",
     "979E143F4DB80482F7115A92CA8BCD4A": "AlanEtkiliİyileştiren İyileştirici DestekEşyası ",
-    "A9FA7E534DAB697646EE6AB42C93C1D7": "Elma Yeşili",
     "A2C33D7A4650D1311D24238FC644F05A": "Sana ve yakınındaki takım arkadaşlarına <Emphasized>kalkan</> verir.",
-    "2C724915401F1A7787FFCB8FD290B616": "Su Mavisi",
-    "46C56F454E6F3673CEF647A6D72F3EDA": "Deniz Yeşili",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "Cephanelik Yuvası",
     "14FE8E964665F3F20099A0B16A9D68F7": "Külyutmaz",
     "F00BAD564EF2DC73C32CB18F94A85EAE": "Külyutmaz",
@@ -555,7 +553,6 @@
     "120BA8004C6678552C7377A6A5483152": "İşaret Tarzı",
     "851AC090485097B263B626A83A02C0FE": "Işın",
     "C1DC37B04598D140C5BD808AB61F9712": "Kardan Adam Ol",
-    "21BB6A4D48D2430058D509B4F3D02AA9": "Bej",
     "0A9381554E499FD10B15438EDCFD41B0": "Destekli Takla",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Çift Kanat",
     "5B5236944941BFD7DE82B8B05FE11D94": "Çift Kanat",
@@ -626,7 +623,6 @@
     "2AA0C53148468770E238D6825BF85BAC": "Kategori Yıldızları",
     "EE922BB945F58FB9604A58A2D82D680C": "Catwoman'ın Hızlı Atışlı Hafif Makineli Tüfeği",
     "AA86FAD842ADDE0E9D552E92F44CDD7C": "Catwoman'ın özelleştirilmiş Hızlı Atışlı Hafif Makineli Tüfeği. Cephane kapasitesini arttırmak için özenle üretildi.",
-    "D76CF3D846DE65E8BE51F39F748DAA43": "Deniz Mavisi",
     "EB4A9CD946CF1CAD986993958FEC99A7": "2. Bölüm: 5. Sezon ",
     "5D048A7F45BDC6C054F4528378401CD0": "2. Bölüm: 7. Sezon",
     "02BD54134B723F96AC01628F3924C431": "2. Bölüm: 8. Sezon",
@@ -929,7 +925,6 @@
     "7D608A2348789E08EF3A60ABB1E09742": "Dost Takım",
     "2FB297854AA101161395379E33167490": "Ölümün Kıyısında",
     "2277279745E5A2A74BC60299806407F0": "Donuk",
-    "E37268214ECAE0FDB58EF1A6BD1E9A81": "Fuşya",
     "1D2EEEBF4370BF8C411B08B64DCE4F2E": "Tam Takla",
     "F6260A434A2F549B51B59F842C778EA8": "Tam Düz İniş",
     "CA598A9647DDFFF9012FFE88BAC6D842": "Tam G Dönüşü",
@@ -975,7 +970,6 @@
     "87E39EA04808B27EA30A908F811EF0FA": "Planörler",
     "3C063B974F09C8A673507CBE3ADDB71D": "Savaşa tek başına gir ve hayatta kalan son kişi ol.",
     "8BEC89B8499664826B111685672B4E29": "Savaşa tek başına gir ve hayatta kalan son kişi ol.",
-    "B8C59B304999B1F6964D1696FAB0E456": "Altın",
     "F92ED6D24B56EACA844D27A473619CF5": "Altın",
     "3636D06A4ADE66F6A3C73D9AAB04186F": "Oyun İçi Altın Para Birimi",
     "7B0936A2458A998274ED3484DE00BCDA": "Altın Trüf",
@@ -994,7 +988,6 @@
     "2BAF9D994E20140BCD7F59A7CAC81BA3": "Müthiş Burun Aşağı Takla",
     "A4341A0045390C670F4757948E6E3CE5": "Müthiş Tsunami",
     "F0737F4E40417749A441A59843B932F0": "Müthiş Hareket",
-    "0B5C62D0400E95930AEE12B1D2116EE2": "Yeşil",
     "5D14C5F74CA277758C0476AA504D7CEA": "Yeraltı Odası",
     "331DB866438F7C72234C5B8338CC44A0": "Ekibini kur ve zaferi kazanmaya çalışan diğer ekiplerden daha uzun süre hayatta kal.",
     "99E9D5F34DC01FC6B8774DB154EAC42E": "Silahlar Taarruz Tüfekleri MakineliTüfek HafifMermi Otomatik",
@@ -1042,7 +1035,6 @@
     "2EAFA04B4FCA57C7AF24E29E7C4450D7": "Ağır Keskin Nişancı Tüfeği +",
     "A935E8954E7200704C91A0A3A85B8C71": "<Emphasized>Anında yeniden dolma</> ihtimali olan ağır keskin nişancı tüfeği.",
     "56AA82F146826F523FA9119C01362035": "Yükseklik",
-    "0B86EC9C474C4633272C9787A10B7795": "Tutulan Eşya",
     "465E0326425E1043865BEB8E4C811AE3": "Tutulan Eşya",
     "6C0951C64B0DA937087B0284224F92F4": "Tutulan Eşya",
     "6EF1E84B40FA9D7CD51697ABF897FE4A": "Tutulan Eşya",
@@ -1090,6 +1082,7 @@
     "3B23812B4104C655B1751DAB80ED2993": "İddialı G Dönüşü",
     "118BD9B247A79B6E7AB2189A409B7EFA": "İddialı Ters Takla",
     "55F09A7841788A6D5EABF7AE7C720557": "Piyade Tüfeği",
+    "C115B50C4700A573DC237EAC7C92E21B": "Piyade Tüfeği",
     "F1638A45469F392DAF5444BE0A097644": "Piyade Tüfeği",
     "F317A4514DE5AEE182F39DA192E355AD": "Piyade Tüfeği",
     "1D7BBE454E1553569F9589A7E633F06D": "Sonsuz",
@@ -1236,7 +1229,6 @@
     "/Fortnite.com/Devices/NPCSpawner/npc_behavior_template_message_module/OnEndMessage": "Karakter Aracı = {Agent}: Bitişte tetiklendi, hadi temizleyelim.",
     "0DD368AE4439FC99C95A4595D62837AC": "Doğuştan İnşaatçı Görevleri",
     "688E65C943BC171D5807FE974D7E59A9": "Ebedi Ned Görevleri",
-    "B80ED9CD455EDCE5BB4214A10A82B828": "Neon Yeşil",
     "NetworkConnectionLost": "Ağ Bağlantısı Kesildi",
     "44067A6E421888DD39877E82D6DABB58": "Tarafsız Simgesi Metni",
     "AB88B4554EDBE594A34706AED40BB6C4": "Asla",
@@ -1358,7 +1350,6 @@
     "19A0DCA742B5AC4CB1D227AEE0A19601": "Sadece Seçilenler",
     "B95E8C564EE3D7A237E5DEB35283797C": "Sadece Gerektiğinde",
     "BAC5E80D44DA978242043B9497A8E286": "Avladığın rakipler yakındaki diğer rakipleri <Emphasized>ele verir</>.",
-    "95FD548C4AFFA37C807335BD7AF1AB6A": "Turuncu",
     "658517F44C1678AB75F76FB69BD46F60": "Turuncu Boya Fırlatıcı  ",
     "516CA75D4CF5403A2F82BF838CD51DB7": "Out Dated Modules and Parenting",
     "6EB89D324C5E00500994CD96A83D5A72": "Out Dated Modules and Parenting",
@@ -1385,7 +1376,6 @@
     "B3CFEDE943AA56C0AEE82CA08F806463": "Al",
     "7240B5BC46A81D296CBCA080DF98ECB7": "Kazmalı Koşu",
     "91F4A2794D81253C6E03C7A0B78CC383": "Yangın Söndürme Tüpünü Al",
-    "F75FBF44462332D5DFE17691FCD37DFF": "Pembe",
     "2C211AA048AE4A1A5D9423B297E1023D": "Korsan Topu",
     "BB93B4574E7A8EF0105C4DAADCA4D5F8": "Korsan Topu",
     "CFBFEBC248741ED6E0FCC88CC754A22E": "Korsan Topu",
@@ -1438,7 +1428,6 @@
     "85A2E3C041A433B1B8D87C914FAFCC13": "Kart Tamamlama Jetonu",
     "8FDD93294EE611E28D499E8504C6C314": "Kart Görev Tamamlama Jetonu",
     "B06F5AB34BA2C7C48F6D2982E60EC524": "Kart Görev Tamamlama Jetonu",
-    "A4A746BE47363A8193CEE4BC9E663930": "Mor",
     "A1D607174B6E2B132A79E0A3242425BE": "Mor Boya Fırlatıcı  ",
     "02D599B84C45A32A6BAB92925A070A51": "İt (Dokun)/Kay (Basılı Tut)",
     "25171EA942DC385DE7E5798BBB4969A1": "Yere Koy",
@@ -1459,7 +1448,6 @@
     "B1CFA5584EBD1878822A699ECEB629A6": "Nadir Sandık",
     "101BBD144878EB1AA8CCD292737797AE": "Keşif Tarayıcı",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Acemi Er",
-    "1C77EAFB46C48299170B7486AEFB6294": "Kırmızı Turuncu",
     "7125E4704BEA318C6BD3D69B5893D080": "İşlenmiş üretim malzemesi. Diğer malzemelerle üretilebilir ve sandıklarda yaygın olarak bulunur.",
     "16DA40C14B2BC801935504956E31A9C9": "Yüzerken <Emphasized>canın</> yenilenir.",
     "D956F3B24B85A136EDFF7681AD74FB8C": "Can-avar",
@@ -1590,10 +1578,8 @@
     "029C79824756DFCA21B1AB85821FF31C": "Haberleri Göster",
     "2496EF09404F18FFE2EA0AB9BA7CFA8F": "Ekran Dışı Okunu Göster",
     "D2AA34D248C42439671352909952AF0C": "Yeni haber olduğunda haberler ekranını gösterir",
-    "D5A97BEC41D14A772F78AD85787561D5": "Gümüş",
     "37EA8D3C4FCA282792A19089FF9D264F": "<Emphasized>Uzun menzilli</> dürbünü olan tek atışlı keskin nişancı tüfeği.",
     "9A6F1EDF4BBD286B035BA49BDF31635E": "Kurukafalı Görev Jetonu",
-    "89373C3241ED5AC276FBA08F64FC6020": "Gök Mavisi",
     "C3F806054CE1F1D1A8FFFC9F8DF839BC": "Yavaş",
     "252EFAEE4A3593A47968A9B628C86826": "Yavaş ateş eden <Emphasized>güçlü bir tabanca.</>",
     "F415822746674FEAC04DCB8D1D0EC153": "Sis Bulutu Parçacığı",
@@ -1976,7 +1962,6 @@
     "A8CDADF8471D9C4CFEBFF598C94692E3": "Bir araç parçalandığında bu bekleme süresinin ardından yeniden çıkar (ilk defa çıkan araç bu bekleme süresinden etkilenmez).",
     "0D756F6B4F770EF0A8F90CAC0113EB78": "Nereye Atlıyoruz Tabancası",
     "E710C08E4E5C70FF8A286CB6EA101B4F": "Işığın, gösterge paneli öğesinin veya ikisinin de görünürlüğünü ayarlar.",
-    "D3A54EAE40408580269CF39BCCA37888": "Beyaz",
     "195F2EE048C26E190C845691145D6CF6": "Genişlik",
     "9BD108A54CA8FA397E1DBD95E37958BB": "Kış Festivali'ni Tamamlama Jetonu",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "Kış Festivali Anahtarı",
@@ -2139,23 +2124,35 @@
     "MergeSquadsText": "Ekipleri birleştir",
     "SquadsTooBigToMerge": "Ekipler birleşmek için fazla büyük."
   },
+  "AnimInEdTools": {
+    "SourceLink_NotASequence": "\"{0}\", bir bölüm sekansı olarak yüklenemedi.",
+    "SourceLink_NoItem": "\"{0}\" bu animasyona geri yönlendiren bir bağlantı kaydetmiyor.",
+    "SourceLink_OpenRange": "\"{0}\" oynatma aralığı sınırsız, bu yüzden dışa aktarılan aralık belirlenemiyor.",
+    "SourceLink_NoTrack": "\"{0}\" içinde, bu animasyonun alındığı bağlama için bir Control Rig parçası yok.",
+    "SourceLink_BadRate": "\"{0}\" geçerli olmayan bir kare hızında özel bir dışa aktarma aralığı kaydediyor.",
+    "SourceLink_NoAnim": "Herhangi bir animasyon açık değil.",
+    "SourceLink_Missing": "Bağlantılı bölüm sekansı \"{0}\" eksik.",
+    "SourceLink_NoLink": "Bu animasyon bir bölüm sekansına bağlı olmadığından okunacak bir kaynak anahtar kare zamanlaması yok."
+  },
   "AnimInEdToolsModule": {
     "AnimToCRImportTabLabel": "Animasyon → Control Rig",
     "AnimToCRImportTabTooltip": "Önizlenen animasyonu (poz, aralık veya tüm klip), açık Bölüm Sekansı'ndaki Control Rig için içe aktarır."
   },
   "AnimToCRImport": {
-    "Clear": "Temizle",
+    "ImportKeyTimings": "Kaynak Anahtar Zamanlamalarını Uygula",
+    "ClearInOutTip": "Girdi/Çıktı temizle",
     "CurFrame": "Mevcut Kare",
-    "DelStatic": "Statik Kanalları Sil",
-    "RangeHdr": "Kare Aralığı",
     "ImportPose": "Pozu İçe Aktar",
     "ImportRange": "Aralığı İçe Aktar",
-    "OnlyStatic": "Yalnızca Statik Kanalları Küçült",
-    "OptionsHdr": "Seçenekler",
-    "SelOnly": "Sadece seçili kontroller",
+    "KeyTimingsTip": "Her karede bir anahtar yerleştirmek yerine, yalnızca kaynak bölüm sekansının temel katmanında anahtar bulunan konumlardaki anahtarları sakla. Değerler hâlâ bu animasyondan gelir. Anahtarları Azalt ayarının yerini alır.",
+    "NoLoadSettings": "Yükleme animasyonu ayarları kullanılamıyor (LoadAnimToControlRigSettings bulunamadı).",
+    "SimpleViewTip": "Animasyon düzenleyiciyi görünüme, zaman çizelgesine, bu araca ve öğe tarayıcısına geri eşleştir.Kapatıldığında, açık olan sekmeler geri getirilir.",
+    "RestoreLayoutTip": "Basit Görünüm'e son girildiğinde açık olan sekmeleri yeniden aç.Basit Görünüm en az bir kez kullanıldıktan sonra kullanılabilir.",
+    "RestoreLayout": "Düzeni Eski Haline Getir",
     "SetIn": "İçeride Tut",
     "SetOut": "Dışarıda Bırak",
-    "SmartReduce": "Akıllı Küçültme"
+    "SimpleView": "Basit Görünüm",
+    "SourceLabel": "Kaynak: {0} {1}-{2} kare"
   },
   "AntiCheat": {
     "ClientErrorMessage": "{provider} hatası: {message}\n\nDaha fazla bilgi için lütfen {provider} SSS belgesine bak."
@@ -2189,7 +2186,7 @@
   },
   "AssetTypeActions": {
     "AIActionSequence": "Yapay Zekâ Eylem Sekansı",
-    "UJunoAssetListAssetFactory": "Asset List"
+    "UJunoAssetListAssetFactory": "Öğe Listesi"
   },
   "Athena": {
     "NPCHiredIndication": " (Takipçi)",
@@ -3033,7 +3030,7 @@
   },
   "Contexts": {
     "HLTv2ToCustomizableUI": "HLTv2ToCustomizableUI Eklentisi",
-    "JunoViewportToolsCommands": "Juno Tools",
+    "JunoViewportToolsCommands": "Juno Araçları",
     "SpatialMetricProfiler": "Uzamsal Profil Oluşturucu",
     "WeaponModernizationEditorCommands": "Silah Modernleştirme Aracı"
   },
@@ -3865,7 +3862,7 @@
   "FJunoViewportToolsModule": {
     "SectionName": "Juno",
     "ExtensionName": "JunoTools",
-    "ConfigurePrefabTool": "Prefab"
+    "ConfigurePrefabTool": "Hazır yapı"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "{amount} adet {resourcetype} yerleştir",
@@ -5189,6 +5186,20 @@
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "Özel"
   },
+  "FortEpicParty": {
+    "AccountResolution": "Dahili Hata",
+    "ExistingInviteMissing": "Dahili Hata",
+    "FrameworkUnavailable": "Dahili Hata",
+    "JoinRetryAbandoned": "Dahili Hata",
+    "JoinableInfoMissing": "Dahili Hata",
+    "RetryAccountResolution": "Dahili Hata",
+    "RetryFrameworkUnavailable": "Dahili Hata",
+    "RetryJoinableInfoMissing": "Dahili Hata",
+    "RetryPartyPrivate": "Dahili Hata",
+    "RetrySameParty": "Dahili Hata",
+    "TargetNotFriend": "Dahili Hata",
+    "TargetNotJoinable": "Dahili Hata"
+  },
   "FortErrorOverrides": {
     "IoStoreHttpError": "Altyapı hizmetlerimizle iletişim kurmaya çalışırken bir hata oluştu. Ağ bağlantını kontrol et ve birazdan tekrar dene. {ModuleIdString}.{ErrorCodeString}"
   },
@@ -5232,6 +5243,9 @@
   },
   "FortGameMode": {
     "FailedToStartMatchTimeout": "Sunucu zamanında başlatılamadı."
+  },
+  "FortGameStateHestiaBeauty": {
+    "SittingOutPlayersToJumpInNotAllowed": "Grubun oturumuna katılınamıyor."
   },
   "FortGameStateOutpost": {
     "LimitThresholdReached": "Uyarı: Yerleştirilebilecek {0} yapı kaldı."
@@ -5451,10 +5465,8 @@
     "StorageItemDescription_BR": "Battle Royale, Sıfır İnşa ve Yeniden için gereklidir.",
     "StorageItemDescription_Sparks": "Fortnite Festival için gereklidir.",
     "StorageItemDescription_Juno": "LEGO® Fortnite için gereklidir.",
-    "StorageItemDescription_DelMar": "Rocket Racing ve oyuncular tarafından yapılan Rocket Racing haritaları için gereklidir.",
     "StorageItemDescription_Core": "Tüm deneyimler için gerekli içerik.",
-    "StorageItemDescription_Creative": "İçerik üreticisi adaları [ve Vahşi] modunu oynamak ve düzenlemek için gerekir.",
-    "StorageItemTitle_DelMar": "Roket Gücüyle Donatılmış İçerik"
+    "StorageItemDescription_Creative": "İçerik üreticisi adaları [ve Vahşi] modunu oynamak ve düzenlemek için gerekir."
   },
   "FortLinkedGraphGate": {
     "LinkedGraphTagInvalid": "@@ - Bağlı grafiğin geçerli hiçbir etiketi bulunmuyor",
@@ -6825,6 +6837,7 @@
     "TweakZoneCollection_Name": "Oyun Kumandası Değiştirme Alanı",
     "TelekineticonToggleActivation_Description": "Telekinetikon'un nasıl etkinleştirildiğini belirler.\n\nTetiği Basılı Tut - Nesneleri almak için tetiği basılı tut ve nesneleri bırakmak için tetiği bırak.\nAç/Kapa - Nesneleri almak ve bırakmak için bas.",
     "SocialPrivacy_MutualFriends_Description": "Ortak arkadaşlarının diğer oyunculara görünürlüğünü ayarlar.\n\n<strong>ÖZEL</>: Kimse ortak arkadaşlarını göremez.\n\n<strong>SADECE ARKADAŞLAR</>: Sadece arkadaşların ortak arkadaşlarını görebilir.\n\n<strong>HERKESE AÇIK</>: Herkes ortak arkadaşlarını görebilir.",
+    "StrictInjectionPolicy_Description": "Hangi programların Fortnite ile etkileşime geçebileceğini denetler.\n\nEtkinleştirildiğinde, güvenliği arttırmak için diğer programların ve bunların katmanlarının Fortnite'a erişmesi engellenir. Bu ayarlar bazı rekabetçi etkinliklerde gerekli olabilir.",
     "GyroOffsetBuild_Description": "Yapı inşa ederken veya düzenlerken nişan alma girdisinin kamerayı döndürmeden önce nişangâhı hareket ettirip ettirmeyeceğini belirler.",
     "MouseOffsetBuild_Description": "Yapı inşa ederken veya düzenlerken nişan alma girdisinin kamerayı döndürmeden önce nişangâhı hareket ettirip ettirmeyeceğini belirler.",
     "TouchOffsetBuild_Description": "Yapı inşa ederken veya düzenlerken nişan alma girdisinin kamerayı döndürmeden önce nişangâhı hareket ettirip ettirmeyeceğini belirler.",
@@ -6939,6 +6952,7 @@
     "GyroButtonEnable": "Jiroskopu Etkinleştir",
     "EnergySavingIdle_Name": "Beklemedeyken Enerji Tasarrufunu Etkinleştir (Önyüz)",
     "EnergySavingFocusLoss_Name": "Etkin Olmayan Pencerede Enerji Tasarrufunu Etkinleştir",
+    "VoiceChatUseNoiseReduction_Name": "Gürültü Azaltmayı Etkinleştir",
     "HeadphoneMode_Description": "İki kulaklı mekânsallaştırma özelliğini etkinleştir. 3D ses mekânsallaştırması sağlar. Böylece seslerin nereden geldiğini daha net bir şekilde duyabileceksin. Buna üstün, altın ve arkan da dahil. Sadece stereo kulaklıklarla kullanmanı tavsiye ederiz.",
     "QuickWeaponToggle_Description_Switch": "Deneysel Hızlı Silah eylemini etkinleştir. Etkinleştirildiğinde Hızlı Silah, Sıradaki Silah düğmesinin yerine geçer.\n\nBirincil eşyanı kuşanmak için Hızlı Silah düğmesine bas. Hızlı Silah düğmesini basılı tutarken A/B/X/Y düğmelerinden birine basmak, diğer eşya yuvalarındaki eşyalardan birine geçmeyi sağlar. Hızlı Silah düğmesine basıp A/B/X/Y düğmelerine aynı anda basarak anında o düğmeye atalı eşyaya geçiş yapabilirsin veya Hızlı Silah düğmesini istediğin kadar basılı tutarak A/B/X/Y düğmelerinin çantandaki eşyalarla nasıl eşleştiğine alışabilirsin.\n\nBu etkinken Önceki Silah düğmesi, ekibinle daha iyi iletişime geçebilmeni sağlamak için İşaret Koy düğmesiyle değişir. Ya da Oyun Kumandası sekmesinden kontrolleri özelleştirerek Önceki Silah düğmesini istediğin eylemle değiştirebilirsin.",
     "QuickWeaponToggle_Description_Switch2": "Deneysel Hızlı Silah eylemini etkinleştir. Etkinleştirildiğinde Hızlı Silah, Sıradaki Silah düğmesinin yerine geçer.\n\nBirincil eşyanı kuşanmak için Hızlı Silah düğmesine bas. Hızlı Silah düğmesini basılı tutarken A/B/X/Y düğmelerinden birine basmak, diğer eşya yuvalarındaki eşyalardan birine geçmeyi sağlar. Hızlı Silah düğmesine basıp A/B/X/Y düğmelerine aynı anda basarak anında o düğmeye atalı eşyaya geçiş yapabilirsin veya Hızlı Silah düğmesini istediğin kadar basılı tutarak A/B/X/Y düğmelerinin çantandaki eşyalarla nasıl eşleştiğine alışabilirsin.\n\nBu etkinken Önceki Silah düğmesi, ekibinle daha iyi iletişime geçebilmeni sağlamak için İşaret Koy düğmesiyle değişir. Ya da Oyun Kumandası sekmesinden kontrolleri özelleştirerek Önceki Silah düğmesini istediğin eylemle değiştirebilirsin.",
@@ -7613,6 +7627,7 @@
     "WindingSpeedScaledByZoom_Description_Switch": "Ne kadar yakınlaştırma yapıldığına bağlı olarak ani dönüş çubuğunun dönüş hızını otomatik olarak azaltır. Bu, mesela keskin nişancılık yaparken araziyi sürekli olarak gözlemlemeye yardımcı olabilir. Çubuk ilk kullanıldığında dönüşün kendisi etkilenmez.",
     "WindingSpeedScaledByZoom_Description": "Ne kadar yakınlaştırma yapıldığına bağlı olarak ani dönüş çubuğunun dönüş hızını otomatik olarak azaltır. Bu, mesela keskin nişancılık yaparken araziyi sürekli olarak gözlemlemeye yardımcı olabilir. Çubuk ilk kullanıldığında dönüşün kendisi etkilenmez.",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "Ne kadar yakınlaştırma yapıldığına bağlı olarak ani dönüş çubuğunun dönüş hızını otomatik olarak azaltır. Bu, mesela keskin nişancılık yaparken araziyi sürekli olarak gözlemlemeye yardımcı olabilir. Çubuk ilk kullanıldığında dönüşün kendisi etkilenmez.",
+    "VoiceChatUseNoiseReduction_Description": "Mikrofonundaki fan, yazma veya oda yankısı gibi arka plan gürültülerini azaltır. Diğer oyuncular sesinin bozuk, robotik veya kesintili geldiğini söylüyorsa bunu kapat.",
     "ReducedDataUsage_Description": "Otomatik olarak indirilen veri miktarını azaltır. \n\nMobil bağlantının veya internet tarifenin veri sınırı bulunuyorsa ve bu sınırı aşma riskine sahipsen faydalı olabilir.",
     "GyroSensitivityScaledByZoom_Description": "Nişan alırken ne kadar yakınlaştırdığına bağlı olarak hedefleme hassasiyetini otomatik olarak azaltır. Bu, uzun menzilli silahlarla hedeflemeni sabitleştirmene yardımcı olabilir.",
     "Reflections_Description": "Yansıma kalitesi, yansımaların çözünürlüğünü ve doğruluğunu belirler.\n\n\"Yüksek Lumen\" ve \"Destansı Lumen\" daha yüksek kalitededir ancak performansı düşürebilir.\n\nKapalı: Yansımalar kapanır.\n\nEkran Alanı: Yalnızca o anda ekranda gösterilene bağlı olarak yansımaları hesaplar.\n\nYüksek/Destansı Lumen: Yüksek kaliteli, gerçek zamanlı ve ışın izlemeli yansımalar.",
@@ -7832,6 +7847,7 @@
     "StopRenderingInBackground_Name": "Arka Plandayken Görselleştirme Yapmayı Durdur",
     "StopRenderingInBackground_Description": "Mümkün olduğunda oyun penceresi ekran odağında değilken görselleştirmeyi durdurur. Diğer uygulamaların daha rahat kullanılabilmesi için ekran kartındaki yükü azaltır.",
     "KeyboardMovementStrafeDiagonal_Name": "Yanlara Koşma Açısı",
+    "StrictInjectionPolicy_Name": "Katı Ekleme Politikası",
     "MatchmakingSubregion_Name": "Alt Bölge Tercihi",
     "SubtitlePage_Name": "Altyazı",
     "SubtitlesCollection_Name": "Altyazı",
@@ -8005,7 +8021,7 @@
     "InvertPitchForAircraftPrimary_Description": "Hava araçlarının yönlendirmelerinin ters çevrilmesini açar/kapatır. Açık olduğunda ileri hareketler hava aracının yönünü aşağı çevirir.",
     "InvertPitchForAircraftSecondary_Description": "Hava araçlarının yönlendirmelerinin ters çevrilmesini açar/kapatır. Açık olduğunda, fareyi ileri itmek hava aracının yönünü aşağı çevirir.",
     "InvertPitchForAircraftTouch_Description": "Hava araçlarının dokunmatik yönlendirmelerinin ters çevrilmesini açar/kapatır. Açık olduğunda dokunmatik kontrolleri ileri itmek hava aracının yönünü aşağı çevirir.",
-    "AutoPickUpEnabled_Description": "Eşyaları otomatik toplamayı açar/kapatır. Açık olduğunda, eşyaların üzerinden geçtiğinde eşyalar otomatik olarak toplanır.",
+    "AutoPickUpEnabled_Description": "Eşyaları otomatik toplamayı açar veya kapatır. Açık olduğunda, üzerlerinden geçerken eşyalar otomatik olarak toplanır ve uygun olduğunda mevcut eşyalar daha iyi eşyalarla değiştirilir.",
     "AutoSortConsumablesToHigherSlots_Description": "Tek kullanımlık eşyaları otomatik olarak daha yüksek numaralı yuvalara sıralama özelliğini açar/kapatır. Açıkken, can ve kalkan gibi eşyalar yerden alındığında otomatik olarak boş yuvalardan en yüksek numaralı olanlara konulur.",
     "AutoSortConsumablesToRight_Description": "Tek kullanımlık eşyaları otomatik olarak sağa alma özelliğini açar/kapatır. Açıkken, can ve kalkan gibi eşyalar yerden alındığında otomatik olarak boş yuvalardan en sağdakine konulur.",
     "GamepadAutoRun_Description_PS4": "Kontrol cihazının otomatik koşu ayarını açar/kapatır. Açık olduğu zaman L3 düğmesine iki kez basmak, sol çubuğu ileri itmene gerek kalmadan otomatik olarak ileri koşmanı sağlar.",
@@ -8499,6 +8515,7 @@
     "ErrorSendingMessage": "Mesaj gönderilirken hata oluştu:{0}",
     "HiddenPlayerSays": "Gizli oyuncu şöyle diyor: ",
     "BlockedPlayerMessage": "Mesaj Gizli",
+    "FilteringUnavailableMessage": "Metin filtreleme başarısız olduğu için mesaj kullanılabilir değil.",
     "TextChatDisabledByPlasterBeach": "HENÜZ BELİRLENMEDİ",
     "TextChatDisabledByTournamentMode": "Bu istemci turnuva modunda olduğu için yazılı sohbet devre dışı bırakıldı.",
     "TextChatEnabled": "Yazılı sohbet etkinleştirildi.",
@@ -8511,6 +8528,7 @@
     "WelcomeDelMar": "Rocket Racing'e hoş geldin! Yarışçı dostlarınla sohbet et!",
     "WelcomeSparks": "Ana Sahne'ye hoş geldin! Ne çalacağınıza karar verirken grup üyelerinle sohbet et.",
     "WelcomeJuno": "{0} dünyasına hoş geldin! Burada neler planladığını herkesle paylaş!",
+    "VerseSubChannelSendBlockedMessage": "Bu kanalda mesaj gönderemezsin.",
     "TextChatDisabledByUser": "Yazılı sohbet ayarların devre dışı.",
     "YouJoinedGameMessage": "Oyun kanalına katıldın.",
     "YouJoinedPartyMessage": "Gruba katıldın.",
@@ -8756,6 +8774,25 @@
     "SettingSaveFailed_Title": "Ayarlar kaydedilemedi",
     "SettingSaveFailed_Description": "Görünüşe göre ebeveyn kontrolleri hizmeti bir sorunla karşılaştı. Birkaç dakika içinde yeniden dene. Sorun devam ederse lütfen https://status.epicgames.com/?lang=tr adresini ziyaret et."
   },
+  "FortSystemConfigRequirements": {
+    "IOMMU": "IOMMU Donanım Sanallaştırma",
+    "DmaRemapping": "Çekirdek DMA Koruması",
+    "KernelCodeIntegrity": "Bellek Bütünlüğü",
+    "InvalidConfigReason": "Gerekli sistem güvenliği yapılandırması mevcut değil. Lütfen daha sonra tekrar dene.",
+    "SecureBoot": "Güvenli Başlatma",
+    "StableOSVersion": "Stabil İşletim Sistemi Sürümü",
+    "StrictInjectionPolicy": "Katı Ekleme Politikası",
+    "InvalidConfig": "Sistem güvenliği yapılandırması",
+    "CryptoProcessor": "Güvenilir Platform Modülü (TPM)"
+  },
+  "FortSystemConfigRequirementsModalVM": {
+    "DialogTitle": "Ek Güvenlik Gereksinimleri",
+    "Enabled": "Etkin",
+    "EnabledWithWarning": "Uyarı ile etkin",
+    "NotEnabled": "Etkin değil",
+    "UnknownStatus": "Durum kullanılamıyor",
+    "DialogIntroduction": "Sistemin, oynamak için gerekli ek güvenlik gereksinimlerini karşılamıyor. Easy Anti-Cheat Desteği'ni ziyaret etmek için Daha Fazla Bilgi'yi seç."
+  },
   "FortTabListWidgetBase": {
     "UnspecifiedTab": "Belirtilmemiş"
   },
@@ -8775,7 +8812,9 @@
   },
   "FortTextChatConversationVM": {
     "PartyFrameworkUnavailable": "Grup yapısı kullanılamıyor",
-    "SocialToolkitUnavailable": "Sosyal araç kiti kullanılamıyor"
+    "SocialToolkitUnavailable": "Sosyal araç kiti kullanılamıyor",
+    "InvalidJoinPartyConversation": "Sohbet kullanılamadığı için gruba katılınamadı.",
+    "InvalidStartPartyConversation": "Sohbet devre dışı olduğu için bir grup oluşturulamıyor."
   },
   "FortTextChatPlayerVM": {
     "RedactedUserBlocked": "<Blocked player>",
@@ -8783,10 +8822,14 @@
     "MessageDelayedFont": "<Message delayed, until we can load a new font>",
     "ConversationsDest": "Sohbetler",
     "TempTitle": "İsim yükleniyor...",
+    "VerseSubChannelDefaultName": "Oynanış",
     "NewChatOption": "Yeni Sohbet",
+    "VerseSubChannelChanged": "{0} Sohbet Odasındasın",
     "ClamOneMessage": "Unutma, ... butonu ile veya saha sonra sohbetten mesajlarını seçerek oyuncuları susturabilir veya engelleyebilirsin.",
     "SendDM": "ÖZEL MESAJ GÖNDER",
-    "DMWelcomeMessage": "{0} ile özel mesajlarına hoş geldin!"
+    "DMWelcomeMessage": "{0} ile özel mesajlarına hoş geldin!",
+    "VerseSubChannelMuted": "Şu anda {0} içinde yazamazsın",
+    "VerseChatSenderNameFormat": "[{0}] {1}"
   },
   "FortTournamentLobbyPanel": {
     "NoMatchTimeDescription": "Son Maç Başladı",
@@ -8893,7 +8936,6 @@
     "EpicPartyGroupInviteDetailsSent": "<Username>{0}</> adlı oyuncuya grup daveti gönderildi.",
     "EpicPartyInviteDetailsSent": "<Username>{0}</> adlı oyuncuya grup daveti gönderildi.",
     "PartyInviteDetailsSent": "<Username>{0}</> adlı oyuncuya grup daveti gönderildi.",
-    "EpicPartyJoinabilityChangedInviteOnlyDetails": "Grup yalnızca davet edilenlere açık",
     "EpicPartyJoinRequestReceived_Title": "Gruba katılma isteği",
     "EpicPartyMemberCreated": "Oyuncu gruba katıldı",
     "PartyMemberCreated": "Oyuncu gruba katıldı",
@@ -8918,6 +8960,7 @@
     "RequestToJoinParty_RateLimited": "Çok fazla istek gönderdin. Daha sonra tekrar dene.",
     "FriendToastSelfTooManyFriends": "Çok fazla arkadaşın var.",
     "FriendToastSelfOutboxFull": "Onaylanmamış çok fazla arkadaşlık isteğin var.",
+    "EpicPartyJoinabilityChangedInviteOnlyDetails": "Grubun artık yalnızca davet edilenlere açık",
     "EpicPartyJoinabilityChangedOpenDetails": "Grubuna artık katılınabilir",
     "NotifMgrForkMemberNoAccessToast": "{Username}, seçilen çatala erişemiyor. Devam edersen çatal yok sayılacak"
   },
@@ -8938,7 +8981,7 @@
     "NoInternetDesc": "Lütfen bağlantını kontrol et ve tekrar dene",
     "QuitText": "Çık",
     "Benchmark": "Karşılaştırma testi yapılıyor...",
-    "ServicesSlow": "Sunucular yanıt vermiyor",
+    "ServicesSlow": "Sunucular şu anda kullanılamıyor. Daha sonra tekrar kontrol et.",
     "RHIChangeSettingsApplied_Title": "Ayarlar uygulandı",
     "LogoutComplete": "Oturum başarıyla kapatıldı.",
     "OfferRHIChangeForStability_FullDescription": "Bilgisayarında kurulu olan grafik sürücüsünün mevcut görüntü oluşturma moduyla (DirectX 12) kararlılık sorunları yaşadığı biliniyor ve bu sebeple Fortnite çökme sorunları yaşayabilir. Daha kararlı bir deneyim için {NewRHI} kullanmak ister misin? {OptionalAutoRestartText}",
@@ -9722,8 +9765,17 @@
     "ProgressFormat": "{1}eklentiden {0} taşınıyor.",
     "PhasePrimaryModule": "Birincil oyun modülü taşınıyor...",
     "PhaseComplete": "Taşıma tamamlandı.",
+    "MigrationFailed": "{0} hatasıyla taşıma başarısız oldu:\n\nİlerleme hata noktasında korunmuştur.",
     "PhaseFailed": "Taşıma başarısız oldu: {0}",
-    "ProgressReady": "Taşımaya hazır"
+    "NoFortMobileHUDElementWrapperClassProvided": "Taşıma işlemi için hiçbir Fortnite Gösterge Paneli Öğesi Sarmalayıcısı sınıfı sağlanmadı. Lütfen bunu, Proje Ayarları sekmesindeki HLTv2'den Özelleştirilebilir Kullanıcı Arayüzüne taşıma ayarlarına gir.",
+    "NoBaseHLTRegistryProvided": "Taşıma işlemi için temel Gösterge Paneli Düzen Aracı Mobil Gösterge Paneli Aracı Kaydı sağlanmadı. Lütfen bunu, Proje Ayarları sekmesindeki HLTv2'den Özelleştirilebilir Kullanıcı Arayüzüne taşıma ayarlarına gir.",
+    "NoBaseMoveStickCanvasClassProvided": "Taşıma için temel hareket çubuğu tuval sınıfı sağlanmadı. Lütfen bunu, Proje Ayarları sekmesindeki HLTv2'den Özelleştirilebilir Kullanıcı Arayüzüne taşıma ayarlarına gir.",
+    "NoMigrationConfigProvided": "Taşıma için yapılandırma dosyası belirtilmedi. Lütfen bunu, Proje Ayarları sekmesindeki HLTv2'den Özelleştirilebilir Kullanıcı Arayüzüne taşıma ayarlarına gir.",
+    "NoExcludeConditionProvided": "Geçiş işleminde dinamik kullanıcı arayüzü hariç tutma koşulu sağlanmadı. Lütfen bunu, Proje Ayarları sekmesindeki HLTv2'den Özelleştirilebilir Kullanıcı Arayüzüne taşıma ayarlarına gir.",
+    "NoTouchActionButtonWrapperClassProvided": "Taşıma için dokunma eylemi düğmesi sarmalayıcısı sağlanmadı. Lütfen bunu, Proje Ayarları sekmesindeki HLTv2'den Özelleştirilebilir Kullanıcı Arayüzüne taşıma ayarlarına gir.",
+    "ProgressReady": "Taşımaya hazır",
+    "AllHLTv2SetupsMigratedToCustomizableUISuccessfully": "HLTv2 düzenine sahip tüm kayıtlı eklentiler başarıyla özelleştirilebilir kullanıcı arayüzüne aktarıldı.",
+    "NoBaseCustomizableUIRegistryPluginProvided": "Temel oyun özelliği eklentileri taşıyıcısı, öncelikle temel HLT widget kaydı taşımasının çalıştırılmasını gerektirir. Proje Ayarları sekmesinde HLTv2'yi Özelleştirilebilir Kullanıcı Arayüzüne taşıma ayarlarına giderek lütfen hedef oyun özelliği verilerini belirt."
   },
   "HUD": {
     "Cancel": "İptal",
@@ -9801,8 +9853,6 @@
   },
   "IARC": {
     "USK_AGE_0_Abbreviated": "0",
-    "EPIC_SUGGESTED_RATING_AGE_0": "0+",
-    "EPIC_SUGGESTED_RATING_AGE_0_Abbreviated": "0+",
     "RUSSIA_AGE_0_Abbreviated": "0+",
     "TCA_AGE_G_Abbreviated": "0+",
     "CLASSIND_AGE_10_Abbreviated": "10+",
@@ -9821,8 +9871,6 @@
     "PEGI_AGE_12_Abbreviated": "12+",
     "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "12 yaş",
-    "EPIC_SUGGESTED_RATING_AGE_12": "12+",
-    "EPIC_SUGGESTED_RATING_AGE_12_Abbreviated": "12+",
     "GEN_AGE_12": "12+",
     "GEN_AGE_12_Abbreviated": "12+",
     "RUSSIA_AGE_12": "12+",
@@ -9835,52 +9883,18 @@
     "IGRS_AGE_13_Abbreviated": "13+",
     "CLASSIND_AGE_14_Abbreviated": "14",
     "CLASSIND_AGE_14": "14 yaş ve üstü",
-    "EPIC_SUGGESTED_RATING_AGE_14": "14+",
-    "EPIC_SUGGESTED_RATING_AGE_14_Abbreviated": "14+",
     "CERO_AGE_15_Abbreviated": "15+",
     "IGRS_AGE_15": "15+",
     "IGRS_AGE_15_Abbreviated": "15+",
     "TCA_AGE_PG_15_Abbreviated": "15+",
     "CLASSIND_AGE_16_Abbreviated": "16",
-    "FPB_AGE_16": "16",
-    "FPB_AGE_16_Abbreviated": "16",
-    "GCAM_AGE_16": "16",
-    "GCAM_AGE_16_Abbreviated": "16",
     "GMEDIA_AGE_16": "16",
     "GMEDIA_AGE_16_Abbreviated": "16",
-    "MRO_AGE_16": "16",
-    "MRO_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 yaş ve üstü",
-    "EPIC_SUGGESTED_RATING_AGE_16": "16+",
-    "EPIC_SUGGESTED_RATING_AGE_16_Abbreviated": "16+",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
-    "RUSSIA_AGE_16": "16+",
-    "RUSSIA_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
-    "FPB_AGE_18": "18",
-    "FPB_AGE_18_Abbreviated": "18",
-    "GCAM_AGE_18": "18",
-    "GCAM_AGE_18_Abbreviated": "18",
-    "GMEDIA_AGE_18": "18",
-    "GMEDIA_AGE_18_Abbreviated": "18",
-    "MRO_AGE_18": "18",
-    "MRO_AGE_18_Abbreviated": "18",
+    "CLASSIND_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 yaş ve üstü",
-    "CLASSIND_AGE_18_Abbreviated": "18 yaş ve üstü",
-    "EPIC_SUGGESTED_RATING_AGE_18": "18+",
-    "EPIC_SUGGESTED_RATING_AGE_18_Abbreviated": "18+",
-    "GEN_AGE_18": "18+",
-    "GEN_AGE_18_Abbreviated": "18+",
-    "IGRS_AGE_18": "18+",
-    "IGRS_AGE_18_Abbreviated": "18+",
-    "RUSSIA_AGE_18": "18+",
-    "RUSSIA_AGE_18_Abbreviated": "18+",
-    "GMEDIA_AGE_21": "21",
-    "GMEDIA_AGE_21_Abbreviated": "21",
-    "MRO_AGE_21": "21",
-    "MRO_AGE_21_Abbreviated": "21",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
     "GMEDIA_AGE_3": "3",
@@ -9892,11 +9906,7 @@
     "GEN_AGE_3_Abbreviated": "3+",
     "IGRS_AGE_3": "3+",
     "IGRS_AGE_3_Abbreviated": "3+",
-    "CLASSIND_AGE_6_Abbreviated": "6",
     "USK_AGE_6_Abbreviated": "6",
-    "CLASSIND_AGE_6": "6 yaş ve üstü",
-    "EPIC_SUGGESTED_RATING_AGE_6": "6+",
-    "EPIC_SUGGESTED_RATING_AGE_6_Abbreviated": "6+",
     "RUSSIA_AGE_6": "6+",
     "RUSSIA_AGE_6_Abbreviated": "6+",
     "TCA_AGE_P_Abbreviated": "6+",
@@ -9914,12 +9924,13 @@
     "IGRS_AGE_7_Abbreviated": "7+",
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
+    "ClassInd_AIInteraction_v11_0": "Yapay Zekâ Etkileşimi",
     "USK_AbstrakteGewalt": "Soyut Şiddet",
     "ACB_ActionViolence_v10_0": "Aksiyon Şiddeti",
     "ClassInd_AdolescentThemes": "Ergenlere Yönelik Temalar",
+    "ClassInd_AdultContent_v11_0": "Yetişkinlere Yönelik İçerikler",
     "ClassInd_AdultThemes": "Yetişkinlere Yönelik Temalar",
-    "ESRB_AGE_AO": "Sadece Yetişkinler 18+",
-    "ESRB_AGE_AO_Abbreviated": "Sadece Yetişkinler 18+",
+    "ClassInd_Advertising_v11_0": "reklam",
     "USK_Alokohol_v9_0": "Alkol",
     "ESRB_AlcoholReference": "Alkol Mesajı",
     "USK_Alkoholkonsum": "Alkol Kullanımı",
@@ -9932,6 +9943,7 @@
     "ESRB_AnimatedBlood": "Kanlı Animasyon",
     "TCA_AntiSociety": "Toplum Karşıtlığı",
     "ClassInd_AttenuatedAdultThemes": "Yetişkinlere Yönelik Hafif İçerikli Temalar",
+    "ClassInd_AudioVideoSharing_v11_0": "Ses ve Video Paylaşımı",
     "GEN_BadLanguage": "Kaba Dil",
     "PEGI_BadLanguage": "Kaba Dil",
     "ACB_BattleViolence": "Savaş Şiddeti",
@@ -9946,10 +9958,6 @@
     "CERO_AGE_0": "CERO A",
     "CERO_AGE_12": "CERO B",
     "CERO_AGE_15": "CERO C",
-    "CERO_AGE_17": "CERO D",
-    "CERO_AGE_17_Abbreviated": "CERO D",
-    "CERO_AGE_18": "CERO Z",
-    "CERO_AGE_18_Abbreviated": "CERO Z",
     "IE_Competitive_Intensity": "RY (Rekabetin Yoğunluğu)",
     "TCA_CardOrCasualGames": "Kart Oyunları veya Basit ve Eğlenceli Oyunlar",
     "ESRB_CartoonViolence": "Şiddet İçeren Animasyon",
@@ -9961,12 +9969,14 @@
     "IGRS_CharacterAppearance": "Karakter Görünümü",
     "TCA_ChessGames": "Satranç Oyunları",
     "ACB_CoarseLanguage": "Kaba Dil",
+    "EPIC_OFLC_Coarse_Language": "Kaba Dil",
     "ACB_ComedicViolence": "Mizahi Şiddet",
     "ESRB_ComicMischief": "Şaka Amaçlı Sataşma",
     "USK_ComicGewalt_v9_0": "Şaka Amaçlı Şiddet",
     "FPB_CompetitiveIntensity": "Rekabetin Yoğunluğu",
     "ClassInd_ConsumptionofAlcohol": "Alkol Kullanımı",
     "USK_Kontaktrisiken_v10_0": "İletişim Riskleri",
+    "ClassInd_ContentRecommendation_v11_0": "İçerik Önerisi",
     "USK_InhalteFuerVerschiedeneAltersgruppen_v7_0": "Farklı Yaş Gruplarına Yönelik İçerik",
     "CERO_ControlledSubstances": "麻薬等薬物",
     "CERO_Crime": "犯罪",
@@ -10032,12 +10042,8 @@
     "RUS_Fear_v7_0": "Korku",
     "IGRS_FearHorror": "Korku/Dehşet",
     "GRAC_AGE_12": "12 yaş ve üzeri için uygundur",
-    "GRAC_AGE_15": "15 yaş ve üzeri için uygundur",
-    "GRAC_AGE_15_Abbreviated": "15 yaş ve üzeri için uygundur",
     "GRAC_AGE_ALL": "Tüm yaşlar için uygundur",
     "ACB_AGE_G_Abbreviated": "G",
-    "CSRR_AGE_0": "G",
-    "CSRR_AGE_0_Abbreviated": "G",
     "OFLC_AGE_0": "G",
     "OFLC_AGE_0_Abbreviated": "G",
     "CERO_Gambling": "ギャンブル",
@@ -10105,6 +10111,7 @@
     "ACB_HorrorViolence": "Korku Şiddeti",
     "ACB_HuntingViolence": "Şiddet İçeren Avlanma",
     "ClassInd_DrogasIlicitas": "Yasadışı Uyuşturucu",
+    "ClassInd_ImageManipulation_v11_0": "Görsel Manipülasyon",
     "FPB_ImitativeActsAndTechniques": "Imitative Acts and Techniques",
     "ClassInd_ConteudoImpactante": "Etkili İçerik",
     "ACB_ImpliedSexualViolence": "İma Edilen Cinsel Şiddet",
@@ -10144,8 +10151,6 @@
     "OFLC_AGE_15": "M",
     "OFLC_AGE_15_Abbreviated": "M",
     "ACB_AGE_M": "Yetişkin",
-    "ESRB_AGE_M": "Yetişkin 17+",
-    "ESRB_AGE_M_Abbreviated": "Yetişkin 17+",
     "ESRB_MatureHumor": "Yetişkinlere Yönelik Mizah",
     "ACB_MatureThemes": "Yetişkinlere Yönelik Temalar",
     "ClassInd_ProcedimentosMedicos_v8_0": "Tıbbi işlemler",
@@ -10207,26 +10212,12 @@
     "PEGI_ModerateViolence": "Orta Düzeyde Şiddet",
     "ClassInd_ModerateViolenceAnimated": "Orta Düzeyde Şiddet İçeren Animasyon",
     "ClassInd_ModeratelyRealisticViolence": "Orta Düzeyde Gerçekçi Şiddet",
-    "ACB_AGE_NA": "Yok",
-    "ACB_AGE_NA_Abbreviated": "Yok",
-    "GRAC_AGE_NA": "Yok",
-    "GRAC_AGE_NA_Abbreviated": "Yok",
-    "TCA_AGE_NA": "Yok",
-    "TCA_AGE_NA_Abbreviated": "Yok",
     "ACB_NoConsumerAdvice": "Tüketici Önerisi Yok",
     "ClassInd_Naohainadequacoes": "Tanımlayıcı Yok",
     "ESRB_NoDescriptors": "Tanımlayıcı Yok",
     "GEN_NoDescriptors": "Tanımlayıcı Yok",
     "PEGI_NoDescriptors": "Tanımlayıcı Yok",
     "USK_NoDescriptors": "Tanımlayıcı Yok",
-    "USK_AGE_18": "Gençler kabul edilmez",
-    "USK_AGE_18_Abbreviated": "Gençler kabul edilmez",
-    "GMEDIA_AGE_NA": "Geçerli Değil",
-    "GMEDIA_AGE_NA_Abbreviated": "Geçerli Değil",
-    "IGRS_AGE_NA": "Geçerli Değil",
-    "IGRS_AGE_NA_Abbreviated": "Geçerli Değil",
-    "GRAC_AGE_ADULT": "Gençlerin kullanımına uygun değildir",
-    "GRAC_AGE_ADULT_Abbreviated": "Gençlerin kullanımına uygun değildir",
     "ACB_Nudity": "Çıplaklık",
     "ClassInd_Nudez": "Çıplaklık",
     "ESRB_Nudity": "Çıplaklık",
@@ -10245,14 +10236,8 @@
     "ACB_GEMCO": "Çevrimiçi Etkileşim",
     "ACB_OnlineInteractivityAndChat_v10_0": "Çevrimiçi Etkileşim ve Sohbet",
     "IE_OnlineMusicNotRatedByESRB": "Çevrimiçi müzikler ESRB tarafından derecelendirmemiştir",
-    "CSRR_AGE_6": "P",
-    "CSRR_AGE_6_Abbreviated": "P",
     "PEGI_AGE_PG": "EBEVEYN GÖZETİMİ ÖNERİLİR",
     "PEGI_AGE_12": "PEGI 12",
-    "PEGI_AGE_16": "PEGI 16",
-    "PEGI_AGE_16_Abbreviated": "PEGI 16",
-    "PEGI_AGE_18": "PEGI 18",
-    "PEGI_AGE_18_Abbreviated": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10261,10 +10246,6 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
-    "CSRR_AGE_12": "PG12",
-    "CSRR_AGE_12_Abbreviated": "PG12",
-    "CSRR_AGE_15": "PG15",
-    "CSRR_AGE_15_Abbreviated": "PG15",
     "TCA_AGE_PG_12": "Ebeveyn Gözetimi 12",
     "TCA_AGE_PG_15": "Ebeveyn Gözetimi 15",
     "GEN_ParentalGuidanceRecommended": "Ebeveyn Gözetimi Önerilir",
@@ -10283,22 +10264,6 @@
     "PEGI_ProminentGamblingImagery_v9_0": "Dikkat Çeken Kumar Görüntüleri",
     "TCA_AGE_P": "Korumalı",
     "ClassInd_PsychologicalConflicts": "Psikolojik Çatışmalar",
-    "CSRR_AGE_18": "R",
-    "CSRR_AGE_18_Abbreviated": "R",
-    "OFLC_AGE_13": "R13",
-    "OFLC_AGE_13_Abbreviated": "R13",
-    "OFLC_AGE_R15": "R15",
-    "OFLC_AGE_R15_Abbreviated": "R15",
-    "OFLC_AGE_16": "R16",
-    "OFLC_AGE_16_Abbreviated": "R16",
-    "OFLC_AGE_18": "R18",
-    "OFLC_AGE_18_Abbreviated": "R18",
-    "ESRB_RATING_PENDING_AGE_10": "DERECELENDİRME BEKLENİYOR",
-    "ESRB_RATING_PENDING_AGE_10_Abbreviated": "DERECELENDİRME BEKLENİYOR",
-    "ESRB_RATING_PENDING_AGE_17": "DERECELENDİRME BEKLENİYOR",
-    "ESRB_RATING_PENDING_AGE_17_Abbreviated": "DERECELENDİRME BEKLENİYOR",
-    "ESRB_RATING_PENDING_M_AGE_17": "DERECELENDİRME BEKLENİYOR MUHTEMELEN 17+",
-    "ESRB_RATING_PENDING_M_AGE_17_Abbreviated": "DERECELENDİRME BEKLENİYOR MUHTEMELEN 17+",
     "GRAC_RandomBox_v7_1": "Rastgele Kutu",
     "USK_SelteneSchreckmomente": "Ender Korkutucu Durumlar",
     "ESRB_RealGamblingOnly_v9_0": "Gerçek Kumar",
@@ -10308,27 +10273,7 @@
     "ClassInd_RealisticBlood": "Gerçekçi Kanlı İçerik",
     "USK_AndeutungenSexuellerGewalt": "Cinsel Şiddet Mesajı",
     "ACB_ReferencestoSexualViolence": "Cinsel Şiddet İçerikli Mesajlar",
-    "ACB_AGE_RC": "Reddedilen Sınıflandırma",
-    "ACB_AGE_RC_Abbreviated": "Reddedilen Sınıflandırma",
     "ACB_RefusedClassification": "Reddedilen Sınıflandırma",
-    "GMEDIA_AGE_RC": "Reddedilen Sınıflandırma",
-    "GMEDIA_AGE_RC_Abbreviated": "Reddedilen Sınıflandırma",
-    "GRAC_AGE_RC": "Reddedilen Sınıflandırma",
-    "GRAC_AGE_RC_Abbreviated": "Reddedilen Sınıflandırma",
-    "IGRS_AGE_RC": "Reddedilen Sınıflandırma",
-    "IGRS_AGE_RC_Abbreviated": "Reddedilen Sınıflandırma",
-    "RUSSIA_AGE_RC": "Reddedilen Sınıflandırma",
-    "RUSSIA_AGE_RC_Abbreviated": "Reddedilen Sınıflandırma",
-    "TCA_AGE_RC": "Reddedilen Sınıflandırma",
-    "TCA_AGE_RC_Abbreviated": "Reddedilen Sınıflandırma",
-    "USK_AGE_RC": "Reddedilen Sınıflandırma",
-    "USK_AGE_RC_Abbreviated": "Reddedilen Sınıflandırma",
-    "ACB_AGE_MA15": "Kısıtlı",
-    "ACB_AGE_MA15_Abbreviated": "Kısıtlı",
-    "ACB_AGE_R18": "Kısıtlı",
-    "ACB_AGE_R18_Abbreviated": "Kısıtlı",
-    "TCA_AGE_R": "Kısıtlı",
-    "TCA_AGE_R_Abbreviated": "Kısıtlı",
     "USK_AngstigendeInhalte": "Korkutucu İçerik",
     "USK_Schreckmomente_v9_0": "Korkulu Anlar",
     "ACB_ScaryScenes": "Korkunç Sahneler",
@@ -10442,8 +10387,6 @@
     "ESRB_TobaccoReference": "Tütün Mesajı",
     "USK_Tabakkonsum": "Tütün Kullanımı",
     "TCA_TobaccoAndAlcohol": "Tütün ve Alkol",
-    "EPIC_GRAC_AGE_19": "Derecelendirilmemiş",
-    "EPIC_GRAC_AGE_19_Abbreviated": "Derecelendirilmemiş",
     "IE_UnrestrictedInternet": "Kısıtlamasız İnternet",
     "ESRB_UseofAlcohol": "Alkol Kullanımı",
     "ESRB_UseofAlcoholandTobacco": "Alkol ve Tütün Kullanımı",
@@ -10483,6 +10426,7 @@
     "ACB_VeryMildSexualisedImagery": "Hafif Cinsel İçerikli Görsellik",
     "ACB_VeryMildSlapstickViolence_v10_0": "Çok Hafif Düzeyde Güldürü Niteliğinde Şiddet",
     "ACB_VeryMildSportingViolence_v10_0": "Çok Hafif Düzeyde Şiddet İçeren Spor",
+    "EPIC_OFLC_Mild_Sports_Violence": "Çok Hafif Düzeyde Spor Şiddeti",
     "ACB_VeryMildSuggestiveThemes": "Hafif Kışkırtıcı İçerik",
     "ACB_VeryMildSupernaturalThemes": "Hafif Doğaüstü Temalar",
     "ACB_VeryMildSupernaturalViolence_v10_0": "Çok Hafif Düzeyde Doğaüstü Şiddet",
@@ -10597,8 +10541,8 @@
     "RestrictionLineFormat": "{Index}.{Restriction}"
   },
   "JunoBuildingSnapEditorDetails": {
-    "SnapEditorRotateInPlace": "In Place",
-    "Toolbar": "Snap Editor Toolbar"
+    "SnapEditorRotateInPlace": "Girdi Yer",
+    "Toolbar": "Tutturma Editörü Araç Çubuğu"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "Juno Bağlantı Verisi İşaretleri",
@@ -10614,30 +10558,30 @@
     "ConsolidatePrimitivesCombined": "Yönlendiriciler Oluşturuluyor - /JunoAtomAssets/CombinedMeshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesMeshes": "Yönlendiriciler Oluşturuluyor - /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "Creating Redirectors - /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
-    "GetAssetsOfType": "Gathering '{0}' Assets",
-    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
-    "PrintAtomModelsInfo": "Printing out a AtomModels info",
+    "GetAssetsOfType": "'{0}' Öğeleri Toplanıyor",
+    "UpdateGeneratedMeshes": "Kirli Örgü Oluşturuluyor",
+    "PrintAtomModelsInfo": "AtomModels bilgisi yazdırılıyor",
     "RepairGeneratedMeshes": "Atom Modelleri Onarılıyor",
-    "RegeneratePrimitivesOnPrimitive": "Running Primitive Processor : {0} ({1})",
-    "RegeneratePrimitives": "Running Primitive Processor...",
-    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+    "RegeneratePrimitivesOnPrimitive": "Primitif İşlemci Çalıştırılıyor : {0} ({1})",
+    "RegeneratePrimitives": "Primitif İşlemci Çalıştırılıyor...",
+    "UpdateAllAtomModelsToUseProcessors": "Atom Modelleri Güncelleniyor"
   },
   "JunoFECraftingDataTool": {
     "ImGuiFrontendCraftingDataTool": "Juno Önyüz Üretim Verisi Aracı",
     "ImGuiFrontendCraftingDataToolTooltip": "Önyüzde kullanılacak kullanıcı arayüzü verilerini kopyalamak için bir araç."
   },
   "JunoValidator_AtomModel": {
-    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
-    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Ayarlanmış işlemci yok ancak örgü oluşturması gerekiyor.",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "Ayarlanmış işlemci yok ancak oluşturulmuş örgülere başvuruyor."
   },
   "JunoValidator_ClientOnlyGameFeatureData": {
     "ClientOnlyRowStructOnServer": "\"{0}\" satır yapısı, yalnızca istemciye özel \"{1}\" modülünde tanımlı ancak sunucuda yüklenen \"{2}\" tarafından referans gösteriliyor. Yapıyı bir çalışma zamanı modülüne taşı veya verinin yalnızca istemcide yüklendiğinden emin ol."
   },
   "JunoValidator_GeometryCollection": {
-    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Geçersiz bir Otomatik Örneklenmiş Örgü içeriyor",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "Boş bir Proxy Örgüsü bulunuyor",
-    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
-    "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "En az bir Otomatik Örneklendirilmiş Örgü gerektirir",
+    "JunoValidator_GeometryCollection_ProxyMeshes": "En az bir Proxy Örgüsü gerektirir."
   },
   "JunoValidator_POI": {
     "ReplaceWithoutReplacement": "\"{0}\" konum satırı, Değiştir olarak ayarlanmış ancak Yedek Konum adı belirtilmemiş, bu yüzden yalnızca kaldırılacak.Kaldırmak için yedek öğesi adlandır veya Uygunsuz Eylem belirle.",
@@ -10651,14 +10595,14 @@
     "MismatchedRowStruct": "Oyun listesi etiketi '{1}' için PlaylistBaseDataTableOverrides [{0}]: Kural tablosu '{2}' '{3}' satır yapısına sahipken temel tablo '{4}' '{5}' satır yapısını kullanıyor. Bir veri tablosunu farklı bir satır türüyle geçersiz kılmak, çalışma zamanında bellek bozulmasına neden olur. Kural tablosu, temel tabloyla tamamen aynı satır yapısını kullanmalıdır."
   },
   "JunoValidator_StaticMesh": {
-    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
-    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
-    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
-    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
-    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
-    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
-    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
-    "JunoValidator_StaticMesh_NumLODs": "Only has one LOD"
+    "JunoValidator_StaticMesh_InvalidLODs": "Öğe geçersiz bir LOD zinciri içeriyor.",
+    "JunoValidator_StaticMesh_OpaqueExport": "Artık şeffaf malzemeler içermediği için silinebilir.",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "Ortak Parçalar örgüsünde 'Render.CommonParts' Atom etiketi yok.",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Ortak Parçalar örgüsünde AtomMergedMesh_CommonParts LODGroup yok.",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Ortak Parçalar örgüsü tek bir LOD'a sahip değil.",
+    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup adı 'AtomMergedMesh' ile başlamıyor.",
+    "JunoValidator_StaticMesh_TransparentExport": "Şeffaf materyaller olmadan yeniden oluşturulması gerekiyor.",
+    "JunoValidator_StaticMesh_NumLODs": "Sadece tek bir LOD seviyesine sahip."
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "Düşük bellek",
@@ -11248,7 +11192,10 @@
     "UnsafeEnvironment_BodyBadInstall": "Oyun dosyalarında çevrimiçi oynamayı engelleyen bozuk veri bulundu. Bu sorunu çözmek için lütfen Epic Games uygulamasından Fortnite'ı tekrar yükle. fortnite.com/android adresinden Epic Games uygulamasını indirebilirsin.",
     "UnsafeEnvironment_BodyBadInstallGP": "Oyun dosyalarında çevrimiçi oynamayı engelleyen bozuk veri bulundu. Bu sorunu çözmek için lütfen Fortnite'ı Google Play Store üzerinden yeniden yükle.",
     "UnsafeEnvironment_BodyCorruptedContent": "Oyun dosyalarında çevrimiçi oynamayı engelleyen bozuk veri bulundu. Bu sorunu çözmek için lütfen Fortnite'ı doğrula veya tekrar yükle.",
+    "UnsafeEnvironment_StrictInjectionApply": "Etkinleştir ve Yeniden Başlat",
     "UnsafeEnvironment_Title": "Hata",
+    "UnsafeEnvironment_StrictInjectionNotActive": "Etkinlik için Katı Ekleme Politikası gerekir. Oyun ayarlarında zaten etkinleştirildi. Değişikliklerin etkili olması için Fortnite'ın yeniden başlatılması gerekiyor.\n\nŞimdi yeniden başlatmak ister misin?",
+    "UnsafeEnvironment_StrictInjectionNotEnabled": "Etkinlik için Katı Ekleme Politikası gerekir. Bunu oyun ayarlarında etkinleştirmen ve ardından değişikliklerin uygulanması için Fortnite'ı yeniden başlatman gerekir.\n\nDeğişiklikleri şimdi uygulamak istiyor musun?",
     "UnsafeEnvironment_BodyMissingLauncher": "Fortnite düzgün bir şekilde başlatılamadı ve kapatılması gerekiyor. Oyunu Epic Games başlatıcısını kullanarak açmayı denemeni ya da oyuncu destek ekibine ulaşmanı öneriyoruz.",
     "UnsafeEnvironment_Body": "Çalışan hile veya tersine mühendislik araçları tespit edildi. Hesabının uzaklaştırılmasını istemiyorsan lütfen Fortnite'ı açmadan önce onları kapat.",
     "UnsafeEnvironment_EventTPMAuth": "Cihazının Güvenilir Platform Modülü (TPM) ayarını doğrulayamadık. Bu cihaz gelecek bir güncellemede turnuvalara katılamayabilir. Daha fazla ayrıntı için fn.gg/tpm adresini ziyaret et.",
@@ -11334,6 +11281,8 @@
     "FailedLoginConsole_SystemUpdateAvailable": "Giriş yapılamıyor çünkü yeni bir sistem güncellemesi kullanılabilir durumda. Lütfen kurulumu yap ve tekrar dene.",
     "FailedLoginConsole_PatchAvailable": "Giriş başarısız oldu çünkü daha yeni bir yama kullanılabilir durumda. {0}",
     "FailedStartLogin": "Şu anda Epic Games hesabına giriş yapılamıyor. Lütfen daha sonra tekrar dene.",
+    "FailedStartLogin_InvalidRefreshToken": "Şu anda Epic Games hesabında oturum açılamıyor. Lütfen daha sonra tekrar dene.",
+    "FailedStartLogin_NoConnection": "Şu anda Epic Games hesabında oturum açılamıyor. Lütfen daha sonra tekrar dene.",
     "UserLoginFailed": "Şu anda Epic Games hesabına giriş yapılamıyor. Lütfen daha sonra tekrar dene.",
     "FailedLoginMsg": "{0} sunucularına giriş yapılamıyor. Lütfen daha sonra tekrar dene.",
     "FailedLoginConsole_UnableToSignIn": "{0} hesabına giriş başarısız oldu. Lütfen daha sonra tekrar dene.",
@@ -11983,10 +11932,10 @@
     "OutDateFormat": "{Day} {Month}, {Year} tarihinde {Time} ({TimeZone}) itibarıyla sona erecek"
   },
   "SnapEditorVisualizer": {
-    "DeleteSnapEntries": "Delete Snap Entries",
-    "DuplicateSnapEntries": "Duplicate Snap Entries",
-    "PasteSnapEntries": "Paste Snap Entries",
-    "SelectSnapEntry": "Select Snap Point"
+    "DeleteSnapEntries": "Tutturma Girişlerini Sil",
+    "DuplicateSnapEntries": "Tutturma Girişlerini Yinele",
+    "PasteSnapEntries": "Tutturma Girişlerini Yapıştır",
+    "SelectSnapEntry": "Tutturma Noktası Seç"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "{0} Kaldı"
@@ -12601,7 +12550,7 @@
     "EmptyEntryError": "Boş bir isim girilmeye çalışılıyor."
   },
   "UConfigurePrefabTool": {
-    "ToolName": "Configure Prefab"
+    "ToolName": "Hazır Yapıyı Düzenle"
   },
   "UEFN": {
     "LaunchDataLeaveMatchAndMatchmakeLinkCode": "Maçtan ayrılıp {LinkCode} oynamak istiyor musun?",
@@ -12788,8 +12737,8 @@
     "OpenHLTv2ToCustomizableUIMigrator_ToolTip": "Tüm HLTv2 ayarlarını yeni özelleştirilebilir kullanıcı arayüzü altyapısına taşımak için HLTv2'den Özelleştirilebilir Kullanıcı Arayüzüne Taşıyıcı Araç'ı açar."
   },
   "UICommands.JunoViewportToolsCommands": {
-    "BeginConfigurePrefabTool": "Configure Prefab",
-    "BeginConfigurePrefabTool_ToolTip": "Configure Prefab"
+    "BeginConfigurePrefabTool": "Hazır Yapıyı Düzenle",
+    "BeginConfigurePrefabTool_ToolTip": "Hazır Yapıyı Düzenle"
   },
   "UICommands.SpatialMetricsProfiler": {
     "OpenSpatialProfiler": "Uzamsal Profil Oluşturucu'yu Aç",
@@ -12813,24 +12762,24 @@
     "MaxRejoinFail": "Oyuna tekrar katılma başarısız. Maksimum tekrar katılma denemesi sınırına ulaşıldı."
   },
   "UJunoAssetListAssetFactory": {
-    "MenuEntry": "Asset List"
+    "MenuEntry": "Öğe Listesi"
   },
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "Kodeks veri tablosunun [satır {0}] geçerli bir Alt Kategori etiketi bulunmuyor.",
     "NeitherItemNorTag": "Kodeks veri tablosunun [satır {0}] bir eşya açıklaması da kimlik etiketi de bulunmuyor. En azından birine sahip olmalı.",
-    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "NPCNoSpawnerDat": "Codex veri tablosundaki [{0} satır] dost bir NPC gibi görünüyor ancak bir Yapay Zekâ Çıkma Yeri veri seti bulunmuyor.",
     "CategoryTagInvalid": "Kodeks veri tablosunun [satır {0}] geçerli bir Kategori etiketi bulunmuyor.",
-    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "[{0}] Kodeks veri tablosu, paketin eklentisi [{2}] içinde hazırlandığında var olmayacak bir [{1}] öğesine referans veriyor. Satırı kaldır veya eşyanın yayın sürümünü eşleşecek şekilde güncelle."
   },
   "UJunoValidator_ContextualMessageConfig": {
     "TextInvalid": "Diyalog veri tablosu [{0}. satır], [{1}] özelliğinde geçersiz metin bulunuyor:{2}\"{3}\""
   },
   "UJunoValidator_CraftingFormula": {
-    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime.",
+    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] boş bir RequiredIngredients etiketi içeriyor!! Bu durum çalışma zamanında sorunlara yol açabilir.",
     "DirectOutputsWithLootTierKey": "FCraftingFormula [{0}] hem bir Sonuç Ganimet Katmanı Anahtarı hem de bir Doğrudan Çıktı (Ek Veri girişi) içeriyor. ResultLootTierKey'i veya Doğrudan Çıktı girişini kaldır."
   },
   "UJunoValidator_GuidedBuildingActorValidator": {
-    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
+    "ValidateLoadedAsset_Implementation": "[{0}] ActorName adlı FJunoGuidedBuildingData boş bir tarif içeriyor!! Bu durum çalışma zamanında sorunlara yol açabilir."
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "[{0}] dizinindeki FJunoGuidedBuildingDisplayActorDataEntry'de boş bir tarif bulunuyor! Bu durum çalışma zamanında sorunlara yol açabilir."
@@ -12842,7 +12791,7 @@
     "ItemNewerThanLootTablePlugin": "[{0}] eşyasının sürüm versiyonu [{1}] ancak eklentisi [{3}] içinde derlenen [{2}] ganimet tablosu tarafından referans gösteriliyor. Bu ganimet tablosu çalıştığında eşya mevcut olmayacak. Eşyayı ganimet tablosundan kaldır veya eşyanın yayın sürümünü eklentinin sürümüyle eşleşecek şekilde güncelle."
   },
   "UJunoValidator_Journal": {
-    "RewardsInvalid": "Journal data table [row {0}] has a CompletionReaction type that grants a reward, but is set to GrantToWorld.  It must be GrantToParticipants to correctly grant to all players..",
+    "RewardsInvalid": "Günlük veri tablosunda [{0}. satır] ödül veren bir CompletionReaction türü var ancak GrantToWorld olarak ayarlanmış.  Tüm oyunculara doğru şekilde vermek için GrantToParticipants (Katılımcılara Ver) olmalıdır.",
     "TextInvalid": "Günlük veri tablosu [{0}. satır] [{1}] özelliğinde geçersiz metin bulunuyor:{2}\"{3}\"",
     "PrereqQuestProgressNotification": "Günlük verisi tablosu [satır{0}], Ön Gereksinim Dizini [{1}] görevinin bHideQuestProgressNotification ayarı açık olmalı.",
     "PrereqQuestStartingToast": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] görevinin bShouldDisplayStartingToast ayarı kapalı olmalı.",
@@ -12850,7 +12799,7 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] AwesomeLevelIndex {2} UpgradeRequirements için geçerli bir dizin değil.",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] CampTagConfigKey bir FJunoAwesomePoiConfigTableRow veri tablosu ile eşleşmiyor.",
     "PrereqTownbuilderInvalidNoValidALI": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] geçerli bir AwesomeLevelIndex içermiyor.",
-    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
+    "PrereqTownbuilderInvalid": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] geçerli bir CampTagConfigKey içermiyor.",
     "PrerequistitesInvalidNoValidPreReqType": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] geçerli bir Ön Gereksinim Türü içermiyor.",
     "PrereqQuestInvalidNotNeededPFComponent": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] bir PersistenceFramework bileşeni içeriyor, buna gerek yok.",
     "PrereqQuestInvalidQuestSoftPtr": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] geçersiz bir görev SoftPtr [{2}] içeriyor.",
@@ -12858,17 +12807,17 @@
     "PrereqQuestNull": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] QuestDef içermiyor.",
     "PrereqTownbuilderInvalidRCButEmptyRL": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] bir ResourceCost'a referans ama {2} boş bir ResourceList'e sahip.",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "Günlük verisi tablosu [satır {0}], Ön Gereksinim Dizini [{1}] {3} UpgradeStages için UpgradeStepIdentifer {2} ile UpgradeStep bulunamadı.",
-    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
-    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
-    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "PrerequistitesInvalid": "{0} numaralı satırdaki Günlük veri tablosu ön gereksinim içermiyor.",
+    "CategoryTagInvalid": "Günlük veri tablosu [satır {0}], geçerli bir Kategori etiketine sahip değil.",
+    "CompletionReactionsInvalid": "{0}. satırdaki günlük verisi tablosu, {1}. CompletionReaction Dizini aracılığıyla kendini gösterecek şekilde kuruldu.",
     "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "Günlük verisi tablosu [satır {0}], kendisini NextTaskRowName yoluyla açığa çıkarmaya ayarlıdır, engeli kaldırmak için RevealNextTaskOnComplete işaretini kaldır ve bir uzmanla konuş!",
     "CompletionReactionsInvalid_RowNotExist": "Günlük verisi tablosu [satır {0}], tamamlandığında var olmayan [satır {1}] öğesini açığa çıkarır.",
     "CompletionReactionsInvalid_AutoReveal": "Günlük verisi tablosu [satır {0}], tamamlandığında bir Otomatik Açığa Çıkarma Koşulu kullanan [satır {1}] öğesini açığa çıkarır.  Buna izin verilmez. Otomatik Açığa Çıkarma veya Gizleme Koşulları, görevi kendi başına açığa çıkarmayı yönetir.",
-    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
-    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+    "NextTaskRowNameInvalid": "{0} numaralı satırdaki Günlük veri tablosu RevealNextTaskOnComplete kullanıyor ancak NextTaskRowName {1} hatalı.  Lütfen kutuyu tekrar işaretle.",
+    "ValidateLoadedAsset": "[{0}] Günlük veri tablosu Ön Gereksinim Dizini {1}, paketin eklentisi [{3}] içinde hazırlandığında var olmayacak bir göreve [{2}] referans veriyor. Satırı kaldır veya eşyanın yayın sürümünü eşleşecek şekilde güncelle."
   },
   "UJunoValidator_LootTables": {
-    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "[{0}] Ganimet Paketi, paket [{2}] içinde hazırlandığında mevcut olmayacak olan bir [{1}] öğesine referans veriyor. Satırı kaldır veya eşyanın yayın sürümünü eşleşecek şekilde güncelle."
   },
   "UK2Node_ModifyObject": {
     "NodeTitle": "Nesneyi Değiştir",

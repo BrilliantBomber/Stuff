@@ -356,6 +356,7 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "具有強力二段跳躍攻擊的刀刃。",
     "144AC202422D81D8ECA7FDADA0248752": "具備高準確度與射程的經典步槍。",
     "174ADE3045B991036DAB808BA3802CDA": "具備高準確度與射程的經典步槍。",
+    "A633A07540E67656A515748EC42D2BFA": "具備高準確度與射程的經典步槍。",
     "5CA4C768442DACE154F650919AEBF7CC": "心臟驟停的刺激和樂趣。在空中跳躍來啟動。",
     "62060089487721326B23BBA33709B481": "心臟驟停的刺激和樂趣。在空中跳躍來啟動。",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "心臟驟停的刺激和樂趣。在空中跳躍來啟動。",
@@ -422,10 +423,7 @@
     "F259347F4F2842296238EB82C300F898": "任意",
     "165B7E9748BBE879107084AD2F2A831F": "範圍治療、治療、實用物品 ",
     "979E143F4DB80482F7115A92CA8BCD4A": "範圍治療、治療、實用物品 ",
-    "A9FA7E534DAB697646EE6AB42C93C1D7": "蘋果綠",
     "A2C33D7A4650D1311D24238FC644F05A": "為自己和附近隊友施加<Emphasized>護盾</>",
-    "2C724915401F1A7787FFCB8FD290B616": "海藍",
-    "46C56F454E6F3673CEF647A6D72F3EDA": "海藍寶石",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "軍械庫欄位",
     "14FE8E964665F3F20099A0B16A9D68F7": "艾希頓",
     "F00BAD564EF2DC73C32CB18F94A85EAE": "艾希頓",
@@ -555,7 +553,6 @@
     "120BA8004C6678552C7377A6A5483152": "信標樣式",
     "851AC090485097B263B626A83A02C0FE": "光束",
     "C1DC37B04598D140C5BD808AB61F9712": "成為雪人",
-    "21BB6A4D48D2430058D509B4F3D02AA9": "米色",
     "0A9381554E499FD10B15438EDCFD41B0": "大滾桶DX",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "雙翼機",
     "5B5236944941BFD7DE82B8B05FE11D94": "雙翼機",
@@ -626,7 +623,6 @@
     "2AA0C53148468770E238D6825BF85BAC": "類別星星",
     "EE922BB945F58FB9604A58A2D82D680C": "貓女的速射衝鋒槍",
     "AA86FAD842ADDE0E9D552E92F44CDD7C": "貓女的改裝版速射衝鋒槍。專為增加彈藥容量而精心製作。",
-    "D76CF3D846DE65E8BE51F39F748DAA43": "天藍",
     "EB4A9CD946CF1CAD986993958FEC99A7": "第2章第5賽季 ",
     "5D048A7F45BDC6C054F4528378401CD0": "第2章第7賽季",
     "02BD54134B723F96AC01628F3924C431": "第2章第8賽季",
@@ -929,7 +925,6 @@
     "7D608A2348789E08EF3A60ABB1E09742": "友方隊伍",
     "2FB297854AA101161395379E33167490": "臨危反撲",
     "2277279745E5A2A74BC60299806407F0": "冰凍",
-    "E37268214ECAE0FDB58EF1A6BD1E9A81": "紫紅",
     "1D2EEEBF4370BF8C411B08B64DCE4F2E": "完整大滾桶",
     "F6260A434A2F549B51B59F842C778EA8": "全平線",
     "CA598A9647DDFFF9012FFE88BAC6D842": "全重力翻轉",
@@ -975,7 +970,6 @@
     "87E39EA04808B27EA30A908F811EF0FA": "滑翔翼",
     "3C063B974F09C8A673507CBE3ADDB71D": "單槍匹馬戰鬥，成為最後存活的一人。",
     "8BEC89B8499664826B111685672B4E29": "單槍匹馬戰鬥，成為最後存活的一人。",
-    "B8C59B304999B1F6964D1696FAB0E456": "黃金",
     "F92ED6D24B56EACA844D27A473619CF5": "黃金",
     "3636D06A4ADE66F6A3C73D9AAB04186F": "黃金貨幣",
     "7B0936A2458A998274ED3484DE00BCDA": "黃金松露",
@@ -994,7 +988,6 @@
     "2BAF9D994E20140BCD7F59A7CAC81BA3": "墓地輪旋",
     "A4341A0045390C670F4757948E6E3CE5": "墓地海嘯",
     "F0737F4E40417749A441A59843B932F0": "墓地航行者",
-    "0B5C62D0400E95930AEE12B1D2116EE2": "綠",
     "5D14C5F74CA277758C0476AA504D7CEA": "岩洞",
     "331DB866438F7C72234C5B8338CC44A0": "集結成隊，在其他所有小隊的攻擊下生存下來，以獲得勝利。",
     "99E9D5F34DC01FC6B8774DB154EAC42E": "槍械、突擊步槍、機槍、輕型子彈、自動",
@@ -1042,7 +1035,6 @@
     "2EAFA04B4FCA57C7AF24E29E7C4450D7": "重型狙擊步槍+",
     "A935E8954E7200704C91A0A3A85B8C71": "這種重型狙擊步槍有機會<Emphasized>立即裝彈</>",
     "56AA82F146826F523FA9119C01362035": "高度",
-    "0B86EC9C474C4633272C9787A10B7795": "持有物品",
     "465E0326425E1043865BEB8E4C811AE3": "持有物品",
     "6C0951C64B0DA937087B0284224F92F4": "持有物品",
     "6EF1E84B40FA9D7CD51697ABF897FE4A": "持有物品",
@@ -1090,6 +1082,7 @@
     "3B23812B4104C655B1751DAB80ED2993": "印第重力翻轉",
     "118BD9B247A79B6E7AB2189A409B7EFA": "印第環繞",
     "55F09A7841788A6D5EABF7AE7C720557": "步兵步槍",
+    "C115B50C4700A573DC237EAC7C92E21B": "步兵步槍",
     "F1638A45469F392DAF5444BE0A097644": "步兵步槍",
     "F317A4514DE5AEE182F39DA192E355AD": "步兵步槍",
     "1D7BBE454E1553569F9589A7E633F06D": "無限",
@@ -1236,7 +1229,6 @@
     "/Fortnite.com/Devices/NPCSpawner/npc_behavior_template_message_module/OnEndMessage": "NPC Agent = {Agent}: OnEnd 已觸發，開始清理吧。",
     "0DD368AE4439FC99C95A4595D62837AC": "自然建造者挑戰",
     "688E65C943BC171D5807FE974D7E59A9": "永恆奈德挑戰",
-    "B80ED9CD455EDCE5BB4214A10A82B828": "霓虹綠",
     "NetworkConnectionLost": "網路斷線",
     "44067A6E421888DD39877E82D6DABB58": "中立圖示文字",
     "AB88B4554EDBE594A34706AED40BB6C4": "從不",
@@ -1358,7 +1350,6 @@
     "19A0DCA742B5AC4CB1D227AEE0A19601": "僅限選定",
     "B95E8C564EE3D7A237E5DEB35283797C": "僅在必要時",
     "BAC5E80D44DA978242043B9497A8E286": "你淘汰的對手會讓附近的對手<Emphasized>暴露</>",
-    "95FD548C4AFFA37C807335BD7AF1AB6A": "橘",
     "658517F44C1678AB75F76FB69BD46F60": "橘漆發射器  ",
     "516CA75D4CF5403A2F82BF838CD51DB7": "模組與層級關係已過時",
     "6EB89D324C5E00500994CD96A83D5A72": "模組與層級關係已過時",
@@ -1385,7 +1376,6 @@
     "B3CFEDE943AA56C0AEE82CA08F806463": "拾取",
     "7240B5BC46A81D296CBCA080DF98ECB7": "鎬奔跑",
     "91F4A2794D81253C6E03C7A0B78CC383": "拾取滅火器",
-    "F75FBF44462332D5DFE17691FCD37DFF": "粉紅",
     "2C211AA048AE4A1A5D9423B297E1023D": "海盜加農砲",
     "BB93B4574E7A8EF0105C4DAADCA4D5F8": "海盜加農砲",
     "CFBFEBC248741ED6E0FCC88CC754A22E": "海盜加農砲",
@@ -1438,7 +1428,6 @@
     "85A2E3C041A433B1B8D87C914FAFCC13": "集點卡完成代幣",
     "8FDD93294EE611E28D499E8504C6C314": "集點卡集點代幣",
     "B06F5AB34BA2C7C48F6D2982E60EC524": "集點卡集點代幣",
-    "A4A746BE47363A8193CEE4BC9E663930": "紫",
     "A1D607174B6E2B132A79E0A3242425BE": "紫漆發射器  ",
     "02D599B84C45A32A6BAB92925A070A51": "推進（輕觸）/滑行（長按）",
     "25171EA942DC385DE7E5798BBB4969A1": "放下",
@@ -1459,7 +1448,6 @@
     "B1CFA5584EBD1878822A699ECEB629A6": "稀有寶箱",
     "101BBD144878EB1AA8CCD292737797AE": "偵察掃描儀",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "新兵",
-    "1C77EAFB46C48299170B7486AEFB6294": "紅橘",
     "7125E4704BEA318C6BD3D69B5893D080": "精煉製作材料。可以與其它材料一起製作，通常可以在寶箱中發現。",
     "16DA40C14B2BC801935504956E31A9C9": "游泳時恢復<Emphasized>生命值</>",
     "D956F3B24B85A136EDFF7681AD74FB8C": "恢復活力",
@@ -1590,10 +1578,8 @@
     "029C79824756DFCA21B1AB85821FF31C": "顯示消息",
     "2496EF09404F18FFE2EA0AB9BA7CFA8F": "顯示螢幕外箭頭",
     "D2AA34D248C42439671352909952AF0C": "有新消息時顯示新聞螢幕",
-    "D5A97BEC41D14A772F78AD85787561D5": "銀",
     "37EA8D3C4FCA282792A19089FF9D264F": "單發狙擊步槍，具備<Emphasized>遠距離</>瞄準鏡",
     "9A6F1EDF4BBD286B035BA49BDF31635E": "骷髏小子挑戰代幣",
-    "89373C3241ED5AC276FBA08F64FC6020": "天藍",
     "C3F806054CE1F1D1A8FFFC9F8DF839BC": "慢",
     "252EFAEE4A3593A47968A9B628C86826": "射速緩慢的<Emphasized>強力手槍</>",
     "F415822746674FEAC04DCB8D1D0EC153": "煙霧粒子",
@@ -1976,7 +1962,6 @@
     "A8CDADF8471D9C4CFEBFF598C94692E3": "載具被摧毀時，在此延遲時間之後重生（生成的第一部載具不使用這個延遲時間）。",
     "0D756F6B4F770EF0A8F90CAC0113EB78": "「要跳哪」手槍",
     "E710C08E4E5C70FF8A286CB6EA101B4F": "是否顯示信標，顯示 HUD 元素，或二者皆顯示。",
-    "D3A54EAE40408580269CF39BCCA37888": "白",
     "195F2EE048C26E190C845691145D6CF6": "寬度",
     "9BD108A54CA8FA397E1DBD95E37958BB": "冬日節慶挑戰完成代幣",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "冬日節慶鑰匙",
@@ -2139,23 +2124,35 @@
     "MergeSquadsText": "合併小隊",
     "SquadsTooBigToMerge": "小隊人數太多無法合併"
   },
+  "AnimInEdTools": {
+    "SourceLink_NotASequence": "「{0}」無法載入為關卡序列。",
+    "SourceLink_NoItem": "「{0}」未記錄返回此動畫的連結。",
+    "SourceLink_OpenRange": "「'{0}'」的播放範圍未設定上限，因此無法決定導出的範圍。",
+    "SourceLink_NoTrack": "「'{0}'」在此動畫來源的綁定上沒有控制體軌道。",
+    "SourceLink_BadRate": "「{0}」記錄了格率無效的自訂匯出範圍。",
+    "SourceLink_NoAnim": "未開啟任何動畫。",
+    "SourceLink_Missing": "遺失連結的等級序列「{0}」。",
+    "SourceLink_NoLink": "此動畫未與關卡序列連結，因此無法讀取來源關鍵時刻。"
+  },
   "AnimInEdToolsModule": {
     "AnimToCRImportTabLabel": "動畫 → 控制綁定",
     "AnimToCRImportTabTooltip": "在已開啟的關卡序列中，將預覽的動畫（姿勢、範圍或整個片段）匯入控制綁定。"
   },
   "AnimToCRImport": {
-    "Clear": "清除",
+    "ImportKeyTimings": "套用來源按鍵時機",
+    "ClearInOutTip": "通暢/堵塞",
     "CurFrame": "目前影格",
-    "DelStatic": "刪除靜態頻道",
-    "RangeHdr": "影格範圍",
     "ImportPose": "匯入姿勢",
     "ImportRange": "匯入範圍",
-    "OnlyStatic": "僅精簡靜態頻道",
-    "OptionsHdr": "選項",
-    "SelOnly": "僅限選定的控制項",
+    "KeyTimingsTip": "僅保留來源關卡序列基礎層上原本就有的關鍵格，而非在每一幀都設定關鍵格。數值仍然來自此動畫。取代「減少按鍵」設定。",
+    "NoLoadSettings": "載入動畫設定無法使用（找不到 LoadAnimToControlRigSettings）。",
+    "SimpleViewTip": "將動畫編輯器調整回視口、時間軸、此工具和素材瀏覽器。切換為關閉可還原先前開啟的分頁。",
+    "RestoreLayoutTip": "重新開啟上次進入簡易檢視時開啟的分頁。使用過至少一次簡易檢視後即可使用。",
+    "RestoreLayout": "恢復配置",
     "SetIn": "設定起始點",
     "SetOut": "設定結束點",
-    "SmartReduce": "智慧精減"
+    "SimpleView": "簡易檢視",
+    "SourceLabel": "來源：{0} 幀 {1}-{2}"
   },
   "AntiCheat": {
     "ClientErrorMessage": "{provider}錯誤：{message}\n\n請查閱{provider}常見問題集以獲取更多資訊。"
@@ -2189,7 +2186,7 @@
   },
   "AssetTypeActions": {
     "AIActionSequence": "AI 行為序列",
-    "UJunoAssetListAssetFactory": "Asset List"
+    "UJunoAssetListAssetFactory": "素材列表"
   },
   "Athena": {
     "NPCHiredIndication": " （追隨者）",
@@ -3033,7 +3030,7 @@
   },
   "Contexts": {
     "HLTv2ToCustomizableUI": "HLTv2 轉移至可自訂使用者介面外掛",
-    "JunoViewportToolsCommands": "Juno Tools",
+    "JunoViewportToolsCommands": "Juno 工具",
     "SpatialMetricProfiler": "空間分析器",
     "WeaponModernizationEditorCommands": "武器現代化工具"
   },
@@ -3864,7 +3861,7 @@
   },
   "FJunoViewportToolsModule": {
     "SectionName": "Juno",
-    "ExtensionName": "JunoTools",
+    "ExtensionName": "Juno 工具",
     "ConfigurePrefabTool": "預置物"
   },
   "FStateDrivenEvent_DepositResource": {
@@ -5189,6 +5186,20 @@
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "特殊"
   },
+  "FortEpicParty": {
+    "AccountResolution": "內部錯誤",
+    "ExistingInviteMissing": "內部錯誤",
+    "FrameworkUnavailable": "內部錯誤",
+    "JoinRetryAbandoned": "內部錯誤",
+    "JoinableInfoMissing": "內部錯誤",
+    "RetryAccountResolution": "內部錯誤",
+    "RetryFrameworkUnavailable": "內部錯誤",
+    "RetryJoinableInfoMissing": "內部錯誤",
+    "RetryPartyPrivate": "內部錯誤",
+    "RetrySameParty": "內部錯誤",
+    "TargetNotFriend": "內部錯誤",
+    "TargetNotJoinable": "內部錯誤"
+  },
   "FortErrorOverrides": {
     "IoStoreHttpError": "與後端服務通訊時發生錯誤，請檢查網路連線後再試一次。{ModuleIdString}.{ErrorCodeString}"
   },
@@ -5232,6 +5243,9 @@
   },
   "FortGameMode": {
     "FailedToStartMatchTimeout": "伺服器未能即時啟動。"
+  },
+  "FortGameStateHestiaBeauty": {
+    "SittingOutPlayersToJumpInNotAllowed": "無法加入隊伍的賽事。"
   },
   "FortGameStateOutpost": {
     "LimitThresholdReached": "警告：{0}結構尚待放置。"
@@ -5451,10 +5465,8 @@
     "StorageItemDescription_BR": "大逃殺、零建造和火力全開都需要。",
     "StorageItemDescription_Sparks": "Fortnite Festival 所需。",
     "StorageItemDescription_Juno": "LEGO® Fortnite 所需。",
-    "StorageItemDescription_DelMar": "Rocket Racing 和玩家製作的 Rocket Racing 地圖都需要。",
     "StorageItemDescription_Core": "所有體驗所需的內容。",
-    "StorageItemDescription_Creative": "必須擁有才可遊玩與編輯創作者製作的島嶼[和Feral]。",
-    "StorageItemTitle_DelMar": "火箭動力內容"
+    "StorageItemDescription_Creative": "必須擁有才可遊玩與編輯創作者製作的島嶼[和Feral]。"
   },
   "FortLinkedGraphGate": {
     "LinkedGraphTagInvalid": "@@ - 連接的連結圖無有效標籤",
@@ -6825,6 +6837,7 @@
     "TweakZoneCollection_Name": "控制器調整區",
     "TelekineticonToggleActivation_Description": "控制念力儀的啟動方式。\n\n按住扳機 - 按住扳機來抓取物體，並放開扳機放下。切換 - 按下以抓取和放下物體。",
     "SocialPrivacy_MutualFriends_Description": "控制其他玩家是否可以看到你的共同好友。\n\n<strong>私人</>：沒有人可以看到你的共同好友。\n\n<strong>僅限好友</>：只有好友可以看到你的共同好友。\n\n<strong>公開</>：任何人都可以看到你的共同好友。",
+    "StrictInjectionPolicy_Description": "控制哪些程式可以與《Fortnite》互動。啟用後，將會阻止其他程式與其覆蓋層存取《Fortnite》，以增加安全性。部分競賽活動可能需要此設定。",
     "GyroOffsetBuild_Description": "控制在建造或編輯時，瞄準輸入是否會先移動準星，然後才轉動鏡頭。",
     "MouseOffsetBuild_Description": "控制在建造或編輯時，瞄準輸入是否會先移動準星，然後才轉動鏡頭。",
     "TouchOffsetBuild_Description": "控制在建造或編輯時，瞄準輸入是否會先移動準星，然後才轉動鏡頭。",
@@ -6939,6 +6952,7 @@
     "GyroButtonEnable": "啟用陀螺儀感應器",
     "EnergySavingIdle_Name": "啟用待機省電模式（前端）",
     "EnergySavingFocusLoss_Name": "啟用非活動視窗省電模式",
+    "VoiceChatUseNoiseReduction_Name": "啟用降噪",
     "HeadphoneMode_Description": "啟用雙耳立體聲。提供 3D 音訊空間化，讓你能更精確地聽到聲音的位置，包括上方、下方和身後。建議僅搭配立體聲耳機使用。",
     "QuickWeaponToggle_Description_Switch": "啟用實驗性的快速武器動作。啟用後，「快速武器」將取代「下一個武器」按鈕。\n\n按下「快速武器」即可裝備主要物品，同時按下「快速武器」和任一ABXY鍵則可切換到其他物品欄位。此後，同時按下「快速武器」和ABXY鍵即可切換到該物品。你亦可長按「快速武器」鍵不放，以熟悉ABXY鍵對應物品欄中哪個物品。\n\n啟用後，「放置標記」將取代「上一個武器」，讓你更容易與隊員溝通。你亦可在「控制器自訂」分頁中自訂控制，將「上一個武器」替換為你選擇的動作。",
     "QuickWeaponToggle_Description_Switch2": "啟用實驗性的快速武器動作。啟用後，「快速武器」將取代「下一個武器」按鈕。\n\n按下「快速武器」即可裝備主要物品，同時按下「快速武器」和任一ABXY鍵則可切換到其他物品欄位。此後，同時按下「快速武器」和ABXY鍵即可切換到該物品。你亦可長按「快速武器」鍵不放，以熟悉ABXY鍵對應物品欄中哪個物品。\n\n啟用後，「放置標記」將取代「上一個武器」，讓你更容易與隊員溝通。你亦可在「控制器自訂」分頁中自訂控制，將「上一個武器」替換為你選擇的動作。",
@@ -7613,6 +7627,7 @@
     "WindingSpeedScaledByZoom_Description_Switch": "根據縮放程度自動降低轉向操控搖桿的旋轉速度。例如：這可以幫助在狙擊時穩定勘察地形。這不會影響首次使用操控搖桿時的轉向。",
     "WindingSpeedScaledByZoom_Description": "根據縮放程度自動降低轉向操作桿的旋轉速度。例如：這可以幫助在狙擊時穩定勘察地形。這不會影響首次使用操作桿時的轉向。",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "根據縮放程度自動降低轉向操作桿的旋轉速度。例如：這可以幫助在狙擊時穩定勘察地形。這不會影響首次使用操作桿時的轉向。",
+    "VoiceChatUseNoiseReduction_Description": "減少麥克風的背景雜訊，例如風扇、打字或房間回音。 若其他玩家檢舉你的聲音聽起來模糊、像機器人或斷斷續續，請關閉此選項。",
     "ReducedDataUsage_Description": "減少自動下載的數據量。\n\n如果你的行動網路或網路方案有數據用量上限，且有超過用量的風險時，這項設定會很有幫助。",
     "GyroSensitivityScaledByZoom_Description": "根據縮放程度自動降低瞄準靈敏度。這可以幫助穩定遠程武器的瞄準。",
     "Reflections_Description": "反射品質決定反射的解析度和準確度。\n\n「Lumen 高」和「Lumen 史詩」選項提供更高品質，但可能會降低效能。\n\n關閉：關閉反射。\n\n螢幕空間：僅根據目前螢幕上顯示的內容計算反射。\n\nLumen 高/史詩：高品質即時光線追蹤反射。",
@@ -7832,6 +7847,7 @@
     "StopRenderingInBackground_Name": "在背景停止渲染",
     "StopRenderingInBackground_Description": "當遊戲視窗沒有置頂時停止渲染（如可能）。釋放 GPU 資源供其他應用程式使用。",
     "KeyboardMovementStrafeDiagonal_Name": "橫移角度",
+    "StrictInjectionPolicy_Name": "嚴格注入政策",
     "MatchmakingSubregion_Name": "子區域偏好",
     "SubtitlePage_Name": "字幕",
     "SubtitlesCollection_Name": "字幕",
@@ -8005,7 +8021,7 @@
     "InvertPitchForAircraftPrimary_Description": "開啟/關閉飛行器控制器駕駛反轉。開啟時，向前移動將會使飛行器向下俯衝。",
     "InvertPitchForAircraftSecondary_Description": "開啟/關閉飛行器滑鼠控制反轉。開啟時，向前移動滑鼠會使飛行器向下俯衝。",
     "InvertPitchForAircraftTouch_Description": "開啟/關閉飛行器觸控駕駛反轉。開啟時，向前觸控移動會使飛行器向下俯衝。",
-    "AutoPickUpEnabled_Description": "開啟/關閉物品自動拾取。開啟後，經過物品時將自動拾取。",
+    "AutoPickUpEnabled_Description": "開啟/關閉物品自動拾取。開啟後，在移動到物品上時會自動拾取，且系統會視情況以更好的物品取代現有物品。",
     "AutoSortConsumablesToHigherSlots_Description": "開啟/關閉自動將消耗品分類至較高編號欄位。開啟後，消耗品如與生命值或護盾相關，則會預設在拾取後放至最高編號的空快捷欄位。",
     "AutoSortConsumablesToRight_Description": "開啟/關閉自動將消耗品分類至右側。開啟後，消耗品如與生命值或護盾相關，則會預設在拾取後放至最右側的空快捷欄位。",
     "GamepadAutoRun_Description_PS4": "開啟/關閉控制器自動奔跑。開啟時，按兩下 L3 按鈕即可自動向前奔跑，無需前推左操作桿不放。",
@@ -8499,6 +8515,7 @@
     "ErrorSendingMessage": "發送訊息錯誤：{0}",
     "HiddenPlayerSays": "隱藏玩家： ",
     "BlockedPlayerMessage": "訊息已隱藏",
+    "FilteringUnavailableMessage": "由於文字過濾功能失敗，故無法顯示訊息。",
     "TextChatDisabledByPlasterBeach": "待定",
     "TextChatDisabledByTournamentMode": "由於此客戶端處於錦標賽模式，因此文字聊天已停用。",
     "TextChatEnabled": "文字聊天已啟用。",
@@ -8511,6 +8528,7 @@
     "WelcomeDelMar": "歡迎來到 Rocket Racing！跟其他車手聊聊吧！",
     "WelcomeSparks": "歡迎來到主舞台！與你的樂團成員聊天，一起決定要演奏什麼。",
     "WelcomeJuno": "歡迎來到 {0}！讓別人知道你是認真的！",
+    "VerseSubChannelSendBlockedMessage": "你無法在此頻道發送訊息。",
     "TextChatDisabledByUser": "你已在設定停用了文字聊天功能。",
     "YouJoinedGameMessage": "你加入了遊戲頻道。",
     "YouJoinedPartyMessage": "你加入了組隊。",
@@ -8756,6 +8774,25 @@
     "SettingSaveFailed_Title": "無法儲存設定",
     "SettingSaveFailed_Description": "家長監控服務似乎遇到了問題。幾分鐘後再試一次。如果情況持續，請瀏覽 https://status.epicgames.com。"
   },
+  "FortSystemConfigRequirements": {
+    "IOMMU": "IOMMU 硬體虛擬化",
+    "DmaRemapping": "核心 DMA 防護",
+    "KernelCodeIntegrity": "記憶體完整性",
+    "InvalidConfigReason": "找不到必要的系統安全設定。請稍後再試。",
+    "SecureBoot": "安全啟動",
+    "StableOSVersion": "穩定版本的作業系統",
+    "StrictInjectionPolicy": "嚴格注入政策",
+    "InvalidConfig": "系統安全配置",
+    "CryptoProcessor": "信賴平台模組 (TPM)"
+  },
+  "FortSystemConfigRequirementsModalVM": {
+    "DialogTitle": "額外的安全需求",
+    "Enabled": "已啟用",
+    "EnabledWithWarning": "已啟用並顯示警告",
+    "NotEnabled": "未啟用",
+    "UnknownStatus": "狀態不可用",
+    "DialogIntroduction": "你的系統未符合遊玩所需的額外安全要求。選擇了解更多，前往 Easy Anti-Cheat 的支援頁面。"
+  },
   "FortTabListWidgetBase": {
     "UnspecifiedTab": "未指定"
   },
@@ -8775,7 +8812,9 @@
   },
   "FortTextChatConversationVM": {
     "PartyFrameworkUnavailable": "目前無法使用組隊系統",
-    "SocialToolkitUnavailable": "目前無法使用社交功能"
+    "SocialToolkitUnavailable": "目前無法使用社交功能",
+    "InvalidJoinPartyConversation": "由於對話無法使用，因此無法加入隊伍。",
+    "InvalidStartPartyConversation": "由於對話無法使用，因此無法開始組隊。"
   },
   "FortTextChatPlayerVM": {
     "RedactedUserBlocked": "<Blocked player>",
@@ -8783,10 +8822,14 @@
     "MessageDelayedFont": "<Message delayed, until we can load a new font>",
     "ConversationsDest": "聊天",
     "TempTitle": "正在擷取名稱……",
+    "VerseSubChannelDefaultName": "遊戲",
     "NewChatOption": "新聊天",
+    "VerseSubChannelChanged": "現在正在 {0} 中聊天",
     "ClamOneMessage": "請記住，你可以用 …… 鍵將玩家靜音或封鎖，或稍後在聊天中選擇他們的訊息",
     "SendDM": "私訊",
-    "DMWelcomeMessage": "歡迎查收你與 {0} 的直接訊息！"
+    "DMWelcomeMessage": "歡迎查收你與 {0} 的直接訊息！",
+    "VerseSubChannelMuted": "你現在無法在 {0} 內寫入內容",
+    "VerseChatSenderNameFormat": "[{0}] {1}"
   },
   "FortTournamentLobbyPanel": {
     "NoMatchTimeDescription": "上一場比賽已開始",
@@ -8893,7 +8936,6 @@
     "EpicPartyGroupInviteDetailsSent": "已傳送派對邀請給<Username>{0}</>",
     "EpicPartyInviteDetailsSent": "已傳送派對邀請給<Username>{0}</>",
     "PartyInviteDetailsSent": "已傳送派對邀請給<Username>{0}</>",
-    "EpicPartyJoinabilityChangedInviteOnlyDetails": "該組隊僅限邀請",
     "EpicPartyJoinRequestReceived_Title": "加入組隊請求",
     "EpicPartyMemberCreated": "玩家已加入派對",
     "PartyMemberCreated": "玩家已加入派對",
@@ -8918,6 +8960,7 @@
     "RequestToJoinParty_RateLimited": "你已傳送太多請求，請稍後再試",
     "FriendToastSelfTooManyFriends": "你有太多好友",
     "FriendToastSelfOutboxFull": "你發送的朋友申請太多",
+    "EpicPartyJoinabilityChangedInviteOnlyDetails": "你的組隊現在設定為僅限邀請",
     "EpicPartyJoinabilityChangedOpenDetails": "你的組隊現已可供加入",
     "NotifMgrForkMemberNoAccessToast": "{Username} 無法存取所選的分支，繼續將忽略該分支"
   },
@@ -8938,7 +8981,7 @@
     "NoInternetDesc": "請檢查你的連線並重試。",
     "QuitText": "離開",
     "Benchmark": "執行效能測試中……",
-    "ServicesSlow": "伺服器未回應",
+    "ServicesSlow": "伺服器目前無法使用請稍後查看。",
     "RHIChangeSettingsApplied_Title": "已套用設定",
     "LogoutComplete": "已成功登出。",
     "OfferRHIChangeForStability_FullDescription": "目前電腦所安裝的顯示卡驅動程式在目前的 DirectX 12 渲染模式下存在已知的穩定性問題，Fortnite 可能會在遊玩時當機。是否要切換成{NewRHI}，享有更穩定的遊戲體驗呢？{OptionalAutoRestartText}",
@@ -9722,8 +9765,17 @@
     "ProgressFormat": "正在轉移 {0}/{1} 個外掛",
     "PhasePrimaryModule": "正在轉移主要遊戲模組……",
     "PhaseComplete": "轉移完成",
+    "MigrationFailed": "轉移失敗，錯誤訊息：{0}\n\n進度已儲存至失敗點。",
     "PhaseFailed": "轉移失敗：{0}",
-    "ProgressReady": "轉移準備完成"
+    "NoFortMobileHUDElementWrapperClassProvided": "未提供遷移用的 Fort HUD 元素包裝器類別。請至「專案設定」分頁中的「HLTv2 遷移至自訂 UI 設定」進行設定",
+    "NoBaseHLTRegistryProvided": "未提供用於遷移的基礎 HUD 配置工具行動裝置 HUD 小工具登錄資料。請至「專案設定」分頁中的「HLTv2 遷移至自訂 UI 設定」進行設定",
+    "NoBaseMoveStickCanvasClassProvided": "未提供用於遷移的基礎移動搖桿畫布類別。請至「專案設定」分頁中的「HLTv2 遷移至自訂 UI 設定」進行設定",
+    "NoMigrationConfigProvided": "沒有為此次轉移提供設定素材。請至「專案設定」分頁中的「HLTv2 遷移至自訂 UI 設定」進行設定",
+    "NoExcludeConditionProvided": "未提供轉移時的動態 UI 排除條件。請至「專案設定」分頁中的「HLTv2 遷移至自訂 UI 設定」進行設定",
+    "NoTouchActionButtonWrapperClassProvided": "未提供用於轉移的無觸控動作按鈕包裝。請至「專案設定」分頁中的「HLTv2 遷移至自訂 UI 設定」進行設定",
+    "ProgressReady": "轉移準備完成",
+    "AllHLTv2SetupsMigratedToCustomizableUISuccessfully": "已成功將所有具有 HLTv2 設置的註冊外掛程式移轉至自訂使用者介面。",
+    "NoBaseCustomizableUIRegistryPluginProvided": "根遊戲功能外掛轉移器需要先執行基礎 HLT 小工具註冊轉移。請在專案設定標籤的 HLTv2 至可自訂 UI 遷移設定中，指定目標遊戲功能資料。"
   },
   "HUD": {
     "Cancel": "取消",
@@ -9801,8 +9853,6 @@
   },
   "IARC": {
     "USK_AGE_0_Abbreviated": "0",
-    "EPIC_SUGGESTED_RATING_AGE_0": "0+",
-    "EPIC_SUGGESTED_RATING_AGE_0_Abbreviated": "0+",
     "RUSSIA_AGE_0_Abbreviated": "0+",
     "TCA_AGE_G_Abbreviated": "0+",
     "CLASSIND_AGE_10_Abbreviated": "10",
@@ -9821,8 +9871,6 @@
     "PEGI_AGE_12_Abbreviated": "12",
     "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "12歲",
-    "EPIC_SUGGESTED_RATING_AGE_12": "12+",
-    "EPIC_SUGGESTED_RATING_AGE_12_Abbreviated": "12+",
     "GEN_AGE_12": "12+",
     "GEN_AGE_12_Abbreviated": "12+",
     "RUSSIA_AGE_12": "12+",
@@ -9835,52 +9883,18 @@
     "IGRS_AGE_13_Abbreviated": "13+",
     "CLASSIND_AGE_14_Abbreviated": "14",
     "CLASSIND_AGE_14": "14 歲",
-    "EPIC_SUGGESTED_RATING_AGE_14": "14+",
-    "EPIC_SUGGESTED_RATING_AGE_14_Abbreviated": "14+",
     "CERO_AGE_15_Abbreviated": "15",
     "IGRS_AGE_15": "15+",
     "IGRS_AGE_15_Abbreviated": "15+",
     "TCA_AGE_PG_15_Abbreviated": "15+",
     "CLASSIND_AGE_16_Abbreviated": "16",
-    "FPB_AGE_16": "16",
-    "FPB_AGE_16_Abbreviated": "16",
-    "GCAM_AGE_16": "16",
-    "GCAM_AGE_16_Abbreviated": "16",
     "GMEDIA_AGE_16": "16",
     "GMEDIA_AGE_16_Abbreviated": "16",
-    "MRO_AGE_16": "16",
-    "MRO_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 歲",
-    "EPIC_SUGGESTED_RATING_AGE_16": "16+",
-    "EPIC_SUGGESTED_RATING_AGE_16_Abbreviated": "16+",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
-    "RUSSIA_AGE_16": "16+",
-    "RUSSIA_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
-    "FPB_AGE_18": "18",
-    "FPB_AGE_18_Abbreviated": "18",
-    "GCAM_AGE_18": "18",
-    "GCAM_AGE_18_Abbreviated": "18",
-    "GMEDIA_AGE_18": "18",
-    "GMEDIA_AGE_18_Abbreviated": "18",
-    "MRO_AGE_18": "18",
-    "MRO_AGE_18_Abbreviated": "18",
+    "CLASSIND_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 歲",
-    "CLASSIND_AGE_18_Abbreviated": "18 歲",
-    "EPIC_SUGGESTED_RATING_AGE_18": "18+",
-    "EPIC_SUGGESTED_RATING_AGE_18_Abbreviated": "18+",
-    "GEN_AGE_18": "18+",
-    "GEN_AGE_18_Abbreviated": "18+",
-    "IGRS_AGE_18": "18+",
-    "IGRS_AGE_18_Abbreviated": "18+",
-    "RUSSIA_AGE_18": "18+",
-    "RUSSIA_AGE_18_Abbreviated": "18+",
-    "GMEDIA_AGE_21": "21",
-    "GMEDIA_AGE_21_Abbreviated": "21",
-    "MRO_AGE_21": "21",
-    "MRO_AGE_21_Abbreviated": "21",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
     "GMEDIA_AGE_3": "3",
@@ -9892,11 +9906,7 @@
     "GEN_AGE_3_Abbreviated": "3+",
     "IGRS_AGE_3": "3+",
     "IGRS_AGE_3_Abbreviated": "3+",
-    "CLASSIND_AGE_6_Abbreviated": "6",
     "USK_AGE_6_Abbreviated": "6",
-    "CLASSIND_AGE_6": "6 歲",
-    "EPIC_SUGGESTED_RATING_AGE_6": "6+",
-    "EPIC_SUGGESTED_RATING_AGE_6_Abbreviated": "6+",
     "RUSSIA_AGE_6": "6+",
     "RUSSIA_AGE_6_Abbreviated": "6+",
     "TCA_AGE_P_Abbreviated": "6+",
@@ -9914,12 +9924,13 @@
     "IGRS_AGE_7_Abbreviated": "7+",
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
+    "ClassInd_AIInteraction_v11_0": "AI 互動",
     "USK_AbstrakteGewalt": "抽象暴力",
     "ACB_ActionViolence_v10_0": "動作暴力",
     "ClassInd_AdolescentThemes": "青少年主題",
+    "ClassInd_AdultContent_v11_0": "成人內容",
     "ClassInd_AdultThemes": "成人主題",
-    "ESRB_AGE_AO": "限 18 歲以上成年人",
-    "ESRB_AGE_AO_Abbreviated": "限 18 歲以上成年人",
+    "ClassInd_Advertising_v11_0": "廣告",
     "USK_Alokohol_v9_0": "酒精",
     "ESRB_AlcoholReference": "酒精相關內容",
     "USK_Alkoholkonsum": "酒精使用",
@@ -9932,6 +9943,7 @@
     "ESRB_AnimatedBlood": "動畫血腥",
     "TCA_AntiSociety": "反社會",
     "ClassInd_AttenuatedAdultThemes": "淡化的成人主題",
+    "ClassInd_AudioVideoSharing_v11_0": "音訊與影片分享",
     "GEN_BadLanguage": "不當語言",
     "PEGI_BadLanguage": "不當語言",
     "ACB_BattleViolence": "戰鬥暴力",
@@ -9946,10 +9958,6 @@
     "CERO_AGE_0": "CERO A",
     "CERO_AGE_12": "CERO B",
     "CERO_AGE_15": "CERO C",
-    "CERO_AGE_17": "CERO D",
-    "CERO_AGE_17_Abbreviated": "CERO D",
-    "CERO_AGE_18": "CERO Z",
-    "CERO_AGE_18_Abbreviated": "CERO Z",
     "IE_Competitive_Intensity": "CI（競技強度）",
     "TCA_CardOrCasualGames": "卡牌或休閒遊戲",
     "ESRB_CartoonViolence": "卡通暴力",
@@ -9961,12 +9969,14 @@
     "IGRS_CharacterAppearance": "角色外觀",
     "TCA_ChessGames": "棋類遊戲",
     "ACB_CoarseLanguage": "粗鄙用語",
+    "EPIC_OFLC_Coarse_Language": "粗鄙用語",
     "ACB_ComedicViolence": "喜劇式暴力",
     "ESRB_ComicMischief": "漫畫惡作劇",
     "USK_ComicGewalt_v9_0": "漫畫暴力",
     "FPB_CompetitiveIntensity": "競技強度",
     "ClassInd_ConsumptionofAlcohol": "酒精飲用",
     "USK_Kontaktrisiken_v10_0": "接觸風險",
+    "ClassInd_ContentRecommendation_v11_0": "內容推薦",
     "USK_InhalteFuerVerschiedeneAltersgruppen_v7_0": "針對不同年齡層的內容",
     "CERO_ControlledSubstances": "管制物質",
     "CERO_Crime": "犯罪",
@@ -10032,12 +10042,8 @@
     "RUS_Fear_v7_0": "恐懼",
     "IGRS_FearHorror": "恐懼/驚悚",
     "GRAC_AGE_12": "適合12歲以上",
-    "GRAC_AGE_15": "適合 15 歲以上",
-    "GRAC_AGE_15_Abbreviated": "適合 15 歲以上",
     "GRAC_AGE_ALL": "適合所有年齡",
     "ACB_AGE_G_Abbreviated": "G",
-    "CSRR_AGE_0": "G",
-    "CSRR_AGE_0_Abbreviated": "G",
     "OFLC_AGE_0": "G",
     "OFLC_AGE_0_Abbreviated": "G",
     "CERO_Gambling": "賭博",
@@ -10105,6 +10111,7 @@
     "ACB_HorrorViolence": "恐怖暴力",
     "ACB_HuntingViolence": "狩獵暴力",
     "ClassInd_DrogasIlicitas": "非法毒品",
+    "ClassInd_ImageManipulation_v11_0": "圖像處理",
     "FPB_ImitativeActsAndTechniques": "模仿行為和技巧",
     "ClassInd_ConteudoImpactante": "衝擊性的內容",
     "ACB_ImpliedSexualViolence": "隱含暴力",
@@ -10144,8 +10151,6 @@
     "OFLC_AGE_15": "M",
     "OFLC_AGE_15_Abbreviated": "M",
     "ACB_AGE_M": "成人",
-    "ESRB_AGE_M": "17 歲以上成人",
-    "ESRB_AGE_M_Abbreviated": "17 歲以上成人",
     "ESRB_MatureHumor": "成人笑話",
     "ACB_MatureThemes": "成人主題",
     "ClassInd_ProcedimentosMedicos_v8_0": "醫療程序",
@@ -10207,26 +10212,12 @@
     "PEGI_ModerateViolence": "中度暴力",
     "ClassInd_ModerateViolenceAnimated": "中度動畫暴力",
     "ClassInd_ModeratelyRealisticViolence": "中度寫實暴力",
-    "ACB_AGE_NA": "不適用",
-    "ACB_AGE_NA_Abbreviated": "不適用",
-    "GRAC_AGE_NA": "不適用",
-    "GRAC_AGE_NA_Abbreviated": "不適用",
-    "TCA_AGE_NA": "不適用",
-    "TCA_AGE_NA_Abbreviated": "不適用",
     "ACB_NoConsumerAdvice": "無消費者建議",
     "ClassInd_Naohainadequacoes": "無描述符",
     "ESRB_NoDescriptors": "無描述符",
     "GEN_NoDescriptors": "無描述符",
     "PEGI_NoDescriptors": "無描述符",
     "USK_NoDescriptors": "無描述符",
-    "USK_AGE_18": "禁止青少年",
-    "USK_AGE_18_Abbreviated": "禁止青少年",
-    "GMEDIA_AGE_NA": "不適用",
-    "GMEDIA_AGE_NA_Abbreviated": "不適用",
-    "IGRS_AGE_NA": "不適用",
-    "IGRS_AGE_NA_Abbreviated": "不適用",
-    "GRAC_AGE_ADULT": "青少年不宜",
-    "GRAC_AGE_ADULT_Abbreviated": "青少年不宜",
     "ACB_Nudity": "裸露",
     "ClassInd_Nudez": "裸露",
     "ESRB_Nudity": "裸露",
@@ -10245,14 +10236,8 @@
     "ACB_GEMCO": "在線互動",
     "ACB_OnlineInteractivityAndChat_v10_0": "在線互動和聊天",
     "IE_OnlineMusicNotRatedByESRB": "線上音樂未經 ESRB 非級",
-    "CSRR_AGE_6": "P",
-    "CSRR_AGE_6_Abbreviated": "P",
     "PEGI_AGE_PG": "建議由家長陪同",
     "PEGI_AGE_12": "PEGI 12",
-    "PEGI_AGE_16": "PEGI 16",
-    "PEGI_AGE_16_Abbreviated": "PEGI 16",
-    "PEGI_AGE_18": "PEGI 18",
-    "PEGI_AGE_18_Abbreviated": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10261,10 +10246,6 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
-    "CSRR_AGE_12": "保護級",
-    "CSRR_AGE_12_Abbreviated": "保護級",
-    "CSRR_AGE_15": "輔導級",
-    "CSRR_AGE_15_Abbreviated": "輔導級",
     "TCA_AGE_PG_12": "輔導級 12",
     "TCA_AGE_PG_15": "輔導級 15",
     "GEN_ParentalGuidanceRecommended": "建議由家長陪同",
@@ -10283,22 +10264,6 @@
     "PEGI_ProminentGamblingImagery_v9_0": "明顯賭博影像",
     "TCA_AGE_P": "保護",
     "ClassInd_PsychologicalConflicts": "心理衝突",
-    "CSRR_AGE_18": "R",
-    "CSRR_AGE_18_Abbreviated": "R",
-    "OFLC_AGE_13": "R13",
-    "OFLC_AGE_13_Abbreviated": "R13",
-    "OFLC_AGE_R15": "R15",
-    "OFLC_AGE_R15_Abbreviated": "R15",
-    "OFLC_AGE_16": "R16",
-    "OFLC_AGE_16_Abbreviated": "R16",
-    "OFLC_AGE_18": "R18",
-    "OFLC_AGE_18_Abbreviated": "R18",
-    "ESRB_RATING_PENDING_AGE_10": "評級待定",
-    "ESRB_RATING_PENDING_AGE_10_Abbreviated": "評級待定",
-    "ESRB_RATING_PENDING_AGE_17": "評級待定",
-    "ESRB_RATING_PENDING_AGE_17_Abbreviated": "評級待定",
-    "ESRB_RATING_PENDING_M_AGE_17": "評級待定，可能為 17+ 成人",
-    "ESRB_RATING_PENDING_M_AGE_17_Abbreviated": "評級待定，可能為 17+ 成人",
     "GRAC_RandomBox_v7_1": "隨機箱",
     "USK_SelteneSchreckmomente": "稀有驚嚇情況",
     "ESRB_RealGamblingOnly_v9_0": "真實賭博",
@@ -10308,27 +10273,7 @@
     "ClassInd_RealisticBlood": "寫實血腥",
     "USK_AndeutungenSexuellerGewalt": "性暴力相關內容",
     "ACB_ReferencestoSexualViolence": "性暴力相關內容",
-    "ACB_AGE_RC": "拒絕分級",
-    "ACB_AGE_RC_Abbreviated": "拒絕分級",
     "ACB_RefusedClassification": "拒絕分級",
-    "GMEDIA_AGE_RC": "拒絕分級",
-    "GMEDIA_AGE_RC_Abbreviated": "拒絕分級",
-    "GRAC_AGE_RC": "拒絕分級",
-    "GRAC_AGE_RC_Abbreviated": "拒絕分級",
-    "IGRS_AGE_RC": "拒絕分級",
-    "IGRS_AGE_RC_Abbreviated": "拒絕分級",
-    "RUSSIA_AGE_RC": "拒絕分級",
-    "RUSSIA_AGE_RC_Abbreviated": "拒絕分級",
-    "TCA_AGE_RC": "拒絕分級",
-    "TCA_AGE_RC_Abbreviated": "拒絕分級",
-    "USK_AGE_RC": "拒絕分級",
-    "USK_AGE_RC_Abbreviated": "拒絕分級",
-    "ACB_AGE_MA15": "受限制",
-    "ACB_AGE_MA15_Abbreviated": "受限制",
-    "ACB_AGE_R18": "受限制",
-    "ACB_AGE_R18_Abbreviated": "受限制",
-    "TCA_AGE_R": "受限制",
-    "TCA_AGE_R_Abbreviated": "受限制",
     "USK_AngstigendeInhalte": "驚嚇內容",
     "USK_Schreckmomente_v9_0": "驚嚇時刻",
     "ACB_ScaryScenes": "恐怖場景",
@@ -10442,8 +10387,6 @@
     "ESRB_TobaccoReference": "菸品相關內容",
     "USK_Tabakkonsum": "使用菸品",
     "TCA_TobaccoAndAlcohol": "菸品和酒精",
-    "EPIC_GRAC_AGE_19": "未評級",
-    "EPIC_GRAC_AGE_19_Abbreviated": "未評級",
     "IE_UnrestrictedInternet": "不受限網路",
     "ESRB_UseofAlcohol": "使用酒精",
     "ESRB_UseofAlcoholandTobacco": "使用酒精和菸品",
@@ -10483,6 +10426,7 @@
     "ACB_VeryMildSexualisedImagery": "極輕度性暗示圖像",
     "ACB_VeryMildSlapstickViolence_v10_0": "極輕度搞笑暴力",
     "ACB_VeryMildSportingViolence_v10_0": "極輕度運動暴力",
+    "EPIC_OFLC_Mild_Sports_Violence": "極輕度體育暴力",
     "ACB_VeryMildSuggestiveThemes": "極輕度暗示主題",
     "ACB_VeryMildSupernaturalThemes": "極輕度超自然主題",
     "ACB_VeryMildSupernaturalViolence_v10_0": "極輕度超自然暴力",
@@ -10597,8 +10541,8 @@
     "RestrictionLineFormat": "{Index}。{Restriction}"
   },
   "JunoBuildingSnapEditorDetails": {
-    "SnapEditorRotateInPlace": "In Place",
-    "Toolbar": "Snap Editor Toolbar"
+    "SnapEditorRotateInPlace": "定點",
+    "Toolbar": "Snap 編輯器工具列"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "Juno 連線性資料旗幟",
@@ -10614,30 +10558,30 @@
     "ConsolidatePrimitivesCombined": "Creating Redirectors - /JunoAtomAssets/CombinedMeshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesMeshes": "Creating Redirectors - /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "Creating Redirectors - /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
-    "GetAssetsOfType": "Gathering '{0}' Assets",
-    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
-    "PrintAtomModelsInfo": "Printing out a AtomModels info",
+    "GetAssetsOfType": "正在收集「{0}」素材",
+    "UpdateGeneratedMeshes": "正在生成受污染網格",
+    "PrintAtomModelsInfo": "印出 AtomModels 資訊",
     "RepairGeneratedMeshes": "修復原子模型",
-    "RegeneratePrimitivesOnPrimitive": "Running Primitive Processor : {0} ({1})",
-    "RegeneratePrimitives": "Running Primitive Processor...",
-    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+    "RegeneratePrimitivesOnPrimitive": "運行原始處理器：{0} ({1})",
+    "RegeneratePrimitives": "正在執行圖元處理器……",
+    "UpdateAllAtomModelsToUseProcessors": "更新原子模型"
   },
   "JunoFECraftingDataTool": {
     "ImGuiFrontendCraftingDataTool": "Juno 前端製作資料工具",
     "ImGuiFrontendCraftingDataToolTooltip": "用來複製前端使用的使用者介面資料的工具"
   },
   "JunoValidator_AtomModel": {
-    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
-    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "已設定處理器，但需要生成網格。",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "未設定處理器，但引用了已生成的網格"
   },
   "JunoValidator_ClientOnlyGameFeatureData": {
     "ClientOnlyRowStructOnServer": "列結構 '{0}' 的定義於僅限於客戶端模組的 '{1}' ，但被在伺服器上載入的 '{2}' 引用。將結構移至執行階段模組，或確保資料僅在用戶端載入。"
   },
   "JunoValidator_GeometryCollection": {
-    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "具有無效的自動實例化網格",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "代理網格為空",
-    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
-    "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "需要至少一個自動實例化網格",
+    "JunoValidator_GeometryCollection_ProxyMeshes": "需要至少一個代理網格"
   },
   "JunoValidator_POI": {
     "ReplaceWithoutReplacement": "興趣點列「{0}」已設為取代，但未命名任何 ReplacementPOI，因此只會移除。指定替代項目，或將 IneligibleAction 設為移除。",
@@ -10651,14 +10595,14 @@
     "MismatchedRowStruct": "播放清單標籤「{1}」的 PlaylistBaseDataTableOverrides [{0}]：覆寫資料表「{2}」的列結構為「{3}」，但基礎資料表「{4}」使用的列結構為「{5}」。使用不同列類型覆寫資料表，會導致記憶體在執行階段損壞。覆寫資料表必須使用與基礎資料表完全相同的列結構。"
   },
   "JunoValidator_StaticMesh": {
-    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
-    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
-    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
-    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
-    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
-    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
-    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
-    "JunoValidator_StaticMesh_NumLODs": "Only has one LOD"
+    "JunoValidator_StaticMesh_InvalidLODs": "素材包含無效的細節層次鏈",
+    "JunoValidator_StaticMesh_OpaqueExport": "因為已不包含透明材料，所以可被刪除",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "通用零件網格沒有「Render.CommonParts」原子標籤",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "普通零件網格沒有 AtomMergedMesh_CommonParts LODGroup",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "通用零件網格不止有一個細節層次",
+    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup 名稱不以 'AtomMergedMesh' 開頭",
+    "JunoValidator_StaticMesh_TransparentExport": "必須在沒有透明材料的情況下重新產生",
+    "JunoValidator_StaticMesh_NumLODs": "僅有一個細節層次"
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "記憶體不足",
@@ -11248,7 +11192,10 @@
     "UnsafeEnvironment_BodyBadInstall": "在遊戲檔案中發現損壞的資料，導致無法線上遊玩。請從 Epic Games 應用程式重新安裝 Fortnite 以解決這些問題。你可以訪問 fortnite.com/download 下載 Epic Games 應用程式",
     "UnsafeEnvironment_BodyBadInstallGP": "在遊戲檔案中發現損壞的資料，導致無法在線遊玩。請從 Google Play 商店重新安裝 Fortnite 以解決這些問題。",
     "UnsafeEnvironment_BodyCorruptedContent": "在遊戲檔案中發現損壞的資料，導致無法在線遊玩。請驗證或重新安裝 Fortnite 以修正這些問題。",
+    "UnsafeEnvironment_StrictInjectionApply": "啟用並重新開始",
     "UnsafeEnvironment_Title": "錯誤",
+    "UnsafeEnvironment_StrictInjectionNotActive": "活動需要啟用嚴格注入政策。遊戲設定中已啟用，需要重啟 Fortnite 才能使變更生效。\n\n要現在重新開始嗎？",
+    "UnsafeEnvironment_StrictInjectionNotEnabled": "活動需要啟用嚴格注入政策。你需要先在遊戲設定中啟用，接著重新啟動 Fortnite 以讓變更生效。\n\n要現在套用變更嗎？",
     "UnsafeEnvironment_BodyMissingLauncher": "Fortnite 未正確啟動，需要關閉。我們建議嘗試使用 Epic Games 啟動器啟動遊戲或聯絡玩家支援。",
     "UnsafeEnvironment_Body": "發現活躍的作弊行為或逆向工程工具。請在玩 Fortnite 之前關閉它們以避免帳號被停權。",
     "UnsafeEnvironment_EventTPMAuth": "無法確認你的裝置 TPM 權限。此裝置可能無法用來參加之後更新版的錦標賽。更多資訊請前往 fn.gg/tpm",
@@ -11334,6 +11281,8 @@
     "FailedLoginConsole_SystemUpdateAvailable": "新版系統更新已推出，因此無法登入。請安裝更新後再試一次。",
     "FailedLoginConsole_PatchAvailable": "新版本已推出，因此無法登入。{0}",
     "FailedStartLogin": "目前無法登入你的 Epic Games 帳號。請稍後再試。",
+    "FailedStartLogin_InvalidRefreshToken": "目前無法登入你的 Epic Games 帳號。請稍後再試。",
+    "FailedStartLogin_NoConnection": "目前無法登入你的 Epic Games 帳號。請稍後再試。",
     "UserLoginFailed": "目前無法登入你的 Epic Games 帳號。請稍後再試。",
     "FailedLoginMsg": "無法登入{0}伺服器。請稍後再試。",
     "FailedLoginConsole_UnableToSignIn": "無法登入你的{0}帳號。請稍後再試。",
@@ -11983,10 +11932,10 @@
     "OutDateFormat": "於 {TimeZone} {Year} 年 {Month} 月 {Day} 日 {Time} 截止"
   },
   "SnapEditorVisualizer": {
-    "DeleteSnapEntries": "Delete Snap Entries",
-    "DuplicateSnapEntries": "Duplicate Snap Entries",
-    "PasteSnapEntries": "Paste Snap Entries",
-    "SelectSnapEntry": "Select Snap Point"
+    "DeleteSnapEntries": "刪除 Snap 條目",
+    "DuplicateSnapEntries": "複製 Snap 條目",
+    "PasteSnapEntries": "貼上 Snap 條目",
+    "SelectSnapEntry": "選擇 Snap 點"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "剩餘{0}"
@@ -12601,7 +12550,7 @@
     "EmptyEntryError": "正在嘗試設定一個空白名稱。"
   },
   "UConfigurePrefabTool": {
-    "ToolName": "Configure Prefab"
+    "ToolName": "調整預製建物"
   },
   "UEFN": {
     "LaunchDataLeaveMatchAndMatchmakeLinkCode": "離開配對並遊玩{LinkCode}？",
@@ -12788,8 +12737,8 @@
     "OpenHLTv2ToCustomizableUIMigrator_ToolTip": "開啟 HLTv2 並使用可自訂使用者介面轉移工具，以將所有 HLTv2 設定轉移至新的可自訂使用者介面框架。"
   },
   "UICommands.JunoViewportToolsCommands": {
-    "BeginConfigurePrefabTool": "Configure Prefab",
-    "BeginConfigurePrefabTool_ToolTip": "Configure Prefab"
+    "BeginConfigurePrefabTool": "調整預製建物",
+    "BeginConfigurePrefabTool_ToolTip": "調整預製建物"
   },
   "UICommands.SpatialMetricsProfiler": {
     "OpenSpatialProfiler": "開啟空間分析器",
@@ -12813,24 +12762,24 @@
     "MaxRejoinFail": "無法重新加入遊戲。超出最大重新加入嘗試次數。"
   },
   "UJunoAssetListAssetFactory": {
-    "MenuEntry": "Asset List"
+    "MenuEntry": "素材列表"
   },
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "手冊資料表 [第 {0} 列] 沒有合法的子類別標記。",
     "NeitherItemNorTag": "手冊資料表 [第 {0} 列] 沒有物品定義，也沒有身分標記。必須至少有一個。",
-    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "NPCNoSpawnerDat": "手冊資料表 [第 {0} 列] 看起來是友好 NPC 但沒有設定 AI 生成器資料。",
     "CategoryTagInvalid": "手冊資料表 [第 {0} 列] 沒有合法的類別標記。",
-    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "Codex 資料表格 [{0}] 參照了某個物品 [{1}]，該物品會在該套件的外掛程式 cook 時 [{2}] 消失。將此列移除，或更新物品的發行版本以使其相符。"
   },
   "UJunoValidator_ContextualMessageConfig": {
     "TextInvalid": "日誌資料表 [列 {0}] 的屬性包含無效文字 [{1}]:{2}\"{3}\""
   },
   "UJunoValidator_CraftingFormula": {
-    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime.",
+    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] 包含空白的 RequiredIngredients 標籤！ 這可能在執行時造成問題。",
     "DirectOutputsWithLootTierKey": "FCraftingFormula [{0}] 同時擁有 ResultLootTierKey 和直接輸出（ExtraData 項目）。移除 ResultLootTierKey 或直接輸出項目"
   },
   "UJunoValidator_GuidedBuildingActorValidator": {
-    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
+    "ValidateLoadedAsset_Implementation": "具有角色名稱 [{0}] 的 FJunoGuidedBuildingData 沒有可用的配方！！這可能在執行時造成問題。"
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingDisplayActorDataEntry at index [{0}]有一張空白配方！！這可能在執行時造成問題。"
@@ -12842,7 +12791,7 @@
     "ItemNewerThanLootTablePlugin": "物品 [{0}] 的發行版本為 [{1}]，但被戰利品表 [{2}] 引用，且其外掛正在 [{3}] 中使用。啟用此戰利品表時，此物品將不會存在。將此物品從戰利品表中移除，或更新其發行版本以符合此外掛程式的版本。"
   },
   "UJunoValidator_Journal": {
-    "RewardsInvalid": "Journal data table [row {0}] has a CompletionReaction type that grants a reward, but is set to GrantToWorld.  It must be GrantToParticipants to correctly grant to all players..",
+    "RewardsInvalid": "日誌資料表[第 {0} 列]含有給予獎勵的完成反應 (CompletionReaction) 類型，但卻設為 GrantToWorld。必須設定為 GrantToParticipants 才能正確授予所有玩家……",
     "TextInvalid": "日誌資料表 [列 {0}] 的屬性包含無效文字 [{1}]:{2}\"{3}\"",
     "PrereqQuestProgressNotification": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 任務的 bHideQuestProgressNotification 應為開啟",
     "PrereqQuestStartingToast": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 任務的 bShouldDisplayStartingToast 應為關閉",
@@ -12850,7 +12799,7 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "日誌資料表 [第 {0} 列]，前提索引 [{1}] AwesomeLevelIndex 並非 {2} 的升級要求 (UpgradeRequirements) 的有效索引。",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "日誌資料表 [第 {0} 列]，前提索引 [{1}] CampTagConfigKey 未映射至 FJunoAwesomePoiConfigTableRow 資料表。",
     "PrereqTownbuilderInvalidNoValidALI": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 未具備有效的 AwesomeLevelIndex。",
-    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
+    "PrereqTownbuilderInvalid": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 未具備有效的 CampTagConfigKey 標籤。",
     "PrerequistitesInvalidNoValidPreReqType": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 未擁有有效的 Prereq 類型。",
     "PrereqQuestInvalidNotNeededPFComponent": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 具有持久性框架元件 (PersistenceFramework)，這並不需要。",
     "PrereqQuestInvalidQuestSoftPtr": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 有無效的任務 SoftPtr [{2}]。",
@@ -12858,17 +12807,17 @@
     "PrereqQuestNull": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 沒有 QuestDef。",
     "PrereqTownbuilderInvalidRCButEmptyRL": "日誌資料表 [第 {0} 列]，前提索引 [{1}] 參考一個資源費用 (ResourceCost)，但 {2} 擁有的是空白的資源列表 (ResourceList)。",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "日誌資料表 [第 {0} 列]，前提索引 [{1}]，找不到升級步驟 (UpgradeStep) 搭配升級步驟識別碼 (UpgradeStepIdentifer) {2} 供 {3}的升級階段 (UpgradeStages) 使用。",
-    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
-    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
-    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "PrerequistitesInvalid": "日誌資料表 [第 {0} 列]，未具備任何前提條件。",
+    "CategoryTagInvalid": "日誌資料表 [第 {0} 列]，未擁有合法的類別標記。",
+    "CompletionReactionsInvalid": "日誌資料表 [第 {0} 列] 設為透過完成反應索引 [{1}] 顯示。",
     "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "日誌資料表 [第 {0} 列]，設定為透過下一任務列名稱 (NextTaskRowName) 顯露自己，取消勾選完成時顯露下一任務 (RevealNextTaskOnComplete) 以解除封鎖，並與工程師交談！",
     "CompletionReactionsInvalid_RowNotExist": "日誌資料表 [第 {0} 列]，不存在時完成後顯露 [第 {1} 列]。",
     "CompletionReactionsInvalid_AutoReveal": "日誌資料表 [第 {0} 列]，使用 AutoRevealCondition 時完成後顯露 [第 {1} 列]。不允許此行為，ConditionsForAutoRevealOrHide 會自行管理工作顯露。",
-    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
-    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+    "NextTaskRowNameInvalid": "日誌資料表 [欄 {0}]，使用 RevealNextTaskOnComplete，但 NextTaskRowName {1} 錯誤。請重新勾選。",
+    "ValidateLoadedAsset": "任務資料表 [{0}] 前置任務索引 {1} 參照的任務 [{2}]，在套件的外掛程式編譯為 [{3}] 時將不存。將此列移除，或更新物品的發行版本以使其相符。"
   },
   "UJunoValidator_LootTables": {
-    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "LootPackage [{0}] 參照一個在套件的外掛於 [{2}] 進行烹調時不存在的物品 [{1}]。將此列移除，或更新物品的發行版本以使其相符。"
   },
   "UK2Node_ModifyObject": {
     "NodeTitle": "改裝物體",

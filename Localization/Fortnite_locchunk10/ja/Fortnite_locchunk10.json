@@ -356,6 +356,7 @@
     "BEFEB0CC4887556D5F83EA8C31563F5F": "二次的なジャンプ攻撃が可能な剣。",
     "144AC202422D81D8ECA7FDADA0248752": "高い精度と射程を備えたクラシックなライフル。",
     "174ADE3045B991036DAB808BA3802CDA": "高い精度と射程を備えたクラシックなライフル。",
+    "A633A07540E67656A515748EC42D2BFA": "高い精度と射程を備えたクラシックなライフル。",
     "5CA4C768442DACE154F650919AEBF7CC": "フルスロットルで噴出するスリルと興奮を。空中でジャンプして起動。",
     "62060089487721326B23BBA33709B481": "フルスロットルで噴出するスリルと興奮を。空中でジャンプして起動。",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "フルスロットルで噴出するスリルと興奮を。空中でジャンプして起動。",
@@ -422,10 +423,7 @@
     "F259347F4F2842296238EB82C300F898": "誰でも",
     "165B7E9748BBE879107084AD2F2A831F": "範囲回復 回復 ユーティリティアイテム ",
     "979E143F4DB80482F7115A92CA8BCD4A": "範囲回復 回復 ユーティリティアイテム ",
-    "A9FA7E534DAB697646EE6AB42C93C1D7": "アップルグリーン",
     "A2C33D7A4650D1311D24238FC644F05A": "<Emphasized>シールド</>を自分自身と近くのチームメイトに適用する",
-    "2C724915401F1A7787FFCB8FD290B616": "アクア",
-    "46C56F454E6F3673CEF647A6D72F3EDA": "アクアマリン",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "武器庫スロット",
     "14FE8E964665F3F20099A0B16A9D68F7": "アシュトン",
     "F00BAD564EF2DC73C32CB18F94A85EAE": "アシュトン",
@@ -555,7 +553,6 @@
     "120BA8004C6678552C7377A6A5483152": "ビーコンスタイル",
     "851AC090485097B263B626A83A02C0FE": "ビーム",
     "C1DC37B04598D140C5BD808AB61F9712": "スノーマンになる",
-    "21BB6A4D48D2430058D509B4F3D02AA9": "ベージュ",
     "0A9381554E499FD10B15438EDCFD41B0": "ビッグバレルDX",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "バイプレーン",
     "5B5236944941BFD7DE82B8B05FE11D94": "バイプレーン",
@@ -626,7 +623,6 @@
     "2AA0C53148468770E238D6825BF85BAC": "カテゴリースター",
     "EE922BB945F58FB9604A58A2D82D680C": "キャットウーマンの速射式サブマシンガン",
     "AA86FAD842ADDE0E9D552E92F44CDD7C": "キャットウーマン用にカスタマイズされた速射式サブマシンガン。装弾数を増やすために精巧に作られている。",
-    "D76CF3D846DE65E8BE51F39F748DAA43": "セルリアン",
     "EB4A9CD946CF1CAD986993958FEC99A7": "チャプター2 - シーズン5 ",
     "5D048A7F45BDC6C054F4528378401CD0": "チャプター2 - シーズン7",
     "02BD54134B723F96AC01628F3924C431": "チャプター2 - シーズン8",
@@ -929,7 +925,6 @@
     "7D608A2348789E08EF3A60ABB1E09742": "味方チーム",
     "2FB297854AA101161395379E33167490": "起死回生",
     "2277279745E5A2A74BC60299806407F0": "フローズン",
-    "E37268214ECAE0FDB58EF1A6BD1E9A81": "フクシア",
     "1D2EEEBF4370BF8C411B08B64DCE4F2E": "フルビッグバレル",
     "F6260A434A2F549B51B59F842C778EA8": "フルフラットライナー",
     "CA598A9647DDFFF9012FFE88BAC6D842": "フルGフリップ",
@@ -975,7 +970,6 @@
     "87E39EA04808B27EA30A908F811EF0FA": "グライダー",
     "3C063B974F09C8A673507CBE3ADDB71D": "単身でバトルに乗り込み、最後の1人になるまで生き残れ。",
     "8BEC89B8499664826B111685672B4E29": "単身でバトルに乗り込み、最後の1人になるまで生き残れ。",
-    "B8C59B304999B1F6964D1696FAB0E456": "ゴールド",
     "F92ED6D24B56EACA844D27A473619CF5": "ゴールド",
     "3636D06A4ADE66F6A3C73D9AAB04186F": "ゴールド通貨",
     "7B0936A2458A998274ED3484DE00BCDA": "ゴールデントリュフ",
@@ -994,7 +988,6 @@
     "2BAF9D994E20140BCD7F59A7CAC81BA3": "グレイブヤードスイッチターン",
     "A4341A0045390C670F4757948E6E3CE5": "グレイブヤードツナミ",
     "F0737F4E40417749A441A59843B932F0": "グレイブヤードボイジャー",
-    "0B5C62D0400E95930AEE12B1D2116EE2": "グリーン",
     "5D14C5F74CA277758C0476AA504D7CEA": "グラトウ",
     "331DB866438F7C72234C5B8338CC44A0": "パーティーを組み、他のスクワッドを倒して生き残れ。",
     "99E9D5F34DC01FC6B8774DB154EAC42E": "銃 アサルトライフル マシンガン 小口径弾 オートマチック",
@@ -1042,7 +1035,6 @@
     "2EAFA04B4FCA57C7AF24E29E7C4450D7": "ヘビースナイパー+",
     "A935E8954E7200704C91A0A3A85B8C71": "一定の確率で<Emphasized>瞬時にリロードする</>ヘビースナイパー",
     "56AA82F146826F523FA9119C01362035": "高さ",
-    "0B86EC9C474C4633272C9787A10B7795": "手に持つアイテム",
     "465E0326425E1043865BEB8E4C811AE3": "手に持つアイテム",
     "6C0951C64B0DA937087B0284224F92F4": "手に持つアイテム",
     "6EF1E84B40FA9D7CD51697ABF897FE4A": "手に持つアイテム",
@@ -1090,6 +1082,7 @@
     "3B23812B4104C655B1751DAB80ED2993": "インディGフリップ",
     "118BD9B247A79B6E7AB2189A409B7EFA": "インディラウンダー",
     "55F09A7841788A6D5EABF7AE7C720557": "インファントリーライフル",
+    "C115B50C4700A573DC237EAC7C92E21B": "インファントリーライフル",
     "F1638A45469F392DAF5444BE0A097644": "インファントリーライフル",
     "F317A4514DE5AEE182F39DA192E355AD": "インファントリーライフル",
     "1D7BBE454E1553569F9589A7E633F06D": "無限",
@@ -1236,7 +1229,6 @@
     "/Fortnite.com/Devices/NPCSpawner/npc_behavior_template_message_module/OnEndMessage": "NPCエージェント = {Agent}: OnEndがトリガーされました 片付けましょう。",
     "0DD368AE4439FC99C95A4595D62837AC": "ナチュラル・コンストラクター チャレンジ",
     "688E65C943BC171D5807FE974D7E59A9": "ネッド・ザ・エターナル チャレンジ",
-    "B80ED9CD455EDCE5BB4214A10A82B828": "ネオングリーン",
     "NetworkConnectionLost": "ネットワーク接続が失われました",
     "44067A6E421888DD39877E82D6DABB58": "中立のアイコンテキスト",
     "AB88B4554EDBE594A34706AED40BB6C4": "なし",
@@ -1358,7 +1350,6 @@
     "19A0DCA742B5AC4CB1D227AEE0A19601": "選択したもののみ",
     "B95E8C564EE3D7A237E5DEB35283797C": "必要時のみ",
     "BAC5E80D44DA978242043B9497A8E286": "撃破した敵が付近の敵の<Emphasized>居場所を明らかにする</>",
-    "95FD548C4AFFA37C807335BD7AF1AB6A": "オレンジ",
     "658517F44C1678AB75F76FB69BD46F60": "オレンジペイントランチャー  ",
     "516CA75D4CF5403A2F82BF838CD51DB7": "旧式のモジュールとペアレンティング",
     "6EB89D324C5E00500994CD96A83D5A72": "旧式のモジュールとペアレンティング",
@@ -1385,7 +1376,6 @@
     "B3CFEDE943AA56C0AEE82CA08F806463": "拾う",
     "7240B5BC46A81D296CBCA080DF98ECB7": "ツルハシラン",
     "91F4A2794D81253C6E03C7A0B78CC383": "消火器を拾う",
-    "F75FBF44462332D5DFE17691FCD37DFF": "ピンク",
     "2C211AA048AE4A1A5D9423B297E1023D": "パイレーツキャノン",
     "BB93B4574E7A8EF0105C4DAADCA4D5F8": "パイレーツキャノン",
     "CFBFEBC248741ED6E0FCC88CC754A22E": "パイレーツキャノン",
@@ -1438,7 +1428,6 @@
     "85A2E3C041A433B1B8D87C914FAFCC13": "パンチカードクリアトークン",
     "8FDD93294EE611E28D499E8504C6C314": "パンチカードパンチトークン",
     "B06F5AB34BA2C7C48F6D2982E60EC524": "パンチカードパンチトークン",
-    "A4A746BE47363A8193CEE4BC9E663930": "パープル",
     "A1D607174B6E2B132A79E0A3242425BE": "パープルペイントランチャー  ",
     "02D599B84C45A32A6BAB92925A070A51": "押す(タップ)/乗る(長押し)",
     "25171EA942DC385DE7E5798BBB4969A1": "置く",
@@ -1459,7 +1448,6 @@
     "B1CFA5584EBD1878822A699ECEB629A6": "レア宝箱",
     "101BBD144878EB1AA8CCD292737797AE": "リーコンスキャナー",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "リクルート",
-    "1C77EAFB46C48299170B7486AEFB6294": "レッドオレンジ",
     "7125E4704BEA318C6BD3D69B5893D080": "精製クラフト素材。素材から生成することができるが、一般的には宝箱で入手できる。",
     "16DA40C14B2BC801935504956E31A9C9": "泳いでいる間、<Emphasized>体力</>が回復する",
     "D956F3B24B85A136EDFF7681AD74FB8C": "再活性",
@@ -1590,10 +1578,8 @@
     "029C79824756DFCA21B1AB85821FF31C": "ニュースの表示",
     "2496EF09404F18FFE2EA0AB9BA7CFA8F": "オフスクリーンの矢印を表示",
     "D2AA34D248C42439671352909952AF0C": "ニュース画面を表示する",
-    "D5A97BEC41D14A772F78AD85787561D5": "シルバー",
     "37EA8D3C4FCA282792A19089FF9D264F": "<Emphasized>長距離用</>スコープ付きシングルショットスナイパーライフル",
     "9A6F1EDF4BBD286B035BA49BDF31635E": "スカル男チャレンジトークン",
-    "89373C3241ED5AC276FBA08F64FC6020": "スカイブルー",
     "C3F806054CE1F1D1A8FFFC9F8DF839BC": "低速",
     "252EFAEE4A3593A47968A9B628C86826": "射撃速度は遅いが<Emphasized>強力なピストル</>",
     "F415822746674FEAC04DCB8D1D0EC153": "スモークパーティクル",
@@ -1976,7 +1962,6 @@
     "A8CDADF8471D9C4CFEBFF598C94692E3": "乗り物が破壊されると、この設定分遅れてからリスポーンする(最初にスポーンする乗り物はこの設定の影響を受けない)。",
     "0D756F6B4F770EF0A8F90CAC0113EB78": "始まりのピストル",
     "E710C08E4E5C70FF8A286CB6EA101B4F": "ビーコンを表示するか、HUD要素を表示するか、両方表示するかの設定。",
-    "D3A54EAE40408580269CF39BCCA37888": "ホワイト",
     "195F2EE048C26E190C845691145D6CF6": "幅",
     "9BD108A54CA8FA397E1DBD95E37958BB": "ウィンターフェストチャレンジクリアトークン",
     "CBC7ADD24B1103A2F555E8AF59888C5F": "ウィンターフェストキー",
@@ -2139,23 +2124,35 @@
     "MergeSquadsText": "スクワッドの統合",
     "SquadsTooBigToMerge": "合流するにはスクワッドの人数が多すぎます"
   },
+  "AnimInEdTools": {
+    "SourceLink_NotASequence": "「{0}」をレベルシーケンスとしてロードできませんでした。",
+    "SourceLink_NoItem": "「{0}」は、このアニメーションへのリンクを記録していません。",
+    "SourceLink_OpenRange": "「{0}」には無制限の再生範囲が設定されているため、エクスポートされた範囲を特定できません。",
+    "SourceLink_NoTrack": "「{0}」にはこのアニメーションの基になったバインディングにコントロールリグのトラックがありません。",
+    "SourceLink_BadRate": "「{0}」は、フレームレートが無効なカスタムのエクスポート範囲を記録します。",
+    "SourceLink_NoAnim": "アニメーションは開いていません。",
+    "SourceLink_Missing": "リンクされているレベルシーケンス「{0}」が見つかりません。",
+    "SourceLink_NoLink": "このアニメーションはレベルシーケンスにリンクされていないため、読み取り用のソースキーのタイミングはありません。"
+  },
   "AnimInEdToolsModule": {
     "AnimToCRImportTabLabel": "アニメーション → コントロールリグ",
     "AnimToCRImportTabTooltip": "プレビューされたアニメーション(ポーズ、範囲、またはクリップ全体)を、開いているレベルシーケンスのコントロールリグにインポートします。"
   },
   "AnimToCRImport": {
-    "Clear": "クリア",
+    "ImportKeyTimings": "ソースキーのタイミングを適用",
+    "ClearInOutTip": "クリア In/Out",
     "CurFrame": "現在のフレーム",
-    "DelStatic": "スタティックチャンネルを削除",
-    "RangeHdr": "フレーム範囲",
     "ImportPose": "ポーズをインポート",
     "ImportRange": "範囲をインポート",
-    "OnlyStatic": "スタティックチャンネルのみを削減",
-    "OptionsHdr": "オプション",
-    "SelOnly": "選択したコントロールのみ",
+    "KeyTimingsTip": "全てのフレームではなく、元のレベルシーケンスの基本レイヤーにキーがあった場所にのみキーを保持します。値は引き続きこのアニメーションから取得されます。キー省略の設定を置き換えます。",
+    "NoLoadSettings": "アニメーション読み込みの設定は利用できません (LoadAnimToControlRigSettingsが見つかりません)。",
+    "SimpleViewTip": "アニメーションエディタをビューポート、タイムライン、このツール、アセットブラウザに戻します。オフにすると、開いていたタブが復元されます。",
+    "RestoreLayoutTip": "シンプルビューを最後に終了した時に開いていたタブを再度開く。簡易ビューを1回以上使用すると利用可能。",
+    "RestoreLayout": "レイアウトを元に戻す",
     "SetIn": "開始",
     "SetOut": "終了",
-    "SmartReduce": "スマート削減"
+    "SimpleView": "シンプルビュー",
+    "SourceLabel": "ソース: {0} フレーム {1}-{2}"
   },
   "AntiCheat": {
     "ClientErrorMessage": "{provider} エラー: {message}\n\n{provider}のFAQをご参照ください。"
@@ -2189,7 +2186,7 @@
   },
   "AssetTypeActions": {
     "AIActionSequence": "AIアクションシーケンス",
-    "UJunoAssetListAssetFactory": "Asset List"
+    "UJunoAssetListAssetFactory": "アセットのリスト"
   },
   "Athena": {
     "NPCHiredIndication": " (フォロワー)",
@@ -3033,7 +3030,7 @@
   },
   "Contexts": {
     "HLTv2ToCustomizableUI": "HLTv2からカスタマイズUIプラグイン",
-    "JunoViewportToolsCommands": "Juno Tools",
+    "JunoViewportToolsCommands": "Junoツール",
     "SpatialMetricProfiler": "SpatialProfiler",
     "WeaponModernizationEditorCommands": "武器近代化ツール"
   },
@@ -3864,8 +3861,8 @@
   },
   "FJunoViewportToolsModule": {
     "SectionName": "Juno",
-    "ExtensionName": "JunoTools",
-    "ConfigurePrefabTool": "Prefab"
+    "ExtensionName": "Junoツール",
+    "ConfigurePrefabTool": "プレハブ"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "{resourcetype}を{amount}個投入する",
@@ -5189,6 +5186,20 @@
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "スペシャル"
   },
+  "FortEpicParty": {
+    "AccountResolution": "内部エラー",
+    "ExistingInviteMissing": "内部エラー",
+    "FrameworkUnavailable": "内部エラー",
+    "JoinRetryAbandoned": "内部エラー",
+    "JoinableInfoMissing": "内部エラー",
+    "RetryAccountResolution": "内部エラー",
+    "RetryFrameworkUnavailable": "内部エラー",
+    "RetryJoinableInfoMissing": "内部エラー",
+    "RetryPartyPrivate": "内部エラー",
+    "RetrySameParty": "内部エラー",
+    "TargetNotFriend": "内部エラー",
+    "TargetNotJoinable": "内部エラー"
+  },
   "FortErrorOverrides": {
     "IoStoreHttpError": "バックエンドサービスとの通信中にエラーが発生しました。ネットワーク接続を確認したうえで、しばらく待ってから再度お試しください。 {ModuleIdString}.{ErrorCodeString}"
   },
@@ -5232,6 +5243,9 @@
   },
   "FortGameMode": {
     "FailedToStartMatchTimeout": "サーバーが時間内に始動しませんでした。"
+  },
+  "FortGameStateHestiaBeauty": {
+    "SittingOutPlayersToJumpInNotAllowed": "パーティーのセッションに参加できません。"
   },
   "FortGameStateOutpost": {
     "LimitThresholdReached": "注意: {0}個の建築物が設置されずに残っています。"
@@ -5451,10 +5465,8 @@
     "StorageItemDescription_BR": "バトルロイヤル、ゼロビルド、リロードで必要。",
     "StorageItemDescription_Sparks": "Fortnite Festivalで必要。",
     "StorageItemDescription_Juno": "レゴ®フォートナイトに必要。",
-    "StorageItemDescription_DelMar": "Rocket Racingとプレイヤー制作のRocket Racingマップで必要。",
     "StorageItemDescription_Core": "全ての体験に必要なコンテンツです。",
-    "StorageItemDescription_Creative": "クリエイター制作の島[とFeral]をプレイおよび編集するのに必要です。",
-    "StorageItemTitle_DelMar": "ロケットエンジンのコンテンツ"
+    "StorageItemDescription_Creative": "クリエイター制作の島[とFeral]をプレイおよび編集するのに必要です。"
   },
   "FortLinkedGraphGate": {
     "LinkedGraphTagInvalid": "@@ - 接続中のリンクされたグラフが見つかりません",
@@ -6825,6 +6837,7 @@
     "TweakZoneCollection_Name": "コントローラーの微調整ゾーン",
     "TelekineticonToggleActivation_Description": "テレキネティコンの起動方法を管理する。\n\nトリガーを長押し - トリガーを押し続けるとオブジェクトをつかみ、トリガーを離すとオブジェクトを落とす。\n切り替え - 押すとオブジェクトをつかみ、もう一度押すとオブジェクトを落とす。",
     "SocialPrivacy_MutualFriends_Description": "自分の相互フレンドが誰に表示されるかを決定します。\n\n<strong>プライベート</>: あなたの相互フレンドは誰にも表示されません。\n\n<strong>フレンドのみ</>: フレンドだけがあなたの相互フレンドを見られます。\n\n<strong>公開</>: 誰でもあなたの相互フレンドを見ることができます。",
+    "StrictInjectionPolicy_Description": "どのプログラムがフォートナイトとインタラクトできるかを管理します。\n\n有効になっている場合、セキュリティ強化のため、他のプログラムやそのオーバーレイがフォートナイトにアクセスできなくなります。この設定は一部の競技イベントで必要となる場合があります。",
     "GyroOffsetBuild_Description": "建築または編集時に、エイム入力がカメラより先にレティクルを移動させるかを切り替えます。",
     "MouseOffsetBuild_Description": "建築または編集時に、エイム入力がカメラより先にレティクルを移動させるかを切り替えます。",
     "TouchOffsetBuild_Description": "建築または編集時に、エイム入力がカメラより先にレティクルを移動させるかを切り替えます。",
@@ -6939,6 +6952,7 @@
     "GyroButtonEnable": "ジャイロセンサーを有効化",
     "EnergySavingIdle_Name": "アイドリング節電を有効化(フロントエンド)",
     "EnergySavingFocusLoss_Name": "アクティブでないウィンドウの節電を有効化",
+    "VoiceChatUseNoiseReduction_Name": "ノイズ軽減を有効にする",
     "HeadphoneMode_Description": "バイノーラルオーディオを有効化します。有効にするとオーディオが3Dで聞こえるようになり、音の位置が上下左右前後のどこからきているかが、より正確に把握できるようになります。ステレオヘッドホン限定での使用を推奨します。",
     "QuickWeaponToggle_Description_Switch": "実験的に実装されたクイック武器のアクションを有効にします。有効にすると、「次の武器」のボタンが「クイック武器」に置き換わります。\n\nクイック武器を押すと、プライマリアイテムが装備されます。クイック武器を押しながらABXYボタンのどれかを押すと、他のアイテムスロットのどれかに切り替わります。「クイック武器」とABXYボタンを同時押しすると、即座にそのアイテムを入れ替えることができます。「クイック武器」ボタンを長押しして、ABXYボタンとインベントリ内のアイテムの組み合わせに慣れておきましょう。\n\n有効にすると、「前の武器」が「マーカー設置」に置き換わり、より簡単に仲間とコミュニケーションを取ることができるようになります。または、コントローラーカスタマイズのタブで、「前の武器」を好きなアクションに置き換えることもできます。",
     "QuickWeaponToggle_Description_Switch2": "実験的に実装されたクイック武器のアクションを有効にします。有効にすると、「次の武器」のボタンが「クイック武器」に置き換わります。\n\nクイック武器を押すと、プライマリアイテムが装備されます。クイック武器を押しながらA/B/X/Yボタンのどれかを押すと、他のアイテムスロットのどれかに切り替わります。「クイック武器」とA/B/X/Yボタンを同時押しすると、即座にそのアイテムを入れ替えることができます。「クイック武器」ボタンを長押しして、A/B/X/Yボタンとインベントリ内のアイテムの組み合わせに慣れておきましょう。\n\n有効にすると、「前の武器」が「マーカー設置」に置き換わり、より簡単に仲間とコミュニケーションを取ることができるようになります。または、コントローラーカスタマイズのタブで、「前の武器」を好きなアクションに置き換えることもできます。",
@@ -7613,6 +7627,7 @@
     "WindingSpeedScaledByZoom_Description_Switch": "どの程度ズームインしているかによって、フリックスティックの回転速度を自動的に減速させる。例として、スナイピングを狙う際に辺りを見回す場合に安定性が上がる。最初にスティックに触れた際のフリック自体には影響しない。",
     "WindingSpeedScaledByZoom_Description": "どの程度ズームインしているかによって、フリックスティックの回転速度を自動的に減速させる。例として、スナイピングを狙う際に辺りを見回す場合に安定性が上がる。最初にスティックに触れた際のフリック自体には影響しない。",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "どの程度ズームインしているかによって、フリックスティックの回転速度を自動的に減速させる。例として、スナイピングを狙う際に辺りを見回す場合に安定性が上がる。最初にスティックに触れた際のフリック自体には影響しない。",
+    "VoiceChatUseNoiseReduction_Description": "扇風機、タイピング、部屋のエコーなどのマイクの背景ノイズを減らします。他のプレイヤーから、あなたの声が途切れたり、ロボットのように聞こえたり、音声が乱れていると言われた場合は、この設定をオフにしてください。",
     "ReducedDataUsage_Description": "自動でダウンロードされるデータの量を減らします。\n\nスマホまたはインターネットのデータ通信プランに通信量の上限があり、それを超えてしまいそうな場合に役立ちます。",
     "GyroSensitivityScaledByZoom_Description": "どれだけズームしているかに応じて、自動的に照準の感度を減少させます。これにより、長射程の武器の照準を安定させることができます。",
     "Reflections_Description": "リフレクション品質は、反射の解像度と精度を決定します。\n\n「Lumen 高」および「Lumen 最高」のオプションは、大幅にクオリティが高くなりますが、パフォーマンスが低下する可能性があります。\n\nオフ: 反射はオフになります。\n\nスクリーンスペース: 現在画面に表示されているもののみに基づいて反射を計算します。\n\nLumen 高/最高: 高いクオリティのリアルタイムなレイ トレース反射です。",
@@ -7832,6 +7847,7 @@
     "StopRenderingInBackground_Name": "バックグラウンドでのレンダリングを停止",
     "StopRenderingInBackground_Description": "ゲームウィンドウが最前面になく、かつ可能な場合にレンダリングを停止する。GPUのリソースを解放し、他のアプリケーションで使用できるようにする。",
     "KeyboardMovementStrafeDiagonal_Name": "攻撃角度",
+    "StrictInjectionPolicy_Name": "厳格な投入ポリシー",
     "MatchmakingSubregion_Name": "サブ地域の優先設定",
     "SubtitlePage_Name": "字幕",
     "SubtitlesCollection_Name": "字幕",
@@ -8005,7 +8021,7 @@
     "InvertPitchForAircraftPrimary_Description": "飛行機のコントローラー操作反転のオン/オフを切り替えます。オンの場合、前に動かすと飛行機が下降します。",
     "InvertPitchForAircraftSecondary_Description": "飛行機のマウス操作の反転オン/オフを切り替えます。オンの場合、マウスを前に動かすと飛行機が下降します。",
     "InvertPitchForAircraftTouch_Description": "飛行機のタッチ操作反転のオン/オフを切り替えます。オンの場合、タッチを前に動かすと飛行機が下降します。",
-    "AutoPickUpEnabled_Description": "アイテムの自動回収のオン/オフを切り替えます。オンの場合、アイテムの上を通ると自動的に回収します。",
+    "AutoPickUpEnabled_Description": "アイテムを自動で回収する機能のオン/オフを切り替えます。 オンの場合、アイテムの上を通ると自動的に回収し、より優れたアイテムがある場合は、必要に応じて所持中のアイテムと自動で入れ替えます。",
     "AutoSortConsumablesToHigherSlots_Description": "「消耗品をより大きい番号のスロットに自動ソート」のオン/オフを切り替えます。オンの場合、体力回復やシールド回復などの消耗アイテムを拾うと、空いているクイックバースロットの最も大きい番号のスロットにデフォルトで設定されます。",
     "AutoSortConsumablesToRight_Description": "「消耗品を右側に自動ソート」のオン/オフを切り替えます。オンの場合、体力回復やシールド回復などの消耗アイテムを拾うと、空いているクイックバースロットの一番右にデフォルトで置かれます。",
     "GamepadAutoRun_Description_PS4": "ワイヤレスコントローラーのオートダッシュのオン/オフを切り替えます。オンの場合、L3ボタンを2回押し込むと自動的に前方にダッシュするので、左スティックを倒したままにする必要はありません。",
@@ -8499,6 +8515,7 @@
     "ErrorSendingMessage": "メッセージの送信時にエラーが発生しました:{0}",
     "HiddenPlayerSays": "非表示プレイヤーのコメント: ",
     "BlockedPlayerMessage": "メッセージ非表示",
+    "FilteringUnavailableMessage": "テキストのフィルター処理に失敗したため、メッセージは利用できません。",
     "TextChatDisabledByPlasterBeach": "TBD",
     "TextChatDisabledByTournamentMode": "クライアントがトーナメントモードのため、テキストチャットが無効化されています。",
     "TextChatEnabled": "テキストチャットが有効になりました。",
@@ -8511,6 +8528,7 @@
     "WelcomeDelMar": "Rocket Racingへようこそ！ レース仲間とチャットしましょう！",
     "WelcomeSparks": "メインステージへようこそ！ 何を演奏するか決める間、バンドのメンバーとチャットしましょう。",
     "WelcomeJuno": "{0}へようこそ！ ここで何をしているのかを皆に知らせましょう！",
+    "VerseSubChannelSendBlockedMessage": "このチャンネルにはメッセージを送信できません。",
     "TextChatDisabledByUser": "設定でテキストチャットが無効になっています。",
     "YouJoinedGameMessage": "ゲームチャンネルに参加しました。",
     "YouJoinedPartyMessage": "パーティーに参加しました。",
@@ -8756,6 +8774,25 @@
     "SettingSaveFailed_Title": "設定を保存できませんでした",
     "SettingSaveFailed_Description": "ペアレンタルコントロールのサービスに問題が発生しているようです。時間を空けてもう一度お試しください。状況が変わらないようであれば、https://status.epicgames.comをご確認ください。"
   },
+  "FortSystemConfigRequirements": {
+    "IOMMU": "IOMMU ハードウェア仮想化",
+    "DmaRemapping": "Kernel DMAプロテクション",
+    "KernelCodeIntegrity": "メモリの整合性",
+    "InvalidConfigReason": "必要なシステムセキュリティ設定が利用できません。 後ほどもう一度お試しください。",
+    "SecureBoot": "セキュアブート",
+    "StableOSVersion": "安定動作するOSバージョン",
+    "StrictInjectionPolicy": "厳格な投入ポリシー",
+    "InvalidConfig": "システムのセキュリティ設定",
+    "CryptoProcessor": "TPM(トラステッドプラットフォームモジュール)"
+  },
+  "FortSystemConfigRequirementsModalVM": {
+    "DialogTitle": "追加のセキュリティ要件",
+    "Enabled": "有効",
+    "EnabledWithWarning": "警告付きで有効",
+    "NotEnabled": "無効",
+    "UnknownStatus": "ステータスは利用できません",
+    "DialogIntroduction": "システムが、プレイに必要な追加のセキュリティ要件を満たしていません。「さらに詳しく」を選択して、Easy Anti-Cheatサポートへアクセスしてください。"
+  },
   "FortTabListWidgetBase": {
     "UnspecifiedTab": "詳細不明"
   },
@@ -8775,7 +8812,9 @@
   },
   "FortTextChatConversationVM": {
     "PartyFrameworkUnavailable": "パーティーフレームワーク利用不可",
-    "SocialToolkitUnavailable": "ソーシャルツールキット利用不可"
+    "SocialToolkitUnavailable": "ソーシャルツールキット利用不可",
+    "InvalidJoinPartyConversation": "会話が利用できないため、パーティーに参加できません。",
+    "InvalidStartPartyConversation": "会話が利用できないため、パーティーを開始できません。"
   },
   "FortTextChatPlayerVM": {
     "RedactedUserBlocked": "<Blocked player>",
@@ -8783,10 +8822,14 @@
     "MessageDelayedFont": "<新しいフォントが読み込めるまでメッセージ保留>",
     "ConversationsDest": "チャット",
     "TempTitle": "名前を取得中…",
+    "VerseSubChannelDefaultName": "ゲーム",
     "NewChatOption": "新規チャット",
+    "VerseSubChannelChanged": "{0}でチャットしています",
     "ClamOneMessage": "チャット内で…ボタンを押すか、プレイヤーのメッセージを選択すれば、後でプレイヤーをミュートまたはブロックできるということを覚えておきましょう",
     "SendDM": "DMを送信",
-    "DMWelcomeMessage": "{0}とのダイレクトメッセージへようこそ！"
+    "DMWelcomeMessage": "{0}とのダイレクトメッセージへようこそ！",
+    "VerseSubChannelMuted": "いまは{0}に書き込めません",
+    "VerseChatSenderNameFormat": "[{0}] {1}"
   },
   "FortTournamentLobbyPanel": {
     "NoMatchTimeDescription": "最後のマッチが開始しました",
@@ -8893,7 +8936,6 @@
     "EpicPartyGroupInviteDetailsSent": "<Username>{0}</>をパーティーに招待しました",
     "EpicPartyInviteDetailsSent": "<Username>{0}</>をパーティーに招待しました",
     "PartyInviteDetailsSent": "<Username>{0}</>をパーティーに招待しました",
-    "EpicPartyJoinabilityChangedInviteOnlyDetails": "パーティーは招待制です",
     "EpicPartyJoinRequestReceived_Title": "パーティ参加リクエスト",
     "EpicPartyMemberCreated": "プレイヤーがパーティーに参加しました",
     "PartyMemberCreated": "プレイヤーがパーティーに参加しました",
@@ -8918,6 +8960,7 @@
     "RequestToJoinParty_RateLimited": "リクエスト送信の制限に達しました。時間をおいてもう一度試してください",
     "FriendToastSelfTooManyFriends": "フレンドが多すぎます",
     "FriendToastSelfOutboxFull": "送信フレンド申請の上限に達しています",
+    "EpicPartyJoinabilityChangedInviteOnlyDetails": "パーティーが招待のみに設定されました",
     "EpicPartyJoinabilityChangedOpenDetails": "あなたのパーティーは参加可能になりました",
     "NotifMgrForkMemberNoAccessToast": "{Username} は選択されたフォークにアクセスできません。フォークを無視して処理を続行します"
   },
@@ -8938,7 +8981,7 @@
     "NoInternetDesc": "接続を確認して、もう一度お試しください。",
     "QuitText": "終了する",
     "Benchmark": "ベンチマークを実行中…",
-    "ServicesSlow": "サーバー応答なし",
+    "ServicesSlow": "サーバーは現在利用できません。また後ほど確認してください。",
     "RHIChangeSettingsApplied_Title": "設定が適用されました",
     "LogoutComplete": "ログアウトに成功しました。",
     "OfferRHIChangeForStability_FullDescription": "お使いのコンピューターにインストールされているグラフィックドライバーには、現在のレンダリングモード(DirectX 12)における既知の安定性の問題があり、プレイ中にフォートナイトがクラッシュする可能性があります。より高い安定性を得るために{NewRHI}へ切り替えますか？ {OptionalAutoRestartText}",
@@ -9722,8 +9765,17 @@
     "ProgressFormat": "プラグインを移行中({0}/{1})",
     "PhasePrimaryModule": "プライマリゲームモジュールを移行中…",
     "PhaseComplete": "移行完了",
+    "MigrationFailed": "次のエラーで移行に失敗しました: {0}\n\n失敗した時点の進行状況は保存されています。",
     "PhaseFailed": "移行に失敗しました: {0}",
-    "ProgressReady": "移行の準備完了"
+    "NoFortMobileHUDElementWrapperClassProvided": "移行用のFort HUD要素ラッパークラスが提供されていません。プロジェクト設定タブの、HLTv2からカスタマイズ可能なUIへの移行設定で指定してください。",
+    "NoBaseHLTRegistryProvided": "移行用のベースHUDレイアウトツールモバイルHUDウィジェット登録が提供されていません。プロジェクト設定タブの、HLTv2からカスタマイズ可能なUIへの移行設定で指定してください。",
+    "NoBaseMoveStickCanvasClassProvided": "移行用のベース移動スティックキャンバスクラスが提供されていません。プロジェクト設定タブの、HLTv2からカスタマイズ可能なUIへの移行設定で指定してください。",
+    "NoMigrationConfigProvided": "構成アセットが提供されていないため、移行できません。プロジェクト設定タブの、HLTv2からカスタマイズ可能なUIへの移行設定で指定してください。",
+    "NoExcludeConditionProvided": "この移行には、動的UIの除外条件が提供されていません。プロジェクト設定タブの、HLTv2からカスタマイズ可能なUIへの移行設定で指定してください。",
+    "NoTouchActionButtonWrapperClassProvided": "移行用のタッチアクションボタンラッパーが提供されていません。プロジェクト設定タブの、HLTv2からカスタマイズ可能なUIへの移行設定で指定してください。",
+    "ProgressReady": "移行の準備完了",
+    "AllHLTv2SetupsMigratedToCustomizableUISuccessfully": "HLTv2構成を持つ登録済みのすべてのプラグインを、カスタマイズ可能なUIに正常に移行しました。",
+    "NoBaseCustomizableUIRegistryPluginProvided": "ルートゲーム機能プラグイン移行ツールでは、基本HLTウィジェットレジストリの移行を先に実行する必要があります。プロジェクト設定タブの、HLTv2からカスタマイズ可能なUIへの移行設定で、対象となるゲーム機能データを指定してください。"
   },
   "HUD": {
     "Cancel": "キャンセル",
@@ -9801,8 +9853,6 @@
   },
   "IARC": {
     "USK_AGE_0_Abbreviated": "全年齢対象",
-    "EPIC_SUGGESTED_RATING_AGE_0": "全年齢対象",
-    "EPIC_SUGGESTED_RATING_AGE_0_Abbreviated": "全年齢対象",
     "RUSSIA_AGE_0_Abbreviated": "全年齢対象",
     "TCA_AGE_G_Abbreviated": "全年齢対象",
     "CLASSIND_AGE_10_Abbreviated": "10",
@@ -9821,8 +9871,6 @@
     "PEGI_AGE_12_Abbreviated": "12",
     "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "12 年",
-    "EPIC_SUGGESTED_RATING_AGE_12": "12+",
-    "EPIC_SUGGESTED_RATING_AGE_12_Abbreviated": "12+",
     "GEN_AGE_12": "12+",
     "GEN_AGE_12_Abbreviated": "12+",
     "RUSSIA_AGE_12": "12+",
@@ -9835,52 +9883,18 @@
     "IGRS_AGE_13_Abbreviated": "13+",
     "CLASSIND_AGE_14_Abbreviated": "14",
     "CLASSIND_AGE_14": "14歳",
-    "EPIC_SUGGESTED_RATING_AGE_14": "14歳以上",
-    "EPIC_SUGGESTED_RATING_AGE_14_Abbreviated": "14歳以上",
     "CERO_AGE_15_Abbreviated": "15",
     "IGRS_AGE_15": "15以上",
     "IGRS_AGE_15_Abbreviated": "15以上",
     "TCA_AGE_PG_15_Abbreviated": "15以上",
     "CLASSIND_AGE_16_Abbreviated": "16",
-    "FPB_AGE_16": "16",
-    "FPB_AGE_16_Abbreviated": "16",
-    "GCAM_AGE_16": "16",
-    "GCAM_AGE_16_Abbreviated": "16",
     "GMEDIA_AGE_16": "16",
     "GMEDIA_AGE_16_Abbreviated": "16",
-    "MRO_AGE_16": "16",
-    "MRO_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16歳",
-    "EPIC_SUGGESTED_RATING_AGE_16": "16+",
-    "EPIC_SUGGESTED_RATING_AGE_16_Abbreviated": "16+",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
-    "RUSSIA_AGE_16": "16+",
-    "RUSSIA_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
-    "FPB_AGE_18": "18",
-    "FPB_AGE_18_Abbreviated": "18",
-    "GCAM_AGE_18": "18",
-    "GCAM_AGE_18_Abbreviated": "18",
-    "GMEDIA_AGE_18": "18",
-    "GMEDIA_AGE_18_Abbreviated": "18",
-    "MRO_AGE_18": "18",
-    "MRO_AGE_18_Abbreviated": "18",
+    "CLASSIND_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18歳",
-    "CLASSIND_AGE_18_Abbreviated": "18歳",
-    "EPIC_SUGGESTED_RATING_AGE_18": "18歳以上",
-    "EPIC_SUGGESTED_RATING_AGE_18_Abbreviated": "18歳以上",
-    "GEN_AGE_18": "18歳以上",
-    "GEN_AGE_18_Abbreviated": "18歳以上",
-    "IGRS_AGE_18": "18歳以上",
-    "IGRS_AGE_18_Abbreviated": "18歳以上",
-    "RUSSIA_AGE_18": "18歳以上",
-    "RUSSIA_AGE_18_Abbreviated": "18歳以上",
-    "GMEDIA_AGE_21": "21",
-    "GMEDIA_AGE_21_Abbreviated": "21",
-    "MRO_AGE_21": "21",
-    "MRO_AGE_21_Abbreviated": "21",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
     "GMEDIA_AGE_3": "3",
@@ -9892,11 +9906,7 @@
     "GEN_AGE_3_Abbreviated": "3+",
     "IGRS_AGE_3": "3以上",
     "IGRS_AGE_3_Abbreviated": "3以上",
-    "CLASSIND_AGE_6_Abbreviated": "6",
     "USK_AGE_6_Abbreviated": "6",
-    "CLASSIND_AGE_6": "6歳",
-    "EPIC_SUGGESTED_RATING_AGE_6": "6+",
-    "EPIC_SUGGESTED_RATING_AGE_6_Abbreviated": "6+",
     "RUSSIA_AGE_6": "6+",
     "RUSSIA_AGE_6_Abbreviated": "6+",
     "TCA_AGE_P_Abbreviated": "6+",
@@ -9914,12 +9924,13 @@
     "IGRS_AGE_7_Abbreviated": "7以上",
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
+    "ClassInd_AIInteraction_v11_0": "AIのインタラクション",
     "USK_AbstrakteGewalt": "抽象的な暴力",
     "ACB_ActionViolence_v10_0": "アクション暴力",
     "ClassInd_AdolescentThemes": "思春期のテーマ",
+    "ClassInd_AdultContent_v11_0": "成人向けコンテンツ",
     "ClassInd_AdultThemes": "成人向けのテーマ",
-    "ESRB_AGE_AO": "18歳以上の成人のみ",
-    "ESRB_AGE_AO_Abbreviated": "18歳以上の成人のみ",
+    "ClassInd_Advertising_v11_0": "広告",
     "USK_Alokohol_v9_0": "アルコール",
     "ESRB_AlcoholReference": "アルコールへの言及",
     "USK_Alkoholkonsum": "アルコールの使用",
@@ -9932,6 +9943,7 @@
     "ESRB_AnimatedBlood": "アニメーション化された血液",
     "TCA_AntiSociety": "反社会的",
     "ClassInd_AttenuatedAdultThemes": "軽度な成人向けのテーマ",
+    "ClassInd_AudioVideoSharing_v11_0": "オーディオとビデオの共有",
     "GEN_BadLanguage": "下品な言葉づかい",
     "PEGI_BadLanguage": "下品な言葉づかい",
     "ACB_BattleViolence": "戦闘的暴力",
@@ -9946,10 +9958,6 @@
     "CERO_AGE_0": "CERO A",
     "CERO_AGE_12": "CERO B",
     "CERO_AGE_15": "CERO C",
-    "CERO_AGE_17": "CERO D",
-    "CERO_AGE_17_Abbreviated": "CERO D",
-    "CERO_AGE_18": "CERO Z",
-    "CERO_AGE_18_Abbreviated": "CERO Z",
     "IE_Competitive_Intensity": "CI(競技的緊張)",
     "TCA_CardOrCasualGames": "カードあるいはカジュアルなゲーム",
     "ESRB_CartoonViolence": "漫画的暴力",
@@ -9961,12 +9969,14 @@
     "IGRS_CharacterAppearance": "キャラクターの外見",
     "TCA_ChessGames": "チェスのゲーム",
     "ACB_CoarseLanguage": "下品な言葉",
+    "EPIC_OFLC_Coarse_Language": "下品な言葉",
     "ACB_ComedicViolence": "喜劇的暴力",
     "ESRB_ComicMischief": "喜劇的ないたずら",
     "USK_ComicGewalt_v9_0": "漫画による暴力描写",
     "FPB_CompetitiveIntensity": "競技的緊張",
     "ClassInd_ConsumptionofAlcohol": "アルコールの使用",
     "USK_Kontaktrisiken_v10_0": "接触リスク",
+    "ClassInd_ContentRecommendation_v11_0": "おすすめコンテンツ",
     "USK_InhalteFuerVerschiedeneAltersgruppen_v7_0": "さまざまな年齢グループに対応した内容",
     "CERO_ControlledSubstances": "麻薬等薬物",
     "CERO_Crime": "犯罪",
@@ -10032,12 +10042,8 @@
     "RUS_Fear_v7_0": "恐怖",
     "IGRS_FearHorror": "恐怖/ホラー",
     "GRAC_AGE_12": "12 歳以上向け",
-    "GRAC_AGE_15": "15歳以上向け",
-    "GRAC_AGE_15_Abbreviated": "15歳以上向け",
     "GRAC_AGE_ALL": "全年齢向け",
     "ACB_AGE_G_Abbreviated": "G",
-    "CSRR_AGE_0": "G",
-    "CSRR_AGE_0_Abbreviated": "G",
     "OFLC_AGE_0": "G",
     "OFLC_AGE_0_Abbreviated": "G",
     "CERO_Gambling": "ギャンブル",
@@ -10105,6 +10111,7 @@
     "ACB_HorrorViolence": "恐怖を与える暴力",
     "ACB_HuntingViolence": "狩猟的暴力",
     "ClassInd_DrogasIlicitas": "違法薬物",
+    "ClassInd_ImageManipulation_v11_0": "映像演出",
     "FPB_ImitativeActsAndTechniques": "行為や技術の模倣性",
     "ClassInd_ConteudoImpactante": "影響の大きい内容",
     "ACB_ImpliedSexualViolence": "性的暴力の暗示",
@@ -10144,8 +10151,6 @@
     "OFLC_AGE_15": "M",
     "OFLC_AGE_15_Abbreviated": "M",
     "ACB_AGE_M": "17 才以上対象",
-    "ESRB_AGE_M": "17歳以上対象",
-    "ESRB_AGE_M_Abbreviated": "17歳以上対象",
     "ESRB_MatureHumor": "大人向けユーモア",
     "ACB_MatureThemes": "大人向けテーマ",
     "ClassInd_ProcedimentosMedicos_v8_0": "医学処置",
@@ -10207,26 +10212,12 @@
     "PEGI_ModerateViolence": "軽い暴力",
     "ClassInd_ModerateViolenceAnimated": "中程度のアニメーション化された暴力",
     "ClassInd_ModeratelyRealisticViolence": "中程度にリアルな暴力",
-    "ACB_AGE_NA": "利用不可",
-    "ACB_AGE_NA_Abbreviated": "利用不可",
-    "GRAC_AGE_NA": "利用不可",
-    "GRAC_AGE_NA_Abbreviated": "利用不可",
-    "TCA_AGE_NA": "利用不可",
-    "TCA_AGE_NA_Abbreviated": "利用不可",
     "ACB_NoConsumerAdvice": "消費者への忠告なし",
     "ClassInd_Naohainadequacoes": "指定なし",
     "ESRB_NoDescriptors": "指定なし",
     "GEN_NoDescriptors": "指定なし",
     "PEGI_NoDescriptors": "指定なし",
     "USK_NoDescriptors": "指定なし",
-    "USK_AGE_18": "青少年には適しません",
-    "USK_AGE_18_Abbreviated": "青少年には適しません",
-    "GMEDIA_AGE_NA": "該当なし",
-    "GMEDIA_AGE_NA_Abbreviated": "該当なし",
-    "IGRS_AGE_NA": "該当なし",
-    "IGRS_AGE_NA_Abbreviated": "該当なし",
-    "GRAC_AGE_ADULT": "青少年には適しません",
-    "GRAC_AGE_ADULT_Abbreviated": "青少年には適しません",
     "ACB_Nudity": "ヌード",
     "ClassInd_Nudez": "ヌード",
     "ESRB_Nudity": "ヌード",
@@ -10245,14 +10236,8 @@
     "ACB_GEMCO": "オンライン インタラクティビティ",
     "ACB_OnlineInteractivityAndChat_v10_0": "オンラインの対話機能とチャット",
     "IE_OnlineMusicNotRatedByESRB": "オンラインの音楽はESRB(エンターテインメントソフトウェアレイティング委員会)のレーティングの対象ではありません",
-    "CSRR_AGE_6": "P",
-    "CSRR_AGE_6_Abbreviated": "P",
     "PEGI_AGE_PG": "保護者の指導を推奨",
     "PEGI_AGE_12": "PEGI 12",
-    "PEGI_AGE_16": "PEGI 16",
-    "PEGI_AGE_16_Abbreviated": "PEGI 16",
-    "PEGI_AGE_18": "PEGI 18",
-    "PEGI_AGE_18_Abbreviated": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10261,10 +10246,6 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
-    "CSRR_AGE_12": "PG12",
-    "CSRR_AGE_12_Abbreviated": "PG12",
-    "CSRR_AGE_15": "PG15",
-    "CSRR_AGE_15_Abbreviated": "PG15",
     "TCA_AGE_PG_12": "保護者の監督(12歳以上)",
     "TCA_AGE_PG_15": "保護者の監督(15歳以上)",
     "GEN_ParentalGuidanceRecommended": "保護者の指導を推奨",
@@ -10283,22 +10264,6 @@
     "PEGI_ProminentGamblingImagery_v9_0": "目立つギャンブルの画像",
     "TCA_AGE_P": "保護",
     "ClassInd_PsychologicalConflicts": "心理的葛藤",
-    "CSRR_AGE_18": "R",
-    "CSRR_AGE_18_Abbreviated": "R",
-    "OFLC_AGE_13": "R13",
-    "OFLC_AGE_13_Abbreviated": "R13",
-    "OFLC_AGE_R15": "R15",
-    "OFLC_AGE_R15_Abbreviated": "R15",
-    "OFLC_AGE_16": "R16",
-    "OFLC_AGE_16_Abbreviated": "R16",
-    "OFLC_AGE_18": "R18",
-    "OFLC_AGE_18_Abbreviated": "R18",
-    "ESRB_RATING_PENDING_AGE_10": "評価保留中",
-    "ESRB_RATING_PENDING_AGE_10_Abbreviated": "評価保留中",
-    "ESRB_RATING_PENDING_AGE_17": "評価保留中",
-    "ESRB_RATING_PENDING_AGE_17_Abbreviated": "評価保留中",
-    "ESRB_RATING_PENDING_M_AGE_17": "レーティング保留中 17歳以上向けになる可能性あり",
-    "ESRB_RATING_PENDING_M_AGE_17_Abbreviated": "レーティング保留中 17歳以上向けになる可能性あり",
     "GRAC_RandomBox_v7_1": "ランダム ボックス",
     "USK_SelteneSchreckmomente": "恐怖を感じさせる状況 (まれ)",
     "ESRB_RealGamblingOnly_v9_0": "現実のギャンブル",
@@ -10308,27 +10273,7 @@
     "ClassInd_RealisticBlood": "リアルな流血",
     "USK_AndeutungenSexuellerGewalt": "性的暴力への言及あり",
     "ACB_ReferencestoSexualViolence": "性的暴力への言及",
-    "ACB_AGE_RC": "禁止分類",
-    "ACB_AGE_RC_Abbreviated": "禁止分類",
     "ACB_RefusedClassification": "禁止分類",
-    "GMEDIA_AGE_RC": "禁止分類",
-    "GMEDIA_AGE_RC_Abbreviated": "禁止分類",
-    "GRAC_AGE_RC": "禁止分類",
-    "GRAC_AGE_RC_Abbreviated": "禁止分類",
-    "IGRS_AGE_RC": "禁止分類",
-    "IGRS_AGE_RC_Abbreviated": "禁止分類",
-    "RUSSIA_AGE_RC": "禁止分類",
-    "RUSSIA_AGE_RC_Abbreviated": "禁止分類",
-    "TCA_AGE_RC": "禁止分類",
-    "TCA_AGE_RC_Abbreviated": "禁止分類",
-    "USK_AGE_RC": "禁止分類",
-    "USK_AGE_RC_Abbreviated": "禁止分類",
-    "ACB_AGE_MA15": "制限あり",
-    "ACB_AGE_MA15_Abbreviated": "制限あり",
-    "ACB_AGE_R18": "制限あり",
-    "ACB_AGE_R18_Abbreviated": "制限あり",
-    "TCA_AGE_R": "制限あり",
-    "TCA_AGE_R_Abbreviated": "制限あり",
     "USK_AngstigendeInhalte": "恐怖を感じさせるコンテンツ",
     "USK_Schreckmomente_v9_0": "恐怖を感じさせる瞬間",
     "ACB_ScaryScenes": "恐怖を感じさせるシーン",
@@ -10442,8 +10387,6 @@
     "ESRB_TobaccoReference": "タバコへの言及",
     "USK_Tabakkonsum": "タバコの使用",
     "TCA_TobaccoAndAlcohol": "タバコとアルコール",
-    "EPIC_GRAC_AGE_19": "レーティング未定",
-    "EPIC_GRAC_AGE_19_Abbreviated": "レーティング未定",
     "IE_UnrestrictedInternet": "制限なしのインターネット",
     "ESRB_UseofAlcohol": "アルコールの使用",
     "ESRB_UseofAlcoholandTobacco": "アルコールとタバコの使用",
@@ -10483,6 +10426,7 @@
     "ACB_VeryMildSexualisedImagery": "性的画像 (きわめて軽度)",
     "ACB_VeryMildSlapstickViolence_v10_0": "スラップスティック暴力 (きわめて軽度)",
     "ACB_VeryMildSportingViolence_v10_0": "スポーツ暴力 (きわめて軽度)",
+    "EPIC_OFLC_Mild_Sports_Violence": "スポーツ関連の暴力(きわめて軽度)",
     "ACB_VeryMildSuggestiveThemes": "挑発的テーマ (きわめて軽度)",
     "ACB_VeryMildSupernaturalThemes": "超自然テーマ (きわめて軽度)",
     "ACB_VeryMildSupernaturalViolence_v10_0": "超自然的暴力 (きわめて軽度)",
@@ -10597,8 +10541,8 @@
     "RestrictionLineFormat": "{Index}.{Restriction}"
   },
   "JunoBuildingSnapEditorDetails": {
-    "SnapEditorRotateInPlace": "In Place",
-    "Toolbar": "Snap Editor Toolbar"
+    "SnapEditorRotateInPlace": "インプレース",
+    "Toolbar": "スナップエディタのツールバー"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "Juno接続データのフラグ",
@@ -10614,30 +10558,30 @@
     "ConsolidatePrimitivesCombined": "リダイレクターを作成中 - /JunoAtomAssets/CombinedMeshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesMeshes": "リダイレクターを作成中 - /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "リダイレクターを作成中 - /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
-    "GetAssetsOfType": "Gathering '{0}' Assets",
-    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
-    "PrintAtomModelsInfo": "Printing out a AtomModels info",
+    "GetAssetsOfType": "'{0}'アセットを収集中",
+    "UpdateGeneratedMeshes": "汚れたメッシュを生成中",
+    "PrintAtomModelsInfo": "Atomモデル情報をプリントアウト中",
     "RepairGeneratedMeshes": "Atomモデルを修復中",
-    "RegeneratePrimitivesOnPrimitive": "Running Primitive Processor : {0} ({1})",
-    "RegeneratePrimitives": "Running Primitive Processor...",
-    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+    "RegeneratePrimitivesOnPrimitive": "プリミティブプロセッサを実行中: {0} ({1})",
+    "RegeneratePrimitives": "プリミティブプロセッサを実行中…",
+    "UpdateAllAtomModelsToUseProcessors": "Atomモデルをアップデート中"
   },
   "JunoFECraftingDataTool": {
     "ImGuiFrontendCraftingDataTool": "Juno フロントエンド クラフトデータツール",
     "ImGuiFrontendCraftingDataToolTooltip": "フロントエンドで使用するUIデータをコピーするためのツール"
   },
   "JunoValidator_AtomModel": {
-    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
-    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "プロセッサが設定されていますが、メッシュを生成する必要があります。",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "プロセッサが設定されていませんが、生成されたメッシュを参照しています"
   },
   "JunoValidator_ClientOnlyGameFeatureData": {
     "ClientOnlyRowStructOnServer": "行の構造体'{0}'はクライアント専用モジュール'{1}'で定義されていますが、サーバーでロードされる'{2}'から参照されています。構造体をランタイムモジュールに移動するか、データがクライアントにのみ読み込まれるようにしてください。"
   },
   "JunoValidator_GeometryCollection": {
-    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "自動インスタンス化されたメッシュがありません",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "無効なプロキシメッシュがあります",
-    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
-    "JunoValidator_GeometryCollection_ProxyMeshes": "Requires at least one Proxy Mesh"
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "オート・インスタンスド・メッシュが1個以上必要",
+    "JunoValidator_GeometryCollection_ProxyMeshes": "プロキシメッシュが1つ以上必要"
   },
   "JunoValidator_POI": {
     "ReplaceWithoutReplacement": "置き換えに設定された注目スポット行「{0}」にReplacementPOIの名前がないため、削除のみ行われます。置き換えに設定されたものに名称を設定するか、IneligibleActionを削除に設定してください。",
@@ -10651,14 +10595,14 @@
     "MismatchedRowStruct": "プレイリストタグ「{1}」用のPlaylistBaseDataTableOverrides[{0}]: オーバーライドテーブル「{2}」は行構造「{3}」を用いていますが、ベーステーブル「{4}」は行構造「{5}」を用いています。異なる行タイプでデータテーブルをオーバーライドすると、実行時にメモリが破損します。オーバーライドテーブルは、ベーステーブルと全く同じ行構造を使用する必要があります。"
   },
   "JunoValidator_StaticMesh": {
-    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
-    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
-    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
-    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
-    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
-    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
-    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
-    "JunoValidator_StaticMesh_NumLODs": "Only has one LOD"
+    "JunoValidator_StaticMesh_InvalidLODs": "アセットに無効なLODチェーンが含まれています",
+    "JunoValidator_StaticMesh_OpaqueExport": "透明のマテリアルを含まなくなったので、削除することが可能です",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "共通パーツのメッシュに'Render.CommonParts'のAtomタグがありません",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "共通パーツのメッシュにAtomMergedMesh_CommonParts LODGroupがありません",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "共通パーツのメッシュに1つだけのLODが含まれていません",
+    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroupの名前が'AtomMergedMesh'から始まるものではありません",
+    "JunoValidator_StaticMesh_TransparentExport": "透明のマテリアルを含まずに再生成される必要があります",
+    "JunoValidator_StaticMesh_NumLODs": "1つのLODしかありません"
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "メモリ残量少",
@@ -11248,7 +11192,10 @@
     "UnsafeEnvironment_BodyBadInstall": "ゲームファイルにオンラインプレイを妨げる破損データが見つかりました。この問題を解決するには、Epic Gamesアプリからフォートナイトを再インストールしてください。Epic Gamesアプリは、fortnite.com/downloadからダウンロードできます。",
     "UnsafeEnvironment_BodyBadInstallGP": "ゲームファイルにオンラインプレイを妨げる破損データが見つかりました。この問題を解決するには、Google Playストアでフォートナイトを再インストールしてください。",
     "UnsafeEnvironment_BodyCorruptedContent": "ゲームファイルにオンラインプレイを妨げる破損データが見つかりました。この問題を解決するには、認証を行うか、フォートナイトを再インストールしてください。",
+    "UnsafeEnvironment_StrictInjectionApply": "有効にして再起動",
     "UnsafeEnvironment_Title": "エラー",
+    "UnsafeEnvironment_StrictInjectionNotActive": "このイベントには厳格なインジェクションポリシーが必要ですゲーム設定ではすでに有効になっています。変更を反映させるにはフォートナイトを再起動する必要があります。今すぐ再起動しますか？",
+    "UnsafeEnvironment_StrictInjectionNotEnabled": "このイベントには厳格なインジェクションポリシーが必要ですゲーム設定で有効にしてから、フォートナイトを再起動すると変更内容が反映されます。今すぐ変更を適用しますか？",
     "UnsafeEnvironment_BodyMissingLauncher": "フォートナイトは正常に起動できなかったため、終了する必要があります。Epic Games Launcherからの起動をお試しいただくか、プレイヤーサポートまでお問い合わせください。",
     "UnsafeEnvironment_Body": "チートまたはリバースエンジニアリングツールの使用を検出しました。フォートナイトをプレイする際は閉じてください。アカウントのアクセス禁止処分を受ける可能性があります。",
     "UnsafeEnvironment_EventTPMAuth": "お使いのデバイスのTPMを認証できませんでした。このデバイスは、今後のアップデートによってトーナメントに参加できなくなる可能性があります。詳細はこちら: fn.gg/tpm",
@@ -11334,6 +11281,8 @@
     "FailedLoginConsole_SystemUpdateAvailable": "ログインするには最新のシステムアップデートが必要です。システムアップデート終了後に、もう一度お試しください。",
     "FailedLoginConsole_PatchAvailable": "ログインするには最新のパッチを適用する必要があります。{0}",
     "FailedStartLogin": "現在、Epic Gamesアカウントにログインできません。後でもう一度お試しください。",
+    "FailedStartLogin_InvalidRefreshToken": "今は Epic Games アカウントにログインできません。後ほどもう一度お試しください。",
+    "FailedStartLogin_NoConnection": "今は Epic Games アカウントにログインできません。後ほどもう一度お試しください。",
     "UserLoginFailed": "現在、Epic Gamesアカウントにログインできません。後でもう一度お試しください。",
     "FailedLoginMsg": "{0}サーバーにログインできません。後でもう一度お試しください。",
     "FailedLoginConsole_UnableToSignIn": "{0}のアカウントにサインインできませんでした。あとでもう一度お試しください。",
@@ -11983,10 +11932,10 @@
     "OutDateFormat": "{Year}年{Month}月{Day}日の{Time}({TimeZone})に終了します"
   },
   "SnapEditorVisualizer": {
-    "DeleteSnapEntries": "Delete Snap Entries",
-    "DuplicateSnapEntries": "Duplicate Snap Entries",
-    "PasteSnapEntries": "Paste Snap Entries",
-    "SelectSnapEntry": "Select Snap Point"
+    "DeleteSnapEntries": "スナップのエントリーを削除する",
+    "DuplicateSnapEntries": "スナップエントリーの重複",
+    "PasteSnapEntries": "スナップエントリーを貼り付ける",
+    "SelectSnapEntry": "スナップポイントを選択"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "残り{0}"
@@ -12601,7 +12550,7 @@
     "EmptyEntryError": "空白の名前を設定しようとしています。"
   },
   "UConfigurePrefabTool": {
-    "ToolName": "Configure Prefab"
+    "ToolName": "プレハブを調整"
   },
   "UEFN": {
     "LaunchDataLeaveMatchAndMatchmakeLinkCode": "マッチから離脱して{LinkCode}をプレイしますか？",
@@ -12788,8 +12737,8 @@
     "OpenHLTv2ToCustomizableUIMigrator_ToolTip": "すべてのHLTv2設定を新しいカスタマイズUIフレームワークに移行するための、HLTv2からカスタマイズUI移行ツールを開く"
   },
   "UICommands.JunoViewportToolsCommands": {
-    "BeginConfigurePrefabTool": "Configure Prefab",
-    "BeginConfigurePrefabTool_ToolTip": "Configure Prefab"
+    "BeginConfigurePrefabTool": "プレハブを調整",
+    "BeginConfigurePrefabTool_ToolTip": "プレハブを調整"
   },
   "UICommands.SpatialMetricsProfiler": {
     "OpenSpatialProfiler": "空間プロファイラを開く",
@@ -12813,24 +12762,24 @@
     "MaxRejoinFail": "ゲームに再参加できません。再接続試行の上限を越えました。"
   },
   "UJunoAssetListAssetFactory": {
-    "MenuEntry": "Asset List"
+    "MenuEntry": "アセットのリスト"
   },
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "コーデックスのデータテーブル[行{0}]には有効なサブカテゴリーのタグがありません。",
     "NeitherItemNorTag": "コーデックスのデータテーブル[行{0}]にはアイテムの定義もアイデンティティのタグもありません。少なくとも1つは必要です。",
-    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "NPCNoSpawnerDat": "コーデックスデータテーブル[行{0}]はフレンドリーなNPCのようですが、AIスポナーデータが設定されていません。",
     "CategoryTagInvalid": "コーデックスのデータテーブル[行{0}]には有効なカテゴリーのタグがありません。",
-    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "コデックスデータテーブル [{0}] で参照されているアイテム [{1}] は、[{2}] でパッケージのプラグインがクックされるときには存在しません。行を削除するか、アイテムのリリースバージョンを更新して一致させてください。"
   },
   "UJunoValidator_ContextualMessageConfig": {
     "TextInvalid": "ダイアログデータテーブル[行{0}]のプロパティ[{1}]に無効なテキストが含まれています: {2}\"{3}\""
   },
   "UJunoValidator_CraftingFormula": {
-    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime.",
+    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] に空のRequiredIngredientsタグが含まれています！！これにより、ランタイムで問題が発生する可能性があります。",
     "DirectOutputsWithLootTierKey": "FCraftingFormula[{0}]には、ResultLootTierKeyと直接出力(ExtraDataエントリ)の両方が設定されています。ResultLootTierKeyまたは直接出力エントリを削除"
   },
   "UJunoValidator_GuidedBuildingActorValidator": {
-    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
+    "ValidateLoadedAsset_Implementation": "アクター名[{0}]のFJunoGuidedBuildingDataには、空のレシピがあります！これにより、ランタイムで問題が発生する可能性があります。"
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "インデックス[{0}]のFJunoGuidedBuildingDisplayActorDataEntryに空白のレシピがあります！ これにより、ランタイムで問題が発生する可能性があります。"
@@ -12842,7 +12791,7 @@
     "ItemNewerThanLootTablePlugin": "アイテム[{0}]のリリースバージョンは[{1}]ですが、プラグインが[{3}]でクックされる戦利品テーブル[{2}]によって参照されています。この戦利品テーブルが実行されると、アイテムは出現しません。アイテムを戦利品テーブルから削除するか、アイテムのリリースバージョンを更新して、プラグインのバージョンに合わせてください。"
   },
   "UJunoValidator_Journal": {
-    "RewardsInvalid": "Journal data table [row {0}] has a CompletionReaction type that grants a reward, but is set to GrantToWorld.  It must be GrantToParticipants to correctly grant to all players..",
+    "RewardsInvalid": "ジャーナルデータテーブル[行{0}]には報酬を付与するCompletionReactionタイプがありますが、GrantToWorldに設定されています。すべてのプレイヤーに正しく付与するには、GrantToParticipantsである必要があります。",
     "TextInvalid": "ジャーナルデータテーブル[行{0}]のプロパティ[{1}]に無効なテキストが含まれています: {2}\"{3}\"",
     "PrereqQuestProgressNotification": "ジャーナルのデータテーブル[行{0}]、前提条件インデックス[{1}]のクエストのbHideQuestProgressNotificationはオンにする必要があります",
     "PrereqQuestStartingToast": "ジャーナルのデータテーブル[行{0}]、前提条件インデックス[{1}]のクエストのbShouldDisplayStartingToastはオフにする必要があります",
@@ -12850,7 +12799,7 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}] AwesomeLevelIndexは{2}のUpgradeRequirementsの有効なインデックスではありません。",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}] CampTagConfigKeyはFJunoAwesomePoiConfigTableRow DataTableにマップされません。",
     "PrereqTownbuilderInvalidNoValidALI": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}]には有効なAwesomeLevelIndexがありません。",
-    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
+    "PrereqTownbuilderInvalid": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}]に有効なCampTagConfigKeyタグがありません。",
     "PrerequistitesInvalidNoValidPreReqType": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}]には有効な前提条件タイプがありません。",
     "PrereqQuestInvalidNotNeededPFComponent": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}]にはPersistenceFramework",
     "PrereqQuestInvalidQuestSoftPtr": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}]には無効なクエストSoftPtr [{2}]。",
@@ -12858,17 +12807,17 @@
     "PrereqQuestNull": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}]にはQuestDefなし。",
     "PrereqTownbuilderInvalidRCButEmptyRL": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}]はResourceCostを参照していますが、{2}のResourceListは空です。",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "ジャーナルのデータテーブル[行{0}]、前提条件のインデックス[{1}]、{3}のUpgradeStages向けのUpgradeStepIdentifer {2}でUpgradeStepが見つかりませんでした。",
-    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
-    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
-    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "PrerequistitesInvalid": "ジャーナルデータテーブル [行 {0}]には前提条件がありません。",
+    "CategoryTagInvalid": "ジャーナルのデータテーブル[行{0}]には有効なカテゴリーのタグがありません。",
+    "CompletionReactionsInvalid": "ジャーナルのデータテーブル[行{0}]は、CompletionReactionインデックス[{1}]を介して公開されるように設定されています。",
     "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "ジャーナルのデータテーブル[行{0}]は、NextTaskRowNameを通じ自動で表示されるように設定されています。RevealNextTaskOnCompleteのチェックを外してブロックを解除し、エンジニアに相談してください！",
     "CompletionReactionsInvalid_RowNotExist": "ジャーナルのデータテーブル[行{0}]は完了時、存在しない[行{1}]を開示します。",
     "CompletionReactionsInvalid_AutoReveal": "ジャーナルのデータテーブル[行{0}]は完了時、AutoRevealConditionを使用する[行{1}]を開示します。これは許可されていません。タスクの自動開示はConditionsForAutoRevealOrHideが管理します。",
-    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
-    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+    "NextTaskRowNameInvalid": "日誌データテーブル [行 {0}] で RevealNextTaskOnComplete を使用していますが、NextTaskRowName {1} が正しくありません。ボックスを再確認してください。",
+    "ValidateLoadedAsset": "ジャーナルデータテーブル[{0}]の前提条件インデックス{1}が、パッケージのプラグインが[{3}]でクックされたときに存在しないクエスト[{2}]を参照しています。行を削除するか、アイテムのリリースバージョンを更新して一致させてください。"
   },
   "UJunoValidator_LootTables": {
-    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+    "ValidateLoadedAsset": "LootPackage [{0}] でアイテム [{1}] が参照されていますが、パッケージのプラグインが [{2}] でクックされる際にはこのアイテムは存在しません。行を削除するか、アイテムテムのリリースバージョンを更新して一致させてください。"
   },
   "UK2Node_ModifyObject": {
     "NodeTitle": "オブジェクトの変更",
