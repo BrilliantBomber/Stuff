@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "PhoebeNames_GlobalData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_GlobalData",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "PhoebeNames.DataAssetIndexToUse": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "PhoebeNames.NameBucketPercentage": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.05
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "PhoebeNames.UseTestNameTable": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "PhoebeNames.MaxBucketIncrement": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 3.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

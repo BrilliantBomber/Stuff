@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "FortAthenaAIBotNameLibraryData",
+    "Name": "PhoebeNameLibraryData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIBotNameLibraryData'",
+    "Package": "/Game/Athena/AI/Phoebe/Names/PhoebeNameLibraryData",
+    "Properties": {
+      "NameBucketPercentage": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'PhoebeNames_GlobalData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_GlobalData.0"
+          },
+          "RowName": "PhoebeNames.NameBucketPercentage"
+        }
+      },
+      "MaxBucketIncrement": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'PhoebeNames_GlobalData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_GlobalData.0"
+          },
+          "RowName": "PhoebeNames.MaxBucketIncrement"
+        }
+      },
+      "BotNameDataAssetIndexToUse": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'PhoebeNames_GlobalData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_GlobalData.0"
+          },
+          "RowName": "PhoebeNames.DataAssetIndexToUse"
+        }
+      },
+      "BotNameDataAssets": [
+        {
+          "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNameDataAsset.PhoebeNameDataAsset",
+          "SubPathString": ""
+        }
+      ],
+      "UseTestNameTable": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'PhoebeNames_GlobalData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_GlobalData.0"
+          },
+          "RowName": "PhoebeNames.UseTestNameTable"
+        }
+      },
+      "TestNameDataTable": {
+        "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeName_NameTestingTable.PhoebeName_NameTestingTable",
+        "SubPathString": ""
+      }
+    }
+  }
+]

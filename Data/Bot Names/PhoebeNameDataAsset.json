@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "FortAthenaAIBotNameDataAsset",
+    "Name": "PhoebeNameDataAsset",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIBotNameDataAsset'",
+    "Package": "/Game/Athena/AI/Phoebe/Names/PhoebeNameDataAsset",
+    "Properties": {
+      "DefaultNameDataTable": {
+        "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_NA.PhoebeNames_NA",
+        "SubPathString": ""
+      },
+      "RegionData": [
+        {
+          "RegionId": "NAE",
+          "NameDataTable": {
+            "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_NA.PhoebeNames_NA",
+            "SubPathString": ""
+          }
+        },
+        {
+          "RegionId": "NAW",
+          "NameDataTable": {
+            "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_NA.PhoebeNames_NA",
+            "SubPathString": ""
+          }
+        },
+        {
+          "RegionId": "EU",
+          "NameDataTable": {
+            "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_EU.PhoebeNames_EU",
+            "SubPathString": ""
+          }
+        },
+        {
+          "RegionId": "OCE",
+          "NameDataTable": {
+            "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_OCE.PhoebeNames_OCE",
+            "SubPathString": ""
+          }
+        },
+        {
+          "RegionId": "BR",
+          "NameDataTable": {
+            "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_BR.PhoebeNames_BR",
+            "SubPathString": ""
+          }
+        },
+        {
+          "RegionId": "ASIA",
+          "NameDataTable": {
+            "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_ASIA.PhoebeNames_ASIA",
+            "SubPathString": ""
+          }
+        },
+        {
+          "RegionId": "ME",
+          "NameDataTable": {
+            "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_ME.PhoebeNames_ME",
+            "SubPathString": ""
+          }
+        },
+        {
+          "RegionId": "CN",
+          "NameDataTable": {
+            "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNames_CN.PhoebeNames_CN",
+            "SubPathString": ""
+          }
+        }
+      ]
+    }
+  }
+]
