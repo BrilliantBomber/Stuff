@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_Cover_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Cover_Phoebe",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAISpawnerDataComponent_CoverBase'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_Cover_Phoebe_C'Default__BP_AISpawnerComp_Cover_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Cover_Phoebe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_Cover_Phoebe_C",
+    "Name": "Default__BP_AISpawnerComp_Cover_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Cover_Phoebe.BP_AISpawnerComp_Cover_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Cover_Phoebe",
+    "Properties": {
+      "CoverPositionFilterClass": {
+        "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_Cover_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_Cover.0"
+      },
+      "CoverBoxExtent": {
+        "X": 2500.0,
+        "Y": 2500.0,
+        "Z": 150.0
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Cover_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Cover_Phoebe.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1457 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhoebeItemData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/ManagerData/PhoebeItemData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotItemDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "0": {
+        "Tag": {
+          "TagName": "phoebe.items.pump_shotgun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "1": {
+        "Tag": {
+          "TagName": "phoebe.items.tactical_shotgun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "2": {
+        "Tag": {
+          "TagName": "phoebe.items.pistol"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "3": {
+        "Tag": {
+          "TagName": "phoebe.items.smg"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "4": {
+        "Tag": {
+          "TagName": "phoebe.items.assault_rifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "5": {
+        "Tag": {
+          "TagName": "phoebe.items.burst_assault_rifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "6": {
+        "Tag": {
+          "TagName": "phoebe.items.bolt_action_sniper_rifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "7": {
+        "Tag": {
+          "TagName": "phoebe.items.rocket_launcher"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "8": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.Bandage"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "9": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.Medkit"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "10": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.Small_Shield_Potion"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "11": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.Shield_Potion"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "12": {
+        "Tag": {
+          "TagName": "phoebe.items.pickaxe"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "13": {
+        "Tag": {
+          "TagName": "phoebe.items.ammo"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "14": {
+        "Tag": {
+          "TagName": "phoebe.items.resource"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "15": {
+        "Tag": {
+          "TagName": "Weapon.Melee.Impact.Pickaxe"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "16": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.SmallFryFish"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "17": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.FlopperFish"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "18": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.SlurpFish"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "19": {
+        "Tag": {
+          "TagName": "phoebe.items.crossbow"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "20": {
+        "Tag": {
+          "TagName": "phoebe.items.minigun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "21": {
+        "Tag": {
+          "TagName": "phoebe.weapon.ranged.harpoon"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "22": {
+        "Tag": {
+          "TagName": "phoebe.items.PumpkinLauncher"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "23": {
+        "Tag": {
+          "TagName": "phoebe.items.grenade_launcher"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "24": {
+        "Tag": {
+          "TagName": "phoebe.items.scopedAR"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "25": {
+        "Tag": {
+          "TagName": "Phoebe.items.GalileoBun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "26": {
+        "Tag": {
+          "TagName": "phoebe.items.heavy_assault_rifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "27": {
+        "Tag": {
+          "TagName": "phoebe.items.HeavySniper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "28": {
+        "Tag": {
+          "TagName": "phoebe.items.DrumShotgun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "29": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.Stink"
+        },
+        "bIsLootable": false,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "30": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.Grenade"
+        },
+        "bIsLootable": false,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "31": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.Shockwave"
+        },
+        "bIsLootable": true,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "32": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.Impulse"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "33": {
+        "Tag": {
+          "TagName": "phoebe.items.InfantryRifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "34": {
+        "Tag": {
+          "TagName": "phoebe.items.DualPistols"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "35": {
+        "Tag": {
+          "TagName": "phoebe.items.TacticalSMG"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "36": {
+        "Tag": {
+          "TagName": "phoebe.items.HandCannon"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "37": {
+        "Tag": {
+          "TagName": "phoebe.items.SuppressedSMG"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "38": {
+        "Tag": {
+          "TagName": "phoebe.items.SuppressedSniper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "39": {
+        "Tag": {
+          "TagName": "phoebe.items.AutoSniper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "40": {
+        "Tag": {
+          "TagName": "phoebe.items.SixShooterPistol"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "41": {
+        "Tag": {
+          "TagName": "phoebe.items.CombatShotgun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "42": {
+        "Tag": {
+          "TagName": "phoebe.items.StormScoutSniper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "43": {
+        "Tag": {
+          "TagName": "phoebe.items.QuadLauncher"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "44": {
+        "Tag": {
+          "TagName": "phoebe.items.DoubleBarrelShotgun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "45": {
+        "Tag": {
+          "TagName": "phoebe.items.FlintKnockPistol"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "46": {
+        "Tag": {
+          "TagName": "phoebe.items.LMG"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "47": {
+        "Tag": {
+          "TagName": "phoebe.items.SuppressedPistol"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "48": {
+        "Tag": {
+          "TagName": "phoebe.items.Revolver"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "49": {
+        "Tag": {
+          "TagName": "phoebe.items.HeavyShotgun"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "50": {
+        "Tag": {
+          "TagName": "phoebe.items.HuntingRifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "51": {
+        "Tag": {
+          "TagName": "phoebe.items.SemiAutoSniper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "52": {
+        "Tag": {
+          "TagName": "phoebe.items.ThermalSniper"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "53": {
+        "Tag": {
+          "TagName": "phoebe.items.DrumGun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "54": {
+        "Tag": {
+          "TagName": "phoebe.items.ScopedPistol"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "55": {
+        "Tag": {
+          "TagName": "phoebe.items.BoomBow"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "56": {
+        "Tag": {
+          "TagName": "phoebe.items.ProximityGrenadeLauncher"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "57": {
+        "Tag": {
+          "TagName": "phoebe.items.TacticalAR"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "58": {
+        "Tag": {
+          "TagName": "phoebe.items.BurstSMG"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "59": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.BoogieBomb"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "60": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.C4"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "61": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.Dynamite"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "62": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.StormFlip"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "63": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.Ice"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "64": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.SneakySnowman"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "65": {
+        "Tag": {
+          "TagName": "phoebe.items.suppressedAR"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "66": {
+        "Tag": {
+          "TagName": "phoebe.items.key.vaultkeycard"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "67": {
+        "Tag": {
+          "TagName": "phoebe.items.PistolRapidFireSMG"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "68": {
+        "Tag": {
+          "TagName": "phoebe.items.cshotgun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "69": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.GrenadeM"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "70": {
+        "Tag": {
+          "TagName": "Item.Consumable.Cabbage"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "71": {
+        "Tag": {
+          "TagName": "Item.Consumable.Apple"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "72": {
+        "Tag": {
+          "TagName": "Item.Consumable.Banana"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "73": {
+        "Tag": {
+          "TagName": "Item.Consumable.Coconut"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "74": {
+        "Tag": {
+          "TagName": "Item.Consumable.Pepper"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "75": {
+        "Tag": {
+          "TagName": "Item.Consumable.ShieldMushroom"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "76": {
+        "Tag": {
+          "TagName": "Item.Consumable.SlurpMushroom"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "77": {
+        "Tag": {
+          "TagName": "Item.Consumable.Corn"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "78": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.JellyFish"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "79": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.MechanicFlopper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "80": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.BattleFlopper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "81": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.FlopperShield"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "82": {
+        "Tag": {
+          "TagName": "phoebe.items.hightower.date"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "83": {
+        "Tag": {
+          "TagName": "phoebe.items.hightower.tomato"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "84": {
+        "Tag": {
+          "TagName": "phoebe.items.waffletruck.01"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "85": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.02"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "86": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.03"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "87": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.04"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "88": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.05"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "89": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.06"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "90": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.07"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "91": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.08"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "92": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.09"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "93": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.10"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "94": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.11"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "95": {
+        "Tag": {
+          "TagName": "phoebe.items.WaffleTruck.12"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "96": {
+        "Tag": {
+          "TagName": "phoebe.items.repeater"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "97": {
+        "Tag": {
+          "TagName": "phoebe.items.bow"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "98": {
+        "Tag": {
+          "TagName": "phoebe.items.bow.clusterbomb"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "99": {
+        "Tag": {
+          "TagName": "phoebe.items.bow.flame"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "100": {
+        "Tag": {
+          "TagName": "phoebe.items.bow.stinkbomb"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "101": {
+        "Tag": {
+          "TagName": "phoebe.items.bow.shockwave"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "102": {
+        "Tag": {
+          "TagName": "phoebe.items.grenade_launcher.egg"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "103": {
+        "Tag": {
+          "TagName": "phoebe.items.pistol.marksman"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "104": {
+        "Tag": {
+          "TagName": "phoebe.items.ingredients.toxicsac"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "105": {
+        "Tag": {
+          "TagName": "phoebe.items.ingredients.mechanicalparts"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "106": {
+        "Tag": {
+          "TagName": "phoebe.items.ingredients.animalbones"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "107": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.Meat"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "108": {
+        "Tag": {
+          "TagName": "phoebe.items.BrawnySmasher"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "109": {
+        "Tag": {
+          "TagName": "Phoebe.items.Nevada.1"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "110": {
+        "Tag": {
+          "TagName": "phoebe.items.skyfire.alpaca"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "111": {
+        "Tag": {
+          "TagName": "phoebe.items.PastaRipper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "112": {
+        "Tag": {
+          "TagName": "phoebe.items.LlamaRoaster"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "113": {
+        "Tag": {
+          "TagName": "phoebe.items.ReactorGrade"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "114": {
+        "Tag": {
+          "TagName": "phoebe.items.ChillBroncoNPC"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "115": {
+        "Tag": {
+          "TagName": "phoebe.items.AvacadoEaterHead"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "116": {
+        "Tag": {
+          "TagName": "phoebe.items.PowerupRifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "117": {
+        "Tag": {
+          "TagName": "phoebe.items.PowerupMinigun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "118": {
+        "Tag": {
+          "TagName": "phoebe.items.CombatSmg"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "119": {
+        "Tag": {
+          "TagName": "phoebe.items.CombatAssaultRifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "120": {
+        "Tag": {
+          "TagName": "phoebe.items.CombatPistol"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "121": {
+        "Tag": {
+          "TagName": "phoebe.items.crossbowDualies"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "122": {
+        "Tag": {
+          "TagName": "phoebe.items.shockwave_launcher"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "123": {
+        "Tag": {
+          "TagName": "phoebe.items.grenade.kabob"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "124": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.PSlice"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "125": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.RPotion"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "126": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.BCfruit"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "127": {
+        "Tag": {
+          "TagName": "phoebe.items.AwardThanks.Main"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "128": {
+        "Tag": {
+          "TagName": "phoebe.items.AwardThanks.Secondary"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "129": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.icecream"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "130": {
+        "Tag": {
+          "TagName": "phoebe.items.homing_launcher"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "131": {
+        "Tag": {
+          "TagName": "phoebe.items.ChargeSMG"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "132": {
+        "Tag": {
+          "TagName": "phoebe.items.PassivePhase"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "133": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.icecreamS"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "134": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.icecreamG"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "135": {
+        "Tag": {
+          "TagName": "phoebe.items.DMR"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "136": {
+        "Tag": {
+          "TagName": "phoebe.items.gadget.key"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "137": {
+        "Tag": {
+          "TagName": "phoebe.items.ChromeShotgun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "138": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.EggplantDip"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "139": {
+        "Tag": {
+          "TagName": "phoebe.items.generic.supported"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "140": {
+        "Tag": {
+          "TagName": "Phoebe.items.Melee.ShockwaveMace"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "141": {
+        "Tag": {
+          "TagName": "phoebe.items.ShotgunBreach"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "142": {
+        "Tag": {
+          "TagName": "phoebe.items.melee.katana"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "143": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.SlurpJuice"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "144": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.EggHeal"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "145": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.EggHop"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "146": {
+        "Tag": {
+          "TagName": "phoebe.items.melee.galileolobster"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "147": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.Swarm"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "148": {
+        "Tag": {
+          "TagName": "phoebe.items.AloeCrouton"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "149": {
+        "Tag": {
+          "TagName": "phoebe.items.belongtreaty.flood"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "150": {
+        "Tag": {
+          "TagName": "phoebe.items.belongtreaty.rooster"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "151": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.chugjug"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "152": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.peppermint"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "153": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.hopdrop"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "154": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.jellybean"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "155": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.thermaltaffy"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "156": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.zeropointpretzel"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "157": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.candycorn"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "158": {
+        "Tag": {
+          "TagName": "phoebe.items.fireworkgun"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "159": {
+        "Tag": {
+          "TagName": "phoebe.items.Turret"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "160": {
+        "Tag": {
+          "TagName": "phoebe.items.Gauntlets.Nitro"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "161": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.NitroSplash"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "162": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.DurableDawnTuna"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "163": {
+        "Tag": {
+          "TagName": "phoebe.weapon.throwable_selfheal"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "164": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.SlapSplash"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "165": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.TNT"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "166": {
+        "Tag": {
+          "TagName": "phoebe.items.DMF"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "167": {
+        "Tag": {
+          "TagName": "phoebe.items.electrobat"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "168": {
+        "Tag": {
+          "TagName": "phoebe.items.AutoAimPistol"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "169": {
+        "Tag": {
+          "TagName": "phoebe.items.plasmalaser"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "170": {
+        "Tag": {
+          "TagName": "phoebe.items.areatypeweapon"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "171": {
+        "Tag": {
+          "TagName": "phoebe.items.slowprojectileweapon"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "172": {
+        "Tag": {
+          "TagName": "phoebe.items.movement.augmentmovementitem"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "173": {
+        "Tag": {
+          "TagName": "phoebe.items.shotgunpistol"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      },
+      "174": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.BumpFizz"
+        },
+        "bIsLootable": false,
+        "bIsUsable": false,
+        "bIsSupportedByLearningAgent": false
+      },
+      "175": {
+        "Tag": {
+          "TagName": "phoebe.items.grenade.shieldbubble"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "176": {
+        "Tag": {
+          "TagName": "phoebe.items.consumable.HopFlopper"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "177": {
+        "Tag": {
+          "TagName": "phoebe.items.rift"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "178": {
+        "Tag": {
+          "TagName": "phoebe.items.Grenade.jollyrascal"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": false
+      },
+      "179": {
+        "Tag": {
+          "TagName": "phoebe.items.explosive_rifle"
+        },
+        "bIsLootable": true,
+        "bIsUsable": true,
+        "bIsSupportedByLearningAgent": true
+      }
+    }
+  }
+]

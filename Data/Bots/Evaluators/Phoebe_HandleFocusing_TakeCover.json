@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Phoebe_HandleFocusing_TakeCover_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_TakeCover",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotEvaluator_HandleFocusing'",
+      "ObjectPath": "/Script/FortniteAIServer"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Phoebe_HandleFocusing_TakeCover_C'Default__Phoebe_HandleFocusing_TakeCover_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_TakeCover.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Phoebe_HandleFocusing_TakeCover_C",
+    "Name": "Default__Phoebe_HandleFocusing_TakeCover_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_TakeCover.Phoebe_HandleFocusing_TakeCover_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_TakeCover",
+    "Properties": {
+      "bStopFocusingWhenMoving": {
+        "DefaultValue": true
+      },
+      "ResumeFocusingWhenMovingDist": {
+        "DefaultValue": 300.0
+      },
+      "StopFocusingWhenMovingDist": {
+        "DefaultValue": 700.0
+      },
+      "bResumeFocusWhileSliding": {
+        "DefaultValue": true
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Phoebe_HandleFocusing_TakeCover_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_TakeCover.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

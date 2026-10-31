@@ -1,0 +1,284 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "NavFilter_Phoebe_AllowDanger_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_AllowDanger",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NavFilter_Phoebe_AllowDanger_C'Default__NavFilter_Phoebe_AllowDanger_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_AllowDanger.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "NavFilter_Phoebe_AllowDanger_C",
+    "Name": "Default__NavFilter_Phoebe_AllowDanger_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_AllowDanger.NavFilter_Phoebe_AllowDanger_C'",
+    "Package": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_AllowDanger",
+    "Template": {
+      "ObjectName": "NavFilter_Phoebe_C'Default__NavFilter_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe.1"
+    },
+    "Properties": {
+      "Areas": [
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_WoodenWall'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_CheapObstacle'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_ClosedDoors'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_DefaultSmashable'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_HuskNull'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_Obstacle'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_PortalOrSmash'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_SmashableJump'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_StoneWall'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_WallCorner'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavAreaAutomatic'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "BlueprintGeneratedClass'FortNavArea_JumpDownSmashable_C'",
+            "ObjectPath": "/Game/AI/NavAreas/FortNavArea_JumpDownSmashable.0"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "BlueprintGeneratedClass'FortNavArea_JumpDownSmashable2_C'",
+            "ObjectPath": "/Game/AI/NavAreas/FortNavArea_JumpDownSmashable2.0"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "BlueprintGeneratedClass'FortNavArea_JumpDownSmashable3_C'",
+            "ObjectPath": "/Game/AI/NavAreas/FortNavArea_JumpDownSmashable3.0"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_PlayerBuiltSmashable'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_MetaReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_TempWallReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_WallCornerReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_ObstacleReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_Danger'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": true
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_AllowDanger_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_AllowDanger.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

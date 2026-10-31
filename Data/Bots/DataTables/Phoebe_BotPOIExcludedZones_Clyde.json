@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_BotPOIExcludedZones_Clyde",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_BotPOIExcludedZones_Clyde",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotPOIExcludedZoneDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      }
+    },
+    "Rows": {
+      "WarmupClyde": {
+        "Location": {
+          "X": 178684.0,
+          "Y": -173296.0,
+          "Z": -320.0
+        },
+        "BoxHalfSize": {
+          "X": 20000.0,
+          "Y": 20000.0,
+          "Z": 15000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Clyde/Apollo_Terrain_Retro",
+        "bEnabled": true
+      },
+      "Agency": {
+        "Location": {
+          "X": 6976.0,
+          "Y": 5312.0,
+          "Z": -640.0
+        },
+        "BoxHalfSize": {
+          "X": 12000.0,
+          "Y": 12000.0,
+          "Z": 10000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Clyde/Apollo_Terrain_Retro",
+        "bEnabled": true
+      },
+      "Yacht": {
+        "Location": {
+          "X": 115651.14,
+          "Y": 116397.88,
+          "Z": -3894.0007
+        },
+        "BoxHalfSize": {
+          "X": 9000.0,
+          "Y": 12000.0,
+          "Z": 2000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Clyde/Apollo_Terrain_Retro",
+        "bEnabled": true
+      },
+      "Rig": {
+        "Location": {
+          "X": -75056.0,
+          "Y": -87856.0,
+          "Z": -1696.0
+        },
+        "BoxHalfSize": {
+          "X": 12000.0,
+          "Y": 12000.0,
+          "Z": 4000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Clyde/Apollo_Terrain_Retro",
+        "bEnabled": true
+      },
+      "Shark": {
+        "Location": {
+          "X": 106976.0,
+          "Y": -83688.0,
+          "Z": -113.50418
+        },
+        "BoxHalfSize": {
+          "X": 12000.0,
+          "Y": 12000.0,
+          "Z": 10000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Clyde/Apollo_Terrain_Retro",
+        "bEnabled": true
+      },
+      "Grotto": {
+        "Location": {
+          "X": -16212.167,
+          "Y": 112141.48,
+          "Z": -2676.232
+        },
+        "BoxHalfSize": {
+          "X": 12000.0,
+          "Y": 12000.0,
+          "Z": 20000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Clyde/Apollo_Terrain_Retro",
+        "bEnabled": true
+      },
+      "RiskyReels": {
+        "Location": {
+          "X": 31601.549,
+          "Y": 11618.381,
+          "Z": -1920.3345
+        },
+        "BoxHalfSize": {
+          "X": 12000.0,
+          "Y": 12000.0,
+          "Z": 20000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Clyde/Apollo_Terrain_Retro",
+        "bEnabled": true
+      }
+    }
+  }
+]

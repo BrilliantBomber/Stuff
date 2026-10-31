@@ -1,0 +1,1451 @@
+[
+  {
+    "Type": "BehaviorTree",
+    "Name": "BT_Phoebe_Warmup",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BehaviorTree'",
+    "Package": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup",
+    "Properties": {
+      "RootNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.1"
+      },
+      "BlackboardAsset": {
+        "ObjectName": "BlackboardData'BB_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Sequence'BT_Phoebe_Warmup:BTComposite_Sequence_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.6"
+          },
+          "ChildTask": null,
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Warmup:BTDecorator_Blackboard_3'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.9"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+          },
+          "ChildTask": null,
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Warmup:BTDecorator_Blackboard_62'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.14"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait'BT_Phoebe_Warmup:BTTask_Wait_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.20"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.24"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_UpdateTarget'BT_Phoebe_Warmup:FortAthenaBTService_UpdateTarget_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.44"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Sequence'BT_Phoebe_Warmup:BTComposite_Sequence_7'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.7"
+          },
+          "ChildTask": null,
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Warmup:BTDecorator_Blackboard_61'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.13"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait'BT_Phoebe_Warmup:BTTask_Wait_14'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.21"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.23"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence'BT_Phoebe_Warmup:BTComposite_Sequence_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.6"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+          },
+          "ChildTask": null,
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Warmup:BTDecorator_Blackboard_60'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.12"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_37'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.5"
+          },
+          "ChildTask": null,
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Loop'BT_Phoebe_Warmup:BTDecorator_Loop_11'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.16"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait'BT_Phoebe_Warmup:BTTask_Wait_15'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.22"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_17'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.25"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_86'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.30"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_87'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.31"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_PickUpLoot'BT_Phoebe_Warmup:FortAthenaBTService_PickUpLoot_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.42"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_Crouch'BT_Phoebe_Warmup:FortAthenaBTService_Crouch_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.37"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_Jump'BT_Phoebe_Warmup:FortAthenaBTService_Jump_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.38"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_Sprinting'BT_Phoebe_Warmup:FortAthenaBTService_Sprinting_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.43"
+        }
+      ],
+      "NodeName": "On Ground",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.1"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_36",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_RunBehavior'BT_Phoebe_Warmup:BTTask_RunBehavior_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.17"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Warmup:BTDecorator_Blackboard_1'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.8"
+            },
+            {
+              "ObjectName": "BTDecorator_Loop'BT_Phoebe_Warmup:BTDecorator_Loop_1'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.15"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_RunBehavior'BT_Phoebe_Warmup:BTTask_RunBehavior_25'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.18"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Warmup:BTDecorator_Blackboard_51'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.11"
+            }
+          ],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_91'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.32"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_92'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.33"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_ManageWeapon'BT_Phoebe_Warmup:FortAthenaBTService_ManageWeapon_8'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.40"
+        }
+      ],
+      "NodeName": "THREATEN",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_RunBehavior'BT_Phoebe_Warmup:BTTask_RunBehavior_26'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.19"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Warmup:BTDecorator_Blackboard_50'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.10"
+            }
+          ],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_93'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.34"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_94'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.35"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_ManageWeapon'BT_Phoebe_Warmup:FortAthenaBTService_ManageWeapon_9'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.41"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_95'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.36"
+        }
+      ],
+      "NodeName": "UNAWARE",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Sequence",
+    "Name": "BTComposite_Sequence_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Sequence'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.2"
+          },
+          "ChildTask": null,
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.1"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Sequence",
+    "Name": "BTComposite_Sequence_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Sequence'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_BotMoveTo'BT_Phoebe_Warmup:FortAthenaBTTask_BotMoveTo_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.45"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_PlayEmote'BT_Phoebe_Warmup:FortAthenaBTTask_PlayEmote_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.46"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_2'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.2"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_RangeAttack_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_RangeAttack_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Can do Range",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_WarmupPlayEmote_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_WarmupPlayEmote_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Warmup PlayEmote?",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_50",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "IntValue": 2,
+      "StringValue": "EExecutionStatus::ExecutionSuccess",
+      "CachedDescription": "AIEvaluator_Loot_ExecutionStatus Is Greater Than Or Equal To Execution Success",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Loot_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Loot",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_37'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.5"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_51",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "IntValue": 2,
+      "StringValue": "EExecutionStatus::ExecutionSuccess",
+      "CachedDescription": "AIEvaluator_Loot_ExecutionStatus Is Greater Than Or Equal To Execution Success",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Loot_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Loot",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_60",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EAlertLevel::Threatened",
+      "CachedDescription": "AIEvaluator_Global_AlertLevel Is Equal To Threatened",
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Global_AlertLevel"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "IsThreatened",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_61",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_PlayEmote_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_PlayEmote_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Play Emote?",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_2'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.2"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_62",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_WarmupLootAndShoot_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_WarmupLootAndShoot_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Warmup LootAndShoot?",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Loop",
+    "Name": "BTDecorator_Loop_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Loop'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "bInfiniteLoop": true,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Loop",
+    "Name": "BTDecorator_Loop_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Loop'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "bInfiniteLoop": true,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_RunBehavior",
+    "Name": "BTTask_RunBehavior_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_RunBehavior'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "BehaviorAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_MoveToRange'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_MoveToRange.0"
+      },
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_5'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.28"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_6'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.29"
+        }
+      ],
+      "NodeName": "Move To Range",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_RunBehavior",
+    "Name": "BTTask_RunBehavior_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_RunBehavior'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "BehaviorAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "NodeName": "Run Loot Behavior",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_RunBehavior",
+    "Name": "BTTask_RunBehavior_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_RunBehavior'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "BehaviorAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "NodeName": "Run Loot Behavior",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_37'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.5"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_Wait'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "WaitTime": {
+        "DefaultValue": 99999.0
+      },
+      "NodeName": "Warmup AFK",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.1"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_Wait'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "RandomDeviation": {
+        "DefaultValue": 3.0
+      },
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_2'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.2"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_Wait'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_PlayEmote'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "bCallTickOnSearchStart": true,
+      "NodeName": "Evaluating...PlayEmote",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_2'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_Warmup'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "NodeName": "Evaluating... Warmup",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_WeaponSelection'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "Interval": 0.2,
+      "RandomDeviation": 0.05,
+      "NodeName": "Evaluating...Select Weapon",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_MeleeAttack'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "Interval": 0.3,
+      "NodeName": "Evaluating...Melee Attack",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence'BT_Phoebe_Warmup:BTComposite_Sequence_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.7"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_38",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_WeaponSelection'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "Interval": 0.2,
+      "RandomDeviation": 0.05,
+      "NodeName": "Evaluating...Select Weapon",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence'BT_Phoebe_Warmup:BTComposite_Sequence_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.7"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_EvasiveManeuvers_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers.0"
+        }
+      },
+      "NodeName": "Evaluating...Evasive Maneuvers",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_HandleFocusing'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "NodeName": "Focus on target",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_86",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_WarmupLoot_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_WarmupLoot.0"
+        }
+      },
+      "bCallTickOnSearchStart": true,
+      "NodeName": "Evaluate...Loot",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_87",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_Sprinting'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "Interval": 0.2,
+      "NodeName": "Evaluate...Sprinting",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_91",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_RangeAttack'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "Interval": 0.2,
+      "RandomDeviation": 0.05,
+      "bCallTickOnSearchStart": true,
+      "NodeName": "Evaluating...Range Attack",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_92",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_MeleeAttack'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "Interval": 1.0,
+      "bCallTickOnSearchStart": true,
+      "NodeName": "Evaluating...Melee Attack",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_93",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_RangeAttack'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "Interval": 0.3,
+      "NodeName": "Evaluating...Range Attack",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_37'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.5"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_94",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_MeleeAttack'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "Interval": 0.3,
+      "NodeName": "Evaluating...Melee Attack",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_37'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.5"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_95",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_HandleFocusing_IgnoreThreat_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_IgnoreThreat.0"
+        }
+      },
+      "NodeName": "Focus Target Ignore Threat",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_37'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.5"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_Crouch",
+    "Name": "FortAthenaBTService_Crouch_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_Crouch'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "NodeName": "Executing...Crouch",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_Jump",
+    "Name": "FortAthenaBTService_Jump_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_Jump'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "NodeName": "Executing...Jump",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_ManageWeapon",
+    "Name": "FortAthenaBTService_ManageWeapon_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_ManageWeapon'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Interval": 0.2,
+      "NodeName": "Executing...Weapons Actions",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence'BT_Phoebe_Warmup:BTComposite_Sequence_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.7"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_ManageWeapon",
+    "Name": "FortAthenaBTService_ManageWeapon_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_ManageWeapon'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Interval": 1.0,
+      "RandomDeviation": 0.3,
+      "NodeName": "Executing...Weapons Actions",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_36'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.4"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_ManageWeapon",
+    "Name": "FortAthenaBTService_ManageWeapon_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_ManageWeapon'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Interval": 0.2,
+      "NodeName": "Executing...Weapons Actions",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_37'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.5"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_PickUpLoot",
+    "Name": "FortAthenaBTService_PickUpLoot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_PickUpLoot'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "NodeName": "Executing...Pick Up Loot",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_Sprinting",
+    "Name": "FortAthenaBTService_Sprinting_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_Sprinting'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "NodeName": "Executing...Sprinting",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_35'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_UpdateTarget",
+    "Name": "FortAthenaBTService_UpdateTarget_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_UpdateTarget'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "Interval": 2.0,
+      "RandomDeviation": 1.0,
+      "NodeName": "Evaluating...Targets",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Warmup:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_BotMoveTo",
+    "Name": "FortAthenaBTTask_BotMoveTo_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_BotMoveTo'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "AllowRandomWobble": {
+        "DefaultValue": false
+      },
+      "MovementResultKeyName": "AIEvaluator_PlayEmote_MovementState",
+      "AcceptableRadius": {
+        "DefaultValue": 500.0
+      },
+      "bAllowStrafe": {
+        "DefaultValue": true
+      },
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_PlayEmote_Destination"
+      },
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_38'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.27"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Warmup:FortAthenaBTService_AIEvaluator_3'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.26"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_ManageWeapon'BT_Phoebe_Warmup:FortAthenaBTService_ManageWeapon_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.39"
+        }
+      ],
+      "NodeName": "PlayEmote Move To",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence'BT_Phoebe_Warmup:BTComposite_Sequence_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.7"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_PlayEmote",
+    "Name": "FortAthenaBTTask_PlayEmote_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_PlayEmote'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+    },
+    "Properties": {
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Warmup'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Sequence'BT_Phoebe_Warmup:BTComposite_Sequence_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Warmup.7"
+      }
+    }
+  }
+]

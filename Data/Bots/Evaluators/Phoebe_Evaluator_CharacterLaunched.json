@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Phoebe_Evaluator_CharacterLaunched_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_CharacterLaunched",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotEvaluator_CharacterLaunched'",
+      "ObjectPath": "/Script/FortniteAIServer"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Phoebe_Evaluator_CharacterLaunched_C'Default__Phoebe_Evaluator_CharacterLaunched_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_CharacterLaunched.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Phoebe_Evaluator_CharacterLaunched_C",
+    "Name": "Default__Phoebe_Evaluator_CharacterLaunched_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_CharacterLaunched.Phoebe_Evaluator_CharacterLaunched_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_CharacterLaunched",
+    "Properties": {
+      "bSteerInSameDirectionAsLaunchVelocity": true
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_CharacterLaunched_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_CharacterLaunched.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

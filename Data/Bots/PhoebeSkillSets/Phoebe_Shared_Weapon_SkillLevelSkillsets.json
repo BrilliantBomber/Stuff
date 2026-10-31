@@ -1,0 +1,728 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "Phoebe_Shared_Weapon_SkillLevelSkillsets",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_Shared_Weapon_SkillLevelSkillsets",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Phoebe.Skill.Shared.TimeToHitMultiplier": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.MaxTimeToHitAddedCausedByTargetSpeed": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 3.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.MaxTimeToHitAddedCausedByTargetInAir": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 30.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 30.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 10.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TimeToHitDelayMultiplierWhenTargetInAir": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleLookBackTime": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 1000.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 1200.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2400.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleUnsuspectingAngle": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 1400.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 35.0
+          },
+          {
+            "Time": 2400.0,
+            "Value": 45.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 360.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleUnsuspectingDistance": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 500.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 1000.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 8000.0
+          },
+          {
+            "Time": 2400.0,
+            "Value": 10000.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 99999.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleUnsuspectingDamageDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 1000.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 1200.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 1400.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 2400.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleUnsuspectingTimeMultiplier": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1200.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 1400.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 2400.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleVerticalSpeedThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 1000.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 1200.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 100.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 100.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleLateralSpeedThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 1000.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 1200.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 100.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 200.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 200.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleFrontalSpeedThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 1000.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 1200.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 100.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 200.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 200.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.TargetIdleRevivedGracePeriodDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 800.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 1000.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 1200.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 1400.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 1800.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 2200.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 2400.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.FullAuto.CloseRange.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": -1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.FullAuto.CloseRange.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": -1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.FullAuto.MediumRange.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.FullAuto.MediumRange.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.25
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.FullAuto.LongRangeVar1.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.2
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.2
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.FullAuto.LongRangeVar1.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.25
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.FullAuto.LongRangeVar2.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": -1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.FullAuto.LongRangeVar2.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.4
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.4
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.SingleShot.CloseRange.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": -1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.SingleShot.CloseRange.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.2
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.2
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.SingleShot.MediumRange.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": -1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.SingleShot.MediumRange.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.25
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.SingleShot.LongRangeVar1.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": -1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.SingleShot.LongRangeVar1.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.35
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.35
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.SingleShot.LongRangeVar2.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 3000.0,
+            "Value": -1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.SingleShot.LongRangeVar2.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.TargetInAir.HoldTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.2
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.2
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.FiringPattern.TargetInAir.PreventFireTimeDeviation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.25
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shared.IncreasedWeaponAccurayAgainstBots": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.45
+          },
+          {
+            "Time": 3000.0,
+            "Value": 0.45
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

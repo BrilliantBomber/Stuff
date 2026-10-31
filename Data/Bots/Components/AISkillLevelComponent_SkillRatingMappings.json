@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AISkillLevelComponent_SkillRatingMappings",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/Components/AISkillLevelComponent_SkillRatingMappings",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'PlayerSkillRatingToAISkillRatingMappingTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "1": {
+        "PlayerLowSkillRatingRange": -9999,
+        "PlayerHighSkillRatingRange": 499,
+        "AISkillRating": 800
+      },
+      "2": {
+        "PlayerLowSkillRatingRange": 500,
+        "PlayerHighSkillRatingRange": 699,
+        "AISkillRating": 1000
+      },
+      "3": {
+        "PlayerLowSkillRatingRange": 700,
+        "PlayerHighSkillRatingRange": 999,
+        "AISkillRating": 1200
+      },
+      "4": {
+        "PlayerLowSkillRatingRange": 1000,
+        "PlayerHighSkillRatingRange": 1299,
+        "AISkillRating": 1400
+      },
+      "5": {
+        "PlayerLowSkillRatingRange": 1300,
+        "PlayerHighSkillRatingRange": 1599,
+        "AISkillRating": 1600
+      },
+      "6": {
+        "PlayerLowSkillRatingRange": 1600,
+        "PlayerHighSkillRatingRange": 9999,
+        "AISkillRating": 1800
+      }
+    }
+  }
+]

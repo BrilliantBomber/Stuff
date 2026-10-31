@@ -1,0 +1,558 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_BotPOIExcludedZones_Figment",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_BotPOIExcludedZones_Figment",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotPOIExcludedZoneDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "WarmupFigment_S01": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S01_Map/Athena_Terrain_S01",
+        "bEnabled": true
+      },
+      "LootLake_S01": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S01_Map/Athena_Terrain_S01",
+        "bEnabled": true
+      },
+      "WarmupFigment_S02": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S02_Map/Athena_Terrain_S02",
+        "bEnabled": true
+      },
+      "LootLake_S02": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S02_Map/Athena_Terrain_S02",
+        "bEnabled": true
+      },
+      "WarmupFigment_S03": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S03_Map/Athena_Terrain_S03",
+        "bEnabled": true
+      },
+      "LootLake_S03": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S03_Map/Athena_Terrain_S03",
+        "bEnabled": true
+      },
+      "WarmupFigment_S04": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S04_Map/Athena_Terrain_S04",
+        "bEnabled": true
+      },
+      "LootLake_S04": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S04_Map/Athena_Terrain_S04",
+        "bEnabled": true
+      },
+      "WarmupFigment_S05": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S05_Map/Athena_Terrain_S05",
+        "bEnabled": true
+      },
+      "LootLake_S05": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S05_Map/Athena_Terrain_S05",
+        "bEnabled": true
+      },
+      "WarmupFigment_S06": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S06_Map/Athena_Terrain_S06",
+        "bEnabled": true
+      },
+      "LootLake_S06": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S06_Map/Athena_Terrain_S06",
+        "bEnabled": true
+      },
+      "WarmupFigment_S07": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S07_Map/Athena_Terrain_S07",
+        "bEnabled": true
+      },
+      "LootLake_S07": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S07_Map/Athena_Terrain_S07",
+        "bEnabled": true
+      },
+      "WarmupFigment_S08": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S08_Map/Athena_Terrain_S08",
+        "bEnabled": true
+      },
+      "LootLake_S08": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S08_Map/Athena_Terrain_S08",
+        "bEnabled": true
+      },
+      "WarmupFigment_S09": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S09_Map/Athena_Terrain_S09",
+        "bEnabled": true
+      },
+      "LootLake_S09": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S09_Map/Athena_Terrain_S09",
+        "bEnabled": true
+      },
+      "WarmupFigment_S10": {
+        "Location": {
+          "X": -128500.0,
+          "Y": -114140.0,
+          "Z": 3980.0
+        },
+        "BoxHalfSize": {
+          "X": 25000.0,
+          "Y": 24000.0,
+          "Z": 11000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Figment_S10_Map/Athena_Terrain_S10",
+        "bEnabled": true
+      },
+      "LootLake_S10": {
+        "Location": {
+          "X": 65900.0,
+          "Y": -42344.0,
+          "Z": 2288.0
+        },
+        "BoxHalfSize": {
+          "X": 19000.0,
+          "Y": 17000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Figment"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Figment )"
+        },
+        "MapPath": "/Figment_S10_Map/Athena_Terrain_S10",
+        "bEnabled": true
+      }
+    }
+  }
+]

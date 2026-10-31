@@ -1,0 +1,368 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_Visibility_Data",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Visibility_Data",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortAIVisibilityDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      }
+    },
+    "Rows": {
+      "Cloak": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Gameplay.Status.Cloaked"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Cloak",
+          "AutoDescription": " ANY( Athena.Gameplay.Status.Cloaked )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": true,
+            "VisibilitySettings": 2,
+            "Range": 300.0,
+            "IdleTime": 0.0
+          },
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 33,
+            "Range": 0.0,
+            "IdleTime": 0.0
+          }
+        ]
+      },
+      "Bush": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Item.Bush"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Athena Bush",
+          "AutoDescription": " ANY( Athena.Item.Bush )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": true,
+            "VisibilitySettings": 2,
+            "Range": 300.0,
+            "IdleTime": 0.0
+          },
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 44,
+            "Range": 0.0,
+            "IdleTime": 0.3
+          }
+        ]
+      },
+      "GettingInProp": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Granted.Athena.EnvItem.HidingProp.GettingInProp"
+            },
+            {
+              "TagName": "Athena.AI.VisibleWhenUsedAsBase"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            1
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Granted.Athena.EnvItem.HidingProp.GettingInProp, Athena.AI.VisibleWhenUsedAsBase )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 2,
+            "Range": 0.0,
+            "IdleTime": 0.0
+          }
+        ]
+      },
+      "HidingInPropEnv": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Granted.Athena.EnvItem.HidingProp.HidingInProp"
+            },
+            {
+              "TagName": "Athena.Item.Snowman"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            2,
+            1,
+            1,
+            0,
+            3,
+            1,
+            1
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Granted.Athena.EnvItem.HidingProp.HidingInProp ),  NONE( Athena.Item.Snowman ) )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 1,
+            "Range": 0.0,
+            "IdleTime": 0.0
+          }
+        ]
+      },
+      "AlwaysHiddenIfNotPreviouslyVisible": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.AI.Hidden"
+            },
+            {
+              "TagName": "Gameplay.Status.HidingInProp"
+            },
+            {
+              "TagName": "Athena.Item.Snowman"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            4,
+            2,
+            1,
+            1,
+            0,
+            5,
+            2,
+            1,
+            1,
+            1,
+            3,
+            1,
+            2
+          ],
+          "UserDescription": "Hidden If Not Previously Visible Tags",
+          "AutoDescription": " ANY(  ANY( Athena.AI.Hidden ),  ALL(  ANY( Gameplay.Status.HidingInProp ),  NONE( Athena.Item.Snowman ) ) )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 33,
+            "Range": 0.0,
+            "IdleTime": 0.0
+          }
+        ]
+      },
+      "HiddenWhenIdleAndCrouched": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.AI.HiddenWhenIdleAndCrouched"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Idle and Crouched Visibility Tags",
+          "AutoDescription": " ANY( Athena.AI.HiddenWhenIdleAndCrouched )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 44,
+            "Range": 0.0,
+            "IdleTime": 0.3
+          }
+        ]
+      },
+      "HiddenWhenIdle": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.AI.HiddenWhenIdle"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Idle Visibility Tags",
+          "AutoDescription": " ANY( Athena.AI.HiddenWhenIdle )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 36,
+            "Range": 0.0,
+            "IdleTime": 0.3
+          }
+        ]
+      },
+      "VisibleWhenOverlapping": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.AI.ConsiderVisibleWhenOverlapping"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Overlapping Visibility Tags",
+          "AutoDescription": " ANY( Athena.AI.ConsiderVisibleWhenOverlapping )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 16,
+            "Range": 0.0,
+            "IdleTime": 0.0
+          }
+        ]
+      },
+      "VisibleInProximity": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.AI.ConsiderVisibleWhenInProximity"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Proximity Visibility Tags",
+          "AutoDescription": " ANY( Athena.AI.ConsiderVisibleWhenInProximity )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": true,
+            "VisibilitySettings": 2,
+            "Range": 300.0,
+            "IdleTime": 0.0
+          },
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 33,
+            "Range": 0.0,
+            "IdleTime": 0.0
+          }
+        ]
+      },
+      "AlwaysVisible": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.AI.VisibleInVehicle"
+            },
+            {
+              "TagName": "Athena.AI.OwnsVisibleActor"
+            },
+            {
+              "TagName": "Athena.AI.CarryingVisibleActor"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            3,
+            0,
+            1,
+            2
+          ],
+          "UserDescription": "Always Visible Tags",
+          "AutoDescription": " ANY( Athena.AI.VisibleInVehicle, Athena.AI.OwnsVisibleActor, Athena.AI.CarryingVisibleActor )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 2,
+            "Range": 0.0,
+            "IdleTime": 0.0
+          }
+        ]
+      },
+      "AlwaysVisibleIfNotPreviouslyHidden": {
+        "VisibilityTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.AI.VisibleWhenUsedAsBase"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Visible If Not Previously Hidden Tags",
+          "AutoDescription": " ANY( Athena.AI.VisibleWhenUsedAsBase )"
+        },
+        "RangeSettings": [
+          {
+            "bUsesRangeSettings": false,
+            "VisibilitySettings": 34,
+            "Range": 0.0,
+            "IdleTime": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PerkData_Phoebe_Bunker_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Bunker",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIPerk_Bunker'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PerkData_Phoebe_Bunker_C'Default__BP_PerkData_Phoebe_Bunker_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Bunker.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PerkData_Phoebe_Bunker_C",
+    "Name": "Default__BP_PerkData_Phoebe_Bunker_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Bunker.BP_PerkData_Phoebe_Bunker_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Bunker",
+    "Properties": {
+      "OddsToBeUsedAgainstUnknownThreat": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.OddsToActivateAgainstUnknownThreat"
+        }
+      },
+      "OddsToBuildForwardRamp": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.OddsToBuildForwardRamp"
+        }
+      },
+      "SamePieceBuildDelay": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.SamePieceBuildDelay"
+        }
+      },
+      "DifferentPieceBuildDelay": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.DifferentPieceBuildDelay"
+        }
+      },
+      "OddsToSelectRandomMaterial": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.OddsToSelectRandomMaterial"
+        }
+      },
+      "CooldownDuration": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.CooldownDuration"
+        }
+      },
+      "CooldownDurationRandomDeviation": {
+        "Value": 1.0
+      },
+      "OddsToActivate": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.OddsToActivate"
+        }
+      },
+      "FailedActivationCooldownDuration": {
+        "Value": 0.5
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Bunker_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

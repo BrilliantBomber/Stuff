@@ -1,0 +1,208 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Phoebe_AIServer_NoMapSamplingNoFlow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_NoMapSamplingNoFlow",
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaAIServiceCreativePlayerBots'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Phoebe_AIServer_NoMapSamplingNoFlow_C'Default__BP_Phoebe_AIServer_NoMapSamplingNoFlow_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_NoMapSamplingNoFlow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Phoebe_AIServer_NoMapSamplingNoFlow_C",
+    "Name": "Default__BP_Phoebe_AIServer_NoMapSamplingNoFlow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_NoMapSamplingNoFlow.BP_Phoebe_AIServer_NoMapSamplingNoFlow_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_NoMapSamplingNoFlow",
+    "Properties": {
+      "ZiplineOctreeRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.ZiplineOctreeRadius"
+        }
+      },
+      "UseZiplines": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.UseZiplines"
+        }
+      },
+      "DebugMinimapData": {
+        "bIsOverridden": true,
+        "DebugMinimapIconBrush": {
+          "ImageSize": {
+            "X": 36.0,
+            "Y": 36.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'DeimosRiftMapIcon'",
+            "ObjectPath": "/Game/Athena/HUD/Spectator/DeimosRiftMapIcon.0"
+          }
+        },
+        "DebugMinimapIconScale": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ConstructionBuildingInfo": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Solid_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Solid.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Solid_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Solid.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Solid_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Solid.1"
+        }
+      },
+      "ConstructionBuildingInfo[1]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Floor_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Floor_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Floor.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Floor_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Floor.1"
+        }
+      },
+      "ConstructionBuildingInfo[2]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_StairW_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_StairW_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_StairW.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_StairW_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_StairW.1"
+        }
+      },
+      "ConstructionBuildingInfo[3]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_RoofC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofC.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_RoofC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_RoofC.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_RoofC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_RoofC.1"
+        }
+      },
+      "ConstructionBuildingInfo[4]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Brace_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Brace.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Brace_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Brace.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Brace_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Brace.1"
+        }
+      },
+      "ConstructionBuildingInfo[5]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_WindowC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_WindowC.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_WindowsC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_WindowsC.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_WindowC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_WindowC.1"
+        }
+      },
+      "BotItemDataTable": {
+        "ObjectName": "DataTable'PhoebeItemData'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/PhoebeItemData.0"
+      },
+      "VisibilitySettingsRegistry": {
+        "ObjectName": "DataRegistry'Phoebe_VisibilityRegistry'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_VisibilityRegistry.0"
+      },
+      "BotsUniqueIDUseValidAccountID": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.BotsUniqueIDUseValidAccountID"
+        }
+      },
+      "bWaitForNavmeshToBeLoaded": false,
+      "bDoSpawnBotFlow": false,
+      "bDoMapSampling": false,
+      "DefaultBotAISpawnerData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+      },
+      "MMRSpawnTable": {
+        "AssetPathName": "/Game/Athena/AI/Phoebe/PhoebeSpawningTables/PhoebeMMRSpawning.PhoebeMMRSpawning",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Phoebe_AIServer_NoMapSamplingNoFlow_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_NoMapSamplingNoFlow.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PerkData_Phoebe_Evasive_LongCrouch_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_LongCrouch",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIPerk_EvasiveManeuvers'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PerkData_Phoebe_Evasive_LongCrouch_C'Default__BP_PerkData_Phoebe_Evasive_LongCrouch_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_LongCrouch.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PerkData_Phoebe_Evasive_LongCrouch_C",
+    "Name": "Default__BP_PerkData_Phoebe_Evasive_LongCrouch_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_LongCrouch.BP_PerkData_Phoebe_Evasive_LongCrouch_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_LongCrouch",
+    "Properties": {
+      "EvasiveManeuverSkillSettings": {
+        "CrouchOverlayWeight": {
+          "Value": 1.0
+        },
+        "JumpOverlayWeight": {
+          "Value": 0.0
+        },
+        "NoOverlayWeight": {
+          "Value": 0.0
+        },
+        "DodgeWeight": {
+          "Value": 0.0
+        },
+        "JumpDelay": {
+          "Value": 0.0
+        },
+        "JumpRandomDeviationDelay": {
+          "Value": 0.0
+        },
+        "CrouchDelay": {
+          "Value": 0.75
+        },
+        "CrouchRandomDeviationDelay": {
+          "Value": 0.25
+        },
+        "DodgeDistanceMax": {
+          "Value": 0.0
+        },
+        "DodgeDistanceMin": {
+          "Value": 0.0
+        },
+        "CrouchTimeMax": {
+          "Value": 12.0
+        },
+        "CrouchTimeMin": {
+          "Value": 6.0
+        }
+      },
+      "DistanceMin": {
+        "Value": 2500.0
+      },
+      "WeaponTagQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Item.Weapon.Ranged.Sniper"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Item.Weapon.Ranged.Sniper )"
+      },
+      "CooldownDuration": {
+        "Value": 4.0
+      },
+      "CooldownDurationRandomDeviation": {
+        "Value": 2.0
+      },
+      "ActivationDuration": {
+        "Value": 12.0
+      },
+      "ActivationDurationRandomDeviation": {
+        "Value": 1.0
+      },
+      "OddsToActivate": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.EvasiveManeuvers.SettingSpecializations.LongCrouch.Odds"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_LongCrouch_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_LongCrouch.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

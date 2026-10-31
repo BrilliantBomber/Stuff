@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "EnvQuery",
+    "Name": "EQS_Phoebe_FindValidLocationAroundBot",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQuery'",
+    "Package": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_FindValidLocationAroundBot",
+    "Properties": {
+      "QueryName": "EQS_Phoebe_FindValidLocationAroundBot",
+      "Options": [
+        {
+          "ObjectName": "EnvQueryOption'EQS_Phoebe_FindValidLocationAroundBot:EnvQueryOption_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_FindValidLocationAroundBot.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryGenerator_Donut",
+    "Name": "EnvQueryGenerator_Donut_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQueryGenerator_Donut'",
+    "Outer": {
+      "ObjectName": "EnvQuery'EQS_Phoebe_FindValidLocationAroundBot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_FindValidLocationAroundBot.0"
+    },
+    "Properties": {
+      "OuterRadius": {
+        "DefaultValue": 10000.0
+      },
+      "NumberOfRings": {
+        "DefaultValue": 5
+      },
+      "PointsPerRing": {
+        "DefaultValue": 4
+      },
+      "bUseSpiralPattern": true,
+      "ProjectionData": {
+        "VersionNum": 1,
+        "NavigationFilter": {
+          "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe.0"
+        },
+        "ProjectDown": 10024.0,
+        "ProjectUp": 10024.0,
+        "ExtentX": 42.0,
+        "SerializedChannel": "ECollisionChannel::ECC_Visibility",
+        "TraceMode": "EEnvQueryTrace::Navigation"
+      },
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryOption",
+    "Name": "EnvQueryOption_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQueryOption'",
+    "Outer": {
+      "ObjectName": "EnvQuery'EQS_Phoebe_FindValidLocationAroundBot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_FindValidLocationAroundBot.0"
+    },
+    "Properties": {
+      "Generator": {
+        "ObjectName": "EnvQueryGenerator_Donut'EQS_Phoebe_FindValidLocationAroundBot:EnvQueryGenerator_Donut_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_FindValidLocationAroundBot.1"
+      },
+      "Tests": [
+        {
+          "ObjectName": "EnvQueryTest_Pathfinding'EQS_Phoebe_FindValidLocationAroundBot:EnvQueryTest_Pathfinding_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_FindValidLocationAroundBot.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryTest_Pathfinding",
+    "Name": "EnvQueryTest_Pathfinding_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQueryTest_Pathfinding'",
+    "Outer": {
+      "ObjectName": "EnvQuery'EQS_Phoebe_FindValidLocationAroundBot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_FindValidLocationAroundBot.0"
+    },
+    "Properties": {
+      "Context": {
+        "ObjectName": "BlueprintGeneratedClass'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.0"
+      },
+      "PathFromContext": {
+        "DefaultValue": false,
+        "DataField": "BoolValue"
+      },
+      "FilterClass": {
+        "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe.0"
+      },
+      "VerNum": 2
+    }
+  }
+]

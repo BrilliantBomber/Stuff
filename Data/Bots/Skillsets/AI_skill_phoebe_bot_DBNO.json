@@ -1,0 +1,187 @@
+[
+  {
+    "Type": "AI_skill_phoebe_bot_DBNO_C",
+    "Name": "Default__AI_skill_phoebe_bot_DBNO_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_DBNO.AI_skill_phoebe_bot_DBNO_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_DBNO",
+    "Properties": {
+      "MaxDBNOCrawlingResponseTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.MaxDBNOCrawlingResponseTime"
+        }
+      },
+      "MaxDBNOCrawlingResponseTimeDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.MaxDBNOCrawlingResponseTimeDeviation"
+        }
+      },
+      "AllyEvaluationTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.AllyEvaluationTime"
+        }
+      },
+      "AllyEvaluationTimeDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.AllyEvaluationTimeDeviation"
+        }
+      },
+      "AllyEvaluationMaxDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.AllyEvaluationMaxDistance"
+        }
+      },
+      "OddsToLookForCover": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.OddsToLookForCover"
+        }
+      },
+      "CoverEvaluationTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.CoverEvaluationTime"
+        }
+      },
+      "CoverEvaluationTimeDeviation": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.CoverEvaluationTimeDeviation"
+        }
+      },
+      "RollDelay": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.Roll.Delay"
+        }
+      },
+      "RollDelayDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.Roll.DelayDeviation"
+        }
+      },
+      "DodgeRollMinAngleWithPath": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.Roll.DodgeMinAngleWithPath"
+        }
+      },
+      "DodgeRollMaxAngleWithPath": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.Roll.DodgeMaxAngleWithPath"
+        }
+      },
+      "SprintMinReplenishingEnergy": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.DBNO.Sprint.MinReplenishingEnergy"
+        }
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AI_skill_phoebe_bot_DBNO_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_DBNO",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotDBNOSkillSet'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AI_skill_phoebe_bot_DBNO_C'Default__AI_skill_phoebe_bot_DBNO_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_DBNO.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_DBNO_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_DBNO.1"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,839 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "FeedbackAudioComp0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "AudioComponent'Default__BP_PlayerPawn_NonParticipant_C:FeedbackAudioComp0'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.4"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "InAirAudioComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "AudioComponent'Default__BP_PlayerPawn_NonParticipant_C:InAirAudioComp'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.23"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PlayerPawn_NonParticipant_FiringRange_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_NonParticipant_C'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.3"
+    },
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PlayerPawn_NonParticipant_FiringRange_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.37"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_PlayerPawn_NonParticipant_FiringRange_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.26"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PlayerPawn_NonParticipant_FiringRange_C",
+    "Name": "Default__BP_PlayerPawn_NonParticipant_FiringRange_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.BP_PlayerPawn_NonParticipant_FiringRange_C'",
+    "Package": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange",
+    "Template": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_C'Default__BP_PlayerPawn_NonParticipant_C'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.4"
+    },
+    "Properties": {
+      "PatrolAnimSetPairs": [
+        {
+          "WeaponType": "EFortWeaponCoreAnimation::Pistol",
+          "DataAsset": {
+            "ObjectName": "FortPatrolAnimAsset'Pistol_Patrol_AnimSet'",
+            "ObjectPath": "/Game/Athena/AI/MANG/AnimSet/Pistol_Patrol_AnimSet.0"
+          }
+        }
+      ],
+      "CustomDepthComponent": {
+        "ObjectName": "FortPawnComponent_CustomDepth'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CustomDepthComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.16"
+      },
+      "InAirAudioComp": {
+        "ObjectName": "AudioComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:InAirAudioComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.1"
+      },
+      "PSC_PlayerWalkLand": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:PlayerWalkLandFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.34"
+      },
+      "PSC_PlayerRunLand": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:PlayerRunLandFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.32"
+      },
+      "PSC_HitDamage": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:HitDamageFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.29"
+      },
+      "RimLightComponent": {
+        "ObjectName": "FortPlayerPawnAthenaRimLight'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:RimLightComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.22"
+      },
+      "TetherComponent": {
+        "ObjectName": "FortPawnComponent_Tether'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:TetherComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.17"
+      },
+      "CosmeticDataComponent": {
+        "ObjectName": "CosmeticDataComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CosmeticDataComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.6"
+      },
+      "CosmeticLoadoutComponent": {
+        "ObjectName": "FortCosmeticLoadoutComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CosmeticLoadoutComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.9"
+      },
+      "SkeletalMeshContext": {
+        "ObjectName": "FortPawnSkeletalMeshContext'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:FortPawnSkeletalMeshContext'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.18"
+      },
+      "GliderSpawnComponent": {
+        "ObjectName": "FortGliderSpawnComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:GliderSpawnComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.12"
+      },
+      "LinkedAnimGraphComponent": {
+        "ObjectName": "FortPlayerLinkedAnimGraphComponentBP_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:FortLinkedAnimGraphComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.21"
+      },
+      "AnimationComponent": {
+        "ObjectName": "FortPlayerAnimComponentBP_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:FortPlayerAnimationComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.20"
+      },
+      "PSC_PlayerInWater": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:PlayerInWaterFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.30"
+      },
+      "PSC_PlayerInWaterSurfaceSwimming": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:PlayerInWaterSurfaceSwimmingFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.31"
+      },
+      "PSC_PlayerSlideLand": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:PlayerSlideLandFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.33"
+      },
+      "ConvertComponent": {
+        "ObjectName": "FortPawnComponent_Convert'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:ConvertComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.15"
+      },
+      "AffiliationComponent": {
+        "ObjectName": "FortActorComponent_Affiliation'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:AffiliationComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.8"
+      },
+      "CosmeticPortInformationComponent": {
+        "ObjectName": "CosmeticPortInformationComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CosmeticSlotInformationComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.7"
+      },
+      "CosmeticApplicatorComponent": {
+        "ObjectName": "CosmeticApplicatorComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CosmeticApplicatorComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.5"
+      },
+      "SoundIndicatorComponent": {
+        "ObjectName": "FortSoundIndicatorComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:SoundIndicatorComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.24"
+      },
+      "SoundLibraryComponent": {
+        "ObjectName": "FortSoundLibraryComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:SoundLibraryComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.25"
+      },
+      "EmoteComponent": {
+        "ObjectName": "FortEmoteComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:FortEmoteComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.10"
+      },
+      "EmoteMusicClockComponent": {
+        "ObjectName": "MusicClockComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:EmoteMusicClockComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.27"
+      },
+      "VocalChords": [
+        {
+          "FeedbackAudioComponent": {
+            "ObjectName": "AudioComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:FeedbackAudioComp0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.0"
+          },
+          "ReplicatedSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "EFortFeedbackBroadcastFilter::FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "PendingSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "EFortFeedbackBroadcastFilter::FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "QueuedSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "EFortFeedbackBroadcastFilter::FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "CurrentSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "EFortFeedbackBroadcastFilter::FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          }
+        }
+      ],
+      "Mesh": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.23"
+      },
+      "CharacterMovement": {
+        "ObjectName": "FortMovementComp_CharacterAthena'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharMoveComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.14"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.4"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_C:CollisionCylinder'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.5"
+    }
+  },
+  {
+    "Type": "CosmeticApplicatorComponent",
+    "Name": "CosmeticApplicatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CosmeticApplicatorComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "CosmeticApplicatorComponent'Default__BP_PlayerPawn_NonParticipant_C:CosmeticApplicatorComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.7"
+    }
+  },
+  {
+    "Type": "CosmeticDataComponent",
+    "Name": "CosmeticDataComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CosmeticDataComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "CosmeticDataComponent'Default__BP_PlayerPawn_NonParticipant_C:CosmeticDataComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.8"
+    }
+  },
+  {
+    "Type": "CosmeticPortInformationComponent",
+    "Name": "CosmeticSlotInformationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CosmeticPortInformationComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "CosmeticPortInformationComponent'Default__BP_PlayerPawn_NonParticipant_C:CosmeticSlotInformationComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.9"
+    }
+  },
+  {
+    "Type": "FortActorComponent_Affiliation",
+    "Name": "AffiliationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortActorComponent_Affiliation'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortActorComponent_Affiliation'Default__BP_PlayerPawn_NonParticipant_C:AffiliationComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.10"
+    }
+  },
+  {
+    "Type": "FortCosmeticLoadoutComponent",
+    "Name": "CosmeticLoadoutComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortCosmeticLoadoutComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortCosmeticLoadoutComponent'Default__BP_PlayerPawn_NonParticipant_C:CosmeticLoadoutComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.12"
+    }
+  },
+  {
+    "Type": "FortEmoteComponent",
+    "Name": "FortEmoteComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortEmoteComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortEmoteComponent'Default__BP_PlayerPawn_NonParticipant_C:FortEmoteComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.13"
+    }
+  },
+  {
+    "Type": "FortGenericDataStoreManagerComponent",
+    "Name": "GeneralDataStore",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortGenericDataStoreManagerComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortGenericDataStoreManagerComponent'Default__BP_PlayerPawn_NonParticipant_C:GeneralDataStore'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.14"
+    }
+  },
+  {
+    "Type": "FortGliderSpawnComponent",
+    "Name": "GliderSpawnComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortGliderSpawnComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortGliderSpawnComponent'Default__BP_PlayerPawn_NonParticipant_C:GliderSpawnComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.15"
+    }
+  },
+  {
+    "Type": "FortHoldingObjectComponent",
+    "Name": "FortHoldingObjectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortHoldingObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortHoldingObjectComponent'Default__BP_PlayerPawn_NonParticipant_C:FortHoldingObjectComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.16"
+    }
+  },
+  {
+    "Type": "FortMovementComp_CharacterAthena",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMovementComp_CharacterAthena'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortMovementComp_CharacterAthena'Default__BP_PlayerPawn_NonParticipant_C:CharMoveComp'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.17"
+    },
+    "Properties": {
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": true
+      }
+    }
+  },
+  {
+    "Type": "FortPawnComponent_Convert",
+    "Name": "ConvertComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPawnComponent_Convert'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortPawnComponent_Convert'Default__BP_PlayerPawn_NonParticipant_C:ConvertComp'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.19"
+    }
+  },
+  {
+    "Type": "FortPawnComponent_CustomDepth",
+    "Name": "CustomDepthComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPawnComponent_CustomDepth'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortPawnComponent_CustomDepth'Default__BP_PlayerPawn_NonParticipant_C:CustomDepthComp'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.20"
+    }
+  },
+  {
+    "Type": "FortPawnComponent_Tether",
+    "Name": "TetherComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPawnComponent_Tether'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortPawnComponent_Tether'Default__BP_PlayerPawn_NonParticipant_C:TetherComp'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.21"
+    }
+  },
+  {
+    "Type": "FortPawnSkeletalMeshContext",
+    "Name": "FortPawnSkeletalMeshContext",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPawnSkeletalMeshContext'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortPawnSkeletalMeshContext'Default__BP_PlayerPawn_NonParticipant_C:FortPawnSkeletalMeshContext'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.22"
+    }
+  },
+  {
+    "Type": "FortPlayerAnimationInterface",
+    "Name": "FortPlayerAnimationInterface",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPlayerAnimationInterface'",
+    "Outer": {
+      "ObjectName": "FortPlayerAnimComponentBP_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:FortPlayerAnimationComponent'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.20"
+    },
+    "Template": {
+      "ObjectName": "FortPlayerAnimationInterface'Default__BP_PlayerPawn_NonParticipant_C:FortPlayerAnimationComponent.FortPlayerAnimationInterface'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.23"
+    }
+  },
+  {
+    "Type": "FortPlayerAnimComponentBP_C",
+    "Name": "FortPlayerAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/Player/Blueprints/FortPlayerAnimComponentBP.FortPlayerAnimComponentBP_C'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortPlayerAnimComponentBP_C'Default__BP_PlayerPawn_NonParticipant_C:FortPlayerAnimationComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.24"
+    }
+  },
+  {
+    "Type": "FortPlayerLinkedAnimGraphComponentBP_C",
+    "Name": "FortLinkedAnimGraphComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/Player/Blueprints/FortPlayerLinkedAnimGraphComponentBP.FortPlayerLinkedAnimGraphComponentBP_C'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortPlayerLinkedAnimGraphComponentBP_C'Default__BP_PlayerPawn_NonParticipant_C:FortLinkedAnimGraphComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.25"
+    },
+    "Properties": {
+      "PrototypeLandAnimClass": null,
+      "OldJumpAnimClass": null
+    }
+  },
+  {
+    "Type": "FortPlayerPawnAthenaRimLight",
+    "Name": "RimLightComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPlayerPawnAthenaRimLight'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortPlayerPawnAthenaRimLight'Default__BP_PlayerPawn_NonParticipant_C:RimLightComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.26"
+    }
+  },
+  {
+    "Type": "FortPooledSkelMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPooledSkelMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_C:CharacterMesh0'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.27"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.4"
+      }
+    }
+  },
+  {
+    "Type": "FortSoundIndicatorComponent",
+    "Name": "SoundIndicatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSoundIndicatorComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortSoundIndicatorComponent'Default__BP_PlayerPawn_NonParticipant_C:SoundIndicatorComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.28"
+    }
+  },
+  {
+    "Type": "FortSoundLibraryComponent",
+    "Name": "SoundLibraryComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSoundLibraryComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "FortSoundLibraryComponent'Default__BP_PlayerPawn_NonParticipant_C:SoundLibraryComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.29"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.2"
+    }
+  },
+  {
+    "Type": "MusicClockComponent",
+    "Name": "EmoteMusicClockComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MusicClockComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "MusicClockComponent'Default__BP_PlayerPawn_NonParticipant_C:EmoteMusicClockComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.108"
+    }
+  },
+  {
+    "Type": "MusicTimerManager",
+    "Name": "MusicTimerManager_MusicClockComponent",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MusicTimerManager'",
+    "Outer": {
+      "ObjectName": "MusicClockComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:EmoteMusicClockComponent'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.27"
+    },
+    "Template": {
+      "ObjectName": "MusicTimerManager'Default__BP_PlayerPawn_NonParticipant_C:EmoteMusicClockComponent.MusicTimerManager_MusicClockComponent'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.109"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "HitDamageFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_C:HitDamageFX'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.110"
+    },
+    "Properties": {
+      "AutoAttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.4"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.4"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerInWaterFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_C:PlayerInWaterFX'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.111"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.4"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerInWaterSurfaceSwimmingFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_C:PlayerInWaterSurfaceSwimmingFX'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.112"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.4"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerRunLandFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_C:PlayerRunLandFX'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.113"
+    },
+    "Properties": {
+      "AutoAttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.23"
+      },
+      "AttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.23"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerSlideLandFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_C:PlayerSlideLandFX'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.114"
+    },
+    "Properties": {
+      "AutoAttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.23"
+      },
+      "AttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.23"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerWalkLandFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_NonParticipant_FiringRange_C'Default__BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_NonParticipant_C:PlayerWalkLandFX'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.115"
+    },
+    "Properties": {
+      "AutoAttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.23"
+      },
+      "AttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_NonParticipant_FiringRange_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.23"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.2"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_PlayerPawn_NonParticipant_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/BP_PlayerPawn_NonParticipant.116"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PlayerPawn_NonParticipant_FiringRange_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PlayerPawn_NonParticipant_FiringRange_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.35"
+      },
+      "VariableGuid": "65AF73D5-417B93F3-DE430B9E-5EA0FF7F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.2"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PlayerPawn_NonParticipant_FiringRange_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.36"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_NonParticipant_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_NonParticipant_FiringRange.2"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            },
+            {
+              "Key": "HideCategories",
+              "Value": "AI Movement AI Movement Actor Movement Game|Damage Navigation"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_Cosmetic_Characters_Default",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/Default/Phoebe_Cosmetic_Characters_Default",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotCosmeticItemDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "1": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_272_Athena_Commando_F_Prime"
+        },
+        "Weight": 1.0
+      },
+      "2": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_273_Athena_Commando_F_Prime_B"
+        },
+        "Weight": 1.0
+      },
+      "3": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_274_Athena_Commando_F_Prime_C"
+        },
+        "Weight": 1.0
+      },
+      "4": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_275_Athena_Commando_F_Prime_D"
+        },
+        "Weight": 1.0
+      },
+      "5": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_276_Athena_Commando_F_Prime_E"
+        },
+        "Weight": 1.0
+      },
+      "6": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_277_Athena_Commando_F_Prime_F"
+        },
+        "Weight": 1.0
+      },
+      "7": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_278_Athena_Commando_F_Prime_G"
+        },
+        "Weight": 1.0
+      },
+      "8": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_279_Athena_Commando_M_Prime"
+        },
+        "Weight": 1.0
+      },
+      "9": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_280_Athena_Commando_M_Prime_B"
+        },
+        "Weight": 1.0
+      },
+      "10": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_281_Athena_Commando_M_Prime_C"
+        },
+        "Weight": 1.0
+      },
+      "11": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_282_Athena_Commando_M_Prime_D"
+        },
+        "Weight": 1.0
+      },
+      "12": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_283_Athena_Commando_M_Prime_E"
+        },
+        "Weight": 1.0
+      },
+      "13": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_284_Athena_Commando_M_Prime_F"
+        },
+        "Weight": 1.0
+      },
+      "14": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_A_285_Athena_Commando_M_Prime_G"
+        },
+        "Weight": 1.0
+      }
+    }
+  }
+]

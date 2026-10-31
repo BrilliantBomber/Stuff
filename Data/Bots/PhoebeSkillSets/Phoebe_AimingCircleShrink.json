@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "Phoebe_AimingCircleShrink",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_AimingCircleShrink",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Phoebe.Aiming.CircleShrinkCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 0.5,
+            "Value": 1.0
+          },
+          {
+            "Time": 0.6,
+            "Value": 0.8
+          },
+          {
+            "Time": 0.7,
+            "Value": 0.59999996
+          },
+          {
+            "Time": 0.8,
+            "Value": 0.4
+          },
+          {
+            "Time": 0.9,
+            "Value": 0.19999999
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

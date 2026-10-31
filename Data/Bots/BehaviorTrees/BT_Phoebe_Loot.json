@@ -1,0 +1,428 @@
+[
+  {
+    "Type": "BehaviorTree",
+    "Name": "BT_Phoebe_Loot",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BehaviorTree'",
+    "Package": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot",
+    "Properties": {
+      "RootNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.1"
+      },
+      "BlackboardAsset": {
+        "ObjectName": "BlackboardData'BB_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_23'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.2"
+          },
+          "ChildTask": null,
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Loot:BTDecorator_Blackboard_0'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.4"
+            },
+            {
+              "ObjectName": "BTDecorator_Loop'BT_Phoebe_Loot:BTDecorator_Loop_0'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.7"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait'BT_Phoebe_Loot:BTTask_Wait_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.9"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_RunBehavior'BT_Phoebe_Loot:BTTask_RunBehavior_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.8"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_Interact'BT_Phoebe_Loot:FortAthenaBTTask_Interact_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.13"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Loot:BTDecorator_Blackboard_26'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.6"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_SimpleParallel'BT_Phoebe_Loot:BTComposite_SimpleParallel_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.3"
+          },
+          "ChildTask": null,
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "NodeName": "Loot Selector",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.1"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_SimpleParallel",
+    "Name": "BTComposite_SimpleParallel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_SimpleParallel'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_BotMoveTo'BT_Phoebe_Loot:FortAthenaBTTask_BotMoveTo_9'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.11"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_Build'BT_Phoebe_Loot:FortAthenaBTTask_Build_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.12"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Loot:BTDecorator_Blackboard_1'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.5"
+            }
+          ],
+          "DecoratorOps": []
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.2"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "CachedDescription": "AIEvaluator_Loot_Destination is Is Set",
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Loot_Destination"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Has Valid Loot Dest",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "IntValue": 4,
+      "StringValue": "EExecutionStatus::ExecutionAllowed",
+      "CachedDescription": "AIEvaluator_DefensiveBuilding_ExecutionStatus Is Greater Than Or Equal To Execution Allowed",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_DefensiveBuilding_ExecutionStatus"
+      },
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_SimpleParallel'BT_Phoebe_Loot:BTComposite_SimpleParallel_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.3"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_Loot_InteractionExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Loot_InteractionExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Can Interact",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.2"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Loop",
+    "Name": "BTDecorator_Loop_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Loop'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "bInfiniteLoop": true,
+      "NodeName": "Loop when blocked",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.1"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_RunBehavior",
+    "Name": "BTTask_RunBehavior_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_RunBehavior'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "BehaviorAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_CopyBlackboardVariable'BT_Phoebe_Loot:FortAthenaBTService_CopyBlackboardVariable_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.10"
+        }
+      ],
+      "NodeName": "Run Unstuck Behavior ",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.2"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_Wait'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "WaitTime": {
+        "DefaultValue": 0.7
+      },
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_CopyBlackboardVariable",
+    "Name": "FortAthenaBTService_CopyBlackboardVariable_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_CopyBlackboardVariable'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "SourceBlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Loot_Destination"
+      },
+      "DestinationBlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckTeleport_ReachableGoal"
+      },
+      "NodeName": "Copy Loot_Destination",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_BotMoveTo",
+    "Name": "FortAthenaBTTask_BotMoveTo_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_BotMoveTo'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "NoSmashMoveGoalActorKeyName": "AIEvaluator_Loot_Object",
+      "AllowRandomWobble": {
+        "DefaultValue": false
+      },
+      "MovementResultKeyName": "AIEvaluator_Loot_MovementState",
+      "AcceptableRadius": {
+        "DefaultValue": 50.0
+      },
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Loot_Destination"
+      },
+      "NodeName": "Loot Move To",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_SimpleParallel'BT_Phoebe_Loot:BTComposite_SimpleParallel_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_Build",
+    "Name": "FortAthenaBTTask_Build_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_Build'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_SimpleParallel'BT_Phoebe_Loot:BTComposite_SimpleParallel_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.3"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_Interact",
+    "Name": "FortAthenaBTTask_Interact_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_Interact'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+    },
+    "Properties": {
+      "InteractExecutionStatusKeySelector": {
+        "SelectedKeyName": "AIEvaluator_Loot_InteractionExecutionStatus"
+      },
+      "InteractContextInfoKeySelector": {
+        "SelectedKeyName": "AIEvaluator_Loot_InteractionContextInfo"
+      },
+      "NodeName": "Loot Interaction",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Loot'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Loot:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Loot.2"
+      }
+    }
+  }
+]

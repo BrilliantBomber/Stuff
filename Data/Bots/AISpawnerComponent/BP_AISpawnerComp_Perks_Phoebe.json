@@ -1,0 +1,232 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_Perks_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Perks_Phoebe",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAISpawnerDataComponent_PerksBase'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_Perks_Phoebe_C'Default__BP_AISpawnerComp_Perks_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Perks_Phoebe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_Perks_Phoebe_C",
+    "Name": "Default__BP_AISpawnerComp_Perks_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Perks_Phoebe.BP_AISpawnerComp_Perks_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Perks_Phoebe",
+    "Properties": {
+      "PerksContainers": [
+        {
+          "AvailablePerks": [
+            {
+              "PerkClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Ambush_C'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Ambush.0"
+              },
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            },
+            {
+              "PerkClass": null,
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            }
+          ],
+          "DesiredPerkCount": 1
+        },
+        {
+          "AvailablePerks": [
+            {
+              "PerkClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_CrouchPop_C'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_CrouchPop.0"
+              },
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            },
+            {
+              "PerkClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_CrouchSpam_C'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_CrouchSpam.0"
+              },
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            },
+            {
+              "PerkClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_JumpSpam_C'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_JumpSpam.0"
+              },
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            },
+            {
+              "PerkClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_LongCrouch_C'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_LongCrouch.0"
+              },
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            },
+            {
+              "PerkClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_Melee_DoNothing_C'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_Melee_DoNothing.0"
+              },
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            },
+            {
+              "PerkClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_SideShuffle_C'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_SideShuffle.0"
+              },
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            }
+          ],
+          "DesiredPerkCount": -1
+        },
+        {
+          "AvailablePerks": [
+            {
+              "PerkClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Bunker_C'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Bunker.0"
+              },
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            },
+            {
+              "PerkClass": null,
+              "RandomWeight": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": {
+                    "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                    "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                  },
+                  "RowName": "Phoebe.Skill.Perks.Bunker.NoPerkWeight"
+                },
+                "RegistryType": {
+                  "Name": "None"
+                }
+              }
+            }
+          ],
+          "DesiredPerkCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Perks_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Perks_Phoebe.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

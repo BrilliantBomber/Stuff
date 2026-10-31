@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhoebeBuildingContainerBlacklist",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/ManagerData/PhoebeBuildingContainerBlacklist",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotBuildingContainerBlacklistDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "FishingRodBarrel": {
+        "BlacklistedActorClass": {
+          "AssetPathName": "/Game/Building/ActorBlueprints/Containers/Barrel_FishingRod_Container_Athena.Barrel_FishingRod_Container_Athena_C",
+          "SubPathString": ""
+        },
+        "bIsBlacklisted": true
+      },
+      "BarsContainer": {
+        "BlacklistedActorClass": {
+          "AssetPathName": "/Game/Building/ActorBlueprints/Containers/Parents/ATM_parent_Container_Athena_NoSearch.ATM_parent_Container_Athena_NoSearch_C",
+          "SubPathString": ""
+        },
+        "bIsBlacklisted": true
+      },
+      "BarsContainer_0": {
+        "BlacklistedActorClass": {
+          "AssetPathName": "/Game/Building/ActorBlueprints/Containers/Parents/Bed_parent_Container_Athena_NoSearch.Bed_parent_Container_Athena_NoSearch_C",
+          "SubPathString": ""
+        },
+        "bIsBlacklisted": true
+      },
+      "BarsContainer_1": {
+        "BlacklistedActorClass": {
+          "AssetPathName": "/Game/Building/ActorBlueprints/Containers/Parents/Couch_parent_Container_Athena_NoSearch.Couch_parent_Container_Athena_NoSearch_C",
+          "SubPathString": ""
+        },
+        "bIsBlacklisted": true
+      },
+      "BarsContainer_2": {
+        "BlacklistedActorClass": {
+          "AssetPathName": "/Game/Building/ActorBlueprints/Containers/Parents/WasherDryer_parent_Container_Athena_NoSearch.WasherDryer_parent_Container_Athena_NoSearch_C",
+          "SubPathString": ""
+        },
+        "bIsBlacklisted": true
+      },
+      "BarsContainer_3": {
+        "BlacklistedActorClass": {
+          "AssetPathName": "/Game/Building/ActorBlueprints/Containers/Tiered_Safe_Athena_Physics.Tiered_Safe_Athena_Physics_C",
+          "SubPathString": ""
+        },
+        "bIsBlacklisted": true
+      },
+      "BarsContainer_4": {
+        "BlacklistedActorClass": {
+          "AssetPathName": "/Game/Building/ActorBlueprints/Containers/Tiered_Safe_Athena_NonPhysics.Tiered_Safe_Athena_NonPhysics_C",
+          "SubPathString": ""
+        },
+        "bIsBlacklisted": true
+      }
+    }
+  }
+]

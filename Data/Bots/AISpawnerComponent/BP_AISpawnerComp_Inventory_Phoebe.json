@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_Inventory_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAISpawnerDataComponent_AIBotInventory'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_Inventory_Phoebe_C'Default__BP_AISpawnerComp_Inventory_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_Inventory_Phoebe_C",
+    "Name": "Default__BP_AISpawnerComp_Inventory_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe.BP_AISpawnerComp_Inventory_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe",
+    "Properties": {
+      "bItemsToGiveInEditorWhenCustomizationIsEnabled": true,
+      "LootInfo": {
+        "DataTable": {
+          "ObjectName": "DataTable'AILootOnDeathDataTable'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/AILootOnDeathDataTable.0"
+        },
+        "RowName": "Phoebe.01"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Inventory_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

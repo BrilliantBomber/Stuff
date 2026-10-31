@@ -1,0 +1,1022 @@
+[
+  {
+    "Type": "AI_skill_phoebe_bot_perception_C",
+    "Name": "Default__AI_skill_phoebe_bot_perception_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.AI_skill_phoebe_bot_perception_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception",
+    "Properties": {
+      "SightReactionTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.SightReactionTime"
+        }
+      },
+      "SightRandomDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.SightRandomDeviation"
+        }
+      },
+      "SightRandomAddition": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_DistanceSkillSetModifiers'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_DistanceSkillSetModifiers.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.SightRandomAddition"
+        }
+      },
+      "SightReactionSpecializations": [
+        {
+          "Tags": [
+            "Athena.Gameplay.Status.Cloaked"
+          ],
+          "SightMinAdditionTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_DistanceSkillSetModifiers'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_DistanceSkillSetModifiers.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.SightMinAddition.Cloaked"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "SightMaxAdditionTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_DistanceSkillSetModifiers'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_DistanceSkillSetModifiers.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.SightMaxAddition.Cloaked"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        }
+      ],
+      "LoseSightTime": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.LoseSightTime"
+        }
+      },
+      "LoseSightRandomDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.LoseSightRandomDeviation"
+        }
+      },
+      "SightSuspicionTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.SightSuspicionTime"
+        }
+      },
+      "SightSuspicionRandomDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.SightSuspicionRandomDeviation"
+        }
+      },
+      "EnemyMarkedReactionTime": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.EnemyMarkedReactionTime"
+        }
+      },
+      "EnemyMarkedReactionRandomDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.EnemyMarkedReactionDeviation"
+        }
+      },
+      "ChancesToHelpOnMarkedEnemy": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.ChanceToHelpOnMarkedEnemy"
+        }
+      },
+      "DamageReactionTime": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.DamageReactionTime"
+        }
+      },
+      "DamageRandomDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.DamageRandomDeviation"
+        }
+      },
+      "HearingReactionTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.HearingReactionTime"
+        }
+      },
+      "HearingRandomDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.HearingRandomDeviation"
+        }
+      },
+      "MaxHearingLocationError": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.MaxHearingLocationError"
+        }
+      },
+      "DefaultTargetHeuristicSettings": {
+        "ThreatSeeingPerceptionSettings": {
+          "ForgetTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatSeeingForgetTime"
+            }
+          },
+          "ForgetTimeDeviation": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatSeeingForgetTimeDeviation"
+            }
+          },
+          "ForgetDistance": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatSeeingForgetDistance"
+            }
+          },
+          "ForgetDistanceDeviation": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatSeeingForgetDistanceDeviation"
+            }
+          },
+          "ThreatDistanceWeight": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_DistanceSkillSetModifiers'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_DistanceSkillSetModifiers.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatSeeingDistanceWeight"
+            }
+          }
+        },
+        "ThreatLKPPerceptionSettings": {
+          "ForgetTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatLKPForgetTime"
+            }
+          },
+          "ForgetTimeDeviation": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatLKPForgetTimeDeviation"
+            }
+          },
+          "ForgetDistance": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatLKPForgetDistance"
+            }
+          },
+          "ForgetDistanceDeviation": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatLKPForgetDistanceDeviation"
+            }
+          },
+          "ThreatDistanceWeight": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_DistanceSkillSetModifiers'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_DistanceSkillSetModifiers.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatLKPDistanceWeight"
+            }
+          }
+        },
+        "ThreatAlertedPerceptionSettings": {
+          "ForgetTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatAlertedForgetTime"
+            }
+          },
+          "ForgetTimeDeviation": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatAlertedForgetTimeDeviation"
+            }
+          },
+          "ForgetDistance": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatAlertedForgetDistance"
+            }
+          },
+          "ForgetDistanceDeviation": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatAlertedForgetDistanceDeviation"
+            }
+          },
+          "ThreatDistanceWeight": {
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_DistanceSkillSetModifiers'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_DistanceSkillSetModifiers.0"
+              },
+              "RowName": "Phoebe.Skill.Perception.ThreatAlertedDistanceWeight"
+            }
+          }
+        },
+        "ThreatDamageWeight": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ThreatDamageBaseWeight"
+          }
+        },
+        "ThreatDamageWeightMultiplier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ThreatDamageWeightMultiplier"
+          }
+        },
+        "DBNOWeightModifier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.DBNOWeightModifier"
+          }
+        },
+        "GameParticipantWeightModifier": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.GameParticipantWeightModifier"
+          }
+        }
+      },
+      "ObstacleDistanceOverrideTargeting": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.ObstacleDistanceOverrideTargeting"
+        }
+      },
+      "ObstacleForgetDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.ObstacleForgetDistance"
+        }
+      },
+      "SoundSettings": {
+        "Loudness": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.DefaultLoudness"
+          }
+        },
+        "IgnoreTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.DefaultLoudnessIgnoreTime"
+          }
+        },
+        "OverrideReactionDistance": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.DefaultOverrideReactionDistance"
+          }
+        }
+      },
+      "SoundSettings[1]": {
+        "Loudness": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ExplosionLoudness"
+          }
+        },
+        "IgnoreTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ExplosionLoudnessIgnoreTime"
+          }
+        },
+        "OverrideReactionDistance": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ExplosionOverrideReactionDistance"
+          }
+        }
+      },
+      "SoundSettings[2]": {
+        "Loudness": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ProjectileFlyByLoudness"
+          }
+        },
+        "IgnoreTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ProjectileFlyByLoudnessIgnoreTime"
+          }
+        },
+        "OverrideReactionDistance": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ProjectileFlyByOverrideReactionDistance"
+          }
+        }
+      },
+      "SoundSettings[3]": {
+        "Loudness": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ProjectileImpactLoudness"
+          }
+        },
+        "IgnoreTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ProjectileImpactLoudnessIgnoreTime"
+          }
+        },
+        "OverrideReactionDistance": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.ProjectileImpactOverrideReactionDistance"
+          }
+        }
+      },
+      "SoundSettings[4]": {
+        "Loudness": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.WeaponFiringLoudness"
+          }
+        },
+        "IgnoreTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.WeaponFiringLoudnessIgnoreTime"
+          }
+        },
+        "OverrideReactionDistance": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.WeaponFiringOverrideReactionDistance"
+          }
+        }
+      },
+      "SoundSettings[5]": {
+        "Loudness": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.BuildingLoudness"
+          }
+        },
+        "IgnoreTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.BuildingLoudnessIgnoreTime"
+          }
+        },
+        "OverrideReactionDistance": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.BuildingOverrideReactionDistance"
+          }
+        }
+      },
+      "SoundSettings[6]": {
+        "Loudness": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.MeleeImpactLoudness"
+          }
+        },
+        "IgnoreTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.MeleeImpactLoudnessIgnoreTime"
+          }
+        },
+        "OverrideReactionDistance": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.MeleeImpactOverrideReactionDistance"
+          }
+        }
+      },
+      "SoundSettings[8]": {
+        "Loudness": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.DefaultLoudness"
+          }
+        },
+        "IgnoreTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.DefaultLoudnessIgnoreTime"
+          }
+        },
+        "OverrideReactionDistance": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_SkillSets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+            },
+            "RowName": "Phoebe.Skill.Perception.DefaultOverrideReactionDistance"
+          }
+        }
+      },
+      "AlertedAccumulatedLoudnessLimit": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertedAccumulatedLoudnessLimit"
+        }
+      },
+      "LKPAccumulatedLoudnessLimit": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.LKPAccumulatedLoudnessLimit"
+        }
+      },
+      "EnemyMarkingDelay": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.Marking.EnemyMarkingDelay"
+        }
+      },
+      "EnemyMarkingDelayRandomDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.Marking.EnemyMarkingDelayDeviation"
+        }
+      },
+      "AdditionalMarkedEnemyLKPForgetTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.Marking.AdditionalMarkedEnemyLKPForgetTime"
+        }
+      },
+      "AdditionalMarkedEnemyLKPForgetDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.Marking.AdditionalMarkedEnemyLKPForgetDistance"
+        }
+      },
+      "AlertLevelConfigs": [
+        {
+          "ObjectName": "FortAthenaAIBotAlertLevelConfig'Default__AI_skill_phoebe_bot_perception_C:FortAthenaAIBotAlertLevelConfig_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.4"
+        },
+        {
+          "ObjectName": "FortAthenaAIBotAlertLevelConfig'Default__AI_skill_phoebe_bot_perception_C:FortAthenaAIBotAlertLevelConfig_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.5"
+        }
+      ],
+      "ProjectileThreatForgetTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.ProjectileThreatForgetTime"
+        }
+      },
+      "TrapDetectionDistanceMax": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.TrapDetectionDistanceMax"
+        }
+      },
+      "TrapDetectionDistanceMaxDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.TrapDetectionDistanceMaxDeviation"
+        }
+      },
+      "TrapDetectionChanceWhenPerpendicular": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.TrapDetectionChanceWhenPerpendicular"
+        }
+      },
+      "TrapDetectionChanceWhenParallel": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.TrapDetectionChanceWhenParallel"
+        }
+      },
+      "TrapDetectionEvaluationAngleThreshold": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.TrapDetectionEvaluationAngleThreshold"
+        }
+      },
+      "TrapDetectionAutomaticIfWithinCreationTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.TrapDetectionAutomaticifWithinCreationTime"
+        }
+      },
+      "ShouldUpdateProximityToPlayers": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.PlayerProximityCheckEnabled"
+        }
+      },
+      "PlayerProximityUpdateInterval": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.PlayerProximityUpdateInterval"
+        }
+      },
+      "PlayerInProximityDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.PlayerInProximityDistance"
+        }
+      }
+    }
+  },
+  {
+    "Type": "AISenseScalableConfig_Sight",
+    "Name": "AISenseScalableConfig_Sight_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AISenseScalableConfig_Sight'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIBotAlertLevelConfig'Default__AI_skill_phoebe_bot_perception_C:FortAthenaAIBotAlertLevelConfig_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.4"
+    },
+    "Properties": {
+      "SightRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.Unaware.SightRadius"
+        }
+      },
+      "LoseSightRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.Unaware.LoseSightRadius"
+        }
+      },
+      "PeripheralVisionAngleDegrees": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.Unaware.PeripheralVisionHalfAngle"
+        }
+      },
+      "PointOfViewBackwardOffset": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.Unaware.PointOfViewBackwardOffset"
+        }
+      },
+      "NearClippingRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.Unaware.NearClippingRadius"
+        }
+      }
+    }
+  },
+  {
+    "Type": "AISenseScalableConfig_Sight",
+    "Name": "AISenseScalableConfig_Sight_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AISenseScalableConfig_Sight'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIBotAlertLevelConfig'Default__AI_skill_phoebe_bot_perception_C:FortAthenaAIBotAlertLevelConfig_1'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.5"
+    },
+    "Properties": {
+      "SightRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.AlertedAndUp.SightRadius"
+        }
+      },
+      "LoseSightRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.AlertedAndUp.LoseSightRadius"
+        }
+      },
+      "PeripheralVisionAngleDegrees": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.AlertedAndUp.PeripheralVisionHalfAngle"
+        }
+      },
+      "PointOfViewBackwardOffset": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.AlertedAndUp.PointOfViewBackwardOffset"
+        }
+      },
+      "NearClippingRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perception.AlertLevel.AlertedAndUp.NearClippingRadius"
+        }
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AI_skill_phoebe_bot_perception_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotPerceptionSkillSet'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AI_skill_phoebe_bot_perception_C'Default__AI_skill_phoebe_bot_perception_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "FortAthenaAIBotAlertLevelConfig",
+    "Name": "FortAthenaAIBotAlertLevelConfig_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIBotAlertLevelConfig'",
+    "Outer": {
+      "ObjectName": "AI_skill_phoebe_bot_perception_C'Default__AI_skill_phoebe_bot_perception_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.0"
+    },
+    "Properties": {
+      "AlertLevels": 1,
+      "ScalableSenseConfig": {
+        "ObjectName": "AISenseScalableConfig_Sight'Default__AI_skill_phoebe_bot_perception_C:FortAthenaAIBotAlertLevelConfig_0.AISenseScalableConfig_Sight_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaAIBotAlertLevelConfig",
+    "Name": "FortAthenaAIBotAlertLevelConfig_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIBotAlertLevelConfig'",
+    "Outer": {
+      "ObjectName": "AI_skill_phoebe_bot_perception_C'Default__AI_skill_phoebe_bot_perception_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.0"
+    },
+    "Properties": {
+      "AlertLevels": 14,
+      "ScalableSenseConfig": {
+        "ObjectName": "AISenseScalableConfig_Sight'Default__AI_skill_phoebe_bot_perception_C:FortAthenaAIBotAlertLevelConfig_1.AISenseScalableConfig_Sight_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.2"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_perception_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.3"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

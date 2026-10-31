@@ -1,0 +1,1192 @@
+[
+  {
+    "Type": "AIActionAimDownSight",
+    "Name": "AIActionAimDownSight_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionAimDownSight'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionApplyGameplayEffect",
+    "Name": "AIActionApplyGameplayEffect_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionApplyGameplayEffect'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionAxisAlignedRotation",
+    "Name": "AIActionAxisAlignedRotation_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionAxisAlignedRotation'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionBuild",
+    "Name": "AIActionBuild_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionBuild'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionCrouch",
+    "Name": "AIActionCrouch_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionCrouch'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionEditBuilding",
+    "Name": "AIActionEditBuilding_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionEditBuilding'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionEquipBuildTool",
+    "Name": "AIActionEquipBuildTool_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionEquipBuildTool'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionEquipItem",
+    "Name": "AIActionEquipItem_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionEquipItem'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionFirePrimary",
+    "Name": "AIActionFirePrimary_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionFirePrimary'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionFocus",
+    "Name": "AIActionFocus_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionFocus'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionJump",
+    "Name": "AIActionJump_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionJump'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionMove",
+    "Name": "AIActionMove_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionMove'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionReleaseBuildTool",
+    "Name": "AIActionReleaseBuildTool_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionReleaseBuildTool'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionRotation",
+    "Name": "AIActionRotation_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionRotation'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionSlide",
+    "Name": "AIActionSlide_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionSlide'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionTacticalSprint",
+    "Name": "AIActionTacticalSprint_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionTacticalSprint'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIActionUncrouch",
+    "Name": "AIActionUncrouch_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIActionUncrouch'",
+    "Outer": {
+      "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+    }
+  },
+  {
+    "Type": "AIPerceptionComponent",
+    "Name": "AIPerception_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIPerceptionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    },
+    "Properties": {
+      "SensesConfig": [
+        {
+          "ObjectName": "FortAISenseConfig_Sight'BP_PhoebePlayerController_C:AIPerception_GEN_VARIABLE.FortAISenseConfig_Sight_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.25"
+        },
+        {
+          "ObjectName": "AISenseConfig_Damage'BP_PhoebePlayerController_C:AIPerception_GEN_VARIABLE.AISenseConfig_Damage_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.18"
+        },
+        {
+          "ObjectName": "AISenseConfig_Hearing'BP_PhoebePlayerController_C:AIPerception_GEN_VARIABLE.AISenseConfig_Hearing_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.19"
+        },
+        null
+      ],
+      "DominantSense": {
+        "ObjectName": "Class'FortAISense_Sight'",
+        "ObjectPath": "/Script/FortniteAI"
+      }
+    }
+  },
+  {
+    "Type": "AISenseConfig_Damage",
+    "Name": "AISenseConfig_Damage_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AISenseConfig_Damage'",
+    "Outer": {
+      "ObjectName": "AIPerceptionComponent'BP_PhoebePlayerController_C:AIPerception_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.17"
+    }
+  },
+  {
+    "Type": "AISenseConfig_Hearing",
+    "Name": "AISenseConfig_Hearing_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AISenseConfig_Hearing'",
+    "Outer": {
+      "ObjectName": "AIPerceptionComponent'BP_PhoebePlayerController_C:AIPerception_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.17"
+    },
+    "Properties": {
+      "Implementation": {
+        "ObjectName": "Class'AthenaAISense_Hearing'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "HearingRange": 1E+14
+    }
+  },
+  {
+    "Type": "AthenaMarkerComponent",
+    "Name": "MarkerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AthenaMarkerComponent'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    },
+    "Properties": {
+      "MarkerStream": {
+        "OwningComponent": {
+          "ObjectName": "AthenaMarkerComponent'Default__BP_PhoebePlayerController_C:MarkerComponent'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.20"
+        }
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PhoebePlayerController_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotController'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "FortAthenaAIPlayAction",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FortAthenaAIPlayActionComponent'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RechargingWeaponsComponent",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FortControllerComponent_RechargeWeapons'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Blackboard1",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FortBlackboardComponent'",
+          "ObjectPath": "/Script/FortniteAI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FortAthenaAIBotBuilding",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FortAthenaAIBotBuildingComponent'",
+          "ObjectPath": "/Script/FortniteAI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIPerception",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIPerceptionComponent'",
+          "ObjectPath": "/Script/AIModule"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_NotPlaceable | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PhoebePlayerController_C",
+    "Name": "Default__BP_PhoebePlayerController_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.BP_PhoebePlayerController_C'",
+    "Package": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController",
+    "Properties": {
+      "PrimaryInventorySlotsData": [
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::WeaponHarvest",
+            "EFortItemType::AthenaGadget",
+            "EFortItemType::AthenaPickaxe"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::WeaponMelee",
+            "EFortItemType::WeaponRanged",
+            "EFortItemType::Gadget",
+            "EFortItemType::Consumable",
+            "EFortItemType::AthenaGadget"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::WeaponMelee",
+            "EFortItemType::WeaponRanged",
+            "EFortItemType::Gadget",
+            "EFortItemType::Consumable",
+            "EFortItemType::AthenaGadget"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::WeaponMelee",
+            "EFortItemType::WeaponRanged",
+            "EFortItemType::Gadget",
+            "EFortItemType::Consumable",
+            "EFortItemType::AthenaGadget"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::WeaponMelee",
+            "EFortItemType::WeaponRanged",
+            "EFortItemType::Gadget",
+            "EFortItemType::Consumable",
+            "EFortItemType::AthenaGadget"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::WeaponMelee",
+            "EFortItemType::WeaponRanged",
+            "EFortItemType::Gadget",
+            "EFortItemType::Consumable",
+            "EFortItemType::AthenaGadget"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        }
+      ],
+      "SecondaryInventorySlotsData": [
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::BuildingPiece"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::BuildingPiece"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::BuildingPiece"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::BuildingPiece"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        },
+        {
+          "AcceptedItemTypes": [
+            "EFortItemType::Trap"
+          ],
+          "AcceptedItemTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        }
+      ],
+      "ModifierComponent": {
+        "ObjectName": "FortAIModifierComponent'Default__BP_PhoebePlayerController_C:ModifierComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.24"
+      },
+      "SafeZoneComponent": {
+        "ObjectName": "FortControllerComponent_AISafeZone'Default__BP_PhoebePlayerController_C:SafeZoneComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.35"
+      },
+      "AISprintComponent": {
+        "ObjectName": "FortControllerComponent_AISprint'Default__BP_PhoebePlayerController_C:AISprintComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.36"
+      },
+      "LeashComponent": {
+        "ObjectName": "FortAthenaLeashComponent'Default__BP_PhoebePlayerController_C:LeashComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.32"
+      },
+      "StartupInventory": {
+        "ObjectName": "FortAthenaAIBotInventoryItems'Default__BP_PhoebePlayerController_C:FortAthenaAIBotInventoryItems_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.27"
+      },
+      "CosmeticLoadout": {
+        "Slots": [
+          {
+            "SlotTemplate": {
+              "ObjectName": "CosmeticLoadoutSlotTemplate'LoadoutSlot_Character'",
+              "ObjectPath": "/Game/Items/Loadouts/Slots/LoadoutSlot_Character.0"
+            },
+            "EquippedItemDefinitionId": {
+              "PrimaryAssetType": {
+                "Name": "AthenaCharacter"
+              },
+              "PrimaryAssetName": "CID_560_Athena_Commando_M_RebirthDefaultA"
+            },
+            "EquippedItemDefinitionObject": {
+              "ObjectName": "AthenaCharacterItemDefinition'CID_560_Athena_Commando_M_RebirthDefaultA'",
+              "ObjectPath": "/Game/Athena/Items/Cosmetics/Characters/CID_560_Athena_Commando_M_RebirthDefaultA.0"
+            },
+            "PendingEquippedItemDefinitionId": {
+              "PrimaryAssetType": {
+                "Name": "AthenaCharacter"
+              },
+              "PrimaryAssetName": "CID_560_Athena_Commando_M_RebirthDefaultA"
+            },
+            "CustomizationInfo": [],
+            "EquippedItemInstance": null,
+            "EquippedItemInstanceId": ""
+          }
+        ]
+      },
+      "SpectateOnDeathMinTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ControllerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ControllerData/Phoebe_ControllerData.0"
+          },
+          "RowName": "Phoebe.Controller.SpectateOnDeath.MinTime"
+        }
+      },
+      "SpectateOnDeathMaxTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ControllerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ControllerData/Phoebe_ControllerData.0"
+          },
+          "RowName": "Phoebe.Controller.SpectateOnDeath.MaxTime"
+        }
+      },
+      "EmotesMaxCount": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ControllerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ControllerData/Phoebe_ControllerData.0"
+          },
+          "RowName": "Phoebe.Controller.Emotes.MaxCount"
+        }
+      },
+      "bCanBeDestroyedOnDeath": true,
+      "MarkerComponent": {
+        "ObjectName": "AthenaMarkerComponent'Default__BP_PhoebePlayerController_C:MarkerComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.20"
+      },
+      "FortControllerComponent_Telemetry": {
+        "ObjectName": "FortControllerAIBotComponent_Telemetry'Default__BP_PhoebePlayerController_C:TelemetryComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.34"
+      },
+      "PathFollowingComponent": {
+        "ObjectName": "FortAthenaAIBotPathFollowingComponent'Default__BP_PhoebePlayerController_C:PathFollowingComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.28"
+      },
+      "DefaultNavigationFilterClass": {
+        "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe.0"
+      },
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'Default__BP_PhoebePlayerController_C:TransformComponent0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.41"
+      },
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": false
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_PhoebePlayerController_C:TransformComponent0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.41"
+      }
+    }
+  },
+  {
+    "Type": "FortAIInjectedBehaviorComponent",
+    "Name": "AIInjectedBehaviorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAIInjectedBehaviorComponent'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortAIModifierComponent",
+    "Name": "ModifierComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAIModifierComponent'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortAISenseConfig_Sight",
+    "Name": "FortAISenseConfig_Sight_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAISenseConfig_Sight'",
+    "Outer": {
+      "ObjectName": "AIPerceptionComponent'BP_PhoebePlayerController_C:AIPerception_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.17"
+    },
+    "Properties": {
+      "SightRadius": 40000.0,
+      "LoseSightRadius": 45000.0,
+      "PeripheralVisionAngleDegrees": 45.0
+    }
+  },
+  {
+    "Type": "FortAthenaAIBotBuildingComponent",
+    "Name": "FortAthenaAIBotBuilding_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIBotBuildingComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    }
+  },
+  {
+    "Type": "FortAthenaAIBotInventoryItems",
+    "Name": "FortAthenaAIBotInventoryItems_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIBotInventoryItems'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortWeaponMeleeItemDefinition'WID_Harvest_Pickaxe_Athena_C_T01'",
+            "ObjectPath": "/Game/Athena/Items/Weapons/WID_Harvest_Pickaxe_Athena_C_T01.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": []
+        },
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortWeaponRangedItemDefinition'WID_Pistol_SemiAuto_Athena_C_Ore_T02'",
+            "ObjectPath": "/Game/Athena/Items/Weapons/WID_Pistol_SemiAuto_Athena_C_Ore_T02.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": []
+        },
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortWeaponRangedItemDefinition'WID_Shotgun_Standard_Athena_C_Ore_T03'",
+            "ObjectPath": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_C_Ore_T03.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": []
+        },
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortWeaponRangedItemDefinition'WID_Assault_Auto_Athena_C_Ore_T02'",
+            "ObjectPath": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_C_Ore_T02.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "FortAthenaAIBotPathFollowingComponent",
+    "Name": "PathFollowingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIBotPathFollowingComponent'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortAthenaAIEvaluatorComponent",
+    "Name": "AIEvaluatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIEvaluatorComponent'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortAthenaAIPlayActionComponent",
+    "Name": "FortAthenaAIPlayAction_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIPlayActionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    },
+    "Properties": {
+      "Actions": [
+        {
+          "ObjectName": "AIActionAxisAlignedRotation'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionAxisAlignedRotation_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.2"
+        },
+        {
+          "ObjectName": "AIActionBuild'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionBuild_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.3"
+        },
+        {
+          "ObjectName": "AIActionCrouch'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionCrouch_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.4"
+        },
+        {
+          "ObjectName": "AIActionJump'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionJump_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.10"
+        },
+        {
+          "ObjectName": "AIActionMove'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionMove_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.11"
+        },
+        {
+          "ObjectName": "AIActionRotation'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionRotation_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.13"
+        },
+        {
+          "ObjectName": "AIActionUncrouch'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionUncrouch_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.16"
+        },
+        {
+          "ObjectName": "AIActionEquipBuildTool'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionEquipBuildTool_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.6"
+        },
+        {
+          "ObjectName": "AIActionReleaseBuildTool'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionReleaseBuildTool_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.12"
+        },
+        {
+          "ObjectName": "AIActionEditBuilding'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionEditBuilding_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.5"
+        },
+        {
+          "ObjectName": "AIActionApplyGameplayEffect'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionApplyGameplayEffect_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.1"
+        },
+        {
+          "ObjectName": "AIActionFirePrimary'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionFirePrimary_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.8"
+        },
+        {
+          "ObjectName": "AIActionAimDownSight'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionAimDownSight_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.0"
+        },
+        {
+          "ObjectName": "AIActionTacticalSprint'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionTacticalSprint_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.15"
+        },
+        {
+          "ObjectName": "AIActionSlide'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionSlide_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.14"
+        },
+        {
+          "ObjectName": "AIActionEquipItem'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionEquipItem_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.7"
+        },
+        {
+          "ObjectName": "AIActionFocus'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE.AIActionFocus_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "FortAthenaAIRuntimeParametersComponent",
+    "Name": "AIRuntimeParametersComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaAIRuntimeParametersComponent'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortAthenaLeashComponent",
+    "Name": "LeashComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaLeashComponent'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortBlackboardComponent",
+    "Name": "Blackboard1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortBlackboardComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    }
+  },
+  {
+    "Type": "FortControllerAIBotComponent_Telemetry",
+    "Name": "TelemetryComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortControllerAIBotComponent_Telemetry'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortControllerComponent_AISafeZone",
+    "Name": "SafeZoneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortControllerComponent_AISafeZone'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortControllerComponent_AISprint",
+    "Name": "AISprintComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortControllerComponent_AISprint'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortControllerComponent_CosmeticLoadout",
+    "Name": "CosmeticLoadout",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortControllerComponent_CosmeticLoadout'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "FortControllerComponent_RechargeWeapons",
+    "Name": "RechargingWeaponsComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortControllerComponent_RechargeWeapons'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    }
+  },
+  {
+    "Type": "FortControllerComponent_SpawnedVehicle",
+    "Name": "SpawnedVehicleComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortControllerComponent_SpawnedVehicle'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_PhoebePlayerController_C'Default__BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.22"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PhoebePlayerController_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+      },
+      "VariableGuid": "7C3CA8ED-4764BCC5-2E3A1089-E25ADCE5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FortAthenaAIBotBuildingComponent'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FortAthenaAIBotBuildingComponent'BP_PhoebePlayerController_C:FortAthenaAIBotBuilding_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.26"
+      },
+      "VariableGuid": "620AB667-49E68894-76890194-E4375207",
+      "InternalVariableName": "FortAthenaAIBotBuilding"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIPerceptionComponent'",
+        "ObjectPath": "/Script/AIModule"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIPerceptionComponent'BP_PhoebePlayerController_C:AIPerception_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.17"
+      },
+      "VariableGuid": "2BAEAF75-4844DDED-ECCD609B-32FA0680",
+      "InternalVariableName": "AIPerception"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FortControllerComponent_RechargeWeapons'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FortControllerComponent_RechargeWeapons'BP_PhoebePlayerController_C:RechargingWeaponsComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.38"
+      },
+      "VariableGuid": "7329534D-492D0DC7-8066B6AA-EEF5D4A4",
+      "InternalVariableName": "RechargingWeaponsComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FortBlackboardComponent'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FortBlackboardComponent'BP_PhoebePlayerController_C:Blackboard1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.33"
+      },
+      "VariableGuid": "38296AC6-4284E42E-44F9098B-C97D6BC1",
+      "InternalVariableName": "Blackboard1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FortAthenaAIPlayActionComponent'",
+        "ObjectPath": "/Script/FortniteAIServer"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FortAthenaAIPlayActionComponent'BP_PhoebePlayerController_C:FortAthenaAIPlayAction_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.30"
+      },
+      "VariableGuid": "93BA4E96-45153B2D-CC446AB5-C3F2E029",
+      "InternalVariableName": "FortAthenaAIPlayAction"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.47"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.47"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.42"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            },
+            {
+              "Key": "HideCategories",
+              "Value": "Collision Rendering Transformation"
+            }
+          ]
+        },
+        "PropertiesMetaData": [
+          {
+            "Key": "FortAthenaAIPlayAction",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "Category",
+                  "Value": "Default"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "RechargingWeaponsComponent",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "Category",
+                  "Value": "Default"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "Blackboard1",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "Category",
+                  "Value": "Default"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "FortAthenaAIBotBuilding",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "Category",
+                  "Value": "Default"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "AIPerception",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "Category",
+                  "Value": "Default"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

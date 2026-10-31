@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "AI_skill_phoebe_bot_harvest_C",
+    "Name": "Default__AI_skill_phoebe_bot_harvest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_harvest.AI_skill_phoebe_bot_harvest_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_harvest",
+    "Properties": {
+      "DelayBetweenHarvest": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Harvest.DelayBetweenHarvest"
+        }
+      },
+      "DeviationTimeBetweenHarvest": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Harvest.DeviationTimeBetweenHarvest"
+        }
+      },
+      "HarvestingMaxDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Harvest.HarvestingMaxDistance"
+        }
+      },
+      "WeakSpotHitProbability": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Harvest.WeakSpotHitProbability"
+        }
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AI_skill_phoebe_bot_harvest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_harvest",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotHarvestSkillSet'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AI_skill_phoebe_bot_harvest_C'Default__AI_skill_phoebe_bot_harvest_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_harvest.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_harvest_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_harvest.1"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

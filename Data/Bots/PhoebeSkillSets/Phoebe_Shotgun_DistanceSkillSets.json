@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "Phoebe_Shotgun_DistanceSkillSets",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_Shotgun_DistanceSkillSets",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Phoebe.Skill.Shotgun.WeaponSpreadContributionToClampCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 200.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 500.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 750.0,
+            "Value": 1.8
+          },
+          {
+            "Time": 100000.0,
+            "Value": 1.8
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shotgun.NPCWeaponSpreadContributionToClampCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 200.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 500.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 750.0,
+            "Value": 1.8
+          },
+          {
+            "Time": 100000.0,
+            "Value": 1.8
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shotgun.Chrome.WeaponSpreadContributionToClampCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 200.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 500.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 750.0,
+            "Value": 4.5
+          },
+          {
+            "Time": 100000.0,
+            "Value": 4.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.Skill.Shotgun.Chrome.NPCWeaponSpreadContributionToClampCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 200.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 500.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 750.0,
+            "Value": 4.5
+          },
+          {
+            "Time": 100000.0,
+            "Value": 4.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

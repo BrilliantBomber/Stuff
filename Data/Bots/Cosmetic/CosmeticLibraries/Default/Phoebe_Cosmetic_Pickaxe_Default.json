@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_Cosmetic_Pickaxe_Default",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/Default/Phoebe_Cosmetic_Pickaxe_Default",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotCosmeticItemDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "1": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaPickaxe"
+          },
+          "PrimaryAssetName": "DefaultPickaxe"
+        },
+        "Weight": 1.0
+      }
+    }
+  }
+]

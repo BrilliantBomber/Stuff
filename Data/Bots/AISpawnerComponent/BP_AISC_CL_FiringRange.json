@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISC_CL_FiringRange_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISC_CL_FiringRange",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISC_CL_NPC_Base_C'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/AISpawnerData/AISpawnerComponent/BP_AISC_CL_NPC_Base.0"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISC_CL_FiringRange_C'Default__BP_AISC_CL_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISC_CL_FiringRange.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISC_CL_FiringRange_C",
+    "Name": "Default__BP_AISC_CL_FiringRange_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISC_CL_FiringRange.BP_AISC_CL_FiringRange_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISC_CL_FiringRange",
+    "Template": {
+      "ObjectName": "BP_AISC_CL_NPC_Base_C'Default__BP_AISC_CL_NPC_Base_C'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/AISpawnerData/AISpawnerComponent/BP_AISC_CL_NPC_Base.1"
+    },
+    "Properties": {
+      "WeightedLoadouts": [
+        {
+          "Loadout": {
+            "RandomHash": null,
+            "Slots": [
+              {
+                "SlotTemplate": {
+                  "ObjectName": "CosmeticLoadoutSlotTemplate'LoadoutSlot_Character'",
+                  "ObjectPath": "/Game/Items/Loadouts/Slots/LoadoutSlot_Character.0"
+                },
+                "EquippedItemDefinitionId": {
+                  "PrimaryAssetType": {
+                    "Name": "AthenaCharacter"
+                  },
+                  "PrimaryAssetName": "CID_267_Athena_Commando_M_RobotRed"
+                },
+                "EquippedItemDefinitionObject": {
+                  "ObjectName": "AthenaCharacterItemDefinition'CID_267_Athena_Commando_M_RobotRed'",
+                  "ObjectPath": "/Game/Athena/Items/Cosmetics/Characters/CID_267_Athena_Commando_M_RobotRed.0"
+                },
+                "PendingEquippedItemDefinitionId": {
+                  "PrimaryAssetType": {
+                    "Name": "AthenaCharacter"
+                  },
+                  "PrimaryAssetName": "CID_267_Athena_Commando_M_RobotRed"
+                },
+                "CustomizationInfo": [
+                  {
+                    "ChannelTag": {
+                      "TagName": "Cosmetics.Variant.Channel.FigureDetailsLevel"
+                    },
+                    "VariantTag": {
+                      "TagName": "Cosmetics.Variant.Property.FigureDetailsLevel.Signature"
+                    },
+                    "AdditionalData": ""
+                  }
+                ],
+                "EquippedItemInstance": null,
+                "EquippedItemInstanceId": ""
+              },
+              {
+                "SlotTemplate": {
+                  "ObjectName": "CosmeticLoadoutSlotTemplate'LoadoutSlot_Emote_0'",
+                  "ObjectPath": "/Game/Items/Loadouts/Slots/LoadoutSlot_Emote_0.0"
+                },
+                "EquippedItemDefinitionId": {
+                  "PrimaryAssetType": {
+                    "Name": "AthenaDance"
+                  },
+                  "PrimaryAssetName": "EID_DanceMoves"
+                },
+                "EquippedItemDefinitionObject": {
+                  "ObjectName": "AthenaDanceItemDefinition'EID_DanceMoves'",
+                  "ObjectPath": "/Game/Athena/Items/Cosmetics/Dances/EID_DanceMoves.0"
+                },
+                "PendingEquippedItemDefinitionId": {
+                  "PrimaryAssetType": {
+                    "Name": "AthenaDance"
+                  },
+                  "PrimaryAssetName": "EID_DanceMoves"
+                },
+                "CustomizationInfo": [],
+                "EquippedItemInstance": null,
+                "EquippedItemInstanceId": ""
+              }
+            ],
+            "DesiredSlots": []
+          },
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISC_CL_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISC_CL_FiringRange.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,978 @@
+[
+  {
+    "Type": "AI_skill_phoebe_bot_inventory_C",
+    "Name": "Default__AI_skill_phoebe_bot_inventory_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_inventory.AI_skill_phoebe_bot_inventory_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_inventory",
+    "Properties": {
+      "DefaultWeaponSelectionDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Inventory.DefaultWeaponSelectionDistance"
+        }
+      },
+      "DefaultWeaponSelectionDistanceDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Inventory.DefaultWeaponSelectionDistanceDeviation"
+        }
+      },
+      "HasInfiniteResources": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Inventory.Cheat.HasInfiniteResources"
+        }
+      },
+      "InventorySlotPreferences": [
+        [
+          "Weapon.Melee.Impact.Pickaxe"
+        ],
+        [
+          "phoebe.weapon.ranged.smg",
+          "phoebe.weapon.ranged.pistol",
+          "phoebe.weapon.ranged.shotgun",
+          "phoebe.weapon.ranged.areatypeweapon"
+        ],
+        [
+          "phoebe.weapon.ranged.shotgun",
+          "phoebe.weapon.ranged.rifle"
+        ],
+        [
+          "phoebe.weapon.ranged.rifle",
+          "phoebe.weapon.ranged.lmg",
+          "phoebe.weapon.ranged.bow",
+          "phoebe.weapon.ranged.GalileoBun",
+          "phoebe.weapon.ranged.crossbow",
+          "phoebe.weapon.ranged.hightower.date",
+          "phoebe.weapon.ranged.hightower.tomato",
+          "phoebe.weapon.ranged.plasmalaser",
+          "phoebe.items.movement.augmentmovementitem"
+        ],
+        [
+          "phoebe.weapon.ranged.sniper",
+          "phoebe.weapon.ranged.lmg",
+          "phoebe.weapon.ranged.rocket_launcher",
+          "phoebe.weapon.ranged.grenade_launcher",
+          "phoebe.items.consumable",
+          "phoebe.weapon.throwable",
+          "phoebe.weapon.ranged.slowprojectileweapon"
+        ],
+        [
+          "phoebe.items.consumable",
+          "phoebe.weapon.throwable"
+        ]
+      ],
+      "EquipWeaponInfo": [
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "phoebe.weapon.melee"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( phoebe.weapon.melee )"
+          },
+          "DistanceEffectivenessWithThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.MeleeWeapon"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "DistanceEffectivenessNoThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.MeleeWeapon"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "phoebe.items.pickaxe"
+              },
+              {
+                "TagName": "Weapon.Melee"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( phoebe.items.pickaxe, Weapon.Melee )"
+          },
+          "DistanceEffectivenessWithThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.MeleeTargetIsThreat"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "DistanceEffectivenessNoThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.Melee"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "phoebe.weapon.ranged.pistol"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.shotgun"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.smg"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.electrobat"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.areatypeweapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              5,
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( phoebe.weapon.ranged.pistol, phoebe.weapon.ranged.shotgun, phoebe.weapon.ranged.smg, phoebe.weapon.ranged.electrobat, phoebe.weapon.ranged.areatypeweapon )"
+          },
+          "DistanceEffectivenessWithThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.ShortRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "DistanceEffectivenessNoThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.ShortRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "phoebe.weapon.ranged.rifle"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.rocket_launcher"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.grenade_launcher"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.bow"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.minigun"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.lmg"
+              },
+              {
+                "TagName": "phoebe.weapon.throwable"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.crossbow"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.mortar"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.turret.fullauto"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.plasmalaser"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.slowprojectileweapon"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.beam"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              13,
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( phoebe.weapon.ranged.rifle, phoebe.weapon.ranged.rocket_launcher, phoebe.weapon.ranged.grenade_launcher, phoebe.weapon.ranged.bow, phoebe.weapon.ranged.minigun, phoebe.weapon.ranged.lmg, phoebe.weapon.throwable, phoebe.weapon.ranged.crossbow, phoebe.weapon.ranged.mortar, phoebe.weapon.ranged.turret.fullauto, phoebe.weapon.ranged.plasmalaser, phoebe.weapon.ranged.slowprojectileweapon, phoebe.weapon.ranged.beam )"
+          },
+          "DistanceEffectivenessWithThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.MidRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "DistanceEffectivenessNoThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.MidRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "phoebe.weapon.ranged.sniper"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.bow"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( phoebe.weapon.ranged.sniper, phoebe.weapon.ranged.bow )"
+          },
+          "DistanceEffectivenessWithThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.LongRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "DistanceEffectivenessNoThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.LongRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "phoebe.weapon.ranged.GalileoBun"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.hightower.date"
+              },
+              {
+                "TagName": "phoebe.weapon.ranged.hightower.tomato"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( phoebe.weapon.ranged.GalileoBun, phoebe.weapon.ranged.hightower.date, phoebe.weapon.ranged.hightower.tomato )"
+          },
+          "DistanceEffectivenessWithThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.ShortAndMidRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "DistanceEffectivenessNoThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.ShortAndMidRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "phoebe.weapon.ranged.ashtonshield"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( phoebe.weapon.ranged.ashtonshield )"
+          },
+          "DistanceEffectivenessWithThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.MidRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "DistanceEffectivenessNoThreat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'WeaponTypeInformation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/Weapon/WeaponTypeInformation.0"
+              },
+              "RowName": "Phoebe.WeaponInfo.EffectiveDistance.Default.MidRange"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        }
+      ],
+      "WeaponTargetEffectivenessRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_WeaponTargetEffectivenessRegistry'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_WeaponTargetEffectivenessRegistry.0"
+      },
+      "AmmoCheats": [
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.pistol"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.Pistol"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.Pistol"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.shotgun"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.Shotgun"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.Shotgun"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.rifle"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.Rifle"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.Rifle"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.smg"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.SMG"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.SMG"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.sniper"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.Sniper"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.Sniper"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.grenade_launcher"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.GrenadeLauncher"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.GrenadeLauncher"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.rocket_launcher"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.RocketLauncher"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.RocketLauncher"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.bow"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.Bow"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.Bow"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.minigun"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.Minigun"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.Minigun"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.ranged.lmg"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.LMG"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.LMG"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.throwable"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.Throwables"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.Throwables"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        },
+        {
+          "WeaponTag": {
+            "TagName": "phoebe.weapon.trait.infiniteammo"
+          },
+          "HasInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.UseInfiniteAmmo.TraitInfiniteAmmo"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "CheckLoadedAmmoForInfiniteAmmo": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Inventory.Cheat.CheckLoadedAmmo.TraitInfiniteAmmo"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          }
+        }
+      ],
+      "MaterialItems": [
+        {
+          "Count": 60,
+          "Item": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "/Game/Items/ResourcePickups/WoodItemData.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 40,
+          "Item": {
+            "ObjectName": "FortResourceItemDefinition'StoneItemData'",
+            "ObjectPath": "/Game/Items/ResourcePickups/StoneItemData.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 30,
+          "Item": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "/Game/Items/ResourcePickups/MetalItemData.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        }
+      ],
+      "GiveMaterialsToBotFrequency": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.NoMaterialFallback.GiveMaterialsToBotFrequency"
+        }
+      },
+      "NoWeaponGiveWeaponAfterTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.NoWeaponFallback.NoWeaponGiveWeaponAfterTime"
+        }
+      },
+      "NoWeaponNoPlayerConeDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.NoWeaponFallback.NoWeaponNoPlayerDistance"
+        }
+      },
+      "NoWeaponNoPlayerConeFOV": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.NoWeaponFallback.NoWeaponNoPlayerFOV"
+        }
+      },
+      "NoWeaponLootTierGroup": "Loot_PlayerBots",
+      "IgnoredAsWeaponTags": [
+        "Phoebe.weapon.trait.ignored"
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AI_skill_phoebe_bot_inventory_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_inventory",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotInventorySkillSet'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AI_skill_phoebe_bot_inventory_C'Default__AI_skill_phoebe_bot_inventory_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_inventory.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_inventory_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_inventory.1"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

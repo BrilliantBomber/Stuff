@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_BotPOIExcludedZones_WildEstate",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_BotPOIExcludedZones_WildEstate",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotPOIExcludedZoneDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "WarmupWildEstate": {
+        "Location": {
+          "X": 67392.0,
+          "Y": 83644.0,
+          "Z": 628.0
+        },
+        "BoxHalfSize": {
+          "X": 16500.0,
+          "Y": 14500.0,
+          "Z": 3000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/WildEstate/Maps/WildEstate_Terrain",
+        "bEnabled": true
+      },
+      "SpringfieldTireFire": {
+        "Location": {
+          "X": -36476.0,
+          "Y": 13304.0,
+          "Z": 628.0
+        },
+        "BoxHalfSize": {
+          "X": 2062.5,
+          "Y": 1812.5,
+          "Z": 3000.0
+        },
+        "UsagesToExclude": 1,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Core )"
+        },
+        "MapPath": "/WildEstate/Maps/WildEstate_Terrain",
+        "bEnabled": true
+      }
+    }
+  }
+]

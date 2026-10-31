@@ -1,0 +1,1029 @@
+[
+  {
+    "Type": "AI_skill_phoebe_bot_healing_C",
+    "Name": "Default__AI_skill_phoebe_bot_healing_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_healing.AI_skill_phoebe_bot_healing_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_healing",
+    "Properties": {
+      "HealthItemsList": {
+        "HealthItems": [
+          {
+            "UseItemResourceThreshold": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                },
+                "RowName": "Phoebe.Skill.HealingItems.UseItemResourceThreshold1"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "ItemTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Item.Consumable.Apple"
+                },
+                {
+                  "TagName": "Item.Consumable.Banana"
+                },
+                {
+                  "TagName": "Item.Consumable.Bandage"
+                },
+                {
+                  "TagName": "Item.Consumable.BottomlessChugJug"
+                },
+                {
+                  "TagName": "Item.Consumable.Cabbage"
+                },
+                {
+                  "TagName": "Item.Consumable.Coconut"
+                },
+                {
+                  "TagName": "Item.Consumable.CandyCorn"
+                },
+                {
+                  "TagName": "Item.Consumable.ChugJug"
+                },
+                {
+                  "TagName": "Item.Consumable.Corn"
+                },
+                {
+                  "TagName": "Item.Consumable.HopDrop"
+                },
+                {
+                  "TagName": "Item.Consumable.MedKit"
+                },
+                {
+                  "TagName": "Item.Consumable.PepperMint"
+                },
+                {
+                  "TagName": "Item.Consumable.SlurpJuice"
+                },
+                {
+                  "TagName": "Item.Consumable.SlurpMushroom"
+                },
+                {
+                  "TagName": "Item.Consumable.ThermalTaffy"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.BattleFlopper"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.BCfruit"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHeal"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHop"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggplantDip"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.FlopperFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.icecreamG"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.icecreamS"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.JellyFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.Meat"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.MechanicFlopper"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.PSlice"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.RPotion"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.SlurpFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.SmallFryFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.DurableDawnTuna"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.heal.anythreshold"
+                },
+                {
+                  "TagName": "Phoebe.Consumable.Heal.LowHealthThreshold"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                33,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Item.Consumable.Apple, Item.Consumable.Banana, Item.Consumable.Bandage, Item.Consumable.BottomlessChugJug, Item.Consumable.Cabbage, Item.Consumable.Coconut, Item.Consumable.CandyCorn, Item.Consumable.ChugJug, Item.Consumable.Corn, Item.Consumable.HopDrop, Item.Consumable.MedKit, Item.Consumable.PepperMint, Item.Consumable.SlurpJuice, Item.Consumable.SlurpMushroom, Item.Consumable.ThermalTaffy, phoebe.items.consumable.BattleFlopper, phoebe.items.consumable.BCfruit, phoebe.items.consumable.EggHeal, phoebe.items.consumable.EggHop, phoebe.items.consumable.EggplantDip, phoebe.items.consumable.FlopperFish, phoebe.items.consumable.icecreamG, phoebe.items.consumable.icecreamS, phoebe.items.consumable.JellyFish, phoebe.items.consumable.Meat, phoebe.items.consumable.MechanicFlopper, phoebe.items.consumable.PSlice, phoebe.items.consumable.RPotion, phoebe.items.consumable.SlurpFish, phoebe.items.consumable.SmallFryFish, phoebe.items.consumable.DurableDawnTuna, phoebe.items.consumable.heal.anythreshold, Phoebe.Consumable.Heal.LowHealthThreshold )"
+            }
+          },
+          {
+            "UseItemResourceThreshold": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                },
+                "RowName": "Phoebe.Skill.HealingItems.UseItemResourceThreshold2"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "ItemTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Item.Consumable.Apple"
+                },
+                {
+                  "TagName": "Item.Consumable.Banana"
+                },
+                {
+                  "TagName": "Item.Consumable.Bandage"
+                },
+                {
+                  "TagName": "Item.Consumable.Cabbage"
+                },
+                {
+                  "TagName": "Item.Consumable.CandyCorn"
+                },
+                {
+                  "TagName": "Item.Consumable.Coconut"
+                },
+                {
+                  "TagName": "Item.Consumable.Corn"
+                },
+                {
+                  "TagName": "Item.Consumable.HopDrop"
+                },
+                {
+                  "TagName": "Item.Consumable.PepperMint"
+                },
+                {
+                  "TagName": "Item.Consumable.SlurpMushroom"
+                },
+                {
+                  "TagName": "Item.Consumable.ThermalTaffy"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.BattleFlopper"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.BCfruit"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHeal"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHop"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggplantDip"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.FlopperFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.JellyFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.Meat"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.MechanicFlopper"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.PSlice"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.RPotion"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.SlurpFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.DurableDawnTuna"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.heal.anythreshold"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                25,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Item.Consumable.Apple, Item.Consumable.Banana, Item.Consumable.Bandage, Item.Consumable.Cabbage, Item.Consumable.CandyCorn, Item.Consumable.Coconut, Item.Consumable.Corn, Item.Consumable.HopDrop, Item.Consumable.PepperMint, Item.Consumable.SlurpMushroom, Item.Consumable.ThermalTaffy, phoebe.items.consumable.BattleFlopper, phoebe.items.consumable.BCfruit, phoebe.items.consumable.EggHeal, phoebe.items.consumable.EggHop, phoebe.items.consumable.EggplantDip, phoebe.items.consumable.FlopperFish, phoebe.items.consumable.JellyFish, phoebe.items.consumable.Meat, phoebe.items.consumable.MechanicFlopper, phoebe.items.consumable.PSlice, phoebe.items.consumable.RPotion, phoebe.items.consumable.SlurpFish, phoebe.items.consumable.DurableDawnTuna, phoebe.items.consumable.heal.anythreshold )"
+            }
+          },
+          {
+            "UseItemResourceThreshold": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                },
+                "RowName": "Phoebe.Skill.HealingItems.UseItemResourceThreshold3"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "ItemTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Item.Consumable.Apple"
+                },
+                {
+                  "TagName": "Item.Consumable.Banana"
+                },
+                {
+                  "TagName": "Item.Consumable.Cabbage"
+                },
+                {
+                  "TagName": "Item.Consumable.Coconut"
+                },
+                {
+                  "TagName": "Item.Consumable.Corn"
+                },
+                {
+                  "TagName": "Item.Consumable.HopDrop"
+                },
+                {
+                  "TagName": "Item.Consumable.PepperMint"
+                },
+                {
+                  "TagName": "Item.Consumable.SlurpMushroom"
+                },
+                {
+                  "TagName": "Item.Consumable.ThermalTaffy"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.BCfruit"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHop"
+                },
+                {
+                  "TagName": "Item.Consumable.CandyCorn"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHeal"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggplantDip"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.JellyFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.PSlice"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.SlurpFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.DurableDawnTuna"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.heal.anythreshold"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                19,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Item.Consumable.Apple, Item.Consumable.Banana, Item.Consumable.Cabbage, Item.Consumable.Coconut, Item.Consumable.Corn, Item.Consumable.HopDrop, Item.Consumable.PepperMint, Item.Consumable.SlurpMushroom, Item.Consumable.ThermalTaffy, phoebe.items.consumable.BCfruit, phoebe.items.consumable.EggHop, Item.Consumable.CandyCorn, phoebe.items.consumable.EggHeal, phoebe.items.consumable.EggplantDip, phoebe.items.consumable.JellyFish, phoebe.items.consumable.PSlice, phoebe.items.consumable.SlurpFish, phoebe.items.consumable.DurableDawnTuna, phoebe.items.consumable.heal.anythreshold )"
+            }
+          },
+          {
+            "UseItemResourceThreshold": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                },
+                "RowName": "Phoebe.Skill.HealingItems.UseItemResourceThreshold4"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "ItemTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Item.Consumable.Apple"
+                },
+                {
+                  "TagName": "Item.Consumable.Banana"
+                },
+                {
+                  "TagName": "Item.Consumable.Cabbage"
+                },
+                {
+                  "TagName": "Item.Consumable.Coconut"
+                },
+                {
+                  "TagName": "Item.Consumable.Corn"
+                },
+                {
+                  "TagName": "Item.Consumable.HopDrop"
+                },
+                {
+                  "TagName": "Item.Consumable.PepperMint"
+                },
+                {
+                  "TagName": "Item.Consumable.SlurpMushroom"
+                },
+                {
+                  "TagName": "Item.Consumable.ThermalTaffy"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.BCfruit"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHop"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggplantDip"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.icecream"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.JellyFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.heal.anythreshold"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                15,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Item.Consumable.Apple, Item.Consumable.Banana, Item.Consumable.Cabbage, Item.Consumable.Coconut, Item.Consumable.Corn, Item.Consumable.HopDrop, Item.Consumable.PepperMint, Item.Consumable.SlurpMushroom, Item.Consumable.ThermalTaffy, phoebe.items.consumable.BCfruit, phoebe.items.consumable.EggHop, phoebe.items.consumable.EggplantDip, phoebe.items.consumable.icecream, phoebe.items.consumable.JellyFish, phoebe.items.consumable.heal.anythreshold )"
+            }
+          },
+          {
+            "UseItemResourceThreshold": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                },
+                "RowName": "Phoebe.Skill.HealingItems.UseItemResourceThreshold6"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "ItemTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            }
+          }
+        ]
+      },
+      "HealthItemsSpecializations": [
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Athena.Faction.MotherBirdParticipant"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Athena.Faction.MotherBirdParticipant )"
+          },
+          "HealthItemsList": {
+            "HealthItems": [
+              {
+                "UseItemResourceThreshold": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                      "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                    },
+                    "RowName": "Phoebe.Skill.HealingItems.UseItemResourceThreshold1"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "ItemTagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Item.Consumable.Apple"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Banana"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Bandage"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Cabbage"
+                    },
+                    {
+                      "TagName": "Item.Consumable.ChugJug"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Coconut"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Corn"
+                    },
+                    {
+                      "TagName": "Item.Consumable.MedKit"
+                    },
+                    {
+                      "TagName": "Item.Consumable.SlurpMushroom"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.BattleFlopper"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.FlopperFish"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.JellyFish"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.Meat"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.MechanicFlopper"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.SlurpFish"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.SmallFryFish"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    16,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ANY( Item.Consumable.Apple, Item.Consumable.Banana, Item.Consumable.Bandage, Item.Consumable.Cabbage, Item.Consumable.ChugJug, Item.Consumable.Coconut, Item.Consumable.Corn, Item.Consumable.MedKit, Item.Consumable.SlurpMushroom, phoebe.items.consumable.BattleFlopper, phoebe.items.consumable.FlopperFish, phoebe.items.consumable.JellyFish, phoebe.items.consumable.Meat, phoebe.items.consumable.MechanicFlopper, phoebe.items.consumable.SlurpFish, phoebe.items.consumable.SmallFryFish )"
+                }
+              },
+              {
+                "UseItemResourceThreshold": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                      "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                    },
+                    "RowName": "Phoebe.Skill.HealingItems.UseItemResourceThreshold5"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "ItemTagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Item.Consumable.Apple"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Banana"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Bandage"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Cabbage"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Coconut"
+                    },
+                    {
+                      "TagName": "Item.Consumable.Corn"
+                    },
+                    {
+                      "TagName": "Item.Consumable.SlurpMushroom"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.BattleFlopper"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.FlopperFish"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.JellyFish"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.Meat"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.MechanicFlopper"
+                    },
+                    {
+                      "TagName": "phoebe.items.consumable.SlurpFish"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    13,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ANY( Item.Consumable.Apple, Item.Consumable.Banana, Item.Consumable.Bandage, Item.Consumable.Cabbage, Item.Consumable.Coconut, Item.Consumable.Corn, Item.Consumable.SlurpMushroom, phoebe.items.consumable.BattleFlopper, phoebe.items.consumable.FlopperFish, phoebe.items.consumable.JellyFish, phoebe.items.consumable.Meat, phoebe.items.consumable.MechanicFlopper, phoebe.items.consumable.SlurpFish )"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "ShieldItemsList": {
+        "HealthItems": [
+          {
+            "UseItemResourceThreshold": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                },
+                "RowName": "Phoebe.Skill.ShieldItems.UseItemResourceThreshold1"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "ItemTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Item.Consumable.BottomlessChugJug"
+                },
+                {
+                  "TagName": "Item.Consumable.ChugJug"
+                },
+                {
+                  "TagName": "Item.Consumable.Coconut"
+                },
+                {
+                  "TagName": "Item.Consumable.JellyBean"
+                },
+                {
+                  "TagName": "Item.Consumable.ShieldMushroom"
+                },
+                {
+                  "TagName": "Item.Consumable.ShieldPotion"
+                },
+                {
+                  "TagName": "Item.Consumable.SlurpJuice"
+                },
+                {
+                  "TagName": "Item.Consumable.SlurpMushroom"
+                },
+                {
+                  "TagName": "Item.Consumable.SmallShieldPotion"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.BCfruit"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHeal"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHop"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggplantDip"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.FlopperShield"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.icecreamS"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.JellyFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.PSlice"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.SlurpFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.DurableDawnTuna"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.heal.anythreshold"
+                },
+                {
+                  "TagName": "Phoebe.Consumable.Heal.LowShieldThreshold"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                21,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Item.Consumable.BottomlessChugJug, Item.Consumable.ChugJug, Item.Consumable.Coconut, Item.Consumable.JellyBean, Item.Consumable.ShieldMushroom, Item.Consumable.ShieldPotion, Item.Consumable.SlurpJuice, Item.Consumable.SlurpMushroom, Item.Consumable.SmallShieldPotion, phoebe.items.consumable.BCfruit, phoebe.items.consumable.EggHeal, phoebe.items.consumable.EggHop, phoebe.items.consumable.EggplantDip, phoebe.items.consumable.FlopperShield, phoebe.items.consumable.icecreamS, phoebe.items.consumable.JellyFish, phoebe.items.consumable.PSlice, phoebe.items.consumable.SlurpFish, phoebe.items.consumable.DurableDawnTuna, phoebe.items.consumable.heal.anythreshold, Phoebe.Consumable.Heal.LowShieldThreshold )"
+            }
+          },
+          {
+            "UseItemResourceThreshold": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                },
+                "RowName": "Phoebe.Skill.ShieldItems.UseItemResourceThreshold2"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "ItemTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Item.Consumable.Coconut"
+                },
+                {
+                  "TagName": "Item.Consumable.JellyBean"
+                },
+                {
+                  "TagName": "Item.Consumable.ShieldMushroom"
+                },
+                {
+                  "TagName": "Item.Consumable.ShieldPotion"
+                },
+                {
+                  "TagName": "Item.Consumable.SlurpMushroom"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.BCfruit"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHeal"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHop"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggplantDip"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.FlopperShield"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.JellyFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.PSlice"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.SlurpFish"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.DurableDawnTuna"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.heal.anythreshold"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                15,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Item.Consumable.Coconut, Item.Consumable.JellyBean, Item.Consumable.ShieldMushroom, Item.Consumable.ShieldPotion, Item.Consumable.SlurpMushroom, phoebe.items.consumable.BCfruit, phoebe.items.consumable.EggHeal, phoebe.items.consumable.EggHop, phoebe.items.consumable.EggplantDip, phoebe.items.consumable.FlopperShield, phoebe.items.consumable.JellyFish, phoebe.items.consumable.PSlice, phoebe.items.consumable.SlurpFish, phoebe.items.consumable.DurableDawnTuna, phoebe.items.consumable.heal.anythreshold )"
+            }
+          },
+          {
+            "UseItemResourceThreshold": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+                },
+                "RowName": "Phoebe.Skill.ShieldItems.UseItemResourceThreshold3"
+              },
+              "RegistryType": {
+                "Name": "None"
+              }
+            },
+            "ItemTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Item.Consumable.Coconut"
+                },
+                {
+                  "TagName": "Item.Consumable.ShieldMushroom"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.EggHop"
+                },
+                {
+                  "TagName": "phoebe.items.consumable.heal.anythreshold"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Item.Consumable.Coconut, Item.Consumable.ShieldMushroom, phoebe.items.consumable.EggHop, phoebe.items.consumable.heal.anythreshold )"
+            }
+          }
+        ]
+      },
+      "MobileConsumableTagQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Gameplay.Action.Player.MobileConsumablePrimary"
+          },
+          {
+            "TagName": "Gameplay.Action.Player.MobileConsumableSecondary"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "UserDescription": "Mobile Consumables",
+        "AutoDescription": " ANY( Gameplay.Action.Player.MobileConsumablePrimary, Gameplay.Action.Player.MobileConsumableSecondary )"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AI_skill_phoebe_bot_healing_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_healing",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotHealingSkillSet'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AI_skill_phoebe_bot_healing_C'Default__AI_skill_phoebe_bot_healing_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_healing.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_healing_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_healing.1"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

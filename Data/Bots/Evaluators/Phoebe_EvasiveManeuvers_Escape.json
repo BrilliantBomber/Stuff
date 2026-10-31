@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Phoebe_EvasiveManeuvers_Escape_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Escape",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotEvaluator_EvasiveManeuvers'",
+      "ObjectPath": "/Script/FortniteAIServer"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Phoebe_EvasiveManeuvers_Escape_C'Default__Phoebe_EvasiveManeuvers_Escape_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Escape.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Phoebe_EvasiveManeuvers_Escape_C",
+    "Name": "Default__Phoebe_EvasiveManeuvers_Escape_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Escape.Phoebe_EvasiveManeuvers_Escape_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Escape",
+    "Properties": {
+      "bDoCrouching": false,
+      "bDoJumping": false,
+      "bDoJumpingDistanceCheck": false,
+      "RequiredTagQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Gameplay.Status.Blob.BlobState"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          3,
+          1,
+          0
+        ],
+        "AutoDescription": " NONE( Gameplay.Status.Blob.BlobState )"
+      },
+      "JumpRequiredTagQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Status.LowGravity"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          3,
+          1,
+          0
+        ],
+        "AutoDescription": " NONE( Status.LowGravity )"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Phoebe_EvasiveManeuvers_Escape_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Escape.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

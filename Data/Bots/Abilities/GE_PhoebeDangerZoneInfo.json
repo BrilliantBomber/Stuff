@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_PhoebeDangerZoneInfo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Abilities/GE_PhoebeDangerZoneInfo",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_PhoebeDangerZoneInfo_C'Default__GE_PhoebeDangerZoneInfo_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Abilities/GE_PhoebeDangerZoneInfo.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GE_PhoebeDangerZoneInfo_C",
+    "Name": "Default__GE_PhoebeDangerZoneInfo_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Abilities/GE_PhoebeDangerZoneInfo.GE_PhoebeDangerZoneInfo_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Abilities/GE_PhoebeDangerZoneInfo",
+    "Properties": {
+      "DurationPolicy": "EGameplayEffectDurationType::HasDuration",
+      "DurationMagnitude": {
+        "ScalableFloatMagnitude": {
+          "Value": 1.0
+        }
+      },
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Athena.Phoebe.DangerZone"
+        ],
+        "Added": [
+          "Athena.Phoebe.DangerZone"
+        ]
+      },
+      "GEComponents": [
+        {
+          "ObjectName": "TargetTagsGameplayEffectComponent'Default__GE_PhoebeDangerZoneInfo_C:TargetTagsGameplayEffectComponent_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Abilities/GE_PhoebeDangerZoneInfo.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TargetTagsGameplayEffectComponent",
+    "Name": "TargetTagsGameplayEffectComponent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetTagsGameplayEffectComponent'",
+    "Outer": {
+      "ObjectName": "GE_PhoebeDangerZoneInfo_C'Default__GE_PhoebeDangerZoneInfo_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Abilities/GE_PhoebeDangerZoneInfo.1"
+    },
+    "Properties": {
+      "InheritableGrantedTagsContainer": {
+        "CombinedTags": [
+          "Athena.Phoebe.DangerZone"
+        ],
+        "Added": [
+          "Athena.Phoebe.DangerZone"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GE_PhoebeDangerZoneInfo_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Abilities/GE_PhoebeDangerZoneInfo.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "PrioritizeCategories",
+              "Value": "Status Duration GameplayEffect GameplayCues Stacking"
+            },
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

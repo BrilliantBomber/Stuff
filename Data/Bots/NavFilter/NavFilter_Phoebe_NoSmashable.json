@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "NavFilter_Phoebe_NoSmashable_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashable",
+    "SuperStruct": {
+      "ObjectName": "Class'NavigationQueryFilter'",
+      "ObjectPath": "/Script/NavigationSystem"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NavFilter_Phoebe_NoSmashable_C'Default__NavFilter_Phoebe_NoSmashable_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashable.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "NavFilter_Phoebe_NoSmashable_C",
+    "Name": "Default__NavFilter_Phoebe_NoSmashable_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashable.NavFilter_Phoebe_NoSmashable_C'",
+    "Package": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashable",
+    "Properties": {
+      "Areas": [
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_Danger'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_MetaReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_TempWallReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_WallCornerReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_ObstacleReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        }
+      ],
+      "IncludeFlags": {
+        "bNavFlag1": false,
+        "bNavFlag2": false,
+        "bNavFlag3": false,
+        "bNavFlag4": false,
+        "bNavFlag15": false
+      },
+      "ExcludeFlags": {
+        "bNavFlag1": true,
+        "bNavFlag2": true,
+        "bNavFlag3": true
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_NoSmashable_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashable.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

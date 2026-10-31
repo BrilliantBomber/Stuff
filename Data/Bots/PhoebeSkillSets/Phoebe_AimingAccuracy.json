@@ -1,0 +1,2152 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "Phoebe_AimingAccuracy",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_AimingAccuracy",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel1.MinElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel1.MaxElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 999.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel1.CombatStartDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel1.TargetLowHealthThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.6
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel1.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel1.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 28.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel1.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel1.InAirHeightCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel1.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel1.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 28.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel1.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel2.MinElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1000.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel2.MaxElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1249.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel2.CombatStartDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel2.TargetLowHealthThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.6
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel2.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 10.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel2.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 28.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel2.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 24.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 16.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel2.InAirHeightCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel2.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 10.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel2.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 28.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel2.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 24.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 16.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel3.MinElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1250.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel3.MaxElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1399.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel3.CombatStartDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel3.TargetLowHealthThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.4
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel3.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 9.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 12.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel3.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 28.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel3.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 16.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel3.InAirHeightCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel3.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 9.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 12.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel3.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 28.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel3.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 16.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel4.MinElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1400.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel4.MaxElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1799.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel4.CombatStartDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel4.TargetLowHealthThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.35
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel4.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 9.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 11.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 10.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel4.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 28.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel4.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 23.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 16.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel4.InAirHeightCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel4.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 9.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 11.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 10.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel4.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 28.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 22.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel4.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 23.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 16.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel5.MinElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1800.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel5.MaxElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2199.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel5.CombatStartDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel5.TargetLowHealthThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.25
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel5.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 4.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel5.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 23.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel5.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 9.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 11.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 14.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel5.InAirHeightCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 22.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel5.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 4.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel5.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 23.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel5.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 9.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 11.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 14.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel6.MinElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2200.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.Bracket.SkillLevel6.MaxElo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 9999.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel6.CombatStartDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel6.TargetLowHealthThreshold": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.15
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel6.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 24.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel6.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel6.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 4.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingOffsetModifier.SkillLevel6.InAirHeightCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 9.0
+          },
+          {
+            "Time": 60.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 12.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel6.DefaultCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 24.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 16.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel6.CombatStartCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 70.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 80.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Phoebe.AimingAccuracy.TrackingDistanceModifier.SkillLevel6.TargetLowHealthThresholdCurve": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 30.0,
+            "Value": 14.0
+          },
+          {
+            "Time": 40.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 50.0,
+            "Value": 12.0
+          },
+          {
+            "Time": 90.0,
+            "Value": 4.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

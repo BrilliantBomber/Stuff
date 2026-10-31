@@ -1,0 +1,572 @@
+[
+  {
+    "Type": "BehaviorTree",
+    "Name": "BT_Phoebe_TakeCover",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BehaviorTree'",
+    "Package": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover",
+    "Properties": {
+      "RootNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      },
+      "BlackboardAsset": {
+        "ObjectName": "BlackboardData'BB_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+      },
+      "RootDecorators": [
+        {
+          "ObjectName": "BTDecorator_Loop'BT_Phoebe_TakeCover:BTDecorator_Loop_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_23'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.2"
+          },
+          "ChildTask": null,
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_TakeCover:BTDecorator_Blackboard_3'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.3"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_UseItem'BT_Phoebe_TakeCover:FortAthenaBTTask_UseItem_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.17"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_TakeCover:BTDecorator_Blackboard_42'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.4"
+            },
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_TakeCover:BTDecorator_Blackboard_7'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.5"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait'BT_Phoebe_TakeCover:BTTask_Wait_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.8"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_TakeCover:FortAthenaBTService_AIEvaluator_33'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.13"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_RunBehavior'BT_Phoebe_TakeCover:BTTask_RunBehavior_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.7"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_BotMoveTo'BT_Phoebe_TakeCover:FortAthenaBTTask_BotMoveTo_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.16"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_TakeCover:FortAthenaBTService_AIEvaluator_3'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.12"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_TakeCover:FortAthenaBTService_AIEvaluator_57'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.14"
+        }
+      ],
+      "NodeName": "",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "CachedDescription": "AIEvaluator_TakeCover_MoveToDestination is Is Set",
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_TakeCover_MoveToDestination"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Has Valid Cover Destination",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_42",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_Healing_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Healing_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Can Heal",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "CachedDescription": "AIEvaluator_Global_HasLoSOnThreat is Is Not Set",
+      "OperationType": 1,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Global_HasLoSOnThreat"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "No LoS On Threat",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Loop",
+    "Name": "BTDecorator_Loop_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Loop'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "bInfiniteLoop": true,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_RunBehavior",
+    "Name": "BTTask_RunBehavior_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_RunBehavior'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "BehaviorAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_CopyBlackboardVariable'BT_Phoebe_TakeCover:FortAthenaBTService_CopyBlackboardVariable_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.15"
+        }
+      ],
+      "NodeName": "Run Unstuck Behavior ",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.2"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_Wait'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_TakeCover:FortAthenaBTService_AIEvaluator_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.10"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_TakeCover:FortAthenaBTService_AIEvaluator_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.11"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_HandleFocusing_FocusInvestigation_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_FocusInvestigation.0"
+        }
+      },
+      "NodeName": "Focus Scan Around or Heard Sound",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_HandleFocusing_FocusInvestigation_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_FocusInvestigation.0"
+        }
+      },
+      "NodeName": "Focus Scan Around or Heard Sound",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_ReloadWeapon_AllInventory_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_ReloadWeapon_AllInventory.0"
+        }
+      },
+      "NodeName": "Evaluating... Reload",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_HandleFocusing_TakeCover_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_TakeCover.0"
+        }
+      },
+      "NodeName": "Focus for Take Cover",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_Healing_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Healing.0"
+        }
+      },
+      "Interval": 1E+09,
+      "RandomDeviation": 0.0,
+      "NodeName": "Evaluate... Heal",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_57",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_Sprinting_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Sprinting.0"
+        }
+      },
+      "Interval": 0.2,
+      "NodeName": "Evaluate...Sprinting",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_CopyBlackboardVariable",
+    "Name": "FortAthenaBTService_CopyBlackboardVariable_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_CopyBlackboardVariable'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "SourceBlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_TakeCover_Destination"
+      },
+      "DestinationBlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckTeleport_ReachableGoal"
+      },
+      "NodeName": "Copy TakeCover_Destination",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_BotMoveTo",
+    "Name": "FortAthenaBTTask_BotMoveTo_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_BotMoveTo'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "MovementResultKeyName": "AIEvaluator_TakeCover_MovementState",
+      "AcceptableRadius": {
+        "DefaultValue": 50.0
+      },
+      "FilterClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortNavigationFilter_NoSmashing'",
+          "ObjectPath": "/Script/FortniteAI"
+        }
+      },
+      "ObservedBlackboardValueTolerance": {
+        "DefaultValue": 100.0
+      },
+      "bAllowPartialPath": {
+        "DefaultValue": false
+      },
+      "bTrackMovingGoal": {
+        "DefaultValue": false
+      },
+      "bReachTestIncludesAgentRadius": {
+        "DefaultValue": false
+      },
+      "bReachTestIncludesGoalRadius": {
+        "DefaultValue": false
+      },
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_TakeCover_Destination"
+      },
+      "NodeName": "Move to Cover",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_23'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_UseItem",
+    "Name": "FortAthenaBTTask_UseItem_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_UseItem'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+    },
+    "Properties": {
+      "ActionObjectKeyName": "AIEvaluator_Healing_Object",
+      "ExecutionStatusKeyName": "AIEvaluator_Healing_ExecutionStatus",
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_TakeCover:FortAthenaBTService_AIEvaluator_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.9"
+        }
+      ],
+      "NodeName": "Use Heal Item",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_TakeCover'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_TakeCover:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_TakeCover.1"
+      }
+    }
+  }
+]

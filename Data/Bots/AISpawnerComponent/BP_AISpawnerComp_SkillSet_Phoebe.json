@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_SkillSet_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_SkillSet_Phoebe",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAISpawnerDataComponent_PlayerBotSkillset'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_SkillSet_Phoebe_C'Default__BP_AISpawnerComp_SkillSet_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_SkillSet_Phoebe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_SkillSet_Phoebe_C",
+    "Name": "Default__BP_AISpawnerComp_SkillSet_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_SkillSet_Phoebe.BP_AISpawnerComp_SkillSet_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_SkillSet_Phoebe",
+    "Properties": {
+      "WarmUpSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_warmup_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_warmup.1"
+      },
+      "AimingSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_aiming_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_aiming.1"
+      },
+      "AttackingSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_attacking_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_attacking.1"
+      },
+      "BuildingSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_building_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_building.1"
+      },
+      "DBNOSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_DBNO_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_DBNO.1"
+      },
+      "EmoteSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_emote_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_emote.1"
+      },
+      "EvasiveManeuversSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_evasiveManeuvers_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_evasiveManeuvers.1"
+      },
+      "HarvestSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_harvest_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_harvest.1"
+      },
+      "HealingSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_healing_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_healing.1"
+      },
+      "InventorySkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_inventory_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_inventory.1"
+      },
+      "LootingSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_looting_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_looting.1"
+      },
+      "MovementSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_movement_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_movement.1"
+      },
+      "PerceptionSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_perception_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_perception.3"
+      },
+      "PlayStyleSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_playstyle_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_playstyle.1"
+      },
+      "RangeAttackSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_rangeAttack_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_rangeAttack.1"
+      },
+      "ReviveSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_revive_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_revive.1"
+      },
+      "UnstuckSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_unstuck_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_unstuck.1"
+      },
+      "VehicleSkillSet": {
+        "ObjectName": "BlueprintGeneratedClass'AI_skill_Phoebe_bot_vehicle_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_Phoebe_bot_vehicle.1"
+      },
+      "SkillLevelComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AISkillLevelComponent_Phoebe_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Components/BP_AISkillLevelComponent_Phoebe.0"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_SkillSet_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_SkillSet_Phoebe.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

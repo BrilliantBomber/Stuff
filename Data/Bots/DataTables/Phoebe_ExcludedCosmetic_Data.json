@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_ExcludedCosmetic_Data",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_ExcludedCosmetic_Data",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotExcludedCosmeticDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "Synced": {
+        "ExcludedCosmeticTag": {
+          "TagName": "Cosmetics.UserFacingFlags.Synced"
+        }
+      },
+      "BuiltInEmote": {
+        "ExcludedCosmeticTag": {
+          "TagName": "Cosmetics.UserFacingFlags.BuiltInEmote"
+        }
+      }
+    }
+  }
+]

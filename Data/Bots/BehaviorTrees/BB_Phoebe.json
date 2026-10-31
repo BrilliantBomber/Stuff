@@ -1,0 +1,5356 @@
+[
+  {
+    "Type": "BlackboardData",
+    "Name": "BB_Phoebe",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardData'",
+    "Package": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe",
+    "Properties": {
+      "Keys": [
+        {
+          "EntryName": "AIEvaluator_Global_LastKnownPosition",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.199"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_HasLoSOnThreat",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.1"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_AlertLevel",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.41"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "SelfActor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.161"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "GoalActor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.172"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "HotSpotSlotLocation",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.200"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "NextDestination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.211"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_TargetActor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_4'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.191"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Storm_State",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_3'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.75"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Storm_Phase",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Int'BB_Phoebe:BlackboardKeyType_Int_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.157"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Attack_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_4'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.233"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_DesiredWeapon",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_3'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.183"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_ManageWeapon_Fire",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_10'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.2"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_ManageWeapon_Reload",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_11'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.3"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_DBNO",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_3'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.23"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DBNO_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_3'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.222"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DBNO_Healer",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.160"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "IsInCombat",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.12"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Loot_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_5'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.237"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Loot_Object",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_5'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.192"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Loot_Type",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.40"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DBNO_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.64"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_RangeAttack_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_28'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.73"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MeleeAttack_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_5'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.96"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Loot_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_6'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.107"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Healing_Object",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_6'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.193"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Healing_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_7'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.118"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Storm_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_8'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.129"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Crouch_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_9'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.140"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Jump_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_10'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.42"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Dodge_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_11'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.52"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Jump_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_6'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.238"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Dodge_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_7'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.239"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_JumpOffBus_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_12'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.56"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_GamePhaseStep",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_13'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.57"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_IsInBus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_5'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.36"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Dive_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_14'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.58"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Glide_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_15'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.59"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Dive_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_8'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.240"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Glide_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_9'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.241"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_JumpOffBus_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_10'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.201"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_GamePhase",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_16'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.60"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WeaponReload_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_17'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.61"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WeaponFire_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_18'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.62"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WeaponTriggerMelee_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_19'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.63"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Undermine_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_20'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.65"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Undermine_Target",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_7'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.194"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Undermine_Location",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_12'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.203"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Sprinting_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_22'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.67"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UnstuckTeleport_ReachableGoal",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_11'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.202"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UnstuckTeleport_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_23'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.68"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Unstuck_LastBlockingActor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_8'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.195"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Attack_DestinationAcceptableRadius",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Float'BB_Phoebe:BlackboardKeyType_Float_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.151"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UnstuckTeleport_LastPartialPathTime",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Float'BB_Phoebe:BlackboardKeyType_Float_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.152"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UnstuckTeleport_LastPartialCount",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Int'BB_Phoebe:BlackboardKeyType_Int_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.158"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Investigate_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_25'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.70"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DefensiveBuilding_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_26'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.71"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DefensiveBuilding_Type",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_27'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.72"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DefensiveBuilding_GridCoord",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_13'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.204"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_FocusActor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_10'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.162"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_FocalPoint",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_14'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.205"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WeaponTargeting_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_4'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.85"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Revive_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_29'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.74"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Revive_Target",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_11'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.163"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Marker_MarkerLocation",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_15'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.206"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Marker_MarkerType",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_30'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.76"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Marker_MarkerActor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_12'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.164"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Storm_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_17'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.208"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Loot_InteractionExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_31'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.77"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Loot_InteractionContextInfo",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_13'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.165"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Revive_InteractionExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_32'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.78"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Revive_InteractionContextInfo",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_14'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.166"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Revive_MoveToPathResult",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_33'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.79"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Loot_MoveToPathResult",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_34'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.80"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Patrol_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_35'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.81"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Patrol_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_18'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.209"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Patrol_MoveToPathResult",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_36'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.82"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Unstuck_LastBlockedCount",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Int'BB_Phoebe:BlackboardKeyType_Int_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.159"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Patrol_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_37'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.83"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Loot_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_39'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.84"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DBNO_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_40'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.86"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Storm_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_41'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.87"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_PlayEmote_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_42'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.88"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_PlayEmote_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_16'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.207"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_PlayEmote_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_43'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.89"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_RangeAttack_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_44'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.90"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MeleeAttack_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_45'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.91"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Revive_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_46'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.92"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Investigate_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_47'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.93"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WarmupPlayEmote_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_102'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.45"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WarmupLootAndShoot_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_49'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.95"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WarmupIdle_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_50'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.97"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UnstuckAvoidWater_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_51'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.98"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "ExecutionStatus_Error",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_52'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.99"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Attack_MoveToDestination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_4'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.34"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Unstuck_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_53'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.100"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Investigate_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_20'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.212"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Investigate_MoveToDestination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_7'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.37"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Observe_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_54'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.101"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_LastKillPosition",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_19'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.210"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_LastKillTime",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Float'BB_Phoebe:BlackboardKeyType_Float_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.153"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_LastKillVictimWasABot",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_8'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.38"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_Aggressiveness",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_9'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.39"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_AvoidThreat_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_55'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.102"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_AvoidThreat_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_21'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.213"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_AvoidThreat_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_56'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.103"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_StealWallBuilding_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_57'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.104"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_StealWallBuilding_Type",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_58'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.105"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_StealWallBuilding_GridCoord",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_22'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.214"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_CharacterLaunched_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_59'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.106"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DangerZoneDetected_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_60'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.108"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DangerZoneDetected_SafeLocation",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_23'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.215"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TrapOnPath_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_62'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.110"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TrapOnPath_Actor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_15'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.167"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_IsMovementBlocked",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_12'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.4"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_CharacterLaunched_SteerDirection",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_24'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.216"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Escape_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_21'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.66"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_CanUseFallbackPatrolAround",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_13'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.5"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_JetpackStrafe_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_61'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.109"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_ThrowableAttack_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_63'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.111"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WeaponTriggerThrowable_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_65'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.113"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Vehicle_Actor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_16'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.168"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Unstuck_LastBlockingActor_Location",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_26'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.218"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_IsDrivingVehicle",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_14'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.6"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UnstuckSteer_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_64'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.112"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UnstuckSteer_Direction",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_25'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.217"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Dormant_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_66'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.114"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_MoveExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_67'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.115"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_68'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.116"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_EntryLocation",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_27'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.219"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_InteractionExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_69'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.117"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_Target",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_17'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.169"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_UsageExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_82'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.132"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_InteractionContextInfo",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_18'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.170"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_ExitLocation",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_28'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.220"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Patrolling_AppendDestination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_29'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.221"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SelectVehicle_Status",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_71'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.120"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Vehicle_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_30'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.223"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SelectedVehicle",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_19'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.171"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SelectVehicle_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_72'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.121"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_WaitForPassengerStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_73'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.122"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SwitchSeatStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_74'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.123"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_ThrowableAttack_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_75'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.124"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Escape_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_81'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.131"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Slide_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_77'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.126"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_LastUsageTime",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Float'BB_Phoebe:BlackboardKeyType_Float_3'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.154"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Focus_TargetLocation",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_31'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.224"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Zipline_LastUsed",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_20'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.173"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_LeaveSeatStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_78'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.127"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Retreat_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_70'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.119"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Retreat_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_32'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.225"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Retreat_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_76'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.125"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Clamber_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_79'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.128"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Clamber_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_33'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.226"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Clamber_Origin",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_34'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.227"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Clamber_AbilityStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_80'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.130"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MeleeAttack_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_21'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.174"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Weapon_BlockActions",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_15'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.7"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Movement_IsUrgent",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_16'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.8"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SmartObject_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_36'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.229"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SmartObject_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_83'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.133"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SmartObject_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_84'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.134"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SmartObject_ShouldMove",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_17'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.9"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Ambush_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_85'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.135"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Ambush_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_90'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.141"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Ambush_MoveToDestination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_18'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.10"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Ambush_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_37'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.230"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TacticalSprinting_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_87'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.137"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TakeCover_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_88'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.138"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TakeCover_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_86'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.136"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TakeCover_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_35'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.228"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Bunker_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_98'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.149"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Bunker_BuildExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_96'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.147"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Bunker_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_92'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.143"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Bunker_MoveToDestination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_20'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.13"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Bunker_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_38'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.231"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Observe_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_39'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.232"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MeleeAttack_MoveToDestination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_21'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.14"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Traversal_BlockMeleeAttack",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_19'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.11"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_PhaseableBuildingTraversal_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_93'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.144"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Investigate_Cautious",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_22'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.15"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_ChromedBlob_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_94'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.145"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TacticalSprinting_Overriden",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_23'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.16"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TakeCover_MoveToDestination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_24'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.17"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_InteractActor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_22'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.175"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Sprinting_AllowSprint",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_25'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.18"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_RangeAttack_IsReadyToFire",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_26'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.19"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_ThrowableAttack_IsReadyToThrow",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_28'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.21"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Revive_LastTarget",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_24'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.177"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_Threatened_HighPriority",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_100'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.43"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_UseEndGameBehavior",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_29'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.22"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DynamicPOINavigation_Location",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_40'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.234"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DynamicPOINavigation_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_89'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.139"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_DynamicPOINavigation_MovementState",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_95'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.146"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SmartObject_DestinationRotation",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Rotator'BB_Phoebe:BlackboardKeyType_Rotator_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.197"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_SmartObject_Urgency",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_97'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.148"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Leash_ShouldTeleportIn",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_27'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.20"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_Alive_HighPriority",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_103'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.46"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Healing_CanUseWhileMoving",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_30'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.24"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Leash_TriggerReturnToLeash",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_31'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.25"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TargetContext_Reachable",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_32'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.26"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TargetContext_InsideLeash",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_33'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.27"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UnstuckPlayEmote_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_48'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.94"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_Item",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_25'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.178"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_Unaware_HighPriority",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_101'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.44"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_IsManningTurret",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_34'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.28"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TargetContext_LeashExitTime",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Float'BB_Phoebe:BlackboardKeyType_Float_4'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.155"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TargetContext_LastRangedWeaponFireAbilityAgainstTime",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Float'BB_Phoebe:BlackboardKeyType_Float_5'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.156"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TargetContext_ReachableInStraightLine",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_35'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.29"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_Threatened_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_23'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.176"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_Unaware_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_26'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.179"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_LostTarget_HighPriority",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_99'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.150"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_UseItem_SelectNewWeapon",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_36'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.30"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_General_HighPriority_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_27'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.180"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_General_HighPriority",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_91'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.142"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_TargetContext_InAirForAiming",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_37'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.31"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_RangedWeaponCancelAutoReload_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_104'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.47"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_General_Warmup_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_28'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.181"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_General_Warmup",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_112'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.55"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_GamePhaseBehavior",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_106'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.48"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MovementItem_ExecutionStatus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_107'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.49"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MovementItem_Object",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_29'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.182"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MovementItem_UseSecondaryFire",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_38'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.32"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MovementItem_CanUseInputToDeactivate",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_39'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.33"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_MovementItem_CanUseWhilePathFollowing",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Bool'BB_Phoebe:BlackboardKeyType_Bool_40'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.35"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Positioning_Destination",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_41'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.235"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Positioning_DefendSpot",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Struct'BB_Phoebe:BlackboardKeyType_Struct_2'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.198"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_General_DBNO_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_30'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.184"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_General_DBNO",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_108'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.50"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_DBNO_InVehicle_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_31'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.185"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_DBNO_InVehicle",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_109'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.51"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_Alive_HighPriority_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_32'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.186"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Positioning_Actor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_33'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.187"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_General_OnBus_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_35'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.189"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_General_OnBus",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_24'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.69"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_General_Gameplay_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_36'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.190"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_General_Gameplay",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_111'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.54"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Global_Interlocutor",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_9'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.196"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "Injection_General_EndGame_ActionObject",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Object'BB_Phoebe:BlackboardKeyType_Object_34'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.188"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Injection_General_EndGame",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Enum'BB_Phoebe:BlackboardKeyType_Enum_110'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.53"
+          },
+          "bInstanceSynced": false
+        },
+        {
+          "EntryName": "AIEvaluator_Focus_TargetDirection",
+          "KeyType": {
+            "ObjectName": "BlackboardKeyType_Vector'BB_Phoebe:BlackboardKeyType_Vector_42'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.236"
+          },
+          "bInstanceSynced": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_10",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_11",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_12",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_13",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_14",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_15",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_16",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_17",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_18",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_19",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_20",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_21",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_22",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_23",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_24",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_25",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_26",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_27",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_28",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_29",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_30",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_31",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_32",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_33",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_34",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_35",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_36",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_37",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_38",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_39",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_40",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_7",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_8",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Bool",
+    "Name": "BlackboardKeyType_Bool_9",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Bool'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'ELootElementType'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "ELootElementType",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EAlertLevel'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EAlertLevel",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_10",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_100",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_101",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_102",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_103",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_104",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_106",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EFortAIGamePhaseBehavior'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EFortAIGamePhaseBehavior",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_107",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_108",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_109",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_11",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_110",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_111",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_112",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_12",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_13",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EAthenaGamePhaseStep'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "EnumName": "EAthenaGamePhaseStep",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_14",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_15",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_16",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EAthenaGamePhase'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "EnumName": "EAthenaGamePhase",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_17",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_18",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_19",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_20",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_21",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_22",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_23",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_24",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_25",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_26",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_27",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EOrientedConstructionBuildingType'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EOrientedConstructionBuildingType",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_28",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_29",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EFortSafeZoneState'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "EnumName": "EFortSafeZoneState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_30",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EFortWorldMarkerType'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "EnumName": "EFortWorldMarkerType",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_31",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_32",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_33",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EPathFollowingResult'",
+        "ObjectPath": "/Script/AIModule"
+      },
+      "EnumName": "EPathFollowingResult",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_34",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EPathFollowingResult'",
+        "ObjectPath": "/Script/AIModule"
+      },
+      "EnumName": "EPathFollowingResult",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_35",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_36",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EPathFollowingResult'",
+        "ObjectPath": "/Script/AIModule"
+      },
+      "EnumName": "EPathFollowingResult",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_37",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_39",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_40",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_41",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_42",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_43",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_44",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_45",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_46",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_47",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_48",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_49",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_50",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_51",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_52",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_53",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_54",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_55",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_56",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_57",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_58",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EOrientedConstructionBuildingType'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EOrientedConstructionBuildingType",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_59",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_6",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_60",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_61",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_62",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_63",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_64",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_65",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_66",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_67",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_68",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_69",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_7",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_70",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_71",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_72",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_73",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_74",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_75",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_76",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_77",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_78",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_79",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_8",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_80",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotControllerClamberStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotControllerClamberStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_81",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_82",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_83",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_84",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_85",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_86",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_87",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_88",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_89",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_9",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_90",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_91",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_92",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_93",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_94",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_95",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EBotMovementState'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EBotMovementState",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_96",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_97",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EFortAthenaSmartObjectUrgency'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EFortAthenaSmartObjectUrgency",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_98",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Enum",
+    "Name": "BlackboardKeyType_Enum_99",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Enum'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "EnumType": {
+        "ObjectName": "Class'EExecutionStatus'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "EnumName": "EExecutionStatus",
+      "bIsEnumNameValid": true
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Float",
+    "Name": "BlackboardKeyType_Float_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Float'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Float",
+    "Name": "BlackboardKeyType_Float_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Float'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Float",
+    "Name": "BlackboardKeyType_Float_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Float'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Float",
+    "Name": "BlackboardKeyType_Float_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Float'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Float",
+    "Name": "BlackboardKeyType_Float_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Float'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Float",
+    "Name": "BlackboardKeyType_Float_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Float'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Int",
+    "Name": "BlackboardKeyType_Int_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Int'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Int",
+    "Name": "BlackboardKeyType_Int_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Int'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Int",
+    "Name": "BlackboardKeyType_Int_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Int'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_10",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_11",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'FortPlayerPawnAthena'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_12",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_13",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'FortInteractContextInfo'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_14",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'FortInteractContextInfo'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_15",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_16",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_17",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'FortAthenaZipline'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_18",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'FortInteractContextInfo'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_19",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'FortAthenaVehicle'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_20",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_21",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_22",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_23",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_24",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'FortPlayerPawnAthena'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_25",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_26",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_27",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_28",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_29",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_30",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_31",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_32",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_33",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_34",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_35",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_36",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_5",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_6",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'FortWorldItem'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_7",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_8",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Object",
+    "Name": "BlackboardKeyType_Object_9",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Object'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "BaseClass": {
+        "ObjectName": "Class'Actor'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Rotator",
+    "Name": "BlackboardKeyType_Rotator_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Rotator'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Struct",
+    "Name": "BlackboardKeyType_Struct_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Struct'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "P0": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "P1": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "SegmentHeight": 0.0,
+        "Direction": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShootSpots": []
+      }
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_10",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_11",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_12",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_13",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_14",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_15",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_16",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_17",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_18",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_19",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_20",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_21",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_22",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_23",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_24",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_25",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_26",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_27",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_28",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_29",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_30",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_31",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_32",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_33",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_34",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_35",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_36",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_37",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_38",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_39",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_40",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_41",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_42",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_6",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_7",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_8",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  },
+  {
+    "Type": "BlackboardKeyType_Vector",
+    "Name": "BlackboardKeyType_Vector_9",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlackboardKeyType_Vector'",
+    "Outer": {
+      "ObjectName": "BlackboardData'BB_Phoebe'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+    }
+  }
+]

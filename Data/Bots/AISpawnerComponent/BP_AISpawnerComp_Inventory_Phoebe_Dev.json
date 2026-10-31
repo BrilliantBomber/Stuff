@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_Inventory_Phoebe_Dev_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe_Dev",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Inventory_Phoebe_Test_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe_Test.0"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_Inventory_Phoebe_Dev_C'Default__BP_AISpawnerComp_Inventory_Phoebe_Dev_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe_Dev.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_Inventory_Phoebe_Dev_C",
+    "Name": "Default__BP_AISpawnerComp_Inventory_Phoebe_Dev_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe_Dev.BP_AISpawnerComp_Inventory_Phoebe_Dev_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe_Dev",
+    "Template": {
+      "ObjectName": "BP_AISpawnerComp_Inventory_Phoebe_Test_C'Default__BP_AISpawnerComp_Inventory_Phoebe_Test_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe_Test.1"
+    },
+    "Properties": {
+      "Items": [
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortWeaponMeleeItemDefinition'WID_Harvest_Pickaxe_Athena_C_T01'",
+            "ObjectPath": "/Game/Athena/Items/Weapons/WID_Harvest_Pickaxe_Athena_C_T01.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 0,
+          "Item": {
+            "ObjectName": "FortWeaponRangedItemDefinition'WID_Assault_Auto_Athena_C_Ore_T02'",
+            "ObjectPath": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_C_Ore_T02.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 0,
+          "Item": {
+            "ObjectName": "FortWeaponRangedItemDefinition'WID_Shotgun_Swing_Athena_C'",
+            "ObjectPath": "/Game/Athena/Items/Weapons/WID_Shotgun_Swing_Athena_C.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 0,
+          "Item": {
+            "ObjectName": "FortWeaponRangedItemDefinition'WID_Sniper_BoltAction_Scope_Athena_C_Ore_T03'",
+            "ObjectPath": "/Game/Athena/Items/Weapons/WID_Sniper_BoltAction_Scope_Athena_C_Ore_T03.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 4,
+          "Item": {
+            "ObjectName": "FortWeaponRangedItemDefinition'Athena_Bandage'",
+            "ObjectPath": "/Game/Athena/Items/Consumables/Bandage/Athena_Bandage.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 4,
+          "Item": {
+            "ObjectName": "FortWeaponRangedItemDefinition'Athena_ShieldSmall'",
+            "ObjectPath": "/Game/Athena/Items/Consumables/ShieldSmall/Athena_ShieldSmall.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 500,
+          "Item": {
+            "ObjectName": "FortResourceItemDefinition'Athena_WoodItemData'",
+            "ObjectPath": "/Game/Items/ResourcePickups/Athena_WoodItemData.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 500,
+          "Item": {
+            "ObjectName": "FortResourceItemDefinition'Athena_MetalItemData'",
+            "ObjectPath": "/Game/Items/ResourcePickups/Athena_MetalItemData.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        },
+        {
+          "Count": 500,
+          "Item": {
+            "ObjectName": "FortResourceItemDefinition'Athena_StoneItemData'",
+            "ObjectPath": "/Game/Items/ResourcePickups/Athena_StoneItemData.0"
+          },
+          "ItemVariantGuid": "00000000-00000000-00000000-00000000",
+          "WeaponModSlots": [],
+          "StateValuesConstObject": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Inventory_Phoebe_Dev_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Inventory_Phoebe_Dev.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

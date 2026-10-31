@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "NavFilter_Phoebe_NoSmashableAvoidWater_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashableAvoidWater",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NavFilter_Phoebe_NoSmashableAvoidWater_C'Default__NavFilter_Phoebe_NoSmashableAvoidWater_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashableAvoidWater.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "NavFilter_Phoebe_NoSmashableAvoidWater_C",
+    "Name": "Default__NavFilter_Phoebe_NoSmashableAvoidWater_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashableAvoidWater.NavFilter_Phoebe_NoSmashableAvoidWater_C'",
+    "Package": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashableAvoidWater",
+    "Template": {
+      "ObjectName": "NavFilter_Phoebe_C'Default__NavFilter_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe.1"
+    },
+    "Properties": {
+      "Areas": [
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_Danger'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_HuskNull'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavAreaAutomatic'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 60.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortAthenaNavArea_Water'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 10000.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": false,
+          "bOverrideTravelCost": true,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_MetaReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_TempWallReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_WallCornerReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        },
+        {
+          "AreaClass": {
+            "ObjectName": "Class'FortNavArea_ObstacleReplacement'",
+            "ObjectPath": "/Script/FortniteAI"
+          },
+          "TravelCostOverride": 1.0,
+          "EnteringCostOverride": 0.0,
+          "bIsExcluded": true,
+          "bOverrideTravelCost": false,
+          "bOverrideEnteringCost": false
+        }
+      ],
+      "ExcludeFlags": {
+        "bNavFlag1": true,
+        "bNavFlag2": true,
+        "bNavFlag3": true
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_NoSmashableAvoidWater_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashableAvoidWater.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

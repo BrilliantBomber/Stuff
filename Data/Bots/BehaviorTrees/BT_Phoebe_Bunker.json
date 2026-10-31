@@ -1,0 +1,585 @@
+[
+  {
+    "Type": "BehaviorTree",
+    "Name": "BT_Phoebe_Bunker",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BehaviorTree'",
+    "Package": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker",
+    "Properties": {
+      "RootNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.1"
+      },
+      "BlackboardAsset": {
+        "ObjectName": "BlackboardData'BB_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+      },
+      "RootDecorators": [
+        {
+          "ObjectName": "BTDecorator_Loop'BT_Phoebe_Bunker:BTDecorator_Loop_5'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_Build'BT_Phoebe_Bunker:FortAthenaBTTask_Build_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.13"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Bunker:BTDecorator_Blackboard_26'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.4"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": {
+            "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+          },
+          "ChildTask": null,
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      }
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_BotMoveTo'BT_Phoebe_Bunker:FortAthenaBTTask_BotMoveTo_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.12"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "FortBTDecorator_DistanceBetween'BT_Phoebe_Bunker:FortBTDecorator_DistanceBetween_1'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.15"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_UseItem'BT_Phoebe_Bunker:FortAthenaBTTask_UseItem_1'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.14"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_Bunker:BTDecorator_Blackboard_1'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.3"
+            },
+            {
+              "ObjectName": "FortBTDecorator_DistanceBetween'BT_Phoebe_Bunker:FortBTDecorator_DistanceBetween_7'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.17"
+            },
+            {
+              "ObjectName": "FortBTDecorator_DistanceBetween'BT_Phoebe_Bunker:FortBTDecorator_DistanceBetween_8'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.18"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait'BT_Phoebe_Bunker:BTTask_Wait_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.6"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "FortBTDecorator_DistanceBetween'BT_Phoebe_Bunker:FortBTDecorator_DistanceBetween_6'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.16"
+            }
+          ],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Bunker:FortAthenaBTService_AIEvaluator_3'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.7"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Bunker:FortAthenaBTService_AIEvaluator_4'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.9"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Bunker:FortAthenaBTService_AIEvaluator_33'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.8"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_Healing_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Healing_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Can Heal",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "IntValue": 4,
+      "StringValue": "EExecutionStatus::ExecutionAllowed",
+      "CachedDescription": "AIEvaluator_Bunker_BuildExecutionStatus Is Greater Than Or Equal To Execution Allowed",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Bunker_BuildExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Can Build Bunker",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Loop",
+    "Name": "BTDecorator_Loop_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Loop'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "bInfiniteLoop": true,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_Wait'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "RandomDeviation": {
+        "DefaultValue": 1.0
+      },
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Bunker:FortAthenaBTService_AIEvaluator_7'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.11"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_HandleFocusing_FocusInvestigation_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_HandleFocusing_FocusInvestigation.0"
+        }
+      },
+      "NodeName": "Focus Scan Around or Heard Sound",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_Healing_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Healing.0"
+        }
+      },
+      "Interval": 1E+09,
+      "RandomDeviation": 0.0,
+      "NodeName": "Evaluating... Heal",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_EvasiveManeuvers_Cautious_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Cautious.0"
+        }
+      },
+      "NodeName": "Evaluating...Evasive Maneuvers",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_57",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_Sprinting_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Sprinting.0"
+        }
+      },
+      "Interval": 0.2,
+      "NodeName": "Evaluate...Sprinting",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_ReloadWeapon_AllInventory_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_ReloadWeapon_AllInventory.0"
+        }
+      },
+      "NodeName": "Evaluating... Reload",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_BotMoveTo",
+    "Name": "FortAthenaBTTask_BotMoveTo_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_BotMoveTo'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Bunker_Destination"
+      },
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_Bunker:FortAthenaBTService_AIEvaluator_57'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.10"
+        }
+      ],
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_Build",
+    "Name": "FortAthenaBTTask_Build_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_Build'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "ExecutionStatusKeyName": "AIEvaluator_Bunker_BuildExecutionStatus",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_UseItem",
+    "Name": "FortAthenaBTTask_UseItem_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_UseItem'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "ActionObjectKeyName": "AIEvaluator_Healing_Object",
+      "ExecutionStatusKeyName": "AIEvaluator_Healing_ExecutionStatus",
+      "NodeName": "Use Heal Item",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortBTDecorator_DistanceBetween",
+    "Name": "FortBTDecorator_DistanceBetween_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortBTDecorator_DistanceBetween'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "Operator": "EArithmeticKeyOperation::Greater",
+      "BlackboardKeyA": {},
+      "BlackboardKeyB": {
+        "SelectedKeyName": "AIEvaluator_Bunker_Destination"
+      },
+      "SpecifiedDistance": {
+        "DefaultValue": 100.0
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Self",
+      "NodeName": "Distance to Bunker Position",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortBTDecorator_DistanceBetween",
+    "Name": "FortBTDecorator_DistanceBetween_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortBTDecorator_DistanceBetween'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "Operator": "EArithmeticKeyOperation::Less",
+      "BlackboardKeyA": {},
+      "BlackboardKeyB": {
+        "SelectedKeyName": "AIEvaluator_Bunker_Destination"
+      },
+      "SpecifiedDistance": {
+        "DefaultValue": 125.0
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Self",
+      "NodeName": "Distance to Bunker Position",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortBTDecorator_DistanceBetween",
+    "Name": "FortBTDecorator_DistanceBetween_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortBTDecorator_DistanceBetween'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "Operator": "EArithmeticKeyOperation::Less",
+      "BlackboardKeyA": {},
+      "BlackboardKeyB": {
+        "SelectedKeyName": "AIEvaluator_Bunker_Destination"
+      },
+      "SpecifiedDistance": {
+        "DefaultValue": 250.0
+      },
+      "NodeName": "Distance to Bunker Position",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  },
+  {
+    "Type": "FortBTDecorator_DistanceBetween",
+    "Name": "FortBTDecorator_DistanceBetween_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortBTDecorator_DistanceBetween'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+    },
+    "Properties": {
+      "Operator": "EArithmeticKeyOperation::Greater",
+      "BlackboardKeyA": {},
+      "BlackboardKeyB": {
+        "SelectedKeyName": "AIEvaluator_Global_TargetActor"
+      },
+      "SpecifiedDistance": {
+        "DefaultValue": 750.0
+      },
+      "NodeName": "Distance to Target",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Bunker'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_Bunker:BTComposite_Selector_1'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Bunker.2"
+      }
+    }
+  }
+]

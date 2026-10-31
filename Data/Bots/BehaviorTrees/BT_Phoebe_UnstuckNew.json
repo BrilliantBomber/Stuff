@@ -1,0 +1,771 @@
+[
+  {
+    "Type": "BehaviorTree",
+    "Name": "BT_Phoebe_UnstuckNew",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BehaviorTree'",
+    "Package": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew",
+    "Properties": {
+      "RootNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      },
+      "BlackboardAsset": {
+        "ObjectName": "BlackboardData'BB_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BB_Phoebe.0"
+      },
+      "RootDecorators": [
+        {
+          "ObjectName": "FortBTDecorator_ExecutionStatus'BT_Phoebe_UnstuckNew:FortBTDecorator_ExecutionStatus_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BTComposite_Selector",
+    "Name": "BTComposite_Selector_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTComposite_Selector'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "Children": [
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_RunBehavior'BT_Phoebe_UnstuckNew:BTTask_RunBehavior_23'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.8"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_UnstuckNew:BTDecorator_Blackboard_8'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.6"
+            },
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_UnstuckNew:BTDecorator_Blackboard_9'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.7"
+            }
+          ],
+          "DecoratorOps": [
+            {
+              "Operation": "EBTDecoratorLogic::Or",
+              "Number": 2
+            },
+            {
+              "Operation": "EBTDecoratorLogic::Test",
+              "Number": 0
+            },
+            {
+              "Operation": "EBTDecoratorLogic::Test",
+              "Number": 1
+            }
+          ]
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_BotMoveTo'BT_Phoebe_UnstuckNew:FortAthenaBTTask_BotMoveTo_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.18"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_UnstuckNew:BTDecorator_Blackboard_3'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.5"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_Undermine'BT_Phoebe_UnstuckNew:FortAthenaBTTask_Undermine_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.22"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_UnstuckNew:BTDecorator_Blackboard_0'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.2"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_SteerMovement'BT_Phoebe_UnstuckNew:FortAthenaBTTask_SteerMovement_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.21"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_UnstuckNew:BTDecorator_Blackboard_2'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.4"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_BotUnstuckTeleport'BT_Phoebe_UnstuckNew:FortAthenaBTTask_BotUnstuckTeleport_3'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.19"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "BTDecorator_Blackboard'BT_Phoebe_UnstuckNew:BTDecorator_Blackboard_1'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.3"
+            },
+            {
+              "ObjectName": "FortAthenaBTDecorator_BehaviorControls'BT_Phoebe_UnstuckNew:FortAthenaBTDecorator_BehaviorControls_5'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.11"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "FortAthenaBTTask_PlayEmote'BT_Phoebe_UnstuckNew:FortAthenaBTTask_PlayEmote_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.20"
+          },
+          "Decorators": [
+            {
+              "ObjectName": "FortAthenaBTDecorator_BehaviorControls'BT_Phoebe_UnstuckNew:FortAthenaBTDecorator_BehaviorControls_0'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.10"
+            }
+          ],
+          "DecoratorOps": []
+        },
+        {
+          "ChildComposite": null,
+          "ChildTask": {
+            "ObjectName": "BTTask_Wait'BT_Phoebe_UnstuckNew:BTTask_Wait_0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.9"
+          },
+          "Decorators": [],
+          "DecoratorOps": []
+        }
+      ],
+      "Services": [
+        {
+          "ObjectName": "FortAthenaBTService_CopyBlackboardVariable'BT_Phoebe_UnstuckNew:FortAthenaBTService_CopyBlackboardVariable_14'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.14"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_CopyBlackboardVariable'BT_Phoebe_UnstuckNew:FortAthenaBTService_CopyBlackboardVariable_15'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.15"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_CopyBlackboardVariable'BT_Phoebe_UnstuckNew:FortAthenaBTService_CopyBlackboardVariable_16'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.16"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_CopyBlackboardVariable'BT_Phoebe_UnstuckNew:FortAthenaBTService_CopyBlackboardVariable_17'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.17"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_UnstuckNew:FortAthenaBTService_AIEvaluator_8'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.12"
+        },
+        {
+          "ObjectName": "FortAthenaBTService_AIEvaluator'BT_Phoebe_UnstuckNew:FortAthenaBTService_AIEvaluator_9'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.13"
+        }
+      ],
+      "NodeName": "Unstuck Selector",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_Undermine_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Undermine_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Can Undermine",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "IntValue": 3,
+      "StringValue": "EExecutionStatus::ExecutionPending",
+      "CachedDescription": "AIEvaluator_UnstuckTeleport_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckTeleport_ExecutionStatus"
+      },
+      "NodeName": "Can Teleport",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "IntValue": 4,
+      "StringValue": "EExecutionStatus::ExecutionAllowed",
+      "CachedDescription": "AIEvaluator_UnstuckSteer_ExecutionStatus Is Equal To Execution Allowed",
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckSteer_ExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "NodeName": "Should Steer?",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "IntValue": 4,
+      "StringValue": "EExecutionStatus::ExecutionAllowed",
+      "CachedDescription": "AIEvaluator_UnstuckAvoidWater_ExecutionStatus Is Equal To Execution Allowed",
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckAvoidWater_ExecutionStatus"
+      },
+      "NodeName": "Stuck In Water?",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "IntValue": 4,
+      "StringValue": "EExecutionStatus::ExecutionAllowed",
+      "CachedDescription": "AIEvaluator_Zipline_MoveExecutionStatus Is Greater Than Or Equal To Execution Allowed",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Zipline_MoveExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "BTDecorator_Blackboard",
+    "Name": "BTDecorator_Blackboard_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTDecorator_Blackboard'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "IntValue": 4,
+      "StringValue": "EExecutionStatus::ExecutionAllowed",
+      "CachedDescription": "AIEvaluator_Zipline_UsageExecutionStatus Is Greater Than Or Equal To Execution Allowed",
+      "OperationType": 5,
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Zipline_UsageExecutionStatus"
+      },
+      "FlowAbortMode": "EBTFlowAbortMode::Both",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_RunBehavior",
+    "Name": "BTTask_RunBehavior_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_RunBehavior'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "BehaviorAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_Zipline'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_Zipline.0"
+      },
+      "NodeName": "Run Zipline Behavior",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "BTTask_Wait",
+    "Name": "BTTask_Wait_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BTTask_Wait'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "WaitTime": {
+        "DefaultValue": 2.0
+      },
+      "NodeName": "Wait Unstuck",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTDecorator_BehaviorControls",
+    "Name": "FortAthenaBTDecorator_BehaviorControls_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTDecorator_BehaviorControls'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "BehaviorTreeBranch": "EBehaviorTreeBranches::CanEmoteWhenStuck",
+      "NodeName": "Behavior Controls = CanEmoteWhenStuck",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTDecorator_BehaviorControls",
+    "Name": "FortAthenaBTDecorator_BehaviorControls_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTDecorator_BehaviorControls'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "BehaviorTreeBranch": "EBehaviorTreeBranches::CanTeleportWhenStuck",
+      "NodeName": "Behavior Controls = CanTeleportWhenStuck",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_HandleFocusing'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "NodeName": "Focus on target",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_AIEvaluator",
+    "Name": "FortAthenaBTService_AIEvaluator_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_AIEvaluator'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "AIEvaluatorClass": {
+        "DefaultValue": {
+          "ObjectName": "Class'FortAthenaAIBotEvaluator_Zipline'",
+          "ObjectPath": "/Script/FortniteAIServer"
+        }
+      },
+      "bCallTickOnSearchStart": true,
+      "NodeName": "Evaluate...Zipline",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_CopyBlackboardVariable",
+    "Name": "FortAthenaBTService_CopyBlackboardVariable_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_CopyBlackboardVariable'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "SourceBlackboardKey": {
+        "SelectedKeyName": "ExecutionStatus_Error"
+      },
+      "DestinationBlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckAvoidWater_ExecutionStatus"
+      },
+      "bCopyOnBecomeRelevant": false,
+      "bCopyOnCeaseRelevant": true,
+      "bCallTickOnSearchStart": false,
+      "NodeName": "Reset Avoid Water ExecutionStatus",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_CopyBlackboardVariable",
+    "Name": "FortAthenaBTService_CopyBlackboardVariable_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_CopyBlackboardVariable'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "SourceBlackboardKey": {
+        "SelectedKeyName": "ExecutionStatus_Error"
+      },
+      "DestinationBlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckTeleport_ExecutionStatus"
+      },
+      "bCopyOnBecomeRelevant": false,
+      "bCopyOnCeaseRelevant": true,
+      "bCallTickOnSearchStart": false,
+      "NodeName": "Reset Teleport ExecutionStatus",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_CopyBlackboardVariable",
+    "Name": "FortAthenaBTService_CopyBlackboardVariable_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_CopyBlackboardVariable'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "SourceBlackboardKey": {
+        "SelectedKeyName": "ExecutionStatus_Error"
+      },
+      "DestinationBlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Undermine_ExecutionStatus"
+      },
+      "bCopyOnBecomeRelevant": false,
+      "bCopyOnCeaseRelevant": true,
+      "bCallTickOnSearchStart": false,
+      "NodeName": "Reset Undermine ExecutionStatus",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTService_CopyBlackboardVariable",
+    "Name": "FortAthenaBTService_CopyBlackboardVariable_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTService_CopyBlackboardVariable'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "SourceBlackboardKey": {
+        "SelectedKeyName": "ExecutionStatus_Error"
+      },
+      "DestinationBlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckSteer_ExecutionStatus"
+      },
+      "bCopyOnBecomeRelevant": false,
+      "bCopyOnCeaseRelevant": true,
+      "bCallTickOnSearchStart": false,
+      "NodeName": "Reset Steer Execution Status",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_BotMoveTo",
+    "Name": "FortAthenaBTTask_BotMoveTo_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_BotMoveTo'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "AllowRandomWobble": {
+        "DefaultValue": false
+      },
+      "FilterClass": {
+        "DefaultValue": {
+          "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_AvoidWater_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_AvoidWater.0"
+        }
+      },
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_UnstuckTeleport_ReachableGoal"
+      },
+      "NodeName": "Bot Move To Avoid Water",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_BotUnstuckTeleport",
+    "Name": "FortAthenaBTTask_BotUnstuckTeleport_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_BotUnstuckTeleport'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "EQSRequest": {
+        "QueryTemplate": {
+          "ObjectName": "EnvQuery'EQS_Phoebe_FindValidLocationAroundBot'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_FindValidLocationAroundBot.0"
+        },
+        "EQSQueryBlackboardKey": {
+          "SelectedKeyName": "AIEvaluator_Global_LastKnownPosition"
+        },
+        "RunMode": "EEnvQueryRunMode::RandomBest25Pct"
+      },
+      "CanReachDestinationKeyName": "AIEvaluator_UnstuckTeleport_ReachableGoal",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_PlayEmote",
+    "Name": "FortAthenaBTTask_PlayEmote_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_PlayEmote'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "PlayEmoteExecutionStatusKeyName": "AIEvaluator_UnstuckPlayEmote_ExecutionStatus",
+      "NodeName": "Dance Baby",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_SteerMovement",
+    "Name": "FortAthenaBTTask_SteerMovement_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_SteerMovement'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "SteerDirectionKeySelector": {
+        "SelectedKeyName": "AIEvaluator_UnstuckSteer_Direction"
+      },
+      "bSetControlRotation": true,
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortAthenaBTTask_Undermine",
+    "Name": "FortAthenaBTTask_Undermine_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaBTTask_Undermine'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      },
+      "ParentNode": {
+        "ObjectName": "BTComposite_Selector'BT_Phoebe_UnstuckNew:BTComposite_Selector_7'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.1"
+      }
+    }
+  },
+  {
+    "Type": "FortBTDecorator_ExecutionStatus",
+    "Name": "FortBTDecorator_ExecutionStatus_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortBTDecorator_ExecutionStatus'",
+    "Outer": {
+      "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+    },
+    "Properties": {
+      "CachedDescription": "AIEvaluator_Unstuck_ExecutionStatus Is Greater Than Or Equal To Execution Pending",
+      "BlackboardKey": {
+        "SelectedKeyName": "AIEvaluator_Unstuck_ExecutionStatus"
+      },
+      "NodeName": "Allow Execution and Reset AIEvaluator_Unstuck_ExecutionStatus",
+      "TreeAsset": {
+        "ObjectName": "BehaviorTree'BT_Phoebe_UnstuckNew'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe_UnstuckNew.0"
+      }
+    }
+  }
+]

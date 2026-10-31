@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_GameplayAbility_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_GameplayAbility_Phoebe",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAISpawnerDataComponent_AIBotGameplayAbilityBase'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_GameplayAbility_Phoebe_C'Default__BP_AISpawnerComp_GameplayAbility_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_GameplayAbility_Phoebe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_GameplayAbility_Phoebe_C",
+    "Name": "Default__BP_AISpawnerComp_GameplayAbility_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_GameplayAbility_Phoebe.BP_AISpawnerComp_GameplayAbility_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_GameplayAbility_Phoebe",
+    "Properties": {
+      "GameplayTagsToApplyByPercentage": [
+        {
+          "ChanceToApply": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.CombatBuilding.ChanceToActivate"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "bSelectCurveValueBasedOnSkillRating": true,
+          "GameplayTags": [
+            "Athena.AI.BTInjection.Phoebe.CombatBuilding"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_GameplayAbility_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_GameplayAbility_Phoebe.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

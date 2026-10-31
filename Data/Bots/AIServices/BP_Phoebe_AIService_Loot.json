@@ -1,0 +1,200 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Phoebe_AIService_Loot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIService_Loot",
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaAIServiceLoot'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Phoebe_AIService_Loot_C'Default__BP_Phoebe_AIService_Loot_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIService_Loot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Phoebe_AIService_Loot_C",
+    "Name": "Default__BP_Phoebe_AIService_Loot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIService_Loot.BP_Phoebe_AIService_Loot_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIService_Loot",
+    "Properties": {
+      "LootOctreeRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.Loot.OctreeRadius"
+        }
+      },
+      "SupplyDropStatusUpdateRate": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.Loot.SupplyDropStatusUpdateRate"
+        }
+      },
+      "RemoveInvalidChestFromOctreeProbability": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.Loot.RemoveInvalidChestFromOctreeProbability"
+        }
+      },
+      "MovingLootTrackingEnabled": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.Loot.MovingLootTrackingEnabled"
+        }
+      },
+      "MovingLootUpdateRate": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.Loot.MovingLootUpdateRate"
+        }
+      },
+      "MovingLootOctreeUpdateDistanceThreshold": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.Loot.MovingLootOctreeUpdateDistanceThreshold"
+        }
+      },
+      "HarvestableActorClassList": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'Parent_Tree_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Prop/Parent_Tree.1"
+        }
+      ],
+      "LootClusteringEnabled": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServiceLoot.LootClustering.Enabled"
+        }
+      },
+      "LootClusteringNeighborDistanceMax": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServiceLoot.LootClustering.NeighborDistanceMax"
+        }
+      },
+      "LootClusteringNeighborhoodCountMin": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServiceLoot.LootClustering.NeighborhoodCountMin"
+        }
+      },
+      "LootClusteringItemWeightDataRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_LootClusteringItemWeight'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_LootClusteringItemWeight.1"
+      },
+      "LootClusteringDefaultWeight": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServiceLoot.LootClustering.ItemDefaultWeight"
+        }
+      },
+      "LootClusteringExpandByBoxX": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServiceLoot.LootClustering.ExpandBox.X"
+        }
+      },
+      "LootClusteringExpandByBoxY": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServiceLoot.LootClustering.ExpandBox.Y"
+        }
+      },
+      "LootClusteringExpandByBoxZ": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServiceLoot.LootClustering.ExpandBox.Z"
+        }
+      },
+      "BotBuildingContainerExcludeListDataTable": {
+        "ObjectName": "DataTable'PhoebeBuildingContainerBlacklist'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/PhoebeBuildingContainerBlacklist.0"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Phoebe_AIService_Loot_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIService_Loot.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

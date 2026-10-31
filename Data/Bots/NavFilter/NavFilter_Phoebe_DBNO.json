@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "NavFilter_Phoebe_DBNO_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_DBNO",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_NoSmashable_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashable.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NavFilter_Phoebe_DBNO_C'Default__NavFilter_Phoebe_DBNO_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_DBNO.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "NavFilter_Phoebe_DBNO_C",
+    "Name": "Default__NavFilter_Phoebe_DBNO_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_DBNO.NavFilter_Phoebe_DBNO_C'",
+    "Package": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_DBNO",
+    "Template": {
+      "ObjectName": "NavFilter_Phoebe_NoSmashable_C'Default__NavFilter_Phoebe_NoSmashable_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoSmashable.1"
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_DBNO_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_DBNO.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

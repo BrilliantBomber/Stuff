@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Phoebe_EvasiveManeuvers_Cautious_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Cautious",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'Phoebe_EvasiveManeuvers_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Phoebe_EvasiveManeuvers_Cautious_C'Default__Phoebe_EvasiveManeuvers_Cautious_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Cautious.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Phoebe_EvasiveManeuvers_Cautious_C",
+    "Name": "Default__Phoebe_EvasiveManeuvers_Cautious_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Cautious.Phoebe_EvasiveManeuvers_Cautious_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Cautious",
+    "Template": {
+      "ObjectName": "Phoebe_EvasiveManeuvers_C'Default__Phoebe_EvasiveManeuvers_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers.1"
+    },
+    "Properties": {
+      "bDoDodging": false,
+      "bDoJumping": false,
+      "bDoJumpingDistanceCheck": false,
+      "bDoJetpackStrafingDistanceCheck": false,
+      "ForcedPerkClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_CautiousCrouch_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_CautiousCrouch.0"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Phoebe_EvasiveManeuvers_Cautious_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_EvasiveManeuvers_Cautious.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

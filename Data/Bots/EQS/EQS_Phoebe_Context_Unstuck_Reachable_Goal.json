@@ -1,0 +1,1706 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "EQS_Phoebe_Context_Unstuck_Reachable_Goal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal",
+    "SuperStruct": {
+      "ObjectName": "Class'EnvQueryContext_BlueprintBase'",
+      "ObjectPath": "/Script/AIModule"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+      }
+    ],
+    "FuncMap": {
+      "ProvideSingleLocation": {
+        "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+      }
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "EQS_Phoebe_Context_Unstuck_Reachable_Goal_C'Default__EQS_Phoebe_Context_Unstuck_Reachable_Goal_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "EQS_Phoebe_Context_Unstuck_Reachable_Goal_C",
+    "Name": "Default__EQS_Phoebe_Context_Unstuck_Reachable_Goal_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.EQS_Phoebe_Context_Unstuck_Reachable_Goal_C'",
+    "Package": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal"
+  },
+  {
+    "Type": "Function",
+    "Name": "ProvideSingleLocation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EnvQueryContext_BlueprintBase:ProvideSingleLocation'",
+      "ObjectPath": "/Script/AIModule"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "QuerierObject",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "QuerierActor",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ResultingLocation",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "QuerierLocation",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_MakeLiteralByte_ReturnValue",
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsPawn",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Pawn'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_MakeLiteralByte_ReturnValue_1",
+        "ElementSize": 1,
+        "Enum": null
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsAIController",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AIController'",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_ByteByte_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetBlackboard_ReturnValue",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'BlackboardComponent'",
+          "ObjectPath": "/Script/AIModule"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "ElementSize": 12
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetValueAsVector_ReturnValue",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValidAILocation_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Vector_IsNAN_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 0,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Context",
+          "ObjectExpression": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "QuerierActor",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Token": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'Actor:K2_GetActorLocation'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 50,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "QuerierLocation",
+              "ElementSize": 24,
+              "PropertyFlags": "Edit | BlueprintVisible",
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 77,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsPawn",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Pawn'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'Pawn'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Target": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "QuerierActor",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 113,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsPawn",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Pawn'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 142,
+        "CodeOffset": 545,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.ProvideSingleLocation[545]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 156,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetController_ReturnValue",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Controller'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Context",
+          "ObjectExpression": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsPawn",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Pawn'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetController_ReturnValue",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Controller'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Token": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'Pawn:GetController'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 198,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsAIController",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AIController'",
+                "ObjectPath": "/Script/AIModule"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'AIController'",
+            "ObjectPath": "/Script/AIModule"
+          },
+          "Target": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetController_ReturnValue",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Controller'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 234,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsAIController",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AIController'",
+                  "ObjectPath": "/Script/AIModule"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 263,
+        "CodeOffset": 545,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.ProvideSingleLocation[545]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 277,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetBlackboard_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'BlackboardComponent'",
+                "ObjectPath": "/Script/AIModule"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'AIBlueprintHelperLibrary:GetBlackboard'",
+            "ObjectPath": "/Script/AIModule"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "K2Node_DynamicCast_AsAIController",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AIController'",
+                    "ObjectPath": "/Script/AIModule"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 306,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "NameProperty",
+              "Name": "CallFunc_MakeLiteralName_ReturnValue",
+              "ElementSize": 12
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:MakeLiteralName'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_NameConst",
+              "Value": "AIEvaluator_UnstuckTeleport_ReachableGoal"
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 347,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetValueAsVector_ReturnValue",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Context",
+          "ObjectExpression": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetBlackboard_ReturnValue",
+                "ElementSize": 8,
+                "PropertyFlags": "InstancedReference",
+                "PropertyClass": {
+                  "ObjectName": "Class'BlackboardComponent'",
+                  "ObjectPath": "/Script/AIModule"
+                }
+              }
+            }
+          },
+          "Offset": 19,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetValueAsVector_ReturnValue",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Token": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'BlackboardComponent:GetValueAsVector'",
+              "ObjectPath": "/Script/AIModule"
+            },
+            "Parameters": [
+              {
+                "Token": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                    "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                  },
+                  "Property": {
+                    "Type": "NameProperty",
+                    "Name": "CallFunc_MakeLiteralName_ReturnValue",
+                    "ElementSize": 12
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 406,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValidAILocation_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'AIBlueprintHelperLibrary:IsValidAILocation'",
+            "ObjectPath": "/Script/AIModule"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetValueAsVector_ReturnValue",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 435,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Vector_IsNAN_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Vector_IsNAN'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetValueAsVector_ReturnValue",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 464,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Not_PreBool_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Not_PreBool'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_IsValidAILocation_ReturnValue",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 493,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanOR_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:BooleanOR'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_Vector_IsNAN_ReturnValue",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            },
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_Not_PreBool_ReturnValue",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 531,
+        "CodeOffset": 758,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.ProvideSingleLocation[758]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanOR_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 545,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "ByteProperty",
+              "Name": "CallFunc_MakeLiteralByte_ReturnValue",
+              "ElementSize": 1,
+              "Enum": null
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:MakeLiteralByte'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_ByteConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 575,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:NotEqual_ByteByte'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "ByteProperty",
+                  "Name": "CallFunc_MakeLiteralByte_ReturnValue",
+                  "ElementSize": 1,
+                  "Enum": null
+                }
+              }
+            },
+            {
+              "Token": "EX_ByteConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 606,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "ByteProperty",
+              "Name": "CallFunc_MakeLiteralByte_ReturnValue_1",
+              "ElementSize": 1,
+              "Enum": null
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:MakeLiteralByte'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_ByteConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 636,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_LessEqual_ByteByte_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:LessEqual_ByteByte'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "ByteProperty",
+                  "Name": "CallFunc_MakeLiteralByte_ReturnValue",
+                  "ElementSize": 1,
+                  "Enum": null
+                }
+              }
+            },
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "ByteProperty",
+                  "Name": "CallFunc_MakeLiteralByte_ReturnValue_1",
+                  "ElementSize": 1,
+                  "Enum": null
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 674,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanAND_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:BooleanAND'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            },
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_LessEqual_ByteByte_ReturnValue",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 712,
+        "CodeOffset": 726,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.ProvideSingleLocation[726]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanAND_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 726,
+        "Variable": {
+          "Token": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "ResultingLocation",
+              "ElementSize": 24,
+              "PropertyFlags": "Parm | OutParm",
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "QuerierLocation",
+              "ElementSize": 24,
+              "PropertyFlags": "Edit | BlueprintVisible",
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Jump",
+        "StatementIndex": 753,
+        "CodeOffset": 914,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.ProvideSingleLocation[914]"
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 758,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetBlackboard_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'BlackboardComponent'",
+                "ObjectPath": "/Script/AIModule"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'AIBlueprintHelperLibrary:GetBlackboard'",
+            "ObjectPath": "/Script/AIModule"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "K2Node_DynamicCast_AsAIController",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AIController'",
+                    "ObjectPath": "/Script/AIModule"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 787,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "NameProperty",
+              "Name": "CallFunc_MakeLiteralName_ReturnValue",
+              "ElementSize": 12
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:MakeLiteralName'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_NameConst",
+              "Value": "AIEvaluator_UnstuckTeleport_ReachableGoal"
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 828,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetValueAsVector_ReturnValue",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Context",
+          "ObjectExpression": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetBlackboard_ReturnValue",
+                "ElementSize": 8,
+                "PropertyFlags": "InstancedReference",
+                "PropertyClass": {
+                  "ObjectName": "Class'BlackboardComponent'",
+                  "ObjectPath": "/Script/AIModule"
+                }
+              }
+            }
+          },
+          "Offset": 19,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetValueAsVector_ReturnValue",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Token": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'BlackboardComponent:GetValueAsVector'",
+              "ObjectPath": "/Script/AIModule"
+            },
+            "Parameters": [
+              {
+                "Token": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+                    "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+                  },
+                  "Property": {
+                    "Type": "NameProperty",
+                    "Name": "CallFunc_MakeLiteralName_ReturnValue",
+                    "ElementSize": 12
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 887,
+        "Variable": {
+          "Token": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "ResultingLocation",
+              "ElementSize": 24,
+              "PropertyFlags": "Parm | OutParm",
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C:ProvideSingleLocation'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetValueAsVector_ReturnValue",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 914,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 916
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'EQS_Phoebe_Context_Unstuck_Reachable_Goal_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_Context_Unstuck_Reachable_Goal.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      },
+      "FunctionsMetaData": [
+        {
+          "Key": "ProvideSingleLocation",
+          "Value": {
+            "ObjectMetaData": {
+              "ObjectMetaData": [
+                {
+                  "Key": "ModuleRelativePath",
+                  "Value": "Classes/EnvironmentQuery/Contexts/EnvQueryContext_BlueprintBase.h"
+                }
+              ]
+            },
+            "PropertiesMetaData": [
+              {
+                "Key": "QuerierLocation",
+                "Value": {
+                  "FieldMetaData": [
+                    {
+                      "Key": "FriendlyName",
+                      "Value": "Querier Location"
+                    },
+                    {
+                      "Key": "Category",
+                      "Value": "Default"
+                    }
+                  ],
+                  "SubFieldMetaData": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

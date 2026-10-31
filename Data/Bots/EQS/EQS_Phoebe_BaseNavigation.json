@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "EnvQuery",
+    "Name": "EQS_Phoebe_BaseNavigation",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQuery'",
+    "Package": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_BaseNavigation",
+    "Properties": {
+      "QueryName": "EQS_Phoebe_BaseNavigation",
+      "Options": [
+        {
+          "ObjectName": "EnvQueryOption'EQS_Phoebe_BaseNavigation:EnvQueryOption_3'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_BaseNavigation.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryGenerator_SimpleGrid",
+    "Name": "EnvQueryGenerator_SimpleGrid_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQueryGenerator_SimpleGrid'",
+    "Outer": {
+      "ObjectName": "EnvQuery'EQS_Phoebe_BaseNavigation'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_BaseNavigation.0"
+    },
+    "Properties": {
+      "GridSize": {
+        "DefaultValue": 120000.0,
+        "DataField": "FloatValue"
+      },
+      "SpaceBetween": {
+        "DefaultValue": 3000.0
+      },
+      "GenerateAround": {
+        "ObjectName": "BlueprintGeneratedClass'Context_WorldOrigin_C'",
+        "ObjectPath": "/Game/Missions/Secondary/Events/SatelliteSalvage/Context_WorldOrigin.0"
+      },
+      "ProjectionData": {
+        "VersionNum": 1,
+        "NavigationFilter": {
+          "ObjectName": "Class'RecastFilter_UseDefaultArea'",
+          "ObjectPath": "/Script/NavigationSystem"
+        },
+        "ProjectDown": 3000.0,
+        "ProjectUp": 10000.0,
+        "ExtentX": 50.0,
+        "SerializedChannel": "ECollisionChannel::ECC_Visibility"
+      },
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryOption",
+    "Name": "EnvQueryOption_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQueryOption'",
+    "Outer": {
+      "ObjectName": "EnvQuery'EQS_Phoebe_BaseNavigation'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_BaseNavigation.0"
+    },
+    "Properties": {
+      "Generator": {
+        "ObjectName": "EnvQueryGenerator_SimpleGrid'EQS_Phoebe_BaseNavigation:EnvQueryGenerator_SimpleGrid_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_BaseNavigation.1"
+      }
+    }
+  }
+]

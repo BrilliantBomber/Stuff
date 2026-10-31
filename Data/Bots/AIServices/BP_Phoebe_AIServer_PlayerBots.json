@@ -1,0 +1,650 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Phoebe_AIServer_PlayerBots_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_PlayerBots",
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaAIServicePlayerBots'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Phoebe_AIServer_PlayerBots_C'Default__BP_Phoebe_AIServer_PlayerBots_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_PlayerBots.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Phoebe_AIServer_PlayerBots_C",
+    "Name": "Default__BP_Phoebe_AIServer_PlayerBots_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_PlayerBots.BP_Phoebe_AIServer_PlayerBots_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_PlayerBots",
+    "Properties": {
+      "ZiplineOctreeRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.ZiplineOctreeRadius"
+        }
+      },
+      "UseZiplines": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.UseZiplines"
+        }
+      },
+      "DebugMinimapData": {
+        "bIsOverridden": true,
+        "DebugMinimapIconBrush": {
+          "ImageSize": {
+            "X": 36.0,
+            "Y": 36.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'DeimosRiftMapIcon'",
+            "ObjectPath": "/Game/Athena/HUD/Spectator/DeimosRiftMapIcon.0"
+          }
+        },
+        "DebugMinimapIconScale": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "ConstructionBuildingInfo": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Solid_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Solid.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Solid_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Solid.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Solid_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Solid.1"
+        }
+      },
+      "ConstructionBuildingInfo[1]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Floor_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Floor_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Floor.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Floor_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Floor.1"
+        }
+      },
+      "ConstructionBuildingInfo[2]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_StairW_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_StairW_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_StairW.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_StairW_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_StairW.1"
+        }
+      },
+      "ConstructionBuildingInfo[3]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_RoofC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofC.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_RoofC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_RoofC.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_RoofC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_RoofC.1"
+        }
+      },
+      "ConstructionBuildingInfo[4]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Brace_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Brace.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Brace_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Brace.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Brace_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Brace.1"
+        }
+      },
+      "ConstructionBuildingInfo[5]": {
+        "BuildingActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_W1_WindowC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_WindowC.1"
+        },
+        "BuildingActorClass[1]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_S1_WindowsC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_WindowsC.1"
+        },
+        "BuildingActorClass[2]": {
+          "ObjectName": "BlueprintGeneratedClass'PBWA_M1_WindowC_C'",
+          "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_WindowC.1"
+        }
+      },
+      "BotItemDataRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_ItemData'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_ItemData.1"
+      },
+      "AugmentsRegistryName": "Phoebe.Augments",
+      "VisibilitySettingsRegistry": {
+        "ObjectName": "DataRegistry'Phoebe_VisibilityRegistry'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_VisibilityRegistry.0"
+      },
+      "PerceivedActorTagsToAdd": [
+        "Athena.AI.ConsiderVisibleWhenOverlapping",
+        "Athena.AI.ConsiderVisibleWhenInProximity"
+      ],
+      "MaxAnonymousBotCount": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.MaxAnonymousBotCount"
+        }
+      },
+      "BotNameLibraryData": {
+        "AssetPathName": "/Game/Athena/AI/Phoebe/Names/PhoebeNameLibraryData.PhoebeNameLibraryData",
+        "SubPathString": ""
+      },
+      "TriggerEndGameBehaviorMinTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.TriggerEndGameBehaviorMinTime"
+        }
+      },
+      "TriggerEndGameBehaviorMaxTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.TriggerEndGameBehaviorMaxTime"
+        }
+      },
+      "ShowSeasonLevelProbability": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.ShowSeasonLevelProbability"
+        }
+      },
+      "SpectateOthersOnDeath": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.AIService.SpectateOthersOnDeath"
+        }
+      },
+      "BotsUniqueIDUseValidAccountID": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ManagerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+          },
+          "RowName": "Phoebe.BotsUniqueIDUseValidAccountID"
+        }
+      },
+      "bWaitForNavmeshToBeLoaded": false,
+      "GamePhaseToStartSpawning": "EAthenaGamePhase::Warmup",
+      "DefaultBotAISpawnerData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+      },
+      "EQSMapSampling": {
+        "AssetPathName": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_BaseNavigation.EQS_Phoebe_BaseNavigation",
+        "SubPathString": ""
+      },
+      "CanReviveDownedSquad": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Tandem_NPC_Data'",
+            "ObjectPath": "/Game/Athena/AI/NPCs/Tandem/Base/DataTables/Tandem_NPC_Data.0"
+          },
+          "RowName": "Tandem.Revive.AllowSoloRevive"
+        }
+      },
+      "MMRSpawnTable": {
+        "AssetPathName": "/Game/Athena/AI/Phoebe/PhoebeSpawningTables/PhoebeMMRSpawning.PhoebeMMRSpawning",
+        "SubPathString": ""
+      },
+      "MMRSpawnTableOverrides": [
+        {
+          "AssetPathName": "/Game/Athena/AI/Phoebe/PhoebeSpawningTables/PhoebeMMRSpawning_Backup.PhoebeMMRSpawning_Backup",
+          "SubPathString": ""
+        }
+      ],
+      "DynamicBotPOIEnabled": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.Enabled"
+        }
+      },
+      "BotPOIEQS": {
+        "AssetPathName": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.EQS_Phoebe_SystemicPOI",
+        "SubPathString": ""
+      },
+      "BotPOIMinimumWeightForSquadMembers": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_DataByMaxSquadSize'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_DataByMaxSquadSize.0"
+          },
+          "RowName": "Phoebe.BotPOI.MinWeightToUsePOI"
+        }
+      },
+      "BotPOINextPOIDurationSecondByWeight": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.BotPOINextPOIDurationSecondByWeight"
+        }
+      },
+      "BotPOINextPOIMinDuration": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.BotPOINextPOIMinDuration"
+        }
+      },
+      "BotPOINextPOIMaxDuration": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.BotPOINextPOIMaxDuration"
+        }
+      },
+      "BotPOIExcludedZonesDataRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_DynamicPOI_ExcludedZones'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_DynamicPOI_ExcludedZones.8"
+      },
+      "BotPOIJumpMainPOICountMax": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_DataByMaxSquadSize'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_DataByMaxSquadSize.0"
+          },
+          "RowName": "Phoebe.BotPOI.JumpBus.MainPOICount"
+        }
+      },
+      "BotPOISquadJumpOnMainPOICountMax": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_DataByMaxSquadSize'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_DataByMaxSquadSize.0"
+          },
+          "RowName": "Phoebe.BotPOI.JumpBus.SquadJumpOnMainCount"
+        }
+      },
+      "DenyJumpBusBotPOIByProximityEnabled": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.DenyJumpBusBotPOIByProximity.Enabled"
+        }
+      },
+      "DenyJumpBusBotPOIDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_DataByMaxSquadSize'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_DataByMaxSquadSize.0"
+          },
+          "RowName": "Phoebe.BotPOI.DenyJumpBusBotPOIByProximity.Distance"
+        }
+      },
+      "SquadJumpOnSameMainPOICountMax": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_DataByMaxSquadSize'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_DataByMaxSquadSize.0"
+          },
+          "RowName": "Phoebe.BotPOI.SquadJumpOnSameMainPOICountMax"
+        }
+      },
+      "FailToReachBotPOICountMax": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.FailToReachBotPOICountMax"
+        }
+      },
+      "BotPOIScoringWeightFactor": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.BotPOIScoringWeightFactor"
+        }
+      },
+      "BotPOIScoringDistanceFactor": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.BotPOIScoringDistanceFactor"
+        }
+      },
+      "BotPOIScoringOccupancyFactor": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.BotPOIScoringOccupancyFactor"
+        }
+      },
+      "BotPOIScoringVisitedFactor": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.BotPOIScoringVisitedFactor"
+        }
+      },
+      "ChanceToUseNextSafeZone": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_DataBySafeZoneIndex'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_DataBySafeZoneIndex.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ChanceToUseNextSafeZone"
+        }
+      },
+      "ParticipantClusteringEnabled": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.Enabled"
+        }
+      },
+      "ParticipantAliveToStartClusteringPercentage": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.ParticipantAlivePercentageToStart"
+        }
+      },
+      "ParticipantClusteringTick": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.TickRate"
+        }
+      },
+      "ParticipantClusteringNeighborDistanceMax": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.NeighborDistanceMax"
+        }
+      },
+      "ParticipantClusteringNeighborhoodCountMin": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.NeighborhoodCountMin"
+        }
+      },
+      "ParticipantClusterSizeXMin": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.ClusterSizeXMin"
+        }
+      },
+      "ParticipantClusterSizeYMin": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.ClusterSizeYMin"
+        }
+      },
+      "ParticipantClusterSizeZMin": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.ClusterSizeZMin"
+        }
+      },
+      "ParticipantClusterWeightByPlayer": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.ParticipantClusterWeightByPlayer"
+        }
+      },
+      "ParticipantClusterWeightByBot": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.ParticipantClusterWeightByBot"
+        }
+      },
+      "BotPOISeekFightScoringWeightFactor": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.BotPOIScoringWeightFactor"
+        }
+      },
+      "BotPOISeekFightScoringDistanceFactor": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.BotPOIScoringDistanceFactor"
+        }
+      },
+      "BotPOISeekFightScoringOccupancyFactor": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.ParticipantClustering.BotPOIScoringOccupancyFactor"
+        }
+      },
+      "TrackedTargetClusteringEnabled": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.TrackedTargetClustering.Enabled"
+        }
+      },
+      "TrackedTargetClusteringTick": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.TrackedTargetClustering.TickInterval"
+        }
+      },
+      "TrackedTargetClusterSize": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.TrackedTargetClustering.ClusterSize"
+        }
+      },
+      "TrackedTargetClusterWeight": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.ServicePlayerBots.DynamicBotPOI.TrackedTargetClustering.ClusterWeight"
+        }
+      },
+      "DisablePlayerBotHearingDuringWarmupPhase": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.DisablePlayerBotHearingDuringWarmupPhase"
+        }
+      },
+      "WeaponDataRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_WeaponRegistry'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_WeaponRegistry.1"
+      },
+      "WeaponModRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_WeaponModRegistry'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_WeaponModRegistry.0"
+      },
+      "AimingRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_AimDataRegistry'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_AimDataRegistry.1"
+      },
+      "MovementItemRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_MovementItemRegistry'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_MovementItemRegistry.0"
+      },
+      "FillBotResourceRegistry": {
+        "ObjectName": "FortDataRegistry'Phoebe_FillResourceRegistry'",
+        "ObjectPath": "/Game/DataRegistries/AI/Phoebe_FillResourceRegistry.0"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Phoebe_AIServer_PlayerBots_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_PlayerBots.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

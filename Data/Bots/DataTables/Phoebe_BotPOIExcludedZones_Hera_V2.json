@@ -1,0 +1,260 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_BotPOIExcludedZones_Hera_V2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_BotPOIExcludedZones_Hera_V2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotPOIExcludedZoneDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "WarmupA": {
+        "Location": {
+          "X": 106141.25,
+          "Y": 212611.98,
+          "Z": 484.3453
+        },
+        "BoxHalfSize": {
+          "X": 22000.0,
+          "Y": 25000.0,
+          "Z": 7000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "WarmupB": {
+        "Location": {
+          "X": -226074.53,
+          "Y": 167504.52,
+          "Z": 1017.3665
+        },
+        "BoxHalfSize": {
+          "X": 28000.0,
+          "Y": 50000.0,
+          "Z": 3000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "ZeroPoint": {
+        "Location": {
+          "X": -10556.906,
+          "Y": -1391.3552,
+          "Z": 3748.148
+        },
+        "BoxHalfSize": {
+          "X": 5000.0,
+          "Y": 5000.0,
+          "Z": 3000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "GuardHence1": {
+        "Location": {
+          "X": -8088.0,
+          "Y": -62392.0,
+          "Z": 1732.0
+        },
+        "BoxHalfSize": {
+          "X": 4000.0,
+          "Y": 2250.0,
+          "Z": 1000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "GuardHence2": {
+        "Location": {
+          "X": -49244.0,
+          "Y": -85904.0,
+          "Z": 9600.0
+        },
+        "BoxHalfSize": {
+          "X": 2000.0,
+          "Y": 1500.0,
+          "Z": 1000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "GuardHence3": {
+        "Location": {
+          "X": -5564.0,
+          "Y": -96180.0,
+          "Z": 1852.0
+        },
+        "BoxHalfSize": {
+          "X": 4000.0,
+          "Y": 3500.0,
+          "Z": 1000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "GuardHence4": {
+        "Location": {
+          "X": -98640.0,
+          "Y": -46580.0,
+          "Z": 1320.0
+        },
+        "BoxHalfSize": {
+          "X": 1750.0,
+          "Y": 2750.0,
+          "Z": 1000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "GuardHence5": {
+        "Location": {
+          "X": 90880.0,
+          "Y": 14864.0,
+          "Z": 1376.0
+        },
+        "BoxHalfSize": {
+          "X": 4000.0,
+          "Y": 4000.0,
+          "Z": 1000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "GuardHence6": {
+        "Location": {
+          "X": 63836.0,
+          "Y": 28056.0,
+          "Z": 2104.0
+        },
+        "BoxHalfSize": {
+          "X": 2000.0,
+          "Y": 2250.0,
+          "Z": 1000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "GuardHence7": {
+        "Location": {
+          "X": 54468.0,
+          "Y": 53472.0,
+          "Z": 1740.0
+        },
+        "BoxHalfSize": {
+          "X": 1250.0,
+          "Y": 3000.0,
+          "Z": 1000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      },
+      "GuardHence8": {
+        "Location": {
+          "X": 40872.0,
+          "Y": 51888.0,
+          "Z": 2544.0
+        },
+        "BoxHalfSize": {
+          "X": 1000.0,
+          "Y": 3000.0,
+          "Z": 2000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_V2_Terrain",
+        "bEnabled": true
+      }
+    }
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_Library_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Library_Phoebe",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAISpawnerDataComponent_CosmeticLibrary'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_Library_Phoebe_C'Default__BP_AISpawnerComp_Library_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Library_Phoebe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_Library_Phoebe_C",
+    "Name": "Default__BP_AISpawnerComp_Library_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Library_Phoebe.BP_AISpawnerComp_Library_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Library_Phoebe",
+    "Properties": {
+      "CosmeticLibraries": [
+        {
+          "AssetPathName": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/BasicPrevious/Phoebe_CosmeticLibraryBasicPrevious.Phoebe_CosmeticLibraryBasicPrevious",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/Default/Phoebe_CosmeticLibraryDefault.Phoebe_CosmeticLibraryDefault",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/Promoted/Phoebe_CosmeticLibraryPromoted.Phoebe_CosmeticLibraryPromoted",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/Shop/Phoebe_CosmeticLibraryShop.Phoebe_CosmeticLibraryShop",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/BasicNew/Phoebe_CosmeticLibraryBasicNew.Phoebe_CosmeticLibraryBasicNew",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultCosmeticLibraryWeight": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'phoebe_cosmetic_data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/Cosmetic/phoebe_cosmetic_data.0"
+          },
+          "RowName": "cosmeticlibrary.weight.default"
+        }
+      },
+      "EmotesMaxCount": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_ControllerData'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/ControllerData/Phoebe_ControllerData.0"
+          },
+          "RowName": "Phoebe.Controller.Emotes.MaxCount"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Library_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Library_Phoebe.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

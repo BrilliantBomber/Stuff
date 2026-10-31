@@ -1,0 +1,488 @@
+[
+  {
+    "Type": "AI_skill_phoebe_bot_building_C",
+    "Name": "Default__AI_skill_phoebe_bot_building_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_building.AI_skill_phoebe_bot_building_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_building",
+    "Properties": {
+      "BunkerReactionTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.ReactionTime"
+        }
+      },
+      "BunkerReactionTimeDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Perks.Bunker.ReactionTimeVariation"
+        }
+      },
+      "DefensiveBuildingDelayBetweenBuilds": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.Defensive.DelayBetweenBuilds"
+        }
+      },
+      "DefensiveBuildingDelayDeviationBetweenBuilds": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.Defensive.DelayDeviationBetweenBuilds"
+        }
+      },
+      "DelayBetweenBuildPieces": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.Defensive.DelayBetweenPieces"
+        }
+      },
+      "ForceEquipBuildToolDuration": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.ForceEquipBuildToolDuration"
+        }
+      },
+      "WeightedBuildingLists": [
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.SingleWallWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            }
+          ]
+        },
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.SingleRampWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::StairsUpY"
+            }
+          ]
+        },
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.SingleRoofWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::Roof"
+            }
+          ]
+        },
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.CubeWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::StairsUpY"
+            },
+            {
+              "Location": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            },
+            {
+              "Location": {
+                "X": 1,
+                "Y": -1,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallX"
+            },
+            {
+              "Location": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallX"
+            }
+          ]
+        },
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.DoubleWallWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            },
+            {
+              "Location": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            }
+          ]
+        },
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.DoubleWallWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            },
+            {
+              "Location": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            }
+          ]
+        },
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.WallRampWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::StairsUpY"
+            },
+            {
+              "Location": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            }
+          ]
+        },
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.CornerWallWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            },
+            {
+              "Location": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallX"
+            }
+          ]
+        },
+        {
+          "Weight": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Phoebe_SkillSets'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+              },
+              "RowName": "Phoebe.Skill.Building.Defensive.CornerWallWeight"
+            },
+            "RegistryType": {
+              "Name": "None"
+            }
+          },
+          "BuildDescriptors": [
+            {
+              "Location": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallY"
+            },
+            {
+              "Location": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "BuildingType": "EOrientedConstructionBuildingType::WallX"
+            }
+          ]
+        }
+      ],
+      "StealWallTurboBuildDetectionTime": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.StealWall.TurboBuildDetectionTime"
+        }
+      },
+      "StealWallAfterNumberOfTurboBuiltWall": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.StealWall.AfterNumberofTurboBuiltWall"
+        }
+      },
+      "StealWallEfficiency": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.StealWall.Efficiency"
+        }
+      },
+      "StealWallBuildingTemplateWeights": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.StealWall.SingleWallWeight"
+        }
+      },
+      "StealWallBuildingTemplateWeights[1]": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.StealWall.SingleRampWeight"
+        }
+      },
+      "StealWallBuildingTemplateWeights[2]": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.StealWall.SingleRoofWeight"
+        }
+      },
+      "StealWallBuildingTemplateWeights[3]": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.StealWall.SingleBraceWeight"
+        }
+      },
+      "StealWallBuildingTemplateWeights[4]": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Building.StealWall.SingleWallWindowWeight"
+        }
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AI_skill_phoebe_bot_building_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_building",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotBuildingSkillSet'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AI_skill_phoebe_bot_building_C'Default__AI_skill_phoebe_bot_building_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_building.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AI_skill_phoebe_bot_building_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Skillsets/AI_skill_phoebe_bot_building.1"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

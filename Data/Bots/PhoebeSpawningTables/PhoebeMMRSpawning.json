@@ -1,0 +1,477 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhoebeMMRSpawning",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/PhoebeSpawningTables/PhoebeMMRSpawning",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'MMRSpawningBracketBotDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      }
+    },
+    "Rows": {
+      "phoebe.mmr.1": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": -90000,
+        "MMRBracketHigh": 99
+      },
+      "phoebe.mmr.2": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 100,
+        "MMRBracketHigh": 199
+      },
+      "phoebe.mmr.3": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 200,
+        "MMRBracketHigh": 299
+      },
+      "phoebe.mmr.4": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 300,
+        "MMRBracketHigh": 399
+      },
+      "phoebe.mmr.5": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 400,
+        "MMRBracketHigh": 499
+      },
+      "phoebe.mmr.6": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1000.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 500,
+        "MMRBracketHigh": 599
+      },
+      "phoebe.mmr.7": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1000.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 600,
+        "MMRBracketHigh": 699
+      },
+      "phoebe.mmr.8": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1200.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 700,
+        "MMRBracketHigh": 799
+      },
+      "phoebe.mmr.9": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1200.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 800,
+        "MMRBracketHigh": 899
+      },
+      "phoebe.mmr.10": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1200.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 900,
+        "MMRBracketHigh": 999
+      },
+      "phoebe.mmr.11": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1400.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1000,
+        "MMRBracketHigh": 1099
+      },
+      "phoebe.mmr.12": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1400.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1100,
+        "MMRBracketHigh": 1199
+      },
+      "phoebe.mmr.13": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1400.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1200,
+        "MMRBracketHigh": 1299
+      },
+      "phoebe.mmr.14": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1600.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1300,
+        "MMRBracketHigh": 1399
+      },
+      "phoebe.mmr.15": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1600.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1400,
+        "MMRBracketHigh": 1499
+      },
+      "phoebe.mmr.16": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1600.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1500,
+        "MMRBracketHigh": 1599
+      },
+      "phoebe.mmr.17": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1600,
+        "MMRBracketHigh": 1699
+      },
+      "phoebe.mmr.18": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1700,
+        "MMRBracketHigh": 1799
+      },
+      "phoebe.mmr.19": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1800,
+        "MMRBracketHigh": 1899
+      },
+      "phoebe.mmr.20": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 1900,
+        "MMRBracketHigh": 1999
+      },
+      "phoebe.mmr.21": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 2000,
+        "MMRBracketHigh": 2099
+      },
+      "phoebe.mmr.22": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 2100,
+        "MMRBracketHigh": 2199
+      },
+      "phoebe.mmr.23": {
+        "PhaseSpawningItems": [
+          {
+            "GamePhaseIndexToSpawn": 1,
+            "SpawningItems": [
+              {
+                "AISpawnerData": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerData_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AISpawnerData_Phoebe.0"
+                },
+                "Skill": 1800.0,
+                "Weight": 1.0,
+                "SpawingItemIndex": 0
+              }
+            ]
+          }
+        ],
+        "MMRBracketLow": 2200,
+        "MMRBracketHigh": 9999
+      }
+    }
+  }
+]

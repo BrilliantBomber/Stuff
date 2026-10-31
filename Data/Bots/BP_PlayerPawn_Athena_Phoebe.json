@@ -1,0 +1,3508 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "FeedbackAudioComp0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "AudioComponent'Default__PlayerPawn_Athena_C:FeedbackAudioComp0'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.0"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.4"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "InAirAudioComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "AudioComponent'Default__PlayerPawn_Athena_C:InAirAudioComp'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.1"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.24"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PlayerPawn_Athena_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'PlayerPawn_Athena_C'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.2"
+    },
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PlayerPawn_Athena_Phoebe_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.47"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_PlayerPawn_Athena_Phoebe_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.35"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+      },
+      {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+      },
+      {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+      },
+      {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+      },
+      {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.33"
+      },
+      {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:OnCharacterCustomizationCompleted'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.32"
+      },
+      {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ReceiveEndPlay'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.34"
+      },
+      {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FortAthenaPawnComponent_AIJump",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FortAthenaPawnComponent_AIJump'",
+          "ObjectPath": "/Script/FortniteAI"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "AIEvaluator_CharacterLaunchedKeyName",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bUseCosmeticVariants",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CosmeticVariantID",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AdjustedAimOverride",
+        "ElementSize": 640,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'FortAnimInput_AdjustedAim'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "UseAdjustedAimOverride",
+        "ElementSize": 56,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'ScalableFloat'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+      },
+      "ReceiveEndPlay": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ReceiveEndPlay'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.34"
+      },
+      "OnCharacterCustomizationCompleted": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:OnCharacterCustomizationCompleted'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.32"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.33"
+      },
+      "AssignCosmeticVariant": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+      },
+      "ComputeCosmeticVariantID": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+      },
+      "EnableOverrideAdjustedAimOffsets": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+      },
+      "DisableOverrideAdjustedAimOffsets": {
+        "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PlayerPawn_Athena_Phoebe_C",
+    "Name": "Default__BP_PlayerPawn_Athena_Phoebe_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.BP_PlayerPawn_Athena_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe",
+    "Template": {
+      "ObjectName": "PlayerPawn_Athena_C'Default__PlayerPawn_Athena_C'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.200"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "AIEvaluator_CharacterLaunchedKeyName": "AIEvaluator_CharacterLaunched",
+      "CosmeticVariantID": -1,
+      "AdjustedAimOverride": {
+        "WeaponOffsets": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[1]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[2]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[3]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[4]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[5]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[6]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[7]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[8]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[9]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[10]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[11]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[12]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[13]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[14]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[15]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[16]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[17]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[18]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[19]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[20]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[21]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[22]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[23]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[24]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[25]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[26]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[27]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[28]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[29]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[30]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[31]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[32]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[33]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "WeaponOffsets[34]": {
+          "YawOffset": 0.0,
+          "PitchOffset": 0.0,
+          "TargetingYawOffset": 0.0,
+          "TargetingPitchOffset": 0.0
+        },
+        "YawOffset": 0.0,
+        "PitchOffset": 0.0,
+        "YawScale": 0.8,
+        "PitchScale": 1.0,
+        "ResultingYaw": 0.0,
+        "ResultingPitch": 0.0,
+        "RawYaw": 0.0,
+        "ExtraYawOffset": 0.0,
+        "ZeroOutPitchWeightCurveName": "ZeroOutPitchWeight",
+        "bEnableStaticAimAdjustments": true,
+        "ReloadStartTime": 0.0,
+        "ReloadPitchBlendOutTime": 0.0,
+        "ReloadPitchBlendAlpha": 1.0,
+        "bIsReloading": false,
+        "EquipPitchScalar": 0.0,
+        "bIsEquipping": false
+      },
+      "UseAdjustedAimOverride": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": null,
+          "RowName": "None"
+        },
+        "RegistryType": {
+          "Name": "None"
+        }
+      },
+      "CustomDepthComponent": {
+        "ObjectName": "FortPawnComponent_CustomDepth'Default__BP_PlayerPawn_Athena_Phoebe_C:CustomDepthComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.17"
+      },
+      "InAirAudioComp": {
+        "ObjectName": "AudioComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:InAirAudioComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.1"
+      },
+      "PSC_PlayerWalkLand": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:PlayerWalkLandFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.43"
+      },
+      "PSC_PlayerRunLand": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:PlayerRunLandFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.41"
+      },
+      "PSC_HitDamage": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:HitDamageFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.38"
+      },
+      "RimLightComponent": {
+        "ObjectName": "FortPlayerPawnAthenaRimLight'Default__BP_PlayerPawn_Athena_Phoebe_C:RimLightComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.23"
+      },
+      "TetherComponent": {
+        "ObjectName": "FortPawnComponent_Tether'Default__BP_PlayerPawn_Athena_Phoebe_C:TetherComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.18"
+      },
+      "CosmeticDataComponent": {
+        "ObjectName": "CosmeticDataComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CosmeticDataComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.6"
+      },
+      "CosmeticLoadoutComponent": {
+        "ObjectName": "FortCosmeticLoadoutComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CosmeticLoadoutComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.10"
+      },
+      "SkeletalMeshContext": {
+        "ObjectName": "FortPawnSkeletalMeshContext'Default__BP_PlayerPawn_Athena_Phoebe_C:FortPawnSkeletalMeshContext'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.19"
+      },
+      "GliderSpawnComponent": {
+        "ObjectName": "FortGliderSpawnComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:GliderSpawnComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.13"
+      },
+      "LinkedAnimGraphComponent": {
+        "ObjectName": "FortPlayerLinkedAnimGraphComponentBP_C'Default__BP_PlayerPawn_Athena_Phoebe_C:FortLinkedAnimGraphComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.22"
+      },
+      "AnimationComponent": {
+        "ObjectName": "FortPlayerAnimComponentBP_C'Default__BP_PlayerPawn_Athena_Phoebe_C:FortPlayerAnimationComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.21"
+      },
+      "PSC_PlayerInWater": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:PlayerInWaterFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.39"
+      },
+      "PSC_PlayerInWaterSurfaceSwimming": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:PlayerInWaterSurfaceSwimmingFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.40"
+      },
+      "PSC_PlayerSlideLand": {
+        "ObjectName": "ParticleSystemComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:PlayerSlideLandFX'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.42"
+      },
+      "ConvertComponent": {
+        "ObjectName": "FortPawnComponent_Convert'Default__BP_PlayerPawn_Athena_Phoebe_C:ConvertComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.16"
+      },
+      "AffiliationComponent": {
+        "ObjectName": "FortActorComponent_Affiliation'Default__BP_PlayerPawn_Athena_Phoebe_C:AffiliationComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.8"
+      },
+      "CosmeticPortInformationComponent": {
+        "ObjectName": "CosmeticPortInformationComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CosmeticSlotInformationComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.7"
+      },
+      "CosmeticApplicatorComponent": {
+        "ObjectName": "CosmeticApplicatorComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CosmeticApplicatorComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.5"
+      },
+      "SoundIndicatorComponent": {
+        "ObjectName": "FortSoundIndicatorComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:SoundIndicatorComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.25"
+      },
+      "SoundLibraryComponent": {
+        "ObjectName": "FortSoundLibraryComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:SoundLibraryComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.26"
+      },
+      "EmoteComponent": {
+        "ObjectName": "FortEmoteComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:FortEmoteComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.11"
+      },
+      "EmoteMusicClockComponent": {
+        "ObjectName": "MusicClockComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:EmoteMusicClockComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.36"
+      },
+      "VocalChords": [
+        {
+          "FeedbackAudioComponent": {
+            "ObjectName": "AudioComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:FeedbackAudioComp0'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.0"
+          },
+          "ReplicatedSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "EFortFeedbackBroadcastFilter::FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "PendingSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "EFortFeedbackBroadcastFilter::FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "QueuedSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "EFortFeedbackBroadcastFilter::FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "CurrentSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "EFortFeedbackBroadcastFilter::FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          }
+        }
+      ],
+      "GameplayTags": [
+        "Class.IsCommando",
+        "NPC.EnemyType.Pawn",
+        "Homebase.Class.IsCommando",
+        "Pawn.Athena.Player",
+        "Athena.AI.NoiseMaker",
+        "Athena.IsAPhoebe"
+      ],
+      "Mesh": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.24"
+      },
+      "CharacterMovement": {
+        "ObjectName": "FortMovementComp_CharacterAthena'Default__BP_PlayerPawn_Athena_Phoebe_C:CharMoveComp'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.15"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.4"
+      },
+      "AutoPossessAI": "EAutoPossessAI::PlacedInWorldOrSpawned",
+      "AIControllerClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.4"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__PlayerPawn_Athena_C:CollisionCylinder'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.3"
+    }
+  },
+  {
+    "Type": "CosmeticApplicatorComponent",
+    "Name": "CosmeticApplicatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CosmeticApplicatorComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "CosmeticApplicatorComponent'Default__PlayerPawn_Athena_C:CosmeticApplicatorComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.4"
+    }
+  },
+  {
+    "Type": "CosmeticDataComponent",
+    "Name": "CosmeticDataComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CosmeticDataComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "CosmeticDataComponent'Default__PlayerPawn_Athena_C:CosmeticDataComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.5"
+    }
+  },
+  {
+    "Type": "CosmeticPortInformationComponent",
+    "Name": "CosmeticSlotInformationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CosmeticPortInformationComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "CosmeticPortInformationComponent'Default__PlayerPawn_Athena_C:CosmeticSlotInformationComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.6"
+    }
+  },
+  {
+    "Type": "FortActorComponent_Affiliation",
+    "Name": "AffiliationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortActorComponent_Affiliation'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortActorComponent_Affiliation'Default__PlayerPawn_Athena_C:AffiliationComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.8"
+    }
+  },
+  {
+    "Type": "FortAthenaPawnComponent_AIJump",
+    "Name": "FortAthenaPawnComponent_AIJump_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAthenaPawnComponent_AIJump'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "Properties": {
+      "UpAction": "EGeneratedJumpVerticalLinkAction::JumpAbilityActions_First",
+      "DownAction": "EGeneratedJumpVerticalLinkAction::None"
+    }
+  },
+  {
+    "Type": "FortCosmeticLoadoutComponent",
+    "Name": "CosmeticLoadoutComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortCosmeticLoadoutComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortCosmeticLoadoutComponent'Default__PlayerPawn_Athena_C:CosmeticLoadoutComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.10"
+    }
+  },
+  {
+    "Type": "FortEmoteComponent",
+    "Name": "FortEmoteComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortEmoteComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortEmoteComponent'Default__PlayerPawn_Athena_C:FortEmoteComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.11"
+    }
+  },
+  {
+    "Type": "FortGenericDataStoreManagerComponent",
+    "Name": "GeneralDataStore",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortGenericDataStoreManagerComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortGenericDataStoreManagerComponent'Default__PlayerPawn_Athena_C:GeneralDataStore'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.12"
+    }
+  },
+  {
+    "Type": "FortGliderSpawnComponent",
+    "Name": "GliderSpawnComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortGliderSpawnComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortGliderSpawnComponent'Default__PlayerPawn_Athena_C:GliderSpawnComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.13"
+    }
+  },
+  {
+    "Type": "FortHoldingObjectComponent",
+    "Name": "FortHoldingObjectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortHoldingObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortHoldingObjectComponent'Default__PlayerPawn_Athena_C:FortHoldingObjectComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.14"
+    }
+  },
+  {
+    "Type": "FortMovementComp_CharacterAthena",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMovementComp_CharacterAthena'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortMovementComp_CharacterAthena'Default__PlayerPawn_Athena_C:CharMoveComp'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.15"
+    },
+    "Properties": {
+      "SurfaceSwimmingWaterControlParams": {
+        "WaterForceSecondMultiplier": {
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_ManagerData'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+            },
+            "RowName": "Phoebe.WaterForceSecondMultiplier"
+          }
+        }
+      },
+      "bUseRVOAvoidance": false,
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": false
+      },
+      "NavAgentProps": {
+        "AgentRadius": 42.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/FortniteAI.AthenaNavMesh",
+          "SubPathString": ""
+        }
+      }
+    }
+  },
+  {
+    "Type": "FortPawnComponent_Convert",
+    "Name": "ConvertComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPawnComponent_Convert'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortPawnComponent_Convert'Default__PlayerPawn_Athena_C:ConvertComp'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.16"
+    },
+    "Properties": {
+      "ConvertTimeFromDBNO": {
+        "Curve": {
+          "RowName": "Default.Convert.Phoebe.ConvertTime"
+        }
+      }
+    }
+  },
+  {
+    "Type": "FortPawnComponent_CustomDepth",
+    "Name": "CustomDepthComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPawnComponent_CustomDepth'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortPawnComponent_CustomDepth'Default__PlayerPawn_Athena_C:CustomDepthComp'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.17"
+    }
+  },
+  {
+    "Type": "FortPawnComponent_Tether",
+    "Name": "TetherComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPawnComponent_Tether'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortPawnComponent_Tether'Default__PlayerPawn_Athena_C:TetherComp'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.18"
+    }
+  },
+  {
+    "Type": "FortPawnSkeletalMeshContext",
+    "Name": "FortPawnSkeletalMeshContext",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPawnSkeletalMeshContext'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortPawnSkeletalMeshContext'Default__PlayerPawn_Athena_C:FortPawnSkeletalMeshContext'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.19"
+    }
+  },
+  {
+    "Type": "FortPlayerAnimationInterface",
+    "Name": "FortPlayerAnimationInterface",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPlayerAnimationInterface'",
+    "Outer": {
+      "ObjectName": "FortPlayerAnimComponentBP_C'Default__BP_PlayerPawn_Athena_Phoebe_C:FortPlayerAnimationComponent'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.21"
+    },
+    "Template": {
+      "ObjectName": "FortPlayerAnimationInterface'Default__PlayerPawn_Athena_C:FortPlayerAnimationComponent.FortPlayerAnimationInterface'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.20"
+    }
+  },
+  {
+    "Type": "FortPlayerAnimComponentBP_C",
+    "Name": "FortPlayerAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/Player/Blueprints/FortPlayerAnimComponentBP.FortPlayerAnimComponentBP_C'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortPlayerAnimComponentBP_C'Default__PlayerPawn_Athena_C:FortPlayerAnimationComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.21"
+    }
+  },
+  {
+    "Type": "FortPlayerLinkedAnimGraphComponentBP_C",
+    "Name": "FortLinkedAnimGraphComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/Player/Blueprints/FortPlayerLinkedAnimGraphComponentBP.FortPlayerLinkedAnimGraphComponentBP_C'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortPlayerLinkedAnimGraphComponentBP_C'Default__PlayerPawn_Athena_C:FortLinkedAnimGraphComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.22"
+    },
+    "Properties": {
+      "PrototypeLandAnimClass": null,
+      "OldJumpAnimClass": null
+    }
+  },
+  {
+    "Type": "FortPlayerPawnAthenaRimLight",
+    "Name": "RimLightComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPlayerPawnAthenaRimLight'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortPlayerPawnAthenaRimLight'Default__PlayerPawn_Athena_C:RimLightComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.23"
+    }
+  },
+  {
+    "Type": "FortPooledSkelMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortPooledSkelMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortPooledSkelMeshComponent'Default__PlayerPawn_Athena_C:CharacterMesh0'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.24"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.4"
+      }
+    }
+  },
+  {
+    "Type": "FortSoundIndicatorComponent",
+    "Name": "SoundIndicatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSoundIndicatorComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortSoundIndicatorComponent'Default__PlayerPawn_Athena_C:SoundIndicatorComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.25"
+    }
+  },
+  {
+    "Type": "FortSoundLibraryComponent",
+    "Name": "SoundLibraryComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSoundLibraryComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "FortSoundLibraryComponent'Default__PlayerPawn_Athena_C:SoundLibraryComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.26"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AssignCosmeticVariant",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetCustomPrimitiveDataFloat_Value_ImplicitCast",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 0,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:GreaterEqual_IntInt'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "CosmeticVariantID",
+                  "ElementSize": 4,
+                  "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Token": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 34,
+        "CodeOffset": 247,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.AssignCosmeticVariant[247]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 48,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'FortPlayerPawn:GetSkeletalMeshForPartType'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_ByteConst",
+              "Value": 1
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 70,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'SkeletalMeshComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 99,
+        "CodeOffset": 247,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.AssignCosmeticVariant[247]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 113,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Conv_IntToDouble_ReturnValue",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Conv_IntToDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "CosmeticVariantID",
+                  "ElementSize": 4,
+                  "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 150,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'FortPlayerPawn:GetSkeletalMeshForPartType'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_ByteConst",
+              "Value": 1
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 172,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_SetCustomPrimitiveDataFloat_Value_ImplicitCast",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_Conv_IntToDouble_ReturnValue",
+                "ElementSize": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Context_FailSilent",
+        "StatementIndex": 201,
+        "ObjectExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 24,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'PrimitiveComponent:SetCustomPrimitiveDataFloat'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_IntConst",
+              "Value": 0
+            },
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:AssignCosmeticVariant'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.27"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_SetCustomPrimitiveDataFloat_Value_ImplicitCast",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 247,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 249
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ComputeCosmeticVariantID",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AthenaAIServicePlayerBots'",
+          "ObjectPath": "/Script/FortniteAI"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_FetchNextCustomBotCosmeticVariantID_ReturnValue",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 0,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Less_IntInt_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Less_IntInt'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "CosmeticVariantID",
+                  "ElementSize": 4,
+                  "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Token": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 34,
+        "CodeOffset": 251,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ComputeCosmeticVariantID[251]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Less_IntInt_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 48,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AthenaAIServicePlayerBots'",
+                "ObjectPath": "/Script/FortniteAI"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Context",
+          "ObjectExpression": {
+            "Token": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "Class'Default__AthenaAIBlueprintLibrary'",
+              "ObjectPath": "/Script/FortniteAI"
+            }
+          },
+          "Offset": 11,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AthenaAIServicePlayerBots'",
+                "ObjectPath": "/Script/FortniteAI"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Token": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'AthenaAIBlueprintLibrary:GetAIServicePlayerBots'",
+              "ObjectPath": "/Script/FortniteAI"
+            },
+            "Parameters": [
+              {
+                "Token": "EX_Self"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 91,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AthenaAIServicePlayerBots'",
+                    "ObjectPath": "/Script/FortniteAI"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 120,
+        "CodeOffset": 251,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ComputeCosmeticVariantID[251]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 134,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_FetchNextCustomBotCosmeticVariantID_ReturnValue",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_Context",
+          "ObjectExpression": {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AthenaAIServicePlayerBots'",
+                  "ObjectPath": "/Script/FortniteAI"
+                }
+              }
+            }
+          },
+          "Offset": 11,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_FetchNextCustomBotCosmeticVariantID_ReturnValue",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Token": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'AthenaAIServicePlayerBots:FetchNextCustomBotCosmeticVariantID'",
+              "ObjectPath": "/Script/FortniteAI"
+            },
+            "Parameters": [
+              {
+                "Token": "EX_Self"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Token": "EX_FinalFunction",
+        "StatementIndex": 185,
+        "Function": {
+          "ObjectName": "Class'Actor:FlushNetDormancy'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": []
+      },
+      {
+        "Token": "EX_Let",
+        "StatementIndex": 195,
+        "Variable": {
+          "Token": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CosmeticVariantID",
+              "ElementSize": 4,
+              "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance"
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ComputeCosmeticVariantID'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.28"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_FetchNextCustomBotCosmeticVariantID_ReturnValue",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_CallMath",
+        "StatementIndex": 222,
+        "Function": {
+          "ObjectName": "Class'NetPushModelHelpers:MarkPropertyDirtyFromRepIndex'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Token": "EX_Self"
+          },
+          {
+            "Token": "EX_IntConst",
+            "Value": 208
+          },
+          {
+            "Token": "EX_NameConst",
+            "Value": "CosmeticVariantID"
+          }
+        ]
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 251,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 253
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "DisableOverrideAdjustedAimOffsets",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'FortPlayerAnimationInterface'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetValueAsBool_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 0,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetValueAsBool_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'FortScalableFloatUtils:GetValueAsBool'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "UseAdjustedAimOverride",
+                  "ElementSize": 56,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "Struct": {
+                    "ObjectName": "Class'ScalableFloat'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            },
+            {
+              "Token": "EX_FloatConst",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 34,
+        "CodeOffset": 163,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.DisableOverrideAdjustedAimOffsets[163]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetValueAsBool_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 48,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'FortPlayerAnimationInterface'",
+                "ObjectPath": "/Script/FortniteGame"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'FortPlayerPawn:GetAnimationInterface'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 68,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'FortPlayerAnimationInterface'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 97,
+        "CodeOffset": 163,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.DisableOverrideAdjustedAimOffsets[163]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 111,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'FortPlayerAnimationInterface'",
+                "ObjectPath": "/Script/FortniteGame"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'FortPlayerPawn:GetAnimationInterface'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Token": "EX_Context_FailSilent",
+        "StatementIndex": 131,
+        "ObjectExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:DisableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.29"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'FortPlayerAnimationInterface'",
+                "ObjectPath": "/Script/FortniteGame"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'FortPlayerAnimationInterface:ResetAdjustedAimOverride'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 163,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 165
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EnableOverrideAdjustedAimOffsets",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'FortPlayerAnimationInterface'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetValueAsBool_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 0,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetValueAsBool_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'FortScalableFloatUtils:GetValueAsBool'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "UseAdjustedAimOverride",
+                  "ElementSize": 56,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "Struct": {
+                    "ObjectName": "Class'ScalableFloat'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            },
+            {
+              "Token": "EX_FloatConst",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 34,
+        "CodeOffset": 172,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.EnableOverrideAdjustedAimOffsets[172]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetValueAsBool_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 48,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'FortPlayerAnimationInterface'",
+                "ObjectPath": "/Script/FortniteGame"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'FortPlayerPawn:GetAnimationInterface'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 68,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'FortPlayerAnimationInterface'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 97,
+        "CodeOffset": 172,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.EnableOverrideAdjustedAimOffsets[172]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 111,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'FortPlayerAnimationInterface'",
+                "ObjectPath": "/Script/FortniteGame"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'FortPlayerPawn:GetAnimationInterface'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Token": "EX_Context_FailSilent",
+        "StatementIndex": 131,
+        "ObjectExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:EnableOverrideAdjustedAimOffsets'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.30"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAnimationInterface_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'FortPlayerAnimationInterface'",
+                "ObjectPath": "/Script/FortniteGame"
+              }
+            }
+          }
+        },
+        "Offset": 19,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'FortPlayerAnimationInterface:SetAdjustedAimOverride'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "AdjustedAimOverride",
+                  "ElementSize": 640,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "Struct": {
+                    "ObjectName": "Class'FortAnimInput_AdjustedAim'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 172,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 174
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Pawn",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FortPlayerPawn'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Event_EndPlayReason",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EEndPlayReason'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "CodeOffsetExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LocalVirtualFunction",
+        "StatementIndex": 10,
+        "Function": "EnableOverrideAdjustedAimOffsets",
+        "Parameters": []
+      },
+      {
+        "Token": "EX_Jump",
+        "StatementIndex": 24,
+        "CodeOffset": 192,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[192]"
+      },
+      {
+        "Token": "EX_LocalFinalFunction",
+        "StatementIndex": 29,
+        "Function": {
+          "ObjectName": "Function'PlayerPawn_Athena_C:ReceiveBeginPlay'",
+          "ObjectPath": "/Game/Athena/PlayerPawn_Athena.137"
+        },
+        "Parameters": []
+      },
+      {
+        "Token": "EX_Jump",
+        "StatementIndex": 39,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[10]"
+      },
+      {
+        "Token": "EX_LocalFinalFunction",
+        "StatementIndex": 44,
+        "Function": {
+          "ObjectName": "Function'PlayerPawn_Athena_C:OnCharacterCustomizationCompleted'",
+          "ObjectPath": "/Game/Athena/PlayerPawn_Athena.91"
+        },
+        "Parameters": [
+          {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_Event_Pawn",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'FortPlayerPawn'",
+                  "ObjectPath": "/Script/FortniteGame"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 63,
+        "CodeOffset": 192,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[192]",
+        "BooleanExpression": {
+          "Token": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "bUseCosmeticVariants",
+              "ElementSize": 1,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 77,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAuthority_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'Actor:HasAuthority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 97,
+        "CodeOffset": 130,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[130]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAuthority_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LocalVirtualFunction",
+        "StatementIndex": 111,
+        "Function": "ComputeCosmeticVariantID",
+        "Parameters": []
+      },
+      {
+        "Token": "EX_Jump",
+        "StatementIndex": 125,
+        "CodeOffset": 192,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[192]"
+      },
+      {
+        "Token": "EX_LocalVirtualFunction",
+        "StatementIndex": 130,
+        "Function": "AssignCosmeticVariant",
+        "Parameters": []
+      },
+      {
+        "Token": "EX_Jump",
+        "StatementIndex": 144,
+        "CodeOffset": 192,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[192]"
+      },
+      {
+        "Token": "EX_LocalVirtualFunction",
+        "StatementIndex": 149,
+        "Function": "DisableOverrideAdjustedAimOffsets",
+        "Parameters": []
+      },
+      {
+        "Token": "EX_LocalFinalFunction",
+        "StatementIndex": 163,
+        "Function": {
+          "ObjectName": "Function'PlayerPawn_Athena_C:ReceiveEndPlay'",
+          "ObjectPath": "/Game/Athena/PlayerPawn_Athena.139"
+        },
+        "Parameters": [
+          {
+            "Token": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+                "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+              },
+              "Property": {
+                "Type": "ByteProperty",
+                "Name": "K2Node_Event_EndPlayReason",
+                "ElementSize": 1,
+                "Enum": {
+                  "ObjectName": "Class'EEndPlayReason'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Token": "EX_Jump",
+        "StatementIndex": 182,
+        "CodeOffset": 192,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[192]"
+      },
+      {
+        "Token": "EX_Jump",
+        "StatementIndex": 187,
+        "CodeOffset": 29,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[29]"
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 192,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 194
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCharacterCustomizationCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "Super": {
+      "ObjectName": "Function'PlayerPawn_Athena_C:OnCharacterCustomizationCompleted'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.91"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Pawn",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'FortPlayerPawn'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+          },
+          "Property": {
+            "Type": "ObjectProperty",
+            "Name": "K2Node_Event_Pawn",
+            "ElementSize": 8,
+            "PropertyClass": {
+              "ObjectName": "Class'FortPlayerPawn'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:OnCharacterCustomizationCompleted'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.32"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "Pawn",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "PropertyClass": {
+                "ObjectName": "Class'FortPlayerPawn'",
+                "ObjectPath": "/Script/FortniteGame"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+        },
+        "Parameters": [
+          {
+            "Token": "EX_IntConst",
+            "Value": 44
+          }
+        ],
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[44]"
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "Super": {
+      "ObjectName": "Function'PlayerPawn_Athena_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.137"
+    },
+    "ScriptBytecode": [
+      {
+        "Token": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+        },
+        "Parameters": [
+          {
+            "Token": "EX_IntConst",
+            "Value": 187
+          }
+        ],
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[187]"
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveEndPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "Super": {
+      "ObjectName": "Function'PlayerPawn_Athena_C:ReceiveEndPlay'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.139"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "EndPlayReason",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'EEndPlayReason'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+          },
+          "Property": {
+            "Type": "ByteProperty",
+            "Name": "K2Node_Event_EndPlayReason",
+            "ElementSize": 1,
+            "Enum": {
+              "ObjectName": "Class'EEndPlayReason'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ReceiveEndPlay'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.34"
+            },
+            "Property": {
+              "Type": "ByteProperty",
+              "Name": "EndPlayReason",
+              "ElementSize": 1,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "Enum": {
+                "ObjectName": "Class'EEndPlayReason'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'BP_PlayerPawn_Athena_Phoebe_C:ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.31"
+        },
+        "Parameters": [
+          {
+            "Token": "EX_IntConst",
+            "Value": 149
+          }
+        ],
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.ExecuteUbergraph_BP_PlayerPawn_Athena_Phoebe[149]"
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    }
+  },
+  {
+    "Type": "MusicClockComponent",
+    "Name": "EmoteMusicClockComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MusicClockComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "MusicClockComponent'Default__PlayerPawn_Athena_C:EmoteMusicClockComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.192"
+    }
+  },
+  {
+    "Type": "MusicTimerManager",
+    "Name": "MusicTimerManager_MusicClockComponent",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MusicTimerManager'",
+    "Outer": {
+      "ObjectName": "MusicClockComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:EmoteMusicClockComponent'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.36"
+    },
+    "Template": {
+      "ObjectName": "MusicTimerManager'Default__PlayerPawn_Athena_C:EmoteMusicClockComponent.MusicTimerManager_MusicClockComponent'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.193"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "HitDamageFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__PlayerPawn_Athena_C:HitDamageFX'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.194"
+    },
+    "Properties": {
+      "AutoAttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.4"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.4"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerInWaterFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__PlayerPawn_Athena_C:PlayerInWaterFX'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.195"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.4"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerInWaterSurfaceSwimmingFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__PlayerPawn_Athena_C:PlayerInWaterSurfaceSwimmingFX'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.196"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.4"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerRunLandFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__PlayerPawn_Athena_C:PlayerRunLandFX'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.197"
+    },
+    "Properties": {
+      "AutoAttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.24"
+      },
+      "AttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.24"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerSlideLandFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__PlayerPawn_Athena_C:PlayerSlideLandFX'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.198"
+    },
+    "Properties": {
+      "AutoAttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.24"
+      },
+      "AttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.24"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "PlayerWalkLandFX",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_PlayerPawn_Athena_Phoebe_C'Default__BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.3"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__PlayerPawn_Athena_C:PlayerWalkLandFX'",
+      "ObjectPath": "/Game/Athena/PlayerPawn_Athena.199"
+    },
+    "Properties": {
+      "AutoAttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.24"
+      },
+      "AttachParent": {
+        "ObjectName": "FortPooledSkelMeshComponent'Default__BP_PlayerPawn_Athena_Phoebe_C:CharacterMesh0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.24"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PlayerPawn_Athena_Phoebe_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PlayerPawn_Athena_Phoebe_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.44"
+      },
+      "VariableGuid": "DBD5CDAD-4A9DEFAA-8AADADA4-954C1599",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PlayerPawn_Athena_Phoebe_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FortAthenaPawnComponent_AIJump'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FortAthenaPawnComponent_AIJump'BP_PlayerPawn_Athena_Phoebe_C:FortAthenaPawnComponent_AIJump_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.9"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "UpAction",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'FortAthenaPawnComponent_AIJump'",
+              "ObjectPath": "/Script/FortniteAI"
+            }
+          },
+          {
+            "PropertyName": "DownAction",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'FortAthenaPawnComponent_AIJump'",
+              "ObjectPath": "/Script/FortniteAI"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGuid": "4F709264-4E82F3CB-EFD69887-A9769B20",
+      "InternalVariableName": "FortAthenaPawnComponent_AIJump"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PlayerPawn_Athena_Phoebe_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.46"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PlayerPawn_Athena_Phoebe_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.46"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PlayerPawn_Athena_Phoebe_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.45"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PlayerPawn_Athena_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PlayerPawn_Athena_Phoebe.2"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            },
+            {
+              "Key": "HideCategories",
+              "Value": "AI Movement AI Movement Actor Movement Game|Damage Navigation"
+            }
+          ]
+        },
+        "PropertiesMetaData": [
+          {
+            "Key": "FortAthenaPawnComponent_AIJump",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "Category",
+                  "Value": "Default"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "AIEvaluator_CharacterLaunchedKeyName",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "DisplayName",
+                  "Value": "AIEvaluator Character Launched Key Name"
+                },
+                {
+                  "Key": "Category",
+                  "Value": "Default"
+                },
+                {
+                  "Key": "MultiLine",
+                  "Value": "true"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "bUseCosmeticVariants",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "DisplayName",
+                  "Value": "Use Cosmetic Variants"
+                },
+                {
+                  "Key": "Category",
+                  "Value": "Cosmetics"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "CosmeticVariantID",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "DisplayName",
+                  "Value": "Cosmetic Variant ID"
+                },
+                {
+                  "Key": "Category",
+                  "Value": "Cosmetics"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "AdjustedAimOverride",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "DisplayName",
+                  "Value": "Adjusted Aim Override"
+                },
+                {
+                  "Key": "Category",
+                  "Value": "Animation"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          },
+          {
+            "Key": "UseAdjustedAimOverride",
+            "Value": {
+              "FieldMetaData": [
+                {
+                  "Key": "DisplayName",
+                  "Value": "Use Adjusted Aim Override"
+                },
+                {
+                  "Key": "Category",
+                  "Value": "Animation"
+                }
+              ],
+              "SubFieldMetaData": []
+            }
+          }
+        ]
+      },
+      "FunctionsMetaData": [
+        {
+          "Key": "DisableOverrideAdjustedAimOffsets",
+          "Value": {
+            "ObjectMetaData": {
+              "ObjectMetaData": []
+            },
+            "PropertiesMetaData": [
+              {
+                "Key": "CallFunc_GetAnimationInterface_ReturnValue",
+                "Value": {
+                  "FieldMetaData": [
+                    {
+                      "Key": "EditInline",
+                      "Value": "true"
+                    }
+                  ],
+                  "SubFieldMetaData": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EnableOverrideAdjustedAimOffsets",
+          "Value": {
+            "ObjectMetaData": {
+              "ObjectMetaData": []
+            },
+            "PropertiesMetaData": [
+              {
+                "Key": "CallFunc_GetAnimationInterface_ReturnValue",
+                "Value": {
+                  "FieldMetaData": [
+                    {
+                      "Key": "EditInline",
+                      "Value": "true"
+                    }
+                  ],
+                  "SubFieldMetaData": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "ReceiveBeginPlay",
+          "Value": {
+            "ObjectMetaData": {
+              "ObjectMetaData": [
+                {
+                  "Key": "Comment",
+                  "Value": "/** Event when play begins for this actor. */"
+                },
+                {
+                  "Key": "DisplayName",
+                  "Value": "BeginPlay"
+                },
+                {
+                  "Key": "ModuleRelativePath",
+                  "Value": "Classes/GameFramework/Actor.h"
+                },
+                {
+                  "Key": "ToolTip",
+                  "Value": "Event when play begins for this actor."
+                }
+              ]
+            },
+            "PropertiesMetaData": []
+          }
+        },
+        {
+          "Key": "ReceiveEndPlay",
+          "Value": {
+            "ObjectMetaData": {
+              "ObjectMetaData": [
+                {
+                  "Key": "Comment",
+                  "Value": "/** Event to notify blueprints this actor is being deleted or removed from a level. */"
+                },
+                {
+                  "Key": "DisplayName",
+                  "Value": "End Play"
+                },
+                {
+                  "Key": "Keywords",
+                  "Value": "delete"
+                },
+                {
+                  "Key": "ModuleRelativePath",
+                  "Value": "Classes/GameFramework/Actor.h"
+                },
+                {
+                  "Key": "ToolTip",
+                  "Value": "Event to notify blueprints this actor is being deleted or removed from a level."
+                }
+              ]
+            },
+            "PropertiesMetaData": []
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,4166 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_Cosmetic_Emotes_Promoted",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/Promoted/Phoebe_Cosmetic_Emotes_Promoted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotCosmeticItemDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "0": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dancemoves"
+        },
+        "Weight": 100.0
+      },
+      "1": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_lifted"
+        },
+        "Weight": 100.0
+      },
+      "2": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_doodling"
+        },
+        "Weight": 100.0
+      },
+      "3": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_chuckle"
+        },
+        "Weight": 100.0
+      },
+      "4": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_youthere"
+        },
+        "Weight": 100.0
+      },
+      "5": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_boogiedown"
+        },
+        "Weight": 100.0
+      },
+      "6": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_epicyarn"
+        },
+        "Weight": 100.0
+      },
+      "7": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_lonewolf"
+        },
+        "Weight": 100.0
+      },
+      "8": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_twistwasp_t2i4j"
+        },
+        "Weight": 100.0
+      },
+      "9": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_twistdaytona"
+        },
+        "Weight": 100.0
+      },
+      "10": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ruckus"
+        },
+        "Weight": 100.0
+      },
+      "11": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_patpat"
+        },
+        "Weight": 100.0
+      },
+      "12": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_custodial"
+        },
+        "Weight": 100.0
+      },
+      "13": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_twisteternity"
+        },
+        "Weight": 100.0
+      },
+      "14": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_quantity_39x5d"
+        },
+        "Weight": 100.0
+      },
+      "15": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_justhome"
+        },
+        "Weight": 100.0
+      },
+      "16": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_chairtime"
+        },
+        "Weight": 100.0
+      },
+      "17": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_artgiant"
+        },
+        "Weight": 100.0
+      },
+      "18": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_division"
+        },
+        "Weight": 100.0
+      },
+      "19": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_griddles"
+        },
+        "Weight": 100.0
+      },
+      "20": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_truelove"
+        },
+        "Weight": 100.0
+      },
+      "21": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_socks_xa9hm"
+        },
+        "Weight": 100.0
+      },
+      "22": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_superherobackflip"
+        },
+        "Weight": 100.0
+      },
+      "23": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tonal_51qi9"
+        },
+        "Weight": 100.0
+      },
+      "24": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_psychic_7so2z"
+        },
+        "Weight": 100.0
+      },
+      "25": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_billybounce"
+        },
+        "Weight": 100.0
+      },
+      "26": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_goodvibes"
+        },
+        "Weight": 100.0
+      },
+      "27": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hotpink"
+        },
+        "Weight": 100.0
+      },
+      "28": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_gasstation_104fq"
+        },
+        "Weight": 100.0
+      },
+      "29": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_nevergonna"
+        },
+        "Weight": 100.0
+      },
+      "30": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_julybooks"
+        },
+        "Weight": 100.0
+      },
+      "31": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_noodles_x6r9e"
+        },
+        "Weight": 100.0
+      },
+      "32": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_squishydance"
+        },
+        "Weight": 100.0
+      },
+      "33": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_boomer_n2rqt"
+        },
+        "Weight": 100.0
+      },
+      "34": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_januarybop"
+        },
+        "Weight": 100.0
+      },
+      "35": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cashier_hgq8x"
+        },
+        "Weight": 100.0
+      },
+      "36": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_feral"
+        },
+        "Weight": 100.0
+      },
+      "37": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_letsbegin"
+        },
+        "Weight": 100.0
+      },
+      "38": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_punkkoi"
+        },
+        "Weight": 100.0
+      },
+      "39": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_terminal"
+        },
+        "Weight": 100.0
+      },
+      "40": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_magicman"
+        },
+        "Weight": 100.0
+      },
+      "41": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_zest_q1k5v"
+        },
+        "Weight": 100.0
+      },
+      "42": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_electroswing"
+        },
+        "Weight": 100.0
+      },
+      "43": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bythefire"
+        },
+        "Weight": 100.0
+      },
+      "44": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jumpstyledance"
+        },
+        "Weight": 100.0
+      },
+      "45": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_comrade_6o5ak"
+        },
+        "Weight": 100.0
+      },
+      "46": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_amazingforever_q68w0"
+        },
+        "Weight": 100.0
+      },
+      "47": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_keeperdreamchorus"
+        },
+        "Weight": 100.0
+      },
+      "48": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_celebration"
+        },
+        "Weight": 100.0
+      },
+      "49": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tourbus"
+        },
+        "Weight": 100.0
+      },
+      "50": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_keeperdreamhook"
+        },
+        "Weight": 98.0
+      },
+      "51": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_highactivity"
+        },
+        "Weight": 98.0
+      },
+      "52": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_martian_sk4j6"
+        },
+        "Weight": 94.0
+      },
+      "53": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sleek_s20cu"
+        },
+        "Weight": 92.0
+      },
+      "54": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_macaroon_45lhe"
+        },
+        "Weight": 91.0
+      },
+      "55": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_callme"
+        },
+        "Weight": 90.0
+      },
+      "56": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_saucer"
+        },
+        "Weight": 89.0
+      },
+      "57": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_donut1"
+        },
+        "Weight": 88.0
+      },
+      "58": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_believer"
+        },
+        "Weight": 87.0
+      },
+      "59": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bluephoto_jsg4d"
+        },
+        "Weight": 87.0
+      },
+      "60": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_stringdance"
+        },
+        "Weight": 87.0
+      },
+      "61": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tpose"
+        },
+        "Weight": 87.0
+      },
+      "62": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_indigoapple"
+        },
+        "Weight": 85.0
+      },
+      "63": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_twistfire_i2vta"
+        },
+        "Weight": 84.0
+      },
+      "64": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_celebrationdance"
+        },
+        "Weight": 84.0
+      },
+      "65": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_temple"
+        },
+        "Weight": 84.0
+      },
+      "66": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bicycle"
+        },
+        "Weight": 80.0
+      },
+      "67": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_vivid_i434x"
+        },
+        "Weight": 80.0
+      },
+      "68": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_uproar_496sc"
+        },
+        "Weight": 76.0
+      },
+      "69": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_buffetmoment_lczqs"
+        },
+        "Weight": 76.0
+      },
+      "70": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_duckteacher_9iplu"
+        },
+        "Weight": 75.0
+      },
+      "71": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cyclone"
+        },
+        "Weight": 74.0
+      },
+      "72": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kpopdance01"
+        },
+        "Weight": 74.0
+      },
+      "73": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_foe_4ewjv"
+        },
+        "Weight": 74.0
+      },
+      "74": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_respectthepeace"
+        },
+        "Weight": 73.0
+      },
+      "75": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jumpingjoy_wkpg4"
+        },
+        "Weight": 73.0
+      },
+      "76": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_logarithmwhoa_t3pf9"
+        },
+        "Weight": 69.0
+      },
+      "77": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_electroshuffle"
+        },
+        "Weight": 68.0
+      },
+      "78": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bouquet"
+        },
+        "Weight": 67.0
+      },
+      "79": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_lounging"
+        },
+        "Weight": 66.0
+      },
+      "80": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_pizzatime"
+        },
+        "Weight": 65.0
+      },
+      "81": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sandwichbop"
+        },
+        "Weight": 65.0
+      },
+      "82": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_autumntea"
+        },
+        "Weight": 65.0
+      },
+      "83": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wiggle"
+        },
+        "Weight": 65.0
+      },
+      "84": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bollywood"
+        },
+        "Weight": 64.0
+      },
+      "85": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kpopdance02"
+        },
+        "Weight": 64.0
+      },
+      "86": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_chickenleg_tdj0o"
+        },
+        "Weight": 62.0
+      },
+      "87": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ridethepony_athena"
+        },
+        "Weight": 62.0
+      },
+      "88": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_roving"
+        },
+        "Weight": 62.0
+      },
+      "89": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_doublesnap"
+        },
+        "Weight": 61.0
+      },
+      "90": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wrongway_m47al"
+        },
+        "Weight": 58.0
+      },
+      "91": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_singalong"
+        },
+        "Weight": 58.0
+      },
+      "92": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bendy"
+        },
+        "Weight": 58.0
+      },
+      "93": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_boombox"
+        },
+        "Weight": 57.0
+      },
+      "94": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hifive"
+        },
+        "Weight": 56.0
+      },
+      "95": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_mashedpotato"
+        },
+        "Weight": 55.0
+      },
+      "96": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_skeemote_k5j4j"
+        },
+        "Weight": 52.0
+      },
+      "97": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_paws"
+        },
+        "Weight": 51.0
+      },
+      "98": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hype"
+        },
+        "Weight": 51.0
+      },
+      "99": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_saxophone"
+        },
+        "Weight": 51.0
+      },
+      "100": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_spectrum"
+        },
+        "Weight": 50.0
+      },
+      "101": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_slither_daxd6"
+        },
+        "Weight": 50.0
+      },
+      "102": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sexyflip"
+        },
+        "Weight": 50.0
+      },
+      "103": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bootsandcats"
+        },
+        "Weight": 50.0
+      },
+      "104": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_stepbreakdance"
+        },
+        "Weight": 48.0
+      },
+      "105": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_logarithmkick_njvd8"
+        },
+        "Weight": 48.0
+      },
+      "106": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shaolin"
+        },
+        "Weight": 47.0
+      },
+      "107": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_windmillfloss"
+        },
+        "Weight": 47.0
+      },
+      "108": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_floss"
+        },
+        "Weight": 46.0
+      },
+      "109": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_raisetheroof"
+        },
+        "Weight": 46.0
+      },
+      "110": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_handsup"
+        },
+        "Weight": 45.0
+      },
+      "111": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_lockitup"
+        },
+        "Weight": 45.0
+      },
+      "112": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_grilledcheese_n31c9"
+        },
+        "Weight": 44.0
+      },
+      "113": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_moderateamount_9lun1"
+        },
+        "Weight": 44.0
+      },
+      "114": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_headband"
+        },
+        "Weight": 44.0
+      },
+      "115": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hoppin"
+        },
+        "Weight": 43.0
+      },
+      "116": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_deepdab"
+        },
+        "Weight": 42.0
+      },
+      "117": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_groovejam"
+        },
+        "Weight": 42.0
+      },
+      "118": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_galileo1_b3ex6"
+        },
+        "Weight": 41.0
+      },
+      "119": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_watchthis"
+        },
+        "Weight": 41.0
+      },
+      "120": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_happywave"
+        },
+        "Weight": 41.0
+      },
+      "121": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_infinitedab"
+        },
+        "Weight": 40.0
+      },
+      "122": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_twist"
+        },
+        "Weight": 40.0
+      },
+      "123": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_lasagnadance"
+        },
+        "Weight": 40.0
+      },
+      "124": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bestmates"
+        },
+        "Weight": 40.0
+      },
+      "125": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_crazydance"
+        },
+        "Weight": 39.0
+      },
+      "126": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dontsneeze"
+        },
+        "Weight": 39.0
+      },
+      "127": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jupiter_7jz9r"
+        },
+        "Weight": 38.0
+      },
+      "128": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_obsidian"
+        },
+        "Weight": 38.0
+      },
+      "129": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_suits"
+        },
+        "Weight": 38.0
+      },
+      "130": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_discofever"
+        },
+        "Weight": 38.0
+      },
+      "131": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_engagedwalk"
+        },
+        "Weight": 37.0
+      },
+      "132": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kisskiss"
+        },
+        "Weight": 37.0
+      },
+      "133": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_gothdance"
+        },
+        "Weight": 36.0
+      },
+      "134": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_stagebow"
+        },
+        "Weight": 36.0
+      },
+      "135": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shorts"
+        },
+        "Weight": 35.0
+      },
+      "136": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_secretsplit_7fogy"
+        },
+        "Weight": 35.0
+      },
+      "137": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_deflated_6poaz"
+        },
+        "Weight": 35.0
+      },
+      "138": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_happybirthday"
+        },
+        "Weight": 35.0
+      },
+      "139": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_robot"
+        },
+        "Weight": 34.0
+      },
+      "140": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kpopdance04"
+        },
+        "Weight": 34.0
+      },
+      "141": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wir"
+        },
+        "Weight": 33.0
+      },
+      "142": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_airguitar"
+        },
+        "Weight": 33.0
+      },
+      "143": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_secretslash_ujt33"
+        },
+        "Weight": 33.0
+      },
+      "144": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_onearmfloss"
+        },
+        "Weight": 32.0
+      },
+      "145": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_snap"
+        },
+        "Weight": 32.0
+      },
+      "146": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_swipeit"
+        },
+        "Weight": 32.0
+      },
+      "147": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_snowglobe"
+        },
+        "Weight": 31.0
+      },
+      "148": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shadowboxing"
+        },
+        "Weight": 31.0
+      },
+      "149": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dreamfeet"
+        },
+        "Weight": 31.0
+      },
+      "150": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_crabdance"
+        },
+        "Weight": 31.0
+      },
+      "151": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_pump"
+        },
+        "Weight": 30.0
+      },
+      "152": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_acrobaticsuperhero"
+        },
+        "Weight": 30.0
+      },
+      "153": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_speedrun"
+        },
+        "Weight": 30.0
+      },
+      "154": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_haste1_t98z9"
+        },
+        "Weight": 30.0
+      },
+      "155": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dontbesquare"
+        },
+        "Weight": 29.0
+      },
+      "156": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_rustybolt_zmr13"
+        },
+        "Weight": 29.0
+      },
+      "157": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_soccerjuggling"
+        },
+        "Weight": 29.0
+      },
+      "158": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wave"
+        },
+        "Weight": 29.0
+      },
+      "159": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_makeitrain"
+        },
+        "Weight": 28.0
+      },
+      "160": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_easternbloc"
+        },
+        "Weight": 28.0
+      },
+      "161": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_rockpaperscissors"
+        },
+        "Weight": 28.0
+      },
+      "162": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hiphops7"
+        },
+        "Weight": 28.0
+      },
+      "163": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_majesty_49jwy"
+        },
+        "Weight": 28.0
+      },
+      "164": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_chashu"
+        },
+        "Weight": 28.0
+      },
+      "165": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cycloneheadbang"
+        },
+        "Weight": 27.0
+      },
+      "166": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_runningman"
+        },
+        "Weight": 27.0
+      },
+      "167": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_skeletondance"
+        },
+        "Weight": 27.0
+      },
+      "168": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_conga"
+        },
+        "Weight": 27.0
+      },
+      "169": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dab"
+        },
+        "Weight": 27.0
+      },
+      "170": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_montekeyboard"
+        },
+        "Weight": 27.0
+      },
+      "171": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_fingergunsv2"
+        },
+        "Weight": 26.0
+      },
+      "172": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_builders"
+        },
+        "Weight": 26.0
+      },
+      "173": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_pogotraversal"
+        },
+        "Weight": 26.0
+      },
+      "174": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_truckerhorn"
+        },
+        "Weight": 26.0
+      },
+      "175": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_zombie"
+        },
+        "Weight": 26.0
+      },
+      "176": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kpopdance03"
+        },
+        "Weight": 25.0
+      },
+      "177": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_lunchbox"
+        },
+        "Weight": 25.0
+      },
+      "178": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jaywalking"
+        },
+        "Weight": 25.0
+      },
+      "179": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_playereleven"
+        },
+        "Weight": 25.0
+      },
+      "180": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_fresh"
+        },
+        "Weight": 25.0
+      },
+      "181": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_climbthestaff"
+        },
+        "Weight": 24.0
+      },
+      "182": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shaolinsipup"
+        },
+        "Weight": 24.0
+      },
+      "183": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_downward_8gzua"
+        },
+        "Weight": 24.0
+      },
+      "184": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tar_s9yve"
+        },
+        "Weight": 24.0
+      },
+      "185": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_worm"
+        },
+        "Weight": 24.0
+      },
+      "186": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_salute"
+        },
+        "Weight": 24.0
+      },
+      "187": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hackysack"
+        },
+        "Weight": 24.0
+      },
+      "188": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dj01"
+        },
+        "Weight": 24.0
+      },
+      "189": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shinobi"
+        },
+        "Weight": 23.0
+      },
+      "190": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_vikinghorn"
+        },
+        "Weight": 23.0
+      },
+      "191": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_squishymedley"
+        },
+        "Weight": 23.0
+      },
+      "192": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_springrider"
+        },
+        "Weight": 23.0
+      },
+      "193": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wristflick"
+        },
+        "Weight": 23.0
+      },
+      "194": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cooloff"
+        },
+        "Weight": 23.0
+      },
+      "195": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_eerie_8wgyk"
+        },
+        "Weight": 23.0
+      },
+      "196": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_secrethandshake"
+        },
+        "Weight": 22.0
+      },
+      "197": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_yayexcited"
+        },
+        "Weight": 22.0
+      },
+      "198": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bottlecapchallenge"
+        },
+        "Weight": 22.0
+      },
+      "199": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hiphops5"
+        },
+        "Weight": 22.0
+      },
+      "200": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_llamabell"
+        },
+        "Weight": 22.0
+      },
+      "201": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_keagle"
+        },
+        "Weight": 21.0
+      },
+      "202": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_happyskipping"
+        },
+        "Weight": 21.0
+      },
+      "203": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_partyjazztwinkletoes"
+        },
+        "Weight": 21.0
+      },
+      "204": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shallwe"
+        },
+        "Weight": 21.0
+      },
+      "205": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_chugga"
+        },
+        "Weight": 21.0
+      },
+      "206": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jellyfrog"
+        },
+        "Weight": 21.0
+      },
+      "207": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ruckusmini_hw9yf"
+        },
+        "Weight": 20.0
+      },
+      "208": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_livinglarge"
+        },
+        "Weight": 20.0
+      },
+      "209": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kungfushadowboxing"
+        },
+        "Weight": 20.0
+      },
+      "210": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kilo_vd0pk"
+        },
+        "Weight": 20.0
+      },
+      "211": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_fingerguns"
+        },
+        "Weight": 20.0
+      },
+      "212": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dabounce"
+        },
+        "Weight": 20.0
+      },
+      "213": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_popcorn"
+        },
+        "Weight": 19.0
+      },
+      "214": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tidy"
+        },
+        "Weight": 19.0
+      },
+      "215": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bangthepan"
+        },
+        "Weight": 19.0
+      },
+      "216": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_layers_bbz49"
+        },
+        "Weight": 19.0
+      },
+      "217": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wolfhowl"
+        },
+        "Weight": 19.0
+      },
+      "218": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_zippy"
+        },
+        "Weight": 19.0
+      },
+      "219": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_breakdance"
+        },
+        "Weight": 19.0
+      },
+      "220": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ancientgladiator"
+        },
+        "Weight": 19.0
+      },
+      "221": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_crackshotdance"
+        },
+        "Weight": 18.0
+      },
+      "222": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ashtonboardwalk"
+        },
+        "Weight": 18.0
+      },
+      "223": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_regalwave"
+        },
+        "Weight": 18.0
+      },
+      "224": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_breakdance2"
+        },
+        "Weight": 18.0
+      },
+      "225": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_theshow"
+        },
+        "Weight": 18.0
+      },
+      "226": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_armwave"
+        },
+        "Weight": 18.0
+      },
+      "227": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_boneless"
+        },
+        "Weight": 18.0
+      },
+      "228": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_presentopening"
+        },
+        "Weight": 17.0
+      },
+      "229": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_popdance01"
+        },
+        "Weight": 17.0
+      },
+      "230": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_youreawesome"
+        },
+        "Weight": 17.0
+      },
+      "231": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_walkiewalk"
+        },
+        "Weight": 17.0
+      },
+      "232": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hotstuff"
+        },
+        "Weight": 17.0
+      },
+      "233": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ashtonsaltlake"
+        },
+        "Weight": 17.0
+      },
+      "234": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_gabbyhiphop_01"
+        },
+        "Weight": 17.0
+      },
+      "235": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ridetheponytwo"
+        },
+        "Weight": 17.0
+      },
+      "236": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shindig_8w1aw"
+        },
+        "Weight": 17.0
+      },
+      "237": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_rockguitar"
+        },
+        "Weight": 16.0
+      },
+      "238": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_llamafloat"
+        },
+        "Weight": 16.0
+      },
+      "239": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cowboydance"
+        },
+        "Weight": 16.0
+      },
+      "240": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_alien"
+        },
+        "Weight": 16.0
+      },
+      "241": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_chickenmoves"
+        },
+        "Weight": 16.0
+      },
+      "242": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_swingdance"
+        },
+        "Weight": 16.0
+      },
+      "243": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_myeffort_bt5z0"
+        },
+        "Weight": 15.0
+      },
+      "244": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_indiandance"
+        },
+        "Weight": 15.0
+      },
+      "245": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_lookatthis"
+        },
+        "Weight": 15.0
+      },
+      "246": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_octopus"
+        },
+        "Weight": 15.0
+      },
+      "247": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_blaster"
+        },
+        "Weight": 15.0
+      },
+      "248": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hydraulics"
+        },
+        "Weight": 14.0
+      },
+      "249": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_backspin_r3nai"
+        },
+        "Weight": 14.0
+      },
+      "250": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bigfootwalk"
+        },
+        "Weight": 14.0
+      },
+      "251": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_warehouse"
+        },
+        "Weight": 14.0
+      },
+      "252": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hiphop01"
+        },
+        "Weight": 14.0
+      },
+      "253": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hulahoop"
+        },
+        "Weight": 13.0
+      },
+      "254": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hilowwave"
+        },
+        "Weight": 13.0
+      },
+      "255": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_letsplay"
+        },
+        "Weight": 13.0
+      },
+      "256": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jingle"
+        },
+        "Weight": 13.0
+      },
+      "257": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_banana"
+        },
+        "Weight": 13.0
+      },
+      "258": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cointoss"
+        },
+        "Weight": 13.0
+      },
+      "259": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kittycat"
+        },
+        "Weight": 13.0
+      },
+      "260": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_poplock"
+        },
+        "Weight": 13.0
+      },
+      "261": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hopper"
+        },
+        "Weight": 13.0
+      },
+      "262": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_treadmilldance"
+        },
+        "Weight": 13.0
+      },
+      "263": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_teamrobot"
+        },
+        "Weight": 13.0
+      },
+      "264": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_flamenco"
+        },
+        "Weight": 13.0
+      },
+      "265": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_balletspin"
+        },
+        "Weight": 13.0
+      },
+      "266": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_securityguard"
+        },
+        "Weight": 13.0
+      },
+      "267": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_getfunky"
+        },
+        "Weight": 13.0
+      },
+      "268": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_myidol"
+        },
+        "Weight": 13.0
+      },
+      "269": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_mindblown"
+        },
+        "Weight": 12.0
+      },
+      "270": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_idontknow"
+        },
+        "Weight": 12.0
+      },
+      "271": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_flapper"
+        },
+        "Weight": 12.0
+      },
+      "272": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_badmood"
+        },
+        "Weight": 12.0
+      },
+      "273": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bellringer"
+        },
+        "Weight": 12.0
+      },
+      "274": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_basketballdribble_e6ojv"
+        },
+        "Weight": 12.0
+      },
+      "275": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_roastingmarshmallow"
+        },
+        "Weight": 12.0
+      },
+      "276": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_strawberrypilotkpop"
+        },
+        "Weight": 12.0
+      },
+      "277": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_survivorsault_nj7wc"
+        },
+        "Weight": 12.0
+      },
+      "278": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_loofah"
+        },
+        "Weight": 11.0
+      },
+      "279": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_donut2"
+        },
+        "Weight": 11.0
+      },
+      "280": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_guitarwalk"
+        },
+        "Weight": 11.0
+      },
+      "281": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_rhymelock_5b2y3"
+        },
+        "Weight": 11.0
+      },
+      "282": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jazzdance"
+        },
+        "Weight": 11.0
+      },
+      "283": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_candydance"
+        },
+        "Weight": 11.0
+      },
+      "284": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_puzzlebox"
+        },
+        "Weight": 11.0
+      },
+      "285": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tempertantrum"
+        },
+        "Weight": 11.0
+      },
+      "286": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_frisbeeshow"
+        },
+        "Weight": 11.0
+      },
+      "287": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_showstopper"
+        },
+        "Weight": 11.0
+      },
+      "288": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_breakboy"
+        },
+        "Weight": 11.0
+      },
+      "289": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_goatdance"
+        },
+        "Weight": 10.0
+      },
+      "290": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_aerobics"
+        },
+        "Weight": 10.0
+      },
+      "291": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_yeet"
+        },
+        "Weight": 10.0
+      },
+      "292": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_og_runningman"
+        },
+        "Weight": 10.0
+      },
+      "293": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_holidaycracker"
+        },
+        "Weight": 10.0
+      },
+      "294": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hulahoopchallenge"
+        },
+        "Weight": 10.0
+      },
+      "295": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_swimdance"
+        },
+        "Weight": 10.0
+      },
+      "296": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_blackmondaymale2"
+        },
+        "Weight": 10.0
+      },
+      "297": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_handsignals"
+        },
+        "Weight": 10.0
+      },
+      "298": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_martialarts"
+        },
+        "Weight": 10.0
+      },
+      "299": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_penguinwalk"
+        },
+        "Weight": 10.0
+      },
+      "300": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_gwaradance"
+        },
+        "Weight": 10.0
+      },
+      "301": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wavedance"
+        },
+        "Weight": 9.0
+      },
+      "302": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_scorecardburger"
+        },
+        "Weight": 9.0
+      },
+      "303": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_annual"
+        },
+        "Weight": 9.0
+      },
+      "304": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_fireworks_wkx2w"
+        },
+        "Weight": 9.0
+      },
+      "305": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_basketball"
+        },
+        "Weight": 9.0
+      },
+      "306": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_needtogo"
+        },
+        "Weight": 9.0
+      },
+      "307": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_firedance"
+        },
+        "Weight": 9.0
+      },
+      "308": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_rocketrodeo"
+        },
+        "Weight": 9.0
+      },
+      "309": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jazzhands"
+        },
+        "Weight": 9.0
+      },
+      "310": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kitchennavigator"
+        },
+        "Weight": 8.0
+      },
+      "311": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_blackmondayfemale_6ho4l"
+        },
+        "Weight": 8.0
+      },
+      "312": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_burpee"
+        },
+        "Weight": 8.0
+      },
+      "313": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_crazyfeet"
+        },
+        "Weight": 8.0
+      },
+      "314": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_intensity"
+        },
+        "Weight": 8.0
+      },
+      "315": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ukuleletime"
+        },
+        "Weight": 8.0
+      },
+      "316": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_taichi"
+        },
+        "Weight": 8.0
+      },
+      "317": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_blackmondaymale_e0vsb"
+        },
+        "Weight": 8.0
+      },
+      "318": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_rockingchair"
+        },
+        "Weight": 7.0
+      },
+      "319": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_relaxed"
+        },
+        "Weight": 7.0
+      },
+      "320": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_teammonster"
+        },
+        "Weight": 7.0
+      },
+      "321": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_glowstickdance"
+        },
+        "Weight": 7.0
+      },
+      "322": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shortscare"
+        },
+        "Weight": 7.0
+      },
+      "323": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_crisscross"
+        },
+        "Weight": 7.0
+      },
+      "324": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_chopsticks"
+        },
+        "Weight": 7.0
+      },
+      "325": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jammin"
+        },
+        "Weight": 7.0
+      },
+      "326": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_electroshuffle_v2"
+        },
+        "Weight": 7.0
+      },
+      "327": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_mathdance"
+        },
+        "Weight": 7.0
+      },
+      "328": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ashes_myq8o"
+        },
+        "Weight": 7.0
+      },
+      "329": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_textile_3o8qg"
+        },
+        "Weight": 7.0
+      },
+      "330": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sneakingtraversal"
+        },
+        "Weight": 7.0
+      },
+      "331": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_darkfirelegends"
+        },
+        "Weight": 7.0
+      },
+      "332": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_richfam"
+        },
+        "Weight": 7.0
+      },
+      "333": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kingeagle"
+        },
+        "Weight": 7.0
+      },
+      "334": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_roostermech"
+        },
+        "Weight": 7.0
+      },
+      "335": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_makeitplantain"
+        },
+        "Weight": 7.0
+      },
+      "336": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_getthehorns"
+        },
+        "Weight": 6.0
+      },
+      "337": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_alchemy_bzws8"
+        },
+        "Weight": 6.0
+      },
+      "338": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_armupdance"
+        },
+        "Weight": 6.0
+      },
+      "339": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_galileo2_2vyej"
+        },
+        "Weight": 6.0
+      },
+      "340": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_breakfastcoffeedance"
+        },
+        "Weight": 6.0
+      },
+      "341": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tinytremors"
+        },
+        "Weight": 6.0
+      },
+      "342": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_phew"
+        },
+        "Weight": 6.0
+      },
+      "343": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dumbbell_lift"
+        },
+        "Weight": 6.0
+      },
+      "344": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_timetravelbackflip"
+        },
+        "Weight": 6.0
+      },
+      "345": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_assassinvest"
+        },
+        "Weight": 6.0
+      },
+      "346": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_handstandlegdab"
+        },
+        "Weight": 6.0
+      },
+      "347": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_overunder_k3t0g"
+        },
+        "Weight": 6.0
+      },
+      "348": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_heelclick"
+        },
+        "Weight": 6.0
+      },
+      "349": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sillyjumps"
+        },
+        "Weight": 6.0
+      },
+      "350": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_mime"
+        },
+        "Weight": 6.0
+      },
+      "351": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_grooving"
+        },
+        "Weight": 6.0
+      },
+      "352": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_keplerfemale_c98jd"
+        },
+        "Weight": 5.0
+      },
+      "353": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_timeout"
+        },
+        "Weight": 5.0
+      },
+      "354": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dustinghands"
+        },
+        "Weight": 5.0
+      },
+      "355": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_moonwalking"
+        },
+        "Weight": 5.0
+      },
+      "356": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cheerleading"
+        },
+        "Weight": 5.0
+      },
+      "357": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_fancyfeet"
+        },
+        "Weight": 5.0
+      },
+      "358": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_praisethetomato"
+        },
+        "Weight": 5.0
+      },
+      "359": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_burgerflipping"
+        },
+        "Weight": 5.0
+      },
+      "360": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hiptobesquare"
+        },
+        "Weight": 5.0
+      },
+      "361": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jokes"
+        },
+        "Weight": 5.0
+      },
+      "362": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_football20flag_c3qee"
+        },
+        "Weight": 5.0
+      },
+      "363": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_kungfusalute"
+        },
+        "Weight": 5.0
+      },
+      "364": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_office"
+        },
+        "Weight": 5.0
+      },
+      "365": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_scorecardtomato"
+        },
+        "Weight": 5.0
+      },
+      "366": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_typhoon_vo9of"
+        },
+        "Weight": 5.0
+      },
+      "367": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_lazyshuffle"
+        },
+        "Weight": 5.0
+      },
+      "368": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_getoverhere"
+        },
+        "Weight": 5.0
+      },
+      "369": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_pumpkindance"
+        },
+        "Weight": 5.0
+      },
+      "370": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_fireworksspin"
+        },
+        "Weight": 5.0
+      },
+      "371": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_footballtd_u2hzi"
+        },
+        "Weight": 5.0
+      },
+      "372": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_irishjig"
+        },
+        "Weight": 4.0
+      },
+      "373": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_linedance"
+        },
+        "Weight": 4.0
+      },
+      "374": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hailingcab"
+        },
+        "Weight": 4.0
+      },
+      "375": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_caller"
+        },
+        "Weight": 4.0
+      },
+      "376": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hilda"
+        },
+        "Weight": 4.0
+      },
+      "377": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_firecrackersparks"
+        },
+        "Weight": 4.0
+      },
+      "378": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_headbang"
+        },
+        "Weight": 4.0
+      },
+      "379": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wackywavy"
+        },
+        "Weight": 4.0
+      },
+      "380": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_quicksweeper"
+        },
+        "Weight": 4.0
+      },
+      "381": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_drummajor"
+        },
+        "Weight": 4.0
+      },
+      "382": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tapshuffle"
+        },
+        "Weight": 4.0
+      },
+      "383": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_clapperboard"
+        },
+        "Weight": 4.0
+      },
+      "384": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_relish_tnpzi"
+        },
+        "Weight": 4.0
+      },
+      "385": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_basketballv2"
+        },
+        "Weight": 4.0
+      },
+      "386": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_montecarlo"
+        },
+        "Weight": 4.0
+      },
+      "387": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_whirlwind"
+        },
+        "Weight": 4.0
+      },
+      "388": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_soccertraversal"
+        },
+        "Weight": 4.0
+      },
+      "389": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_grasshopper_8d51k"
+        },
+        "Weight": 4.0
+      },
+      "390": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_blowingbubbles"
+        },
+        "Weight": 4.0
+      },
+      "391": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_holdonaminute"
+        },
+        "Weight": 4.0
+      },
+      "392": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_crackshotclock"
+        },
+        "Weight": 4.0
+      },
+      "393": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_smokebombfail"
+        },
+        "Weight": 4.0
+      },
+      "394": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sleighit"
+        },
+        "Weight": 3.0
+      },
+      "395": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_checkeredflag"
+        },
+        "Weight": 3.0
+      },
+      "396": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tennispaddle"
+        },
+        "Weight": 3.0
+      },
+      "397": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_shaka"
+        },
+        "Weight": 3.0
+      },
+      "398": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_assassinsalute"
+        },
+        "Weight": 3.0
+      },
+      "399": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_coolrobot"
+        },
+        "Weight": 3.0
+      },
+      "400": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_galileo3_t4dko"
+        },
+        "Weight": 3.0
+      },
+      "401": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_pirategold"
+        },
+        "Weight": 3.0
+      },
+      "402": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_laughtrack"
+        },
+        "Weight": 3.0
+      },
+      "403": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_floppy"
+        },
+        "Weight": 3.0
+      },
+      "404": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bunnyhop"
+        },
+        "Weight": 3.0
+      },
+      "405": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_thumbsup"
+        },
+        "Weight": 3.0
+      },
+      "406": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sparkler"
+        },
+        "Weight": 3.0
+      },
+      "407": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_tacotimedance"
+        },
+        "Weight": 3.0
+      },
+      "408": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hnygoodriddance"
+        },
+        "Weight": 3.0
+      },
+      "409": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cactustpose"
+        },
+        "Weight": 3.0
+      },
+      "410": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_statuepose"
+        },
+        "Weight": 3.0
+      },
+      "411": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_partyjazzwigglydance"
+        },
+        "Weight": 3.0
+      },
+      "412": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bannerflagwave"
+        },
+        "Weight": 3.0
+      },
+      "413": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_smallfry_kffa1"
+        },
+        "Weight": 3.0
+      },
+      "414": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_wizard"
+        },
+        "Weight": 3.0
+      },
+      "415": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_halloweencandy"
+        },
+        "Weight": 3.0
+      },
+      "416": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_juggler"
+        },
+        "Weight": 3.0
+      },
+      "417": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_fistpump"
+        },
+        "Weight": 2.0
+      },
+      "418": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_whereismatt"
+        },
+        "Weight": 2.0
+      },
+      "419": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sprinkler"
+        },
+        "Weight": 2.0
+      },
+      "420": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_pages"
+        },
+        "Weight": 2.0
+      },
+      "421": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_everytime"
+        },
+        "Weight": 2.0
+      },
+      "422": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_hula"
+        },
+        "Weight": 2.0
+      },
+      "423": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_maracas"
+        },
+        "Weight": 2.0
+      },
+      "424": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_galileo4_pxpe0"
+        },
+        "Weight": 2.0
+      },
+      "425": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_zombiewalk"
+        },
+        "Weight": 2.0
+      },
+      "426": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_capoeira"
+        },
+        "Weight": 2.0
+      },
+      "427": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_dinosaur"
+        },
+        "Weight": 2.0
+      },
+      "428": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_sunrise_rpz6m"
+        },
+        "Weight": 2.0
+      },
+      "429": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_steep"
+        },
+        "Weight": 2.0
+      },
+      "430": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_doggystrut"
+        },
+        "Weight": 2.0
+      },
+      "431": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_divinepose"
+        },
+        "Weight": 2.0
+      },
+      "432": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_schoolyard"
+        },
+        "Weight": 2.0
+      },
+      "433": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_thighslapper"
+        },
+        "Weight": 2.0
+      },
+      "434": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_jumpingjack"
+        },
+        "Weight": 2.0
+      },
+      "435": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_egyptiandance"
+        },
+        "Weight": 2.0
+      },
+      "436": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_ribbondance"
+        },
+        "Weight": 2.0
+      },
+      "437": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_rigormortis"
+        },
+        "Weight": 2.0
+      },
+      "438": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_aliensupport"
+        },
+        "Weight": 2.0
+      },
+      "439": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_phonograph"
+        },
+        "Weight": 2.0
+      },
+      "440": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_breakthrough"
+        },
+        "Weight": 2.0
+      },
+      "441": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_flyingkite"
+        },
+        "Weight": 2.0
+      },
+      "442": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_chug"
+        },
+        "Weight": 2.0
+      },
+      "443": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_butter_1r26q"
+        },
+        "Weight": 1.0
+      },
+      "444": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_applause"
+        },
+        "Weight": 1.0
+      },
+      "445": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_afrohouse"
+        },
+        "Weight": 1.0
+      },
+      "446": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_balletjumps"
+        },
+        "Weight": 1.0
+      },
+      "447": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_makeitrainv2"
+        },
+        "Weight": 1.0
+      },
+      "448": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_bunnyflop"
+        },
+        "Weight": 1.0
+      },
+      "449": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_headshake"
+        },
+        "Weight": 1.0
+      },
+      "450": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_provisitorprotest"
+        },
+        "Weight": 1.0
+      },
+      "451": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_cartwheel"
+        },
+        "Weight": 1.0
+      },
+      "452": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_llamamarch"
+        },
+        "Weight": 1.0
+      },
+      "453": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_runningmanv3"
+        },
+        "Weight": 1.0
+      },
+      "454": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_exaggerated"
+        },
+        "Weight": 1.0
+      },
+      "455": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_antivisitorprotest"
+        },
+        "Weight": 1.0
+      },
+      "456": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_buildasnowman"
+        },
+        "Weight": 1.0
+      },
+      "457": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_racestart"
+        },
+        "Weight": 1.0
+      },
+      "458": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_spyglass"
+        },
+        "Weight": 1.0
+      },
+      "459": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_fancyworkout"
+        },
+        "Weight": 1.0
+      },
+      "460": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "eid_balance"
+        },
+        "Weight": 1.0
+      }
+    }
+  }
+]

@@ -1,0 +1,440 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_Cosmetic_Auras_BasicNew",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/BasicNew/Phoebe_Cosmetic_Auras_BasicNew",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotCosmeticItemDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "0": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_default"
+        },
+        "Weight": 100.0
+      },
+      "1": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_cosmicstars"
+        },
+        "Weight": 100.0
+      },
+      "2": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_rockerflame"
+        },
+        "Weight": 100.0
+      },
+      "3": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_fantasysparkle"
+        },
+        "Weight": 100.0
+      },
+      "4": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_diamonddust"
+        },
+        "Weight": 100.0
+      },
+      "5": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_party"
+        },
+        "Weight": 100.0
+      },
+      "6": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_charge"
+        },
+        "Weight": 100.0
+      },
+      "7": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_shadedexpanse"
+        },
+        "Weight": 100.0
+      },
+      "8": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_floatinglanterns"
+        },
+        "Weight": 100.0
+      },
+      "9": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_chromalight"
+        },
+        "Weight": 100.0
+      },
+      "10": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_splash"
+        },
+        "Weight": 100.0
+      },
+      "11": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_radiantbastion"
+        },
+        "Weight": 100.0
+      },
+      "12": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_fracturedbeacon"
+        },
+        "Weight": 100.0
+      },
+      "13": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_bats"
+        },
+        "Weight": 100.0
+      },
+      "14": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_ink"
+        },
+        "Weight": 100.0
+      },
+      "15": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_filmsparkle"
+        },
+        "Weight": 100.0
+      },
+      "16": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_brightflame"
+        },
+        "Weight": 100.0
+      },
+      "17": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_diamondflare"
+        },
+        "Weight": 100.0
+      },
+      "18": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_shimmer"
+        },
+        "Weight": 100.0
+      },
+      "19": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_graffiti"
+        },
+        "Weight": 100.0
+      },
+      "20": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_magicstone"
+        },
+        "Weight": 100.0
+      },
+      "21": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_fantasysunburst"
+        },
+        "Weight": 100.0
+      },
+      "22": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_darkflame"
+        },
+        "Weight": 100.0
+      },
+      "23": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_highoctane"
+        },
+        "Weight": 100.0
+      },
+      "24": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_lights"
+        },
+        "Weight": 83.0
+      },
+      "25": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_centerstage"
+        },
+        "Weight": 82.0
+      },
+      "26": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_fantasyplant"
+        },
+        "Weight": 82.0
+      },
+      "27": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_stars"
+        },
+        "Weight": 81.0
+      },
+      "28": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_heart"
+        },
+        "Weight": 73.0
+      },
+      "29": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_pixel"
+        },
+        "Weight": 70.0
+      },
+      "30": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_kaleido"
+        },
+        "Weight": 66.0
+      },
+      "31": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_bokeh"
+        },
+        "Weight": 55.0
+      },
+      "32": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_ember"
+        },
+        "Weight": 48.0
+      },
+      "33": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_squares"
+        },
+        "Weight": 43.0
+      },
+      "34": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_digitalgraffiti"
+        },
+        "Weight": 42.0
+      },
+      "35": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_shard"
+        },
+        "Weight": 29.0
+      },
+      "36": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_bubbles"
+        },
+        "Weight": 25.0
+      },
+      "37": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_smoke"
+        },
+        "Weight": 20.0
+      },
+      "38": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_fallleaves"
+        },
+        "Weight": 19.0
+      },
+      "39": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_cyber"
+        },
+        "Weight": 17.0
+      },
+      "40": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_boombox"
+        },
+        "Weight": 15.0
+      },
+      "41": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_comic"
+        },
+        "Weight": 15.0
+      },
+      "42": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_snowflake"
+        },
+        "Weight": 14.0
+      },
+      "43": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_constellation"
+        },
+        "Weight": 13.0
+      },
+      "44": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_electric"
+        },
+        "Weight": 13.0
+      },
+      "45": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_borealis"
+        },
+        "Weight": 11.0
+      },
+      "46": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "sparksaura_confetti"
+        },
+        "Weight": 4.0
+      }
+    }
+  }
+]

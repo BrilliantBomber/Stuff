@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PerkData_Phoebe_Evasive_JumpSpam_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_JumpSpam",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIPerk_EvasiveManeuvers'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PerkData_Phoebe_Evasive_JumpSpam_C'Default__BP_PerkData_Phoebe_Evasive_JumpSpam_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_JumpSpam.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PerkData_Phoebe_Evasive_JumpSpam_C",
+    "Name": "Default__BP_PerkData_Phoebe_Evasive_JumpSpam_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_JumpSpam.BP_PerkData_Phoebe_Evasive_JumpSpam_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_JumpSpam",
+    "Properties": {
+      "EvasiveManeuverSkillSettings": {
+        "CrouchOverlayWeight": {
+          "Value": 0.0
+        },
+        "JumpOverlayWeight": {
+          "Value": 1.0
+        },
+        "NoOverlayWeight": {
+          "Value": 0.0
+        },
+        "DodgeWeight": {
+          "Value": 1.0
+        },
+        "DodgeJumpWeight": {
+          "Value": 1.0
+        },
+        "JumpDelay": {
+          "Value": 0.2
+        },
+        "JumpRandomDeviationDelay": {
+          "Value": 0.15
+        },
+        "CrouchDelay": {
+          "Value": 0.0
+        },
+        "CrouchRandomDeviationDelay": {
+          "Value": 0.0
+        },
+        "DodgeDistanceMax": {
+          "Value": 250.0
+        },
+        "CrouchTimeMax": {
+          "Value": 0.0
+        },
+        "CrouchTimeMin": {
+          "Value": 0.0
+        }
+      },
+      "DistanceMax": {
+        "Value": 2000.0
+      },
+      "WeaponTagQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "phoebe.items.pickaxe"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          3,
+          1,
+          0
+        ],
+        "AutoDescription": " NONE( phoebe.items.pickaxe )"
+      },
+      "CooldownDuration": {
+        "Value": 10.0
+      },
+      "CooldownDurationRandomDeviation": {
+        "Value": 5.0
+      },
+      "ActivationDuration": {
+        "Value": 10.0
+      },
+      "ActivationDurationRandomDeviation": {
+        "Value": 3.0
+      },
+      "OddsToActivate": {
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.EvasiveManeuvers.SettingSpecializations.JumpSpam.Odds"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PerkData_Phoebe_Evasive_JumpSpam_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Perks/BP_PerkData_Phoebe_Evasive_JumpSpam.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

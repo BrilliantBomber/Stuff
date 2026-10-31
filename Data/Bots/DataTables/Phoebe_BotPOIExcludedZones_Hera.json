@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_BotPOIExcludedZones_Hera",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_BotPOIExcludedZones_Hera",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotPOIExcludedZoneDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "WarmupHera": {
+        "Location": {
+          "X": 107168.0,
+          "Y": 213480.0,
+          "Z": 688.0
+        },
+        "BoxHalfSize": {
+          "X": 27000.0,
+          "Y": 30000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_Terrain",
+        "bEnabled": true
+      },
+      "WonkeeLand": {
+        "Location": {
+          "X": -40844.0,
+          "Y": -59932.0,
+          "Z": 8976.0
+        },
+        "BoxHalfSize": {
+          "X": 13000.0,
+          "Y": 17000.0,
+          "Z": 4000.0
+        },
+        "UsagesToExclude": 1,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Core )"
+        },
+        "MapPath": "/Hera_Map/Maps/Hera_Terrain",
+        "bEnabled": true
+      }
+    }
+  }
+]

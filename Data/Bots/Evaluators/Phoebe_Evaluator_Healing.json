@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Phoebe_Evaluator_Healing_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Healing",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAIBotEvaluator_Heal'",
+      "ObjectPath": "/Script/FortniteAIServer"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Phoebe_Evaluator_Healing_C'Default__Phoebe_Evaluator_Healing_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Healing.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Phoebe_Evaluator_Healing_C",
+    "Name": "Default__Phoebe_Evaluator_Healing_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Healing.Phoebe_Evaluator_Healing_C'",
+    "Package": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Healing",
+    "Properties": {
+      "CanHealWhileMovingKeyName": "AIEvaluator_Healing_CanUseWhileMoving",
+      "RequiredTagQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Gameplay.Status.Sand"
+          },
+          {
+            "TagName": "GameplayCue.Athena.Player.Surface.Sand"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          3,
+          2,
+          0,
+          1
+        ],
+        "AutoDescription": " NONE( Gameplay.Status.Sand, GameplayCue.Athena.Player.Surface.Sand )"
+      },
+      "bAllowEvaluationRetry": true
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Phoebe_Evaluator_Healing_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/Evaluators/Phoebe_Evaluator_Healing.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_Behavior_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Behavior_Phoebe",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAISpawnerDataComponent_AIBotBehavior'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_Behavior_Phoebe_C'Default__BP_AISpawnerComp_Behavior_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Behavior_Phoebe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_Behavior_Phoebe_C",
+    "Name": "Default__BP_AISpawnerComp_Behavior_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Behavior_Phoebe.BP_AISpawnerComp_Behavior_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Behavior_Phoebe",
+    "Properties": {
+      "IsAllowedToGiveUpWhenRespawnEnabled": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.DBNO.AllowedToGiveUpWhenRespawnEnabled"
+        }
+      },
+      "GiveUpMinTimer": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.DBNO.GiveUpMinTimer"
+        }
+      },
+      "GiveUpMaxTimer": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.DBNO.GiveUpMaxTimer"
+        }
+      },
+      "GiveUpThreatenedAllyMaxDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.DNBO.GiveUpThreatenedAllyMaxDistance"
+        }
+      },
+      "GiveUpThreatenedAllyRandomChance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.DBNO.GiveUpThreatenedAllyRandomChance"
+        }
+      },
+      "GiveUpUnawareAllyMaxDistance": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_Data'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_Data.0"
+          },
+          "RowName": "Phoebe.DNBO.GiveUpUnawareAllyMaxDistance"
+        }
+      },
+      "SurfaceTypeCheckEnabled": {
+        "Value": 1.0
+      },
+      "AircraftPhaseBehaviorSettings": {
+        "JoinAircraftPhase": {
+          "Value": 1.0
+        },
+        "ThankBusDriverProbability": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_ManagerData'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+            },
+            "RowName": "Phoebe.ThankBusDriverProbability"
+          }
+        },
+        "ThankBusDriverMinDelay": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_ManagerData'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+            },
+            "RowName": "Phoebe.ThankBusDriverMinTime"
+          }
+        },
+        "ThankBusDriverMaxDelay": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_ManagerData'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/ManagerData/Phoebe_ManagerData.0"
+            },
+            "RowName": "Phoebe.ThankBusDriverMaxTime"
+          }
+        },
+        "PreventPawnCollisionTime": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Phoebe_ControllerData'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/ControllerData/Phoebe_ControllerData.0"
+            },
+            "RowName": "Phoebe.Controller.AircraftPhase.PreventPawnCollisionTime"
+          }
+        }
+      },
+      "BehaviorTree": {
+        "ObjectName": "BehaviorTree'BT_Phoebe'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BehaviorTrees/BT_Phoebe.0"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Behavior_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Behavior_Phoebe.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

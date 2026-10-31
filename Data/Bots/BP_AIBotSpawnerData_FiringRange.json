@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AIBotSpawnerData_FiringRange_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/BP_AIBotSpawnerData_FiringRange",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIBotSpawnerData_NPC_Base_C'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/AISpawnerData/BP_AIBotSpawnerData_NPC_Base.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AIBotSpawnerData_FiringRange_C'Default__BP_AIBotSpawnerData_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AIBotSpawnerData_FiringRange.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AIBotSpawnerData_FiringRange_C",
+    "Name": "Default__BP_AIBotSpawnerData_FiringRange_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/BP_AIBotSpawnerData_FiringRange.BP_AIBotSpawnerData_FiringRange_C'",
+    "Package": "/Game/Athena/AI/Phoebe/BP_AIBotSpawnerData_FiringRange",
+    "Template": {
+      "ObjectName": "BP_AIBotSpawnerData_NPC_Base_C'Default__BP_AIBotSpawnerData_NPC_Base_C'",
+      "ObjectPath": "/Game/Athena/AI/NPCs/Base/AISpawnerData/BP_AIBotSpawnerData_NPC_Base.1"
+    },
+    "Properties": {
+      "SpawnParamsComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AISC_Spawn_FiringRange_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISC_Spawn_FiringRange.0"
+      },
+      "CosmeticComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AISC_CL_FiringRange_C'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISC_CL_FiringRange.0"
+      },
+      "DescriptorTag": [
+        "AISpawnerData.Type.FiringRange"
+      ]
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIBotSpawnerData_FiringRange_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_AIBotSpawnerData_FiringRange.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

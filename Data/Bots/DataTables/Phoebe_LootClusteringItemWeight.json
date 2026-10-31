@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_LootClusteringItemWeight",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_LootClusteringItemWeight",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotClusterLootWeightDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Tag": {
+          "TagName": "Building.Type.Container.TreasureChest"
+        },
+        "bIgnore": false,
+        "Weight": 3
+      },
+      "2": {
+        "Tag": {
+          "TagName": "Building.Type.Container.TreasureChest.Common"
+        },
+        "bIgnore": false,
+        "Weight": 3
+      },
+      "3": {
+        "Tag": {
+          "TagName": "Building.Type.Container.TreasureChest.Rare"
+        },
+        "bIgnore": false,
+        "Weight": 6
+      },
+      "4": {
+        "Tag": {
+          "TagName": "Pickup.Source.WarmupIsland"
+        },
+        "bIgnore": true,
+        "Weight": 0
+      },
+      "5": {
+        "Tag": {
+          "TagName": "Athena.Container.WarmupIsland"
+        },
+        "bIgnore": true,
+        "Weight": 0
+      }
+    }
+  }
+]

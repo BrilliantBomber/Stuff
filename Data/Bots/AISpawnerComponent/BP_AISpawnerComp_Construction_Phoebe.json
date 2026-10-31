@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_Construction_Phoebe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Construction_Phoebe",
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAISpawnerDataComponent_AIBotConstruction'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_Construction_Phoebe_C'Default__BP_AISpawnerComp_Construction_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Construction_Phoebe.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_Construction_Phoebe_C",
+    "Name": "Default__BP_AISpawnerComp_Construction_Phoebe_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Construction_Phoebe.BP_AISpawnerComp_Construction_Phoebe_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Construction_Phoebe",
+    "Properties": {
+      "ConstructionBuildingInfoList": {
+        "BuildingList": {
+          "BuildingActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Solid_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Solid.1"
+          },
+          "BuildingActorClass[1]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Solid_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Solid.1"
+          },
+          "BuildingActorClass[2]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Solid_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Solid.1"
+          }
+        },
+        "BuildingList[1]": {
+          "BuildingActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Floor_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.1"
+          },
+          "BuildingActorClass[1]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Floor_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Floor.1"
+          },
+          "BuildingActorClass[2]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Floor_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Floor.1"
+          }
+        },
+        "BuildingList[2]": {
+          "BuildingActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_W1_StairW_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.1"
+          },
+          "BuildingActorClass[1]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_S1_StairW_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_StairW.1"
+          },
+          "BuildingActorClass[2]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_M1_StairW_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_StairW.1"
+          }
+        },
+        "BuildingList[3]": {
+          "BuildingActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_W1_RoofC_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofC.1"
+          },
+          "BuildingActorClass[1]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_S1_RoofC_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_RoofC.1"
+          },
+          "BuildingActorClass[2]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_M1_RoofC_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_RoofC.1"
+          }
+        },
+        "BuildingList[4]": {
+          "BuildingActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_W1_Brace_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Brace.1"
+          },
+          "BuildingActorClass[1]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_S1_Brace_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Brace.1"
+          },
+          "BuildingActorClass[2]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_M1_Brace_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_Brace.1"
+          }
+        },
+        "BuildingList[5]": {
+          "BuildingActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_W1_WindowC_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_WindowC.1"
+          },
+          "BuildingActorClass[1]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_S1_WindowsC_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_WindowsC.1"
+          },
+          "BuildingActorClass[2]": {
+            "ObjectName": "BlueprintGeneratedClass'PBWA_M1_WindowC_C'",
+            "ObjectPath": "/Game/Building/ActorBlueprints/Player/Metal/L1/PBWA_M1_WindowC.1"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Construction_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Construction_Phoebe.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

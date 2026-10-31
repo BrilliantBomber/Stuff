@@ -1,0 +1,155 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_Cosmetic_Characters_Shop",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/Cosmetic/CosmeticLibraries/Shop/Phoebe_Cosmetic_Characters_Shop",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortLimitedAvailabilityBotCosmeticItemDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "bStripFromClientBuilds": true,
+      "bIgnoreExtraFields": true,
+      "bIgnoreMissingFields": true
+    },
+    "Rows": {
+      "0": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_775_Athena_Commando_F_StreetRacerCobraGold"
+        },
+        "Weight": 1.0
+      },
+      "1": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_798_Athena_Commando_M_JonesyVagabond"
+        },
+        "Weight": 1.0
+      },
+      "2": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_797_Athena_Commando_F_Taco"
+        },
+        "Weight": 1.0
+      },
+      "3": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_808_Athena_Commando_F_ConstellationSun"
+        },
+        "Weight": 1.0
+      },
+      "4": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_800_Athena_Commando_M_Robro"
+        },
+        "Weight": 1.0
+      },
+      "5": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_801_Athena_Commando_F_GolfSummer"
+        },
+        "Weight": 1.0
+      },
+      "6": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_802_Athena_Commando_F_HeartBreaker"
+        },
+        "Weight": 1.0
+      },
+      "7": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_803_Athena_Commando_F_SharkSuit"
+        },
+        "Weight": 1.0
+      },
+      "8": {
+        "StartDate": {
+          "Ticks": 637290864000000000
+        },
+        "EndDate": {
+          "Ticks": 637309008000000000
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "CID_806_Athena_Commando_F_GreenJacket"
+        },
+        "Weight": 1.0
+      }
+    }
+  }
+]

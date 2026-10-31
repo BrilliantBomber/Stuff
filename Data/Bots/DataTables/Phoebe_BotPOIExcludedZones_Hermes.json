@@ -1,0 +1,446 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_BotPOIExcludedZones_Hermes",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_BotPOIExcludedZones_Hermes",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotPOIExcludedZoneDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "WarmupHermes": {
+        "Location": {
+          "X": 232297.0,
+          "Y": -92943.0,
+          "Z": 3599.0
+        },
+        "BoxHalfSize": {
+          "X": 20000.0,
+          "Y": 16000.0,
+          "Z": 6000.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": true
+      },
+      "HopefulHeights_Turtles": {
+        "Location": {
+          "X": 82620.0,
+          "Y": 102556.0,
+          "Z": 2396.0
+        },
+        "BoxHalfSize": {
+          "X": 8300.0,
+          "Y": 7600.0,
+          "Z": 4250.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Athena.Playlist.Core )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "BigBridge": {
+        "Location": {
+          "X": 86808.0,
+          "Y": 10200.0,
+          "Z": 3528.0
+        },
+        "BoxHalfSize": {
+          "X": 6000.0,
+          "Y": 12000.0,
+          "Z": 4000.0
+        },
+        "UsagesToExclude": 1,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "MaskMakerFortress": {
+        "Location": {
+          "X": 14548.0,
+          "Y": 75260.0,
+          "Z": 6264.0
+        },
+        "BoxHalfSize": {
+          "X": 7500.0,
+          "Y": 10000.0,
+          "Z": 4500.0
+        },
+        "UsagesToExclude": 1,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_BugHive": {
+        "Location": {
+          "X": -34108.0,
+          "Y": -51179.0,
+          "Z": 3381.0
+        },
+        "BoxHalfSize": {
+          "X": 11100.0,
+          "Y": 10100.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_MilitaryOutpost_North": {
+        "Location": {
+          "X": -37021.367,
+          "Y": -85626.2,
+          "Z": 3381.0
+        },
+        "BoxHalfSize": {
+          "X": 5843.5,
+          "Y": 10000.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_MilitaryOutpost_West": {
+        "Location": {
+          "X": -57763.336,
+          "Y": 61364.43,
+          "Z": 8327.745
+        },
+        "BoxHalfSize": {
+          "X": 8217.5,
+          "Y": 3818.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_MilitaryOutpost_East": {
+        "Location": {
+          "X": 71174.52,
+          "Y": 68821.266,
+          "Z": 3166.0
+        },
+        "BoxHalfSize": {
+          "X": 6163.0,
+          "Y": 5250.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_InfestedBase": {
+        "Location": {
+          "X": 10854.0,
+          "Y": -38332.0,
+          "Z": 4068.0
+        },
+        "BoxHalfSize": {
+          "X": 10000.0,
+          "Y": 9000.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_Citadel": {
+        "Location": {
+          "X": 23481.0,
+          "Y": 61468.0,
+          "Z": 5618.0
+        },
+        "BoxHalfSize": {
+          "X": 11000.0,
+          "Y": 10000.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_LostBase": {
+        "Location": {
+          "X": -53489.0,
+          "Y": 14574.0,
+          "Z": 6457.0
+        },
+        "BoxHalfSize": {
+          "X": 11000.0,
+          "Y": 10000.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_Utopia": {
+        "Location": {
+          "X": 55714.0,
+          "Y": 13946.0,
+          "Z": 1956.0
+        },
+        "BoxHalfSize": {
+          "X": 11000.0,
+          "Y": 10000.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      },
+      "CH6S4_Tunnels": {
+        "Location": {
+          "X": -23065.0,
+          "Y": 73699.0,
+          "Z": 5618.0
+        },
+        "BoxHalfSize": {
+          "X": 11000.0,
+          "Y": 10000.0,
+          "Z": 3700.0
+        },
+        "UsagesToExclude": 3,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Athena.Playlist.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL(  ANY( Athena.Playlist.Core ) )"
+        },
+        "MapPath": "/BRMapCh6/Maps/Hermes_Terrain",
+        "bEnabled": false
+      }
+    }
+  }
+]

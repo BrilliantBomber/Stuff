@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AISpawnerComp_Gameplay_Phoebe_Dev_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe_Dev",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Gameplay_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe.0"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AISpawnerComp_Gameplay_Phoebe_Dev_C'Default__BP_AISpawnerComp_Gameplay_Phoebe_Dev_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe_Dev.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AISpawnerComp_Gameplay_Phoebe_Dev_C",
+    "Name": "Default__BP_AISpawnerComp_Gameplay_Phoebe_Dev_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe_Dev.BP_AISpawnerComp_Gameplay_Phoebe_Dev_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe_Dev",
+    "Template": {
+      "ObjectName": "BP_AISpawnerComp_Gameplay_Phoebe_C'Default__BP_AISpawnerComp_Gameplay_Phoebe_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe.1"
+    },
+    "Properties": {
+      "NameSettings": {
+        "ObjectName": "FortBotNameSettings'Default__BP_AISpawnerComp_Gameplay_Phoebe_Dev_C:FortBotNameSettings_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe_Dev.2"
+      },
+      "bCanInvestigateWithMeleeWeapon": true,
+      "bDisableGiveWeaponCheat": true,
+      "bDisableGiveMaterialsCheat": true
+    }
+  },
+  {
+    "Type": "FortBotNameSettings",
+    "Name": "FortBotNameSettings_0",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortBotNameSettings'",
+    "Outer": {
+      "ObjectName": "BP_AISpawnerComp_Gameplay_Phoebe_Dev_C'Default__BP_AISpawnerComp_Gameplay_Phoebe_Dev_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe_Dev.1"
+    },
+    "Template": {
+      "ObjectName": "FortBotNameSettings'Default__BP_AISpawnerComp_Gameplay_Phoebe_C:FortBotNameSettings_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe.2"
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AISpawnerComp_Gameplay_Phoebe_Dev_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AISpawnerComponent/BP_AISpawnerComp_Gameplay_Phoebe_Dev.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

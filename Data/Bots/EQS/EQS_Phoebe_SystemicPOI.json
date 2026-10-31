@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "AIDataProvider_QueryParams",
+    "Name": "AIDataProvider_QueryParams_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIDataProvider_QueryParams'",
+    "Outer": {
+      "ObjectName": "FortQueryGenerator_GridInBox'EQS_Phoebe_SystemicPOI:FortQueryGenerator_GridInBox_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.4"
+    },
+    "Properties": {
+      "ParamName": "GridInBox.BoxWidth"
+    }
+  },
+  {
+    "Type": "AIDataProvider_QueryParams",
+    "Name": "AIDataProvider_QueryParams_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIDataProvider_QueryParams'",
+    "Outer": {
+      "ObjectName": "FortQueryGenerator_GridInBox'EQS_Phoebe_SystemicPOI:FortQueryGenerator_GridInBox_0'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.4"
+    },
+    "Properties": {
+      "ParamName": "GridInBox.BoxLength"
+    }
+  },
+  {
+    "Type": "EnvQuery",
+    "Name": "EQS_Phoebe_SystemicPOI",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQuery'",
+    "Package": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI",
+    "Properties": {
+      "QueryName": "EQS_Phoebe_SystemicPOI",
+      "Options": [
+        {
+          "ObjectName": "EnvQueryOption'EQS_Phoebe_SystemicPOI:EnvQueryOption_2'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryOption",
+    "Name": "EnvQueryOption_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnvQueryOption'",
+    "Outer": {
+      "ObjectName": "EnvQuery'EQS_Phoebe_SystemicPOI'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.2"
+    },
+    "Properties": {
+      "Generator": {
+        "ObjectName": "FortQueryGenerator_GridInBox'EQS_Phoebe_SystemicPOI:FortQueryGenerator_GridInBox_0'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.4"
+      }
+    }
+  },
+  {
+    "Type": "FortQueryGenerator_GridInBox",
+    "Name": "FortQueryGenerator_GridInBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQueryGenerator_GridInBox'",
+    "Outer": {
+      "ObjectName": "EnvQuery'EQS_Phoebe_SystemicPOI'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.2"
+    },
+    "Properties": {
+      "BoxWidth": {
+        "DataBinding": {
+          "ObjectName": "AIDataProvider_QueryParams'EQS_Phoebe_SystemicPOI:FortQueryGenerator_GridInBox_0.AIDataProvider_QueryParams_0'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.0"
+        },
+        "DataField": "FloatValue"
+      },
+      "BoxLength": {
+        "DataBinding": {
+          "ObjectName": "AIDataProvider_QueryParams'EQS_Phoebe_SystemicPOI:FortQueryGenerator_GridInBox_0.AIDataProvider_QueryParams_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/EQS/EQS_Phoebe_SystemicPOI.1"
+        },
+        "DataField": "FloatValue"
+      },
+      "SpaceBetween": {
+        "DefaultValue": 1000.0
+      },
+      "GenerateAround": {
+        "ObjectName": "Class'FortQueryContext_WorldLocationParam'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "ProjectionData": {
+        "VersionNum": 1,
+        "NavigationFilter": {
+          "ObjectName": "BlueprintGeneratedClass'NavFilter_Phoebe_NoWater_C'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/NavFilter/NavFilter_Phoebe_NoWater.0"
+        },
+        "ProjectDown": 10000.0,
+        "ProjectUp": 10000.0,
+        "ExtentX": 1000.0,
+        "SerializedChannel": "ECollisionChannel::ECC_Visibility"
+      },
+      "VerNum": 1
+    }
+  }
+]

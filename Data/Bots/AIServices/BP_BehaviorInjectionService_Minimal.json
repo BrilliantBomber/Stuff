@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BehaviorInjectionService_Minimal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_BehaviorInjectionService_Minimal",
+    "SuperStruct": {
+      "ObjectName": "Class'BehaviorInjectionAIService'",
+      "ObjectPath": "/Script/FortniteAI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BehaviorInjectionService_Minimal_C'Default__BP_BehaviorInjectionService_Minimal_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AIServices/BP_BehaviorInjectionService_Minimal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_BehaviorInjectionService_Minimal_C",
+    "Name": "Default__BP_BehaviorInjectionService_Minimal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AIServices/BP_BehaviorInjectionService_Minimal.BP_BehaviorInjectionService_Minimal_C'",
+    "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_BehaviorInjectionService_Minimal",
+    "Properties": {
+      "ItemBehaviorsRegistry": {
+        "ObjectName": "FortDataRegistry'FortItemBehaviorsRegistry'",
+        "ObjectPath": "/Game/DataRegistries/FortItemBehaviorsRegistry.0"
+      },
+      "VehicleBehaviorsRegistry": {
+        "ObjectName": "FortDataRegistry'FortVehicleBehaviorsRegistry'",
+        "ObjectPath": "/Game/DataRegistries/FortVehicleBehaviorsRegistry.0"
+      },
+      "PawnTagsBehaviorsRegistry": {
+        "ObjectName": "FortDataRegistry'FortPawnTagQueryBehaviorsRegistry'",
+        "ObjectPath": "/Game/DataRegistries/FortPawnTagQueryBehaviorsRegistry.0"
+      }
+    }
+  },
+  {
+    "Type": "ClassCookedMetaData",
+    "Name": "CookedClassMetaData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassCookedMetaData'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BehaviorInjectionService_Minimal_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/AIServices/BP_BehaviorInjectionService_Minimal.0"
+    },
+    "Properties": {
+      "ClassMetaData": {
+        "ObjectMetaData": {
+          "ObjectMetaData": [
+            {
+              "Key": "BlueprintType",
+              "Value": "true"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Pheobe_Cosmetic_BannerIcons",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/Cosmetic/Pheobe_Cosmetic_BannerIcons",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotCosmeticItemDataTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "0": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner1"
+        },
+        "Weight": 100.0
+      },
+      "1": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner2"
+        },
+        "Weight": 100.0
+      },
+      "2": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner3"
+        },
+        "Weight": 100.0
+      },
+      "3": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner4"
+        },
+        "Weight": 100.0
+      },
+      "4": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner5"
+        },
+        "Weight": 100.0
+      },
+      "5": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner6"
+        },
+        "Weight": 100.0
+      },
+      "6": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner7"
+        },
+        "Weight": 100.0
+      },
+      "7": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner8"
+        },
+        "Weight": 100.0
+      },
+      "8": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner9"
+        },
+        "Weight": 100.0
+      },
+      "9": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner10"
+        },
+        "Weight": 100.0
+      },
+      "10": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner11"
+        },
+        "Weight": 100.0
+      },
+      "11": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner12"
+        },
+        "Weight": 100.0
+      },
+      "12": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner13"
+        },
+        "Weight": 100.0
+      },
+      "13": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner14"
+        },
+        "Weight": 100.0
+      },
+      "14": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner15"
+        },
+        "Weight": 100.0
+      },
+      "15": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner16"
+        },
+        "Weight": 100.0
+      },
+      "16": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner17"
+        },
+        "Weight": 100.0
+      },
+      "17": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner18"
+        },
+        "Weight": 100.0
+      },
+      "18": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner19"
+        },
+        "Weight": 100.0
+      },
+      "19": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner20"
+        },
+        "Weight": 100.0
+      },
+      "20": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner21"
+        },
+        "Weight": 100.0
+      },
+      "21": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner22"
+        },
+        "Weight": 100.0
+      },
+      "22": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner23"
+        },
+        "Weight": 100.0
+      },
+      "23": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner24"
+        },
+        "Weight": 100.0
+      },
+      "24": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner25"
+        },
+        "Weight": 100.0
+      },
+      "25": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner26"
+        },
+        "Weight": 100.0
+      },
+      "26": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner27"
+        },
+        "Weight": 100.0
+      },
+      "27": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner28"
+        },
+        "Weight": 100.0
+      },
+      "28": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner29"
+        },
+        "Weight": 100.0
+      },
+      "29": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner30"
+        },
+        "Weight": 100.0
+      },
+      "30": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "HomebaseBannerIcon"
+          },
+          "PrimaryAssetName": "StandardBanner31"
+        },
+        "Weight": 100.0
+      }
+    }
+  }
+]
