@@ -27,7 +27,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_42"
+          "PrimaryAssetName": "glider_sheerwill"
         },
         "Weight": 100.0
       },
@@ -36,7 +36,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_sheerwill"
+          "PrimaryAssetName": "umbrella_season_42"
         },
         "Weight": 100.0
       },
@@ -54,7 +54,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_tallchore"
+          "PrimaryAssetName": "solo_umbrella"
         },
         "Weight": 100.0
       },
@@ -63,7 +63,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_sizetribe"
+          "PrimaryAssetName": "glider_blockstack"
         },
         "Weight": 100.0
       },
@@ -72,7 +72,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_blockstack"
+          "PrimaryAssetName": "glider_tallchore"
         },
         "Weight": 100.0
       },
@@ -81,7 +81,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "solo_umbrella"
+          "PrimaryAssetName": "glider_sizetribe"
         },
         "Weight": 100.0
       },
@@ -108,7 +108,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_slickintel"
+          "PrimaryAssetName": "glider_casinoreaper"
         },
         "Weight": 100.0
       },
@@ -117,7 +117,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_casinoreaper"
+          "PrimaryAssetName": "glider_slickintel"
         },
         "Weight": 100.0
       },
@@ -126,7 +126,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_cozymechanic"
+          "PrimaryAssetName": "glider_id_196_cyclonemale"
         },
         "Weight": 100.0
       },
@@ -153,7 +153,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_heroictale"
+          "PrimaryAssetName": "glider_auracop"
         },
         "Weight": 100.0
       },
@@ -162,7 +162,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_196_cyclonemale"
+          "PrimaryAssetName": "glider_cozymechanic"
         },
         "Weight": 100.0
       },
@@ -171,7 +171,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_auracop"
+          "PrimaryAssetName": "glider_heroictale"
         },
         "Weight": 100.0
       },
@@ -198,7 +198,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rustedblade"
+          "PrimaryAssetName": "glider_dazzle"
         },
         "Weight": 100.0
       },
@@ -207,7 +207,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_funkyfeather_cap"
+          "PrimaryAssetName": "glider_squidglistenliftdairy"
         },
         "Weight": 100.0
       },
@@ -216,7 +216,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_squidglistenliftdairy"
+          "PrimaryAssetName": "glider_wartybrine"
         },
         "Weight": 100.0
       },
@@ -225,7 +225,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_wartybrine"
+          "PrimaryAssetName": "glider_rustedblade"
         },
         "Weight": 100.0
       },
@@ -234,7 +234,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_dragonpry"
+          "PrimaryAssetName": "glider_id_110_teriyakifish"
         },
         "Weight": 100.0
       },
@@ -243,7 +243,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_dazzle"
+          "PrimaryAssetName": "glider_funkyfeather_cap"
         },
         "Weight": 100.0
       },
@@ -252,7 +252,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_41"
+          "PrimaryAssetName": "glider_dragonpry"
         },
         "Weight": 100.0
       },
@@ -270,7 +270,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_alpacalean_gel"
+          "PrimaryAssetName": "glider_bariumreboot32"
         },
         "Weight": 100.0
       },
@@ -279,7 +279,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_masakoreign"
+          "PrimaryAssetName": "umbrella_season_41"
         },
         "Weight": 100.0
       },
@@ -288,7 +288,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_110_teriyakifish"
+          "PrimaryAssetName": "glider_masakoreign"
         },
         "Weight": 100.0
       },
@@ -297,7 +297,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_cloudpuff"
+          "PrimaryAssetName": "glider_sprocketpoppy_yacht"
         },
         "Weight": 100.0
       },
@@ -306,7 +306,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_foundkelp"
+          "PrimaryAssetName": "umbrella_assassinsuit"
         },
         "Weight": 100.0
       },
@@ -315,7 +315,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_bariumreboot32"
+          "PrimaryAssetName": "glider_alpacalean_gel"
         },
         "Weight": 100.0
       },
@@ -324,7 +324,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_paveryoung"
+          "PrimaryAssetName": "umbrella_rankedtandem"
         },
         "Weight": 100.0
       },
@@ -333,7 +333,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_localtalent"
+          "PrimaryAssetName": "glider_noblecrusher"
         },
         "Weight": 100.0
       },
@@ -342,7 +342,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_sprocketpoppy_yacht"
+          "PrimaryAssetName": "glider_mistraven"
         },
         "Weight": 100.0
       },
@@ -351,7 +351,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_noblecrusher"
+          "PrimaryAssetName": "glider_paveryoung"
         },
         "Weight": 100.0
       },
@@ -360,7 +360,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lemonwrath_ochre"
+          "PrimaryAssetName": "umbrella_cloudpuff"
         },
         "Weight": 100.0
       },
@@ -369,7 +369,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rosychuckle"
+          "PrimaryAssetName": "glider_mistmylar"
         },
         "Weight": 100.0
       },
@@ -378,7 +378,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedtandem"
+          "PrimaryAssetName": "glider_foundkelp"
         },
         "Weight": 100.0
       },
@@ -387,7 +387,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_bentbaton"
+          "PrimaryAssetName": "glider_gourdriddance"
         },
         "Weight": 100.0
       },
@@ -396,7 +396,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_livelysugar_syrup"
+          "PrimaryAssetName": "glider_geniusblob"
         },
         "Weight": 100.0
       },
@@ -405,7 +405,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_geniusblob"
+          "PrimaryAssetName": "glider_rosychuckle"
         },
         "Weight": 100.0
       },
@@ -414,7 +414,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_assassinsuit"
+          "PrimaryAssetName": "glider_bentbaton"
         },
         "Weight": 100.0
       },
@@ -432,7 +432,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rumplewisp"
+          "PrimaryAssetName": "umbrella_season_06"
         },
         "Weight": 100.0
       },
@@ -441,7 +441,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_mistmylar"
+          "PrimaryAssetName": "glider_rumplewisp"
         },
         "Weight": 100.0
       },
@@ -450,7 +450,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_outlinelove"
+          "PrimaryAssetName": "glider_sherwolf"
         },
         "Weight": 100.0
       },
@@ -459,7 +459,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_mincepounce"
+          "PrimaryAssetName": "glider_clumsychew"
         },
         "Weight": 100.0
       },
@@ -468,7 +468,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_discobutler"
+          "PrimaryAssetName": "glider_ethicalnoggin"
         },
         "Weight": 100.0
       },
@@ -477,7 +477,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_mistraven"
+          "PrimaryAssetName": "umbrella_savvysailor"
         },
         "Weight": 100.0
       },
@@ -486,7 +486,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rowliaison"
+          "PrimaryAssetName": "umbrella_snowflake"
         },
         "Weight": 100.0
       },
@@ -495,7 +495,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_briskreign_glacier"
+          "PrimaryAssetName": "glider_lemonwrath_ochre"
         },
         "Weight": 100.0
       },
@@ -504,7 +504,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_iciclecane_bright"
+          "PrimaryAssetName": "glider_outlinelove"
         },
         "Weight": 100.0
       },
@@ -513,7 +513,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_clumsychew"
+          "PrimaryAssetName": "glider_localtalent"
         },
         "Weight": 100.0
       },
@@ -522,7 +522,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_savvysailor"
+          "PrimaryAssetName": "glider_doubleduty"
         },
         "Weight": 100.0
       },
@@ -531,7 +531,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_24"
+          "PrimaryAssetName": "glider_livelysugar_syrup"
         },
         "Weight": 100.0
       },
@@ -540,7 +540,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_shinysear"
+          "PrimaryAssetName": "glider_briskreign_glacier"
         },
         "Weight": 100.0
       },
@@ -549,7 +549,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_40"
+          "PrimaryAssetName": "glider_mincepounce"
         },
         "Weight": 100.0
       },
@@ -558,7 +558,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_berryflight"
+          "PrimaryAssetName": "glider_iciclecane_bright"
         },
         "Weight": 100.0
       },
@@ -567,7 +567,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_pixieparts_lava"
+          "PrimaryAssetName": "glider_id_329_gumballmale"
         },
         "Weight": 100.0
       },
@@ -576,7 +576,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_21"
+          "PrimaryAssetName": "umbrella_season_12"
         },
         "Weight": 100.0
       },
@@ -585,7 +585,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_doubleduty"
+          "PrimaryAssetName": "glider_rowliaison"
         },
         "Weight": 100.0
       },
@@ -603,7 +603,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_surgeraven"
+          "PrimaryAssetName": "umbrella_season_22"
         },
         "Weight": 100.0
       },
@@ -612,7 +612,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_season_40master"
+          "PrimaryAssetName": "umbrella_season_24"
         },
         "Weight": 100.0
       },
@@ -621,7 +621,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_zencrash"
+          "PrimaryAssetName": "glider_redpepper"
         },
         "Weight": 100.0
       },
@@ -630,7 +630,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_329_gumballmale"
+          "PrimaryAssetName": "umbrella_season_21"
         },
         "Weight": 100.0
       },
@@ -639,7 +639,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_sherwolf"
+          "PrimaryAssetName": "glider_surgeraven"
         },
         "Weight": 100.0
       },
@@ -648,7 +648,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_12"
+          "PrimaryAssetName": "glider_id_284_templefemale"
         },
         "Weight": 100.0
       },
@@ -666,7 +666,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_snowflake"
+          "PrimaryAssetName": "glider_discobutler"
         },
         "Weight": 100.0
       },
@@ -675,7 +675,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_ch6miniseason1"
+          "PrimaryAssetName": "glider_shinysear"
         },
         "Weight": 100.0
       },
@@ -684,7 +684,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_09"
+          "PrimaryAssetName": "glider_id_201_tntinafemale"
         },
         "Weight": 100.0
       },
@@ -693,7 +693,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_25"
+          "PrimaryAssetName": "umbrella_season_09"
         },
         "Weight": 100.0
       },
@@ -702,7 +702,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_22"
+          "PrimaryAssetName": "umbrella_season_11"
         },
         "Weight": 100.0
       },
@@ -711,7 +711,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_liftingaura"
+          "PrimaryAssetName": "umbrella_ch6miniseason1"
         },
         "Weight": 100.0
       },
@@ -720,7 +720,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_satirecaneode"
+          "PrimaryAssetName": "glider_jollytroll"
         },
         "Weight": 100.0
       },
@@ -729,7 +729,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_201_tntinafemale"
+          "PrimaryAssetName": "umbrella_season_40"
         },
         "Weight": 100.0
       },
@@ -738,7 +738,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_338_snowboardmale"
+          "PrimaryAssetName": "glider_grimhound"
         },
         "Weight": 100.0
       },
@@ -747,7 +747,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_11"
+          "PrimaryAssetName": "glider_zencrash"
         },
         "Weight": 100.0
       },
@@ -756,7 +756,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_sprocketpoppy_boat"
+          "PrimaryAssetName": "glider_id_338_snowboardmale"
         },
         "Weight": 100.0
       },
@@ -765,7 +765,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_29"
+          "PrimaryAssetName": "glider_season_40master"
         },
         "Weight": 100.0
       },
@@ -774,7 +774,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_bubblepuff"
+          "PrimaryAssetName": "umbrella_season_25"
         },
         "Weight": 100.0
       },
@@ -783,7 +783,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_stunningmountain"
+          "PrimaryAssetName": "umbrella_paperparasol"
         },
         "Weight": 100.0
       },
@@ -792,7 +792,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_buffet_rd4dp"
+          "PrimaryAssetName": "glider_pixieparts_lava"
         },
         "Weight": 100.0
       },
@@ -801,7 +801,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_ch6miniseason2"
+          "PrimaryAssetName": "glider_medievalsheath"
         },
         "Weight": 100.0
       },
@@ -810,7 +810,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_jollytroll"
+          "PrimaryAssetName": "umbrella_buffet_rd4dp"
         },
         "Weight": 100.0
       },
@@ -819,7 +819,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_slicevine"
+          "PrimaryAssetName": "glider_sprocketpoppy_boat"
         },
         "Weight": 100.0
       },
@@ -828,7 +828,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_grimhound"
+          "PrimaryAssetName": "glider_berryflight"
         },
         "Weight": 100.0
       },
@@ -837,7 +837,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_284_templefemale"
+          "PrimaryAssetName": "glider_stunningmountain"
         },
         "Weight": 100.0
       },
@@ -846,7 +846,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_ethicalnoggin"
+          "PrimaryAssetName": "umbrella_season_32"
         },
         "Weight": 100.0
       },
@@ -855,7 +855,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_noisecluelurch"
+          "PrimaryAssetName": "umbrella_ch6miniseason2"
         },
         "Weight": 100.0
       },
@@ -864,7 +864,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_06"
+          "PrimaryAssetName": "umbrella_season_29"
         },
         "Weight": 100.0
       },
@@ -873,7 +873,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_medievalsheath"
+          "PrimaryAssetName": "glider_liftingaura"
         },
         "Weight": 100.0
       },
@@ -882,7 +882,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_coppermoggy_prime"
+          "PrimaryAssetName": "glider_satirecaneode"
         },
         "Weight": 100.0
       },
@@ -891,7 +891,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_hangspec"
+          "PrimaryAssetName": "glider_missusmind"
         },
         "Weight": 100.0
       },
@@ -900,7 +900,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_paperparasol"
+          "PrimaryAssetName": "glider_rosedepth"
         },
         "Weight": 100.0
       },
@@ -909,7 +909,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_32"
+          "PrimaryAssetName": "glider_slicevine"
         },
         "Weight": 100.0
       },
@@ -918,7 +918,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_meteorwomen_alt"
+          "PrimaryAssetName": "glider_abstractmirror"
         },
         "Weight": 100.0
       },
@@ -927,34 +927,34 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_abstractmirror"
+          "PrimaryAssetName": "glider_cyberfuglitch"
         },
-        "Weight": 98.0
+        "Weight": 100.0
       },
       "102": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_redpepper"
+          "PrimaryAssetName": "glider_lazaruslens"
         },
-        "Weight": 95.0
+        "Weight": 99.0
       },
       "103": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_squibblysquid"
+          "PrimaryAssetName": "glider_piratepeak"
         },
-        "Weight": 95.0
+        "Weight": 96.0
       },
       "104": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_kartrocket"
+          "PrimaryAssetName": "glider_scorpionzero"
         },
         "Weight": 93.0
       },
@@ -963,74 +963,110 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_scorpionzero"
+          "PrimaryAssetName": "glider_blondejaw"
         },
-        "Weight": 91.0
+        "Weight": 93.0
       },
       "106": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_guidequiz"
+          "PrimaryAssetName": "glider_id_224_spacewandererfemale"
         },
-        "Weight": 90.0
+        "Weight": 92.0
       },
       "107": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_34"
+          "PrimaryAssetName": "glider_meteorwomen_alt"
         },
-        "Weight": 89.0
+        "Weight": 92.0
       },
       "108": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season36"
+          "PrimaryAssetName": "umbrella_bubblepuff"
         },
-        "Weight": 89.0
+        "Weight": 90.0
       },
       "109": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_33"
+          "PrimaryAssetName": "umbrella_shinglestole"
         },
-        "Weight": 87.0
+        "Weight": 90.0
       },
       "110": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_polaritywinn"
+          "PrimaryAssetName": "glider_id_078_vampire"
         },
-        "Weight": 87.0
+        "Weight": 89.0
       },
       "111": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_shinglestole"
+          "PrimaryAssetName": "glider_hornedjudgment"
         },
-        "Weight": 85.0
+        "Weight": 89.0
       },
       "112": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_hornedjudgment"
+          "PrimaryAssetName": "glider_hangspec"
+        },
+        "Weight": 88.0
+      },
+      "113": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_314_spacechimpmale"
+        },
+        "Weight": 88.0
+      },
+      "114": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "umbrella_season_18"
+        },
+        "Weight": 88.0
+      },
+      "115": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_homerange"
+        },
+        "Weight": 86.0
+      },
+      "116": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_259_lexafemale"
         },
         "Weight": 85.0
       },
-      "113": {
+      "117": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -1039,106 +1075,106 @@
         },
         "Weight": 85.0
       },
-      "114": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_224_spacewandererfemale"
-        },
-        "Weight": 85.0
-      },
-      "115": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_blondejaw"
-        },
-        "Weight": 84.0
-      },
-      "116": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_localzillanight"
-        },
-        "Weight": 83.0
-      },
-      "117": {
+      "118": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
           "PrimaryAssetName": "umbrella_rankedtandem_reload"
         },
-        "Weight": 83.0
-      },
-      "118": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_venice"
-        },
-        "Weight": 81.0
+        "Weight": 85.0
       },
       "119": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_spaceplunge"
+          "PrimaryAssetName": "glider_squibblysquid"
         },
-        "Weight": 81.0
+        "Weight": 84.0
       },
       "120": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_259_lexafemale"
+          "PrimaryAssetName": "glider_kartrocket"
         },
-        "Weight": 80.0
+        "Weight": 83.0
       },
       "121": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_spatialtravel"
+          "PrimaryAssetName": "glider_bengalbasher"
         },
-        "Weight": 80.0
+        "Weight": 83.0
       },
       "122": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_304_buffetfemale_aof61"
+          "PrimaryAssetName": "umbrella_season_34"
         },
-        "Weight": 80.0
+        "Weight": 83.0
       },
       "123": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_cyberfuglitch"
+          "PrimaryAssetName": "glider_venice"
         },
-        "Weight": 79.0
+        "Weight": 82.0
       },
       "124": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_missusmind"
+          "PrimaryAssetName": "glider_localzillanight"
         },
-        "Weight": 78.0
+        "Weight": 81.0
       },
       "125": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "umbrella_season_33"
+        },
+        "Weight": 80.0
+      },
+      "126": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "umbrella_season36"
+        },
+        "Weight": 80.0
+      },
+      "127": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_304_buffetfemale_aof61"
+        },
+        "Weight": 79.0
+      },
+      "128": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_335_logarithm_40qgl"
+        },
+        "Weight": 79.0
+      },
+      "129": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -1147,133 +1183,124 @@
         },
         "Weight": 77.0
       },
-      "126": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_314_spacechimpmale"
-        },
-        "Weight": 76.0
-      },
-      "127": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_rampcanal"
-        },
-        "Weight": 75.0
-      },
-      "128": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "umbrella_season_18"
-        },
-        "Weight": 75.0
-      },
-      "129": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_blowwire"
-        },
-        "Weight": 74.0
-      },
       "130": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_blazepuff"
+          "PrimaryAssetName": "glider_coppermoggy_prime"
         },
-        "Weight": 73.0
+        "Weight": 76.0
       },
       "131": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_cubicvice"
+          "PrimaryAssetName": "umbrella_season_04"
         },
-        "Weight": 73.0
+        "Weight": 75.0
       },
       "132": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_14"
+          "PrimaryAssetName": "glider_id_283_obsidianfemale"
         },
-        "Weight": 71.0
+        "Weight": 75.0
       },
       "133": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_radiopaca"
+          "PrimaryAssetName": "umbrella_season_10"
         },
-        "Weight": 71.0
+        "Weight": 74.0
       },
       "134": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_quichelorrainelime"
+          "PrimaryAssetName": "glider_rampcanal"
         },
-        "Weight": 71.0
+        "Weight": 74.0
       },
       "135": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_vilesting"
+          "PrimaryAssetName": "glider_quichelorrainelime"
         },
-        "Weight": 71.0
+        "Weight": 74.0
       },
       "136": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_bengalbasher"
+          "PrimaryAssetName": "umbrella_season_14"
         },
-        "Weight": 70.0
+        "Weight": 74.0
       },
       "137": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_40_reload"
+          "PrimaryAssetName": "glider_spatialtravel"
         },
-        "Weight": 70.0
+        "Weight": 73.0
       },
       "138": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_370_fuchsiafemale"
+          "PrimaryAssetName": "glider_polaritywinn"
         },
-        "Weight": 70.0
+        "Weight": 72.0
       },
       "139": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_385_staminamale"
+          "PrimaryAssetName": "glider_spaceplunge"
         },
-        "Weight": 69.0
+        "Weight": 72.0
       },
       "140": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_370_fuchsiafemale"
+        },
+        "Weight": 71.0
+      },
+      "141": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_darkstance"
+        },
+        "Weight": 71.0
+      },
+      "142": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_195_buffcatmale"
+        },
+        "Weight": 70.0
+      },
+      "143": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -1282,57 +1309,30 @@
         },
         "Weight": 69.0
       },
-      "141": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_corestreet"
-        },
-        "Weight": 69.0
-      },
-      "142": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_marinecarve"
-        },
-        "Weight": 69.0
-      },
-      "143": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "umbrella_season_04"
-        },
-        "Weight": 68.0
-      },
       "144": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_283_obsidianfemale"
+          "PrimaryAssetName": "glider_blowwire"
         },
-        "Weight": 68.0
+        "Weight": 67.0
       },
       "145": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_zirconsweep"
+          "PrimaryAssetName": "glider_id_385_staminamale"
         },
-        "Weight": 67.0
+        "Weight": 66.0
       },
       "146": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_10"
+          "PrimaryAssetName": "glider_cubicvice"
         },
         "Weight": 66.0
       },
@@ -1341,7 +1341,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rosedepth"
+          "PrimaryAssetName": "glider_id_363_snowfallfemale"
         },
         "Weight": 65.0
       },
@@ -1350,7 +1350,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_slickswish"
+          "PrimaryAssetName": "umbrella_season_08"
         },
         "Weight": 65.0
       },
@@ -1359,43 +1359,43 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_nitroflow"
+          "PrimaryAssetName": "glider_nebula"
         },
-        "Weight": 65.0
+        "Weight": 64.0
       },
       "150": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_synthcontact"
+          "PrimaryAssetName": "glider_warthog"
         },
-        "Weight": 65.0
+        "Weight": 64.0
       },
       "151": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_polishedjade"
+          "PrimaryAssetName": "glider_corestreet"
         },
-        "Weight": 64.0
+        "Weight": 63.0
       },
       "152": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lazaruslens"
+          "PrimaryAssetName": "glider_nitroflow"
         },
-        "Weight": 64.0
+        "Weight": 63.0
       },
       "153": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_selenecobra"
+          "PrimaryAssetName": "umbrella_season_40_reload"
         },
         "Weight": 63.0
       },
@@ -1404,128 +1404,83 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_335_logarithm_40qgl"
+          "PrimaryAssetName": "glider_jellyfishbarren"
         },
-        "Weight": 63.0
+        "Weight": 61.0
       },
       "155": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_jellyfishbarren"
+          "PrimaryAssetName": "glider_zirconsweep"
         },
-        "Weight": 62.0
+        "Weight": 61.0
       },
       "156": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_derangedmile"
+          "PrimaryAssetName": "glider_radiopaca"
         },
-        "Weight": 62.0
+        "Weight": 61.0
       },
       "157": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_326_headbandmale"
+          "PrimaryAssetName": "umbrella_season_20"
         },
-        "Weight": 62.0
+        "Weight": 60.0
       },
       "158": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_08"
+          "PrimaryAssetName": "glider_id_323_gigglemale_xadt7"
         },
-        "Weight": 62.0
+        "Weight": 60.0
       },
       "159": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_28"
+          "PrimaryAssetName": "umbrella_season_07"
         },
-        "Weight": 62.0
+        "Weight": 59.0
       },
       "160": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_plantstand"
+          "PrimaryAssetName": "glider_id_326_headbandmale"
         },
-        "Weight": 61.0
+        "Weight": 59.0
       },
       "161": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_nebula"
+          "PrimaryAssetName": "umbrella_season_26"
         },
-        "Weight": 61.0
+        "Weight": 59.0
       },
       "162": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_unhinged"
-        },
-        "Weight": 61.0
-      },
-      "163": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_363_snowfallfemale"
-        },
-        "Weight": 61.0
-      },
-      "164": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_homerange"
-        },
-        "Weight": 60.0
-      },
-      "165": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "umbrella_season_20"
-        },
-        "Weight": 59.0
-      },
-      "166": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_ceremonialguard"
-        },
-        "Weight": 59.0
-      },
-      "167": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "umbrella_season_26"
+          "PrimaryAssetName": "umbrella_blazepuff"
         },
         "Weight": 58.0
       },
-      "168": {
+      "163": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -1534,34 +1489,16 @@
         },
         "Weight": 58.0
       },
-      "169": {
+      "164": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_agentsherbert"
-        },
-        "Weight": 58.0
-      },
-      "170": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_229_angler"
+          "PrimaryAssetName": "glider_plantstand"
         },
         "Weight": 57.0
       },
-      "171": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_piratepeak"
-        },
-        "Weight": 57.0
-      },
-      "172": {
+      "165": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -1570,21 +1507,84 @@
         },
         "Weight": 57.0
       },
+      "166": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "umbrella_liftaxis"
+        },
+        "Weight": 57.0
+      },
+      "167": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "umbrella_dimpledot"
+        },
+        "Weight": 57.0
+      },
+      "168": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "umbrella_unhinged"
+        },
+        "Weight": 56.0
+      },
+      "169": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_vilesting"
+        },
+        "Weight": 56.0
+      },
+      "170": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_106_fortnitedj"
+        },
+        "Weight": 56.0
+      },
+      "171": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_guidequiz"
+        },
+        "Weight": 56.0
+      },
+      "172": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_selenecobra"
+        },
+        "Weight": 56.0
+      },
       "173": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_104_math"
+          "PrimaryAssetName": "umbrella_season_28"
         },
-        "Weight": 56.0
+        "Weight": 55.0
       },
       "174": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_silenttempo"
+          "PrimaryAssetName": "glider_synthcontact"
         },
         "Weight": 55.0
       },
@@ -1593,7 +1593,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_37"
+          "PrimaryAssetName": "glider_agentsherbert"
         },
         "Weight": 55.0
       },
@@ -1602,25 +1602,25 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_dimpledot"
+          "PrimaryAssetName": "glider_derangedmile"
         },
-        "Weight": 54.0
+        "Weight": 55.0
       },
       "177": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_sunlit"
+          "PrimaryAssetName": "founderumbrella"
         },
-        "Weight": 54.0
+        "Weight": 55.0
       },
       "178": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_trackwaver"
+          "PrimaryAssetName": "glider_polishedjade"
         },
         "Weight": 54.0
       },
@@ -1631,14 +1631,14 @@
           },
           "PrimaryAssetName": "glider_id_222_racerzeromale"
         },
-        "Weight": 53.0
+        "Weight": 54.0
       },
       "180": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_darkstance"
+          "PrimaryAssetName": "glider_slickswish"
         },
         "Weight": 53.0
       },
@@ -1647,7 +1647,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_195_buffcatmale"
+          "PrimaryAssetName": "umbrella_rankedremixcarrot"
         },
         "Weight": 53.0
       },
@@ -1656,115 +1656,115 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_pinkspike"
+          "PrimaryAssetName": "glider_marinecarve"
         },
-        "Weight": 51.0
+        "Weight": 53.0
       },
       "183": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_07"
+          "PrimaryAssetName": "glider_id_104_math"
         },
-        "Weight": 51.0
+        "Weight": 53.0
       },
       "184": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_liftaxis"
+          "PrimaryAssetName": "glider_ceremonialguard"
         },
-        "Weight": 51.0
+        "Weight": 52.0
       },
       "185": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_candor"
+          "PrimaryAssetName": "glider_id_095_witch"
         },
-        "Weight": 51.0
+        "Weight": 52.0
       },
       "186": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_warthog"
+          "PrimaryAssetName": "glider_candor"
         },
-        "Weight": 50.0
+        "Weight": 52.0
       },
       "187": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_muffinladlegaschin"
+          "PrimaryAssetName": "glider_id_055_streetracerblack"
         },
-        "Weight": 50.0
+        "Weight": 51.0
       },
       "188": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedremixcarrot"
+          "PrimaryAssetName": "glider_id_311_cerealboxmale"
         },
-        "Weight": 49.0
+        "Weight": 51.0
       },
       "189": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lemoncartgranite"
+          "PrimaryAssetName": "glider_noisecluelurch"
         },
-        "Weight": 49.0
+        "Weight": 50.0
       },
       "190": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_23"
+          "PrimaryAssetName": "glider_muffinladlegaschin"
         },
-        "Weight": 48.0
+        "Weight": 49.0
       },
       "191": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_323_gigglemale_xadt7"
+          "PrimaryAssetName": "glider_megatoof"
         },
-        "Weight": 47.0
+        "Weight": 49.0
       },
       "192": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_311_cerealboxmale"
+          "PrimaryAssetName": "glider_gatehound"
         },
-        "Weight": 47.0
+        "Weight": 48.0
       },
       "193": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_gourdriddance"
+          "PrimaryAssetName": "glider_silenttempo"
         },
-        "Weight": 47.0
+        "Weight": 48.0
       },
       "194": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_megatoof"
+          "PrimaryAssetName": "glider_medicrow"
         },
         "Weight": 47.0
       },
@@ -1773,7 +1773,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_218_mechanicalengineerfemale"
+          "PrimaryAssetName": "glider_id_229_angler"
         },
         "Weight": 47.0
       },
@@ -1782,16 +1782,16 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_strategicspur"
+          "PrimaryAssetName": "glider_id_218_mechanicalengineerfemale"
         },
-        "Weight": 47.0
+        "Weight": 46.0
       },
       "197": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_106_fortnitedj"
+          "PrimaryAssetName": "glider_gogglebud"
         },
         "Weight": 46.0
       },
@@ -1800,7 +1800,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_055_streetracerblack"
+          "PrimaryAssetName": "glider_id_258_jupitermale_lb0te"
         },
         "Weight": 46.0
       },
@@ -1809,16 +1809,16 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_356_cyberarmorfemale"
+          "PrimaryAssetName": "glider_sunlit"
         },
-        "Weight": 46.0
+        "Weight": 45.0
       },
       "200": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_futureback"
+          "PrimaryAssetName": "glider_pinkspike"
         },
         "Weight": 45.0
       },
@@ -1827,7 +1827,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_078_vampire"
+          "PrimaryAssetName": "glider_id_303_surfingsummerfemale"
         },
         "Weight": 44.0
       },
@@ -1836,7 +1836,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "founderumbrella"
+          "PrimaryAssetName": "glider_taperslink"
         },
         "Weight": 44.0
       },
@@ -1845,7 +1845,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_258_jupitermale_lb0te"
+          "PrimaryAssetName": "umbrella_season_37"
         },
         "Weight": 44.0
       },
@@ -1854,7 +1854,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_apprentice"
+          "PrimaryAssetName": "glider_clinchmetal"
         },
         "Weight": 44.0
       },
@@ -1863,83 +1863,56 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_modernmilitary_crisp"
+          "PrimaryAssetName": "glider_id_118_squishy"
         },
-        "Weight": 44.0
+        "Weight": 43.0
       },
       "206": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_303_surfingsummerfemale"
+          "PrimaryAssetName": "umbrella_season_15"
         },
-        "Weight": 44.0
+        "Weight": 43.0
       },
       "207": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_15"
+          "PrimaryAssetName": "umbrella_season_23"
         },
-        "Weight": 44.0
+        "Weight": 43.0
       },
       "208": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_diamondheart"
+          "PrimaryAssetName": "umbrella_buildabrella"
         },
-        "Weight": 43.0
+        "Weight": 42.0
       },
       "209": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_wiryperk"
+          "PrimaryAssetName": "umbrella_futureback"
         },
-        "Weight": 43.0
+        "Weight": 42.0
       },
       "210": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_indiebucket"
+          "PrimaryAssetName": "umbrella_season_13"
         },
-        "Weight": 43.0
+        "Weight": 42.0
       },
       "211": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_traffichat"
-        },
-        "Weight": 42.0
-      },
-      "212": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_gatehound"
-        },
-        "Weight": 42.0
-      },
-      "213": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_095_witch"
-        },
-        "Weight": 42.0
-      },
-      "214": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -1948,12 +1921,39 @@
         },
         "Weight": 42.0
       },
-      "215": {
+      "212": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
           "PrimaryAssetName": "umbrella_season_05"
+        },
+        "Weight": 42.0
+      },
+      "213": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_trackwaver"
+        },
+        "Weight": 41.0
+      },
+      "214": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_380_bariumfemale"
+        },
+        "Weight": 41.0
+      },
+      "215": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_lycheenickel"
         },
         "Weight": 41.0
       },
@@ -1962,7 +1962,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_gogglebud"
+          "PrimaryAssetName": "glider_id_356_cyberarmorfemale"
         },
         "Weight": 40.0
       },
@@ -1971,25 +1971,25 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_358_knightcatfemale"
+          "PrimaryAssetName": "glider_id_315_teriyakifishtoon"
         },
-        "Weight": 40.0
+        "Weight": 39.0
       },
       "218": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_buildabrella"
+          "PrimaryAssetName": "glider_apprentice"
         },
-        "Weight": 40.0
+        "Weight": 39.0
       },
       "219": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_13"
+          "PrimaryAssetName": "umbrella_storm"
         },
         "Weight": 39.0
       },
@@ -1998,7 +1998,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_347_peachmale"
+          "PrimaryAssetName": "umbrella_ogvault"
         },
         "Weight": 39.0
       },
@@ -2007,7 +2007,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_178_blackmondaymale_03m3e"
+          "PrimaryAssetName": "glider_modernmilitary_crisp"
         },
         "Weight": 39.0
       },
@@ -2016,7 +2016,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_clinchmetal"
+          "PrimaryAssetName": "glider_lemoncartgranite"
         },
         "Weight": 39.0
       },
@@ -2025,7 +2025,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_315_teriyakifishtoon"
+          "PrimaryAssetName": "glider_strategicspur"
         },
         "Weight": 39.0
       },
@@ -2034,7 +2034,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_380_bariumfemale"
+          "PrimaryAssetName": "glider_id_347_peachmale"
         },
         "Weight": 38.0
       },
@@ -2043,38 +2043,20 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_medicrow"
+          "PrimaryAssetName": "glider_headset"
         },
-        "Weight": 38.0
+        "Weight": 37.0
       },
       "226": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_17"
-        },
-        "Weight": 38.0
-      },
-      "227": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_289_cavernmale_5i9rd"
-        },
-        "Weight": 38.0
-      },
-      "228": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "umbrella_ogvault"
+          "PrimaryAssetName": "glider_diamondheart"
         },
         "Weight": 37.0
       },
-      "229": {
+      "227": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -2083,6 +2065,24 @@
         },
         "Weight": 37.0
       },
+      "228": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_293_antiquemale"
+        },
+        "Weight": 36.0
+      },
+      "229": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_289_cavernmale_5i9rd"
+        },
+        "Weight": 36.0
+      },
       "230": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
@@ -2090,25 +2090,25 @@
           },
           "PrimaryAssetName": "umbrella_season_30"
         },
-        "Weight": 37.0
+        "Weight": 36.0
       },
       "231": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_brawnybass"
+          "PrimaryAssetName": "umbrella_season_17"
         },
-        "Weight": 37.0
+        "Weight": 36.0
       },
       "232": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_369_collectablemale"
+          "PrimaryAssetName": "umbrella_peakvoyage"
         },
-        "Weight": 37.0
+        "Weight": 35.0
       },
       "233": {
         "PrimaryAssetId": {
@@ -2117,50 +2117,50 @@
           },
           "PrimaryAssetName": "glider_rebelclaw"
         },
-        "Weight": 36.0
+        "Weight": 34.0
       },
       "234": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_headset"
+          "PrimaryAssetName": "glider_solosnooze"
         },
-        "Weight": 35.0
+        "Weight": 34.0
       },
       "235": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_solosnooze"
+          "PrimaryAssetName": "glider_id_320_critterravenmale"
         },
-        "Weight": 35.0
+        "Weight": 33.0
       },
       "236": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_19"
+          "PrimaryAssetName": "glider_wingedmedieval"
         },
-        "Weight": 35.0
+        "Weight": 33.0
       },
       "237": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_118_squishy"
+          "PrimaryAssetName": "glider_id_302_majestymale_t1icf"
         },
-        "Weight": 34.0
+        "Weight": 33.0
       },
       "238": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_coolslice_golf"
+          "PrimaryAssetName": "glider_wiryperk"
         },
         "Weight": 33.0
       },
@@ -2169,97 +2169,97 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_200_photographerfemale"
+          "PrimaryAssetName": "glider_indiebucket"
         },
-        "Weight": 32.0
+        "Weight": 33.0
       },
       "240": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_peakvoyage"
+          "PrimaryAssetName": "glider_id_358_knightcatfemale"
         },
-        "Weight": 32.0
+        "Weight": 33.0
       },
       "241": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_ebony"
+          "PrimaryAssetName": "glider_id_369_collectablemale"
         },
-        "Weight": 30.0
+        "Weight": 33.0
       },
       "242": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_wealthlambfateuniversal"
+          "PrimaryAssetName": "glider_quartz"
         },
-        "Weight": 30.0
+        "Weight": 32.0
       },
       "243": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_season_16"
+          "PrimaryAssetName": "umbrella_coltfetch"
         },
-        "Weight": 30.0
+        "Weight": 32.0
       },
       "244": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_coltfetch"
+          "PrimaryAssetName": "glider_brawnybass"
         },
-        "Weight": 29.0
+        "Weight": 31.0
       },
       "245": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_radiumfox"
+          "PrimaryAssetName": "umbrella_season_19"
         },
-        "Weight": 29.0
+        "Weight": 31.0
       },
       "246": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_320_critterravenmale"
+          "PrimaryAssetName": "glider_traffichat"
         },
-        "Weight": 29.0
+        "Weight": 30.0
       },
       "247": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_302_majestymale_t1icf"
+          "PrimaryAssetName": "glider_id_200_photographerfemale"
         },
-        "Weight": 29.0
+        "Weight": 30.0
       },
       "248": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_honorbrace"
+          "PrimaryAssetName": "glider_id_379_gloomfemale"
         },
-        "Weight": 29.0
+        "Weight": 30.0
       },
       "249": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_371_lancelotmale"
+          "PrimaryAssetName": "glider_bites"
         },
         "Weight": 29.0
       },
@@ -2268,25 +2268,25 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_293_antiquemale"
+          "PrimaryAssetName": "glider_id_178_blackmondaymale_03m3e"
         },
-        "Weight": 28.0
+        "Weight": 29.0
       },
       "251": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_prairieskip"
+          "PrimaryAssetName": "glider_radiumfox"
         },
-        "Weight": 28.0
+        "Weight": 29.0
       },
       "252": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_inferno"
+          "PrimaryAssetName": "glider_coolslice_golf"
         },
         "Weight": 28.0
       },
@@ -2295,25 +2295,25 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lilsplit"
+          "PrimaryAssetName": "umbrella_season_16"
         },
-        "Weight": 28.0
+        "Weight": 27.0
       },
       "254": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_skullbrite_cotton"
+          "PrimaryAssetName": "glider_ebony"
         },
-        "Weight": 28.0
+        "Weight": 27.0
       },
       "255": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_boomshot"
+          "PrimaryAssetName": "glider_id_308_vividmale_h8jas"
         },
         "Weight": 27.0
       },
@@ -2322,7 +2322,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_birdnest"
+          "PrimaryAssetName": "glider_inferno"
         },
         "Weight": 27.0
       },
@@ -2331,52 +2331,52 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_taperslink"
+          "PrimaryAssetName": "glider_birdnest"
         },
-        "Weight": 27.0
+        "Weight": 26.0
       },
       "258": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_bites"
+          "PrimaryAssetName": "glider_id_001"
         },
-        "Weight": 26.0
+        "Weight": 25.0
       },
       "259": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_storm"
+          "PrimaryAssetName": "glider_id_176_blackmondaycape_4p79k"
         },
-        "Weight": 26.0
+        "Weight": 25.0
       },
       "260": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_wingedmedieval"
+          "PrimaryAssetName": "glider_id_088_evilcowboy"
         },
-        "Weight": 26.0
+        "Weight": 25.0
       },
       "261": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_quartz"
+          "PrimaryAssetName": "glider_wealthlambfateuniversal"
         },
-        "Weight": 26.0
+        "Weight": 25.0
       },
       "262": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_cindermax"
+          "PrimaryAssetName": "glider_id_322_drifthorrormale"
         },
         "Weight": 25.0
       },
@@ -2385,29 +2385,11 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_royalangst"
+          "PrimaryAssetName": "glider_prairieskip"
         },
-        "Weight": 25.0
+        "Weight": 24.0
       },
       "264": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_308_vividmale_h8jas"
-        },
-        "Weight": 24.0
-      },
-      "265": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_375_darkstormyellow"
-        },
-        "Weight": 24.0
-      },
-      "266": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -2416,12 +2398,30 @@
         },
         "Weight": 24.0
       },
+      "265": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "umbrella_vendetta"
+        },
+        "Weight": 24.0
+      },
+      "266": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_boomshot"
+        },
+        "Weight": 24.0
+      },
       "267": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_285_towersentinelfemale"
+          "PrimaryAssetName": "glider_id_371_lancelotmale"
         },
         "Weight": 23.0
       },
@@ -2430,7 +2430,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_stormyearn"
+          "PrimaryAssetName": "glider_lilsplit"
         },
         "Weight": 23.0
       },
@@ -2439,25 +2439,25 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_313_divisionfemale"
+          "PrimaryAssetName": "glider_id_083_darkbomber"
         },
-        "Weight": 23.0
+        "Weight": 22.0
       },
       "270": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_morningsoak_cook"
+          "PrimaryAssetName": "glider_honorbrace"
         },
-        "Weight": 23.0
+        "Weight": 22.0
       },
       "271": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_176_blackmondaycape_4p79k"
+          "PrimaryAssetName": "glider_skullbrite_cotton"
         },
         "Weight": 22.0
       },
@@ -2466,7 +2466,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_default_jolly"
+          "PrimaryAssetName": "glider_id_242_kevincouture"
         },
         "Weight": 22.0
       },
@@ -2475,7 +2475,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_261_spacefighterfemale"
+          "PrimaryAssetName": "glider_id_134_darkvikingfire"
         },
         "Weight": 22.0
       },
@@ -2484,56 +2484,11 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_quickburst"
+          "PrimaryAssetName": "glider_id_285_towersentinelfemale"
         },
-        "Weight": 22.0
+        "Weight": 21.0
       },
       "275": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_294_believerfemale"
-        },
-        "Weight": 21.0
-      },
-      "276": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_307_monarchfemale"
-        },
-        "Weight": 21.0
-      },
-      "277": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_stagecue"
-        },
-        "Weight": 21.0
-      },
-      "278": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_001"
-        },
-        "Weight": 21.0
-      },
-      "279": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_peacefulpoemremix"
-        },
-        "Weight": 21.0
-      },
-      "280": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -2542,88 +2497,25 @@
         },
         "Weight": 21.0
       },
-      "281": {
+      "276": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_298_ruckusmale"
+          "PrimaryAssetName": "glider_id_024_reaper"
         },
         "Weight": 21.0
       },
-      "282": {
+      "277": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_musketslinger"
+          "PrimaryAssetName": "glider_cindermax"
         },
-        "Weight": 20.0
+        "Weight": 21.0
       },
-      "283": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_sacredcuddle"
-        },
-        "Weight": 20.0
-      },
-      "284": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_140_shatterfly"
-        },
-        "Weight": 20.0
-      },
-      "285": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_talonpane"
-        },
-        "Weight": 20.0
-      },
-      "286": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "umbrella_vendetta"
-        },
-        "Weight": 20.0
-      },
-      "287": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "umbrella_buffet_silver_p2huy"
-        },
-        "Weight": 20.0
-      },
-      "288": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_373_pinkwidowfemale"
-        },
-        "Weight": 20.0
-      },
-      "289": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_pizzaparty"
-        },
-        "Weight": 20.0
-      },
-      "290": {
+      "278": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -2632,70 +2524,124 @@
         },
         "Weight": 20.0
       },
-      "291": {
+      "279": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_355_cadetfemale"
+          "PrimaryAssetName": "umbrella_buffet_silver_p2huy"
+        },
+        "Weight": 20.0
+      },
+      "280": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_313_divisionfemale"
+        },
+        "Weight": 20.0
+      },
+      "281": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_298_ruckusmale"
+        },
+        "Weight": 20.0
+      },
+      "282": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_140_shatterfly"
         },
         "Weight": 19.0
       },
-      "292": {
+      "283": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_stormyearn"
+        },
+        "Weight": 19.0
+      },
+      "284": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_royalangst"
+        },
+        "Weight": 19.0
+      },
+      "285": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_375_darkstormyellow"
+        },
+        "Weight": 19.0
+      },
+      "286": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_165_knightremix"
+        },
+        "Weight": 19.0
+      },
+      "287": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_261_spacefighterfemale"
+        },
+        "Weight": 19.0
+      },
+      "288": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_pizzaparty"
+        },
+        "Weight": 18.0
+      },
+      "289": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_quickburst"
+        },
+        "Weight": 18.0
+      },
+      "290": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_morningsoak_cook"
+        },
+        "Weight": 18.0
+      },
+      "291": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
           "PrimaryAssetName": "glider_raisinhunt_rag"
         },
-        "Weight": 19.0
+        "Weight": 18.0
       },
-      "293": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_rippedharvester"
-        },
-        "Weight": 19.0
-      },
-      "294": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_184_viper"
-        },
-        "Weight": 19.0
-      },
-      "295": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_chillcat"
-        },
-        "Weight": 19.0
-      },
-      "296": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_speedypeas"
-        },
-        "Weight": 19.0
-      },
-      "297": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_330_lonewolfmale"
-        },
-        "Weight": 19.0
-      },
-      "298": {
+      "292": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -2704,34 +2650,79 @@
         },
         "Weight": 18.0
       },
-      "299": {
+      "293": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_255_flapjackwranglermale"
+          "PrimaryAssetName": "glider_id_307_monarchfemale"
         },
         "Weight": 18.0
       },
-      "300": {
+      "294": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_097_feathers"
+        },
+        "Weight": 18.0
+      },
+      "295": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_184_viper"
+        },
+        "Weight": 18.0
+      },
+      "296": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_peacefulpoemremix"
+        },
+        "Weight": 18.0
+      },
+      "297": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_default_jolly"
+        },
+        "Weight": 17.0
+      },
+      "298": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_294_believerfemale"
+        },
+        "Weight": 17.0
+      },
+      "299": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
           "PrimaryAssetName": "glider_id_197_henchmanmale"
         },
-        "Weight": 18.0
+        "Weight": 17.0
       },
-      "301": {
+      "300": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_165_knightremix"
+          "PrimaryAssetName": "glider_rushrustle"
         },
         "Weight": 17.0
       },
-      "302": {
+      "301": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -2740,12 +2731,21 @@
         },
         "Weight": 17.0
       },
+      "302": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_sacredcuddle"
+        },
+        "Weight": 17.0
+      },
       "303": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_134_darkvikingfire"
+          "PrimaryAssetName": "glider_id_015_brite"
         },
         "Weight": 17.0
       },
@@ -2754,7 +2754,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_377_ensemblemaroonmale"
+          "PrimaryAssetName": "glider_musketslinger"
         },
         "Weight": 17.0
       },
@@ -2763,18 +2763,18 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_097_feathers"
+          "PrimaryAssetName": "glider_lazuli"
         },
-        "Weight": 17.0
+        "Weight": 16.0
       },
       "306": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_242_kevincouture"
+          "PrimaryAssetName": "glider_id_104_durrburger"
         },
-        "Weight": 17.0
+        "Weight": 16.0
       },
       "307": {
         "PrimaryAssetId": {
@@ -2790,7 +2790,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_graffititon"
+          "PrimaryAssetName": "umbrella_summervividbrainfemale"
         },
         "Weight": 16.0
       },
@@ -2799,7 +2799,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_378_ensemblesnakemale"
+          "PrimaryAssetName": "glider_id_330_lonewolfmale"
         },
         "Weight": 16.0
       },
@@ -2808,7 +2808,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lycheenickel"
+          "PrimaryAssetName": "glider_id_255_flapjackwranglermale"
         },
         "Weight": 16.0
       },
@@ -2817,7 +2817,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_summervividbrainfemale"
+          "PrimaryAssetName": "glider_id_373_pinkwidowfemale"
         },
         "Weight": 16.0
       },
@@ -2826,43 +2826,43 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_hydratrumpetcoach"
+          "PrimaryAssetName": "glider_stagecue"
         },
-        "Weight": 16.0
+        "Weight": 15.0
       },
       "313": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lazylizz"
+          "PrimaryAssetName": "glider_id_016_tactical"
         },
-        "Weight": 16.0
+        "Weight": 15.0
       },
       "314": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_highbeam"
+          "PrimaryAssetName": "glider_id_017_assassin"
         },
-        "Weight": 16.0
+        "Weight": 15.0
       },
       "315": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_015_brite"
+          "PrimaryAssetName": "glider_id_085_skulltrooper"
         },
-        "Weight": 16.0
+        "Weight": 15.0
       },
       "316": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_083_darkbomber"
+          "PrimaryAssetName": "glider_rippedharvester"
         },
         "Weight": 15.0
       },
@@ -2871,7 +2871,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_354_binaryfemale"
+          "PrimaryAssetName": "glider_id_058_shark"
         },
         "Weight": 15.0
       },
@@ -2880,7 +2880,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_035_candy"
+          "PrimaryAssetName": "glider_id_141_ashtonboardwalk"
         },
         "Weight": 15.0
       },
@@ -2889,43 +2889,43 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_vitalpsych"
+          "PrimaryAssetName": "glider_id_377_ensemblemaroonmale"
         },
-        "Weight": 15.0
+        "Weight": 14.0
       },
       "320": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rushrustle"
+          "PrimaryAssetName": "glider_id_378_ensemblesnakemale"
         },
-        "Weight": 15.0
+        "Weight": 14.0
       },
       "321": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_122_valentines"
+          "PrimaryAssetName": "glider_id_355_cadetfemale"
         },
-        "Weight": 15.0
+        "Weight": 14.0
       },
       "322": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_104_durrburger"
+          "PrimaryAssetName": "glider_graffititon"
         },
-        "Weight": 15.0
+        "Weight": 14.0
       },
       "323": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_379_gloomfemale"
+          "PrimaryAssetName": "glider_chillcat"
         },
         "Weight": 14.0
       },
@@ -2934,7 +2934,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_016_tactical"
+          "PrimaryAssetName": "glider_id_247_skull"
         },
         "Weight": 14.0
       },
@@ -2943,7 +2943,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_tideking"
+          "PrimaryAssetName": "glider_highbeam"
         },
         "Weight": 14.0
       },
@@ -2952,7 +2952,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_017_assassin"
+          "PrimaryAssetName": "glider_id_122_valentines"
         },
         "Weight": 14.0
       },
@@ -2961,7 +2961,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_wealthlambfate"
+          "PrimaryAssetName": "glider_speedypeas"
         },
         "Weight": 14.0
       },
@@ -2970,7 +2970,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_124_medusa"
+          "PrimaryAssetName": "glider_id_070_darkviking"
         },
         "Weight": 14.0
       },
@@ -2979,7 +2979,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_310_buffllamamale"
+          "PrimaryAssetName": "glider_id_074_raptorarcticcamo"
         },
         "Weight": 14.0
       },
@@ -2988,7 +2988,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_sparklechop"
+          "PrimaryAssetName": "glider_talonpane"
         },
         "Weight": 14.0
       },
@@ -2997,43 +2997,43 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lazuli"
+          "PrimaryAssetName": "glider_hydratrumpetcoach"
         },
-        "Weight": 14.0
+        "Weight": 13.0
       },
       "332": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_crisprover"
+          "PrimaryAssetName": "glider_id_035_candy"
         },
-        "Weight": 14.0
+        "Weight": 13.0
       },
       "333": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_387_staminavigormale"
+          "PrimaryAssetName": "glider_id_116_pizzapit"
         },
-        "Weight": 14.0
+        "Weight": 13.0
       },
       "334": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_141_ashtonboardwalk"
+          "PrimaryAssetName": "glider_rustyraider_spark"
         },
-        "Weight": 14.0
+        "Weight": 13.0
       },
       "335": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_070_darkviking"
+          "PrimaryAssetName": "glider_id_387_staminavigormale"
         },
         "Weight": 13.0
       },
@@ -3042,7 +3042,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_081_cowboygunslinger"
+          "PrimaryAssetName": "glider_id_272_streetfashioneclipsefemale"
         },
         "Weight": 13.0
       },
@@ -3051,7 +3051,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_331_motorcyclistfemale"
+          "PrimaryAssetName": "glider_sparklechop"
         },
         "Weight": 13.0
       },
@@ -3060,7 +3060,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_024_reaper"
+          "PrimaryAssetName": "glider_instantgravel"
         },
         "Weight": 13.0
       },
@@ -3069,7 +3069,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_328_exosuitfemale"
+          "PrimaryAssetName": "glider_id_028_googly"
         },
         "Weight": 13.0
       },
@@ -3078,7 +3078,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_chainmail"
+          "PrimaryAssetName": "glider_rankedfirth"
         },
         "Weight": 13.0
       },
@@ -3087,16 +3087,16 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_058_shark"
+          "PrimaryAssetName": "glider_bravebuild"
         },
-        "Weight": 13.0
+        "Weight": 12.0
       },
       "342": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_181_rockclimber"
+          "PrimaryAssetName": "glider_id_081_cowboygunslinger"
         },
         "Weight": 12.0
       },
@@ -3105,7 +3105,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_impactevent"
+          "PrimaryAssetName": "glider_id_124_medusa"
         },
         "Weight": 12.0
       },
@@ -3114,7 +3114,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_instantgravel"
+          "PrimaryAssetName": "glider_puzzleshed"
         },
         "Weight": 12.0
       },
@@ -3123,7 +3123,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_272_streetfashioneclipsefemale"
+          "PrimaryAssetName": "umbrella_rankedrube"
         },
         "Weight": 12.0
       },
@@ -3132,7 +3132,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_074_raptorarcticcamo"
+          "PrimaryAssetName": "glider_wealthlambfate"
         },
         "Weight": 12.0
       },
@@ -3141,7 +3141,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_puzzleshed"
+          "PrimaryAssetName": "glider_id_011_jollyroger"
         },
         "Weight": 12.0
       },
@@ -3150,7 +3150,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_bravebuild"
+          "PrimaryAssetName": "glider_id_383_triflemale"
         },
         "Weight": 12.0
       },
@@ -3159,7 +3159,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_367_alfredomale"
+          "PrimaryAssetName": "glider_id_352_thrivefemale"
         },
         "Weight": 12.0
       },
@@ -3168,7 +3168,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_352_thrivefemale"
+          "PrimaryAssetName": "glider_354_binaryfemale"
         },
         "Weight": 12.0
       },
@@ -3177,43 +3177,43 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_badbear"
+          "PrimaryAssetName": "glider_impactevent"
         },
-        "Weight": 12.0
+        "Weight": 11.0
       },
       "352": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_carbideweld"
+          "PrimaryAssetName": "glider_id_227_sharksuit"
         },
-        "Weight": 12.0
+        "Weight": 11.0
       },
       "353": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_179_crazyeight"
+          "PrimaryAssetName": "glider_id_310_buffllamamale"
         },
-        "Weight": 12.0
+        "Weight": 11.0
       },
       "354": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_191_pinetree"
+          "PrimaryAssetName": "glider_vitalpsych"
         },
-        "Weight": 12.0
+        "Weight": 11.0
       },
       "355": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_foggydive"
+          "PrimaryAssetName": "glider_lazylizz"
         },
         "Weight": 11.0
       },
@@ -3222,7 +3222,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_033_valor"
+          "PrimaryAssetName": "glider_id_244_choneglider"
         },
         "Weight": 11.0
       },
@@ -3231,7 +3231,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_jailbirdsoar"
+          "PrimaryAssetName": "glider_id_286_accumulatemale"
         },
         "Weight": 11.0
       },
@@ -3240,7 +3240,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_256_futuresamuraimale"
+          "PrimaryAssetName": "umbrella_foggydive"
         },
         "Weight": 11.0
       },
@@ -3249,88 +3249,88 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_169_voyagerremix"
+          "PrimaryAssetName": "glider_id_079_redriding"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "360": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_stormaviator"
+          "PrimaryAssetName": "glider_id_080_prairiepusher"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "361": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_100_yeti"
+          "PrimaryAssetName": "glider_id_318_wombat_1mqmn"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "362": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_322_drifthorrormale"
+          "PrimaryAssetName": "glider_id_331_motorcyclistfemale"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "363": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rustyraider_spark"
+          "PrimaryAssetName": "glider_tideking"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "364": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_345_turtleneckmale"
+          "PrimaryAssetName": "glider_jailbirdsoar"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "365": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_tiltedparrot"
+          "PrimaryAssetName": "glider_id_128_bootybuoy"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "366": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_taxiupgradedwhitefemale"
+          "PrimaryAssetName": "glider_id_256_futuresamuraimale"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "367": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_safecrackersleek"
+          "PrimaryAssetName": "glider_id_305_quarrelmale_zthtq"
         },
-        "Weight": 11.0
+        "Weight": 10.0
       },
       "368": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_383_triflemale"
+          "PrimaryAssetName": "glider_id_105_gingerbread"
         },
         "Weight": 10.0
       },
@@ -3339,7 +3339,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_buffcatcruise"
+          "PrimaryAssetName": "glider_taxiupgradedwhitefemale"
         },
         "Weight": 10.0
       },
@@ -3348,7 +3348,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_227_sharksuit"
+          "PrimaryAssetName": "glider_id_367_alfredomale"
         },
         "Weight": 10.0
       },
@@ -3357,7 +3357,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedrube"
+          "PrimaryAssetName": "glider_id_100_yeti"
         },
         "Weight": 10.0
       },
@@ -3366,7 +3366,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_164_graffitiremix"
+          "PrimaryAssetName": "glider_id_339_snowboardgoldmale"
         },
         "Weight": 10.0
       },
@@ -3375,7 +3375,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_088_evilcowboy"
+          "PrimaryAssetName": "glider_id_179_crazyeight"
         },
         "Weight": 10.0
       },
@@ -3384,7 +3384,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rankedfirth"
+          "PrimaryAssetName": "glider_id_090_celestial"
         },
         "Weight": 10.0
       },
@@ -3393,7 +3393,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_282_dinohunterfemale"
+          "PrimaryAssetName": "glider_stormaviator"
         },
         "Weight": 10.0
       },
@@ -3402,7 +3402,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_048_viking"
+          "PrimaryAssetName": "glider_crisprover"
         },
         "Weight": 10.0
       },
@@ -3411,7 +3411,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_localzilla"
+          "PrimaryAssetName": "glider_id_181_rockclimber"
         },
         "Weight": 10.0
       },
@@ -3420,34 +3420,34 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_168_streetracerdriftremix"
+          "PrimaryAssetName": "glider_id_169_voyagerremix"
         },
-        "Weight": 10.0
+        "Weight": 9.0
       },
       "379": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_266_neon"
+          "PrimaryAssetName": "glider_id_328_exosuitfemale"
         },
-        "Weight": 10.0
+        "Weight": 9.0
       },
       "380": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_uskthump"
+          "PrimaryAssetName": "glider_id_033_valor"
         },
-        "Weight": 10.0
+        "Weight": 9.0
       },
       "381": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_013_psblue"
+          "PrimaryAssetName": "glider_id_089_muertos"
         },
         "Weight": 9.0
       },
@@ -3456,7 +3456,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_286_accumulatemale"
+          "PrimaryAssetName": "glider_id_004_disco"
         },
         "Weight": 9.0
       },
@@ -3465,7 +3465,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_146_masako"
+          "PrimaryAssetName": "glider_id_345_turtleneckmale"
         },
         "Weight": 9.0
       },
@@ -3474,7 +3474,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_299_cavernarmoredmale"
+          "PrimaryAssetName": "glider_igniteegg"
         },
         "Weight": 9.0
       },
@@ -3483,7 +3483,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_birchjive"
+          "PrimaryAssetName": "glider_id_191_pinetree"
         },
         "Weight": 9.0
       },
@@ -3492,7 +3492,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_305_quarrelmale_zthtq"
+          "PrimaryAssetName": "glider_id_013_psblue"
         },
         "Weight": 9.0
       },
@@ -3501,7 +3501,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_182_sheath"
+          "PrimaryAssetName": "founderglider"
         },
         "Weight": 9.0
       },
@@ -3510,7 +3510,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_339_snowboardgoldmale"
+          "PrimaryAssetName": "glider_carbideweld"
         },
         "Weight": 9.0
       },
@@ -3519,7 +3519,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_inflatododo"
+          "PrimaryAssetName": "glider_id_279_chickenwarriormale"
         },
         "Weight": 9.0
       },
@@ -3528,7 +3528,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_snowsoldierfashion"
+          "PrimaryAssetName": "glider_lettuce"
         },
         "Weight": 9.0
       },
@@ -3537,7 +3537,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_133_bandageninja"
+          "PrimaryAssetName": "glider_id_048_viking"
         },
         "Weight": 9.0
       },
@@ -3546,7 +3546,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_199_llamahero"
+          "PrimaryAssetName": "glider_id_146_masako"
         },
         "Weight": 9.0
       },
@@ -3555,7 +3555,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_208_badeggmale"
+          "PrimaryAssetName": "glider_id_164_graffitiremix"
         },
         "Weight": 9.0
       },
@@ -3564,7 +3564,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_034_carbideblue"
+          "PrimaryAssetName": "glider_id_002_medieval"
         },
         "Weight": 9.0
       },
@@ -3573,7 +3573,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_101_tacticalsanta"
+          "PrimaryAssetName": "glider_uskthump"
         },
         "Weight": 9.0
       },
@@ -3582,7 +3582,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_079_redriding"
+          "PrimaryAssetName": "glider_id_266_neon"
         },
         "Weight": 9.0
       },
@@ -3591,7 +3591,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_002_medieval"
+          "PrimaryAssetName": "glider_badbear"
         },
         "Weight": 9.0
       },
@@ -3600,7 +3600,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_155_jellyfish"
+          "PrimaryAssetName": "glider_chainmail"
         },
         "Weight": 9.0
       },
@@ -3609,7 +3609,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "founderglider"
+          "PrimaryAssetName": "glider_id_082_scarecrow"
         },
         "Weight": 9.0
       },
@@ -3618,7 +3618,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_129_fireelf"
+          "PrimaryAssetName": "glider_id_282_dinohunterfemale"
         },
         "Weight": 9.0
       },
@@ -3627,16 +3627,16 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_105_snowboard"
+          "PrimaryAssetName": "umbrella_daybreak"
         },
-        "Weight": 8.0
+        "Weight": 9.0
       },
       "402": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_090_celestial"
+          "PrimaryAssetName": "glider_id_133_bandageninja"
         },
         "Weight": 8.0
       },
@@ -3645,7 +3645,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_219_oceanriderfemale"
+          "PrimaryAssetName": "glider_id_208_badeggmale"
         },
         "Weight": 8.0
       },
@@ -3654,7 +3654,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_225_tacticalscubamale"
+          "PrimaryAssetName": "glider_id_353_thrivespiritfemale"
         },
         "Weight": 8.0
       },
@@ -3663,7 +3663,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_igniteegg"
+          "PrimaryAssetName": "glider_id_101_tacticalsanta"
         },
         "Weight": 8.0
       },
@@ -3672,7 +3672,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_105_gingerbread"
+          "PrimaryAssetName": "glider_tiltedparrot"
         },
         "Weight": 8.0
       },
@@ -3681,7 +3681,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_050_streetracercobra"
+          "PrimaryAssetName": "glider_id_213_blackknightfemale"
         },
         "Weight": 8.0
       },
@@ -3690,7 +3690,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_297_invadermale"
+          "PrimaryAssetName": "glider_id_171_devilrock"
         },
         "Weight": 8.0
       },
@@ -3699,7 +3699,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_279_chickenwarriormale"
+          "PrimaryAssetName": "glider_id_275_ancientgladiatormale"
         },
         "Weight": 8.0
       },
@@ -3708,7 +3708,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_080_prairiepusher"
+          "PrimaryAssetName": "umbrella_birchjive"
         },
         "Weight": 8.0
       },
@@ -3717,7 +3717,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_213_blackknightfemale"
+          "PrimaryAssetName": "glider_id_129_fireelf"
         },
         "Weight": 8.0
       },
@@ -3726,7 +3726,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_280_cubeninjamale"
+          "PrimaryAssetName": "glider_id_299_cavernarmoredmale"
         },
         "Weight": 8.0
       },
@@ -3735,7 +3735,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lettuce"
+          "PrimaryAssetName": "glider_id_257_historian_vs0bj"
         },
         "Weight": 8.0
       },
@@ -3744,7 +3744,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_089_muertos"
+          "PrimaryAssetName": "glider_safecrackersleek"
         },
         "Weight": 8.0
       },
@@ -3753,7 +3753,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_292_grimmale"
+          "PrimaryAssetName": "glider_id_168_streetracerdriftremix"
         },
         "Weight": 8.0
       },
@@ -3762,7 +3762,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_004_disco"
+          "PrimaryAssetName": "glider_id_010_storm"
         },
         "Weight": 8.0
       },
@@ -3771,7 +3771,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_144_strawberrypilot"
+          "PrimaryAssetName": "glider_id_155_jellyfish"
         },
         "Weight": 8.0
       },
@@ -3780,7 +3780,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_288_bicyclemale"
+          "PrimaryAssetName": "glider_id_034_carbideblue"
         },
         "Weight": 8.0
       },
@@ -3789,7 +3789,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_244_choneglider"
+          "PrimaryAssetName": "glider_prismatic"
         },
         "Weight": 8.0
       },
@@ -3798,25 +3798,25 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_353_thrivespiritfemale"
+          "PrimaryAssetName": "glider_id_026_shuttleb"
         },
-        "Weight": 8.0
+        "Weight": 7.0
       },
       "421": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_202_bananaagent"
+          "PrimaryAssetName": "glider_id_319_bistroastronautfemale_a4839"
         },
-        "Weight": 8.0
+        "Weight": 7.0
       },
       "422": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_121_britebomberdeluxe"
+          "PrimaryAssetName": "glider_snowsoldierfashion"
         },
         "Weight": 7.0
       },
@@ -3825,7 +3825,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_coatcheck"
+          "PrimaryAssetName": "glider_id_014_dragon"
         },
         "Weight": 7.0
       },
@@ -3834,7 +3834,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_104_fuzzybear"
+          "PrimaryAssetName": "glider_id_009_candycoat"
         },
         "Weight": 7.0
       },
@@ -3843,7 +3843,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_351_toonplanemale"
+          "PrimaryAssetName": "glider_buffcatcruise"
         },
         "Weight": 7.0
       },
@@ -3852,7 +3852,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_166_rustlordremix"
+          "PrimaryAssetName": "glider_id_150_techopsblue"
         },
         "Weight": 7.0
       },
@@ -3861,7 +3861,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_daybreak"
+          "PrimaryAssetName": "glider_coatcheck"
         },
         "Weight": 7.0
       },
@@ -3870,7 +3870,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_257_historian_vs0bj"
+          "PrimaryAssetName": "glider_id_121_britebomberdeluxe"
         },
         "Weight": 7.0
       },
@@ -3879,7 +3879,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_275_ancientgladiatormale"
+          "PrimaryAssetName": "glider_powerfarmer"
         },
         "Weight": 7.0
       },
@@ -3888,7 +3888,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_198_kaboom"
+          "PrimaryAssetName": "glider_inflatododo"
         },
         "Weight": 7.0
       },
@@ -3897,7 +3897,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_powerfarmer"
+          "PrimaryAssetName": "glider_id_182_sheath"
         },
         "Weight": 7.0
       },
@@ -3906,7 +3906,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_163_djremix"
+          "PrimaryAssetName": "glider_id_351_toonplanemale"
         },
         "Weight": 7.0
       },
@@ -3915,7 +3915,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_123_masterkey"
+          "PrimaryAssetName": "glider_galaxylevel"
         },
         "Weight": 7.0
       },
@@ -3924,7 +3924,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_364_lyricalfemale"
+          "PrimaryAssetName": "glider_id_292_grimmale"
         },
         "Weight": 7.0
       },
@@ -3933,7 +3933,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_pilonfncs"
+          "PrimaryAssetName": "glider_id_105_snowboard"
         },
         "Weight": 7.0
       },
@@ -3942,7 +3942,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_220_professorpup"
+          "PrimaryAssetName": "glider_id_199_llamahero"
         },
         "Weight": 7.0
       },
@@ -3951,61 +3951,61 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_223_spacesuit"
+          "PrimaryAssetName": "glider_localzilla"
         },
-        "Weight": 6.0
+        "Weight": 7.0
       },
       "438": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_028_googly"
+          "PrimaryAssetName": "glider_pilonfncs"
         },
-        "Weight": 6.0
+        "Weight": 7.0
       },
       "439": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_161_roseleader"
+          "PrimaryAssetName": "umbrella_rankedpantheon"
         },
-        "Weight": 6.0
+        "Weight": 7.0
       },
       "440": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_309_tacticalwoodlandblue"
+          "PrimaryAssetName": "glider_id_288_bicyclemale"
         },
-        "Weight": 6.0
+        "Weight": 7.0
       },
       "441": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_spring"
+          "PrimaryAssetName": "glider_id_104_fuzzybear"
         },
-        "Weight": 6.0
+        "Weight": 7.0
       },
       "442": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_319_bistroastronautfemale_a4839"
+          "PrimaryAssetName": "glider_id_050_streetracercobra"
         },
-        "Weight": 6.0
+        "Weight": 7.0
       },
       "443": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_galaxylevel"
+          "PrimaryAssetName": "glider_id_280_cubeninjamale"
         },
         "Weight": 6.0
       },
@@ -4014,7 +4014,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_177_blackmondayfemale_ho3a9"
+          "PrimaryAssetName": "glider_id_225_tacticalscubamale"
         },
         "Weight": 6.0
       },
@@ -4023,7 +4023,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_014_dragon"
+          "PrimaryAssetName": "glider_id_297_invadermale"
         },
         "Weight": 6.0
       },
@@ -4032,7 +4032,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_026_shuttleb"
+          "PrimaryAssetName": "glider_id_144_strawberrypilot"
         },
         "Weight": 6.0
       },
@@ -4041,7 +4041,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_prismatic"
+          "PrimaryAssetName": "glider_id_161_roseleader"
         },
         "Weight": 6.0
       },
@@ -4050,7 +4050,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_lastvoicedive"
+          "PrimaryAssetName": "glider_id_117_warpaint"
         },
         "Weight": 6.0
       },
@@ -4059,7 +4059,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_183_tacticalfisherman"
+          "PrimaryAssetName": "glider_stealth"
         },
         "Weight": 6.0
       },
@@ -4068,7 +4068,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_049_lifeguard"
+          "PrimaryAssetName": "glider_id_364_lyricalfemale"
         },
         "Weight": 6.0
       },
@@ -4077,7 +4077,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_295_emperormale"
+          "PrimaryAssetName": "glider_id_086_blackwidow"
         },
         "Weight": 6.0
       },
@@ -4086,7 +4086,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_117_warpaint"
+          "PrimaryAssetName": "glider_id_067_psburnout"
         },
         "Weight": 6.0
       },
@@ -4095,7 +4095,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_009_candycoat"
+          "PrimaryAssetName": "glider_id_219_oceanriderfemale"
         },
         "Weight": 6.0
       },
@@ -4104,7 +4104,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_buffet_rainbow_354hu"
+          "PrimaryAssetName": "glider_id_125_bandolier"
         },
         "Weight": 6.0
       },
@@ -4113,7 +4113,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_067_psburnout"
+          "PrimaryAssetName": "glider_id_166_rustlordremix"
         },
         "Weight": 6.0
       },
@@ -4122,7 +4122,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedpantheon"
+          "PrimaryAssetName": "glider_id_309_tacticalwoodlandblue"
         },
         "Weight": 6.0
       },
@@ -4131,7 +4131,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_010_storm"
+          "PrimaryAssetName": "glider_id_202_bananaagent"
         },
         "Weight": 6.0
       },
@@ -4140,7 +4140,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_128_bootybuoy"
+          "PrimaryAssetName": "umbrella_rankedfaction"
         },
         "Weight": 6.0
       },
@@ -4149,25 +4149,25 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_269_stars"
+          "PrimaryAssetName": "glider_id_163_djremix"
         },
-        "Weight": 5.0
+        "Weight": 6.0
       },
       "460": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_018_twitch"
+          "PrimaryAssetName": "glider_lastvoicedive"
         },
-        "Weight": 5.0
+        "Weight": 6.0
       },
       "461": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_171_devilrock"
+          "PrimaryAssetName": "glider_id_177_blackmondayfemale_ho3a9"
         },
         "Weight": 5.0
       },
@@ -4176,7 +4176,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_316_textilemale_3s90r"
+          "PrimaryAssetName": "glider_id_295_emperormale"
         },
         "Weight": 5.0
       },
@@ -4185,7 +4185,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_388_wayfare"
+          "PrimaryAssetName": "glider_id_220_professorpup"
         },
         "Weight": 5.0
       },
@@ -4194,7 +4194,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_085_skulltrooper"
+          "PrimaryAssetName": "glider_id_084_plague"
         },
         "Weight": 5.0
       },
@@ -4203,7 +4203,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_stealth"
+          "PrimaryAssetName": "glider_id_316_textilemale_3s90r"
         },
         "Weight": 5.0
       },
@@ -4212,7 +4212,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_217_longshortsmale"
+          "PrimaryAssetName": "umbrella_buffet_rainbow_354hu"
         },
         "Weight": 5.0
       },
@@ -4221,7 +4221,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedfaction"
+          "PrimaryAssetName": "glider_id_252_piemanmale"
         },
         "Weight": 5.0
       },
@@ -4230,7 +4230,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_150_techopsblue"
+          "PrimaryAssetName": "glider_id_018_twitch"
         },
         "Weight": 5.0
       },
@@ -4239,7 +4239,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_bonemarrow"
+          "PrimaryAssetName": "glider_id_269_stars"
         },
         "Weight": 5.0
       },
@@ -4248,7 +4248,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_011_jollyroger"
+          "PrimaryAssetName": "glider_id_049_lifeguard"
         },
         "Weight": 5.0
       },
@@ -4257,7 +4257,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_068_garageband"
+          "PrimaryAssetName": "glider_id_012_teddybear"
         },
         "Weight": 5.0
       },
@@ -4266,7 +4266,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_277_skirmish_9kk2w"
+          "PrimaryAssetName": "glider_id_123_masterkey"
         },
         "Weight": 5.0
       },
@@ -4275,7 +4275,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_167_sparkleremix"
+          "PrimaryAssetName": "glider_id_198_kaboom"
         },
         "Weight": 5.0
       },
@@ -4284,7 +4284,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_174_sleepytime"
+          "PrimaryAssetName": "glider_id_193_thegoldenskeleton"
         },
         "Weight": 5.0
       },
@@ -4293,7 +4293,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_143_battlesuit"
+          "PrimaryAssetName": "glider_id_068_garageband"
         },
         "Weight": 5.0
       },
@@ -4302,70 +4302,70 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_247_skull"
+          "PrimaryAssetName": "glider_id_132_pirate01octopus"
         },
-        "Weight": 4.0
+        "Weight": 5.0
       },
       "477": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_snailaisle"
+          "PrimaryAssetName": "glider_id_059_durrburgerhero"
         },
-        "Weight": 4.0
+        "Weight": 5.0
       },
       "478": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_116_pizzapit"
+          "PrimaryAssetName": "glider_id_388_wayfare"
         },
-        "Weight": 4.0
+        "Weight": 5.0
       },
       "479": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_193_thegoldenskeleton"
+          "PrimaryAssetName": "glider_id_248_york"
         },
-        "Weight": 4.0
+        "Weight": 5.0
       },
       "480": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_125_bandolier"
+          "PrimaryAssetName": "glider_snailaisle"
         },
-        "Weight": 4.0
+        "Weight": 5.0
       },
       "481": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_253_arcticcamowoodsfemale"
+          "PrimaryAssetName": "glider_id_217_longshortsmale"
         },
-        "Weight": 4.0
+        "Weight": 5.0
       },
       "482": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_059_durrburgerhero"
+          "PrimaryAssetName": "glider_id_223_spacesuit"
         },
-        "Weight": 4.0
+        "Weight": 5.0
       },
       "483": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_012_teddybear"
+          "PrimaryAssetName": "glider_id_183_tacticalfisherman"
         },
         "Weight": 4.0
       },
@@ -4374,7 +4374,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_scribble"
+          "PrimaryAssetName": "glider_id_334_darkicemale"
         },
         "Weight": 4.0
       },
@@ -4383,7 +4383,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_334_darkicemale"
+          "PrimaryAssetName": "glider_spring"
         },
         "Weight": 4.0
       },
@@ -4392,7 +4392,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_132_pirate01octopus"
+          "PrimaryAssetName": "glider_flowerpower"
         },
         "Weight": 4.0
       },
@@ -4401,7 +4401,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_318_wombat_1mqmn"
+          "PrimaryAssetName": "glider_id_044_pterodactyl"
         },
         "Weight": 4.0
       },
@@ -4410,7 +4410,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_flowerpower"
+          "PrimaryAssetName": "glider_id_376_chiselmale"
         },
         "Weight": 4.0
       },
@@ -4419,7 +4419,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_044_pterodactyl"
+          "PrimaryAssetName": "glider_id_174_sleepytime"
         },
         "Weight": 4.0
       },
@@ -4428,7 +4428,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_120_icecream"
+          "PrimaryAssetName": "glider_id_344_primalfalconfemale_bqkq3"
         },
         "Weight": 4.0
       },
@@ -4437,7 +4437,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_steampower"
+          "PrimaryAssetName": "glider_plaguewaste"
         },
         "Weight": 4.0
       },
@@ -4446,7 +4446,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_arcticiceblue"
+          "PrimaryAssetName": "umbrella_lettuce"
         },
         "Weight": 4.0
       },
@@ -4455,61 +4455,61 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_190_newyears"
+          "PrimaryAssetName": "glider_id_167_sparkleremix"
         },
-        "Weight": 3.0
+        "Weight": 4.0
       },
       "494": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_145_stormtracker"
+          "PrimaryAssetName": "glider_shark_fncs"
         },
-        "Weight": 3.0
+        "Weight": 4.0
       },
       "495": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_shark_fncs"
+          "PrimaryAssetName": "glider_id_143_battlesuit"
         },
-        "Weight": 3.0
+        "Weight": 4.0
       },
       "496": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_376_chiselmale"
+          "PrimaryAssetName": "umbrella_rankedstill"
         },
-        "Weight": 3.0
+        "Weight": 4.0
       },
       "497": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_152_demonhunter"
+          "PrimaryAssetName": "glider_id_190_newyears"
         },
-        "Weight": 3.0
+        "Weight": 4.0
       },
       "498": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_300_firecrackermale"
+          "PrimaryAssetName": "glider_scribble"
         },
-        "Weight": 3.0
+        "Weight": 4.0
       },
       "499": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_287_alchemy_w87kl"
+          "PrimaryAssetName": "glider_id_277_skirmish_9kk2w"
         },
         "Weight": 3.0
       },
@@ -4518,7 +4518,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_plankcover"
+          "PrimaryAssetName": "glider_steampower"
         },
         "Weight": 3.0
       },
@@ -4527,7 +4527,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_157_drift"
+          "PrimaryAssetName": "glider_plankcover"
         },
         "Weight": 3.0
       },
@@ -4536,7 +4536,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_389_blizzardbomberfemale"
+          "PrimaryAssetName": "glider_arcticiceblue"
         },
         "Weight": 3.0
       },
@@ -4545,7 +4545,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_203_twindarkfemale"
+          "PrimaryAssetName": "glider_id_253_arcticcamowoodsfemale"
         },
         "Weight": 3.0
       },
@@ -4554,7 +4554,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_lettuce"
+          "PrimaryAssetName": "glider_rankedremixasparagus"
         },
         "Weight": 3.0
       },
@@ -4563,7 +4563,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_cleveredge"
+          "PrimaryAssetName": "glider_id_120_icecream"
         },
         "Weight": 3.0
       },
@@ -4572,7 +4572,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_086_blackwidow"
+          "PrimaryAssetName": "glider_cleveredge"
         },
         "Weight": 3.0
       },
@@ -4581,7 +4581,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_344_primalfalconfemale_bqkq3"
+          "PrimaryAssetName": "glider_id_281_darkminionmale"
         },
         "Weight": 3.0
       },
@@ -4590,7 +4590,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_042_soccer"
+          "PrimaryAssetName": "glider_id_389_blizzardbomberfemale"
         },
         "Weight": 3.0
       },
@@ -4599,7 +4599,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedstill"
+          "PrimaryAssetName": "glider_id_006_wintercamo"
         },
         "Weight": 3.0
       },
@@ -4608,7 +4608,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_264_festivegold"
+          "PrimaryAssetName": "umbrella_rankedsquish"
         },
         "Weight": 3.0
       },
@@ -4617,7 +4617,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_175_streetfashionred"
+          "PrimaryAssetName": "glider_id_040_jailbird"
         },
         "Weight": 3.0
       },
@@ -4626,7 +4626,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_coyotetrail"
+          "PrimaryAssetName": "glider_id_042_soccer"
         },
         "Weight": 3.0
       },
@@ -4635,7 +4635,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_114_icequeen"
+          "PrimaryAssetName": "glider_id_043_darkninja"
         },
         "Weight": 3.0
       },
@@ -4644,7 +4644,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_plaguewaste"
+          "PrimaryAssetName": "glider_id_145_stormtracker"
         },
         "Weight": 3.0
       },
@@ -4653,7 +4653,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_082_scarecrow"
+          "PrimaryAssetName": "glider_id_287_alchemy_w87kl"
         },
         "Weight": 3.0
       },
@@ -4662,7 +4662,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_nighthawk"
+          "PrimaryAssetName": "glider_id_108_krampus"
         },
         "Weight": 3.0
       },
@@ -4671,7 +4671,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedsquish"
+          "PrimaryAssetName": "glider_mig"
         },
         "Weight": 3.0
       },
@@ -4680,7 +4680,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_rankedremixasparagus"
+          "PrimaryAssetName": "glider_id_152_demonhunter"
         },
         "Weight": 3.0
       },
@@ -4689,52 +4689,52 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_108_krampus"
+          "PrimaryAssetName": "glider_coyotetrail"
         },
-        "Weight": 2.0
+        "Weight": 3.0
       },
       "520": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_040_jailbird"
+          "PrimaryAssetName": "glider_id_157_drift"
         },
-        "Weight": 2.0
+        "Weight": 3.0
       },
       "521": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_096_hornedmask"
+          "PrimaryAssetName": "glider_id_300_firecrackermale"
         },
-        "Weight": 2.0
+        "Weight": 3.0
       },
       "522": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_mig"
+          "PrimaryAssetName": "glider_id_204_cardboardcrew"
         },
-        "Weight": 2.0
+        "Weight": 3.0
       },
       "523": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_384_markiicompete"
+          "PrimaryAssetName": "glider_nighthawk"
         },
-        "Weight": 2.0
+        "Weight": 3.0
       },
       "524": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_260_shapeshifterfemale"
+          "PrimaryAssetName": "glider_id_264_festivegold"
         },
         "Weight": 2.0
       },
@@ -4743,7 +4743,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_006_wintercamo"
+          "PrimaryAssetName": "glider_id_114_icequeen"
         },
         "Weight": 2.0
       },
@@ -4752,7 +4752,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_158_hairy"
+          "PrimaryAssetName": "glider_id_175_streetfashionred"
         },
         "Weight": 2.0
       },
@@ -4761,7 +4761,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_204_cardboardcrew"
+          "PrimaryAssetName": "glider_id_158_hairy"
         },
         "Weight": 2.0
       },
@@ -4770,7 +4770,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_yuzucrank"
+          "PrimaryAssetName": "glider_id_109_streetgoth"
         },
         "Weight": 2.0
       },
@@ -4779,7 +4779,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_043_darkninja"
+          "PrimaryAssetName": "glider_bonemarrow"
         },
         "Weight": 2.0
       },
@@ -4788,7 +4788,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_036_auroraglow"
+          "PrimaryAssetName": "glider_yuzucrank"
         },
         "Weight": 2.0
       },
@@ -4797,7 +4797,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_119_reaperfrozen"
+          "PrimaryAssetName": "glider_id_036_auroraglow"
         },
         "Weight": 2.0
       },
@@ -4806,7 +4806,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_005_holidaysweater"
+          "PrimaryAssetName": "glider_id_096_hornedmask"
         },
         "Weight": 2.0
       },
@@ -4815,7 +4815,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_111_militaryfashion"
+          "PrimaryAssetName": "glider_id_005_holidaysweater"
         },
         "Weight": 2.0
       },
@@ -4824,7 +4824,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_291_taxiupgradedmulticolorfemale"
+          "PrimaryAssetName": "glider_id_321_cubequeenfemale"
         },
         "Weight": 2.0
       },
@@ -4833,7 +4833,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_071_football"
+          "PrimaryAssetName": "glider_id_029_pajamaparty"
         },
         "Weight": 2.0
       },
@@ -4842,7 +4842,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_084_plague"
+          "PrimaryAssetName": "glider_id_056_carbidewhite"
         },
         "Weight": 2.0
       },
@@ -4851,7 +4851,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_025_shuttlea"
+          "PrimaryAssetName": "glider_id_147_raptor"
         },
         "Weight": 2.0
       },
@@ -4860,7 +4860,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_military"
+          "PrimaryAssetName": "glider_id_119_reaperfrozen"
         },
         "Weight": 2.0
       },
@@ -4869,7 +4869,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_147_raptor"
+          "PrimaryAssetName": "glider_id_025_shuttlea"
         },
         "Weight": 2.0
       },
@@ -4878,7 +4878,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_252_piemanmale"
+          "PrimaryAssetName": "glider_id_246_babayaga"
         },
         "Weight": 2.0
       },
@@ -4887,7 +4887,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_045_carbideblack"
+          "PrimaryAssetName": "glider_id_112_techops"
         },
         "Weight": 2.0
       },
@@ -4896,7 +4896,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_056_carbidewhite"
+          "PrimaryAssetName": "glider_id_260_shapeshifterfemale"
         },
         "Weight": 2.0
       },
@@ -4905,7 +4905,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_324_sunrisecastlemale_2r4q3"
+          "PrimaryAssetName": "glider_id_111_militaryfashion"
         },
         "Weight": 2.0
       },
@@ -4914,7 +4914,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_156_summerbomber"
+          "PrimaryAssetName": "glider_id_384_markiicompete"
         },
         "Weight": 2.0
       },
@@ -4923,7 +4923,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_281_darkminionmale"
+          "PrimaryAssetName": "glider_military"
         },
         "Weight": 2.0
       },
@@ -4932,7 +4932,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedfury"
+          "PrimaryAssetName": "glider_id_071_football"
         },
         "Weight": 2.0
       },
@@ -4941,7 +4941,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_029_pajamaparty"
+          "PrimaryAssetName": "glider_id_107_icemaiden"
         },
         "Weight": 2.0
       },
@@ -4950,7 +4950,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_248_york"
+          "PrimaryAssetName": "glider_id_045_carbideblack"
         },
         "Weight": 2.0
       },
@@ -4959,83 +4959,119 @@
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_arcticicetalus"
+          "PrimaryAssetName": "glider_id_291_taxiupgradedmulticolorfemale"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "550": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "umbrella_rankedhero"
+          "PrimaryAssetName": "glider_id_027_satelite"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "551": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_107_icemaiden"
+          "PrimaryAssetName": "glider_id_325_grandeurmale_es8i4"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "552": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_321_cubequeenfemale"
+          "PrimaryAssetName": "glider_id_065_hippie"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "553": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_027_satelite"
+          "PrimaryAssetName": "glider_id_156_summerbomber"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "554": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_357_journeyfemale"
+          "PrimaryAssetName": "glider_id_216_hardcoresportz"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "555": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_065_hippie"
+          "PrimaryAssetName": "glider_id_051_luchador"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "556": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_365_rumblefemale"
+          "PrimaryAssetName": "umbrella_rankedfury"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "557": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_366_multibotpinkmale"
+          "PrimaryAssetName": "glider_id_073_medic"
         },
-        "Weight": 1.0
+        "Weight": 2.0
       },
       "558": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_203_twindarkfemale"
+        },
+        "Weight": 2.0
+      },
+      "559": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_366_multibotpinkmale"
+        },
+        "Weight": 2.0
+      },
+      "560": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_052_bedazzled"
+        },
+        "Weight": 2.0
+      },
+      "561": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_135_baseball"
+        },
+        "Weight": 2.0
+      },
+      "562": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -5044,169 +5080,7 @@
         },
         "Weight": 1.0
       },
-      "559": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_350_rovermale_41xkf"
-        },
-        "Weight": 1.0
-      },
-      "560": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_216_hardcoresportz"
-        },
-        "Weight": 1.0
-      },
-      "561": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_112_techops"
-        },
-        "Weight": 1.0
-      },
-      "562": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_062_streetracerwhite"
-        },
-        "Weight": 1.0
-      },
       "563": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_325_grandeurmale_es8i4"
-        },
-        "Weight": 1.0
-      },
-      "564": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_003_district"
-        },
-        "Weight": 1.0
-      },
-      "565": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_226_greenjacketfemale"
-        },
-        "Weight": 1.0
-      },
-      "566": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_073_medic"
-        },
-        "Weight": 1.0
-      },
-      "567": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_041_basketball"
-        },
-        "Weight": 1.0
-      },
-      "568": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_057_modernmilitary"
-        },
-        "Weight": 1.0
-      },
-      "569": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_072_bling"
-        },
-        "Weight": 1.0
-      },
-      "570": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_051_luchador"
-        },
-        "Weight": 1.0
-      },
-      "571": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_007_turtleshell"
-        },
-        "Weight": 1.0
-      },
-      "572": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_135_baseball"
-        },
-        "Weight": 1.0
-      },
-      "573": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_061_streetracerbiker"
-        },
-        "Weight": 1.0
-      },
-      "574": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_126_farmer"
-        },
-        "Weight": 1.0
-      },
-      "575": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_046_gumshoe"
-        },
-        "Weight": 1.0
-      },
-      "576": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaGlider"
-          },
-          "PrimaryAssetName": "glider_id_180_neongraffiti"
-        },
-        "Weight": 1.0
-      },
-      "577": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -5215,52 +5089,79 @@
         },
         "Weight": 1.0
       },
-      "578": {
+      "564": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_231_spacewanderermale"
+          "PrimaryAssetName": "glider_id_041_basketball"
         },
         "Weight": 1.0
       },
-      "579": {
+      "565": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_023_cuchulainn"
+          "PrimaryAssetName": "glider_id_062_streetracerwhite"
         },
         "Weight": 1.0
       },
-      "580": {
+      "566": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_039_venus"
+          "PrimaryAssetName": "umbrella_rankedhero"
         },
         "Weight": 1.0
       },
-      "581": {
+      "567": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_094_samuraiultra"
+          "PrimaryAssetName": "glider_id_324_sunrisecastlemale_2r4q3"
         },
         "Weight": 1.0
       },
-      "582": {
+      "568": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_185_nosh"
+          "PrimaryAssetName": "glider_arcticicetalus"
         },
         "Weight": 1.0
       },
-      "583": {
+      "569": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_random"
+        },
+        "Weight": 1.0
+      },
+      "570": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_flames"
+        },
+        "Weight": 1.0
+      },
+      "571": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_066_samuraiblue"
+        },
+        "Weight": 1.0
+      },
+      "572": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -5269,16 +5170,70 @@
         },
         "Weight": 1.0
       },
-      "584": {
+      "573": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_069_hacivat"
+          "PrimaryAssetName": "glider_id_357_journeyfemale"
         },
         "Weight": 1.0
       },
-      "585": {
+      "574": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_365_rumblefemale"
+        },
+        "Weight": 1.0
+      },
+      "575": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_185_nosh"
+        },
+        "Weight": 1.0
+      },
+      "576": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_350_rovermale_41xkf"
+        },
+        "Weight": 1.0
+      },
+      "577": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_046_gumshoe"
+        },
+        "Weight": 1.0
+      },
+      "578": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_072_bling"
+        },
+        "Weight": 1.0
+      },
+      "579": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_061_streetracerbiker"
+        },
+        "Weight": 1.0
+      },
+      "580": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
@@ -5287,12 +5242,129 @@
         },
         "Weight": 1.0
       },
+      "581": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_226_greenjacketfemale"
+        },
+        "Weight": 1.0
+      },
+      "582": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_126_farmer"
+        },
+        "Weight": 1.0
+      },
+      "583": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_003_district"
+        },
+        "Weight": 1.0
+      },
+      "584": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_007_turtleshell"
+        },
+        "Weight": 1.0
+      },
+      "585": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_057_modernmilitary"
+        },
+        "Weight": 1.0
+      },
       "586": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaGlider"
           },
-          "PrimaryAssetName": "glider_id_109_streetgoth"
+          "PrimaryAssetName": "glider_id_231_spacewanderermale"
+        },
+        "Weight": 1.0
+      },
+      "587": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_180_neongraffiti"
+        },
+        "Weight": 1.0
+      },
+      "588": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_094_samuraiultra"
+        },
+        "Weight": 1.0
+      },
+      "589": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_flakesled"
+        },
+        "Weight": 1.0
+      },
+      "590": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_genius"
+        },
+        "Weight": 1.0
+      },
+      "591": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_154_glowbrobat"
+        },
+        "Weight": 1.0
+      },
+      "592": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_019_taxi"
+        },
+        "Weight": 1.0
+      },
+      "593": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_211_wildcatblue"
+        },
+        "Weight": 1.0
+      },
+      "594": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaGlider"
+          },
+          "PrimaryAssetName": "glider_id_131_speedymidnight"
         },
         "Weight": 1.0
       }

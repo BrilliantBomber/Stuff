@@ -160,6 +160,20 @@
         "ObjectName": "DataRegistry'Phoebe_VisibilityRegistry'",
         "ObjectPath": "/Game/DataRegistries/AI/Phoebe_VisibilityRegistry.0"
       },
+      "GameParticipantAIBotControllers": [
+        {
+          "AssetPathName": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.BP_PhoebePlayerController_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Athena/AI/NPCs/TestPlayer/BP_AIController_TestPlayer.BP_AIController_TestPlayer_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Script/FortniteAI.FortAthenaAIBotController",
+          "SubPathString": ""
+        }
+      ],
       "BotsUniqueIDUseValidAccountID": {
         "Value": 1.0,
         "Curve": {

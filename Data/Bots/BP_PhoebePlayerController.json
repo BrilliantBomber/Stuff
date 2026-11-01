@@ -254,19 +254,25 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
-        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.49"
       }
     },
     "SuperStruct": {
       "ObjectName": "Class'FortAthenaAIBotController'",
       "ObjectPath": "/Script/FortniteAI"
     },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_PhoebePlayerController_C:DestroySkillLevelComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+      }
+    ],
     "ChildProperties": [
       {
         "Type": "ObjectProperty",
         "Name": "FortAthenaAIPlayAction",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortAthenaAIPlayActionComponent'",
           "ObjectPath": "/Script/FortniteAIServer"
@@ -276,7 +282,7 @@
         "Type": "ObjectProperty",
         "Name": "RechargingWeaponsComponent",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortControllerComponent_RechargeWeapons'",
           "ObjectPath": "/Script/FortniteGame"
@@ -286,7 +292,7 @@
         "Type": "ObjectProperty",
         "Name": "Blackboard1",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortBlackboardComponent'",
           "ObjectPath": "/Script/FortniteAI"
@@ -296,7 +302,7 @@
         "Type": "ObjectProperty",
         "Name": "FortAthenaAIBotBuilding",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortAthenaAIBotBuildingComponent'",
           "ObjectPath": "/Script/FortniteAI"
@@ -306,13 +312,19 @@
         "Type": "ObjectProperty",
         "Name": "AIPerception",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'AIPerceptionComponent'",
           "ObjectPath": "/Script/AIModule"
         }
       }
     ],
+    "FuncMap": {
+      "DestroySkillLevelComponent": {
+        "ObjectName": "Function'BP_PhoebePlayerController_C:DestroySkillLevelComponent'",
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+      }
+    },
     "ClassFlags": "CLASS_Config | CLASS_NotPlaceable | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
     "ClassWithin": {
       "ObjectName": "Class'Object'",
@@ -591,14 +603,14 @@
       },
       "TransformComponent": {
         "ObjectName": "SceneComponent'Default__BP_PhoebePlayerController_C:TransformComponent0'",
-        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.41"
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.42"
       },
       "PrimaryActorTick": {
         "bStartWithTickEnabled": false
       },
       "RootComponent": {
         "ObjectName": "SceneComponent'Default__BP_PhoebePlayerController_C:TransformComponent0'",
-        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.41"
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.42"
       }
     }
   },
@@ -890,6 +902,246 @@
     }
   },
   {
+    "Type": "Function",
+    "Name": "DestroySkillLevelComponent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PhoebePlayerController_C'",
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.21"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference | UObjectWrapper",
+        "PropertyClass": {
+          "ObjectName": "Class'FortControllerComponent_AISkillLevel'",
+          "ObjectPath": "/Script/FortniteAI"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 0,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PhoebePlayerController_C:DestroySkillLevelComponent'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetComponentByClass_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
+              "PropertyClass": {
+                "ObjectName": "Class'FortControllerComponent_AISkillLevel'",
+                "ObjectPath": "/Script/FortniteAI"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'Actor:GetComponentByClass'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'FortControllerComponent_AISkillLevel'",
+                "ObjectPath": "/Script/FortniteAI"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_LetBool",
+        "StatementIndex": 29,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PhoebePlayerController_C:DestroySkillLevelComponent'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_PhoebePlayerController_C:DestroySkillLevelComponent'",
+                  "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetComponentByClass_ReturnValue",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference | UObjectWrapper",
+                  "PropertyClass": {
+                    "ObjectName": "Class'FortControllerComponent_AISkillLevel'",
+                    "ObjectPath": "/Script/FortniteAI"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_JumpIfNot",
+        "StatementIndex": 58,
+        "CodeOffset": 134,
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.DestroySkillLevelComponent[134]",
+        "BooleanExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PhoebePlayerController_C:DestroySkillLevelComponent'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Token": "EX_LetObj",
+        "StatementIndex": 72,
+        "Variable": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PhoebePlayerController_C:DestroySkillLevelComponent'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetComponentByClass_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
+              "PropertyClass": {
+                "ObjectName": "Class'FortControllerComponent_AISkillLevel'",
+                "ObjectPath": "/Script/FortniteAI"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'Actor:GetComponentByClass'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'FortControllerComponent_AISkillLevel'",
+                "ObjectPath": "/Script/FortniteAI"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Context_FailSilent",
+        "StatementIndex": 101,
+        "ObjectExpression": {
+          "Token": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_PhoebePlayerController_C:DestroySkillLevelComponent'",
+              "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetComponentByClass_ReturnValue",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
+              "PropertyClass": {
+                "ObjectName": "Class'FortControllerComponent_AISkillLevel'",
+                "ObjectPath": "/Script/FortniteAI"
+              }
+            }
+          }
+        },
+        "Offset": 11,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Token": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'ActorComponent:K2_DestroyComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Token": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Token": "EX_Return",
+        "StatementIndex": 134,
+        "Expression": {
+          "Token": "EX_Nothing"
+        }
+      },
+      {
+        "Token": "EX_EndOfScript",
+        "StatementIndex": 136
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
     "Type": "SceneComponent",
     "Name": "DefaultSceneRoot_GEN_VARIABLE",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
@@ -916,7 +1168,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -925,7 +1177,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_PhoebePlayerController_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.40"
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.41"
       },
       "VariableGuid": "7C3CA8ED-4764BCC5-2E3A1089-E25ADCE5",
       "InternalVariableName": "DefaultSceneRoot"
@@ -938,7 +1190,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -960,7 +1212,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -982,7 +1234,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1004,7 +1256,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1026,7 +1278,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_PhoebePlayerController_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
+      "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1054,50 +1306,50 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.44"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.43"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.46"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.45"
         },
         {
-          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.44"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.43"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.46"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.45"
         },
         {
-          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.48"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_PhoebePlayerController_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.42"
+        "ObjectPath": "/Game/Athena/AI/Phoebe/BP_PhoebePlayerController.43"
       }
     }
   },

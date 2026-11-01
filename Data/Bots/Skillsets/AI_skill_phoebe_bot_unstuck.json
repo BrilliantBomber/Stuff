@@ -34,6 +34,16 @@
           "RowName": "Phoebe.Skill.Teleport.MaxDistanceToPlayer"
         }
       },
+      "MinDistanceFromPlayerToTeleport": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'Phoebe_SkillSets'",
+            "ObjectPath": "/Game/Athena/AI/Phoebe/PhoebeSkillSets/Phoebe_SkillSets.0"
+          },
+          "RowName": "Phoebe.Skill.Teleport.MinDistanceFromPlayer"
+        }
+      },
       "PlayerToPhoebeAngleVisibilityConeToTeleport": {
         "Value": 1.0,
         "Curve": {

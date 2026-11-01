@@ -23889,8 +23889,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "AC1F4F2BA2EF45228DE0EC591D63AE1F",
-          "SourceString": "Set_01",
-          "LocalizedString": "Set_01"
+          "SourceString": "Inoxtag",
+          "LocalizedString": "Inoxtag"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23931,8 +23931,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "0F45874F93B34678A364A762DD85DBDB",
-          "SourceString": "Predator Badlands",
-          "LocalizedString": "Predator Badlands"
+          "SourceString": "Predator: Badlands",
+          "LocalizedString": "Predator: Badlands"
         },
         "Description": {
           "CultureInvariantString": null
@@ -23973,8 +23973,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "886A4253B5B64085AFA7441927AC1B23",
-          "SourceString": "Set_02",
-          "LocalizedString": "Set_02"
+          "SourceString": "Yeat",
+          "LocalizedString": "Yeat"
         },
         "Description": {
           "CultureInvariantString": null
@@ -24022,7 +24022,21 @@
           "CultureInvariantString": null
         }
       },
-      "NewRow": {
+      "Cosmetics.Set.IcyRosebud": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.IcyRosebud"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B304D07B493E337825BCE8A977DD2BF1",
+          "SourceString": "Beary Kawaii",
+          "LocalizedString": "Beary Kawaii"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ShadeFly": {
         "Tag": {
           "TagName": "Cosmetics.Set.ShadeFly"
         },
@@ -24031,6 +24045,146 @@
           "Key": "D294DD6E46389DA13364D78B62FC2997",
           "SourceString": "Harrowing Nightmare",
           "LocalizedString": "Harrowing Nightmare"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.SwiftGambit": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.SwiftGambit"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E6C639C149C8724BB42A1E9A7DACBFD6",
+          "SourceString": "Bushi",
+          "LocalizedString": "Bushi"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BriefChariot": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BriefChariot"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "274F02A1417FB8E768349BBA659530A4",
+          "SourceString": "Big Cat Hunter",
+          "LocalizedString": "Big Cat Hunter"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BleakBee": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BleakBee"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "1022183C432B7B641C9ACE86C4437AD0",
+          "SourceString": "Finders, Keepers",
+          "LocalizedString": "Finders, Keepers"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FrailShark": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.FrailShark"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "18C1ECFC4FA92CCA9B00C3B8C1CEA525",
+          "SourceString": "One Piece",
+          "LocalizedString": "One Piece"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.TiredHarpie": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.TiredHarpie"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "C7070E9C40B60629BF7032ACEFCB7BEB",
+          "SourceString": "Jones on the Hunt",
+          "LocalizedString": "Jones on the Hunt"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.MutedVolunteer": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.MutedVolunteer"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A67F96BC40D213DA26CC239D02F6EFD9",
+          "SourceString": "Set_01",
+          "LocalizedString": "Set_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.TwinWillow": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.TwinWillow"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "65A4890B442C1109E7D554AFAE8FBA9B",
+          "SourceString": "Lil Uzi Vert",
+          "LocalizedString": "Lil Uzi Vert"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.MerryHawk": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.MerryHawk"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "C3A6DC76462F5684B4A0AE9EEE1D86AB",
+          "SourceString": "Set_02",
+          "LocalizedString": "Coco"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FakeSandstorm": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.FakeSandstorm"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "DB9350AE43801D4F2E4E93A573052F08",
+          "SourceString": "Aibo",
+          "LocalizedString": "Aibo"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BottleNinja": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BottleNinja"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B66E3B02436852449CD4128534466481",
+          "SourceString": "Charlotte-Sensei",
+          "LocalizedString": "Charlotte-Sensei"
         },
         "Description": {
           "CultureInvariantString": null

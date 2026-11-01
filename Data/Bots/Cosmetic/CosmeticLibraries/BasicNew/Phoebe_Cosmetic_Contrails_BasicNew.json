@@ -18,7 +18,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_masakoreign"
+          "PrimaryAssetName": "contrail_sheerwill"
         },
         "Weight": 100.0
       },
@@ -27,7 +27,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_pixieparts"
+          "PrimaryAssetName": "contrail_masakoreign"
         },
         "Weight": 100.0
       },
@@ -36,7 +36,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_foundkelp"
+          "PrimaryAssetName": "contrail_pebblescout"
         },
         "Weight": 100.0
       },
@@ -45,7 +45,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_squibblysquid"
+          "PrimaryAssetName": "contrail_phoenixkick"
         },
         "Weight": 100.0
       },
@@ -54,7 +54,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_livelysugar_syrup"
+          "PrimaryAssetName": "contrail_slickintel"
         },
         "Weight": 100.0
       },
@@ -63,7 +63,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_lemonwrath"
+          "PrimaryAssetName": "contrail_squibblysquid"
         },
         "Weight": 100.0
       },
@@ -72,7 +72,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_funkyfeather"
+          "PrimaryAssetName": "contrail_foundkelp"
         },
         "Weight": 100.0
       },
@@ -81,7 +81,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_creamskull_dove"
+          "PrimaryAssetName": "contrail_brokengravel"
         },
         "Weight": 100.0
       },
@@ -90,7 +90,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_liftingaura"
+          "PrimaryAssetName": "contrail_missusmind"
         },
         "Weight": 100.0
       },
@@ -99,7 +99,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_hollowstun"
+          "PrimaryAssetName": "contrail_liftingaura"
         },
         "Weight": 100.0
       },
@@ -108,7 +108,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_synthcontact"
+          "PrimaryAssetName": "contrail_hollowstun"
         },
         "Weight": 100.0
       },
@@ -117,7 +117,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_localtalent"
+          "PrimaryAssetName": "contrail_creamskull_dove"
         },
         "Weight": 100.0
       },
@@ -126,7 +126,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_missusmind"
+          "PrimaryAssetName": "contrail_frostedglass"
         },
         "Weight": 100.0
       },
@@ -135,7 +135,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_marinecarve"
+          "PrimaryAssetName": "contrail_synthcontact"
         },
         "Weight": 100.0
       },
@@ -144,7 +144,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_frostedglass"
+          "PrimaryAssetName": "contrail_grimhound"
         },
         "Weight": 100.0
       },
@@ -162,7 +162,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_grimhound"
+          "PrimaryAssetName": "contrail_rushrustle"
         },
         "Weight": 100.0
       },
@@ -171,7 +171,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_rushrustle"
+          "PrimaryAssetName": "contrail_winterfire"
         },
         "Weight": 100.0
       },
@@ -180,7 +180,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_steedshimmer"
+          "PrimaryAssetName": "contrail_marinecarve"
         },
         "Weight": 100.0
       },
@@ -189,7 +189,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_winterfire"
+          "PrimaryAssetName": "contrail_pixieparts"
         },
         "Weight": 100.0
       },
@@ -198,7 +198,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_spaceplunge"
+          "PrimaryAssetName": "contrail_redpepper"
         },
         "Weight": 100.0
       },
@@ -207,7 +207,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_grimehold"
+          "PrimaryAssetName": "contrail_steedshimmer"
         },
         "Weight": 100.0
       },
@@ -216,7 +216,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_redpepper"
+          "PrimaryAssetName": "contrail_grimehold"
         },
         "Weight": 100.0
       },
@@ -225,7 +225,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_kartrocket"
+          "PrimaryAssetName": "contrail_livelysugar_syrup"
         },
         "Weight": 100.0
       },
@@ -234,7 +234,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_rowliaison"
+          "PrimaryAssetName": "contrail_spaceplunge"
         },
         "Weight": 100.0
       },
@@ -243,7 +243,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_talonpane"
+          "PrimaryAssetName": "trails_id_137_turtleneckcrystal"
         },
         "Weight": 100.0
       },
@@ -252,7 +252,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_cozymechanic"
+          "PrimaryAssetName": "contrail_kartrocket"
         },
         "Weight": 100.0
       },
@@ -270,7 +270,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_auracop"
+          "PrimaryAssetName": "trails_id_037_glyphs"
         },
         "Weight": 100.0
       },
@@ -279,7 +279,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_praireskip"
+          "PrimaryAssetName": "contrail_funkyfeather"
         },
         "Weight": 100.0
       },
@@ -288,7 +288,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_137_turtleneckcrystal"
+          "PrimaryAssetName": "contrail_praireskip"
         },
         "Weight": 100.0
       },
@@ -297,7 +297,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_bengalbasher"
+          "PrimaryAssetName": "contrail_talonpane"
         },
         "Weight": 100.0
       },
@@ -306,7 +306,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_tallchore"
+          "PrimaryAssetName": "contrail_lemonwrath"
         },
         "Weight": 100.0
       },
@@ -315,7 +315,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_madamemoth"
+          "PrimaryAssetName": "trails_id_114_temple"
         },
         "Weight": 100.0
       },
@@ -324,7 +324,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_sprocketpoppy_boat"
+          "PrimaryAssetName": "contrail_rowliaison"
         },
         "Weight": 100.0
       },
@@ -333,7 +333,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_037_glyphs"
+          "PrimaryAssetName": "contrail_bengalbasher"
         },
         "Weight": 100.0
       },
@@ -342,7 +342,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_berryflight"
+          "PrimaryAssetName": "contrail_madamemoth"
         },
         "Weight": 100.0
       },
@@ -351,7 +351,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_briskreign"
+          "PrimaryAssetName": "contrail_sprocketpoppy_boat"
         },
         "Weight": 100.0
       },
@@ -360,7 +360,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_114_temple"
+          "PrimaryAssetName": "contrail_auracop"
         },
         "Weight": 100.0
       },
@@ -369,7 +369,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_spatialtravelwatt"
+          "PrimaryAssetName": "contrail_cozymechanic"
         },
         "Weight": 100.0
       },
@@ -378,7 +378,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_silenttempo"
+          "PrimaryAssetName": "contrail_localtalent"
         },
         "Weight": 100.0
       },
@@ -387,7 +387,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_crisprover"
+          "PrimaryAssetName": "contrail_silenttempo"
         },
         "Weight": 100.0
       },
@@ -396,7 +396,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_inflatododo"
+          "PrimaryAssetName": "contrail_crisprover"
         },
         "Weight": 100.0
       },
@@ -405,7 +405,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_muffinladle"
+          "PrimaryAssetName": "contrail_megatoof"
         },
         "Weight": 100.0
       },
@@ -414,7 +414,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_megatoof"
+          "PrimaryAssetName": "trails_id_105_futuresamurai"
         },
         "Weight": 100.0
       },
@@ -423,7 +423,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_silentnovel_vane"
+          "PrimaryAssetName": "contrail_spookyvine"
         },
         "Weight": 100.0
       },
@@ -432,7 +432,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_stunningmountain"
+          "PrimaryAssetName": "contrail_inflatododo"
         },
         "Weight": 100.0
       },
@@ -441,7 +441,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_fruitfire_nudge"
+          "PrimaryAssetName": "contrail_muffinladle"
         },
         "Weight": 100.0
       },
@@ -450,7 +450,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_squidglisten"
+          "PrimaryAssetName": "contrail_smashy"
         },
         "Weight": 100.0
       },
@@ -459,7 +459,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_144_pinkwidow"
+          "PrimaryAssetName": "contrail_spatialtravelwatt"
         },
         "Weight": 100.0
       },
@@ -468,7 +468,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_medievalsheath"
+          "PrimaryAssetName": "contrail_darkstance"
         },
         "Weight": 100.0
       },
@@ -477,7 +477,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_royalangst"
+          "PrimaryAssetName": "contrail_jadetowel"
         },
         "Weight": 100.0
       },
@@ -486,7 +486,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_retro"
+          "PrimaryAssetName": "trails_id_033_snowflakes"
         },
         "Weight": 100.0
       },
@@ -495,7 +495,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_medicrow"
+          "PrimaryAssetName": "trails_id_144_pinkwidow"
         },
         "Weight": 100.0
       },
@@ -504,7 +504,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_polaritywinnfield"
+          "PrimaryAssetName": "contrail_stunningmountain"
         },
         "Weight": 100.0
       },
@@ -513,7 +513,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_hangspec"
+          "PrimaryAssetName": "contrail_medicrow"
         },
         "Weight": 100.0
       },
@@ -522,7 +522,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_slicevine"
+          "PrimaryAssetName": "contrail_medievalsheath"
         },
         "Weight": 100.0
       },
@@ -531,7 +531,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_130_exosuit"
+          "PrimaryAssetName": "contrail_silentnovel_vane"
         },
         "Weight": 100.0
       },
@@ -540,7 +540,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_jadetowel"
+          "PrimaryAssetName": "trails_id_109_spacefighter"
         },
         "Weight": 100.0
       },
@@ -549,7 +549,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_season_41"
+          "PrimaryAssetName": "trails_id_130_exosuit"
         },
         "Weight": 100.0
       },
@@ -558,7 +558,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_slickswish"
+          "PrimaryAssetName": "contrail_tallchore"
         },
         "Weight": 100.0
       },
@@ -567,7 +567,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_darkstance"
+          "PrimaryAssetName": "contrail_ethicalnoggin"
         },
         "Weight": 100.0
       },
@@ -576,7 +576,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_superswirl"
+          "PrimaryAssetName": "contrail_retro"
         },
         "Weight": 100.0
       },
@@ -585,7 +585,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_lilsplit"
+          "PrimaryAssetName": "contrail_fruitfire_nudge"
         },
         "Weight": 100.0
       },
@@ -594,7 +594,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_033_snowflakes"
+          "PrimaryAssetName": "contrail_briskreign"
         },
         "Weight": 100.0
       },
@@ -603,7 +603,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_zencrash"
+          "PrimaryAssetName": "trails_id_026_bats"
         },
         "Weight": 100.0
       },
@@ -612,7 +612,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_inferno"
+          "PrimaryAssetName": "trails_id_008_lightning"
         },
         "Weight": 100.0
       },
@@ -621,7 +621,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_plantstand"
+          "PrimaryAssetName": "contrail_squidglisten"
         },
         "Weight": 100.0
       },
@@ -630,7 +630,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_109_spacefighter"
+          "PrimaryAssetName": "trails_id_079_zeropoint"
         },
         "Weight": 100.0
       },
@@ -639,7 +639,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_snowknight"
+          "PrimaryAssetName": "contrail_royalangst"
         },
         "Weight": 100.0
       },
@@ -648,7 +648,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_chainmail"
+          "PrimaryAssetName": "contrail_berryflight"
         },
         "Weight": 100.0
       },
@@ -657,7 +657,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_ironlilac"
+          "PrimaryAssetName": "contrail_slickswish"
         },
         "Weight": 100.0
       },
@@ -666,7 +666,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_105_futuresamurai"
+          "PrimaryAssetName": "contrail_superswirl"
         },
         "Weight": 100.0
       },
@@ -675,7 +675,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_008_lightning"
+          "PrimaryAssetName": "contrail_chainmail"
         },
         "Weight": 100.0
       },
@@ -684,7 +684,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_ethicalnoggin"
+          "PrimaryAssetName": "trails_id_129_ghostchain"
         },
         "Weight": 100.0
       },
@@ -693,7 +693,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_mistmylar"
+          "PrimaryAssetName": "contrail_slicevine"
         },
         "Weight": 100.0
       },
@@ -702,7 +702,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_sherwolf"
+          "PrimaryAssetName": "contrail_lilsplit"
         },
         "Weight": 100.0
       },
@@ -711,7 +711,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_147_lancelot"
+          "PrimaryAssetName": "trails_id_086_snowstorm"
         },
         "Weight": 100.0
       },
@@ -720,7 +720,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_greatpool"
+          "PrimaryAssetName": "contrail_snowknight"
         },
         "Weight": 100.0
       },
@@ -729,7 +729,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_079_zeropoint"
+          "PrimaryAssetName": "contrail_mistravencowl"
         },
         "Weight": 100.0
       },
@@ -738,7 +738,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_satirecane_ode"
+          "PrimaryAssetName": "contrail_greatpool"
         },
         "Weight": 100.0
       },
@@ -747,7 +747,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_undergroundrebel"
+          "PrimaryAssetName": "contrail_inferno"
         },
         "Weight": 100.0
       },
@@ -756,7 +756,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_homerange"
+          "PrimaryAssetName": "contrail_polaritywinnfield"
         },
         "Weight": 100.0
       },
@@ -765,7 +765,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_145_fuchisa"
+          "PrimaryAssetName": "contrail_dimeblanket"
         },
         "Weight": 100.0
       },
@@ -774,7 +774,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_swoopclasp"
+          "PrimaryAssetName": "contrail_lazaruslens"
         },
         "Weight": 100.0
       },
@@ -783,7 +783,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_mistravencowl"
+          "PrimaryAssetName": "trails_id_075_celestial"
         },
         "Weight": 100.0
       },
@@ -792,7 +792,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_086_snowstorm"
+          "PrimaryAssetName": "contrail_hangspec"
         },
         "Weight": 100.0
       },
@@ -801,7 +801,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_dimeblanket"
+          "PrimaryAssetName": "contrail_homerange"
         },
         "Weight": 100.0
       },
@@ -810,7 +810,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_diamondheart"
+          "PrimaryAssetName": "trails_id_013_shootingstar"
         },
         "Weight": 100.0
       },
@@ -819,7 +819,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_strategicspur_mic"
+          "PrimaryAssetName": "contrail_plantstand"
         },
         "Weight": 100.0
       },
@@ -828,7 +828,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_spookyvine"
+          "PrimaryAssetName": "contrail_kelplinen"
         },
         "Weight": 100.0
       },
@@ -837,7 +837,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_013_shootingstar"
+          "PrimaryAssetName": "contrail_mistmylar"
         },
         "Weight": 100.0
       },
@@ -855,7 +855,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_meteorwomen"
+          "PrimaryAssetName": "contrail_ironlilac"
         },
         "Weight": 100.0
       },
@@ -864,7 +864,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_kelplinen"
+          "PrimaryAssetName": "contrail_sherwolf"
         },
         "Weight": 100.0
       },
@@ -873,7 +873,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_129_ghostchain"
+          "PrimaryAssetName": "trails_id_003_fire"
         },
         "Weight": 100.0
       },
@@ -882,7 +882,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_lazaruslens"
+          "PrimaryAssetName": "trails_id_145_fuchisa"
         },
         "Weight": 100.0
       },
@@ -891,7 +891,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_casinoreaper"
+          "PrimaryAssetName": "trails_id_115_tube"
         },
         "Weight": 100.0
       },
@@ -900,7 +900,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_ashenmagnusslant"
+          "PrimaryAssetName": "trails_id_147_lancelot"
         },
         "Weight": 100.0
       },
@@ -909,7 +909,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_selenecobra"
+          "PrimaryAssetName": "contrail_zencrash"
         },
         "Weight": 100.0
       },
@@ -918,7 +918,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_carbideweld"
+          "PrimaryAssetName": "trails_id_112_cubeninja"
         },
         "Weight": 100.0
       },
@@ -927,11 +927,29 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_boomshot"
+          "PrimaryAssetName": "contrail_undergroundrebel"
         },
-        "Weight": 99.0
+        "Weight": 94.0
       },
       "102": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "contrail_stinkycloud"
+        },
+        "Weight": 94.0
+      },
+      "103": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_121_darkandlight"
+        },
+        "Weight": 94.0
+      },
+      "104": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
@@ -940,84 +958,66 @@
         },
         "Weight": 93.0
       },
-      "103": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_115_tube"
-        },
-        "Weight": 93.0
-      },
-      "104": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_075_celestial"
-        },
-        "Weight": 93.0
-      },
       "105": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_142_orderguard"
+          "PrimaryAssetName": "contrail_strategicspur_mic"
         },
-        "Weight": 91.0
+        "Weight": 92.0
       },
       "106": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_112_cubeninja"
+          "PrimaryAssetName": "trails_id_045_undertow"
         },
-        "Weight": 91.0
+        "Weight": 92.0
       },
       "107": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_026_bats"
+          "PrimaryAssetName": "trails_id_022_greensmoke"
         },
-        "Weight": 91.0
+        "Weight": 92.0
       },
       "108": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_stinkycloud"
+          "PrimaryAssetName": "trails_id_084_briefcase"
         },
-        "Weight": 89.0
+        "Weight": 90.0
       },
       "109": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_rippedharvester"
+          "PrimaryAssetName": "trails_id_142_orderguard"
         },
-        "Weight": 89.0
+        "Weight": 90.0
       },
       "110": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_musketslinger"
+          "PrimaryAssetName": "contrail_selenecobra"
         },
-        "Weight": 88.0
+        "Weight": 89.0
       },
       "111": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_stagecue"
+          "PrimaryAssetName": "contrail_meteorwomen"
         },
         "Weight": 88.0
       },
@@ -1026,16 +1026,16 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_badbear"
+          "PrimaryAssetName": "contrail_gatorceladon"
         },
-        "Weight": 87.0
+        "Weight": 85.0
       },
       "113": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_003_fire"
+          "PrimaryAssetName": "contrail_boomshot"
         },
         "Weight": 85.0
       },
@@ -1044,196 +1044,196 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_121_darkandlight"
+          "PrimaryAssetName": "trails_id_056_stormtracker"
         },
-        "Weight": 85.0
+        "Weight": 83.0
       },
       "115": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_radiopaca"
+          "PrimaryAssetName": "contrail_diamondheart"
         },
-        "Weight": 84.0
+        "Weight": 83.0
       },
       "116": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_zirconsweep"
+          "PrimaryAssetName": "trails_id_021_bling"
         },
-        "Weight": 83.0
+        "Weight": 82.0
       },
       "117": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_141_theorigin"
+          "PrimaryAssetName": "trails_id_093_spacewanderer"
         },
-        "Weight": 81.0
+        "Weight": 82.0
       },
       "118": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_gatorceladon"
+          "PrimaryAssetName": "contrail_rippedharvester"
         },
-        "Weight": 79.0
+        "Weight": 82.0
       },
       "119": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_sacredcuddle"
+          "PrimaryAssetName": "contrail_satirecane_ode"
         },
-        "Weight": 77.0
+        "Weight": 82.0
       },
       "120": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_084_briefcase"
+          "PrimaryAssetName": "trails_id_136_renegaderaiderfire"
         },
-        "Weight": 77.0
+        "Weight": 80.0
       },
       "121": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_jollytroll"
+          "PrimaryAssetName": "trails_id_076_reactivelight"
         },
-        "Weight": 76.0
+        "Weight": 80.0
       },
       "122": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_speedypeas"
+          "PrimaryAssetName": "contrail_casinoreaper"
         },
-        "Weight": 76.0
+        "Weight": 79.0
       },
       "123": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_022_greensmoke"
+          "PrimaryAssetName": "trails_id_025_jackolantern"
         },
-        "Weight": 75.0
+        "Weight": 79.0
       },
       "124": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_134_motorcyclistfemale"
+          "PrimaryAssetName": "contrail_swoopclasp"
         },
-        "Weight": 74.0
+        "Weight": 78.0
       },
       "125": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_blazerveil"
+          "PrimaryAssetName": "contrail_carbideweld"
         },
-        "Weight": 73.0
+        "Weight": 75.0
       },
       "126": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_093_spacewanderer"
+          "PrimaryAssetName": "contrail_musketslinger"
         },
-        "Weight": 71.0
+        "Weight": 75.0
       },
       "127": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_076_reactivelight"
+          "PrimaryAssetName": "trails_id_101_parcelprank"
         },
-        "Weight": 70.0
+        "Weight": 74.0
       },
       "128": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_stormaviator"
+          "PrimaryAssetName": "contrail_badbear"
         },
-        "Weight": 70.0
+        "Weight": 72.0
       },
       "129": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_pinkspike"
+          "PrimaryAssetName": "contrail_sacredcuddle"
         },
-        "Weight": 70.0
+        "Weight": 71.0
       },
       "130": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_pizzaparty"
+          "PrimaryAssetName": "trails_id_074_driftlightning"
         },
-        "Weight": 69.0
+        "Weight": 71.0
       },
       "131": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_nebula"
+          "PrimaryAssetName": "trails_id_094_waterspray"
         },
-        "Weight": 69.0
+        "Weight": 70.0
       },
       "132": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_045_undertow"
+          "PrimaryAssetName": "trails_id_009_hearts"
         },
-        "Weight": 68.0
+        "Weight": 70.0
       },
       "133": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_hornedjudgment"
+          "PrimaryAssetName": "contrail_ashenmagnusslant"
         },
-        "Weight": 68.0
+        "Weight": 70.0
       },
       "134": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_denimequip"
+          "PrimaryAssetName": "trails_id_020_ravenquill"
         },
-        "Weight": 68.0
+        "Weight": 69.0
       },
       "135": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_149_sealife"
+          "PrimaryAssetName": "contrail_zirconsweep"
         },
         "Weight": 68.0
       },
@@ -1242,16 +1242,16 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_021_bling"
+          "PrimaryAssetName": "trails_id_044_lava"
         },
-        "Weight": 67.0
+        "Weight": 68.0
       },
       "137": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_nitroflow"
+          "PrimaryAssetName": "contrail_stagecue"
         },
         "Weight": 67.0
       },
@@ -1260,29 +1260,11 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_056_stormtracker"
+          "PrimaryAssetName": "contrail_stormaviator"
         },
-        "Weight": 67.0
+        "Weight": 66.0
       },
       "139": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_009_hearts"
-        },
-        "Weight": 67.0
-      },
-      "140": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_094_waterspray"
-        },
-        "Weight": 67.0
-      },
-      "141": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
@@ -1291,23 +1273,41 @@
         },
         "Weight": 66.0
       },
+      "140": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "contrail_jollytroll"
+        },
+        "Weight": 65.0
+      },
+      "141": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "contrail_radiopaca"
+        },
+        "Weight": 65.0
+      },
       "142": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_wiryperk"
+          "PrimaryAssetName": "trails_id_141_theorigin"
         },
-        "Weight": 66.0
+        "Weight": 65.0
       },
       "143": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_sparklechop"
+          "PrimaryAssetName": "trails_id_116_wavesoflight"
         },
-        "Weight": 65.0
+        "Weight": 64.0
       },
       "144": {
         "PrimaryAssetId": {
@@ -1323,56 +1323,38 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_074_driftlightning"
+          "PrimaryAssetName": "trails_id_134_motorcyclistfemale"
         },
-        "Weight": 63.0
+        "Weight": 64.0
       },
       "146": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_vitalpsych"
+          "PrimaryAssetName": "trails_id_011_glitch"
         },
-        "Weight": 63.0
+        "Weight": 61.0
       },
       "147": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_shiverflame"
+          "PrimaryAssetName": "trails_id_004_bluestreak"
         },
-        "Weight": 63.0
+        "Weight": 59.0
       },
       "148": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_011_glitch"
-        },
-        "Weight": 60.0
-      },
-      "149": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_101_parcelprank"
-        },
-        "Weight": 60.0
-      },
-      "150": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "contrail_corestreet"
+          "PrimaryAssetName": "contrail_hornedjudgment"
         },
         "Weight": 59.0
       },
-      "151": {
+      "149": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
@@ -1381,30 +1363,48 @@
         },
         "Weight": 58.0
       },
+      "150": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "contrail_pinkspike"
+        },
+        "Weight": 58.0
+      },
+      "151": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_032_stringlights"
+        },
+        "Weight": 58.0
+      },
       "152": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_044_lava"
+          "PrimaryAssetName": "trails_id_123_tacticalwoodlandblue"
         },
-        "Weight": 58.0
+        "Weight": 57.0
       },
       "153": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_116_wavesoflight"
+          "PrimaryAssetName": "trails_id_001_disco"
         },
-        "Weight": 57.0
+        "Weight": 56.0
       },
       "154": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_sharpfang"
+          "PrimaryAssetName": "contrail_pizzaparty"
         },
         "Weight": 56.0
       },
@@ -1413,7 +1413,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_117_abduction"
+          "PrimaryAssetName": "contrail_blazerveil"
         },
         "Weight": 56.0
       },
@@ -1422,7 +1422,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_092_schooloffish"
+          "PrimaryAssetName": "contrail_denimequip"
         },
         "Weight": 55.0
       },
@@ -1431,45 +1431,45 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_004_bluestreak"
+          "PrimaryAssetName": "trails_id_149_sealife"
         },
-        "Weight": 54.0
+        "Weight": 55.0
       },
       "158": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_148_80sribbon"
+          "PrimaryAssetName": "trails_id_048_spectral"
         },
-        "Weight": 54.0
+        "Weight": 55.0
       },
       "159": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_136_renegaderaiderfire"
+          "PrimaryAssetName": "contrail_sparklechop"
         },
-        "Weight": 54.0
+        "Weight": 55.0
       },
       "160": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_020_ravenquill"
+          "PrimaryAssetName": "contrail_nebula"
         },
-        "Weight": 54.0
+        "Weight": 55.0
       },
       "161": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_016_ice"
+          "PrimaryAssetName": "trails_id_002_rainbow"
         },
-        "Weight": 54.0
+        "Weight": 55.0
       },
       "162": {
         "PrimaryAssetId": {
@@ -1478,25 +1478,25 @@
           },
           "PrimaryAssetName": "trails_id_034_swirlysmoke"
         },
-        "Weight": 54.0
+        "Weight": 55.0
       },
       "163": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_indiebucket"
+          "PrimaryAssetName": "contrail_nitroflow"
         },
-        "Weight": 53.0
+        "Weight": 54.0
       },
       "164": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_010_retroscifi"
+          "PrimaryAssetName": "trails_id_092_schooloffish"
         },
-        "Weight": 52.0
+        "Weight": 53.0
       },
       "165": {
         "PrimaryAssetId": {
@@ -1505,18 +1505,36 @@
           },
           "PrimaryAssetName": "trails_id_110_lexa"
         },
-        "Weight": 52.0
+        "Weight": 53.0
       },
       "166": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_apprentice"
+          "PrimaryAssetName": "trails_id_117_abduction"
         },
-        "Weight": 51.0
+        "Weight": 53.0
       },
       "167": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_082_holidaygarland"
+        },
+        "Weight": 53.0
+      },
+      "168": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_016_ice"
+        },
+        "Weight": 52.0
+      },
+      "169": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
@@ -1525,30 +1543,12 @@
         },
         "Weight": 51.0
       },
-      "168": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_087_tntina"
-        },
-        "Weight": 51.0
-      },
-      "169": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_119_colortrip"
-        },
-        "Weight": 50.0
-      },
       "170": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_002_rainbow"
+          "PrimaryAssetName": "trails_id_087_tntina"
         },
         "Weight": 50.0
       },
@@ -1557,7 +1557,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_082_holidaygarland"
+          "PrimaryAssetName": "contrail_vitalpsych"
         },
         "Weight": 50.0
       },
@@ -1566,16 +1566,16 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_018_runes"
+          "PrimaryAssetName": "trails_id_106_geostorm"
         },
-        "Weight": 50.0
+        "Weight": 49.0
       },
       "173": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_032_stringlights"
+          "PrimaryAssetName": "contrail_season_41"
         },
         "Weight": 48.0
       },
@@ -1584,7 +1584,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_001_disco"
+          "PrimaryAssetName": "contrail_corestreet"
         },
         "Weight": 48.0
       },
@@ -1593,7 +1593,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_048_spectral"
+          "PrimaryAssetName": "contrail_shiverflame"
         },
         "Weight": 48.0
       },
@@ -1602,7 +1602,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_106_geostorm"
+          "PrimaryAssetName": "trails_id_089_blackknight"
         },
         "Weight": 47.0
       },
@@ -1611,7 +1611,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_dazzle"
+          "PrimaryAssetName": "contrail_speedypeas"
         },
         "Weight": 47.0
       },
@@ -1620,79 +1620,79 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_pajamasoar"
+          "PrimaryAssetName": "contrail_wiryperk"
         },
-        "Weight": 46.0
+        "Weight": 47.0
       },
       "179": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_005_bubbles"
+          "PrimaryAssetName": "trails_id_068_popcorn"
         },
-        "Weight": 45.0
+        "Weight": 47.0
       },
       "180": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_season40"
+          "PrimaryAssetName": "trails_id_005_bubbles"
         },
-        "Weight": 44.0
+        "Weight": 47.0
       },
       "181": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_123_tacticalwoodlandblue"
+          "PrimaryAssetName": "trails_id_119_colortrip"
         },
-        "Weight": 44.0
+        "Weight": 46.0
       },
       "182": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_068_popcorn"
+          "PrimaryAssetName": "trails_id_046_clover"
         },
-        "Weight": 44.0
+        "Weight": 46.0
       },
       "183": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_139_knightcat"
+          "PrimaryAssetName": "trails_id_010_retroscifi"
         },
-        "Weight": 44.0
+        "Weight": 46.0
       },
       "184": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_138_cadet"
+          "PrimaryAssetName": "trails_id_148_80sribbon"
         },
-        "Weight": 44.0
+        "Weight": 45.0
       },
       "185": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_077_billiards"
+          "PrimaryAssetName": "trails_id_018_runes"
         },
-        "Weight": 43.0
+        "Weight": 44.0
       },
       "186": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_046_clover"
+          "PrimaryAssetName": "contrail_sharpfang"
         },
         "Weight": 43.0
       },
@@ -1701,16 +1701,16 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_128_division"
+          "PrimaryAssetName": "contrail_indiebucket"
         },
-        "Weight": 43.0
+        "Weight": 42.0
       },
       "188": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_131_gumball"
+          "PrimaryAssetName": "contrail_pajamasoar"
         },
         "Weight": 42.0
       },
@@ -1719,43 +1719,43 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_118_boostwings"
+          "PrimaryAssetName": "trails_id_077_billiards"
         },
-        "Weight": 42.0
+        "Weight": 41.0
       },
       "190": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_012_spraypaint"
+          "PrimaryAssetName": "trails_id_31_greenflame"
         },
-        "Weight": 42.0
+        "Weight": 40.0
       },
       "191": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_036_fiberoptics"
+          "PrimaryAssetName": "trails_id_124_cerealbox"
         },
-        "Weight": 41.0
+        "Weight": 40.0
       },
       "192": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_104_flapjackwrangler"
+          "PrimaryAssetName": "trails_id_128_division"
         },
-        "Weight": 41.0
+        "Weight": 39.0
       },
       "193": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_124_cerealbox"
+          "PrimaryAssetName": "trails_id_104_flapjackwrangler"
         },
         "Weight": 39.0
       },
@@ -1764,34 +1764,34 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_083_alphabetsoup"
+          "PrimaryAssetName": "contrail_apprentice"
         },
-        "Weight": 39.0
+        "Weight": 38.0
       },
       "195": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_graffititon"
+          "PrimaryAssetName": "contrail_season40"
         },
-        "Weight": 39.0
+        "Weight": 38.0
       },
       "196": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_089_blackknight"
+          "PrimaryAssetName": "trails_id_083_alphabetsoup"
         },
-        "Weight": 39.0
+        "Weight": 38.0
       },
       "197": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_loudphoenix"
+          "PrimaryAssetName": "trails_id_057_battlesuit"
         },
         "Weight": 38.0
       },
@@ -1800,45 +1800,45 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_127_teriyakitoon"
+          "PrimaryAssetName": "trails_id_118_boostwings"
         },
-        "Weight": 38.0
+        "Weight": 37.0
       },
       "199": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_024_dieselsmoke"
+          "PrimaryAssetName": "trails_id_100_turbo"
         },
-        "Weight": 38.0
+        "Weight": 36.0
       },
       "200": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_aquapeony"
+          "PrimaryAssetName": "trails_id_007_tp"
         },
-        "Weight": 37.0
+        "Weight": 36.0
       },
       "201": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_125_ghosthunter"
+          "PrimaryAssetName": "trails_id_036_fiberoptics"
         },
-        "Weight": 37.0
+        "Weight": 36.0
       },
       "202": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_forestjean"
+          "PrimaryAssetName": "trails_id_012_spraypaint"
         },
-        "Weight": 37.0
+        "Weight": 35.0
       },
       "203": {
         "PrimaryAssetId": {
@@ -1847,41 +1847,41 @@
           },
           "PrimaryAssetName": "trails_id_080_dnahelix"
         },
-        "Weight": 37.0
+        "Weight": 35.0
       },
       "204": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_057_battlesuit"
+          "PrimaryAssetName": "trails_id_139_knightcat"
         },
-        "Weight": 36.0
+        "Weight": 34.0
       },
       "205": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_hibiscus"
+          "PrimaryAssetName": "trails_id_127_teriyakitoon"
         },
-        "Weight": 35.0
+        "Weight": 34.0
       },
       "206": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_017_lanterns"
+          "PrimaryAssetName": "trails_id_125_ghosthunter"
         },
-        "Weight": 35.0
+        "Weight": 33.0
       },
       "207": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_007_tp"
+          "PrimaryAssetName": "trails_id_138_cadet"
         },
         "Weight": 33.0
       },
@@ -1890,7 +1890,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_047_ammobelt"
+          "PrimaryAssetName": "trails_id_019_psburnout"
         },
         "Weight": 33.0
       },
@@ -1899,61 +1899,61 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_019_psburnout"
+          "PrimaryAssetName": "trails_id_131_gumball"
         },
-        "Weight": 32.0
+        "Weight": 33.0
       },
       "210": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_caninecronut"
+          "PrimaryAssetName": "trails_id_024_dieselsmoke"
         },
-        "Weight": 31.0
+        "Weight": 33.0
       },
       "211": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_054_kpopglow"
+          "PrimaryAssetName": "contrail_dazzle"
         },
-        "Weight": 30.0
+        "Weight": 32.0
       },
       "212": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_023_fireflies"
+          "PrimaryAssetName": "contrail_caninecronut"
         },
-        "Weight": 30.0
+        "Weight": 28.0
       },
       "213": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_100_turbo"
+          "PrimaryAssetName": "contrail_loudphoenix"
         },
-        "Weight": 30.0
+        "Weight": 28.0
       },
       "214": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_31_greenflame"
+          "PrimaryAssetName": "trails_id_017_lanterns"
         },
-        "Weight": 30.0
+        "Weight": 28.0
       },
       "215": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_085_candy"
+          "PrimaryAssetName": "trails_id_047_ammobelt"
         },
         "Weight": 28.0
       },
@@ -1962,7 +1962,7 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_055_bananas"
+          "PrimaryAssetName": "trails_id_023_fireflies"
         },
         "Weight": 28.0
       },
@@ -1971,20 +1971,11 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_realitybloom"
+          "PrimaryAssetName": "contrail_graffititon"
         },
-        "Weight": 26.0
+        "Weight": 25.0
       },
       "218": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_025_jackolantern"
-        },
-        "Weight": 26.0
-      },
-      "219": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
@@ -1993,12 +1984,21 @@
         },
         "Weight": 25.0
       },
+      "219": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_054_kpopglow"
+        },
+        "Weight": 25.0
+      },
       "220": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_113_dinohunter"
+          "PrimaryAssetName": "trails_id_081_missinglink"
         },
         "Weight": 25.0
       },
@@ -2007,36 +2007,36 @@
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_014_vines"
+          "PrimaryAssetName": "trails_id_055_bananas"
         },
-        "Weight": 23.0
+        "Weight": 25.0
       },
       "222": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_081_missinglink"
+          "PrimaryAssetName": "trails_id_085_candy"
         },
-        "Weight": 23.0
+        "Weight": 24.0
       },
       "223": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "trails_id_065_djremix"
+          "PrimaryAssetName": "contrail_forestjean"
         },
-        "Weight": 22.0
+        "Weight": 23.0
       },
       "224": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_indoorlacescore"
+          "PrimaryAssetName": "contrail_hibiscus"
         },
-        "Weight": 21.0
+        "Weight": 23.0
       },
       "225": {
         "PrimaryAssetId": {
@@ -2045,16 +2045,16 @@
           },
           "PrimaryAssetName": "trails_id_059_sony2"
         },
-        "Weight": 21.0
+        "Weight": 22.0
       },
       "226": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
-          "PrimaryAssetName": "contrail_quartz"
+          "PrimaryAssetName": "contrail_aquapeony"
         },
-        "Weight": 20.0
+        "Weight": 21.0
       },
       "227": {
         "PrimaryAssetId": {
@@ -2063,9 +2063,63 @@
           },
           "PrimaryAssetName": "trails_id_027_sands"
         },
-        "Weight": 20.0
+        "Weight": 21.0
       },
       "228": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "contrail_quartz"
+        },
+        "Weight": 20.0
+      },
+      "229": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "contrail_indoorlacescore"
+        },
+        "Weight": 19.0
+      },
+      "230": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "contrail_realitybloom"
+        },
+        "Weight": 19.0
+      },
+      "231": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_014_vines"
+        },
+        "Weight": 19.0
+      },
+      "232": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_113_dinohunter"
+        },
+        "Weight": 19.0
+      },
+      "233": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_065_djremix"
+        },
+        "Weight": 18.0
+      },
+      "234": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
@@ -2074,16 +2128,7 @@
         },
         "Weight": 18.0
       },
-      "229": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_063_beachballs"
-        },
-        "Weight": 16.0
-      },
-      "230": {
+      "235": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
@@ -2092,48 +2137,66 @@
         },
         "Weight": 16.0
       },
-      "231": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_122_fireworkstrands"
-        },
-        "Weight": 13.0
-      },
-      "232": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "trails_id_043_discoballs"
-        },
-        "Weight": 10.0
-      },
-      "233": {
-        "PrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "AthenaSkyDiveContrail"
-          },
-          "PrimaryAssetName": "contrail_dryerasetoro"
-        },
-        "Weight": 5.0
-      },
-      "234": {
+      "236": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
           "PrimaryAssetName": "contrail_fncs_s26"
         },
-        "Weight": 5.0
+        "Weight": 15.0
       },
-      "235": {
+      "237": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_122_fireworkstrands"
+        },
+        "Weight": 12.0
+      },
+      "238": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_063_beachballs"
+        },
+        "Weight": 12.0
+      },
+      "239": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_id_043_discoballs"
+        },
+        "Weight": 9.0
+      },
+      "240": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "contrail_dryerasetoro"
+        },
+        "Weight": 4.0
+      },
+      "241": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "AthenaSkyDiveContrail"
           },
           "PrimaryAssetName": "trails_id_111_holidaycookies"
+        },
+        "Weight": 3.0
+      },
+      "242": {
+        "PrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "AthenaSkyDiveContrail"
+          },
+          "PrimaryAssetName": "trails_random"
         },
         "Weight": 3.0
       }
