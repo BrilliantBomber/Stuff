@@ -24127,7 +24127,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "A67F96BC40D213DA26CC239D02F6EFD9",
-          "SourceString": "Set_01",
+          "SourceString": "A$AP Rocky",
           "LocalizedString": "A$AP Rocky"
         },
         "Description": {
@@ -24155,7 +24155,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "C3A6DC76462F5684B4A0AE9EEE1D86AB",
-          "SourceString": "Set_02",
+          "SourceString": "Coco",
           "LocalizedString": "Coco"
         },
         "Description": {
@@ -24182,9 +24182,121 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "B66E3B02436852449CD4128534466481",
+          "Key": "0692914B4ECB0FE9871D9B85D8CD5B05",
           "SourceString": "Charlotte-Sensei",
           "LocalizedString": "Charlotte-Sensei"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.DapperGiant": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.DapperGiant"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F6397B9F47F63F9A5BD4938B51CF438B",
+          "SourceString": "Teto's Here!",
+          "LocalizedString": "Teto's Here!"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CrispLightfoot": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CrispLightfoot"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B8EABFB646576E80D42404BF1FAAD14A",
+          "SourceString": "Set_04",
+          "LocalizedString": "Set_04"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.HazelGeyser": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.HazelGeyser"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "531B4B724B198239F710C29EE1DCB2F9",
+          "SourceString": "Set_02",
+          "LocalizedString": "Set_02"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CoarseCaravan": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CoarseCaravan"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "02EB52DF4AC78FE37DC7F6B456F174D7",
+          "SourceString": "Miku Sets Sail!",
+          "LocalizedString": "Miku Sets Sail!"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.InfiniteMaple": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.InfiniteMaple"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "FCF20D2641A60F75BA1BFC862EB3E189",
+          "SourceString": "Set_03",
+          "LocalizedString": "Set_03"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AlienBalboa": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.AlienBalboa"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "49B8EA7741212C221E4E5FAA33933582",
+          "SourceString": "Set_01",
+          "LocalizedString": "Set_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CrookedBishop": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CrookedBishop"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3A18B14148DEA5424FB3C2A65054DF00",
+          "SourceString": "Treasure Hunter Hope",
+          "LocalizedString": "Treasure Hunter Hope"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.LazyLotus": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.LazyLotus"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B284014843CE1582B2D427A10B5814AA",
+          "SourceString": "N.E.K.O.",
+          "LocalizedString": "N.E.K.O."
         },
         "Description": {
           "CultureInvariantString": null
