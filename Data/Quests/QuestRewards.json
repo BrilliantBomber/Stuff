@@ -35494,7 +35494,7 @@
       },
       "STWStarterBundle01_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle01_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35514,7 +35514,7 @@
       },
       "STWStarterBundle01_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle01_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35534,7 +35534,7 @@
       },
       "STWStarterBundle01_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle01_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35554,7 +35554,7 @@
       },
       "STWStarterBundle01_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle01_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35664,7 +35664,7 @@
       },
       "STWStarterBundle02_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle02_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35684,7 +35684,7 @@
       },
       "STWStarterBundle02_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle02_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35704,7 +35704,7 @@
       },
       "STWStarterBundle02_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle02_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35724,7 +35724,7 @@
       },
       "STWStarterBundle02_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle02_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35814,7 +35814,7 @@
       },
       "STWStarterBundle03_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle03_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35834,7 +35834,7 @@
       },
       "STWStarterBundle03_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle03_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35854,7 +35854,7 @@
       },
       "STWStarterBundle03_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle03_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35874,7 +35874,7 @@
       },
       "STWStarterBundle03_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle03_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35964,7 +35964,7 @@
       },
       "STWStarterBundle04_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle04_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -35984,7 +35984,7 @@
       },
       "STWStarterBundle04_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle04_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36004,7 +36004,7 @@
       },
       "STWStarterBundle04_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle04_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36024,7 +36024,7 @@
       },
       "STWStarterBundle04_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle04_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36114,7 +36114,7 @@
       },
       "STWStarterBundle05_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle05_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36134,7 +36134,7 @@
       },
       "STWStarterBundle05_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle05_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36154,7 +36154,7 @@
       },
       "STWStarterBundle05_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle05_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36174,7 +36174,7 @@
       },
       "STWStarterBundle05_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle05_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36254,7 +36254,7 @@
       },
       "STWStarterBundle06_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle06_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36274,7 +36274,7 @@
       },
       "STWStarterBundle06_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle06_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36294,7 +36294,7 @@
       },
       "STWStarterBundle06_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle06_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -36314,7 +36314,7 @@
       },
       "STWStarterBundle06_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle06_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51374,7 +51374,7 @@
       },
       "STWStarterBundle07_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle07_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51394,7 +51394,7 @@
       },
       "STWStarterBundle07_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle07_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51414,7 +51414,7 @@
       },
       "STWStarterBundle07_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle07_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51434,7 +51434,7 @@
       },
       "STWStarterBundle07_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle07_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51684,7 +51684,7 @@
       },
       "STWStarterBundle08_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle08_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51704,7 +51704,7 @@
       },
       "STWStarterBundle08_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle08_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51724,7 +51724,7 @@
       },
       "STWStarterBundle08_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle08_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51744,7 +51744,7 @@
       },
       "STWStarterBundle08_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle08_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51944,7 +51944,7 @@
       },
       "STWStarterBundle09_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle09_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51954,7 +51954,7 @@
       },
       "STWStarterBundle09_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle09_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51964,7 +51964,7 @@
       },
       "STWStarterBundle09_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle09_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51974,7 +51974,7 @@
       },
       "STWStarterBundle09_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle09_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -51984,7 +51984,7 @@
       },
       "STWStarterBundle09_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle09_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52114,7 +52114,7 @@
       },
       "STWStarterBundle10_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle10_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52124,7 +52124,7 @@
       },
       "STWStarterBundle10_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle10_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52134,7 +52134,7 @@
       },
       "STWStarterBundle10_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle10_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52144,7 +52144,7 @@
       },
       "STWStarterBundle10_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle10_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52154,7 +52154,7 @@
       },
       "STWStarterBundle10_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle10_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52424,7 +52424,7 @@
       },
       "STWStarterBundle11_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle11_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52434,7 +52434,7 @@
       },
       "STWStarterBundle11_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle11_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52444,7 +52444,7 @@
       },
       "STWStarterBundle11_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle11_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52454,7 +52454,7 @@
       },
       "STWStarterBundle11_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle11_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52464,7 +52464,7 @@
       },
       "STWStarterBundle11_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle11_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52684,7 +52684,7 @@
       },
       "STWStarterBundle12_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle12_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52694,7 +52694,7 @@
       },
       "STWStarterBundle12_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle12_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52704,7 +52704,7 @@
       },
       "STWStarterBundle12_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle12_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52714,7 +52714,7 @@
       },
       "STWStarterBundle12_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle12_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -52724,7 +52724,7 @@
       },
       "STWStarterBundle12_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle12_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54194,7 +54194,7 @@
       },
       "STWStarterBundle13_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle13_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54204,7 +54204,7 @@
       },
       "STWStarterBundle13_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle13_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54214,7 +54214,7 @@
       },
       "STWStarterBundle13_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle13_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54224,7 +54224,7 @@
       },
       "STWStarterBundle13_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle13_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54234,7 +54234,7 @@
       },
       "STWStarterBundle13_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle13_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54564,7 +54564,7 @@
       },
       "STWStarterBundle14_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle14_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54574,7 +54574,7 @@
       },
       "STWStarterBundle14_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle14_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54584,7 +54584,7 @@
       },
       "STWStarterBundle14_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle14_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54594,7 +54594,7 @@
       },
       "STWStarterBundle14_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle14_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -54604,7 +54604,7 @@
       },
       "STWStarterBundle14_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle14_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55134,7 +55134,7 @@
       },
       "STWStarterBundle15_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle15_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55144,7 +55144,7 @@
       },
       "STWStarterBundle15_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle15_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55154,7 +55154,7 @@
       },
       "STWStarterBundle15_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle15_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55164,7 +55164,7 @@
       },
       "STWStarterBundle15_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle15_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55174,7 +55174,7 @@
       },
       "STWStarterBundle15_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle15_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55244,7 +55244,7 @@
       },
       "STWStarterBundle16_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle16_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55254,7 +55254,7 @@
       },
       "STWStarterBundle16_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle16_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55264,7 +55264,7 @@
       },
       "STWStarterBundle16_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle16_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55274,7 +55274,7 @@
       },
       "STWStarterBundle16_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle16_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55334,7 +55334,7 @@
       },
       "STWStarterBundle17_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle17_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55344,7 +55344,7 @@
       },
       "STWStarterBundle17_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle17_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55354,7 +55354,7 @@
       },
       "STWStarterBundle17_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle17_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55364,7 +55364,7 @@
       },
       "STWStarterBundle17_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle17_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55374,7 +55374,7 @@
       },
       "STWStarterBundle17_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle17_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55444,7 +55444,7 @@
       },
       "STWStarterBundle18_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle18_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55454,7 +55454,7 @@
       },
       "STWStarterBundle18_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle18_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55464,7 +55464,7 @@
       },
       "STWStarterBundle18_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle18_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55474,7 +55474,7 @@
       },
       "STWStarterBundle18_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle18_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55484,7 +55484,7 @@
       },
       "STWStarterBundle18_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle18_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55634,7 +55634,7 @@
       },
       "STWStarterBundle19_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle19_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55644,7 +55644,7 @@
       },
       "STWStarterBundle19_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle19_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55654,7 +55654,7 @@
       },
       "STWStarterBundle19_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle19_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55664,7 +55664,7 @@
       },
       "STWStarterBundle19_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle19_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55674,7 +55674,7 @@
       },
       "STWStarterBundle19_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle19_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55894,7 +55894,7 @@
       },
       "STWStarterBundle20_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle20_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55904,7 +55904,7 @@
       },
       "STWStarterBundle20_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle20_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55914,7 +55914,7 @@
       },
       "STWStarterBundle20_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle20_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55924,7 +55924,7 @@
       },
       "STWStarterBundle20_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle20_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -55934,7 +55934,7 @@
       },
       "STWStarterBundle20_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle20_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56004,7 +56004,7 @@
       },
       "STWStarterBundle21_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle21_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56014,7 +56014,7 @@
       },
       "STWStarterBundle21_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle21_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56024,7 +56024,7 @@
       },
       "STWStarterBundle21_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle21_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56034,7 +56034,7 @@
       },
       "STWStarterBundle21_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle21_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56044,7 +56044,7 @@
       },
       "STWStarterBundle21_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle21_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56184,7 +56184,7 @@
       },
       "STWStarterBundle22_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle22_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56194,7 +56194,7 @@
       },
       "STWStarterBundle22_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle22_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56204,7 +56204,7 @@
       },
       "STWStarterBundle22_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle22_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56214,7 +56214,7 @@
       },
       "STWStarterBundle22_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle22_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56224,7 +56224,7 @@
       },
       "STWStarterBundle22_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle22_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56434,7 +56434,7 @@
       },
       "STWStarterBundle23_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle23_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56444,7 +56444,7 @@
       },
       "STWStarterBundle23_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle23_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56454,7 +56454,7 @@
       },
       "STWStarterBundle23_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle23_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56464,7 +56464,7 @@
       },
       "STWStarterBundle23_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle23_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56474,7 +56474,7 @@
       },
       "STWStarterBundle23_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle23_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56544,7 +56544,7 @@
       },
       "STWStarterBundle24_01_001": {
         "QuestTemplateId": "Quest:stwstarterbundle24_01",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 100,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56554,7 +56554,7 @@
       },
       "STWStarterBundle24_02_001": {
         "QuestTemplateId": "Quest:stwstarterbundle24_02",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 200,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56564,7 +56564,7 @@
       },
       "STWStarterBundle24_03_001": {
         "QuestTemplateId": "Quest:stwstarterbundle24_03",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 300,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56574,7 +56574,7 @@
       },
       "STWStarterBundle24_04_001": {
         "QuestTemplateId": "Quest:stwstarterbundle24_04",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 400,
         "ItemLevel": 0,
         "Hidden": false,
@@ -56584,7 +56584,7 @@
       },
       "STWStarterBundle24_05_001": {
         "QuestTemplateId": "Quest:stwstarterbundle24_05",
-        "TemplateId": "Currency:mtxgiveaway",
+        "TemplateId": "Currency:mtxpurchasebonus",
         "Quantity": 500,
         "ItemLevel": 0,
         "Hidden": false,
