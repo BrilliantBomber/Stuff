@@ -80,7 +80,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_splash"
+          "PrimaryAssetName": "sparksaura_shadedexpanse"
         },
         "Weight": 100.0
       },
@@ -107,7 +107,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_shadedexpanse"
+          "PrimaryAssetName": "sparksaura_splash"
         },
         "Weight": 100.0
       },
@@ -125,7 +125,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_bats"
+          "PrimaryAssetName": "sparksaura_fracturedbeacon"
         },
         "Weight": 100.0
       },
@@ -134,7 +134,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_fracturedbeacon"
+          "PrimaryAssetName": "sparksaura_bats"
         },
         "Weight": 100.0
       },
@@ -143,7 +143,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_filmsparkle"
+          "PrimaryAssetName": "sparksaura_ink"
         },
         "Weight": 100.0
       },
@@ -152,7 +152,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_ink"
+          "PrimaryAssetName": "sparksaura_filmsparkle"
         },
         "Weight": 100.0
       },
@@ -161,7 +161,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_diamondflare"
+          "PrimaryAssetName": "sparksaura_brightflame"
         },
         "Weight": 100.0
       },
@@ -170,7 +170,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_brightflame"
+          "PrimaryAssetName": "sparksaura_diamondflare"
         },
         "Weight": 100.0
       },
@@ -179,7 +179,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_magicstone"
+          "PrimaryAssetName": "sparksaura_shimmer"
         },
         "Weight": 100.0
       },
@@ -188,7 +188,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_fantasysunburst"
+          "PrimaryAssetName": "sparksaura_graffiti"
         },
         "Weight": 100.0
       },
@@ -197,7 +197,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_graffiti"
+          "PrimaryAssetName": "sparksaura_magicstone"
         },
         "Weight": 100.0
       },
@@ -206,7 +206,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_shimmer"
+          "PrimaryAssetName": "sparksaura_fantasysunburst"
         },
         "Weight": 100.0
       },
@@ -215,7 +215,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_highoctane"
+          "PrimaryAssetName": "sparksaura_darkflame"
         },
         "Weight": 100.0
       },
@@ -224,7 +224,7 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_darkflame"
+          "PrimaryAssetName": "sparksaura_highoctane"
         },
         "Weight": 100.0
       },
@@ -233,25 +233,25 @@
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_fantasyplant"
+          "PrimaryAssetName": "sparksaura_lights"
         },
-        "Weight": 87.0
+        "Weight": 83.0
       },
       "25": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_lights"
+          "PrimaryAssetName": "sparksaura_centerstage"
         },
-        "Weight": 86.0
+        "Weight": 82.0
       },
       "26": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_centerstage"
+          "PrimaryAssetName": "sparksaura_fantasyplant"
         },
         "Weight": 82.0
       },
@@ -262,34 +262,34 @@
           },
           "PrimaryAssetName": "sparksaura_stars"
         },
-        "Weight": 77.0
+        "Weight": 81.0
       },
       "28": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_kaleido"
+          "PrimaryAssetName": "sparksaura_heart"
         },
-        "Weight": 67.0
+        "Weight": 73.0
       },
       "29": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_heart"
+          "PrimaryAssetName": "sparksaura_pixel"
         },
-        "Weight": 66.0
+        "Weight": 70.0
       },
       "30": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_pixel"
+          "PrimaryAssetName": "sparksaura_kaleido"
         },
-        "Weight": 64.0
+        "Weight": 66.0
       },
       "31": {
         "PrimaryAssetId": {
@@ -298,7 +298,7 @@
           },
           "PrimaryAssetName": "sparksaura_bokeh"
         },
-        "Weight": 58.0
+        "Weight": 55.0
       },
       "32": {
         "PrimaryAssetId": {
@@ -307,7 +307,7 @@
           },
           "PrimaryAssetName": "sparksaura_ember"
         },
-        "Weight": 50.0
+        "Weight": 48.0
       },
       "33": {
         "PrimaryAssetId": {
@@ -316,7 +316,7 @@
           },
           "PrimaryAssetName": "sparksaura_squares"
         },
-        "Weight": 44.0
+        "Weight": 43.0
       },
       "34": {
         "PrimaryAssetId": {
@@ -325,7 +325,7 @@
           },
           "PrimaryAssetName": "sparksaura_digitalgraffiti"
         },
-        "Weight": 43.0
+        "Weight": 42.0
       },
       "35": {
         "PrimaryAssetId": {
@@ -334,7 +334,7 @@
           },
           "PrimaryAssetName": "sparksaura_shard"
         },
-        "Weight": 31.0
+        "Weight": 29.0
       },
       "36": {
         "PrimaryAssetId": {
@@ -343,7 +343,7 @@
           },
           "PrimaryAssetName": "sparksaura_bubbles"
         },
-        "Weight": 27.0
+        "Weight": 25.0
       },
       "37": {
         "PrimaryAssetId": {
@@ -352,7 +352,7 @@
           },
           "PrimaryAssetName": "sparksaura_smoke"
         },
-        "Weight": 21.0
+        "Weight": 20.0
       },
       "38": {
         "PrimaryAssetId": {
@@ -361,34 +361,34 @@
           },
           "PrimaryAssetName": "sparksaura_fallleaves"
         },
-        "Weight": 20.0
+        "Weight": 19.0
       },
       "39": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_boombox"
+          "PrimaryAssetName": "sparksaura_cyber"
         },
-        "Weight": 16.0
+        "Weight": 17.0
       },
       "40": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_comic"
+          "PrimaryAssetName": "sparksaura_boombox"
         },
-        "Weight": 16.0
+        "Weight": 15.0
       },
       "41": {
         "PrimaryAssetId": {
           "PrimaryAssetType": {
             "Name": "SparksAura"
           },
-          "PrimaryAssetName": "sparksaura_cyber"
+          "PrimaryAssetName": "sparksaura_comic"
         },
-        "Weight": 16.0
+        "Weight": 15.0
       },
       "42": {
         "PrimaryAssetId": {
@@ -397,7 +397,7 @@
           },
           "PrimaryAssetName": "sparksaura_snowflake"
         },
-        "Weight": 16.0
+        "Weight": 14.0
       },
       "43": {
         "PrimaryAssetId": {
@@ -406,7 +406,7 @@
           },
           "PrimaryAssetName": "sparksaura_constellation"
         },
-        "Weight": 15.0
+        "Weight": 13.0
       },
       "44": {
         "PrimaryAssetId": {
@@ -415,7 +415,7 @@
           },
           "PrimaryAssetName": "sparksaura_electric"
         },
-        "Weight": 14.0
+        "Weight": 13.0
       },
       "45": {
         "PrimaryAssetId": {
@@ -424,7 +424,7 @@
           },
           "PrimaryAssetName": "sparksaura_borealis"
         },
-        "Weight": 12.0
+        "Weight": 11.0
       },
       "46": {
         "PrimaryAssetId": {

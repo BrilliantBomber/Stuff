@@ -574,16 +574,6 @@
           "RowName": "Phoebe.Controller.SpectateOnDeath.MaxTime"
         }
       },
-      "EmotesMaxCount": {
-        "Value": 1.0,
-        "Curve": {
-          "CurveTable": {
-            "ObjectName": "CurveTable'Phoebe_ControllerData'",
-            "ObjectPath": "/Game/Athena/AI/Phoebe/ControllerData/Phoebe_ControllerData.0"
-          },
-          "RowName": "Phoebe.Controller.Emotes.MaxCount"
-        }
-      },
       "bCanBeDestroyedOnDeath": true,
       "MarkerComponent": {
         "ObjectName": "AthenaMarkerComponent'Default__BP_PhoebePlayerController_C:MarkerComponent'",

@@ -34,12 +34,14 @@
           {
             "bUsesRangeSettings": true,
             "VisibilitySettings": 2,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 300.0,
             "IdleTime": 0.0
           },
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 33,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.0
           }
@@ -67,12 +69,14 @@
           {
             "bUsesRangeSettings": true,
             "VisibilitySettings": 2,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 300.0,
             "IdleTime": 0.0
           },
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 44,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.3
           }
@@ -104,6 +108,7 @@
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 2,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.0
           }
@@ -139,6 +144,7 @@
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 1,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.0
           }
@@ -182,6 +188,7 @@
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 33,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.0
           }
@@ -209,6 +216,7 @@
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 44,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.3
           }
@@ -236,6 +244,7 @@
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 36,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.3
           }
@@ -263,6 +272,7 @@
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 16,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.0
           }
@@ -290,12 +300,14 @@
           {
             "bUsesRangeSettings": true,
             "VisibilitySettings": 2,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 300.0,
             "IdleTime": 0.0
           },
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 33,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.0
           }
@@ -331,6 +343,7 @@
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 2,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.0
           }
@@ -358,6 +371,7 @@
           {
             "bUsesRangeSettings": false,
             "VisibilitySettings": 34,
+            "ObserverRangeReferenceObject": "EAIVisibilityObserverRangeReferenceObject::Pawn",
             "Range": 0.0,
             "IdleTime": 0.0
           }

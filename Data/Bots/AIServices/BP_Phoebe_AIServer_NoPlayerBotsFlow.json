@@ -27,7 +27,7 @@
   {
     "Type": "BP_Phoebe_AIServer_NoPlayerBotsFlow_C",
     "Name": "Default__BP_Phoebe_AIServer_NoPlayerBotsFlow_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_NoPlayerBotsFlow.BP_Phoebe_AIServer_NoPlayerBotsFlow_C'",
     "Package": "/Game/Athena/AI/Phoebe/AIServices/BP_Phoebe_AIServer_NoPlayerBotsFlow",
     "Template": {

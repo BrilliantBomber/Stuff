@@ -61,7 +61,7 @@
         "Type": "ObjectProperty",
         "Name": "OwnerController",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'AIController'",
           "ObjectPath": "/Script/AIModule"
@@ -71,7 +71,7 @@
         "Type": "ObjectProperty",
         "Name": "ControlledPawn",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'Pawn'",
           "ObjectPath": "/Script/Engine"
@@ -93,6 +93,7 @@
         "Type": "ObjectProperty",
         "Name": "K2Node_DynamicCast_AsFort_Player_State_Zone",
         "ElementSize": 8,
+        "PropertyFlags": "UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortPlayerStateZone'",
           "ObjectPath": "/Script/FortniteGame"
@@ -136,6 +137,7 @@
               "Type": "ObjectProperty",
               "Name": "K2Node_DynamicCast_AsFort_Player_State_Zone",
               "ElementSize": 8,
+              "PropertyFlags": "UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'FortPlayerStateZone'",
                 "ObjectPath": "/Script/FortniteGame"
@@ -162,7 +164,7 @@
                   "Type": "ObjectProperty",
                   "Name": "OwnerController",
                   "ElementSize": 8,
-                  "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                  "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
                   "PropertyClass": {
                     "ObjectName": "Class'AIController'",
                     "ObjectPath": "/Script/AIModule"
@@ -232,6 +234,7 @@
                 "Type": "ObjectProperty",
                 "Name": "K2Node_DynamicCast_AsFort_Player_State_Zone",
                 "ElementSize": 8,
+                "PropertyFlags": "UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'FortPlayerStateZone'",
                   "ObjectPath": "/Script/FortniteGame"
@@ -303,6 +306,7 @@
                 "Type": "ObjectProperty",
                 "Name": "K2Node_DynamicCast_AsFort_Player_State_Zone",
                 "ElementSize": 8,
+                "PropertyFlags": "UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'FortPlayerStateZone'",
                   "ObjectPath": "/Script/FortniteGame"

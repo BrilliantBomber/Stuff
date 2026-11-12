@@ -114,7 +114,7 @@
         "Type": "ObjectProperty",
         "Name": "FortAthenaPawnComponent_AIJump",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortAthenaPawnComponent_AIJump'",
           "ObjectPath": "/Script/FortniteAI"
@@ -1038,7 +1038,7 @@
         "Type": "ObjectProperty",
         "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
         "ElementSize": 8,
-        "PropertyFlags": "InstancedReference",
+        "PropertyFlags": "InstancedReference | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'SkeletalMeshComponent'",
           "ObjectPath": "/Script/Engine"
@@ -1154,7 +1154,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'SkeletalMeshComponent'",
                 "ObjectPath": "/Script/Engine"
@@ -1217,7 +1217,7 @@
                   "Type": "ObjectProperty",
                   "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
                   "ElementSize": 8,
-                  "PropertyFlags": "InstancedReference",
+                  "PropertyFlags": "InstancedReference | UObjectWrapper",
                   "PropertyClass": {
                     "ObjectName": "Class'SkeletalMeshComponent'",
                     "ObjectPath": "/Script/Engine"
@@ -1310,7 +1310,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'SkeletalMeshComponent'",
                 "ObjectPath": "/Script/Engine"
@@ -1382,7 +1382,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetSkeletalMeshForPartType_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'SkeletalMeshComponent'",
                 "ObjectPath": "/Script/Engine"
@@ -1459,6 +1459,7 @@
         "Type": "ObjectProperty",
         "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
         "ElementSize": 8,
+        "PropertyFlags": "UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'AthenaAIServicePlayerBots'",
           "ObjectPath": "/Script/FortniteAI"
@@ -1574,6 +1575,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
               "ElementSize": 8,
+              "PropertyFlags": "UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'AthenaAIServicePlayerBots'",
                 "ObjectPath": "/Script/FortniteAI"
@@ -1600,6 +1602,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
               "ElementSize": 8,
+              "PropertyFlags": "UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'AthenaAIServicePlayerBots'",
                 "ObjectPath": "/Script/FortniteAI"
@@ -1661,6 +1664,7 @@
                   "Type": "ObjectProperty",
                   "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
                   "ElementSize": 8,
+                  "PropertyFlags": "UObjectWrapper",
                   "PropertyClass": {
                     "ObjectName": "Class'AthenaAIServicePlayerBots'",
                     "ObjectPath": "/Script/FortniteAI"
@@ -1727,6 +1731,7 @@
                 "Type": "ObjectProperty",
                 "Name": "CallFunc_GetAIServicePlayerBots_ReturnValue",
                 "ElementSize": 8,
+                "PropertyFlags": "UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'AthenaAIServicePlayerBots'",
                   "ObjectPath": "/Script/FortniteAI"
@@ -1815,7 +1820,7 @@
           },
           {
             "Token": "EX_IntConst",
-            "Value": 208
+            "Value": 210
           },
           {
             "Token": "EX_NameConst",
@@ -1851,7 +1856,7 @@
         "Type": "ObjectProperty",
         "Name": "CallFunc_GetAnimationInterface_ReturnValue",
         "ElementSize": 8,
-        "PropertyFlags": "InstancedReference",
+        "PropertyFlags": "InstancedReference | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortPlayerAnimationInterface'",
           "ObjectPath": "/Script/FortniteGame"
@@ -1977,7 +1982,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetAnimationInterface_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'FortPlayerAnimationInterface'",
                 "ObjectPath": "/Script/FortniteGame"
@@ -2035,7 +2040,7 @@
                   "Type": "ObjectProperty",
                   "Name": "CallFunc_GetAnimationInterface_ReturnValue",
                   "ElementSize": 8,
-                  "PropertyFlags": "InstancedReference",
+                  "PropertyFlags": "InstancedReference | UObjectWrapper",
                   "PropertyClass": {
                     "ObjectName": "Class'FortPlayerAnimationInterface'",
                     "ObjectPath": "/Script/FortniteGame"
@@ -2086,7 +2091,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetAnimationInterface_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'FortPlayerAnimationInterface'",
                 "ObjectPath": "/Script/FortniteGame"
@@ -2117,7 +2122,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetAnimationInterface_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'FortPlayerAnimationInterface'",
                 "ObjectPath": "/Script/FortniteGame"
@@ -2164,7 +2169,7 @@
         "Type": "ObjectProperty",
         "Name": "CallFunc_GetAnimationInterface_ReturnValue",
         "ElementSize": 8,
-        "PropertyFlags": "InstancedReference",
+        "PropertyFlags": "InstancedReference | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortPlayerAnimationInterface'",
           "ObjectPath": "/Script/FortniteGame"
@@ -2290,7 +2295,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetAnimationInterface_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'FortPlayerAnimationInterface'",
                 "ObjectPath": "/Script/FortniteGame"
@@ -2348,7 +2353,7 @@
                   "Type": "ObjectProperty",
                   "Name": "CallFunc_GetAnimationInterface_ReturnValue",
                   "ElementSize": 8,
-                  "PropertyFlags": "InstancedReference",
+                  "PropertyFlags": "InstancedReference | UObjectWrapper",
                   "PropertyClass": {
                     "ObjectName": "Class'FortPlayerAnimationInterface'",
                     "ObjectPath": "/Script/FortniteGame"
@@ -2399,7 +2404,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetAnimationInterface_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'FortPlayerAnimationInterface'",
                 "ObjectPath": "/Script/FortniteGame"
@@ -2430,7 +2435,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetAnimationInterface_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'FortPlayerAnimationInterface'",
                 "ObjectPath": "/Script/FortniteGame"
@@ -2503,6 +2508,7 @@
         "Type": "ObjectProperty",
         "Name": "K2Node_Event_Pawn",
         "ElementSize": 8,
+        "PropertyFlags": "UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortPlayerPawn'",
           "ObjectPath": "/Script/FortniteGame"
@@ -2595,6 +2601,7 @@
                 "Type": "ObjectProperty",
                 "Name": "K2Node_Event_Pawn",
                 "ElementSize": 8,
+                "PropertyFlags": "UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'FortPlayerPawn'",
                   "ObjectPath": "/Script/FortniteGame"
@@ -2791,7 +2798,7 @@
         "Type": "ObjectProperty",
         "Name": "Pawn",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'FortPlayerPawn'",
           "ObjectPath": "/Script/FortniteGame"
@@ -2811,6 +2818,7 @@
             "Type": "ObjectProperty",
             "Name": "K2Node_Event_Pawn",
             "ElementSize": 8,
+            "PropertyFlags": "UObjectWrapper",
             "PropertyClass": {
               "ObjectName": "Class'FortPlayerPawn'",
               "ObjectPath": "/Script/FortniteGame"
@@ -2828,7 +2836,7 @@
               "Type": "ObjectProperty",
               "Name": "Pawn",
               "ElementSize": 8,
-              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'FortPlayerPawn'",
                 "ObjectPath": "/Script/FortniteGame"

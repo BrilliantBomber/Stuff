@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Phoebe_BotPOIExcludedZones_Delilah",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/AI/Phoebe/DataTables/Phoebe_BotPOIExcludedZones_Delilah",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortBotPOIExcludedZoneDataTableRow'",
+        "ObjectPath": "/Script/FortniteAI"
+      },
+      "bStripFromClientBuilds": true
+    },
+    "Rows": {
+      "HumidHideaway": {
+        "Location": {
+          "X": 35009.0,
+          "Y": 23277.0,
+          "Z": 1878.0
+        },
+        "BoxHalfSize": {
+          "X": 10208.0,
+          "Y": 10978.0,
+          "Z": 10174.0
+        },
+        "UsagesToExclude": 7,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Delilah/Maps/Delilah_Terrain",
+        "bEnabled": true
+      },
+      "WarmupDelilah": {
+        "Location": {
+          "X": -50297.0,
+          "Y": 145338.0,
+          "Z": 628.0
+        },
+        "BoxHalfSize": {
+          "X": 14500.0,
+          "Y": 13300.0,
+          "Z": 3000.0
+        },
+        "UsagesToExclude": 7,
+        "PlaylistQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "MapPath": "/Delilah/Maps/Delilah_Terrain",
+        "bEnabled": true
+      }
+    }
+  }
+]

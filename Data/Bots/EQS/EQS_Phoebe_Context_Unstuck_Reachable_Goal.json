@@ -61,7 +61,7 @@
         "Type": "ObjectProperty",
         "Name": "QuerierObject",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'Object'",
           "ObjectPath": "/Script/CoreUObject"
@@ -71,7 +71,7 @@
         "Type": "ObjectProperty",
         "Name": "QuerierActor",
         "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'Actor'",
           "ObjectPath": "/Script/Engine"
@@ -127,6 +127,7 @@
         "Type": "ObjectProperty",
         "Name": "K2Node_DynamicCast_AsPawn",
         "ElementSize": 8,
+        "PropertyFlags": "UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'Pawn'",
           "ObjectPath": "/Script/Engine"
@@ -153,6 +154,7 @@
         "Type": "ObjectProperty",
         "Name": "CallFunc_GetController_ReturnValue",
         "ElementSize": 8,
+        "PropertyFlags": "UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'Controller'",
           "ObjectPath": "/Script/Engine"
@@ -162,6 +164,7 @@
         "Type": "ObjectProperty",
         "Name": "K2Node_DynamicCast_AsAIController",
         "ElementSize": 8,
+        "PropertyFlags": "UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'AIController'",
           "ObjectPath": "/Script/AIModule"
@@ -193,7 +196,7 @@
         "Type": "ObjectProperty",
         "Name": "CallFunc_GetBlackboard_ReturnValue",
         "ElementSize": 8,
-        "PropertyFlags": "InstancedReference",
+        "PropertyFlags": "InstancedReference | UObjectWrapper",
         "PropertyClass": {
           "ObjectName": "Class'BlackboardComponent'",
           "ObjectPath": "/Script/AIModule"
@@ -304,7 +307,7 @@
                 "Type": "ObjectProperty",
                 "Name": "QuerierActor",
                 "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'Actor'",
                   "ObjectPath": "/Script/Engine"
@@ -393,6 +396,7 @@
               "Type": "ObjectProperty",
               "Name": "K2Node_DynamicCast_AsPawn",
               "ElementSize": 8,
+              "PropertyFlags": "UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'Pawn'",
                 "ObjectPath": "/Script/Engine"
@@ -417,7 +421,7 @@
                 "Type": "ObjectProperty",
                 "Name": "QuerierActor",
                 "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'Actor'",
                   "ObjectPath": "/Script/Engine"
@@ -464,6 +468,7 @@
                 "Type": "ObjectProperty",
                 "Name": "K2Node_DynamicCast_AsPawn",
                 "ElementSize": 8,
+                "PropertyFlags": "UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'Pawn'",
                   "ObjectPath": "/Script/Engine"
@@ -513,6 +518,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetController_ReturnValue",
               "ElementSize": 8,
+              "PropertyFlags": "UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'Controller'",
                 "ObjectPath": "/Script/Engine"
@@ -533,6 +539,7 @@
                 "Type": "ObjectProperty",
                 "Name": "K2Node_DynamicCast_AsPawn",
                 "ElementSize": 8,
+                "PropertyFlags": "UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'Pawn'",
                   "ObjectPath": "/Script/Engine"
@@ -550,6 +557,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetController_ReturnValue",
               "ElementSize": 8,
+              "PropertyFlags": "UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'Controller'",
                 "ObjectPath": "/Script/Engine"
@@ -580,6 +588,7 @@
               "Type": "ObjectProperty",
               "Name": "K2Node_DynamicCast_AsAIController",
               "ElementSize": 8,
+              "PropertyFlags": "UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'AIController'",
                 "ObjectPath": "/Script/AIModule"
@@ -604,6 +613,7 @@
                 "Type": "ObjectProperty",
                 "Name": "CallFunc_GetController_ReturnValue",
                 "ElementSize": 8,
+                "PropertyFlags": "UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'Controller'",
                   "ObjectPath": "/Script/Engine"
@@ -650,6 +660,7 @@
                 "Type": "ObjectProperty",
                 "Name": "K2Node_DynamicCast_AsAIController",
                 "ElementSize": 8,
+                "PropertyFlags": "UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'AIController'",
                   "ObjectPath": "/Script/AIModule"
@@ -699,7 +710,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetBlackboard_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'BlackboardComponent'",
                 "ObjectPath": "/Script/AIModule"
@@ -725,6 +736,7 @@
                   "Type": "ObjectProperty",
                   "Name": "K2Node_DynamicCast_AsAIController",
                   "ElementSize": 8,
+                  "PropertyFlags": "UObjectWrapper",
                   "PropertyClass": {
                     "ObjectName": "Class'AIController'",
                     "ObjectPath": "/Script/AIModule"
@@ -800,7 +812,7 @@
                 "Type": "ObjectProperty",
                 "Name": "CallFunc_GetBlackboard_ReturnValue",
                 "ElementSize": 8,
-                "PropertyFlags": "InstancedReference",
+                "PropertyFlags": "InstancedReference | UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'BlackboardComponent'",
                   "ObjectPath": "/Script/AIModule"
@@ -1443,7 +1455,7 @@
               "Type": "ObjectProperty",
               "Name": "CallFunc_GetBlackboard_ReturnValue",
               "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
+              "PropertyFlags": "InstancedReference | UObjectWrapper",
               "PropertyClass": {
                 "ObjectName": "Class'BlackboardComponent'",
                 "ObjectPath": "/Script/AIModule"
@@ -1469,6 +1481,7 @@
                   "Type": "ObjectProperty",
                   "Name": "K2Node_DynamicCast_AsAIController",
                   "ElementSize": 8,
+                  "PropertyFlags": "UObjectWrapper",
                   "PropertyClass": {
                     "ObjectName": "Class'AIController'",
                     "ObjectPath": "/Script/AIModule"
@@ -1544,7 +1557,7 @@
                 "Type": "ObjectProperty",
                 "Name": "CallFunc_GetBlackboard_ReturnValue",
                 "ElementSize": 8,
-                "PropertyFlags": "InstancedReference",
+                "PropertyFlags": "InstancedReference | UObjectWrapper",
                 "PropertyClass": {
                   "ObjectName": "Class'BlackboardComponent'",
                   "ObjectPath": "/Script/AIModule"
