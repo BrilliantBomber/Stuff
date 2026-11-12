@@ -368,6 +368,8 @@
     "231AF36049841BCCCB72619C0346D63B": "Phong cách <Viper Glitch>",
     "06EEB84B4F23444589A9758F73B79CF5": "?",
     "892F58F84D92D5D260611CAD336AA6E0": "???",
+    "B14CFAD643402417AB3FD6B1B32B75CB": "???",
+    "DEBF4E2A47784C62A3FD27B10E7D79D8": "???",
     "6FCE2A4A45997CDAF9AD3B88BBEEBA16": "A",
     "8CC4A59940F77C4B19BBAF971F20D5C3": "A",
     "9AD70FCB49C057A8CE26F886558FA4F1": "A",
@@ -605,7 +607,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "Nòng Lớn DX",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Máy Bay Cánh Kép",
     "5B5236944941BFD7DE82B8B05FE11D94": "Máy Bay Cánh Kép",
-    "DF56207843F6244003548CA79CFAA0F4": "Máy Bay Cánh Kép",
     "F5EB146E408C915363F761972AA43B8A": "Bánh Sinh Nhật",
     "AD9DF9A2455C274907AE29971466ADBA": "Lưỡi Cắt",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "Lưỡi Cắt",
@@ -1586,7 +1587,11 @@
     "CFBFEBC248741ED6E0FCC88CC754A22E": "Súng Thần Công Hải Tặc",
     "11286DCA40C6C1D1248DB4AB4FD95F92": "Cửa Tiệm Hải Tặc",
     "3D5384AE463D8C77B1E6578A793F29D9": "Cửa Tiệm Hải Tặc",
+    "5A823CFA4FD32ABE380CF5A3C886E487": "Cửa Tiệm Hải Tặc",
+    "EE8BF7EC40A7B072DFBEEA830DDD5863": "Cửa Tiệm Hải Tặc",
     "5771CEED4E3A98EAD847BFBFD4FA34A5": "Quyền Truy Cập Cửa Tiệm Hải Tặc (2026)",
+    "7F7334F04E249310781F1CB69D100D8D": "Quyền Truy Cập Cửa Tiệm Hải Tặc (2026)",
+    "5014942149F16C9E7F6A40A04864CCE8": "Quyền Truy Cập Cửa Tiệm Hải Tặc (2027)",
     "7E0278EF4B5184B9FEB6EBA2547E1429": "Quyền Truy Cập Cửa Tiệm Hải Tặc (2027)",
     "923CD0CD437F2EC013D0FCA6E8CFD824": "Súng Lục",
     "AE872A134006CB20B62E40B07D5FDAFC": "Súng Lục",
@@ -1606,6 +1611,8 @@
     "37A0DD2F4837BA7835216D877196C2CA": "Người chơi phải chịu sát thương",
     "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "Vui lòng gán lại phím cho hành động {s}.",
+    "069C1FF040D0E48A95E61995B44640B3": "Cướp bóc Chiến Lợi Phẩm tại Cửa Tiệm Vật Phẩm Fortnite trong 14 ngày kể từ khi kích hoạt.",
+    "579B339F46238309C9A7919644F44803": "Cướp bóc Chiến Lợi Phẩm Cửa Tiệm Vật Phẩm Fortnite trong 14 ngày kể từ khi kích hoạt.",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "Cung Thông Tắc",
     "4567895244A3DDF0A6347DB93EA4AB9A": "Bom Nhảy Múa Bỏ Túi",
     "ECC1B5C641A0A7993449F39BB4F46B87": "Lựu Đạn Xung Lực Bỏ Túi ",
@@ -1667,6 +1674,7 @@
     "FD23E7C946966E8E24F1ADA1EDA51CB1": "SMG bắn nhanh +",
     "BA4B1FDD40153AE8C9FC76ACC646E32C": "SMG bắn nhanh với <Emphasized>dung lượng băng đạn</> tăng thêm",
     "86F951AB4B4721B924CABA82FEFC3EC7": "Hộp Đạn Hiếm",
+    "B1CFA5584EBD1878822A699ECEB629A6": "Rương Hiếm",
     "101BBD144878EB1AA8CCD292737797AE": "Máy Quét Do Thám",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Chiêu Mộ",
     "1C77EAFB46C48299170B7486AEFB6294": "Đỏ Cam",
@@ -1796,7 +1804,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Đánh Cắp Khiên",
     "4F611C954A5378BFC1804C96BB3981FE": "Hiệp Lực Khiên",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Ném Khiên",
-    "6FE5EF624909BEBF19A4F7A143733F40": "Pháo Hạm",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Pháo Hạm",
     "85A285654B56001B52E9ABBC806822EB": "Thiết Bị Sóng Xung Kích",
     "8E57565847BBBCA8EE6AD38208D056E1": "Lựu đạn Sóng Xung Kích +",
@@ -2084,6 +2091,7 @@
     "A9F43F3A48770C515DF7A5AF1DF5A128": "Sẽ được tiết lộ.",
     "E01C6F584A3A7BA4F94BAB8231E0841B": "Sẽ được tiết lộ.",
     "060777BC47099F2DF28068980DCF0AFD": "Sẽ được tiết lộ... ",
+    "06F058FB4EE7E7F56D73D89FB36552DA": "Sẽ sớm được tiết lộ... ",
     "499889C94D330A143D60249B468EE7BF": "Sẽ được tiết lộ... ",
     "4B1D57F64AA9FD8A596664A18AF6640E": "Sẽ được tiết lộ... ",
     "60D8C0614084FA6FCACF19866EF0FDBE": "Sẽ được tiết lộ... ",
@@ -2183,7 +2191,6 @@
     "2D63B0854707C30350F8B7A03551788D": "Vật Phẩm Tiện Ích ",
     "CF3BD1EE41CFC0D5B59A619710C3BAE0": "Bong bóng khiên Rực Lửa Bạc Diện Rộng Vật Phẩm Tiện Ích",
     "17E86A814E1BF4CEFB61E2BC6268CEE7": "VậtPhẩmTiệnÍch Khe Nứt",
-    "2640FD984FA75748AC19FCBBD963DE79": "V-Buck",
     "36C0892442CACB9BDAD4C3B09F0BF96C": "V-Buck",
     "D6DDC6A9427A759E55A7BBB8A12736D1": "V-Buck",
     "9FBB32C24460E6E70940859CABCF1987": "Thu Nhập VBucks",
@@ -2196,7 +2203,6 @@
     "454B71ED42ED250EDBECF59B7A7D9643": "VK Chưa Kiểm Tra",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "Loại tiền quý dùng để mua hàng hóa trong cửa hàng.",
     "67E0A04E48C18017454CB4B84AF5716F": "Loại xu giao dịch quý dùng để mua hàng hóa trong cửa hàng.",
-    "D35857B04A6D171C1C63A1A7DEAA0DD4": "Loại xu giao dịch quý dùng để mua hàng hóa trong cửa hàng.",
     "863EB9E944912130B5EAA6A39CC800BC": "Loại xu giao dịch quý dùng để mua hàng hóa trong cửa hàng.  Đây là nguồn thu nhập dành cho các nhà phát triển/nhà sáng tạo trò chơi (ví dụ như các nhà sáng tạo UEFN)",
     "D461D4C54C20240513787CBF1FDA9A57": "Nòng Đôi Biến Thể",
     "ABB98286476BE4B2D835939202B2B43D": "G-Force Biến Thể",
@@ -2693,9 +2699,6 @@
     "AlreadyOwnItemTitle": "Đã có sự cố xảy ra!",
     "AlreadyOwnBPDescription": "Giờ bạn sẽ nhận Xu Quà Thẻ Chiến Đấu vì <text color=\"FFF\">{DisplayName}</> đã mua Thẻ Chiến Đấu trong khi bạn đang tặng quà.\n Bạn có thể dùng nó để tặng Thẻ Chiến Đấu cho một người bạn khác. Nếu Xu Quà Thẻ Chiến Đấu không được dùng trước khi mùa kết thúc, nó sẽ được đổi thành 950 V-Buck trong tài khoản của bạn."
   },
-  "AthenaGiftingFlowConfirmationScreen": {
-    "NewGiftBoxReceived": "Nhận Được Hộp Quà Mới!"
-  },
   "AthenaGiftingFlowErrorsPanel": {
     "GenericErrorDescription": "Có lỗi không xác định",
     "RecipientCantReceiveGiftsDescription": "Có vẻ <text color=\"FFF\">{DisplayName}</> không đủ điều kiện nhận quà",
@@ -2708,13 +2711,6 @@
     "RecipientCantReceiveGiftsTitle": "Đã Có Sự Cố Xảy Ra!",
     "AlreadyOwnItemTitle": "Đã có sự cố xảy ra!",
     "AlreadyOwnBPDescription": "Giờ bạn sẽ nhận Xu Quà Thẻ Chiến Đấu vì <text color=\"FFF\">{DisplayName}</> đã mua Thẻ Chiến Đấu trong khi bạn đang tặng quà.\n Bạn có thể dùng nó để tặng Thẻ Chiến Đấu cho một người bạn khác. Nếu Xu Quà Thẻ Chiến Đấu không được dùng trước khi mùa kết thúc, nó sẽ được đổi thành 950 V-Buck trong tài khoản của bạn."
-  },
-  "AthenaGiftingFlowPurchaseButton": {
-    "Continue": "Tiếp tục",
-    "GetVBucks": "Mua V-Buck",
-    "PurchaseGift": "Mua quà tặng!",
-    "ReloadVBucks": "Nạp V-Buck",
-    "SendGift": "Gửi Quà!"
   },
   "AthenaGiftingFlowPurchasePanel": {
     "RetrySocialNameInfo": "{DisplayName} giờ sẽ nhận được",
@@ -4112,14 +4108,21 @@
     "JsonError": "Lỗi máy chủ loại {0}"
   },
   "EventPreview": {
-    "PauseFrameTooltip": "Khung hình của chuỗi Sự Kiện bị đóng băng khi bạn vào PIE với tùy chọn Tạm Dừng Khi Bắt Đầu được bật. Bị giới hạn trong phạm vi của mỗi chuỗi.",
-    "PauseOnStartTooltip": "Đóng băng Chuỗi Cấp Độ của sự kiện trên khung hình đã chọn ngay khi bạn vào PIE, để bạn có thể tự tua lại để ghi âm bằng Bộ Ghi Hành Động. Chỉ dành cho Trình Chỉnh Sửa/PIE.",
+    "WaitForUnpauseVolumeTooltip": "Giữ cho đến khi ai đó đi qua Vùng Bỏ Tạm Dừng Xem Trước Sự Kiện Đặc Biệt, thay vì tiếp tục theo hẹn giờ.",
+    "StartSecondsTooltip": "Thời điểm bắt đầu giai đoạn được chọn, tính bằng giây, xác định từ lúc khởi chạy trình tự. Bị giới hạn theo độ dài của trình tự. Chỉ có trong Trình Chỉnh Sửa/PIE.",
+    "OpenMainEventSequence": "Mở chuỗi sự kiện chính",
+    "OpenMainSequenceTooltip": "Mở trình tự sự kiện chính trong Sequencer và nhảy tới vị trí giai đoạn này bắt đầu khi nút giai đoạn được nhấp vào.",
     "OpenSequenceTooltip": "Mở Cấp Trình Tự của giai đoạn này trong Trình Dựng Phim khi nút giai đoạn được nhấp vào.",
-    "PauseOnStartMode": "Tạm dừng khi bắt đầu",
-    "UnpauseVolumeNote": "Để tiếp tục trong PIE: đặt Vùng Bỏ Tạm Dừng Xem Trước Sự Kiện Đặc Biệt trong màn chơi và hướng dẫn người chơi từng bước về vùng này.",
-    "AtFrame": "vào khung hình",
+    "OpenMainEventSequenceTooltip": "Mở {0} trong Sequencer.",
+    "PreviewPauseIndefiniteNote": "Phát bắt đầu sự kiện tại đây và giữ vô thời hạn (Số Giây Tự Động Tiếp Tục là 0 trong Tùy Chọn Trình Chỉnh Sửa). Chạy Fort.SpecialEvent.Preview.Play để tiếp tục.",
+    "PreviewPauseVolumeNote": "Lệnh phát bắt đầu sự kiện tại đây và sẽ tạm dừng cho đến khi có người đi qua khu vực bỏ tạm dừng.",
+    "PreviewPauseAutoNote": "Lệnh phát sẽ bắt đầu sự kiện tại đây, giữ nguyên {0} giây trong khi các lớp của giai đoạn được tải dần vào rồi tiếp tục.",
+    "StartOnSecond": "Bắt đầu ở giây",
+    "UnpauseWithVolume": "Bỏ tạm dừng bằng khu vực bỏ tạm dừng",
     "OpenSequenceSubtitle": "mở chuỗi",
-    "StronglyRecommendedTag": "Đề Xuất"
+    "StronglyRecommendedTag": "Đề Xuất",
+    "PreviewStartZeroNote": "{0}\n\n0 là khung hình đầu tiên của chuỗi, thường trống. Nhập thời gian muộn hơn để dừng tại thứ gì đó bạn có thể nhìn thấy.",
+    "PreviewPauseSkippedNote": "{0} bỏ qua nhịp giữ, PIE phát thẳng liền mạch. Những cài đặt này vẫn sẽ áp dụng cho mỗi pha khác."
   },
   "EventTeamMatchHistoryEntry": {
     "MatchNumber": "#{0}",
@@ -4196,6 +4199,21 @@
     "SectionName": "Juno",
     "ExtensionName": "JunoTools",
     "ConfigurePrefabTool": "Mô Hình Tạo Sẵn"
+  },
+  "FLimeAtomBuildingActorOverlapValidator": {
+    "AddingOverlappingActors": "Đối tượng xây dựng \"{0}\" đang chồng lấn với {1} đối tượng khác: \"{2}\"",
+    "ValidatorName": "Trình Xác Minh Chồng Lấn Chủ Thể Công Trình",
+    "AtomValidationUtils_BuildingActorOKWithNoOverlaps": "Chồng Lấn Bị Bỏ Qua"
+  },
+  "FLimeAtomOverlapValidator": {
+    "AddingOverlappingActors": "Đối tượng \"{0}\" đang chồng lấn với {1} đối tượng khác: \"{2}\"",
+    "DetailedCollisionOverlappingActorsMessage": "Đối tượng ({0}) đang chồng lấn với các đối tượng khác.",
+    "ActorNotCheckedForDetailedOverlaps": "Đối tượng ({0}) không được kiểm tra chồng lấn chi tiết vì không thể chạy kiểm tra va chạm chi tiết; thay vào đó, báo cáo kết quả qua kiểm tra nhanh.",
+    "OverlapCheckSkippedNoWorld": "Đối tượng ({0}) không được kiểm tra chồng lấn vì không nằm trong thế giới.",
+    "FixerName": "Sửa Chồng Lấn",
+    "FixerTooltip": "Đối với vấn đề xác minh Chồng Lấn, hãy thử tìm vị trí đặt hợp lệ bằng cách bám dính kết nối. Sửa từng vấn đề một.",
+    "AtomValidationUtils_IgnoringValidation": "Bỏ Qua Xác Thực",
+    "ValidatorName": "Trình Xác Minh Chồng Lấn"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "Gom {amount} {resourcetype}",
@@ -5093,9 +5111,14 @@
     "CreateAccountTitle": "Tạo Tài Khoản",
     "CreateAccountPinFailed": "Thất bại khi tạo tài khoản không liên kết với tài khoản Epic.",
     "LinkAccountTitle": "Liên kết một tài khoản",
+    "NintendoPlatformName": "Nintendo",
+    "PlayStationPlatformName": "PlayStation",
     "ProceedWithoutLinking": "Tiến hành mà không liên kết tài khoản...",
     "GettingPinCode": "Đang yêu cầu mã Pin...",
-    "LinkAccountFailed": "Tạo tài khoản thành công, nhưng liên kết tài khoản thất bại.  Vui lòng thử lại."
+    "SignInTitle": "Đăng Nhập",
+    "LinkAccountFailed": "Tạo tài khoản thành công, nhưng liên kết tài khoản thất bại.  Vui lòng thử lại.",
+    "XboxPlatformName": "Xbox",
+    "PlatformAccountFormat": "Tài khoản {0} của bạn là"
   },
   "FortActivityBrowserListView": {
     "Manual_BR": "Cuộc Chiến Sinh Tồn",
@@ -5988,6 +6011,7 @@
     "CheckCrossPlayPrivilege": "Đang Kiểm Tra Quyền Chơi Chéo...",
     "CheckUGCPrivilege": "Đang Kiểm Tra Quyền UGC...",
     "SilentClaimMfaReward": "Nhận phần thưởng...",
+    "CleanupForLogout": "Đang dọn dẹp...",
     "DisconnectingFromLobby": "Đang dọn dẹp...",
     "LogoutUsabilityExperiment": "Đang dọn dẹp...",
     "FailedClientSettingsDownloadTitle": "Tải Từ Đám Mây Thất Bại",
@@ -6035,6 +6059,7 @@
     "RegisterLockManager": "Đang đăng ký với trình quản lý khóa...",
     "DeletingCreds": "Đang xóa xác thực...",
     "RemoveCachedSupervisedSettings": "Đang gỡ các cài đặt giám sát đã lưu trữ tạm thời…",
+    "WaitForFrontend": "Returning to the main menu...",
     "StartVoiceChat": "Bắt đầu Đàm Thoại...",
     "DisconnectingFromVivox": "Đang dừng Đàm Thoại...",
     "FailedPurchaseRedemptionNowRedeemedTitle": "Cửa Hàng Đã Ra Mắt",
@@ -6171,7 +6196,9 @@
     "NotEnoughResourcesText": "Bạn không có đủ tài nguyên!"
   },
   "FortPinGrantCodeInfoWidget": {
-    "ExpiringTime": "Hết hạn trong {0} giây."
+    "ExpiringTime": "Hết hạn trong {0} giây.",
+    "ActivationURLPrompt": "Đến",
+    "ActivationURLPromptWithQRCode": "Hoặc đi tới"
   },
   "FortPinModal": {
     "CreatePinRequest": "Nhập mã PIN mới có 6 chữ số để truy cập các tính năng bị khóa trong Kiểm Soát Của Phụ Huynh.",
@@ -6184,6 +6211,8 @@
     "IncorrectPin": "PIN không chính xác, vui lòng thử lại",
     "PinAttemptsExceeded": "Đã vượt quá số lần nhập PIN",
     "CilantroRequest": "Để nhận thêm thời gian, trước tiên hãy nhập mã PIN Kiểm Soát Của Phụ Huynh.",
+    "UnlockGamemodeConnectionError": "Chúng tôi không thể xác minh Mã PIN của bạn. Kiểm tra kết nối của bạn và thử lại.",
+    "UnlockGamemodeError": "Chúng tôi không thể xác thực mã PIN của bạn. Hãy thử lại trong vài phút.",
     "AcceptFriendRequestInfoTitle": "Bạn bè có thể làm gì?",
     "DefaultOfferName": "ưu đãi này",
     "LocalPlayerYour": "của bạn",
@@ -7100,6 +7129,7 @@
     "CameraAssistsCollection_Name": "Camera",
     "CameraAssists_Name": "Hỗ Trợ Camera",
     "JunoCombatAnyDirection_Disabled": "Hướng Camera",
+    "CameraShakeEnabled_Name": "Camera Rung",
     "CanReceiveGifts_Name": "Có Thể Nhận Quà",
     "CanSeeOtherPlayersNames_Name": "Có Thể Thấy Tên Của Thành Viên Không Thuộc Biệt Đội",
     "OnlyPrimaryPlayerEditable": "Chỉ có thể được thay đổi bởi người chơi chính.",
@@ -8526,6 +8556,7 @@
     "FollowCamera_Description_Switch": "Khi bật lên, việc di chuyển sang trái hoặc phải cũng đồng thời khiến camera hướng theo nếu lúc đó bạn đang không nhắm hoặc bắn. Bật tính năng này nếu việc sử dụng cả hai cần điều khiển liên tục gặp khó khăn đối với bạn. Cần điều khiển bên phải vẫn hoạt động bình thường, vì vậy bạn vẫn có thể học cách sử dụng cần điều khiển phải một cách thoải mái khi tính năng này được bật.",
     "FollowCamera_Description": "Khi bật lên, việc di chuyển sang trái hoặc phải cũng đồng thời khiến camera hướng theo nếu lúc đó bạn đang không nhắm hoặc bắn. Bật tính năng này nếu việc sử dụng cả hai cần điều khiển liên tục gặp khó khăn đối với bạn. Cần điều khiển bên phải vẫn hoạt động bình thường, vì vậy bạn vẫn có thể học cách sử dụng cần điều khiển phải một cách thoải mái khi tính năng này được bật.",
     "FollowCamera_Description_PS4_PS5": "Khi bật lên, việc di chuyển sang trái hoặc phải cũng đồng thời khiến camera hướng theo nếu lúc đó bạn đang không ngắm hoặc bắn. Bật tính năng này nếu bạn thấy khó khăn khi sử dụng cả hai nút gạt trong quá trình chơi. Cần phải vẫn hoạt động bình thường, vì vậy bạn vẫn có thể học cách sử dụng cần phải một cách thoải mái khi tính năng này được bật.",
+    "CameraShakeEnabled_Description": "Khi bật, camera sẽ rung để phản hồi các sự kiện như vụ nổ và va chạm.",
     "AutoPickupWeaponsConsolePC_Description_Shorter": "Khi bật, vũ khí sẽ tự động được nhặt khi bạn di chuyển qua chúng, trừ khi kho đồ của bạn đầy.",
     "AutoPickupWeapons_Description_Shorter": "Khi bật, vũ khí sẽ tự động được nhặt khi bạn di chuyển qua chúng, trừ khi kho đồ của bạn đầy.",
     "AutoInteractConsumables_Description": "Khi bật, bạn sẽ tự động ăn táo, nấm và những vật phẩm tiêu hao khác khi nhìn vào chúng.",
@@ -9826,6 +9857,7 @@
     "BannedFromWorld": "Bạn đã bị cấm khỏi thế giới mà tổ đội của bạn tham gia.",
     "MfaRequiredForTournament": "Bạn phải bật xác thực hai yếu tố trên tài khoản Epic của mình để chơi trong giải đấu này. Truy cập {TurnOnMfaURL} để bật.",
     "WrongNumberOfEventPlayers": "Bạn cần phải ở trong một phe đầy đủ để tham gia giải đấu này.",
+    "PartyMemberBannedFromWorld": "Bạn hoặc một thành viên trong tổ đội của bạn đã bị cấm khỏi thế giới này.",
     "MatchCapExceeded": "Bạn đã chơi hết số trận tối đa cho sự kiện này. Kiểm tra Tab Cạnh Tranh để biết thêm chi tiết và các sự kiện sắp tới.",
     "Error.AccountLevelTooLow": "Cấp độ tài khoản của bạn ({0}) không đáp ứng các yêu cầu tối thiểu để chơi: {1}.",
     "Error.BRRankLevelTooLow": "Mức xếp hạng hiện tại của bạn trong Cuộc Chiến Sinh Tồn ({0}) không đáp ứng yêu cầu tối thiểu để tham gia: {1}.",
@@ -10094,6 +10126,7 @@
     "NotFriendsLongEnough": "Có thể nhận quà sau {0} ngày nữa!",
     "NotAcceptingGifts": "Không nhận quà",
     "NotFriends": "Chỉ bạn bè có thể tặng quà cho nhau.",
+    "NewGiftBoxReceived": "Nhận Được Hộp Quà Mới!",
     "NotAFortnitePlayer": "Không phải người chơi Fortnite",
     "OwnedMultiInstanceItems": "Đã sở hữu: <text color=\"fff\">{owned}</>",
     "OwnsItemFromBundle": "Sở Hữu Một Phần",
@@ -10253,10 +10286,9 @@
     "PEGI_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 tuổi",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
     "CLASSIND_AGE_18_Abbreviated": "18",
+    "PEGI_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 tuổi",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
@@ -10290,6 +10322,7 @@
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
     "ClassInd_AIInteraction_v11_0": "Tương Tác Với AI",
+    "USK_AIGeneratedContent_v11_0": "Nội Dung Do AI Tạo Ra",
     "USK_AbstrakteGewalt": "Bạo Lực Trừu Tượng",
     "ACB_ActionViolence_v10_0": "Bạo Lực Hành Động",
     "ClassInd_AdolescentThemes": "Chủ Đề Thanh Thiếu Niên",
@@ -10354,6 +10387,8 @@
     "ACB_CrudeHumour": "Hài Hước Thô Tục",
     "ACB_CrudeSexualHumour": "Hài Hước Tình Dục Thô Tục",
     "ACB_CrudeSexualReferences": "Nhắc Đến Tình Dục Thô Tục",
+    "GEN_Cryptocurrency_v11_0": "xu giao dịch ảo",
+    "PEGI_Cryptocurrency_v11_0": "xu giao dịch ảo",
     "USK_DustereAtmosphare_v10_0": "Không Khí Tối Tăm",
     "IE_DigitalPurchases": "Mua Hàng Kỹ Thuật Số",
     "GEN_Discrimination": "Phân Biệt Đối Xử",
@@ -10406,6 +10441,7 @@
     "PEGI_Fear": "Sợ Hãi",
     "RUS_Fear_v7_0": "Sợ Hãi",
     "IGRS_FearHorror": "Sợ Hãi/Kinh Dị",
+    "USK_FinancialSpeculationRisk_v11_0": "Rủi Ro Đầu Cơ Tài Chính",
     "GRAC_AGE_12": "Cho 12 tuổi trở lên",
     "GRAC_AGE_ALL": "Cho tất cả độ tuổi",
     "ACB_AGE_G_Abbreviated": "G",
@@ -10419,6 +10455,8 @@
     "RUS_Gambling_v7_0": "Cờ bạc",
     "ACB_GamblingThemes_v9_0": "Chủ Đề Cờ Bạc",
     "ESRB_GamblingThemes_v9_0": "Chủ Đề Cờ Bạc",
+    "GEN_GamblingThemes_v11_0": "Chủ Đề Cờ Bạc",
+    "PEGI_GamblingThemes_v11_0": "Chủ Đề Cờ Bạc",
     "USK_SimulatedGambling_v8_0": "Chủ Đề Cờ Bạc",
     "ClassInd_GamblingOrGamesOfChance": "Cờ Bạc hoặc Trò Chơi May Rủi",
     "USK_GlucksspielMitGeldeinsatz_v7_0": "Cờ Bạc Thanh Toán Tiền Mặt",
@@ -10435,6 +10473,7 @@
     "ACB_HighImpactComedicViolence": "Bạo Lực Hài Hước Có Tác Động Mạnh",
     "ACB_HighImpactCrudeHumour": "Hài Hước Thô Tục Có Tác Động Mạnh",
     "ACB_HighImpactCrudeSexualReferences": "Nhắc Đến Tình Dục Thô Tục Có Tác Động Mạnh",
+    "ACB_HighImpactDisturbingThemes_v11_0": "Chủ Đề Gây Ám Ảnh Có Tác Động Mạnh",
     "ACB_HighImpactDrugReferences": "Nhắc Đến Ma Túy Có Tác Động Mạnh",
     "ACB_HighImpactDrugUse": "Sử Dụng Ma Túy Có Tác Động Mạnh",
     "ACB_HighImpactFamilyViolence_v10_0": "Bạo Lực Gia Đình Có Tác Động Mạnh",
@@ -10454,6 +10493,7 @@
     "ACB_HighImpactSexualReferences": "Nhắc Đến Tình Dục Có Tác Động Mạnh",
     "ACB_HighImpactSexualThemes": "Chủ Đề Tình Dục Có Tác Động Mạnh",
     "ACB_HighImpactSexualisedImagery": "Hình Ảnh Khiêu Dâm Có Tác Động Mạnh",
+    "ACB_HighImpactSimulatedGambling_v11_0": "Mô Phỏng Cờ Bạc Có Tác Động Mạnh",
     "ACB_HighImpactSportingViolence_v10_0": "Bạo Lực Thể Thao Có Tác Động Mạnh",
     "ACB_HighImpactSuggestiveThemes": "Chủ Đề Khêu Gợi Có Tác Động Mạnh",
     "ACB_HighImpactSuicideReferences_v10_0": "Nhắc Đến Tự Tử Có Tác Động Mạnh",
@@ -10505,7 +10545,7 @@
     "IGRS_Language": "Ngôn Ngữ",
     "PEGI_Language": "Ngôn Ngữ",
     "RUS_Language_v7_0": "Ngôn Ngữ",
-    "CERO_LanguageAndOthers": "Ngôn ngữ và khác",
+    "CERO_LanguageAndOthers": "Ngôn Ngữ/Khác",
     "ClassInd_DrogasLicitas": "Ma Túy Hợp Pháp",
     "ClassInd_LightAnimatedViolence": "Hoạt Ảnh Bạo Lực Nhẹ",
     "CERO_Love": "Yêu",
@@ -10604,6 +10644,7 @@
     "PEGI_AGE_PG": "KHUYẾN CÁO NÊN CÓ PHỤ HUYNH HƯỚNG DẪN",
     "PEGI_AGE_12": "PEGI 12",
     "PEGI_AGE_16": "PEGI 16",
+    "PEGI_AGE_18": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10612,6 +10653,8 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
+    "GEN_PaidRandomItems_v11_0": "Vật Phẩm Ngẫu Nhiên Trả Phí",
+    "PEGI_PaidRandomItems_v11_0": "Vật Phẩm Ngẫu Nhiên Trả Phí",
     "TCA_AGE_PG_12": "Phụ Huynh Hướng Dẫn 12",
     "TCA_AGE_PG_15": "Phụ Huynh Hướng Dẫn 15",
     "GEN_ParentalGuidanceRecommended": "Khuyến Cáo Nên Có Phụ Huynh Hướng Dẫn",
@@ -10623,6 +10666,8 @@
     "ACB_PredatoryAnimalBehaviour": "Hành Vi Của Động Vật Săn Mồi",
     "FPB_Prejudice": "Thành Kiến",
     "USK_Handlungsdruck_v9_0": "Áp Lực Hành Động",
+    "GEN_PressureToPlay_v11_0": "Áp Lực Chơi",
+    "PEGI_PressureToPlay_v11_0": "Áp Lực Chơi",
     "USK_DruckZumVielspielen_v10_0": "Áp Lực Chơi Quá Mức",
     "USK_ProblematischeWerbeinhalte_v10_0": "Nội Dung Quảng Cáo Có Vấn Đề",
     "USK_ProblematischeRollenbilder_v10_0": "Hình Mẫu Thần Tượng Có Vấn Đề",
@@ -10657,6 +10702,8 @@
     "ClassInd_SexInsinuation": "Ngụ Ý Tình Dục",
     "ACB_SexScenes": "Cảnh Tình Dục",
     "ClassInd_SexScenes": "Cảnh Tình Dục",
+    "EPIC_CERO_Sex_Industry": "Ngành công nghiệp giải trí tình dục",
+    "EPIC_CERO_Sexually_Suggestive_Imagery": "Biểu cảm gợi dục",
     "USK_SexErotik": "Tình Dục/Khiêu Dâm",
     "ACB_SexualActivityRewards": "Hoạt Động Tình Dục Liên Quan đến Khích Lệ và Phần Thưởng",
     "ClassInd_ConteudoSexual": "Nội Dung Tình Dục",
@@ -10703,6 +10750,7 @@
     "ACB_StrongCrimeThemes": "Chủ Đề Tội Phạm Mạnh",
     "ACB_StrongCrudeHumour": "Hài Hước Thô Tục Mạnh",
     "ACB_StrongCrudeSexualReferences": "Nhắc Đến Tình Dục Thô Tục Mạnh",
+    "ACB_StrongDisturbingThemes_v11_0": "Chủ Đề Khó Chịu Mạnh",
     "ACB_StrongDrugReferences": "Nhắc Đến Ma Túy Mạnh",
     "ACB_StrongDrugUse": "Sử Dụng Ma Túy Mạnh",
     "ACB_StrongFamilyViolence_v10_0": "Bạo Lực Gia Đình Mạnh",
@@ -10746,13 +10794,20 @@
     "ACB_SuicideScenes_v10_0": "Cảnh Tự Tử",
     "ACB_SupernaturalThemes": "Chủ Đề Siêu Nhiên",
     "ACB_SupernaturalViolence_v10_0": "Bạo Lực Siêu Nhiên",
+    "ACB_SustainedThreat_v11_0": "Mối Đe Dọa Liên Tục",
+    "EPIC_CERO_Swimsuits_Costumes": "Đồ Bơi/Trang Phục",
     "ESRB_AGE_T_Abbreviated": "T",
     "ESRB_AGE_T": "Teen",
     "ClassInd_Tension": "Căng Thẳng",
     "ACB_Threat": "Mối Đe Dọa",
+    "GEN_TimeLimitedOffers_v11_0": "Ưu Đãi Giới Hạn Thời Gian",
+    "PEGI_TimeLimitedOffers_v11_0": "Ưu Đãi Có Hạn",
     "ESRB_TobaccoReference": "Nhắc Đến Thuốc Lá",
     "USK_Tabakkonsum": "Sử Dụng Thuốc Lá",
     "TCA_TobaccoAndAlcohol": "Thuốc Lá và Rượu",
+    "EPIC_CERO_Exposure_Underwear": "Hở nội y",
+    "GEN_UnrestrictedCommunication_v11_0": "Liên Lạc Không Giới Hạn",
+    "PEGI_UnrestrictedCommunication_v11_0": "Liên Lạc Không Giới Hạn",
     "IE_UnrestrictedInternet": "Internet Không Giới Hạn",
     "ESRB_UseofAlcohol": "Sử Dụng Rượu",
     "ESRB_UseofAlcoholandTobacco": "Sử Dụng Rượu và Thuốc Lá",
@@ -10815,11 +10870,7 @@
     "ClassInd_ViolenceAgainstVulnerablePersons": "Bạo Lực Nhắm Vào Người Dễ Bị Tổn Thương",
     "ESRB_ViolentReferences": "Nhắc Đến Bạo Lực",
     "ACB_WarThemes": "Chủ Đề Chiến Tranh",
-    "USK_WarThemes_v7_0": "Chủ Đề Chiến Tranh",
-    "EPIC_CERO_Exposure_Underwear": "ä¸‹ç€ã®éœ²å‡º",
-    "EPIC_CERO_Swimsuits_Costumes": "æ°´ç€ãƒ»ã‚³ã‚¹ãƒãƒ¥ãƒ¼ãƒ ",
-    "EPIC_CERO_Sexually_Suggestive_Imagery": "æ€§çš„ãªã‚‚ã®ã‚’æƒ³èµ·ã•ã›ã‚‹è¡¨ç¾",
-    "EPIC_CERO_Sex_Industry": "æ€§é¢¨ä¿—æ¥­"
+    "USK_WarThemes_v7_0": "Chủ Đề Chiến Tranh"
   },
   "InteractionPointWidget": {
     "DistanceTextFormatted": "{DistanceValue}m"
@@ -11152,19 +11203,23 @@
     "EditInPromptEditor": "Chỉnh sửa trong Trình Chỉnh Sửa Lệnh"
   },
   "LLMSession": {
+    "ErrorSource_Fact": "Dữ Kiện",
     "ErrorSource_InstructionPrompt": "Gợi Ý Hướng Dẫn",
     "Error_SummaryPrompt": "Lời nhắc hướng dẫn vượt quá giới hạn",
     "CannotUseConversations": "Người dùng cục bộ không được phép sử dụng các cuộc trò chuyện LLM",
+    "ErrorSource_Prompt": "Lời Nhắc",
     "ErrorSource_RegisteredActions": "Hành Động Đã Đăng Ký",
     "Error_SummarySO": "Mô tả trường struct vượt quá giới hạn",
     "ResonanceServiceUnavailable": "Dịch vụ Cộng Hưởng không khả dụng",
     "SessionClosedBeforeExchange": "Phiên Cộng Hưởng đã đóng trước khi có thể gửi lời nhắc",
     "SessionClosedBeforeUpdate": "Phiên Cộng Hưởng đã đóng trước khi có thể gửi lời nhắc",
     "SessionClosedWhileQueued": "Phiên Cộng Hưởng đã đóng trước khi có thể gửi lời nhắc",
-    "Error_DetailsPrompt": "Số lượng ký tự cho lệnh hướng dẫn của {CharacterName} vượt quá giới hạn {CharacterLimit} ký tự.",
-    "Error_DetailsSO": "Tổng số ký tự của các phần mô tả trường {Source} vượt quá giới hạn {CharacterLimit} ký tự.",
+    "Error_DetailsPrompt": "Số lượng ký tự cho lệnh hướng dẫn của {CharacterName} vượt quá giới hạn {Limit} ký tự.",
+    "Error_DetailsSO": "Tổng số ký tự của các phần mô tả trường {Source} vượt quá giới hạn {Limit} ký tự.",
     "ModerationMsg": "Phản hồi đã được Kiểm Duyệt",
     "Error_DetailsSchema": "Đã xảy ra sự cố khi xây dựng Lược Đồ JSON từ struct được cung cấp.",
+    "Error_SummaryBlocks": "Quá nhiều tham chiếu đến văn bản do AI tạo ra",
+    "Error_DetailsBlocks": "Quá nhiều nội dung tham chiếu đến văn bản do AI tạo cho {CharacterName} ({Source}, giới hạn {Limit}). Tham chiếu ít đoạn văn bản do AI tạo hơn.",
     "Error_SummarySchema": "Không thể dựng lược đồ",
     "StartSessionFailed": "Không thể bắt đầu phiên cộng hưởng",
     "UnknownRestriction": "Hạn Chế Chưa Xác Định"
@@ -11194,6 +11249,12 @@
   },
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "({0})"
+  },
+  "LimeAtomValidationValidators": {
+    "ValidationFailed": "LEGO® {0} không thể hoàn tất xác thực, kết quả có thể không đầy đủ.",
+    "IssueCountErrors": "LEGO® {0} đã tìm thấy {1} {1}|plural(one=vấn đề,other=vấn đề). Điều này vi phạm các nguyên tắc của LEGO®. Tất cả các vấn đề cần được giải quyết; nếu không, dự án của bạn có nguy cơ không vượt qua kiểm duyệt. Chạy xác thực trong bảng điều khiển Xác Thực LEGO® để xem lại",
+    "IssueCountWarnings": "LEGO® {0} đã tìm thấy {1} {1}|plural(one=cảnh báo,other=cảnh báo). Điều này vi phạm các nguyên tắc của LEGO®. Tất cả các vấn đề cần được giải quyết; nếu không, dự án của bạn có nguy cơ không vượt qua kiểm duyệt. Chạy xác thực trong bảng điều khiển Xác Thực LEGO® để xem lại",
+    "MaxIssuesReached": "LEGO® {0} đã dừng sau khi tìm thấy số lượng vấn đề tối đa ({1}), nên có thể vẫn còn nữa. Điều này vi phạm các nguyên tắc của LEGO®. Tất cả các vấn đề cần được giải quyết; nếu không, dự án của bạn có nguy cơ không vượt qua kiểm duyệt."
   },
   "LiteUIKit": {
     "WidgetPaletteCategory": "UIKit Lite"
@@ -11960,7 +12021,8 @@
     "LogicType": "Giá trị đúng và sai"
   },
   "PersonaPromptEditor": {
-    "EditFactText": "Chỉnh Sửa Văn Bản Dữ Liệu Thực Tế"
+    "EditFactText": "Chỉnh Sửa Văn Bản Dữ Liệu Thực Tế",
+    "SetResonanceConfiguration": "Thiết Lập Cấu Hình Cộng Hưởng"
   },
   "PickerContext": {
     "UFortPickerContext.EmojiCategoryTitle": "Biểu Cảm",
@@ -12178,6 +12240,13 @@
   "ReportReasonDetails": {
     "CommunicationAbuseDetails": "Nếu đã Bật Báo Cáo Tin Thoại và muốn đính kèm bản ghi âm vào báo cáo của mình, bạn có thể gửi báo cáo tin thoại qua mục đàm thoại ở Thanh Bên. Nếu đã Bật Báo Cáo Văn Bản và muốn đính kèm đoạn chat văn bản vào báo cáo của mình, bạn có thể gửi báo cáo văn bản qua mục chat văn bản ở Thanh Bên."
   },
+  "ResonanceConfigurationPicker": {
+    "ResonanceConfigurationDefault": "Mặc Định",
+    "MultipleValues": "Nhiều Giá Trị",
+    "ResonanceConfigurationDeprecated": "{0} (Không còn dùng)",
+    "ResonanceConfigurationMissing": "{0} (thiếu)",
+    "ResonanceConfigurationDuplicateLabel": "{0} ({1})"
+  },
   "Riding": {
     "DismountInput": "(Giữ) Thoát",
     "JumpInAir": "(Trên Không) Nhảy Xuống",
@@ -12387,6 +12456,10 @@
     "SplashTextName": "Trình Phân Tích Chỉ Số Không Gian",
     "WindowTitle": "Trình Phân Tích Chỉ Số Không Gian",
     "AppTitle": "Máy Phân Tích Không Gian"
+  },
+  "SpecialEventGameplayAnimNodes": {
+    "SpecialEventRewindPlayback_Tooltip": "Phát các tư thế đã ghi lại trong lúc ngã ngửa, đồng bộ theo đồng hồ tua lại của sự kiện đặc biệt. Truyền qua tư thế nhập vào khi không tua lại.",
+    "SpecialEventRewindPlayback_Title": "Phát Tua Lại Sự Kiện Đặc Biệt"
   },
   "SpectatorLensSettings": {
     "ApertureFNumber": "f/{Aperture}",
@@ -12922,9 +12995,6 @@
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "Bạn đã gửi thành công một món quà cho <text color=\"FFF\">{DisplayName}</>!"
   },
-  "UAthenaGiftFlowConfirmedPanel": {
-    "RecipientInfo": "Bạn đã gửi thành công một món quà cho <text color=\"FFF\">{DisplayName}</>!"
-  },
   "UAthenaLockerCategorySortConfig": {
     "AllGroupNameKey": "Tất Cả",
     "CategoriesGroupNameKey": "Mục",
@@ -13047,7 +13117,6 @@
     "PurchaseFailedToStart": "Chúng tôi đã gặp lỗi nghiêm trọng khi khởi tạo giao dịch mua của bạn. Vui lòng thử lại sau.",
     "PurchaseFailedToStartDueToMissingPrices": "Chúng tôi đã gặp lỗi nghiêm trọng khi khởi tạo giao dịch mua của bạn. Vui lòng thử lại sau.",
     "PurchaseHasNoNewEntitlements": "Chúng tôi đã gặp lỗi nghiêm trọng với giao dịch mua của bạn. Đội ngũ của chúng tôi đã được điều động để giải quyết vấn đề. Chúng tôi sẽ xác nhận khi giao dịch mua của bạn hoàn tất!",
-    "PurchaseBlockedDueToNoCTCCountryErrorCode": "Chúng tôi đã gặp lỗi nghiêm trọng với giao dịch mua của bạn. Vui lòng cập nhật phiên bản iOS của bạn lên phiên bản mới nhất hiện có và thử lại.",
     "MismatchedLocalUserAndStoreUser": "Tài khoản Xbox này không giống với tài khoản Microsoft Store của bạn. Bạn sẽ không thể thực hiện giao dịch mua mới nếu không đăng nhập vào cả ứng dụng Xbox và Microsoft Store bằng cùng một tài khoản.",
     "EULAFormat": "{0}\n\n{1}"
   },

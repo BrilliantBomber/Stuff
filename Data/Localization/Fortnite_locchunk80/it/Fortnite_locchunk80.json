@@ -135,8 +135,8 @@
     "A8AE72DB44B883FB4781B781412099D0": "MeterFillingUp",
     "AB7C5F774B7E7F8F02630183B54650CC": "Microfono disconnesso",
     "14F597EC4C407020DD9B5DA389277A63": "MissingPart",
-    "28C482E449F62B41B9072D83891CB3BE": "Maggiori dettagli",
     "72201F534B951FB9606A238287355590": "Maggiori dettagli",
+    "91104F544CF5E8B166A7E995F839F05C": "Maggiori dettagli",
     "94880FBD474E3DD0789E98A9EF88E3B5": "Maggiori dettagli",
     "4FD738414A5D948B5F5FF689C2AB85C3": "Maggiori dettagli",
     "9D2FFC8A45BE4E66B99822B1593F00A2": "Maggiori dettagli",
@@ -145,7 +145,6 @@
     "4BE94064468579E53F8C5FBC6CE95504": "Opacità levetta di movimento - Inattivo",
     "BC503DFE481B87BF6A40B7A8E7A68512": "Libreria musicale",
     "DF541A2E4DE1CBC16A8AE0B1E17B4D69": "NUOVO PUNTEGGIO RECORD!",
-    "F2A01B374670951E1B3D2091F9E276D6": "NO",
     "19F364BC46FAA51C791A28A86EA534A7": "Prossima canzone tra:",
     "56BA0A414D140E0E8E7AA1ACCAC4851A": "Prossimo",
     "8496FF63430072DADFF570B00A571C49": "E adesso",
@@ -211,7 +210,7 @@
     "C79D943547AA41AA150027882412A4C7": "Social+",
     "AEDA2FFD44B28FBBF64F81B06D08FA67": "Song 2",
     "D6BEB3844C362EDA101A05A2E8D83CD3": "La canzone non ha una parte per questo strumento",
-    "8924BA1549133D141E3D9891E64B9028": "Le opzioni delle canzoni sono disponibili solo\nin modalità giocatore singolo.",
+    "9A8799B547CB840FE33F6DB49BD5B372": "Le opzioni delle canzoni sono disponibili solo\nin modalità giocatore singolo.",
     "4C659ACA472C3EDB8A0937B7719A6530": "Ordina per",
     "F1B24E1F4128480248ABCAA3BE92BBAD": "Squadre",
     "376264D24B1CDD54CBB39B8AE18BD7E6": "Tema principale di Star Wars/March of the Resistance (riarrangiamento di Fortnite)",
@@ -270,8 +269,7 @@
     "ADC9AF0C4EA7C696B1A2DC8B2286ADC2": "{Percent}%",
     "75D1CE3E49F3227827F301B07D00BEF3": "{number}.",
     "5D2A7CA34D577EE27581F391DFB0EE40": "{value}x",
-    "76EA45D04740909E9B1B39B0B3EFE608": "{value}x",
-    "214E675A4D5FE3DE617F24B6A29A919E": "↑"
+    "76EA45D04740909E9B1B39B0B3EFE608": "{value}x"
   },
   "ST_SocialPosePickerInput": {
     "IA_PlayPose_HUD_Propmt": "Pose (tieni premuto)",

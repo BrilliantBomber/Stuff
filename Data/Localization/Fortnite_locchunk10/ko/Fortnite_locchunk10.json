@@ -368,6 +368,8 @@
     "231AF36049841BCCCB72619C0346D63B": "<Viper Glitch> 스타일",
     "06EEB84B4F23444589A9758F73B79CF5": "?",
     "892F58F84D92D5D260611CAD336AA6E0": "???",
+    "B14CFAD643402417AB3FD6B1B32B75CB": "???",
+    "DEBF4E2A47784C62A3FD27B10E7D79D8": "???",
     "6FCE2A4A45997CDAF9AD3B88BBEEBA16": "A",
     "8CC4A59940F77C4B19BBAF971F20D5C3": "A",
     "9AD70FCB49C057A8CE26F886558FA4F1": "A",
@@ -605,7 +607,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "빅배럴 DX",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "복엽기",
     "5B5236944941BFD7DE82B8B05FE11D94": "복엽기",
-    "DF56207843F6244003548CA79CFAA0F4": "복엽기",
     "F5EB146E408C915363F761972AA43B8A": "생일 케이크!",
     "AD9DF9A2455C274907AE29971466ADBA": "블레이드",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "블레이드",
@@ -1586,7 +1587,11 @@
     "CFBFEBC248741ED6E0FCC88CC754A22E": "해적 캐넌",
     "11286DCA40C6C1D1248DB4AB4FD95F92": "해적 상점",
     "3D5384AE463D8C77B1E6578A793F29D9": "해적 상점",
+    "5A823CFA4FD32ABE380CF5A3C886E487": "해적 상점",
+    "EE8BF7EC40A7B072DFBEEA830DDD5863": "해적 상점",
     "5771CEED4E3A98EAD847BFBFD4FA34A5": "해적 상점 이용 권한(2026)",
+    "7F7334F04E249310781F1CB69D100D8D": "해적 상점 이용 권한(2026)",
+    "5014942149F16C9E7F6A40A04864CCE8": "해적 상점 이용 권한(2027)",
     "7E0278EF4B5184B9FEB6EBA2547E1429": "해적 상점 이용 권한(2027)",
     "923CD0CD437F2EC013D0FCA6E8CFD824": "권총",
     "AE872A134006CB20B62E40B07D5FDAFC": "권총",
@@ -1606,6 +1611,8 @@
     "37A0DD2F4837BA7835216D877196C2CA": "플레이어 받은 피해",
     "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "{s} 액션 키를 다시 지정하세요.",
+    "069C1FF040D0E48A95E61995B44640B3": "활성화한 시점부터 14일 동안 포트나이트 아이템 상점을 약탈하세요.",
+    "579B339F46238309C9A7919644F44803": "활성화한 시점부터 14일 동안 포트나이트 아이템 상점을 약탈하세요.",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "뚫어뻥 활",
     "4567895244A3DDF0A6347DB93EA4AB9A": "주머니 부기 폭탄",
     "ECC1B5C641A0A7993449F39BB4F46B87": "주머니 충격 수류탄 ",
@@ -1667,6 +1674,7 @@
     "FD23E7C946966E8E24F1ADA1EDA51CB1": "속사 기관단총 +",
     "BA4B1FDD40153AE8C9FC76ACC646E32C": "<Emphasized>탄창 크기가</>가 증가한 속사 기관단총",
     "86F951AB4B4721B924CABA82FEFC3EC7": "희귀 탄약 상자",
+    "B1CFA5584EBD1878822A699ECEB629A6": "희귀 상자",
     "101BBD144878EB1AA8CCD292737797AE": "정찰용 스캐너",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "신병",
     "1C77EAFB46C48299170B7486AEFB6294": "주홍색",
@@ -1796,7 +1804,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "보호막 흡수",
     "4F611C954A5378BFC1804C96BB3981FE": "보호막 시너지",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "방패 던지기",
-    "6FE5EF624909BEBF19A4F7A143733F40": "함포",
     "D48B88DA4EC76F3203A964A55E4C04E7": "함포",
     "85A285654B56001B52E9ABBC806822EB": "충격파 기능성 도구",
     "8E57565847BBBCA8EE6AD38208D056E1": "충격파 수류탄 +",
@@ -2084,6 +2091,7 @@
     "A9F43F3A48770C515DF7A5AF1DF5A128": "나중에 공개됩니다.",
     "E01C6F584A3A7BA4F94BAB8231E0841B": "나중에 공개됩니다.",
     "060777BC47099F2DF28068980DCF0AFD": "나중에 공개됩니다. ",
+    "06F058FB4EE7E7F56D73D89FB36552DA": "나중에 공개됩니다. ",
     "499889C94D330A143D60249B468EE7BF": "나중에 공개됩니다. ",
     "4B1D57F64AA9FD8A596664A18AF6640E": "나중에 공개됩니다. ",
     "60D8C0614084FA6FCACF19866EF0FDBE": "나중에 공개됩니다. ",
@@ -2183,7 +2191,6 @@
     "2D63B0854707C30350F8B7A03551788D": "유틸리티아이템 ",
     "CF3BD1EE41CFC0D5B59A619710C3BAE0": "유틸리티아이템 광역 실버 블레이저 보호막 버블",
     "17E86A814E1BF4CEFB61E2BC6268CEE7": "유틸리티아이템 균열",
-    "2640FD984FA75748AC19FCBBD963DE79": "V-Bucks",
     "36C0892442CACB9BDAD4C3B09F0BF96C": "V-Bucks",
     "D6DDC6A9427A759E55A7BBB8A12736D1": "V-Bucks",
     "9FBB32C24460E6E70940859CABCF1987": "VBucksIncome",
@@ -2196,7 +2203,6 @@
     "454B71ED42ED250EDBECF59B7A7D9643": "VK 미테스트",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "상점에서 아이템을 구매할 때 사용하는 유용한 화폐입니다.",
     "67E0A04E48C18017454CB4B84AF5716F": "상점에서 아이템을 구매할 때 사용하는 유용한 화폐입니다.",
-    "D35857B04A6D171C1C63A1A7DEAA0DD4": "상점에서 아이템을 구매할 때 사용하는 유용한 화폐입니다.",
     "863EB9E944912130B5EAA6A39CC800BC": "상점에서 아이템을 구매할 때 사용하는 유용한 화폐입니다.  게임 개발자/크리에이터(예: UEFN 크리에이터)가 획득합니다",
     "D461D4C54C20240513787CBF1FDA9A57": "배리얼 더블배럴",
     "ABB98286476BE4B2D835939202B2B43D": "배리얼 지포스",
@@ -2693,9 +2699,6 @@
     "AlreadyOwnItemTitle": "문제가 발생했습니다!",
     "AlreadyOwnBPDescription": "<text color=\"FFF\">{DisplayName}</> 님이 선물을 받기 전에 배틀패스를 구매하여, 플레이어님에게 배틀패스 선물 토큰이 지급됩니다.\n 다른 플레이어에게 배틀패스를 선물할 수 있습니다. 만약 시즌이 끝날 때까지 배틀패스 선물 토큰을 사용하지 않는 경우, 950 V-Bucks가 계정에 환급됩니다."
   },
-  "AthenaGiftingFlowConfirmationScreen": {
-    "NewGiftBoxReceived": "새로운 선물 포장지 옵션을 획득했습니다!"
-  },
   "AthenaGiftingFlowErrorsPanel": {
     "GenericErrorDescription": "알 수 없는 오류 발생",
     "RecipientCantReceiveGiftsDescription": "<text color=\"FFF\">{DisplayName}</> 님은 선물을 받을 수 없습니다.",
@@ -2708,13 +2711,6 @@
     "RecipientCantReceiveGiftsTitle": "문제가 발생했습니다!",
     "AlreadyOwnItemTitle": "문제가 발생했습니다!",
     "AlreadyOwnBPDescription": "<text color=\"FFF\">{DisplayName}</> 님이 선물을 받기 전에 배틀패스를 구매하여, 플레이어님에게 배틀패스 선물 토큰이 지급됩니다.\n 다른 플레이어에게 배틀패스를 선물할 수 있습니다. 만약 시즌이 끝날 때까지 배틀패스 선물 토큰을 사용하지 않는 경우, 950 V-Bucks가 계정에 환급됩니다."
-  },
-  "AthenaGiftingFlowPurchaseButton": {
-    "Continue": "계속",
-    "GetVBucks": "V-Bucks 구매",
-    "PurchaseGift": "선물 구매하기!",
-    "ReloadVBucks": "V-Bucks 충전",
-    "SendGift": "선물을 보내세요!"
   },
   "AthenaGiftingFlowPurchasePanel": {
     "RetrySocialNameInfo": "{DisplayName} 님이 받을 선물:",
@@ -4112,14 +4108,21 @@
     "JsonError": "{0} 유형 서버 오류"
   },
   "EventPreview": {
-    "PauseFrameTooltip": "'시작 시 일시정지'를 체크한 상태로 PIE에 진입할 때 이벤트 시퀀스가 일시정지할 프레임입니다. 프레임은 각 시퀀스의 범위로 제한됩니다.",
-    "PauseOnStartTooltip": "에디터에서 플레이(PIE)에 진입하는 즉시 선택한 프레임에서 이벤트의 레벨 시퀀스를 고정하여, 테이크 레코더 캡처에서 수동으로 재생을 제어할 수 있습니다. 에디터/PIE 전용입니다.",
+    "WaitForUnpauseVolumeTooltip": "타이머에 따라 재개하는 대신, 누군가가 특별 이벤트 미리보기 일시정지 해제 볼륨을 통과할 때까지 일시정지 상태를 유지합니다.",
+    "StartSecondsTooltip": "선택한 단계에서 시퀀스의 시작 지점부터 초 단위로 계산했을 때, 몇 초 후부터 시작할지 설정합니다. 시퀀스의 길이로 제한됩니다. 에디터/PIE 전용입니다.",
+    "OpenMainEventSequence": "메인 이벤트 시퀀스 열기",
+    "OpenMainSequenceTooltip": "단계 버튼을 클릭하면 시퀀서에서 메인 이벤트 시퀀스를 열고 이 단계가 시작된 지점으로 이동합니다.",
     "OpenSequenceTooltip": "페이즈 버튼을 클릭하면 시퀀서에서 해당 페이즈의 레벨 시퀀스를 엽니다.",
-    "PauseOnStartMode": "시작 시 일시정지",
-    "UnpauseVolumeNote": "PIE에서 재개하려면: 레벨에 특별 이벤트 미리보기 일시정지 해제 볼륨을 배치하고, 플레이어가 그 안을 통과하도록 하세요.",
-    "AtFrame": "정지 프레임",
+    "OpenMainEventSequenceTooltip": "시퀀서에서 {0}을(를) 여세요.",
+    "PreviewPauseIndefiniteNote": "'플레이'를 누르면 여기에서 이벤트가 시작되고 무기한 일시정지됩니다(에디터 환경설정에서 '자동 재개 시간(초)'이 0입니다). 계속 진행하려면 Fort.SpecialEvent.Preview.Play를 실행하세요.",
+    "PreviewPauseVolumeNote": "'플레이'를 누르면 여기에서 이벤트가 시작되고, 누군가가 일시정지 해제 볼륨을 통과할 때까지 일시정지됩니다.",
+    "PreviewPauseAutoNote": "'플레이'를 누르면 여기에서 이벤트가 시작되고, 해당 페이즈 레이어가 스트리밍되는 동안 {0}초간 일시정지되었다가 재개됩니다.",
+    "StartOnSecond": "시작(초)",
+    "UnpauseWithVolume": "일시정지 해제 볼륨으로 일시정지 해제",
     "OpenSequenceSubtitle": "시퀀스 열기",
-    "StronglyRecommendedTag": "권장"
+    "StronglyRecommendedTag": "권장",
+    "PreviewStartZeroNote": "{0}\n\n0은 시퀀스의 첫 번째 프레임이며, 보통 비어 있습니다. 화면에 표시되는 장면에서 시작하려면 더 뒤의 시간을 입력하세요.",
+    "PreviewPauseSkippedNote": "{0}에서는 일시정지 구간을 건너뜁니다 — PIE에서는 중단 없이 그대로 재생합니다. 이 설정은 다른 모든 페이즈에도 적용됩니다."
   },
   "EventTeamMatchHistoryEntry": {
     "MatchNumber": "{0}위",
@@ -4196,6 +4199,21 @@
     "SectionName": "주노",
     "ExtensionName": "주노도구",
     "ConfigurePrefabTool": "프리팹"
+  },
+  "FLimeAtomBuildingActorOverlapValidator": {
+    "AddingOverlappingActors": "'{0}' 건물 액터가 다른 {1} 액터와 겹칩니다: '{2}'",
+    "ValidatorName": "건물 액터 오버랩 검증기",
+    "AtomValidationUtils_BuildingActorOKWithNoOverlaps": "무시된 오버랩"
+  },
+  "FLimeAtomOverlapValidator": {
+    "AddingOverlappingActors": "액터 '{0}'이(가) 다른 {1} 액터와 겹칩니다: '{2}'",
+    "DetailedCollisionOverlappingActorsMessage": "액터({0})가 다른 액터와 겹칩니다.",
+    "ActorNotCheckedForDetailedOverlaps": "상세 충돌 검사를 실행할 수 없어 액터({0})의 상세 오버랩을 확인하지 못했습니다. 대신 빠른 검사 결과를 보고합니다.",
+    "OverlapCheckSkippedNoWorld": "액터({0})가 월드에 존재하지 않아 오버랩 검사를 진행하지 않았습니다.",
+    "FixerName": "오버랩 수정",
+    "FixerTooltip": "오버랩 검증 문제의 경우 연결 스냅을 사용해 유효한 배치 위치를 찾으려고 시도합니다. 한 번에 하나의 문제만 해결합니다.",
+    "AtomValidationUtils_IgnoringValidation": "유효성 검사 무시",
+    "ValidatorName": "오버랩 검증기"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "{resourcetype} {amount}개 투입",
@@ -5093,9 +5111,14 @@
     "CreateAccountTitle": "계정을 생성합니다",
     "CreateAccountPinFailed": "에픽 계정에 연계되지 않은 계정을 생성하지 못했습니다.",
     "LinkAccountTitle": "계정을 연결합니다",
+    "NintendoPlatformName": "Nintendo",
+    "PlayStationPlatformName": "Playstation",
     "ProceedWithoutLinking": "계정 연결 없이 진행하는 중...",
     "GettingPinCode": "핀 승인 코드 요청 중...",
-    "LinkAccountFailed": "계정 생성에 성공하였지만, 연결에 실패하였습니다. 다시 시도해 주세요."
+    "SignInTitle": "로그인",
+    "LinkAccountFailed": "계정 생성에 성공하였지만, 연결에 실패하였습니다. 다시 시도해 주세요.",
+    "XboxPlatformName": "Xbox",
+    "PlatformAccountFormat": "{0} 계정이"
   },
   "FortActivityBrowserListView": {
     "Manual_BR": "배틀로얄",
@@ -5988,6 +6011,7 @@
     "CheckCrossPlayPrivilege": "크로스 플레이 권한 확인 중…",
     "CheckUGCPrivilege": "UGC 권한 확인 중...",
     "SilentClaimMfaReward": "보상 받는 중...",
+    "CleanupForLogout": "정리 중...",
     "DisconnectingFromLobby": "정리 중...",
     "LogoutUsabilityExperiment": "정리 중...",
     "FailedClientSettingsDownloadTitle": "클라우드 다운로드 실패",
@@ -6035,6 +6059,7 @@
     "RegisterLockManager": "잠금 관리자에 등록 중...",
     "DeletingCreds": "인증 제거 중...",
     "RemoveCachedSupervisedSettings": "캐시된 관리 설정 제거 중...",
+    "WaitForFrontend": "메인 메뉴로 돌아가는 중...",
     "StartVoiceChat": "음성 채팅 시작하는 중...",
     "DisconnectingFromVivox": "음성 채팅 중단하는 중...",
     "FailedPurchaseRedemptionNowRedeemedTitle": "지금 상점 이용 가능!",
@@ -6171,7 +6196,9 @@
     "NotEnoughResourcesText": "자원이 충분하지 않습니다!"
   },
   "FortPinGrantCodeInfoWidget": {
-    "ExpiringTime": "{0}초 후에 만료됩니다."
+    "ExpiringTime": "{0}초 후에 만료됩니다.",
+    "ActivationURLPrompt": "다음으로 이동",
+    "ActivationURLPromptWithQRCode": "또는 다음으로 이동:"
   },
   "FortPinModal": {
     "CreatePinRequest": "새로운 6자리 PIN을 입력해 자녀 보호로 잠긴 기능을 이용하세요.",
@@ -6184,6 +6211,8 @@
     "IncorrectPin": "잘못된 핀입니다. 다시 시도해주세요",
     "PinAttemptsExceeded": "PIN 시도 초과",
     "CilantroRequest": "시간을 추가하려면 먼저 자녀 보호 기능 PIN을 입력하세요.",
+    "UnlockGamemodeConnectionError": "PIN을 확인할 수 없었습니다. 연결을 확인하고 다시 시도하세요.",
+    "UnlockGamemodeError": "PIN을 확인할 수 없었습니다. 잠시 후에 다시 시도해보세요.",
     "AcceptFriendRequestInfoTitle": "친구는 무엇을 할 수 있나요?",
     "DefaultOfferName": "이 상품",
     "LocalPlayerYour": "자신의",
@@ -7100,6 +7129,7 @@
     "CameraAssistsCollection_Name": "카메라",
     "CameraAssists_Name": "카메라 보조",
     "JunoCombatAnyDirection_Disabled": "카메라 방향",
+    "CameraShakeEnabled_Name": "카메라 흔들림",
     "CanReceiveGifts_Name": "선물 받기 가능",
     "CanSeeOtherPlayersNames_Name": "스쿼드원 아닌 플레이어 이름 보기",
     "OnlyPrimaryPlayerEditable": "주 플레이어만 변경할 수 있습니다.",
@@ -8526,6 +8556,7 @@
     "FollowCamera_Description_Switch": "설정을 켜면 조준 또는 발사 중이 아닐 때 좌우로 움직일 시 카메라가 같이 움직입니다. 두 스틱을 함께 사용하는 것이 어렵다면 활성화하세요. R 스틱은 기존 기능대로 작동하니, 이 기능을 활성화해도 R 스틱 조작을 연습할 수 있습니다.",
     "FollowCamera_Description": "설정을 켜면 조준 또는 발사 중이 아닐 때 좌우로 움직일 시 카메라가 같이 움직입니다. 두 스틱을 함께 사용하는 것이 어렵다면 활성화하세요. R 스틱은 기존 기능대로 작동하니, 이 기능을 활성화해도 R 스틱 조작을 연습할 수 있습니다.",
     "FollowCamera_Description_PS4_PS5": "설정을 켜면 조준 또는 발사 중이 아닐 때 좌우로 움직일 시 카메라가 같이 움직입니다. 두 스틱을 함께 사용하는 것이 어렵다면 활성화하세요. 오른쪽 스틱은 기존 기능대로 작동하니, 이 기능을 활성화해도 오른쪽 스틱 조작을 연습할 수 있습니다.",
+    "CameraShakeEnabled_Description": "켜면 폭발과 충격 등의 이벤트에 반응하여 카메라가 흔들립니다.",
     "AutoPickupWeaponsConsolePC_Description_Shorter": "켜져 있는 경우, 무기 위를 지나갈 때 인벤토리가 가득 찰 때까지 무기를 자동으로 줍습니다.",
     "AutoPickupWeapons_Description_Shorter": "켜져 있는 경우, 무기 위를 지나갈 때 인벤토리가 가득 찰 때까지 무기를 자동으로 줍습니다.",
     "AutoInteractConsumables_Description": "켜져 있는 경우, 사과, 버섯 및 기타 소모품을 보고 있을 때 자동으로 사용합니다.",
@@ -9826,6 +9857,7 @@
     "BannedFromWorld": "파티가 있는 월드에서 추방되었습니다.",
     "MfaRequiredForTournament": "이 토너먼트에 참가하기 위해서는 에픽 계정의 2단계 인증을 활성화해야 합니다. 2단계 인증 활성화하기:  {TurnOnMfaURL}",
     "WrongNumberOfEventPlayers": "이 토너먼트에 참가하려면 파티원들을 모아 파티를 형성해야 합니다.",
+    "PartyMemberBannedFromWorld": "플레이어 또는 파티원 중 한 명이 이 세계에서 이용정지되었습니다.",
     "MatchCapExceeded": "이 이벤트의 최대 매치 수에 모두 참가했습니다. 추가 정보와 예정된 이벤트는 경쟁 탭에서 확인하세요.",
     "Error.AccountLevelTooLow": "플레이어의 계정 레벨({0})이 플레이 최소 조건({1})을 충족하지 않습니다.",
     "Error.BRRankLevelTooLow": "플레이어의 현재 배틀로얄 랭크 레벨({0})이 다음 모드 플레이 최소 조건을 충족하지 않습니다: {1}.",
@@ -10094,6 +10126,7 @@
     "NotFriendsLongEnough": "님이 선물을 받을 수 있는 기간이 {0}일 남았습니다!",
     "NotAcceptingGifts": "선물을 받지 않습니다",
     "NotFriends": "선물은 친구 사이에만 보낼 수 있습니다.",
+    "NewGiftBoxReceived": "새로운 선물 포장지 옵션을 획득했습니다!",
     "NotAFortnitePlayer": "포트나이트 플레이어가 아닙니다",
     "OwnedMultiInstanceItems": "보유 중: <text color=\"fff\">{owned}</>",
     "OwnsItemFromBundle": "일부 보유 중",
@@ -10253,10 +10286,9 @@
     "PEGI_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16세",
-    "GEN_AGE_16": "16세 이상",
-    "GEN_AGE_16_Abbreviated": "16세 이상",
     "USK_AGE_16": "16세 이상",
     "CLASSIND_AGE_18_Abbreviated": "18",
+    "PEGI_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18세",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
@@ -10290,6 +10322,7 @@
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
     "ClassInd_AIInteraction_v11_0": "AI 상호작용",
+    "USK_AIGeneratedContent_v11_0": "AI 생성 콘텐츠",
     "USK_AbstrakteGewalt": "추상적인 폭력",
     "ACB_ActionViolence_v10_0": "액션 폭력",
     "ClassInd_AdolescentThemes": "청소년 테마",
@@ -10354,6 +10387,8 @@
     "ACB_CrudeHumour": "저속한 유머",
     "ACB_CrudeSexualHumour": "저속한 성적 유머",
     "ACB_CrudeSexualReferences": "저속한 성적 언급",
+    "GEN_Cryptocurrency_v11_0": "암호화폐",
+    "PEGI_Cryptocurrency_v11_0": "암호화폐",
     "USK_DustereAtmosphare_v10_0": "어두운 분위기",
     "IE_DigitalPurchases": "디지털 구매",
     "GEN_Discrimination": "차별",
@@ -10406,6 +10441,7 @@
     "PEGI_Fear": "공포감",
     "RUS_Fear_v7_0": "공포감",
     "IGRS_FearHorror": "공포/호러",
+    "USK_FinancialSpeculationRisk_v11_0": "금융 투기 위험",
     "GRAC_AGE_12": "12세이용가",
     "GRAC_AGE_ALL": "전체이용가",
     "ACB_AGE_G_Abbreviated": "G",
@@ -10419,6 +10455,8 @@
     "RUS_Gambling_v7_0": "도박",
     "ACB_GamblingThemes_v9_0": "사행성 테마",
     "ESRB_GamblingThemes_v9_0": "사행성 테마",
+    "GEN_GamblingThemes_v11_0": "사행성 테마",
+    "PEGI_GamblingThemes_v11_0": "사행성 테마",
     "USK_SimulatedGambling_v8_0": "사행성 테마",
     "ClassInd_GamblingOrGamesOfChance": "도박 또는 확률형 게임",
     "USK_GlucksspielMitGeldeinsatz_v7_0": "현금 지급이 걸린 도박",
@@ -10435,6 +10473,7 @@
     "ACB_HighImpactComedicViolence": "강렬한 희극적 폭력",
     "ACB_HighImpactCrudeHumour": "강렬하고 저속한 유머",
     "ACB_HighImpactCrudeSexualReferences": "강렬하고 저속한 성적 언급",
+    "ACB_HighImpactDisturbingThemes_v11_0": "강렬한 충격적 주제",
     "ACB_HighImpactDrugReferences": "강렬한 마약 관련",
     "ACB_HighImpactDrugUse": "강렬한 마약 사용",
     "ACB_HighImpactFamilyViolence_v10_0": "영향력이 높은 가족 폭력",
@@ -10454,6 +10493,7 @@
     "ACB_HighImpactSexualReferences": "강렬한 성적 언급",
     "ACB_HighImpactSexualThemes": "강렬한 성적 주제",
     "ACB_HighImpactSexualisedImagery": "강렬한 성적 이미지",
+    "ACB_HighImpactSimulatedGambling_v11_0": "강렬한 가상 도박",
     "ACB_HighImpactSportingViolence_v10_0": "영향력이 높은 스포츠 폭력",
     "ACB_HighImpactSuggestiveThemes": "강렬한 외설적 주제",
     "ACB_HighImpactSuicideReferences_v10_0": "영향력이 큰 자살 언급",
@@ -10505,7 +10545,7 @@
     "IGRS_Language": "비속어",
     "PEGI_Language": "비속한 표현",
     "RUS_Language_v7_0": "비속한 표현",
-    "CERO_LanguageAndOthers": "비속어 및 기타 사항",
+    "CERO_LanguageAndOthers": "언어/기타",
     "ClassInd_DrogasLicitas": "합법적 마약",
     "ClassInd_LightAnimatedViolence": "가벼운 수준의 폭력 묘사",
     "CERO_Love": "사랑",
@@ -10604,6 +10644,7 @@
     "PEGI_AGE_PG": "보호자 동반 권장",
     "PEGI_AGE_12": "PEGI 12",
     "PEGI_AGE_16": "PEGI 16",
+    "PEGI_AGE_18": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10612,6 +10653,8 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
+    "GEN_PaidRandomItems_v11_0": "유료 랜덤 아이템",
+    "PEGI_PaidRandomItems_v11_0": "유료 랜덤 아이템",
     "TCA_AGE_PG_12": "보호자 지도 필요 12세",
     "TCA_AGE_PG_15": "보호자 지도 필요 15세",
     "GEN_ParentalGuidanceRecommended": "보호자 동반 권장",
@@ -10623,6 +10666,8 @@
     "ACB_PredatoryAnimalBehaviour": "포식성 동물의 행동",
     "FPB_Prejudice": "편견",
     "USK_Handlungsdruck_v9_0": "행동에 대한 압박",
+    "GEN_PressureToPlay_v11_0": "플레이 압박",
+    "PEGI_PressureToPlay_v11_0": "플레이 압박",
     "USK_DruckZumVielspielen_v10_0": "과도하게 플레이하게 하는 압박",
     "USK_ProblematischeWerbeinhalte_v10_0": "문제가 있는 광고 콘텐츠",
     "USK_ProblematischeRollenbilder_v10_0": "문제가 있는 역할 모델",
@@ -10657,6 +10702,8 @@
     "ClassInd_SexInsinuation": "성행위 감지",
     "ACB_SexScenes": "성행위 장면",
     "ClassInd_SexScenes": "성행위 장면",
+    "EPIC_CERO_Sex_Industry": "성 엔터테인먼트 산업",
+    "EPIC_CERO_Sexually_Suggestive_Imagery": "성적 행위를 연상시키는 표현",
     "USK_SexErotik": "성행위/에로티시즘",
     "ACB_SexualActivityRewards": "성과급 및 보상과 관련된 성적 행위",
     "ClassInd_ConteudoSexual": "성적 콘텐츠",
@@ -10703,6 +10750,7 @@
     "ACB_StrongCrimeThemes": "강력 범죄 테마",
     "ACB_StrongCrudeHumour": "강력하고 저속한 유머",
     "ACB_StrongCrudeSexualReferences": "강력하고 저속한 성적 언급",
+    "ACB_StrongDisturbingThemes_v11_0": "지나치게 충격적인 주제",
     "ACB_StrongDrugReferences": "강력한 마약 관련",
     "ACB_StrongDrugUse": "강력한 마약 사용",
     "ACB_StrongFamilyViolence_v10_0": "강력한 가족 폭력",
@@ -10746,13 +10794,20 @@
     "ACB_SuicideScenes_v10_0": "자살 자살",
     "ACB_SupernaturalThemes": "초자연적인 주제",
     "ACB_SupernaturalViolence_v10_0": "초자연적 폭력",
+    "ACB_SustainedThreat_v11_0": "지속적인 위협",
+    "EPIC_CERO_Swimsuits_Costumes": "수영복/코스튬",
     "ESRB_AGE_T_Abbreviated": "T",
     "ESRB_AGE_T": "청소년",
     "ClassInd_Tension": "긴장감",
     "ACB_Threat": "위협",
+    "GEN_TimeLimitedOffers_v11_0": "기간 한정 상품",
+    "PEGI_TimeLimitedOffers_v11_0": "기간 한정 상품",
     "ESRB_TobaccoReference": "담배 언급",
     "USK_Tabakkonsum": "흡연 사용",
     "TCA_TobaccoAndAlcohol": "음주 및 흡연",
+    "EPIC_CERO_Exposure_Underwear": "속옷 노출",
+    "GEN_UnrestrictedCommunication_v11_0": "무제한 소통",
+    "PEGI_UnrestrictedCommunication_v11_0": "무제한 소통",
     "IE_UnrestrictedInternet": "제한 없는 인터넷",
     "ESRB_UseofAlcohol": "음주",
     "ESRB_UseofAlcoholandTobacco": "음주 및 흡연",
@@ -10815,11 +10870,7 @@
     "ClassInd_ViolenceAgainstVulnerablePersons": "취약 계층 대상 폭력",
     "ESRB_ViolentReferences": "폭력적 언급",
     "ACB_WarThemes": "전쟁 주제",
-    "USK_WarThemes_v7_0": "전쟁 테마",
-    "EPIC_CERO_Exposure_Underwear": "ä¸‹ç€ã®éœ²å‡º",
-    "EPIC_CERO_Swimsuits_Costumes": "æ°´ç€ãƒ»ã‚³ã‚¹ãƒãƒ¥ãƒ¼ãƒ ",
-    "EPIC_CERO_Sexually_Suggestive_Imagery": "æ€§çš„ãªã‚‚ã®ã‚’æƒ³èµ·ã•ã›ã‚‹è¡¨ç¾",
-    "EPIC_CERO_Sex_Industry": "æ€§é¢¨ä¿—æ¥­"
+    "USK_WarThemes_v7_0": "전쟁 테마"
   },
   "InteractionPointWidget": {
     "DistanceTextFormatted": "{DistanceValue}m"
@@ -11152,19 +11203,23 @@
     "EditInPromptEditor": "프롬프트 에디터에서 편집"
   },
   "LLMSession": {
+    "ErrorSource_Fact": "팩트",
     "ErrorSource_InstructionPrompt": "지시 프롬프트",
     "Error_SummaryPrompt": "지시 프롬프트 제한 초과",
     "CannotUseConversations": "로컬 사용자는 LLM 대화를 사용할 수 없습니다.",
+    "ErrorSource_Prompt": "프롬프트",
     "ErrorSource_RegisteredActions": "등록된 액션",
     "Error_SummarySO": "구조체 필드 설명 제한 초과",
     "ResonanceServiceUnavailable": "레조넌스 서비스를 사용할 수 없습니다.",
     "SessionClosedBeforeExchange": "프롬프트가 전송되기 전에 레조넌스 세션이 종료되었습니다.",
     "SessionClosedBeforeUpdate": "프롬프트가 전송되기 전에 레조넌스 세션이 종료되었습니다.",
     "SessionClosedWhileQueued": "프롬프트가 전송되기 전에 레조넌스 세션이 종료되었습니다.",
-    "Error_DetailsPrompt": "{CharacterName}의 지시 프롬프트 글자 수가 {CharacterLimit}자 제한을 초과합니다.",
-    "Error_DetailsSO": "{Source} 필드 설명의 총 글자 수가 {CharacterLimit}자 제한을 초과합니다.",
+    "Error_DetailsPrompt": "{CharacterName}의 지시 프롬프트 글자 수가 {Limit}자 제한을 초과합니다.",
+    "Error_DetailsSO": "{Source} 필드 설명의 총 글자 수가 {Limit}자 제한을 초과합니다.",
     "ModerationMsg": "응답이 검토되었습니다",
     "Error_DetailsSchema": "제공된 구조체에서 JSON 스키마를 구성하는 중 문제가 발생했습니다.",
+    "Error_SummaryBlocks": "AI 생성 텍스트에 대한 참조가 너무 많습니다",
+    "Error_DetailsBlocks": "{CharacterName}에 AI 생성 텍스트에 대한 참조가 너무 많습니다({Source}, 제한 {Limit}). AI 생성 텍스트 참조를 줄이세요.",
     "Error_SummarySchema": "스키마 빌드 불가",
     "StartSessionFailed": "레조넌스 세션을 시작할 수 없습니다.",
     "UnknownRestriction": "알 수 없는 제한"
@@ -11194,6 +11249,12 @@
   },
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "({0})"
+  },
+  "LimeAtomValidationValidators": {
+    "ValidationFailed": "레고® {0}에서 유효성 검사를 완료하지 못했습니다. 결과가 불완전할 수 있습니다.",
+    "IssueCountErrors": "레고® {0}에서 문제 {1}개를 발견했습니다. 이는 레고® 가이드라인에 어긋납니다. 문제를 모두 해결하지 않으면 검토를 통과하지 못할 수 있습니다.\n 레고® 유효성 검사 패널에서 유효성 검사를 실행해 문제를 검토하세요",
+    "IssueCountWarnings": "레고® {0}에서 경고 {1}개를 발견했습니다. 이는 레고® 가이드라인에 어긋납니다. 문제를 모두 해결하지 않으면 검토를 통과하지 못할 수 있습니다.\n 레고® 유효성 검사 패널에서 유효성 검사를 실행해 문제를 검토하세요",
+    "MaxIssuesReached": "레고®가 최대 문제 개수({0})를 발견한 후 중단되었습니다. 문제가 더 있을 수 있습니다. 이는 레고® 가이드라인에 어긋납니다. 문제를 모두 해결하지 않으면 검토를 통과하지 못할 수 있습니다"
   },
   "LiteUIKit": {
     "WidgetPaletteCategory": "라이트 UI 키트"
@@ -11960,7 +12021,8 @@
     "LogicType": "true 및 false 값"
   },
   "PersonaPromptEditor": {
-    "EditFactText": "팩트 텍스트 편집"
+    "EditFactText": "팩트 텍스트 편집",
+    "SetResonanceConfiguration": "레조넌스 구성 설정"
   },
   "PickerContext": {
     "UFortPickerContext.EmojiCategoryTitle": "이모지",
@@ -12178,6 +12240,13 @@
   "ReportReasonDetails": {
     "CommunicationAbuseDetails": "음성 신고 기능이 켜져 있는 상태에서 음성 녹음이 포함된 신고를 하려면 사이드바의 음성 채팅 탭에서 음성 신고를 제출하시면 됩니다. 텍스트 신고 기능이 켜져 있는 상태에서 텍스트 채팅 기록이 포함된 신고를 하려면 텍스트 채팅 창에서 텍스트 채팅 신고를 제출하시면 됩니다."
   },
+  "ResonanceConfigurationPicker": {
+    "ResonanceConfigurationDefault": "기본",
+    "MultipleValues": "다중 값",
+    "ResonanceConfigurationDeprecated": "{0} (폐기됨)",
+    "ResonanceConfigurationMissing": "{0} (누락됨)",
+    "ResonanceConfigurationDuplicateLabel": "{0}({1})"
+  },
   "Riding": {
     "DismountInput": "(길게 누르기) 내리기",
     "JumpInAir": "(공중) 내리기 점프",
@@ -12387,6 +12456,10 @@
     "SplashTextName": "공간 메트릭 프로파일러",
     "WindowTitle": "공간 메트릭 프로파일러",
     "AppTitle": "공간 프로파일러"
+  },
+  "SpecialEventGameplayAnimNodes": {
+    "SpecialEventRewindPlayback_Tooltip": "뒤로 넘어지는 동안 기록된 포즈를 특별 이벤트 되감기 시계에 맞춰 재생합니다. 되감기 중이 아닐 때는 입력 포즈를 그대로 전달합니다.",
+    "SpecialEventRewindPlayback_Title": "특별 이벤트 되감기 재생"
   },
   "SpectatorLensSettings": {
     "ApertureFNumber": "f/{Aperture}",
@@ -12922,9 +12995,6 @@
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "<text color=\"FFF\">{DisplayName}</> 님에게 선물을 보내는 데 성공했습니다!"
   },
-  "UAthenaGiftFlowConfirmedPanel": {
-    "RecipientInfo": "<text color=\"FFF\">{DisplayName}</> 님에게 선물을 보내는 데 성공했습니다!"
-  },
   "UAthenaLockerCategorySortConfig": {
     "AllGroupNameKey": "전체",
     "CategoriesGroupNameKey": "카테고리",
@@ -13047,7 +13117,6 @@
     "PurchaseFailedToStart": "치명적인 오류로 인해 구매를 진행할 수 없습니다. 나중에 다시 시도하시기 바랍니다.",
     "PurchaseFailedToStartDueToMissingPrices": "치명적인 오류로 인해 구매를 진행할 수 없습니다. 나중에 다시 시도하시기 바랍니다.",
     "PurchaseHasNoNewEntitlements": "구매에 치명적인 오류가 발생했습니다. 이슈를 해결하기 위해 팀이 문제를 처리하고 있습니다. 구매가 완료되는 대로 확인하겠습니다!",
-    "PurchaseBlockedDueToNoCTCCountryErrorCode": "구매 중 치명적인 오류가 발생했습니다. 지원되는 최신 iOS 버전으로 업데이트하고 다시 시도하세요.",
     "MismatchedLocalUserAndStoreUser": "Xbox 계정이 Microsoft Store 계정과 일치하지 않습니다. 새로운 구매를 하려면 Xbox 앱과 Microsoft Store 모두 동일한 계정으로 로그인해야 합니다.",
     "EULAFormat": "{0}\n\n{1}"
   },

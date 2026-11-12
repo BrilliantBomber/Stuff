@@ -368,6 +368,8 @@
     "231AF36049841BCCCB72619C0346D63B": "<バイパーグリッチ>スタイル",
     "06EEB84B4F23444589A9758F73B79CF5": "?",
     "892F58F84D92D5D260611CAD336AA6E0": "???",
+    "B14CFAD643402417AB3FD6B1B32B75CB": "???",
+    "DEBF4E2A47784C62A3FD27B10E7D79D8": "???",
     "6FCE2A4A45997CDAF9AD3B88BBEEBA16": "A",
     "8CC4A59940F77C4B19BBAF971F20D5C3": "A",
     "9AD70FCB49C057A8CE26F886558FA4F1": "A",
@@ -605,7 +607,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "ビッグバレルDX",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "バイプレーン",
     "5B5236944941BFD7DE82B8B05FE11D94": "バイプレーン",
-    "DF56207843F6244003548CA79CFAA0F4": "バイプレーン",
     "F5EB146E408C915363F761972AA43B8A": "バースデーケーキ！",
     "AD9DF9A2455C274907AE29971466ADBA": "ブレイド",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "ブレイド",
@@ -1586,7 +1587,11 @@
     "CFBFEBC248741ED6E0FCC88CC754A22E": "パイレーツキャノン",
     "11286DCA40C6C1D1248DB4AB4FD95F92": "パイレーツショップ",
     "3D5384AE463D8C77B1E6578A793F29D9": "パイレーツショップ",
+    "5A823CFA4FD32ABE380CF5A3C886E487": "パイレーツショップ",
+    "EE8BF7EC40A7B072DFBEEA830DDD5863": "パイレーツショップ",
     "5771CEED4E3A98EAD847BFBFD4FA34A5": "パイレーツショップへのアクセス(2026)",
+    "7F7334F04E249310781F1CB69D100D8D": "パイレーツショップへのアクセス(2026)",
+    "5014942149F16C9E7F6A40A04864CCE8": "パイレーツショップへのアクセス(2027)",
     "7E0278EF4B5184B9FEB6EBA2547E1429": "パイレーツショップへのアクセス(2027)",
     "923CD0CD437F2EC013D0FCA6E8CFD824": "ピストル",
     "AE872A134006CB20B62E40B07D5FDAFC": "ピストル",
@@ -1606,6 +1611,8 @@
     "37A0DD2F4837BA7835216D877196C2CA": "プレイヤー被ダメージ",
     "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "{s}アクションを割り当て直してください。",
+    "069C1FF040D0E48A95E61995B44640B3": "有効化後14日間、フォートナイト アイテムショップを略奪しよう。",
+    "579B339F46238309C9A7919644F44803": "有効化後14日間、フォートナイト アイテムショップを略奪しよう。",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "プランジャーボウ",
     "4567895244A3DDF0A6347DB93EA4AB9A": "ポケット ブギーボム",
     "ECC1B5C641A0A7993449F39BB4F46B87": "ポケット インパルス ",
@@ -1667,6 +1674,7 @@
     "FD23E7C946966E8E24F1ADA1EDA51CB1": "速射式サブマシンガン+",
     "BA4B1FDD40153AE8C9FC76ACC646E32C": "<Emphasized>マガジンサイズ</>が拡張された速射サブマシンガン",
     "86F951AB4B4721B924CABA82FEFC3EC7": "レア弾薬箱",
+    "B1CFA5584EBD1878822A699ECEB629A6": "レア宝箱",
     "101BBD144878EB1AA8CCD292737797AE": "リーコンスキャナー",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "リクルート",
     "1C77EAFB46C48299170B7486AEFB6294": "レッドオレンジ",
@@ -1796,7 +1804,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "シールドスティール",
     "4F611C954A5378BFC1804C96BB3981FE": "シールドシナジー",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "シールドトス",
-    "6FE5EF624909BEBF19A4F7A143733F40": "シップキャノン",
     "D48B88DA4EC76F3203A964A55E4C04E7": "シップキャノン",
     "85A285654B56001B52E9ABBC806822EB": "ショックウェーブガジェット",
     "8E57565847BBBCA8EE6AD38208D056E1": "ショックウェーブグレネード+",
@@ -2084,6 +2091,7 @@
     "A9F43F3A48770C515DF7A5AF1DF5A128": "続報をお待ちください。",
     "E01C6F584A3A7BA4F94BAB8231E0841B": "続報をお待ちください。",
     "060777BC47099F2DF28068980DCF0AFD": "後日公開… ",
+    "06F058FB4EE7E7F56D73D89FB36552DA": "後日公開… ",
     "499889C94D330A143D60249B468EE7BF": "後日公開… ",
     "4B1D57F64AA9FD8A596664A18AF6640E": "後日公開… ",
     "60D8C0614084FA6FCACF19866EF0FDBE": "後日公開… ",
@@ -2183,7 +2191,6 @@
     "2D63B0854707C30350F8B7A03551788D": "ユーティリティアイテム ",
     "CF3BD1EE41CFC0D5B59A619710C3BAE0": "ユーティリティアイテム 効果範囲 シルバー ブレイザー シールド バブル",
     "17E86A814E1BF4CEFB61E2BC6268CEE7": "ユーティリティアイテム 裂け目",
-    "2640FD984FA75748AC19FCBBD963DE79": "V-BUCKS",
     "36C0892442CACB9BDAD4C3B09F0BF96C": "V-BUCKS",
     "D6DDC6A9427A759E55A7BBB8A12736D1": "V-BUCKS",
     "9FBB32C24460E6E70940859CABCF1987": "獲得V-Bucks",
@@ -2196,7 +2203,6 @@
     "454B71ED42ED250EDBECF59B7A7D9643": "テストされていないVK",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "ストアで各種アイテムの購入に使用できる貴重な通貨。",
     "67E0A04E48C18017454CB4B84AF5716F": "ストアで各種アイテムの購入に使用できる貴重な通貨。",
-    "D35857B04A6D171C1C63A1A7DEAA0DD4": "ストアで各種アイテムの購入に使用できる貴重な通貨。",
     "863EB9E944912130B5EAA6A39CC800BC": "ストアで各種アイテムの購入に使用できる貴重な通貨。ゲームのデベロッパー/クリエイター(UEFNクリエイターなど)が獲得できます。",
     "D461D4C54C20240513787CBF1FDA9A57": "ヴァリアルダブルバレル",
     "ABB98286476BE4B2D835939202B2B43D": "ヴァリアルGフォース",
@@ -2693,9 +2699,6 @@
     "AlreadyOwnItemTitle": "不明な問題が発生しました！",
     "AlreadyOwnBPDescription": "バトルパスを贈る手続きの最中に<text color=\"FFF\">{DisplayName}</> がバトルパスを購入したため、バトルパスはあなたが受け取ることになります。\n他のフレンドに贈ることも可能です。バトルパスギフトトークンがシーズン終了までに使用されなかった場合は、950 V-Bucksに変換されあなたのアカウントへ振り込まれます。"
   },
-  "AthenaGiftingFlowConfirmationScreen": {
-    "NewGiftBoxReceived": "新しいギフトラップのオプションを入手！"
-  },
   "AthenaGiftingFlowErrorsPanel": {
     "GenericErrorDescription": "未知のエラーが発生しました",
     "RecipientCantReceiveGiftsDescription": "<text color=\"FFF\">{DisplayName}</>はギフトを受け取ることができない対象者のようです",
@@ -2708,13 +2711,6 @@
     "RecipientCantReceiveGiftsTitle": "不明な問題が発生しました！",
     "AlreadyOwnItemTitle": "不明な問題が発生しました！",
     "AlreadyOwnBPDescription": "バトルパスを贈る手続きの最中に<text color=\"FFF\">{DisplayName}</> がバトルパスを購入したため、バトルパスはあなたが受け取ることになります。\n他のフレンドに贈ることも可能です。バトルパスギフトトークンがシーズン終了までに使用されなかった場合は、950 V-Bucksに変換されあなたのアカウントへ振り込まれます。"
-  },
-  "AthenaGiftingFlowPurchaseButton": {
-    "Continue": "続行",
-    "GetVBucks": "V-Bucksを入手",
-    "PurchaseGift": "ギフトを購入！",
-    "ReloadVBucks": "V-Bucksを補充",
-    "SendGift": "ギフトを贈ろう！"
   },
   "AthenaGiftingFlowPurchasePanel": {
     "RetrySocialNameInfo": "{DisplayName}が今受け取るもの:",
@@ -4112,14 +4108,21 @@
     "JsonError": "タイプ{0}のサーバーエラー"
   },
   "EventPreview": {
-    "PauseFrameTooltip": "開始時に一時停止が有効なPIEを開始した際に、イベントのシーケンスがフリーズするフレーム。各シーケンスの範囲内に固定。",
-    "PauseOnStartTooltip": "PIEに入ったらすぐに、選択したフレームでイベントのレベルシーケンスを固定し、テイクレコーダー キャプチャの再生を手動でコントロールできるようにする エディタ/PIE限定",
+    "WaitForUnpauseVolumeTooltip": "タイマーで再開するのではなく、誰かがスペシャルイベントのプレビューの音量を再開するまで一時停止します。",
+    "StartSecondsTooltip": "選択したフェーズのどの地点から開始するかを、フェーズのシーケンスの開始位置から数えた秒数で指定します。シーケンスの長さに固定。エディタ/PIEのみ。",
+    "OpenMainEventSequence": "メインイベントのシーケンスを開く",
+    "OpenMainSequenceTooltip": "フェーズボタンがクリックされたときに、このフェーズの開始位置にジャンプしてメインイベントシーケンスをシーケンサーで開きます。",
     "OpenSequenceTooltip": "フェーズボタンがクリックされたときに、このフェーズのレベルシーケンスをシーケンサーで開きます。",
-    "PauseOnStartMode": "開始時に一時停止",
-    "UnpauseVolumeNote": "PIEで再開するには、レベルにスペシャルイベントのプレビュー用のボリュームの一時停止解除を配置して、プレイヤーをレベル内へと誘導します。",
-    "AtFrame": "フレームを",
+    "OpenMainEventSequenceTooltip": "シーケンサーで{0}を開きます。",
+    "PreviewPauseIndefiniteNote": "ここで再生するとイベントが始まります。無期限に継続されます(エディタの環境設定の自動再開秒数は0)。続行するには、Fort.SpecialEvent.Preview.Playを実行してください。",
+    "PreviewPauseVolumeNote": "ここで再生するとイベントが始まります。誰かが音量を再開するまで継続されます。",
+    "PreviewPauseAutoNote": "ここで再生するとイベントが始まります。フェーズのレイヤー読み込みの間、{0}秒間停止してからまた続行します。",
+    "StartOnSecond": "数秒でスタート",
+    "UnpauseWithVolume": "再開で音量の一時停止を解除",
     "OpenSequenceSubtitle": "シーケンスを開く",
-    "StronglyRecommendedTag": "推奨"
+    "StronglyRecommendedTag": "推奨",
+    "PreviewStartZeroNote": "{0}\n\n0はシーケンスの最初のフレームで、通常は空です。目視できる位置に着陸するには、より遅い時間を設定してください。",
+    "PreviewPauseSkippedNote": "{0} スキップで一時停止。パイメニューを連続再生。これらの設定は他のすべてのフェーズにも適用されます。"
   },
   "EventTeamMatchHistoryEntry": {
     "MatchNumber": "#{0}",
@@ -4196,6 +4199,21 @@
     "SectionName": "Juno",
     "ExtensionName": "Junoツール",
     "ConfigurePrefabTool": "プレハブ"
+  },
+  "FLimeAtomBuildingActorOverlapValidator": {
+    "AddingOverlappingActors": "建築アクタ「{0}」が他の{1}のアクタと重複しています: 「{2}」",
+    "ValidatorName": "建築アクタの重複チェック機能",
+    "AtomValidationUtils_BuildingActorOKWithNoOverlaps": "重複が無視されました"
+  },
+  "FLimeAtomOverlapValidator": {
+    "AddingOverlappingActors": "アクタ「{0}」が他の「{1}」のアクタと重複しています: 「{2}」",
+    "DetailedCollisionOverlappingActorsMessage": "アクタ({0})が他のアクタと重複しています。",
+    "ActorNotCheckedForDetailedOverlaps": "アクタ({0})は、詳細な衝突チェックが実行できなかったため、詳細な重複のチェックは行われませんでした。代わりに、高速パスの結果が報告されます。",
+    "OverlapCheckSkippedNoWorld": "アクタ({0})はワールド内に存在しないため、重複のチェックは行われませんでした。",
+    "FixerName": "重複を修正",
+    "FixerTooltip": "重複チェックで問題が発生した場合は、接続スナップを使って有効な設置位置を探してください。問題を一度に1つずつ修正します。",
+    "AtomValidationUtils_IgnoringValidation": "チェックの無効中…",
+    "ValidatorName": "重複チェック機能"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "{resourcetype}を{amount}個投入する",
@@ -5093,9 +5111,14 @@
     "CreateAccountTitle": "アカウントを作成する",
     "CreateAccountPinFailed": "Epicアカウントに紐付けられていないアカウントの作成に失敗しました。",
     "LinkAccountTitle": "アカウントを接続する",
+    "NintendoPlatformName": "Nintendo",
+    "PlayStationPlatformName": "PlayStation®",
     "ProceedWithoutLinking": "アカウントを接続せずに開始しています…",
     "GettingPinCode": "PIN許諾コードを要求中…",
-    "LinkAccountFailed": "アカウントを作成しましたが、接続に失敗しました。後でもう一度お試しください。"
+    "SignInTitle": "サインイン",
+    "LinkAccountFailed": "アカウントを作成しましたが、接続に失敗しました。後でもう一度お試しください。",
+    "XboxPlatformName": "Xbox",
+    "PlatformAccountFormat": "あなたの{0}アカウントは"
   },
   "FortActivityBrowserListView": {
     "Manual_BR": "バトルロイヤル",
@@ -5988,6 +6011,7 @@
     "CheckCrossPlayPrivilege": "クロスプレイ権限を確認中…",
     "CheckUGCPrivilege": "UGC特典を確認中…",
     "SilentClaimMfaReward": "報酬を取得中…",
+    "CleanupForLogout": "クリーンアップ中…",
     "DisconnectingFromLobby": "クリーンアップ中…",
     "LogoutUsabilityExperiment": "クリーンアップ中…",
     "FailedClientSettingsDownloadTitle": "クラウドダウンロードに失敗しました",
@@ -6035,6 +6059,7 @@
     "RegisterLockManager": "ロックマネージャーに登録中…",
     "DeletingCreds": "認証を削除中…",
     "RemoveCachedSupervisedSettings": "キャッシュされた管理設定を削除中…",
+    "WaitForFrontend": "メインメニューに戻っています…",
     "StartVoiceChat": "ボイスチャットを開始中…",
     "DisconnectingFromVivox": "ボイスチャットを終了中…",
     "FailedPurchaseRedemptionNowRedeemedTitle": "ストア利用可能！",
@@ -6171,7 +6196,9 @@
     "NotEnoughResourcesText": "素材が足りません！"
   },
   "FortPinGrantCodeInfoWidget": {
-    "ExpiringTime": "{0}秒後に無効になります。"
+    "ExpiringTime": "{0}秒後に無効になります。",
+    "ActivationURLPrompt": "移動:",
+    "ActivationURLPromptWithQRCode": "または"
   },
   "FortPinModal": {
     "CreatePinRequest": "ペアレンタルコントロールによってロックされている機能にアクセスするには、新しい6桁のPINを入力してください。",
@@ -6184,6 +6211,8 @@
     "IncorrectPin": "暗証番号が正しくありません。もう一度お試しください。",
     "PinAttemptsExceeded": "暗証番号の入力試行の上限に達しました",
     "CilantroRequest": "時間を追加するには、まずはペアレンタルコントロールの暗証番号を入力します。",
+    "UnlockGamemodeConnectionError": "あなたのPINを確認できませんでした。接続を確認して、もう一度お試しください。",
+    "UnlockGamemodeError": "暗証番号を確認できませんでした。数分後にもう一度お試しください。",
     "AcceptFriendRequestInfoTitle": "フレンドができること",
     "DefaultOfferName": "このオファー",
     "LocalPlayerYour": "あなたの",
@@ -7100,6 +7129,7 @@
     "CameraAssistsCollection_Name": "カメラ",
     "CameraAssists_Name": "カメラアシスト",
     "JunoCombatAnyDirection_Disabled": "カメラの方向",
+    "CameraShakeEnabled_Name": "カメラの揺れ",
     "CanReceiveGifts_Name": "ギフトの受け取り許可",
     "CanSeeOtherPlayersNames_Name": "スクワッドメンバー以外の名前を表示する",
     "OnlyPrimaryPlayerEditable": "プライマリプレイヤーのみが変更できます。",
@@ -8526,6 +8556,7 @@
     "FollowCamera_Description_Switch": "オンにすると、照準や射撃をしていなければ、左右に移動する際にカメラも同時に回転します。常に2本のスティックを使うのが難しいという場合は、これをオンにしましょう。Rスティックは通常通り機能するので、この機能を有効にしつつRスティックの操作に慣れていくこともできます。",
     "FollowCamera_Description": "オンにすると、照準や射撃をしていなければ、左右に移動する際にカメラも同時に回転します。常に2本のスティックを使うのが難しいという場合は、これをオンにしましょう。右スティックは通常通り機能するので、この機能を有効にしつつ右スティックの操作に慣れていくこともできます。",
     "FollowCamera_Description_PS4_PS5": "オンにすると、照準や射撃をしていなければ、左右に移動する際にカメラも同時に回転します。常に2本のスティックを使うのが難しいという場合は、これをオンにしましょう。右スティックは通常通り機能するので、この機能を有効にしつつ右スティックの操作に慣れていくこともできます。",
+    "CameraShakeEnabled_Description": "オンにすると、カメラは爆発や衝撃などのイベントに応じて揺れます。",
     "AutoPickupWeaponsConsolePC_Description_Shorter": "オンの場合、武器の上を通ると自動的に回収します。ただし、インベントリがいっぱいの場合は回収しません。",
     "AutoPickupWeapons_Description_Shorter": "オンの場合、武器の上を通ると自動的に回収します。ただし、インベントリがいっぱいの場合は回収しません。",
     "AutoInteractConsumables_Description": "オンにすると、リンゴやキノコなどの消耗品の方を向くだけで、自動的に消費を開始します。",
@@ -9826,6 +9857,7 @@
     "BannedFromWorld": "パーティーがいるワールドへの参加が禁止されました。",
     "MfaRequiredForTournament": "このトーナメントをプレイするためには、Epicアカウントで2段階認証を有効にする必要があります。有効にするには{TurnOnMfaURL}にアクセスしてください。",
     "WrongNumberOfEventPlayers": "このトーナメントに参加するには、最大人数のパーティーに加わる必要があります。",
+    "PartyMemberBannedFromWorld": "あなたまたはパーティーメンバーが、このワールドへのアクセスを失いました。",
     "MatchCapExceeded": "本イベントでのプレイ可能なマッチ数の上限に達しています。詳細と今後のイベントについては「競技」タブをご確認ください。",
     "Error.AccountLevelTooLow": "あなたのアカウントレベル({0})では「{1}」をプレイする条件を満たしていません。",
     "Error.BRRankLevelTooLow": "あなたの現在のバトルロイヤルランクレベル({0})は、参加条件を満たしていません: {1}",
@@ -10094,6 +10126,7 @@
     "NotFriendsLongEnough": "あと{0}日でギフトを受け取れます！",
     "NotAcceptingGifts": "ギフトを受け取らない",
     "NotFriends": "ギフト機能はフレンド間でのみ利用可能です。",
+    "NewGiftBoxReceived": "新しいギフトラップのオプションを入手！",
     "NotAFortnitePlayer": "フォートナイトのプレイヤーではありません",
     "OwnedMultiInstanceItems": "所有済み: <text color=\"fff\">{owned}</>",
     "OwnsItemFromBundle": "一部を所有",
@@ -10253,10 +10286,9 @@
     "PEGI_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16歳",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
     "CLASSIND_AGE_18_Abbreviated": "18",
+    "PEGI_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18歳",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
@@ -10290,6 +10322,7 @@
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
     "ClassInd_AIInteraction_v11_0": "AIのインタラクション",
+    "USK_AIGeneratedContent_v11_0": "AI生成コンテンツ",
     "USK_AbstrakteGewalt": "抽象的な暴力",
     "ACB_ActionViolence_v10_0": "アクション暴力",
     "ClassInd_AdolescentThemes": "思春期のテーマ",
@@ -10354,6 +10387,8 @@
     "ACB_CrudeHumour": "下品なユーモア",
     "ACB_CrudeSexualHumour": "下品な性的ユーモア",
     "ACB_CrudeSexualReferences": "下品な性的言及",
+    "GEN_Cryptocurrency_v11_0": "仮想通貨",
+    "PEGI_Cryptocurrency_v11_0": "仮想通貨",
     "USK_DustereAtmosphare_v10_0": "暗い雰囲気",
     "IE_DigitalPurchases": "デジタル購入",
     "GEN_Discrimination": "差別",
@@ -10406,6 +10441,7 @@
     "PEGI_Fear": "恐怖",
     "RUS_Fear_v7_0": "恐怖",
     "IGRS_FearHorror": "恐怖/ホラー",
+    "USK_FinancialSpeculationRisk_v11_0": "金銭的な投機リスク",
     "GRAC_AGE_12": "12 歳以上向け",
     "GRAC_AGE_ALL": "全年齢向け",
     "ACB_AGE_G_Abbreviated": "G",
@@ -10419,6 +10455,8 @@
     "RUS_Gambling_v7_0": "ギャンブル",
     "ACB_GamblingThemes_v9_0": "ギャンブルのテーマ",
     "ESRB_GamblingThemes_v9_0": "ギャンブルのテーマ",
+    "GEN_GamblingThemes_v11_0": "ギャンブルのテーマ",
+    "PEGI_GamblingThemes_v11_0": "ギャンブルのテーマ",
     "USK_SimulatedGambling_v8_0": "ギャンブルのテーマ",
     "ClassInd_GamblingOrGamesOfChance": "ギャンブルまたは運要素の多いゲーム",
     "USK_GlucksspielMitGeldeinsatz_v7_0": "賞金を伴うギャンブル",
@@ -10435,6 +10473,7 @@
     "ACB_HighImpactComedicViolence": "喜劇的暴力 (影響大)",
     "ACB_HighImpactCrudeHumour": "下品なユーモア (影響大)",
     "ACB_HighImpactCrudeSexualReferences": "下品な性的言及 (影響大)",
+    "ACB_HighImpactDisturbingThemes_v11_0": "精神的ショックの大きいテーマ",
     "ACB_HighImpactDrugReferences": "薬物への言及 (影響大)",
     "ACB_HighImpactDrugUse": "薬物の使用 (影響大)",
     "ACB_HighImpactFamilyViolence_v10_0": "家庭内暴力 (影響大)",
@@ -10454,6 +10493,7 @@
     "ACB_HighImpactSexualReferences": "性的言及 (影響大)",
     "ACB_HighImpactSexualThemes": "性的テーマ (影響大)",
     "ACB_HighImpactSexualisedImagery": "性的画像 (影響大)",
+    "ACB_HighImpactSimulatedGambling_v11_0": "影響度の高い疑似ギャンブル",
     "ACB_HighImpactSportingViolence_v10_0": "スポーツ暴力 (影響大)",
     "ACB_HighImpactSuggestiveThemes": "挑発的テーマ (影響大)",
     "ACB_HighImpactSuicideReferences_v10_0": "自殺への言及 (影響大)",
@@ -10505,7 +10545,7 @@
     "IGRS_Language": "言葉",
     "PEGI_Language": "言葉",
     "RUS_Language_v7_0": "言葉",
-    "CERO_LanguageAndOthers": "言葉その他",
+    "CERO_LanguageAndOthers": "言語/その他",
     "ClassInd_DrogasLicitas": "合法薬物",
     "ClassInd_LightAnimatedViolence": "軽度なアニメーション化された暴力",
     "CERO_Love": "恋愛",
@@ -10604,6 +10644,7 @@
     "PEGI_AGE_PG": "保護者の指導を推奨",
     "PEGI_AGE_12": "PEGI 12",
     "PEGI_AGE_16": "PEGI 16",
+    "PEGI_AGE_18": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10612,6 +10653,8 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
+    "GEN_PaidRandomItems_v11_0": "有料ランダムアイテム",
+    "PEGI_PaidRandomItems_v11_0": "有料ランダムアイテム",
     "TCA_AGE_PG_12": "保護者の監督(12歳以上)",
     "TCA_AGE_PG_15": "保護者の監督(15歳以上)",
     "GEN_ParentalGuidanceRecommended": "保護者の指導を推奨",
@@ -10623,6 +10666,8 @@
     "ACB_PredatoryAnimalBehaviour": "捕食動物の動作",
     "FPB_Prejudice": "偏見",
     "USK_Handlungsdruck_v9_0": "行動に移すようにとの圧力",
+    "GEN_PressureToPlay_v11_0": "プレイへのプレッシャー",
+    "PEGI_PressureToPlay_v11_0": "プレイへのプレッシャー",
     "USK_DruckZumVielspielen_v10_0": "過度にプレイさせようとする圧力",
     "USK_ProblematischeWerbeinhalte_v10_0": "問題のある広告コンテンツ",
     "USK_ProblematischeRollenbilder_v10_0": "問題のあるロール モデル",
@@ -10657,6 +10702,8 @@
     "ClassInd_SexInsinuation": "性に関する暗示",
     "ACB_SexScenes": "性行為シーン",
     "ClassInd_SexScenes": "性行為シーン",
+    "EPIC_CERO_Sex_Industry": "性風俗産業",
+    "EPIC_CERO_Sexually_Suggestive_Imagery": "性的コンテンツを想起させる表現",
     "USK_SexErotik": "セクシャル/エロチシズム",
     "ACB_SexualActivityRewards": "インセンティブと報酬に関する性行為",
     "ClassInd_ConteudoSexual": "性的な内容",
@@ -10703,6 +10750,7 @@
     "ACB_StrongCrimeThemes": "激しい犯罪のテーマ",
     "ACB_StrongCrudeHumour": "激しい下品なユーモア",
     "ACB_StrongCrudeSexualReferences": "激しい下品な性的言及",
+    "ACB_StrongDisturbingThemes_v11_0": "強い不快感を与えるテーマ",
     "ACB_StrongDrugReferences": "激しい薬物への言及",
     "ACB_StrongDrugUse": "激しい薬物の使用",
     "ACB_StrongFamilyViolence_v10_0": "激しい家庭内暴力",
@@ -10746,13 +10794,20 @@
     "ACB_SuicideScenes_v10_0": "自殺シーン",
     "ACB_SupernaturalThemes": "超自然テーマ",
     "ACB_SupernaturalViolence_v10_0": "超自然的暴力",
+    "ACB_SustainedThreat_v11_0": "長時間続く脅威",
+    "EPIC_CERO_Swimsuits_Costumes": "水着/コスチューム",
     "ESRB_AGE_T_Abbreviated": "T",
     "ESRB_AGE_T": "13 才以上対象",
     "ClassInd_Tension": "ストレス要素",
     "ACB_Threat": "脅威",
+    "GEN_TimeLimitedOffers_v11_0": "期間限定のオファー",
+    "PEGI_TimeLimitedOffers_v11_0": "期間限定のオファー",
     "ESRB_TobaccoReference": "タバコへの言及",
     "USK_Tabakkonsum": "タバコの使用",
     "TCA_TobaccoAndAlcohol": "タバコとアルコール",
+    "EPIC_CERO_Exposure_Underwear": "下着の露出",
+    "GEN_UnrestrictedCommunication_v11_0": "無制限のコミュニケーション",
+    "PEGI_UnrestrictedCommunication_v11_0": "無制限のコミュニケーション",
     "IE_UnrestrictedInternet": "制限なしのインターネット",
     "ESRB_UseofAlcohol": "アルコールの使用",
     "ESRB_UseofAlcoholandTobacco": "アルコールとタバコの使用",
@@ -10815,11 +10870,7 @@
     "ClassInd_ViolenceAgainstVulnerablePersons": "無防備な人物への暴力",
     "ESRB_ViolentReferences": "暴力への言及",
     "ACB_WarThemes": "戦争のテーマ",
-    "USK_WarThemes_v7_0": "戦争のテーマ",
-    "EPIC_CERO_Exposure_Underwear": "ä¸‹ç€ã®éœ²å‡º",
-    "EPIC_CERO_Swimsuits_Costumes": "æ°´ç€ãƒ»ã‚³ã‚¹ãƒãƒ¥ãƒ¼ãƒ ",
-    "EPIC_CERO_Sexually_Suggestive_Imagery": "æ€§çš„ãªã‚‚ã®ã‚’æƒ³èµ·ã•ã›ã‚‹è¡¨ç¾",
-    "EPIC_CERO_Sex_Industry": "æ€§é¢¨ä¿—æ¥­"
+    "USK_WarThemes_v7_0": "戦争のテーマ"
   },
   "InteractionPointWidget": {
     "DistanceTextFormatted": "{DistanceValue}m"
@@ -11152,19 +11203,23 @@
     "EditInPromptEditor": "プロンプトエディタで編集"
   },
   "LLMSession": {
+    "ErrorSource_Fact": "ファクト",
     "ErrorSource_InstructionPrompt": "命令プロンプト",
     "Error_SummaryPrompt": "指示プロンプトが上限を超えました",
     "CannotUseConversations": "ローカルユーザーはLLM会話を使用できません",
+    "ErrorSource_Prompt": "プロンプト",
     "ErrorSource_RegisteredActions": "登録されているアクション",
     "Error_SummarySO": "構造体フィールドの記述が制限を超えました",
     "ResonanceServiceUnavailable": "レゾナンスサービスは利用できません",
     "SessionClosedBeforeExchange": "プロンプトが送信される前に、レゾナンスのセッションが終了しました",
     "SessionClosedBeforeUpdate": "プロンプトが送信される前に、レゾナンスのセッションが終了しました",
     "SessionClosedWhileQueued": "プロンプトが送信される前に、レゾナンスのセッションが終了しました",
-    "Error_DetailsPrompt": "{CharacterName}の指示プロンプトの文字数が、上限の{CharacterLimit}文字を超えています。",
-    "Error_DetailsSO": "フィールド説明の{Source}の文字数の合計が{CharacterLimit}文字を超えています。",
+    "Error_DetailsPrompt": "{CharacterName}の指示プロンプトの文字数が、上限の{Limit}文字を超えています。",
+    "Error_DetailsSO": "フィールド説明の{Source}の文字数の合計が{Limit}文字を超えています。",
     "ModerationMsg": "この返答はモデレートされました",
     "Error_DetailsSchema": "指定された構造からJSONスキーマを構築する際に問題が発生しました。",
+    "Error_SummaryBlocks": "AI生成テキストへの参照が多すぎます",
+    "Error_DetailsBlocks": "{CharacterName}でAI生成テキストへの参照が多すぎます({Source}、上限{Limit})。AI生成テキストの参照数を減らすことができます。",
     "Error_SummarySchema": "スキームを構築できません",
     "StartSessionFailed": "レゾナンスセッションを開始できません。",
     "UnknownRestriction": "不明な制限"
@@ -11194,6 +11249,12 @@
   },
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "({0})"
+  },
+  "LimeAtomValidationValidators": {
+    "ValidationFailed": "レゴ® {0}は検証を完了できなかったため、結果が不完全な場合があります。",
+    "IssueCountErrors": "レゴ® {0}で{1}件の問題が見つかりました。これはレゴ®のガイドラインに反しています。問題を全て解消しなければ、プロジェクトが審査を通過できません。レゴの検証パネルで検証を実行して確認してください。",
+    "IssueCountWarnings": "レゴ® {0}が{1}件の警告を検出しました。これはレゴ®のガイドラインに反しています。問題を全て解消しなければ、プロジェクトが審査を通過できません。レゴの検証パネルで検証を実行して確認しましょう",
+    "MaxIssuesReached": "レゴ® {0} は問題の最大件数({1})に達したため停止しました。さらに問題がある可能性があります。これはレゴ®のガイドラインに反しています。問題を全て解消しなければ、プロジェクトが審査を通過できません。"
   },
   "LiteUIKit": {
     "WidgetPaletteCategory": "ライトUIキット"
@@ -11960,7 +12021,8 @@
     "LogicType": "true および false 値"
   },
   "PersonaPromptEditor": {
-    "EditFactText": "ファクトのテキストを編集"
+    "EditFactText": "ファクトのテキストを編集",
+    "SetResonanceConfiguration": "レゾナンスを設定"
   },
   "PickerContext": {
     "UFortPickerContext.EmojiCategoryTitle": "絵文字",
@@ -12178,6 +12240,13 @@
   "ReportReasonDetails": {
     "CommunicationAbuseDetails": "音声通報をオンにしていて、通報に音声録音を含めたい場合は、サイドバーの「ボイスチャット」タブより音声通報を送信してください。テキスト通報をオンにしていて、通報にテキストチャットの記録を含めたい場合は、テキストチャットのウィンドウよりテキスト通報を送信してください。"
   },
+  "ResonanceConfigurationPicker": {
+    "ResonanceConfigurationDefault": "デフォルト",
+    "MultipleValues": "複数値",
+    "ResonanceConfigurationDeprecated": "{0} (非推奨)",
+    "ResonanceConfigurationMissing": "{0} (見つかりません)",
+    "ResonanceConfigurationDuplicateLabel": "{0} ({1})"
+  },
   "Riding": {
     "DismountInput": "(長押し)降りる",
     "JumpInAir": "(空中で) ジャンプで降りる",
@@ -12290,7 +12359,7 @@
   },
   "SeasonPassRequirement_Timed": {
     "Status_LockedDateLockedFormat": "{Date}より利用可能",
-    "UnlockDateFormat": "{Day}: {Month}個"
+    "UnlockDateFormat": "{Month}{Day}"
   },
   "SeasonPassRewardVM": {
     "Status_LockedByAllRewardsInTrack": "ページ{IndexPage}の報酬を全て取得する",
@@ -12387,6 +12456,10 @@
     "SplashTextName": "空間メトリクスプロファイラ",
     "WindowTitle": "空間メトリクスプロファイラ",
     "AppTitle": "空間プロファイラ"
+  },
+  "SpecialEventGameplayAnimNodes": {
+    "SpecialEventRewindPlayback_Tooltip": "後ろ向きに落下する間に記録されたポーズを、特別イベントの巻き戻し時計に合わせて再生します。巻き戻していない時は入力ポーズをそのまま通過させます。",
+    "SpecialEventRewindPlayback_Title": "スペシャルイベント巻き戻し再生"
   },
   "SpectatorLensSettings": {
     "ApertureFNumber": "f/{Aperture}",
@@ -12922,9 +12995,6 @@
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "無事に<text color=\"FFF\">{DisplayName}</>へギフトを贈りました！"
   },
-  "UAthenaGiftFlowConfirmedPanel": {
-    "RecipientInfo": "無事に<text color=\"FFF\">{DisplayName}</>へギフトを贈りました！"
-  },
   "UAthenaLockerCategorySortConfig": {
     "AllGroupNameKey": "全て",
     "CategoriesGroupNameKey": "カテゴリー",
@@ -13047,7 +13117,6 @@
     "PurchaseFailedToStart": "購入に際して致命的なエラーが発生しました。後でもう一度お試しください。",
     "PurchaseFailedToStartDueToMissingPrices": "購入に際して致命的なエラーが発生しました。後でもう一度お試しください。",
     "PurchaseHasNoNewEntitlements": "購入の際に重大なエラーが発生しました。この問題の対処にあたっています。こちらの購入が完了次第、お知らせいたします。",
-    "PurchaseBlockedDueToNoCTCCountryErrorCode": "ご購入時に重大なエラーが発生しました。公開中の最新版にiOSをアップデートしてから、もう一度お試しください。",
     "MismatchedLocalUserAndStoreUser": "XboxアカウントがMicrosoft Storeアカウントと異なっています。 XboxアプリとMicrosoft Storeの両方に同じアカウントでサインインしないと、新たに購入することはできません。",
     "EULAFormat": "{0}\n\n{1}"
   },

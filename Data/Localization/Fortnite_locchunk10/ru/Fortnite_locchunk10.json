@@ -368,6 +368,8 @@
     "231AF36049841BCCCB72619C0346D63B": "Стиль Глюка",
     "06EEB84B4F23444589A9758F73B79CF5": "?",
     "892F58F84D92D5D260611CAD336AA6E0": "???",
+    "B14CFAD643402417AB3FD6B1B32B75CB": "???",
+    "DEBF4E2A47784C62A3FD27B10E7D79D8": "???",
     "6FCE2A4A45997CDAF9AD3B88BBEEBA16": "A",
     "8CC4A59940F77C4B19BBAF971F20D5C3": "А",
     "9AD70FCB49C057A8CE26F886558FA4F1": "A",
@@ -605,7 +607,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "Супербольшая бочка",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Биплан",
     "5B5236944941BFD7DE82B8B05FE11D94": "Биплан",
-    "DF56207843F6244003548CA79CFAA0F4": "Биплан",
     "F5EB146E408C915363F761972AA43B8A": "Праздничный торт",
     "AD9DF9A2455C274907AE29971466ADBA": "Блэйд",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "Блэйд",
@@ -1586,7 +1587,11 @@
     "CFBFEBC248741ED6E0FCC88CC754A22E": "Пушка",
     "11286DCA40C6C1D1248DB4AB4FD95F92": "Пиратский магазин",
     "3D5384AE463D8C77B1E6578A793F29D9": "Пиратский магазин",
+    "5A823CFA4FD32ABE380CF5A3C886E487": "Пиратский магазин",
+    "EE8BF7EC40A7B072DFBEEA830DDD5863": "Пиратский магазин",
     "5771CEED4E3A98EAD847BFBFD4FA34A5": "Доступ в пиратский магазин (2026)",
+    "7F7334F04E249310781F1CB69D100D8D": "Доступ к пиратскому магазину (2026)",
+    "5014942149F16C9E7F6A40A04864CCE8": "Доступ к пиратскому магазину (2027)",
     "7E0278EF4B5184B9FEB6EBA2547E1429": "Доступ к пиратскому магазину (2027)",
     "923CD0CD437F2EC013D0FCA6E8CFD824": "Пистолет",
     "AE872A134006CB20B62E40B07D5FDAFC": "Пистолет",
@@ -1606,6 +1611,8 @@
     "37A0DD2F4837BA7835216D877196C2CA": "Урон от игроков",
     "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "Пожалуйста, назначьте действие «{s}» для другой кнопки.",
+    "069C1FF040D0E48A95E61995B44640B3": "Грабьте магазин предметов Fortnite в течение 14 дней с момента активации.",
+    "579B339F46238309C9A7919644F44803": "Грабьте магазин предметов Fortnite в течение 14 дней после активации.",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "Вантузный лук",
     "4567895244A3DDF0A6347DB93EA4AB9A": "Карманная буги-вуги-бомба",
     "ECC1B5C641A0A7993449F39BB4F46B87": "Карманная импульсная граната ",
@@ -1667,6 +1674,7 @@
     "FD23E7C946966E8E24F1ADA1EDA51CB1": "Скорострельный ПП +",
     "BA4B1FDD40153AE8C9FC76ACC646E32C": "Скорострельный пистолет-пулемёт с увеличенным <Emphasized>размером магазина</>",
     "86F951AB4B4721B924CABA82FEFC3EC7": "Редкий ящик с боеприпасами",
+    "B1CFA5584EBD1878822A699ECEB629A6": "Редкий сундук",
     "101BBD144878EB1AA8CCD292737797AE": "Разведывательный сканер",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Новобранец",
     "1C77EAFB46C48299170B7486AEFB6294": "Красно-оранжевый",
@@ -1796,7 +1804,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Кража щитов",
     "4F611C954A5378BFC1804C96BB3981FE": "Защитная синергия",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Бросить щит",
-    "6FE5EF624909BEBF19A4F7A143733F40": "Корабельная пушка",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Корабельная пушка",
     "85A285654B56001B52E9ABBC806822EB": "Ударный гаджет",
     "8E57565847BBBCA8EE6AD38208D056E1": "Ударная граната +",
@@ -2084,6 +2091,7 @@
     "A9F43F3A48770C515DF7A5AF1DF5A128": "Будет объявлен позже.",
     "E01C6F584A3A7BA4F94BAB8231E0841B": "Будет объявлен позже.",
     "060777BC47099F2DF28068980DCF0AFD": "Будет объявлено позже. ",
+    "06F058FB4EE7E7F56D73D89FB36552DA": "Будет объявлено позже. ",
     "499889C94D330A143D60249B468EE7BF": "Будет объявлено позже. ",
     "4B1D57F64AA9FD8A596664A18AF6640E": "Будет объявлено позже. ",
     "60D8C0614084FA6FCACF19866EF0FDBE": "Будет объявлено позже. ",
@@ -2183,7 +2191,6 @@
     "2D63B0854707C30350F8B7A03551788D": "Полезный предмет ",
     "CF3BD1EE41CFC0D5B59A619710C3BAE0": "Серебряный «Поджигатель»: полезный предмет, урон по площади, защитная сфера",
     "17E86A814E1BF4CEFB61E2BC6268CEE7": "Разлом: полезный предмет",
-    "2640FD984FA75748AC19FCBBD963DE79": "В-баксы",
     "36C0892442CACB9BDAD4C3B09F0BF96C": "В-баксы",
     "D6DDC6A9427A759E55A7BBB8A12736D1": "В-баксы",
     "9FBB32C24460E6E70940859CABCF1987": "Поступление В-баксов",
@@ -2196,7 +2203,6 @@
     "454B71ED42ED250EDBECF59B7A7D9643": "VK: не проверено",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "Валюта для покупки товаров в магазине.",
     "67E0A04E48C18017454CB4B84AF5716F": "Валюта для покупки товаров в магазине.",
-    "D35857B04A6D171C1C63A1A7DEAA0DD4": "Валюта для покупки товаров в магазине.",
     "863EB9E944912130B5EAA6A39CC800BC": "Валюта для покупки товаров в магазине.  Её могут получить разработчики/авторы игр (например, авторы UEFN).",
     "D461D4C54C20240513787CBF1FDA9A57": "Двойная вариал-бочка",
     "ABB98286476BE4B2D835939202B2B43D": "Вариал-гравипрыжок",
@@ -2693,9 +2699,6 @@
     "AlreadyOwnItemTitle": "Произошла ошибка!",
     "AlreadyOwnBPDescription": "Сейчас вы получите подарочный сертификат боевого пропуска, так как пользователь <text color=\"FFF\">{DisplayName}</> успел купить боевой пропуск, пока мы оформляли подарок.\n Его можно будет использовать, чтобы подарить боевой пропуск другому вашему другу. Если подарочный сертификат боевого пропуска не будет израсходован до конца сезона, мы конфискуем его и начислим вам 950 В-баксов."
   },
-  "AthenaGiftingFlowConfirmationScreen": {
-    "NewGiftBoxReceived": "Получена новая обёртка!"
-  },
   "AthenaGiftingFlowErrorsPanel": {
     "GenericErrorDescription": "Произошла неизвестная ошибка",
     "RecipientCantReceiveGiftsDescription": "Похоже, игрок <text color=\"FFF\">{DisplayName}</> не может получать подарки",
@@ -2708,13 +2711,6 @@
     "RecipientCantReceiveGiftsTitle": "Произошла ошибка!",
     "AlreadyOwnItemTitle": "Произошла ошибка!",
     "AlreadyOwnBPDescription": "Сейчас вы получите подарочный сертификат боевого пропуска, так как пользователь <text color=\"FFF\">{DisplayName}</> успел купить боевой пропуск, пока мы оформляли подарок.\n Его можно будет использовать, чтобы подарить боевой пропуск другому вашему другу. Если подарочный сертификат боевого пропуска не будет израсходован до конца сезона, мы конфискуем его и начислим вам 950 В-баксов."
-  },
-  "AthenaGiftingFlowPurchaseButton": {
-    "Continue": "Продолжить",
-    "GetVBucks": "Получить В-баксы",
-    "PurchaseGift": "Купить подарок!",
-    "ReloadVBucks": "Пополнить запас В-баксов",
-    "SendGift": "Отправить подарок!"
   },
   "AthenaGiftingFlowPurchasePanel": {
     "RetrySocialNameInfo": "{DisplayName} теперь получит",
@@ -4112,14 +4108,21 @@
     "JsonError": "Ошибка сервера (тип: {0})"
   },
   "EventPreview": {
-    "PauseFrameTooltip": "Кадр, на котором останавливаются сцены события, когда вы переходите в PIE, если стоит галочка «Пауза при старте». Ограничено диапазоном каждого фрагмента.",
-    "PauseOnStartTooltip": "Применяет паузу ко всем последовательностям уровней для события на выбранном кадре при входе в режим игры в редакторе (PIE), что позволяет управлять воспроизведением вручную для записи в Recorder. Только в редакторе/при игре в редакторе.",
+    "WaitForUnpauseVolumeTooltip": "Удерживайте, пока кто-нибудь не пройдёт через область предпросмотра особого события для возобновления громкости, вместо возобновления по таймеру.",
+    "StartSecondsTooltip": "Через сколько секунд от начала выбранной фазы запускать (отсчёт от начала фазы в её последовательности).  Ограничено длиной последовательности. Только в редакторе/PIE.",
+    "OpenMainEventSequence": "Открыть основную последовательность события",
+    "OpenMainSequenceTooltip": "Открывать основную последовательность события в Sequencer, переходя к месту начала этой фазы, при нажатии кнопки этапа.",
     "OpenSequenceTooltip": "Открывать секвенцию уровня этого этапа в Sequencer при нажатии кнопки этапа.",
-    "PauseOnStartMode": "Пауза при старте",
-    "UnpauseVolumeNote": "Чтобы возобновить в PIE: разместите в уровне область возобновления предпросмотра особого события и проведите через неё игрока.",
-    "AtFrame": "на кадре",
+    "OpenMainEventSequenceTooltip": "Откройте {0} в Sequencer.",
+    "PreviewPauseIndefiniteNote": "«Играть» запускает событие здесь и удерживает его бесконечно (в «Настройках редактора» параметр «Автовозобновление через (секунды)» равен 0). Запустите Fort.SpecialEvent.Preview.Play, чтобы продолжить.",
+    "PreviewPauseVolumeNote": "Запуск начинает событие здесь и удерживает его, пока кто-нибудь не пройдёт через область возобновления.",
+    "PreviewPauseAutoNote": "Воспроизведение запускает событие здесь, удерживает {0} с, пока загружаются слои фазы, затем продолжает.",
+    "StartOnSecond": "Запуск на втором этапе",
+    "UnpauseWithVolume": "Возобновлять при входе в область возобновления",
     "OpenSequenceSubtitle": "открыть последовательность",
-    "StronglyRecommendedTag": "Рекомендованные настройки"
+    "StronglyRecommendedTag": "Рекомендованные настройки",
+    "PreviewStartZeroNote": "{0}\n\n0 — первый кадр последовательности, обычно он пустой.Выберите более позднее время, чтобы приземлиться на то, что вы видите.",
+    "PreviewPauseSkippedNote": "{0} пропускает задержку — PIE воспроизводит подряд без остановки.Эти параметры всё ещё действуют каждые две фазы."
   },
   "EventTeamMatchHistoryEntry": {
     "MatchNumber": "#{0}",
@@ -4196,6 +4199,21 @@
     "SectionName": "Juno",
     "ExtensionName": "JunoTools",
     "ConfigurePrefabTool": "Готовые элементы"
+  },
+  "FLimeAtomBuildingActorOverlapValidator": {
+    "AddingOverlappingActors": "Объект строительства «{0}» накладывается на другие объект(ы) {1}: «{2}»",
+    "ValidatorName": "Проверка пересечения акторов строительства",
+    "AtomValidationUtils_BuildingActorOKWithNoOverlaps": "Пересечения игнорируются"
+  },
+  "FLimeAtomOverlapValidator": {
+    "AddingOverlappingActors": "Объект «{0}» накладывается на другие объект(ы) {1}: «{2}»",
+    "DetailedCollisionOverlappingActorsMessage": "Объект ({0}) накладывается на другие объекты.",
+    "ActorNotCheckedForDetailedOverlaps": "Актор ({0}) не был проверен на детальные пересечения, так как не удалось выполнить детальную проверку столкновений; вместо этого сообщается результат быстрой проверки.",
+    "OverlapCheckSkippedNoWorld": "Актор ({0}) не проверен на пересечения, так как он не находится в мире.",
+    "FixerName": "Исправить пересечение",
+    "FixerTooltip": "При проблемах с проверкой пересечений попробуйте найти подходящее место размещения с помощью привязки к соединениям. Исправляет по одной ошибке за раз.",
+    "AtomValidationUtils_IgnoringValidation": "Пропуск проверки",
+    "ValidatorName": "Проверка привязки"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "Разместить: {amount} {resourcetype}",
@@ -5093,9 +5111,14 @@
     "CreateAccountTitle": "Создать учётную запись",
     "CreateAccountPinFailed": "Не удалось создать учётную запись, которая не привязана к учётной записи Epic.",
     "LinkAccountTitle": "Привязать учётную запись",
+    "NintendoPlatformName": "Nintendo",
+    "PlayStationPlatformName": "PlayStation",
     "ProceedWithoutLinking": "Вход в игру без связи учётных записей…",
     "GettingPinCode": "Запрос кода значка...",
-    "LinkAccountFailed": "Учётная запись успешно создана, но не привязана.  Повторите попытку."
+    "SignInTitle": "Вход",
+    "LinkAccountFailed": "Учётная запись успешно создана, но не привязана.  Повторите попытку.",
+    "XboxPlatformName": "Xbox;",
+    "PlatformAccountFormat": "Ваша учётная запись {0} — это"
   },
   "FortActivityBrowserListView": {
     "Manual_BR": "Королевская битва",
@@ -5988,6 +6011,7 @@
     "CheckCrossPlayPrivilege": "Проверка прав доступа к кроссплатформенной игре…",
     "CheckUGCPrivilege": "Проверка прав доступа к пользовательским материалам…",
     "SilentClaimMfaReward": "Получение наград…",
+    "CleanupForLogout": "Очистка…",
     "DisconnectingFromLobby": "Очистка…",
     "LogoutUsabilityExperiment": "Очистка…",
     "FailedClientSettingsDownloadTitle": "Ошибка при загрузке данных из облака",
@@ -6035,6 +6059,7 @@
     "RegisterLockManager": "Регистрация в данных менеджера блокировки…",
     "DeletingCreds": "Удаление авторизации…",
     "RemoveCachedSupervisedSettings": "Удаление кэшированных контролируемых параметров…",
+    "WaitForFrontend": "Returning to the main menu...",
     "StartVoiceChat": "Запуск голосового чата…",
     "DisconnectingFromVivox": "Отключение голосового чата…",
     "FailedPurchaseRedemptionNowRedeemedTitle": "Теперь вам доступен магазин!",
@@ -6171,7 +6196,9 @@
     "NotEnoughResourcesText": "У вас недостаточно ресурсов!"
   },
   "FortPinGrantCodeInfoWidget": {
-    "ExpiringTime": "Срок действия истекает через {0} сек."
+    "ExpiringTime": "Срок действия истекает через {0} сек.",
+    "ActivationURLPrompt": "Перейти",
+    "ActivationURLPromptWithQRCode": "Или перейдите в"
   },
   "FortPinModal": {
     "CreatePinRequest": "Введите новый шестизначный ПИН-код, чтобы получить доступ к функциям, заблокированным настройками родительского контроля.",
@@ -6184,6 +6211,8 @@
     "IncorrectPin": "Неверный ПИН-код. Повторите попытку.",
     "PinAttemptsExceeded": "Превышено максимальное количество попыток ввести ПИН-код",
     "CilantroRequest": "Чтобы выделить больше времени, введите ПИН-код родительского контроля.",
+    "UnlockGamemodeConnectionError": "Не удалось проверить ваш ПИН-код. Проверьте подключение и повторите попытку.",
+    "UnlockGamemodeError": "Не удалось проверить ваш ПИН-код. Повторите попытку через несколько минут.",
     "AcceptFriendRequestInfoTitle": "Что могут делать друзья?",
     "DefaultOfferName": "это предложение",
     "LocalPlayerYour": "вы",
@@ -7100,6 +7129,7 @@
     "CameraAssistsCollection_Name": "Камера",
     "CameraAssists_Name": "Поддержка камеры",
     "JunoCombatAnyDirection_Disabled": "Направление камеры",
+    "CameraShakeEnabled_Name": "Тряска камеры",
     "CanReceiveGifts_Name": "Получение подарков",
     "CanSeeOtherPlayersNames_Name": "Показывать имена всех игроков",
     "OnlyPrimaryPlayerEditable": "Может изменить только основной игрок.",
@@ -8526,6 +8556,7 @@
     "FollowCamera_Description_Switch": "Если этот параметр активен, при движении влево и вправо камера будет поворачиваться в том же направлении при условии, что игрок в этот момент не целится и не ведёт стрельбу. Включите этот параметр, если вам трудно пользоваться двумя мини-джойстиками одновременно. Правый мини-джойстик продолжит работать как обычно, так что вы сможете учиться с ним обращаться, не отключая данный параметр.",
     "FollowCamera_Description": "Если этот параметр активен, при движении влево и вправо камера будет поворачиваться в том же направлении при условии, что игрок в этот момент не целится и не ведёт стрельбу. Включите этот параметр, если вам трудно пользоваться двумя мини-джойстиками одновременно. Правый мини-джойстик продолжит работать как обычно, так что вы сможете учиться с ним обращаться, не отключая данный параметр.",
     "FollowCamera_Description_PS4_PS5": "Если этот параметр активен, при движении влево и вправо камера будет поворачиваться в том же направлении при условии, что игрок в этот момент не целится и не ведёт стрельбу. Включите этот параметр, если вам трудно пользоваться двумя мини-джойстиками одновременно. Правый мини-джойстик продолжит работать как обычно, так что вы сможете учиться с ним обращаться, не отключая данный параметр.",
+    "CameraShakeEnabled_Description": "Если этот параметр включён, камера будет трястись в ответ на такие события, как взрывы и удары.",
     "AutoPickupWeaponsConsolePC_Description_Shorter": "При включении персонаж будет автоматически подбирать оружие, на которое наступает, пока в инвентаре есть место.",
     "AutoPickupWeapons_Description_Shorter": "При включении персонаж будет автоматически подбирать оружие, на которое наступает, пока в инвентаре есть место.",
     "AutoInteractConsumables_Description": "При включении вы будете автоматически употреблять яблоки, грибы и другие расходуемые предметы, когда смотрите на них.",
@@ -9826,6 +9857,7 @@
     "BannedFromWorld": "Вы были заблокированы в мире, в котором находится ваша группа.",
     "MfaRequiredForTournament": "Чтобы участвовать в турнире, необходимо включить двухфакторную аутентификацию для учётной записи Epic. Перейдите на {TurnOnMfaURL}, чтобы включить.",
     "WrongNumberOfEventPlayers": "Вы должны состоять в полной группе, чтобы принять участие в состязании.",
+    "PartyMemberBannedFromWorld": "Вы или участник вашей группы заблокированы в этом мире.",
     "MatchCapExceeded": "Вы сыграли в максимальном количестве матчей в этом событии.Откройте вкладку «Состязания», чтобы узнать подробности и посмотреть предстоящие события.",
     "Error.AccountLevelTooLow": "Уровень вашей учётной ({0}) записи не соответствует минимальным требованиям: {1}.",
     "Error.BRRankLevelTooLow": "Ваш текущий уровень рейтинга в «Королевской битве» ({0}) не соответствует минимальным требованиям: {1}.",
@@ -10094,6 +10126,7 @@
     "NotFriendsLongEnough": "Сможет получать подарки через {0} {1}|plural(one=день,few=дня,many=дней,other=дня)!",
     "NotAcceptingGifts": "Не принимает подарки",
     "NotFriends": "Обмениваться подарками могут только друзья.",
+    "NewGiftBoxReceived": "Получена новая обёртка!",
     "NotAFortnitePlayer": "Не играет в Fortnite",
     "OwnedMultiInstanceItems": "Куплено: <text color=\"fff\">{owned}</>",
     "OwnsItemFromBundle": "Частичное владение",
@@ -10253,10 +10286,9 @@
     "PEGI_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 лет",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
     "CLASSIND_AGE_18_Abbreviated": "18",
+    "PEGI_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 лет",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
@@ -10290,6 +10322,7 @@
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
     "ClassInd_AIInteraction_v11_0": "Взаимодействие с ИИ",
+    "USK_AIGeneratedContent_v11_0": "Контент, созданный ИИ",
     "USK_AbstrakteGewalt": "Вымышленное насилие",
     "ACB_ActionViolence_v10_0": "Насилие в действиях",
     "ClassInd_AdolescentThemes": "Темы для подростков",
@@ -10354,6 +10387,8 @@
     "ACB_CrudeHumour": "Грубый юмор",
     "ACB_CrudeSexualHumour": "Грубый сексуальный юмор",
     "ACB_CrudeSexualReferences": "Грубые упоминания секса",
+    "GEN_Cryptocurrency_v11_0": "Криптовалюта",
+    "PEGI_Cryptocurrency_v11_0": "Криптовалюта",
     "USK_DustereAtmosphare_v10_0": "Темная атмосфера",
     "IE_DigitalPurchases": "Цифровые покупки",
     "GEN_Discrimination": "Дискриминация",
@@ -10406,6 +10441,7 @@
     "PEGI_Fear": "Устрашение",
     "RUS_Fear_v7_0": "Устрашение",
     "IGRS_FearHorror": "Страх/ужас",
+    "USK_FinancialSpeculationRisk_v11_0": "Риск финансовых спекуляций",
     "GRAC_AGE_12": "Для лиц от 12 лет и старше",
     "GRAC_AGE_ALL": "Для лиц любого возраста",
     "ACB_AGE_G_Abbreviated": "G",
@@ -10419,6 +10455,8 @@
     "RUS_Gambling_v7_0": "Азартные игры",
     "ACB_GamblingThemes_v9_0": "Темы, связанные с азартными играми",
     "ESRB_GamblingThemes_v9_0": "Темы, связанные с азартными играми",
+    "GEN_GamblingThemes_v11_0": "Темы, связанные с азартными играми",
+    "PEGI_GamblingThemes_v11_0": "Темы, связанные с азартными играми",
     "USK_SimulatedGambling_v8_0": "Темы, связанные с азартными играми",
     "ClassInd_GamblingOrGamesOfChance": "Азартные игры или игры на удачу",
     "USK_GlucksspielMitGeldeinsatz_v7_0": "Реальные азартные игры",
@@ -10435,6 +10473,7 @@
     "ACB_HighImpactComedicViolence": "Чрезмерное комедийное насилие",
     "ACB_HighImpactCrudeHumour": "Чрезмерный грубый юмор",
     "ACB_HighImpactCrudeSexualReferences": "Чрезмерные грубые упоминания сексуального характера",
+    "ACB_HighImpactDisturbingThemes_v11_0": "Тревожные темы (очень сильное воздействие)",
     "ACB_HighImpactDrugReferences": "Чрезмерные упоминания наркотиков",
     "ACB_HighImpactDrugUse": "Чрезмерное употребление наркотиков",
     "ACB_HighImpactFamilyViolence_v10_0": "Семейное насилие (чрезмерно)",
@@ -10454,6 +10493,7 @@
     "ACB_HighImpactSexualReferences": "Чрезмерные упоминания сексуального характера",
     "ACB_HighImpactSexualThemes": "Чрезмерная сексуальная тематика",
     "ACB_HighImpactSexualisedImagery": "Чрезмерные изображения сексуального характера",
+    "ACB_HighImpactSimulatedGambling_v11_0": "Имитация азартных игр (очень сильное воздействие)",
     "ACB_HighImpactSportingViolence_v10_0": "Насилие в контексте спорта (чрезмерно)",
     "ACB_HighImpactSuggestiveThemes": "Чрезмерная непристойная тематика",
     "ACB_HighImpactSuicideReferences_v10_0": "Отсылки к суициду (чрезмерно)",
@@ -10505,7 +10545,7 @@
     "IGRS_Language": "Язык",
     "PEGI_Language": "Брань",
     "RUS_Language_v7_0": "Лексика",
-    "CERO_LanguageAndOthers": "言葉その他",
+    "CERO_LanguageAndOthers": "Язык/прочее",
     "ClassInd_DrogasLicitas": "Разрешенные наркотики",
     "ClassInd_LightAnimatedViolence": "Легкие формы нереалистичного насилия",
     "CERO_Love": "恋愛",
@@ -10604,6 +10644,7 @@
     "PEGI_AGE_PG": "НЕОБХОДИМ РОДИТЕЛЬСКИЙ КОНТРОЛЬ",
     "PEGI_AGE_12": "PEGI 12",
     "PEGI_AGE_16": "PEGI 16",
+    "PEGI_AGE_18": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10612,6 +10653,8 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
+    "GEN_PaidRandomItems_v11_0": "Платные случайные предметы",
+    "PEGI_PaidRandomItems_v11_0": "Платные случайные предметы",
     "TCA_AGE_PG_12": "С разрешения родителей 12+",
     "TCA_AGE_PG_15": "С разрешения родителей 15+",
     "GEN_ParentalGuidanceRecommended": "Необходим родительский контроль",
@@ -10623,6 +10666,8 @@
     "ACB_PredatoryAnimalBehaviour": "Поведение хищных животных",
     "FPB_Prejudice": "Prejudice",
     "USK_Handlungsdruck_v9_0": "Нажим, понуждающий к действию",
+    "GEN_PressureToPlay_v11_0": "Принуждение к игре",
+    "PEGI_PressureToPlay_v11_0": "Принуждение к игре",
     "USK_DruckZumVielspielen_v10_0": "Чрезмерное давление начать игру",
     "USK_ProblematischeWerbeinhalte_v10_0": "Проблемное рекламное содержимое",
     "USK_ProblematischeRollenbilder_v10_0": "Проблемные ролевые модели",
@@ -10657,6 +10702,8 @@
     "ClassInd_SexInsinuation": "Намек на секс",
     "ACB_SexScenes": "Сцены секса",
     "ClassInd_SexScenes": "Сцены секса",
+    "EPIC_CERO_Sex_Industry": "Индустрия развлечений для взрослых",
+    "EPIC_CERO_Sexually_Suggestive_Imagery": "Фраза сексуального характера",
     "USK_SexErotik": "Секс и эротизм",
     "ACB_SexualActivityRewards": "Действия сексуального характера, связанные с поощрениями и вознаграждениями",
     "ClassInd_ConteudoSexual": "Сексуальное содержимое",
@@ -10703,6 +10750,7 @@
     "ACB_StrongCrimeThemes": "Темы, связанные с серьезными преступлениями",
     "ACB_StrongCrudeHumour": "Частый грубый юмор",
     "ACB_StrongCrudeSexualReferences": "Откровенные упоминания грубого секса",
+    "ACB_StrongDisturbingThemes_v11_0": "Тревожные темы (сильное воздействие)",
     "ACB_StrongDrugReferences": "Частые упоминания наркотиков",
     "ACB_StrongDrugUse": "Частое употребление наркотиков",
     "ACB_StrongFamilyViolence_v10_0": "Семейное насилие (значительно)",
@@ -10746,13 +10794,20 @@
     "ACB_SuicideScenes_v10_0": "Сцены суицида",
     "ACB_SupernaturalThemes": "Сверхъестественная тематика",
     "ACB_SupernaturalViolence_v10_0": "Насилие в контексте сверхъестественных сил",
+    "ACB_SustainedThreat_v11_0": "Постоянная угроза",
+    "EPIC_CERO_Swimsuits_Costumes": "Купальники/костюмы",
     "ESRB_AGE_T_Abbreviated": "T",
     "ESRB_AGE_T": "Для подростков",
     "ClassInd_Tension": "Напряжение",
     "ACB_Threat": "Угроза",
+    "GEN_TimeLimitedOffers_v11_0": "Временные предложения",
+    "PEGI_TimeLimitedOffers_v11_0": "Временные предложения",
     "ESRB_TobaccoReference": "Табак и алкоголь",
     "USK_Tabakkonsum": "Употребление табака",
     "TCA_TobaccoAndAlcohol": "Табак и алкоголь",
+    "EPIC_CERO_Exposure_Underwear": "Показ белья",
+    "GEN_UnrestrictedCommunication_v11_0": "Общение без ограничений",
+    "PEGI_UnrestrictedCommunication_v11_0": "Общение без ограничений",
     "IE_UnrestrictedInternet": "Неограниченный доступ к интернету",
     "ESRB_UseofAlcohol": "Употребление алкоголя",
     "ESRB_UseofAlcoholandTobacco": "Употребление алкоголя и табака",
@@ -10815,11 +10870,7 @@
     "ClassInd_ViolenceAgainstVulnerablePersons": "Насилие против уязвимых лиц",
     "ESRB_ViolentReferences": "Упоминания насилия",
     "ACB_WarThemes": "Военная тематика",
-    "USK_WarThemes_v7_0": "Военная тематика",
-    "EPIC_CERO_Exposure_Underwear": "ä¸‹ç€ã®éœ²å‡º",
-    "EPIC_CERO_Swimsuits_Costumes": "æ°´ç€ãƒ»ã‚³ã‚¹ãƒãƒ¥ãƒ¼ãƒ ",
-    "EPIC_CERO_Sexually_Suggestive_Imagery": "æ€§çš„ãªã‚‚ã®ã‚’æƒ³èµ·ã•ã›ã‚‹è¡¨ç¾",
-    "EPIC_CERO_Sex_Industry": "æ€§é¢¨ä¿—æ¥­"
+    "USK_WarThemes_v7_0": "Военная тематика"
   },
   "InteractionPointWidget": {
     "DistanceTextFormatted": "{DistanceValue} м"
@@ -11152,19 +11203,23 @@
     "EditInPromptEditor": "Редактирование в редакторе запросов"
   },
   "LLMSession": {
+    "ErrorSource_Fact": "Факт",
     "ErrorSource_InstructionPrompt": "Текст инструкции",
     "Error_SummaryPrompt": "Превышен лимит инструкций в подсказке",
     "CannotUseConversations": "Локальный пользователь не имеет права использовать диалог с языковой моделью",
+    "ErrorSource_Prompt": "Промпт",
     "ErrorSource_RegisteredActions": "Зарегистрированные действия",
     "Error_SummarySO": "Превышен лимит описаний полей структуры",
     "ResonanceServiceUnavailable": "Служба резонанса недоступна",
     "SessionClosedBeforeExchange": "Резонансная сессия закрылась до того, как удалось отправить приглашение",
     "SessionClosedBeforeUpdate": "Резонансная сессия закрылась до того, как удалось отправить приглашение",
     "SessionClosedWhileQueued": "Резонансная сессия закрылась до того, как удалось отправить приглашение",
-    "Error_DetailsPrompt": "Число символов в описании задачи для персонажа по имени {CharacterName} превышает ограничение ({CharacterLimit} симв.).",
-    "Error_DetailsSO": "Число символов в описаниях полей {Source} превышает ограничение ({CharacterLimit} симв.).",
+    "Error_DetailsPrompt": "Число символов в описании задачи для персонажа по имени {CharacterName} превышает ограничение ({Limit} симв.).",
+    "Error_DetailsSO": "Число символов в описаниях полей {Source} превышает ограничение ({Limit} симв.).",
     "ModerationMsg": "Ответ прошёл модерацию",
     "Error_DetailsSchema": "Произошла ошибка при создании схемы JSON из предоставленной структуры.",
+    "Error_SummaryBlocks": "Слишком много отсылок к тексту, созданному ИИ",
+    "Error_DetailsBlocks": "Слишком много ссылок на текст, созданный ИИ, для {CharacterName} ({Source}, лимит: {Limit}).Ссылайтесь на меньшее число элементов текста, созданного ИИ.",
     "Error_SummarySchema": "Не удалось построить схему",
     "StartSessionFailed": "Не удалось начать сеанс «Резонанса»",
     "UnknownRestriction": "Неизвестное ограничение"
@@ -11194,6 +11249,12 @@
   },
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "({0})"
+  },
+  "LimeAtomValidationValidators": {
+    "ValidationFailed": "LEGO® {0}: не удалось завершить проверку, результаты могут быть неполными.",
+    "IssueCountErrors": "LEGO® {0} обнаружено {1} {1}|plural(one=проблема,other=проблемы).Это нарушает требования LEGO®. Внесите необходимые исправления в проект, иначе он может не пройти проверку. Запустите проверку на панели проверки LEGO®, чтобы просмотреть их",
+    "IssueCountWarnings": "LEGO® {0} находит {1} {1}|plural(one=предупреждение,other=предупреждения).Это нарушает требования LEGO®. Внесите необходимые исправления в проект, иначе он может не пройти проверку. Запустите проверку на панели «Проверка LEGO®», чтобы просмотреть их",
+    "MaxIssuesReached": "LEGO® {0} остановлен после обнаружения максимального числа проблем ({1}), поэтому их может быть больше.Это нарушает требования LEGO®. Внесите необходимые исправления в проект, иначе он может не пройти проверку."
   },
   "LiteUIKit": {
     "WidgetPaletteCategory": "Упрощённый UIKit"
@@ -11960,7 +12021,8 @@
     "LogicType": "Значение «Истина» и «Ложь»"
   },
   "PersonaPromptEditor": {
-    "EditFactText": "Редактировать текст факта"
+    "EditFactText": "Редактировать текст факта",
+    "SetResonanceConfiguration": "Задать конфигурацию резонанса"
   },
   "PickerContext": {
     "UFortPickerContext.EmojiCategoryTitle": "Эмодзи",
@@ -12178,6 +12240,13 @@
   "ReportReasonDetails": {
     "CommunicationAbuseDetails": "Если вы включили отправку жалоб на голосовой чат и хотите прикрепить к жалобе аудиозапись, вы можете пожаловаться, открыв вкладку «Голосовой чат» на боковой панели. Если вы включили отправку жалоб на текстовый чат и хотите прикрепить к жалобе фрагменты переписки, вы можете пожаловаться в окошке текстового чата."
   },
+  "ResonanceConfigurationPicker": {
+    "ResonanceConfigurationDefault": "По умолчанию",
+    "MultipleValues": "Несколько значений",
+    "ResonanceConfigurationDeprecated": "{0} (устарело)",
+    "ResonanceConfigurationMissing": "{0} (отсутствует)",
+    "ResonanceConfigurationDuplicateLabel": "{0} ({1})"
+  },
   "Riding": {
     "DismountInput": "(Зажать) Спешиться",
     "JumpInAir": "(В воздухе) Спрыгнуть",
@@ -12387,6 +12456,10 @@
     "SplashTextName": "Профайлер пространственных показателей",
     "WindowTitle": "Профайлер пространственных показателей",
     "AppTitle": "Пространственный профайлер"
+  },
+  "SpecialEventGameplayAnimNodes": {
+    "SpecialEventRewindPlayback_Tooltip": "Воспроизводит позы, записанные при падении назад, синхронно с часами перемотки особого события. Передаёт входную позу, если перемотка назад не выполняется.",
+    "SpecialEventRewindPlayback_Title": "Воспроизведение повтора особого события"
   },
   "SpectatorLensSettings": {
     "ApertureFNumber": "f/{Aperture}",
@@ -12922,9 +12995,6 @@
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "Подарок для игрока <text color=\"FFF\">{DisplayName}</> успешно отправлен!"
   },
-  "UAthenaGiftFlowConfirmedPanel": {
-    "RecipientInfo": "Подарок для игрока <text color=\"FFF\">{DisplayName}</> успешно отправлен!"
-  },
   "UAthenaLockerCategorySortConfig": {
     "AllGroupNameKey": "Все",
     "CategoriesGroupNameKey": "Категории",
@@ -13047,7 +13117,6 @@
     "PurchaseFailedToStart": "При совершении покупки произошла критическая ошибка. Повторите попытку позже.",
     "PurchaseFailedToStartDueToMissingPrices": "При совершении покупки произошла критическая ошибка. Повторите попытку позже.",
     "PurchaseHasNoNewEntitlements": "Произошла критическая ошибка с вашей покупкой. Наша команда уже работает над решением этой проблемы. Мы сообщим, когда покупка будет совершена!",
-    "PurchaseBlockedDueToNoCTCCountryErrorCode": "Произошла критическая ошибка при совершении покупки. Пожалуйста, обновите версию iOS до последней доступной версии и повторите попытку.",
     "MismatchedLocalUserAndStoreUser": "Ваша учётная запись Xbox отличается от учётной записи Microsoft Store. Вы не сможете совершать новые покупки, пока не войдёте в приложение Xbox и Microsoft Store с одной учётной записью.",
     "EULAFormat": "{0}\n\n{1}"
   },

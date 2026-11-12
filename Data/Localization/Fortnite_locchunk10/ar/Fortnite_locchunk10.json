@@ -368,6 +368,8 @@
     "231AF36049841BCCCB72619C0346D63B": "نمط <Viper Glitch>",
     "06EEB84B4F23444589A9758F73B79CF5": "؟",
     "892F58F84D92D5D260611CAD336AA6E0": "؟؟؟",
+    "B14CFAD643402417AB3FD6B1B32B75CB": "???",
+    "DEBF4E2A47784C62A3FD27B10E7D79D8": "???",
     "6FCE2A4A45997CDAF9AD3B88BBEEBA16": "A",
     "8CC4A59940F77C4B19BBAF971F20D5C3": "A",
     "9AD70FCB49C057A8CE26F886558FA4F1": "A",
@@ -605,7 +607,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "العجلة الدوارة دي إكس",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "الطائرة ذات الجناحين",
     "5B5236944941BFD7DE82B8B05FE11D94": "الطائرة ذات الجناحين",
-    "DF56207843F6244003548CA79CFAA0F4": "طائرة ثنائية السطح",
     "F5EB146E408C915363F761972AA43B8A": "كعكة عيد الميلاد!",
     "AD9DF9A2455C274907AE29971466ADBA": "نصل",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "نصل",
@@ -1586,7 +1587,11 @@
     "CFBFEBC248741ED6E0FCC88CC754A22E": "مدفع القرصان",
     "11286DCA40C6C1D1248DB4AB4FD95F92": "متجر القراصنة",
     "3D5384AE463D8C77B1E6578A793F29D9": "متجر القراصنة",
+    "5A823CFA4FD32ABE380CF5A3C886E487": "متجر القراصنة",
+    "EE8BF7EC40A7B072DFBEEA830DDD5863": "متجر القراصنة",
     "5771CEED4E3A98EAD847BFBFD4FA34A5": "إمكانية الوصول إلى متجر القراصنة (2026)",
+    "7F7334F04E249310781F1CB69D100D8D": "إمكانية الوصول إلى متجر القراصنة (2026)",
+    "5014942149F16C9E7F6A40A04864CCE8": "الوصول إلى متجر القراصنة (2027)",
     "7E0278EF4B5184B9FEB6EBA2547E1429": "الوصول إلى متجر القراصنة (2027)",
     "923CD0CD437F2EC013D0FCA6E8CFD824": "مسدس",
     "AE872A134006CB20B62E40B07D5FDAFC": "مسدس",
@@ -1606,6 +1611,8 @@
     "37A0DD2F4837BA7835216D877196C2CA": "ضرر اللاعب المتلقى",
     "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "يُرجى إعادة ربط الإجراء {s} .",
+    "069C1FF040D0E48A95E61995B44640B3": "انهب متجر عناصر Fortnite لمدة 14 يومًا من تاريخ التفعيل.",
+    "579B339F46238309C9A7919644F44803": "انهب متجر عناصر Fortnite لمدة 14 يومًا من تاريخ التفعيل.",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "قوس الغطاس",
     "4567895244A3DDF0A6347DB93EA4AB9A": "قنبلة رقص الجيب",
     "ECC1B5C641A0A7993449F39BB4F46B87": "قنبلة دفع الجيب ",
@@ -1667,6 +1674,7 @@
     "FD23E7C946966E8E24F1ADA1EDA51CB1": "رشّاش خفيف نيران كثيفة +",
     "BA4B1FDD40153AE8C9FC76ACC646E32C": "رشّاش خفيف سريع الإطلاق مع <Emphasized>مع مخزن ذخيرة كبير</>",
     "86F951AB4B4721B924CABA82FEFC3EC7": "صندوق ذخيرة نادر",
+    "B1CFA5584EBD1878822A699ECEB629A6": "صندوق نادر",
     "101BBD144878EB1AA8CCD292737797AE": "جهاز الفحص والاستطلاع",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "تجنيد",
     "1C77EAFB46C48299170B7486AEFB6294": "برتقالة حمراء",
@@ -1796,7 +1804,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "سرقة الدرع",
     "4F611C954A5378BFC1804C96BB3981FE": "تعاون الدرع",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "رمي الدرع",
-    "6FE5EF624909BEBF19A4F7A143733F40": "مدفع سفينة",
     "D48B88DA4EC76F3203A964A55E4C04E7": "مدفع سفينة",
     "85A285654B56001B52E9ABBC806822EB": "أداة موجات الصدمة",
     "8E57565847BBBCA8EE6AD38208D056E1": "قنبلة موجة الصدمة +",
@@ -2084,6 +2091,7 @@
     "A9F43F3A48770C515DF7A5AF1DF5A128": "مقرر الكشف عنها.",
     "E01C6F584A3A7BA4F94BAB8231E0841B": "سيُكشف عنها في وقت لاحق.",
     "060777BC47099F2DF28068980DCF0AFD": "سيكشف عنها لاحقًا... ",
+    "06F058FB4EE7E7F56D73D89FB36552DA": "سيُكشف عنها لاحقًا... ",
     "499889C94D330A143D60249B468EE7BF": "سيكشف عنها لاحقًا... ",
     "4B1D57F64AA9FD8A596664A18AF6640E": "سيكشف عنها لاحقًا... ",
     "60D8C0614084FA6FCACF19866EF0FDBE": "سيكشف عنها لاحقًا... ",
@@ -2183,7 +2191,6 @@
     "2D63B0854707C30350F8B7A03551788D": "أداة عنصر ",
     "CF3BD1EE41CFC0D5B59A619710C3BAE0": "فقاعة درع سترة رسمية فضية بمنطقة تأثير لأداة مساعدة",
     "17E86A814E1BF4CEFB61E2BC6268CEE7": "الشق عنصر المساعدة",
-    "2640FD984FA75748AC19FCBBD963DE79": "عملات V-Bucks",
     "36C0892442CACB9BDAD4C3B09F0BF96C": "عملات V-Bucks",
     "D6DDC6A9427A759E55A7BBB8A12736D1": "عملات V-Bucks",
     "9FBB32C24460E6E70940859CABCF1987": "دخل VBucks",
@@ -2196,7 +2203,6 @@
     "454B71ED42ED250EDBECF59B7A7D9643": "VK غير مختبر",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "عملة ثمينة تُستخدَم لشراء البضائع من المتجر.",
     "67E0A04E48C18017454CB4B84AF5716F": "عملة ثمينة تُستخدَم لشراء البضائع من المتجر.",
-    "D35857B04A6D171C1C63A1A7DEAA0DD4": "عملة ثمينة تُستخدَم لشراء البضائع من المتجر.",
     "863EB9E944912130B5EAA6A39CC800BC": "عملة ثمينة تُستخدَم لشراء البضائع من المتجر.  يكتسبها مطورو الألعاب والمبدعون (مثل مبدعي UEFN)",
     "D461D4C54C20240513787CBF1FDA9A57": "الفوهة المزدوجة الهوائية",
     "ABB98286476BE4B2D835939202B2B43D": "جي فورس هوائي",
@@ -2693,9 +2699,6 @@
     "AlreadyOwnItemTitle": "حدثت مشكلة!",
     "AlreadyOwnBPDescription": "ستتلقى الآن الرمز المميز لهدية بطاقة المعركة لأن <text color=\"FFF\">{DisplayName}</> اشترى بطاقة معركة أثناء محاولة الإهداء.\n يمكنك استخدامه لتقديم بطاقة معركة هدية إلى صديق آخر. إذا لم يتم استخدام الرمز المميز لهدية بطاقة المعركة بحلول نهاية الموسم، فسيتم تحويله إلى 950 من عملات V-Bucks في حسابك."
   },
-  "AthenaGiftingFlowConfirmationScreen": {
-    "NewGiftBoxReceived": "حصلت على خيار تغليف هدايا جديد!"
-  },
   "AthenaGiftingFlowErrorsPanel": {
     "GenericErrorDescription": "حدث خطأ غير معروف",
     "RecipientCantReceiveGiftsDescription": "يبدو أن <text color=\"FFF\">{DisplayName}</> غير مؤهل لاستلام المكافآت",
@@ -2708,13 +2711,6 @@
     "RecipientCantReceiveGiftsTitle": "حدثت مشكلة!",
     "AlreadyOwnItemTitle": "حدثت مشكلة!",
     "AlreadyOwnBPDescription": "ستتلقى الآن الرمز المميز لهدية بطاقة المعركة لأن <text color=\"FFF\">{DisplayName}</> اشترى بطاقة معركة أثناء محاولة الإهداء.\n يمكنك استخدامه لتقديم بطاقة معركة هدية إلى صديق آخر. إذا لم يتم استخدام الرمز المميز لهدية بطاقة المعركة بحلول نهاية الموسم، فسيتم تحويله إلى 950 من عملات V-Bucks في حسابك."
-  },
-  "AthenaGiftingFlowPurchaseButton": {
-    "Continue": "متابعة",
-    "GetVBucks": "احصل على عملات V-Bucks",
-    "PurchaseGift": "اشتر هدية!",
-    "ReloadVBucks": "إعادة تحميل نقود V-Bucks",
-    "SendGift": "أرسل هدية!"
   },
   "AthenaGiftingFlowPurchasePanel": {
     "RetrySocialNameInfo": "{DisplayName} سيتلقى الآن",
@@ -4112,14 +4108,21 @@
     "JsonError": "خطأ في الخادم من نوع {0}"
   },
   "EventPreview": {
-    "PauseFrameTooltip": "يتم تجميد إطارات تسلسلات الحدث عند دخولك وضع التشغيل في المحرر (PIE) مع تمكين \"إيقاف مؤقت عند البدء\". يقتصر على نطاق كل تسلسل.",
-    "PauseOnStartTooltip": "قم بتجميد تسلسلات مستوى الحدث على الإطار المحدد بمجرد دخولك إلى وضع التشغيل في المحرر (PIE)، حتى تتمكن من تشغيل اللقطات يدويًا لتسجيلها باستخدام مسجل اللقطات. المُحرر/التشغيل في المحرر (PIE) فقط.",
+    "WaitForUnpauseVolumeTooltip": "توقّف حتى يعبر شخص ما حيز إلغاء الإيقاف المؤقت لمعاينة حدث خاص، بدلًا من استئناف مؤِقت.",
+    "StartSecondsTooltip": "إلى أي مدى داخل المرحلة المحددة يبدأ التشغيل، بالثواني، محسوبًا من نقطة بدء المرحلة ضمن تسلسلها. يُحَدَّد بطول التسلسل. المحرر أو PIE فقط.",
+    "OpenMainEventSequence": "افتح تسلسل الحدث الرئيسي",
+    "OpenMainSequenceTooltip": "افتح تسلسل الحدث الرئيسي في Sequencer مع الانتقال إلى موضع بدء هذه المرحلة عند النقر فوق زر المرحلة.",
     "OpenSequenceTooltip": "افتح تسلسل مستوى هذه المرحلة في منظم التسلسل عند النقر فوق زر المرحلة.",
-    "PauseOnStartMode": "إيقاف مؤقت عند البدء",
-    "UnpauseVolumeNote": "للاستئناف في اللعب داخل المحرر: ضع حجم إلغاء الإيقاف المؤقت لمعاينة الحدث الخاص في المستوى واجعل اللاعب يمرّ من خلاله.",
-    "AtFrame": "في إطار",
+    "OpenMainEventSequenceTooltip": "افتح {0} في Sequencer.",
+    "PreviewPauseIndefiniteNote": "يبدأ خيار التشغيل الحدث هنا ويستمر إلى أجل غير مسمى (ثواني الاستئناف التلقائي تساوي 0 في تفضيلات المحرر). شغّل Fort.SpecialEvent.Preview.Play للمتابعة.",
+    "PreviewPauseVolumeNote": "خيار تشغيل يبدأ الحدث هنا ويظل متوقفًا حتى يمرّ أحدهم عبر حيز إلغاء الإيقاف المؤقت.",
+    "PreviewPauseAutoNote": "يبدأ التشغيل الحدث هنا، ويبقى {0} ث بينما تُحمَّل طبقات المرحلة، ثم يتابع.",
+    "StartOnSecond": "البدء في الثانية",
+    "UnpauseWithVolume": "أعِد التشغيل باستخدام حيز إلغاء الإيقاف المؤقت",
     "OpenSequenceSubtitle": "افتح التسلسل",
-    "StronglyRecommendedTag": "مُوصى به"
+    "StronglyRecommendedTag": "مُوصى به",
+    "PreviewStartZeroNote": "{0}\n\n0 هو الإطار الأول في التسلسل، ويكون عادةً فارغًا. أدخِل وقتًا لاحقًا للهبوط على شيء تستطيع رؤيته.",
+    "PreviewPauseSkippedNote": "{0} يتخطّى التثبيت — يُشغِّل PIE المقطع كاملًا دون توقّف. لا تزال هذه الإعدادات تنطبق على كل مرحلتين."
   },
   "EventTeamMatchHistoryEntry": {
     "MatchNumber": "#{0}",
@@ -4196,6 +4199,21 @@
     "SectionName": "Juno",
     "ExtensionName": "أدوات Juno",
     "ConfigurePrefabTool": "مبني جاهز"
+  },
+  "FLimeAtomBuildingActorOverlapValidator": {
+    "AddingOverlappingActors": "يتداخل عنصر بناء \"{0}\" مع عنصر آخر (عناصر أخرى) {1}: \"{2}\"",
+    "ValidatorName": "مُتحقِّق تداخل عامل البناء",
+    "AtomValidationUtils_BuildingActorOKWithNoOverlaps": "التداخلات المتجاهَلة"
+  },
+  "FLimeAtomOverlapValidator": {
+    "AddingOverlappingActors": "يتداخل العنصر '{0}' مع عنصر آخر (عناصر أخرى) {1}: '{2}'",
+    "DetailedCollisionOverlappingActorsMessage": "العنصر ({0}) يتداخل مع عناصر أخرى.",
+    "ActorNotCheckedForDetailedOverlaps": "لم يتم فحص العنصر ({0}) بحثًا عن التداخلات التفصيلية لأنه تعذر تشغيل فحص الاصطدام التفصيلي؛ لذلك يُبلَّغ بدلًا من ذلك عن نتيجة المرور السريع.",
+    "OverlapCheckSkippedNoWorld": "لم يتم التحقق من التداخلات للعامل ({0}) لأنه ليس موجودًا في عالم.",
+    "FixerName": "أصلح التداخل",
+    "FixerTooltip": "لمشكلات التحقق من التداخل، حاول العثور على موضع وضع صالح باستخدام الالتقاط بالاتصال. يُصلِح مشكلة واحدة في كل مرة.",
+    "AtomValidationUtils_IgnoringValidation": "تجاهُل التحقق",
+    "ValidatorName": "مُحقِّق التداخل"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "قم بإيداع {amount} {resourcetype}",
@@ -5093,9 +5111,14 @@
     "CreateAccountTitle": "إنشاء حساب",
     "CreateAccountPinFailed": "فشل إنشاء حساب غير متصل بحساب Epic.",
     "LinkAccountTitle": "ربط حساب",
+    "NintendoPlatformName": "Nintendo",
+    "PlayStationPlatformName": "PlayStation",
     "ProceedWithoutLinking": "جار المتابعة بدون ربط الحسابات...",
     "GettingPinCode": "جار طلب رمز منح الدبوس...",
-    "LinkAccountFailed": "تم إنشاء حساب بنجاح، ولكن تعذر ربطه.  يرجى إعادة المحاولة."
+    "SignInTitle": "تسجيل الدخول",
+    "LinkAccountFailed": "تم إنشاء حساب بنجاح، ولكن تعذر ربطه.  يرجى إعادة المحاولة.",
+    "XboxPlatformName": "Xbox",
+    "PlatformAccountFormat": "حساب {0} الخاص بك هو"
   },
   "FortActivityBrowserListView": {
     "Manual_BR": "باتل رويال",
@@ -5988,6 +6011,7 @@
     "CheckCrossPlayPrivilege": "جارٍ التحقق من امتياز اللعب متعدد المنصات...",
     "CheckUGCPrivilege": "جارٍ التحقق من امتياز المحتوى المقدم من المستخدم...",
     "SilentClaimMfaReward": "جارٍ المطالبة بالجوائز...",
+    "CleanupForLogout": "جارٍ التنظيف...",
     "DisconnectingFromLobby": "جارٍ التنظيف...",
     "LogoutUsabilityExperiment": "جارٍ التنظيف...",
     "FailedClientSettingsDownloadTitle": "فشل تنزيل السحابة",
@@ -6035,6 +6059,7 @@
     "RegisterLockManager": "جارٍ تسجيل الدخول إلى مدير الأقفال...",
     "DeletingCreds": "جار إزالة المصادقة...",
     "RemoveCachedSupervisedSettings": "إزالة الإعدادات المخزنة مؤقتًا التي تم الإشراف عليها...",
+    "WaitForFrontend": "Returning to the main menu...",
     "StartVoiceChat": "بدء محادثة صوتية...",
     "DisconnectingFromVivox": "إيقاف محادثة صوتية...",
     "FailedPurchaseRedemptionNowRedeemedTitle": "المتجر متاح الآن!",
@@ -6171,7 +6196,9 @@
     "NotEnoughResourcesText": "لا يوجد لديك موارد كافية!"
   },
   "FortPinGrantCodeInfoWidget": {
-    "ExpiringTime": "ينتهي صلاحيته خلال {0} من الثواني."
+    "ExpiringTime": "ينتهي صلاحيته خلال {0} من الثواني.",
+    "ActivationURLPrompt": "انتقال إلى",
+    "ActivationURLPromptWithQRCode": "أو اذهب إلى"
   },
   "FortPinModal": {
     "CreatePinRequest": "أدخل رمز PIN جديد مكون من 6 أرقام للوصول إلى الميزات المؤمّنة بفعل إعدادات الرقابة الأبوية.",
@@ -6184,6 +6211,8 @@
     "IncorrectPin": "رقم تعريف شخصي غير صحيح، يُرجى إعادة المحاولة",
     "PinAttemptsExceeded": "تجاوزت الحد الأقصى لمحاولات رقم التعريف الشخصي",
     "CilantroRequest": "للحصول على مزيد من الوقت، أدخِل رقم التعريف الشخصي (PIN) للرقابة الأبوية لديك أولًا.",
+    "UnlockGamemodeConnectionError": "تعذّر التحقق من رقم التعريف الشخصي الخاص بك. تحقق من اتصالك وحاول مرة أخرى.",
+    "UnlockGamemodeError": "تعذّر التحقق من رقم التعريف الشخصي الخاص بك. حاول مجددًا بعد بضع دقائق.",
     "AcceptFriendRequestInfoTitle": "ما الذي يمكن للأصدقاء فعله؟",
     "DefaultOfferName": "هذا العرض",
     "LocalPlayerYour": "خاص بك",
@@ -7100,6 +7129,7 @@
     "CameraAssistsCollection_Name": "الكاميرا",
     "CameraAssists_Name": "مساعدات الكاميرا",
     "JunoCombatAnyDirection_Disabled": "اتجاه الكاميرا",
+    "CameraShakeEnabled_Name": "اهتزاز الكاميرا",
     "CanReceiveGifts_Name": "يمكن تلقي الهدايا",
     "CanSeeOtherPlayersNames_Name": "إتاحة رؤية أسماء غير الأعضاء بفرقتك",
     "OnlyPrimaryPlayerEditable": "لا يمكن تغييرها إلا بواسطة اللاعب الرئيسي.",
@@ -8526,6 +8556,7 @@
     "FollowCamera_Description_Switch": "عند التشغيل، التحرك يسارًا أو يمينًا يُحوّل أيضًا الكاميرا في الوقت نفسه ما دمت لا تصوب أو تطلق النار. قم بتفعيل هذا إن لم يكن استخدام ذراعين طوال الوقت صعبًا بالنسبة إليك. سيظل الذراع الأيمن يعمل كالعادة لذا لا يزال بإمكانك التعود على استخدام الذراع الأيمن عندما تكون هذه الخاصية مفعّلة.",
     "FollowCamera_Description": "عند التشغيل، التحرك يسارًا أو يمينًا يُحوّل أيضًا الكاميرا في الوقت نفسه ما دمت لا تصوب أو تطلق النار. قم بتفعيل هذا إن لم يكن استخدام ذراعين طوال الوقت صعبًا بالنسبة إليك. سيظل الذراع الأيمن يعمل كالعادة لذا لا يزال بإمكانك التعود على استخدام الذراع الأيمن عندما تكون هذه الخاصية مفعّلة.",
     "FollowCamera_Description_PS4_PS5": "عند التشغيل، التحرك يسارًا أو يمينًا يُحوّل أيضًا الكاميرا في الوقت نفسه ما دمت لا تصوب أو تطلق النار. قم بتفعيل هذا إن لم يكن استخدام ذراعين طوال الوقت صعبًا بالنسبة إليك. سيظل الذراع الأيمن يعمل كالعادة لذا لا يزال بإمكانك التعود على استخدام الذراع الأيمن عندما تكون هذه الخاصية مفعّلة.",
+    "CameraShakeEnabled_Description": "عند تشغيل هذا الخيار، ستهتز الكاميرا استجابة لأحداث مثل الانفجارات والاصطدامات.",
     "AutoPickupWeaponsConsolePC_Description_Shorter": "عند التفعيل، ستُلتقط الأسلحة تلقائيًا عند التحرك فوقها، ما لم يكن مخزونك ممتلئًا.",
     "AutoPickupWeapons_Description_Shorter": "عند التفعيل، ستُلتقط الأسلحة تلقائيًا عند التحرك فوقها، ما لم يكن مخزونك ممتلئًا.",
     "AutoInteractConsumables_Description": "عند التفعيل، ستستهلك التفاح والفطر والعناصر الأخرى القابلة للاستهلاك تلقائيًا بمجرد النظر إليها.",
@@ -9521,7 +9552,7 @@
     "TimeSpanColons_Days:Hours:Minutes:Seconds": "{Days}:{Hours}:{Minutes}:{Seconds}",
     "DaysFormatText": "{Days} يوم {Hours} ساعة",
     "TimeSpanColons_Hours:Minutes:Seconds": "{Hours}:{Minutes}:{Seconds}",
-    "HoursFormatText": "{Hours} من الساعات {Minutes} من الدقائق",
+    "HoursFormatText": "{Hours} ساعة {Minutes} دقيقة",
     "FortTimespanBuilder": "{LargerUnit} {SmallerUnits}",
     "TimeSpanColons_Minutes:Seconds": "{Minutes}:{Seconds}",
     "TimeSpanColonsWithMillis_Minutes:Seconds.Milliseconds": "{Minutes}:{Seconds}.{Milliseconds}",
@@ -9826,6 +9857,7 @@
     "BannedFromWorld": "تم حظرك من العالم الذي توجد فيه مجموعتك.",
     "MfaRequiredForTournament": "يجب أن تقوم بتمكين المصادقة الثنائية على حساب Epic الخاص بك لتتمكن من اللعب في هذه البطولة. قم بزيارة {TurnOnMfaURL} للتمكين.",
     "WrongNumberOfEventPlayers": "يجب أن تكون في مجموعة كاملة للانضمام لهذه البطولة.",
+    "PartyMemberBannedFromWorld": "أنت أو أحد أعضاء مجموعتك محظور من هذا العالم.",
     "MatchCapExceeded": "لقد لعبت الحد الأقصى للمواجهات لهذا الحدث.تفقّد تبويب المنافسة لمزيد من التفاصيل والأحداث المقبلة.",
     "Error.AccountLevelTooLow": "لا يفي مستوى حسابك ({0}) بالحد الأدنى للمتطلبات لتلعب: {1}.",
     "Error.BRRankLevelTooLow": "لا يفي مستوى تصنيفك الحالي في باتل رويال ({0}) بالحد الأدنى للمتطلبات لتلعب: {1}.",
@@ -10094,6 +10126,7 @@
     "NotFriendsLongEnough": "يمكن استلام هدايا خلال {0} {1}|plural(zero=يوم, one=يوم, two=يوم, few=أيام, many=يوم, other=يوم)!",
     "NotAcceptingGifts": "لا يقبل الهدايا",
     "NotFriends": "إهداء الهدايا متاح فقط بين الأصدقاء.",
+    "NewGiftBoxReceived": "حصلت على خيار تغليف هدايا جديد!",
     "NotAFortnitePlayer": "ليس لاعب Fortnite",
     "OwnedMultiInstanceItems": "مملوك: <text color=\"fff\">{owned}</>",
     "OwnsItemFromBundle": "مملوك جزئيًا",
@@ -10253,10 +10286,9 @@
     "PEGI_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 عامًا",
-    "GEN_AGE_16": "أكبر من 16",
-    "GEN_AGE_16_Abbreviated": "أكبر من 16",
     "USK_AGE_16": "أكبر من 16",
     "CLASSIND_AGE_18_Abbreviated": "18",
+    "PEGI_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 سنة",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
@@ -10290,6 +10322,7 @@
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
     "ClassInd_AIInteraction_v11_0": "تفاعل الذكاء الاصطناعي",
+    "USK_AIGeneratedContent_v11_0": "محتوى من إنشاء الذكاء الاصطناعي",
     "USK_AbstrakteGewalt": "عنف تجريدي",
     "ACB_ActionViolence_v10_0": "‫عنف الحركة",
     "ClassInd_AdolescentThemes": "سمات مراهقة",
@@ -10354,6 +10387,8 @@
     "ACB_CrudeHumour": "دعابة غير مُهذّبة",
     "ACB_CrudeSexualHumour": "دعابة جنسية غير مهذبة",
     "ACB_CrudeSexualReferences": "إشارات جنسية غير مهذبة",
+    "GEN_Cryptocurrency_v11_0": "عملة مشفرة",
+    "PEGI_Cryptocurrency_v11_0": "عملة مشفرة",
     "USK_DustereAtmosphare_v10_0": "جو مظلم",
     "IE_DigitalPurchases": "عمليات شراء رقمية",
     "GEN_Discrimination": "تمييز",
@@ -10406,6 +10441,7 @@
     "PEGI_Fear": "خوف",
     "RUS_Fear_v7_0": "خوف",
     "IGRS_FearHorror": "الخوف أو الرعب",
+    "USK_FinancialSpeculationRisk_v11_0": "مخاطرة بالمضاربة المالية",
     "GRAC_AGE_12": "للأعمار من 12 عام وأكثر",
     "GRAC_AGE_ALL": "لجميع الأعمار",
     "ACB_AGE_G_Abbreviated": "عام",
@@ -10419,6 +10455,8 @@
     "RUS_Gambling_v7_0": "مقامرة",
     "ACB_GamblingThemes_v9_0": "موضوعات المقامرة",
     "ESRB_GamblingThemes_v9_0": "سمات المقامرة",
+    "GEN_GamblingThemes_v11_0": "سمات المقامرة",
+    "PEGI_GamblingThemes_v11_0": "سمات المقامرة",
     "USK_SimulatedGambling_v8_0": "سمات المقامرة",
     "ClassInd_GamblingOrGamesOfChance": "المقامرة أو ألعاب الحظ",
     "USK_GlucksspielMitGeldeinsatz_v7_0": "المقامرة بالمقابل المالي النقدي",
@@ -10435,6 +10473,7 @@
     "ACB_HighImpactComedicViolence": "عنف كوميدي‬ ذو تأثير قوي",
     "ACB_HighImpactCrudeHumour": "دعابة غير مهذّبة ذات تأثير قوي",
     "ACB_HighImpactCrudeSexualReferences": "إشارات جنسية غير مهذبة ذات تأثير قوي",
+    "ACB_HighImpactDisturbingThemes_v11_0": "موضوعات مخيفة ذات تأثير قوي",
     "ACB_HighImpactDrugReferences": "إشارات خاصة بالمخدرات ذات تأثير قوي",
     "ACB_HighImpactDrugUse": "تعاطي مخدرات ذو تأثير قوي",
     "ACB_HighImpactFamilyViolence_v10_0": "عنف أسري ذو تأثير قوي",
@@ -10454,6 +10493,7 @@
     "ACB_HighImpactSexualReferences": "إشارات جنسية ذات تأثير قوي",
     "ACB_HighImpactSexualThemes": "موضوعات جنسية ذات تأثير قوي",
     "ACB_HighImpactSexualisedImagery": "صور ذات طابع جنسي لها تأثير قوي",
+    "ACB_HighImpactSimulatedGambling_v11_0": "محاكاة مقامرة قوية التأثير",
     "ACB_HighImpactSportingViolence_v10_0": "عنف خاص بالرياضة ذو تأثير قوي",
     "ACB_HighImpactSuggestiveThemes": "موضوعات إيحائية ذات تأثير قوي",
     "ACB_HighImpactSuicideReferences_v10_0": "إشارات انتحار ذات تأثير قوي",
@@ -10505,7 +10545,7 @@
     "IGRS_Language": "اللغة",
     "PEGI_Language": "اللغة",
     "RUS_Language_v7_0": "اللغة",
-    "CERO_LanguageAndOthers": "اللغة وغيرها",
+    "CERO_LanguageAndOthers": "اللغة/أخرى",
     "ClassInd_DrogasLicitas": "العقاقير غير المحظورة",
     "ClassInd_LightAnimatedViolence": "عنف متحرك خفيف",
     "CERO_Love": "حب",
@@ -10604,6 +10644,7 @@
     "PEGI_AGE_PG": "الإرشاد الأبوي موصى به",
     "PEGI_AGE_12": "PEGI 12",
     "PEGI_AGE_16": "PEGI 16",
+    "PEGI_AGE_18": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10612,6 +10653,8 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
+    "GEN_PaidRandomItems_v11_0": "عناصر عشوائية مدفوعة",
+    "PEGI_PaidRandomItems_v11_0": "عناصر عشوائية مدفوعة",
     "TCA_AGE_PG_12": "الإرشاد الأبوي",
     "TCA_AGE_PG_15": "الإرشاد الأبوي 15",
     "GEN_ParentalGuidanceRecommended": "الإرشاد الأبوي موصى به",
@@ -10623,6 +10666,8 @@
     "ACB_PredatoryAnimalBehaviour": "سلوك حيوان مفترس",
     "FPB_Prejudice": "تحيُّز",
     "USK_Handlungsdruck_v9_0": "الضغط لفعل شيء ما",
+    "GEN_PressureToPlay_v11_0": "الضغط من أجل اللعب",
+    "PEGI_PressureToPlay_v11_0": "الضغط من أجل اللعب",
     "USK_DruckZumVielspielen_v10_0": "الضغط من أجل اللعب بشكل مفرط",
     "USK_ProblematischeWerbeinhalte_v10_0": "محتوى إعلاني يتسبب في حدوث مشاكل",
     "USK_ProblematischeRollenbilder_v10_0": "نماذج الأدوار المسببة للمشاكل",
@@ -10657,6 +10702,8 @@
     "ClassInd_SexInsinuation": "تلميحات جنسية",
     "ACB_SexScenes": "مشاهد جنسية",
     "ClassInd_SexScenes": "مشاهد جنسية",
+    "EPIC_CERO_Sex_Industry": "صناعة الترفيه الجنسي",
+    "EPIC_CERO_Sexually_Suggestive_Imagery": "تعبير يثير الدافع الجنسي",
     "USK_SexErotik": "جنس/إثارة جنسية",
     "ACB_SexualActivityRewards": "النشاط الجنسي المرتبط بالحوافز والمكافآت",
     "ClassInd_ConteudoSexual": "محتوى جنسي",
@@ -10703,6 +10750,7 @@
     "ACB_StrongCrimeThemes": "سمات الجريمة القوية",
     "ACB_StrongCrudeHumour": "دعابة غير مهذّبة حادة",
     "ACB_StrongCrudeSexualReferences": "إشارات جنسية غير مهذبة حادة",
+    "ACB_StrongDisturbingThemes_v11_0": "موضوعات حادة ومزعجة",
     "ACB_StrongDrugReferences": "إشارات خاصة بالمخدرات حادة",
     "ACB_StrongDrugUse": "تعاطي المخدرات بكثرة",
     "ACB_StrongFamilyViolence_v10_0": "عنف أسري حاد",
@@ -10746,13 +10794,20 @@
     "ACB_SuicideScenes_v10_0": "مشاهد للانتحار",
     "ACB_SupernaturalThemes": "‏‫موضوعات خارقة",
     "ACB_SupernaturalViolence_v10_0": "عنف خارق",
+    "ACB_SustainedThreat_v11_0": "تهديد مستمر",
+    "EPIC_CERO_Swimsuits_Costumes": "ملابس السباحة/زيّ",
     "ESRB_AGE_T_Abbreviated": "مراهقون",
     "ESRB_AGE_T": "للمراهقين",
     "ClassInd_Tension": "الشد",
     "ACB_Threat": "تهديد",
+    "GEN_TimeLimitedOffers_v11_0": "عروض لفترة محدودة",
+    "PEGI_TimeLimitedOffers_v11_0": "عروض لفترة محدودة",
     "ESRB_TobaccoReference": "إشارات خاصة بالتبغ",
     "USK_Tabakkonsum": "تدخين التبغ",
     "TCA_TobaccoAndAlcohol": "تبغ وكحول",
+    "EPIC_CERO_Exposure_Underwear": "إظهار الملابس الداخلية",
+    "GEN_UnrestrictedCommunication_v11_0": "تواصل غير مقيد",
+    "PEGI_UnrestrictedCommunication_v11_0": "تواصل غير مقيد",
     "IE_UnrestrictedInternet": "إنترنت غير مقيد",
     "ESRB_UseofAlcohol": "تناول الكحول",
     "ESRB_UseofAlcoholandTobacco": "تناول الكحول وتدخين التبغ",
@@ -10815,11 +10870,7 @@
     "ClassInd_ViolenceAgainstVulnerablePersons": "العنف ضد الأشخاص المعرضين للضرر",
     "ESRB_ViolentReferences": "إشارات عنيفة",
     "ACB_WarThemes": "موضوعات حربية",
-    "USK_WarThemes_v7_0": "موضوعات حربية",
-    "EPIC_CERO_Exposure_Underwear": "ä¸‹ç€ã®éœ²å‡º",
-    "EPIC_CERO_Swimsuits_Costumes": "æ°´ç€ãƒ»ã‚³ã‚¹ãƒãƒ¥ãƒ¼ãƒ ",
-    "EPIC_CERO_Sexually_Suggestive_Imagery": "æ€§çš„ãªã‚‚ã®ã‚’æƒ³èµ·ã•ã›ã‚‹è¡¨ç¾",
-    "EPIC_CERO_Sex_Industry": "æ€§é¢¨ä¿—æ¥­"
+    "USK_WarThemes_v7_0": "موضوعات حربية"
   },
   "InteractionPointWidget": {
     "DistanceTextFormatted": "{DistanceValue}م"
@@ -11152,19 +11203,23 @@
     "EditInPromptEditor": "تعديل أداة تحرير التوجيهات"
   },
   "LLMSession": {
+    "ErrorSource_Fact": "حقيقة",
     "ErrorSource_InstructionPrompt": "إشعار التعليمات",
     "Error_SummaryPrompt": "تجاوز الطلب الإرشادي الحد",
     "CannotUseConversations": "غير مسموح للمستخدم المحلي باستخدام محادثات النموذج اللغوي الكبير",
+    "ErrorSource_Prompt": "توجيه",
     "ErrorSource_RegisteredActions": "إجراءات مُسجلة",
     "Error_SummarySO": "تجاوزت أوصاف مجال الهيكل الحدّ الأقصى",
     "ResonanceServiceUnavailable": "خدمة التردد غير متاحة.",
     "SessionClosedBeforeExchange": "أُغلقت جلسة التردد قبل إرسال الرسالة",
     "SessionClosedBeforeUpdate": "أُغلقت جلسة التردد قبل إرسال الرسالة",
     "SessionClosedWhileQueued": "أُغلقت جلسة التردد قبل إرسال الرسالة",
-    "Error_DetailsPrompt": "يتجاوز عدد الأحرف المخصصة للتوجيه الخاص بـ{CharacterName} الحد البالغ {CharacterLimit} من الأحرف.",
-    "Error_DetailsSO": "يتجاوز إجمالي عدد أحرف أوصاف مجال {Source} الحد المسموح وهو {CharacterLimit} من الأحرف.",
+    "Error_DetailsPrompt": "يتجاوز عدد الأحرف المخصصة للتوجيه الخاص بـ{CharacterName} الحد البالغ {Limit} من الأحرف.",
+    "Error_DetailsSO": "يتجاوز إجمالي عدد أحرف أوصاف مجال {Source} الحد المسموح وهو {Limit} من الأحرف.",
     "ModerationMsg": "تمت مراجعة الرد",
     "Error_DetailsSchema": "حدثت مشكلة في أثناء إنشاء مخطط JSON من الهيكل المقدم.",
+    "Error_SummaryBlocks": "هناك عددٌ كبير جدًّا من الإشارات إلى نصوص منشأة بواسطة الذكاء الاصطناعي",
+    "Error_DetailsBlocks": "عددٌ كبير من الإشارات إلى نصّ مُنشأ بالذكاء الاصطناعي لـ {CharacterName} ({Source}، الحد {Limit}). أشِر إلى عددٍ أقل من النصوص المُولَّدة بالذكاء الاصطناعي.",
     "Error_SummarySchema": "يتعذر إنشاء المخطط",
     "StartSessionFailed": "تعذّر بدء جلسة التردد",
     "UnknownRestriction": "قيود غير معروفة"
@@ -11194,6 +11249,12 @@
   },
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "({0})"
+  },
+  "LimeAtomValidationValidators": {
+    "ValidationFailed": "تعذّر على {0} ®LEGO إكمال التحقق من الصحة، وقد تكون نتائجه غير مكتملة.",
+    "IssueCountErrors": "عثر ®LEGO {0} على {1} {1}|plural(one=مشكلة,other=مشكلات). لا يتماشى هذا مع إرشادات ®LEGO. يجب معالجة جميع المشكلات وإلا سيتعرض مشروعك إلى خطر فشل الإشراف. شغّل التحقق في لوحة التحقق من ®LEGO لمراجعتها",
+    "IssueCountWarnings": "عثر ®LEGO {0} على {1} {1}|plural(one=تحذير,other=تحذيرات). لا يتماشى هذا مع إرشادات ®LEGO. يجب معالجة جميع المشكلات وإلا سيتعرض مشروعك إلى خطر فشل الإشراف. شغّل التحقق في لوحة التحقق من ®LEGO لمراجعتها",
+    "MaxIssuesReached": "توقّفت ®LEGO {0} بعد العثور على الحد الأقصى لعدد المشكلات ({1})، لذا قد يكون هناك المزيد. لا يتماشى هذا مع إرشادات ®LEGO. يجب معالجة جميع المشكلات وإلا سيتعرض مشروعك إلى خطر فشل الإشراف"
   },
   "LiteUIKit": {
     "WidgetPaletteCategory": "Lite UIKit"
@@ -11960,7 +12021,8 @@
     "LogicType": "قيمة صواب وخطأ"
   },
   "PersonaPromptEditor": {
-    "EditFactText": "تعديل نص الحقيقة"
+    "EditFactText": "تعديل نص الحقيقة",
+    "SetResonanceConfiguration": "ضبط تكوين التردد"
   },
   "PickerContext": {
     "UFortPickerContext.EmojiCategoryTitle": "الرموز التعبيرية",
@@ -12178,6 +12240,13 @@
   "ReportReasonDetails": {
     "CommunicationAbuseDetails": "في حالة تنشيطك للإبلاغ الصوتي وأردت إدراج تسجيل صوتي مع بلاغك، يمكنك تقديم بلاغ صوتي عبر تبويب الدردشة الصوتية في الشريط الجانبي. في حالة تنشيطك للإبلاغ النصي وأردت إدراج نسخة من الدردشة النصية مع بلاغك، يمكنك تقديم بلاغ دردشة نصية عبر نافذة الدردشة النصية."
   },
+  "ResonanceConfigurationPicker": {
+    "ResonanceConfigurationDefault": "الافتراضي",
+    "MultipleValues": "قيم متعددة",
+    "ResonanceConfigurationDeprecated": "{0} (مهمل)",
+    "ResonanceConfigurationMissing": "{0} (مفقود)",
+    "ResonanceConfigurationDuplicateLabel": "{0} ({1})"
+  },
   "Riding": {
     "DismountInput": "(اضغط باستمرار) ترجّل",
     "JumpInAir": "(في الهواء) ترجل بالقفز",
@@ -12387,6 +12456,10 @@
     "SplashTextName": "محلل القياسات المكانية",
     "WindowTitle": "محلل القياسات المكانية",
     "AppTitle": "المحلل المكاني"
+  },
+  "SpecialEventGameplayAnimNodes": {
+    "SpecialEventRewindPlayback_Tooltip": "يشغّل الوضعيات المُسجَّلة أثناء السقوط للخلف، بالتزامن مع ساعة إرجاع حدث خاص. يمرّر وضعية الإدخال عند عدم الإرجاع.",
+    "SpecialEventRewindPlayback_Title": "إعادة تشغيل تسجيل الحدث الخاص"
   },
   "SpectatorLensSettings": {
     "ApertureFNumber": "f/{Aperture}",
@@ -12922,9 +12995,6 @@
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "لقد أرسلت هدية بنجاح إلى <text color=\"FFF\">{DisplayName}</>!"
   },
-  "UAthenaGiftFlowConfirmedPanel": {
-    "RecipientInfo": "لقد أرسلت هدية بنجاح إلى <text color=\"FFF\">{DisplayName}</>!"
-  },
   "UAthenaLockerCategorySortConfig": {
     "AllGroupNameKey": "الكل",
     "CategoriesGroupNameKey": "الفئات",
@@ -13047,7 +13117,6 @@
     "PurchaseFailedToStart": "واجهنا مشكلة كبيرة في بدء عملية الشراء الخاصة بك. يرجى إعادة المحاولة لاحقًا.",
     "PurchaseFailedToStartDueToMissingPrices": "واجهنا مشكلة كبيرة في بدء عملية الشراء الخاصة بك. يرجى إعادة المحاولة لاحقًا.",
     "PurchaseHasNoNewEntitlements": "واجهنا مشكلة كبيرة في عملية الشراء الخاصة بك. تم تكليف فريقنا لحل المشكلة. سنبلغك عندما تكتمل عملية الشراء الخاصة بك!",
-    "PurchaseBlockedDueToNoCTCCountryErrorCode": "واجهنا مشكلة كبيرة خلال تنفيذ عملية الشراء الخاصة بك. يُرجى تحديث إصدار iOS الخاص بك إلى أحدث إصدار متاح والمحاولة مرة أخرى.",
     "MismatchedLocalUserAndStoreUser": "حساب Xbox الخاص بك مختلف عن حسابك على Microsoft Store. لن يكون بإمكانك إجراء عمليات شراء جديدة ما لم تسجل الدخول إلى تطبيق Xbox وMicrosoft Store بالحساب نفسه.",
     "EULAFormat": "{0}\n\n{1}"
   },

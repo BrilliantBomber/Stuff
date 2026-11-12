@@ -368,6 +368,8 @@
     "231AF36049841BCCCB72619C0346D63B": "<Viper Glitch>樣式",
     "06EEB84B4F23444589A9758F73B79CF5": "？",
     "892F58F84D92D5D260611CAD336AA6E0": "？？？",
+    "B14CFAD643402417AB3FD6B1B32B75CB": "？？？",
+    "DEBF4E2A47784C62A3FD27B10E7D79D8": "？？？",
     "6FCE2A4A45997CDAF9AD3B88BBEEBA16": "A",
     "8CC4A59940F77C4B19BBAF971F20D5C3": "A",
     "9AD70FCB49C057A8CE26F886558FA4F1": "A",
@@ -605,7 +607,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "大滾桶DX",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "雙翼機",
     "5B5236944941BFD7DE82B8B05FE11D94": "雙翼機",
-    "DF56207843F6244003548CA79CFAA0F4": "雙翼機",
     "F5EB146E408C915363F761972AA43B8A": "生日蛋糕！",
     "AD9DF9A2455C274907AE29971466ADBA": "刀刃",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "刀刃",
@@ -1586,7 +1587,11 @@
     "CFBFEBC248741ED6E0FCC88CC754A22E": "海盜加農砲",
     "11286DCA40C6C1D1248DB4AB4FD95F92": "海盜商店",
     "3D5384AE463D8C77B1E6578A793F29D9": "海盜商店",
+    "5A823CFA4FD32ABE380CF5A3C886E487": "海盜商店",
+    "EE8BF7EC40A7B072DFBEEA830DDD5863": "海盜商店",
     "5771CEED4E3A98EAD847BFBFD4FA34A5": "海盜商店解鎖 (2026)",
+    "7F7334F04E249310781F1CB69D100D8D": "海盜商店解鎖 (2026)",
+    "5014942149F16C9E7F6A40A04864CCE8": "海盜商店解鎖 (2027)",
     "7E0278EF4B5184B9FEB6EBA2547E1429": "海盜商店解鎖 (2027)",
     "923CD0CD437F2EC013D0FCA6E8CFD824": "手槍",
     "AE872A134006CB20B62E40B07D5FDAFC": "手槍",
@@ -1606,6 +1611,8 @@
     "37A0DD2F4837BA7835216D877196C2CA": "所受的玩家傷害",
     "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "請重新綁定{s}操作。",
+    "069C1FF040D0E48A95E61995B44640B3": "自啟用日起 14 天內，前往 Fortnite 物品商店掠奪一番。",
+    "579B339F46238309C9A7919644F44803": "自啟用日起 14 天內，前往 Fortnite 物品商店掠奪一番。",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "搋子弓",
     "4567895244A3DDF0A6347DB93EA4AB9A": "隨身不羈夜炸彈",
     "ECC1B5C641A0A7993449F39BB4F46B87": "隨身脈衝 ",
@@ -1667,6 +1674,7 @@
     "FD23E7C946966E8E24F1ADA1EDA51CB1": "速射衝鋒槍+",
     "BA4B1FDD40153AE8C9FC76ACC646E32C": "加大<Emphasized>彈匣容量</>的高射速衝鋒槍",
     "86F951AB4B4721B924CABA82FEFC3EC7": "稀有彈藥箱",
+    "B1CFA5584EBD1878822A699ECEB629A6": "稀有寶箱",
     "101BBD144878EB1AA8CCD292737797AE": "偵察掃描儀",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "新兵",
     "1C77EAFB46C48299170B7486AEFB6294": "紅橘",
@@ -1796,7 +1804,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "護盾偷取",
     "4F611C954A5378BFC1804C96BB3981FE": "護盾協同",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "盾牌投擲",
-    "6FE5EF624909BEBF19A4F7A143733F40": "船艦加農砲",
     "D48B88DA4EC76F3203A964A55E4C04E7": "船艦加農砲",
     "85A285654B56001B52E9ABBC806822EB": "震波器具",
     "8E57565847BBBCA8EE6AD38208D056E1": "震波榴彈+",
@@ -2084,6 +2091,7 @@
     "A9F43F3A48770C515DF7A5AF1DF5A128": "靜待揭曉。",
     "E01C6F584A3A7BA4F94BAB8231E0841B": "靜待揭曉。",
     "060777BC47099F2DF28068980DCF0AFD": "靜待揭曉…… ",
+    "06F058FB4EE7E7F56D73D89FB36552DA": "靜待揭曉…… ",
     "499889C94D330A143D60249B468EE7BF": "靜待揭曉…… ",
     "4B1D57F64AA9FD8A596664A18AF6640E": "靜待揭曉…… ",
     "60D8C0614084FA6FCACF19866EF0FDBE": "靜待揭曉…… ",
@@ -2183,7 +2191,6 @@
     "2D63B0854707C30350F8B7A03551788D": "實用物品 ",
     "CF3BD1EE41CFC0D5B59A619710C3BAE0": "實用物品、範圍效果、銀、火焰、護盾、泡泡盾",
     "17E86A814E1BF4CEFB61E2BC6268CEE7": "實用物品、裂隙",
-    "2640FD984FA75748AC19FCBBD963DE79": "V-buck",
     "36C0892442CACB9BDAD4C3B09F0BF96C": "V-buck",
     "D6DDC6A9427A759E55A7BBB8A12736D1": "V-buck",
     "9FBB32C24460E6E70940859CABCF1987": "V-Buck收入",
@@ -2196,7 +2203,6 @@
     "454B71ED42ED250EDBECF59B7A7D9643": "VK未測試",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "用於在商店購買商品的有價值貨幣。",
     "67E0A04E48C18017454CB4B84AF5716F": "用於在商店購買商品的有價值貨幣。",
-    "D35857B04A6D171C1C63A1A7DEAA0DD4": "用於在商店購買商品的有價值貨幣。",
     "863EB9E944912130B5EAA6A39CC800BC": "用於在商店購買商品的有價值貨幣。由遊戲開發者/創作者（如 UEFN 創作者）獲得",
     "D461D4C54C20240513787CBF1FDA9A57": "變向雙滾桶",
     "ABB98286476BE4B2D835939202B2B43D": "變向重力",
@@ -2693,9 +2699,6 @@
     "AlreadyOwnItemTitle": "發生錯誤！",
     "AlreadyOwnBPDescription": "由於<text color=\"FFF\">{DisplayName}</>在你嘗試贈禮時購買了戰鬥通行證，\n你現在將收到一個戰鬥通行證贈禮代幣。你可以用它贈送戰鬥通行證給另一位好友。如果戰鬥通行證贈禮代幣在本賽季結束前仍未使用，它將轉換為950 V-Buck存入你的帳號。"
   },
-  "AthenaGiftingFlowConfirmationScreen": {
-    "NewGiftBoxReceived": "已獲得新的禮物包裝選項！"
-  },
   "AthenaGiftingFlowErrorsPanel": {
     "GenericErrorDescription": "發生未知錯誤",
     "RecipientCantReceiveGiftsDescription": "看來<text color=\"FFF\">{DisplayName}</>目前無法接收禮物",
@@ -2708,13 +2711,6 @@
     "RecipientCantReceiveGiftsTitle": "發生錯誤！",
     "AlreadyOwnItemTitle": "發生錯誤！",
     "AlreadyOwnBPDescription": "由於<text color=\"FFF\">{DisplayName}</>在你嘗試贈禮時購買了戰鬥通行證，\n你現在將收到一個戰鬥通行證贈禮代幣。你可以用它贈送戰鬥通行證給另一位好友。如果戰鬥通行證贈禮代幣在本賽季結束前仍未使用，它將轉換為950 V-Buck存入你的帳號。"
-  },
-  "AthenaGiftingFlowPurchaseButton": {
-    "Continue": "繼續",
-    "GetVBucks": "取得 V-Buck",
-    "PurchaseGift": "購買禮物！",
-    "ReloadVBucks": "加值 V-Buck",
-    "SendGift": "傳送禮物！"
   },
   "AthenaGiftingFlowPurchasePanel": {
     "RetrySocialNameInfo": "{DisplayName}現在將收到",
@@ -4112,14 +4108,21 @@
     "JsonError": "{0}類型的伺服器錯誤"
   },
   "EventPreview": {
-    "PauseFrameTooltip": "當你勾選「開始時暫停」並進入 PIE 時，事件序列將凍結在某一幀上。已限制為每個序列的範圍。",
-    "PauseOnStartTooltip": "一進入 PIE 模式，就立刻在選定幀凍結事件的關卡序列，好讓你手動控制播放，以便用鏡頭錄製器擷取。僅限編輯器/在編輯器中玩。",
+    "WaitForUnpauseVolumeTooltip": "按住，直到有人穿過特別活動預覽的繼續音量區域，而不是在計時器到點時繼續。",
+    "StartSecondsTooltip": "在選定的階段中要從哪裡開始（以秒為單位），從該階段在序列中的開始位置起算。已限制為序列的長度。僅限編輯器/PIE。",
+    "OpenMainEventSequence": "開啟主秀定序",
+    "OpenMainSequenceTooltip": "按下階段按鈕時，在序列器中開啟主要活動流程，並跳至此階段的開始位置。",
     "OpenSequenceTooltip": "按下階段按鈕時，在序列器中開啟此階段的關卡序列。",
-    "PauseOnStartMode": "開始時暫停",
-    "UnpauseVolumeNote": "要在 PIE 中恢復：在關卡中放置一個特別活動預覽解除暫停區域，並讓玩家走過去。",
-    "AtFrame": "位於畫格",
+    "OpenMainEventSequenceTooltip": "在序列器中開啟 {0}。",
+    "PreviewPauseIndefiniteNote": "「播放」會在此處啟動活動，並無限期維持（編輯器偏好設定中的「自動恢復秒數」為 0）。執行 Fort.SpecialEvent.Preview.Play 以繼續吧。",
+    "PreviewPauseVolumeNote": "播放會在此處開始事件，並保持暫停狀態，直到有人穿過繼續區域為止。",
+    "PreviewPauseAutoNote": "遊玩在這裡開始活動，在階段的圖層載入期間會停住 {0} 秒，然後繼續進行。",
+    "StartOnSecond": "在第 2 秒開始",
+    "UnpauseWithVolume": "以取消暫停音量繼續",
     "OpenSequenceSubtitle": "開啟定序",
-    "StronglyRecommendedTag": "推薦"
+    "StronglyRecommendedTag": "推薦",
+    "PreviewStartZeroNote": "{0}\n\n0 是序列的第一個影格，通常是空白的。輸入較晚的時間，降落到你看得見的東西上。",
+    "PreviewPauseSkippedNote": "{0} 會跳過按住——PIE 會直接一路播放到底。這些設定仍適用於每隔一個階段。"
   },
   "EventTeamMatchHistoryEntry": {
     "MatchNumber": "#{0}",
@@ -4196,6 +4199,21 @@
     "SectionName": "Juno",
     "ExtensionName": "Juno 工具",
     "ConfigurePrefabTool": "預置物"
+  },
+  "FLimeAtomBuildingActorOverlapValidator": {
+    "AddingOverlappingActors": "建造角色「{0}」與其他 {1} 位角色重疊：「{2}」",
+    "ValidatorName": "建物角色重疊驗證器",
+    "AtomValidationUtils_BuildingActorOKWithNoOverlaps": "忽略重疊項目"
+  },
+  "FLimeAtomOverlapValidator": {
+    "AddingOverlappingActors": "演員「{0}」與其他 {1} 位演員重疊：「{2}」",
+    "DetailedCollisionOverlappingActorsMessage": "角色 ({0}) 與其他角色重疊。",
+    "ActorNotCheckedForDetailedOverlaps": "對象（{0}）未進行詳細重疊檢查，因為無法執行詳細碰撞檢查，因此改為回報快速通關的結果。",
+    "OverlapCheckSkippedNoWorld": "角色（{0}）未檢查重疊，因為其不在世界中。",
+    "FixerName": "修理重疊",
+    "FixerTooltip": "若發生重疊驗證問題，請嘗試使用連線吸附來找到有效的放置位置。一次修正一個問題。",
+    "AtomValidationUtils_IgnoringValidation": "忽略驗證",
+    "ValidatorName": "重疊驗證器"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "存放{amount}{resourcetype}",
@@ -5093,9 +5111,14 @@
     "CreateAccountTitle": "建立帳號",
     "CreateAccountPinFailed": "無法建立未綁定 Epic 帳號的帳號。",
     "LinkAccountTitle": "連結帳號",
+    "NintendoPlatformName": "Nintendo",
+    "PlayStationPlatformName": "PlayStation",
     "ProceedWithoutLinking": "繼續而不連結帳號……",
     "GettingPinCode": "請求 PIN 授權碼……",
-    "LinkAccountFailed": "已成功建立帳號，但連結失敗。請再試一次。"
+    "SignInTitle": "登入",
+    "LinkAccountFailed": "已成功建立帳號，但連結失敗。請再試一次。",
+    "XboxPlatformName": "Xbox",
+    "PlatformAccountFormat": "你的{0}帳號是"
   },
   "FortActivityBrowserListView": {
     "Manual_BR": "大逃殺",
@@ -5988,6 +6011,7 @@
     "CheckCrossPlayPrivilege": "正在檢查Cross-Play權限……",
     "CheckUGCPrivilege": "正在檢查UGC權限……",
     "SilentClaimMfaReward": "領取獎勵……",
+    "CleanupForLogout": "正在清理……",
     "DisconnectingFromLobby": "正在清理……",
     "LogoutUsabilityExperiment": "正在清理……",
     "FailedClientSettingsDownloadTitle": "雲端下載失敗",
@@ -6035,6 +6059,7 @@
     "RegisterLockManager": "正在註冊到鎖定管理器…",
     "DeletingCreds": "正在刪除身分驗證……",
     "RemoveCachedSupervisedSettings": "正在移除快取監控設定……",
+    "WaitForFrontend": "正在返回主選單……",
     "StartVoiceChat": "開始語音聊天……",
     "DisconnectingFromVivox": "停止語音聊天……",
     "FailedPurchaseRedemptionNowRedeemedTitle": "商店現已開放！",
@@ -6171,7 +6196,9 @@
     "NotEnoughResourcesText": "你的資源不足！"
   },
   "FortPinGrantCodeInfoWidget": {
-    "ExpiringTime": "{0}秒後過期"
+    "ExpiringTime": "{0}秒後過期",
+    "ActivationURLPrompt": "前往",
+    "ActivationURLPromptWithQRCode": "或前往"
   },
   "FortPinModal": {
     "CreatePinRequest": "請輸入新的 6 位數 PIN 碼存取由家長監控鎖定的功能。",
@@ -6184,6 +6211,8 @@
     "IncorrectPin": "PIN 碼錯誤，請重試",
     "PinAttemptsExceeded": "PIN 碼嘗試次數已超過限制",
     "CilantroRequest": "若要同意延長時間，請先輸入家長監控 PIN 碼。",
+    "UnlockGamemodeConnectionError": "我們無法驗證你的 PIN。請檢查網路連線並稍後再試。",
+    "UnlockGamemodeError": "我們無法驗證你的 PIN。請稍候幾分鐘再試一次。",
     "AcceptFriendRequestInfoTitle": "好友可以做些什麼？",
     "DefaultOfferName": "此優惠",
     "LocalPlayerYour": "你的",
@@ -7100,6 +7129,7 @@
     "CameraAssistsCollection_Name": "鏡頭",
     "CameraAssists_Name": "鏡頭輔助",
     "JunoCombatAnyDirection_Disabled": "鏡頭方向",
+    "CameraShakeEnabled_Name": "鏡頭晃動",
     "CanReceiveGifts_Name": "可接收禮物",
     "CanSeeOtherPlayersNames_Name": "可以看到非隊伍成員名稱",
     "OnlyPrimaryPlayerEditable": "只能由主要玩家更改。",
@@ -8526,6 +8556,7 @@
     "FollowCamera_Description_Switch": "開啟後，只要你沒有瞄準或射擊，向左或右移動的同時就會轉動鏡頭。如果覺得一直使用雙搖桿很難操作，則可啟用此功能。R 操控搖桿仍能正常運作，因此可在啟用此功能的情況下學習使用 R 操控搖桿。",
     "FollowCamera_Description": "開啟後，只要你沒有瞄準或射擊，向左或右移動的同時就會轉動鏡頭。如果覺得一直使用雙搖桿很難操作，則可啟用此功能。右操作桿仍能正常運作，因此可在啟用此功能的情況下學習使用右操作桿。",
     "FollowCamera_Description_PS4_PS5": "開啟後，只要你沒有瞄準或射擊，向左或右移動的同時就會轉動鏡頭。如果覺得一直使用雙搖桿很難操作，則可啟用此功能。右操作桿仍能正常運作，因此可在啟用此功能的情況下學習使用右操作桿。",
+    "CameraShakeEnabled_Description": "When on, the camera will shake in response to events such as explosions and impacts.",
     "AutoPickupWeaponsConsolePC_Description_Shorter": "開啟後，除非物品欄已滿，否則經過武器時將自動拾取。",
     "AutoPickupWeapons_Description_Shorter": "開啟後，除非物品欄已滿，否則經過武器時將自動拾取。",
     "AutoInteractConsumables_Description": "開啟後，當你面向蘋果、蘑菇和其他消耗品時，會自動食用它們。",
@@ -9826,6 +9857,7 @@
     "BannedFromWorld": "你已被禁止進入你組隊所在的世界。",
     "MfaRequiredForTournament": "你必須在 Epic 帳號上啟用雙重驗證才能參加本次錦標賽。訪問：{TurnOnMfaURL}以啟用。",
     "WrongNumberOfEventPlayers": "你需要參加本次錦標賽的完整派對。",
+    "PartyMemberBannedFromWorld": "你或你的隊伍成員已遭此世界封鎖。",
     "MatchCapExceeded": "你已達到本次活動的最大配對次數。查看競賽標籤以了解詳情和即將開放的活動。",
     "Error.AccountLevelTooLow": "你的帳號等級（{0}）不符合遊戲的最低要求：{1}。",
     "Error.BRRankLevelTooLow": "你目前的《大逃殺》階位等級（{0}）不符合遊玩的最低需求：{1}。",
@@ -10094,6 +10126,7 @@
     "NotFriendsLongEnough": "可以在{0}天後接收禮物！",
     "NotAcceptingGifts": "不接受禮物",
     "NotFriends": "贈禮只能在好友之間使用。",
+    "NewGiftBoxReceived": "已獲得新的禮物包裝選項！",
     "NotAFortnitePlayer": "非Fortnite玩家",
     "OwnedMultiInstanceItems": "已擁有：<text color=\"fff\">{owned}</>",
     "OwnsItemFromBundle": "部分擁有",
@@ -10253,10 +10286,9 @@
     "PEGI_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 歲",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
     "CLASSIND_AGE_18_Abbreviated": "18",
+    "PEGI_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 歲",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
@@ -10290,6 +10322,7 @@
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
     "ClassInd_AIInteraction_v11_0": "AI 互動",
+    "USK_AIGeneratedContent_v11_0": "AI 產生的內容",
     "USK_AbstrakteGewalt": "抽象暴力",
     "ACB_ActionViolence_v10_0": "動作暴力",
     "ClassInd_AdolescentThemes": "青少年主題",
@@ -10354,6 +10387,8 @@
     "ACB_CrudeHumour": "低俗笑話",
     "ACB_CrudeSexualHumour": "低俗色情笑話",
     "ACB_CrudeSexualReferences": "低俗性相關內容",
+    "GEN_Cryptocurrency_v11_0": "加密貨幣",
+    "PEGI_Cryptocurrency_v11_0": "加密貨幣",
     "USK_DustereAtmosphare_v10_0": "陰沉氛圍",
     "IE_DigitalPurchases": "數位購買",
     "GEN_Discrimination": "歧視",
@@ -10406,6 +10441,7 @@
     "PEGI_Fear": "恐懼",
     "RUS_Fear_v7_0": "恐懼",
     "IGRS_FearHorror": "恐懼/驚悚",
+    "USK_FinancialSpeculationRisk_v11_0": "財務投機風險",
     "GRAC_AGE_12": "適合12歲以上",
     "GRAC_AGE_ALL": "適合所有年齡",
     "ACB_AGE_G_Abbreviated": "G",
@@ -10419,6 +10455,8 @@
     "RUS_Gambling_v7_0": "賭博",
     "ACB_GamblingThemes_v9_0": "賭博主題",
     "ESRB_GamblingThemes_v9_0": "賭博主題",
+    "GEN_GamblingThemes_v11_0": "賭博主題",
+    "PEGI_GamblingThemes_v11_0": "賭博主題",
     "USK_SimulatedGambling_v8_0": "賭博主題",
     "ClassInd_GamblingOrGamesOfChance": "賭博或機會遊戲",
     "USK_GlucksspielMitGeldeinsatz_v7_0": "現金賭博",
@@ -10435,6 +10473,7 @@
     "ACB_HighImpactComedicViolence": "高度喜劇式暴力",
     "ACB_HighImpactCrudeHumour": "高度低俗笑話",
     "ACB_HighImpactCrudeSexualReferences": "高度低俗性相關內容",
+    "ACB_HighImpactDisturbingThemes_v11_0": "高度令人不安主題",
     "ACB_HighImpactDrugReferences": "高度毒品相關內容",
     "ACB_HighImpactDrugUse": "高度毒品使用",
     "ACB_HighImpactFamilyViolence_v10_0": "高度家庭暴力",
@@ -10454,6 +10493,7 @@
     "ACB_HighImpactSexualReferences": "高度性相關內容",
     "ACB_HighImpactSexualThemes": "高度性主題",
     "ACB_HighImpactSexualisedImagery": "高度性暗示圖像",
+    "ACB_HighImpactSimulatedGambling_v11_0": "高度模擬賭博",
     "ACB_HighImpactSportingViolence_v10_0": "高度運動暴力",
     "ACB_HighImpactSuggestiveThemes": "高度暗示主題",
     "ACB_HighImpactSuicideReferences_v10_0": "高度自殺相關內容",
@@ -10505,7 +10545,7 @@
     "IGRS_Language": "語言",
     "PEGI_Language": "語言",
     "RUS_Language_v7_0": "語言",
-    "CERO_LanguageAndOthers": "語言和其他",
+    "CERO_LanguageAndOthers": "語言/其他",
     "ClassInd_DrogasLicitas": "合法毒品",
     "ClassInd_LightAnimatedViolence": "輕微動畫暴力",
     "CERO_Love": "戀愛",
@@ -10604,6 +10644,7 @@
     "PEGI_AGE_PG": "建議由家長陪同",
     "PEGI_AGE_12": "PEGI 12",
     "PEGI_AGE_16": "PEGI 16",
+    "PEGI_AGE_18": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10612,6 +10653,8 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
+    "GEN_PaidRandomItems_v11_0": "付費隨機物品",
+    "PEGI_PaidRandomItems_v11_0": "付費隨機物品",
     "TCA_AGE_PG_12": "輔導級 12",
     "TCA_AGE_PG_15": "輔導級 15",
     "GEN_ParentalGuidanceRecommended": "建議由家長陪同",
@@ -10623,6 +10666,8 @@
     "ACB_PredatoryAnimalBehaviour": "掠食性動物行為",
     "FPB_Prejudice": "偏見",
     "USK_Handlungsdruck_v9_0": "行動壓力",
+    "GEN_PressureToPlay_v11_0": "遊戲壓力",
+    "PEGI_PressureToPlay_v11_0": "遊玩的壓力",
     "USK_DruckZumVielspielen_v10_0": "過度遊戲壓力",
     "USK_ProblematischeWerbeinhalte_v10_0": "有問題的廣告內容",
     "USK_ProblematischeRollenbilder_v10_0": "有問題的榜樣",
@@ -10657,6 +10702,8 @@
     "ClassInd_SexInsinuation": "性暗示",
     "ACB_SexScenes": "性愛場景",
     "ClassInd_SexScenes": "性愛場景",
+    "EPIC_CERO_Sex_Industry": "性娛樂產業",
+    "EPIC_CERO_Sexually_Suggestive_Imagery": "性暗示表情",
     "USK_SexErotik": "性/色情",
     "ACB_SexualActivityRewards": "與誘因和獎勵相關的性行為",
     "ClassInd_ConteudoSexual": "性內容",
@@ -10703,6 +10750,7 @@
     "ACB_StrongCrimeThemes": "強烈犯罪主題",
     "ACB_StrongCrudeHumour": "強烈低俗笑話",
     "ACB_StrongCrudeSexualReferences": "強烈低俗性相關內容",
+    "ACB_StrongDisturbingThemes_v11_0": "強烈令人不安的主題",
     "ACB_StrongDrugReferences": "強烈毒品相關內容",
     "ACB_StrongDrugUse": "強烈毒品使用",
     "ACB_StrongFamilyViolence_v10_0": "強烈家庭暴力",
@@ -10746,13 +10794,20 @@
     "ACB_SuicideScenes_v10_0": "自殺場景",
     "ACB_SupernaturalThemes": "超自然主題",
     "ACB_SupernaturalViolence_v10_0": "超自然暴力",
+    "ACB_SustainedThreat_v11_0": "持續威脅",
+    "EPIC_CERO_Swimsuits_Costumes": "泳裝/服裝",
     "ESRB_AGE_T_Abbreviated": "T",
     "ESRB_AGE_T": "青少年",
     "ClassInd_Tension": "緊張內容",
     "ACB_Threat": "威脅",
+    "GEN_TimeLimitedOffers_v11_0": "限時優惠",
+    "PEGI_TimeLimitedOffers_v11_0": "限時優惠",
     "ESRB_TobaccoReference": "菸品相關內容",
     "USK_Tabakkonsum": "使用菸品",
     "TCA_TobaccoAndAlcohol": "菸品和酒精",
+    "EPIC_CERO_Exposure_Underwear": "內衣暴露",
+    "GEN_UnrestrictedCommunication_v11_0": "無限制通訊",
+    "PEGI_UnrestrictedCommunication_v11_0": "不限制通訊",
     "IE_UnrestrictedInternet": "不受限網路",
     "ESRB_UseofAlcohol": "使用酒精",
     "ESRB_UseofAlcoholandTobacco": "使用酒精和菸品",
@@ -10815,11 +10870,7 @@
     "ClassInd_ViolenceAgainstVulnerablePersons": "針對弱勢族群的暴力行為",
     "ESRB_ViolentReferences": "暴力相關內容",
     "ACB_WarThemes": "戰爭主題",
-    "USK_WarThemes_v7_0": "戰爭主題",
-    "EPIC_CERO_Exposure_Underwear": "ä¸‹ç€ã®éœ²å‡º",
-    "EPIC_CERO_Swimsuits_Costumes": "æ°´ç€ãƒ»ã‚³ã‚¹ãƒãƒ¥ãƒ¼ãƒ ",
-    "EPIC_CERO_Sexually_Suggestive_Imagery": "æ€§çš„ãªã‚‚ã®ã‚’æƒ³èµ·ã•ã›ã‚‹è¡¨ç¾",
-    "EPIC_CERO_Sex_Industry": "æ€§é¢¨ä¿—æ¥­"
+    "USK_WarThemes_v7_0": "戰爭主題"
   },
   "InteractionPointWidget": {
     "DistanceTextFormatted": "{DistanceValue} 公尺"
@@ -11152,19 +11203,23 @@
     "EditInPromptEditor": "在提示編輯器中編輯"
   },
   "LLMSession": {
+    "ErrorSource_Fact": "事實",
     "ErrorSource_InstructionPrompt": "說明指令",
     "Error_SummaryPrompt": "指令提示字元超出上限",
     "CannotUseConversations": "本地使用者未獲授權使用 LLM 對話。",
+    "ErrorSource_Prompt": "提示",
     "ErrorSource_RegisteredActions": "已記錄的操作",
     "Error_SummarySO": "結構欄位描述超出限制",
     "ResonanceServiceUnavailable": "無法使用共振服務",
     "SessionClosedBeforeExchange": "在發送提示前共振階段已關閉",
     "SessionClosedBeforeUpdate": "在發送提示前共振階段已關閉",
     "SessionClosedWhileQueued": "在發送提示前共振階段已關閉",
-    "Error_DetailsPrompt": "{CharacterName} 的指令提示字元數超過 {CharacterLimit} 字元上限。",
-    "Error_DetailsSO": "{Source} 欄位說明的總字數超過了 {CharacterLimit} 字的限制。",
+    "Error_DetailsPrompt": "{CharacterName} 的指令提示字元數超過 {Limit} 字元上限。",
+    "Error_DetailsSO": "{Source} 欄位說明的總字數超過了 {Limit} 字的限制。",
     "ModerationMsg": "此回應已被隱藏",
     "Error_DetailsSchema": "使用提供的 struct 構建 JSON 綱要時發生問題。",
+    "Error_SummaryBlocks": "對 AI 生成文字的參考過多",
+    "Error_DetailsBlocks": "{CharacterName} 的 AI 生成文字參照次數過多（{Source}，上限為 {Limit}）。參考較少 AI 生成的文字片段。",
     "Error_SummarySchema": "無法建置配置",
     "StartSessionFailed": "無法啟動共振階段",
     "UnknownRestriction": "未知限制"
@@ -11194,6 +11249,12 @@
   },
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "（{0}）"
+  },
+  "LimeAtomValidationValidators": {
+    "ValidationFailed": "LEGO® {0} 無法完成驗證，其結果可能不完整。",
+    "IssueCountErrors": "LEGO® {0} 找到 {1} {1}|plural(one=個問題,other=個問題)。這違反了 LEGO® 的指導方針。所有問題都應解決，否則你的專案將面臨審核失敗的風險。在 LEGO® 驗證面板中執行驗證來檢視它們",
+    "IssueCountWarnings": "LEGO® {0} 找到 {1} {1}|plural(one=警告,other=警告)。這違反了 LEGO® 的指導方針。所有問題都應解決，否則你的專案將面臨審核失敗的風險。在 LEGO® 驗證面板中執行驗證，以檢查它們",
+    "MaxIssuesReached": "LEGO® {0} 在找到問題數量上限（{1}）後就停止了，所以可能還有更多問題。這違反了 LEGO® 的指導方針。所有問題都應解決，否則你的專案將面臨審核失敗的風險。"
   },
   "LiteUIKit": {
     "WidgetPaletteCategory": "輕量版介面工具"
@@ -11960,7 +12021,8 @@
     "LogicType": "True 和 False 值"
   },
   "PersonaPromptEditor": {
-    "EditFactText": "編輯事實文字"
+    "EditFactText": "編輯事實文字",
+    "SetResonanceConfiguration": "設定共振配置"
   },
   "PickerContext": {
     "UFortPickerContext.EmojiCategoryTitle": "表情符號",
@@ -12178,6 +12240,13 @@
   "ReportReasonDetails": {
     "CommunicationAbuseDetails": "如果開啟語音檢舉並希望在檢舉中附加音訊錄音，可以透過側欄的語音聊天分頁送出語音檢舉。如果開啟文字檢舉並希望在檢舉中附加文字聊天逐字稿，可以透過文字聊天視窗送出文字聊天檢舉。"
   },
+  "ResonanceConfigurationPicker": {
+    "ResonanceConfigurationDefault": "預設",
+    "MultipleValues": "多個值",
+    "ResonanceConfigurationDeprecated": "{0}（已棄用）",
+    "ResonanceConfigurationMissing": "{0}（缺少）",
+    "ResonanceConfigurationDuplicateLabel": "{0}（{1}）"
+  },
   "Riding": {
     "DismountInput": "（長按）下地",
     "JumpInAir": "（在空中）跳躍下地",
@@ -12387,6 +12456,10 @@
     "SplashTextName": "空間指標分析器",
     "WindowTitle": "空間指標分析器",
     "AppTitle": "空間分析器"
+  },
+  "SpecialEventGameplayAnimNodes": {
+    "SpecialEventRewindPlayback_Tooltip": "在向後倒下時播放記錄下來的姿勢，並配合特殊活動的倒轉時鐘同步進行。未倒轉時，將輸入姿勢原樣傳遞。",
+    "SpecialEventRewindPlayback_Title": "特別活動倒帶重播"
   },
   "SpectatorLensSettings": {
     "ApertureFNumber": "f/{Aperture}",
@@ -12922,9 +12995,6 @@
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "你成功送給<text color=\"FFF\">{DisplayName}</>一份禮物！"
   },
-  "UAthenaGiftFlowConfirmedPanel": {
-    "RecipientInfo": "你成功送給<text color=\"FFF\">{DisplayName}</>一份禮物！"
-  },
   "UAthenaLockerCategorySortConfig": {
     "AllGroupNameKey": "全部",
     "CategoriesGroupNameKey": "類別",
@@ -13047,7 +13117,6 @@
     "PurchaseFailedToStart": "我們在開始你的購買時遇到了一個嚴重錯誤。請稍後再試。",
     "PurchaseFailedToStartDueToMissingPrices": "我們在開始你的購買時遇到了嚴重錯誤。請稍後再試。",
     "PurchaseHasNoNewEntitlements": "我們在你購買時遇到了一個嚴重錯誤。我們的團隊已派員前往解決此問題。當你的購買完成後我們將會確認！",
-    "PurchaseBlockedDueToNoCTCCountryErrorCode": "我們在處理你的購買時遇到了一個嚴重錯誤。請將你的 iOS 版本更新至最新可用版本，並再試一次。",
     "MismatchedLocalUserAndStoreUser": "你的 Xbox 帳號與 Microsoft Store 帳號不同。若未使用相同帳號同時登入 Xbox 應用程式和 Microsoft Store，你將無法購買新物品。",
     "EULAFormat": "{0}\n\n{1}"
   },

@@ -368,6 +368,8 @@
     "231AF36049841BCCCB72619C0346D63B": "<Viper Glitch> Gaya",
     "06EEB84B4F23444589A9758F73B79CF5": "?",
     "892F58F84D92D5D260611CAD336AA6E0": "???",
+    "B14CFAD643402417AB3FD6B1B32B75CB": "???",
+    "DEBF4E2A47784C62A3FD27B10E7D79D8": "???",
     "6FCE2A4A45997CDAF9AD3B88BBEEBA16": "A",
     "8CC4A59940F77C4B19BBAF971F20D5C3": "A",
     "9AD70FCB49C057A8CE26F886558FA4F1": "A",
@@ -605,7 +607,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "DX Tong-Besar",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Biplane",
     "5B5236944941BFD7DE82B8B05FE11D94": "Biplane",
-    "DF56207843F6244003548CA79CFAA0F4": "Biplane",
     "F5EB146E408C915363F761972AA43B8A": "Kue Ulang Tahun!",
     "AD9DF9A2455C274907AE29971466ADBA": "Pedang",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "Pedang",
@@ -1586,7 +1587,11 @@
     "CFBFEBC248741ED6E0FCC88CC754A22E": "Meriam Bajak Laut",
     "11286DCA40C6C1D1248DB4AB4FD95F92": "Toko Bajak Laut",
     "3D5384AE463D8C77B1E6578A793F29D9": "Toko Bajak Laut",
+    "5A823CFA4FD32ABE380CF5A3C886E487": "Toko Bajak Laut",
+    "EE8BF7EC40A7B072DFBEEA830DDD5863": "Toko Bajak Laut",
     "5771CEED4E3A98EAD847BFBFD4FA34A5": "Akses Toko Bajak Laut (2026)",
+    "7F7334F04E249310781F1CB69D100D8D": "Akses Toko Bajak Laut (2026)",
+    "5014942149F16C9E7F6A40A04864CCE8": "Akses Toko Bajak Laut (2027)",
     "7E0278EF4B5184B9FEB6EBA2547E1429": "Akses Toko Bajak Laut (2027)",
     "923CD0CD437F2EC013D0FCA6E8CFD824": "Pistol",
     "AE872A134006CB20B62E40B07D5FDAFC": "Pistol",
@@ -1606,6 +1611,8 @@
     "37A0DD2F4837BA7835216D877196C2CA": "Damage yang diterima pemain",
     "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "Mohon atur ulang tombol untuk aksi {s}.",
+    "069C1FF040D0E48A95E61995B44640B3": "Jarah Toko Item Fortnite selama 14 hari sejak aktivasi.",
+    "579B339F46238309C9A7919644F44803": "Jarah Toko Item Fortnite selama 14 hari sejak aktivasi.",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "Busur Tongkat Sedot",
     "4567895244A3DDF0A6347DB93EA4AB9A": "Bom Joget Saku",
     "ECC1B5C641A0A7993449F39BB4F46B87": "Impuls Saku ",
@@ -1667,6 +1674,7 @@
     "FD23E7C946966E8E24F1ADA1EDA51CB1": "SMG Tembakan Cepat +",
     "BA4B1FDD40153AE8C9FC76ACC646E32C": "SMG tembakan cepat dengan <Emphasized>ukuran magasin</> yang ditingkatkan",
     "86F951AB4B4721B924CABA82FEFC3EC7": "Kotak Amunisi Langka",
+    "B1CFA5584EBD1878822A699ECEB629A6": "Peti Rare",
     "101BBD144878EB1AA8CCD292737797AE": "Pemindai Pengintai",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Prajurit Rekrutan",
     "1C77EAFB46C48299170B7486AEFB6294": "Oranye Merah",
@@ -1796,7 +1804,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Pencuri Perisai",
     "4F611C954A5378BFC1804C96BB3981FE": "Sinergi Perisai",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Lemparan Perisai",
-    "6FE5EF624909BEBF19A4F7A143733F40": "Meriam Kapal",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Meriam Kapal",
     "85A285654B56001B52E9ABBC806822EB": "Gawai Gelombang Kejut",
     "8E57565847BBBCA8EE6AD38208D056E1": "Granat Gelombang Kejut +",
@@ -1909,7 +1916,7 @@
     "404A7F8F45CCEA3AC57992A9D25A2D4A": "Tetap di dalam Mata Badai",
     "BD933A0A4D2108A6FF3D948E3CD2DBD4": "Tetap di dalam Mata Badai",
     "E5B8A51D416E77718A746EB15445A3B2": "Tetap di dalam Mata Badai",
-    "749E72FD4C3CC3C5F34EBF91EF87C060": "Meriam Meluncur",
+    "749E72FD4C3CC3C5F34EBF91EF87C060": "Gunakan Meriam",
     "1F73D3BA424CEEC0244715AA22383298": "Tempelkan dan bergerak",
     "67B787224887A430EF752C8C36303455": "Tempelkan dan bergerak",
     "A700825E43AA6B5E4A7A9DA406727C3B": "Tempelkan dan bergerak",
@@ -2084,6 +2091,7 @@
     "A9F43F3A48770C515DF7A5AF1DF5A128": "Akan terungkap.",
     "E01C6F584A3A7BA4F94BAB8231E0841B": "Akan terungkap.",
     "060777BC47099F2DF28068980DCF0AFD": "Akan terungkap ... ",
+    "06F058FB4EE7E7F56D73D89FB36552DA": "Akan terungkap ... ",
     "499889C94D330A143D60249B468EE7BF": "Akan terungkap ... ",
     "4B1D57F64AA9FD8A596664A18AF6640E": "Akan terungkap ... ",
     "60D8C0614084FA6FCACF19866EF0FDBE": "Akan terungkap ... ",
@@ -2183,7 +2191,6 @@
     "2D63B0854707C30350F8B7A03551788D": "UtilityItem ",
     "CF3BD1EE41CFC0D5B59A619710C3BAE0": "UtilityItem AoE Silver Blazer gelembung perisai",
     "17E86A814E1BF4CEFB61E2BC6268CEE7": "UtilityItem Rift",
-    "2640FD984FA75748AC19FCBBD963DE79": "V-Buck",
     "36C0892442CACB9BDAD4C3B09F0BF96C": "V-Buck",
     "D6DDC6A9427A759E55A7BBB8A12736D1": "V-Buck",
     "9FBB32C24460E6E70940859CABCF1987": "Pemasukan V-Buck",
@@ -2196,7 +2203,6 @@
     "454B71ED42ED250EDBECF59B7A7D9643": "VK Belum Diuji",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "Mata uang berharga yang dipakai untuk membeli barang di toko.",
     "67E0A04E48C18017454CB4B84AF5716F": "Mata uang berharga yang dipakai untuk membeli barang di toko.",
-    "D35857B04A6D171C1C63A1A7DEAA0DD4": "Mata uang berharga yang dipakai untuk membeli barang di toko.",
     "863EB9E944912130B5EAA6A39CC800BC": "Mata uang berharga yang dipakai untuk membeli barang di toko.  Ini diperoleh oleh developer/kreator game (seperti kreator UEFN)",
     "D461D4C54C20240513787CBF1FDA9A57": "Tong-Ganda Varial",
     "ABB98286476BE4B2D835939202B2B43D": "G-Force Varial",
@@ -2693,9 +2699,6 @@
     "AlreadyOwnItemTitle": "Terjadi kesalahan!",
     "AlreadyOwnBPDescription": "Sekarang, kamu akan menerima Token Kado Battle Pass karena <text color=\"FFF\">{DisplayName}</> membeli Battle Pass selama upaya pemberian Kado yang kamu lakukan.\n Kamu dapat menggunakannya untuk memberikan Battle Pass kepada teman yang lain. Jika Token Kado Battle Pass tidak digunakan hingga akhir musim, token tersebut akan dikonversi menjadi 950 V-Buck di akunmu."
   },
-  "AthenaGiftingFlowConfirmationScreen": {
-    "NewGiftBoxReceived": "Opsi bungkus hadiah baru diperoleh!"
-  },
   "AthenaGiftingFlowErrorsPanel": {
     "GenericErrorDescription": "Kesalahan yang tidak diketahui telah terjadi",
     "RecipientCantReceiveGiftsDescription": "Sepertinya <text color=\"FFF\">{DisplayName}</> tidak memenuhi syarat untuk menerima hadiah.",
@@ -2708,13 +2711,6 @@
     "RecipientCantReceiveGiftsTitle": "Terjadi Kesalahan!",
     "AlreadyOwnItemTitle": "Terjadi kesalahan!",
     "AlreadyOwnBPDescription": "Sekarang, kamu akan menerima Token Kado Battle Pass karena <text color=\"FFF\">{DisplayName}</> membeli Battle Pass selama upaya pemberian Kado yang kamu lakukan.\n Kamu dapat menggunakannya untuk memberikan Battle Pass kepada teman yang lain. Jika Token Kado Battle Pass tidak digunakan hingga akhir musim, token tersebut akan dikonversi menjadi 950 V-Buck di akunmu."
-  },
-  "AthenaGiftingFlowPurchaseButton": {
-    "Continue": "Lanjutkan",
-    "GetVBucks": "Dapatkan V-Buck",
-    "PurchaseGift": "Beli Hadiah!",
-    "ReloadVBucks": "Muat Ulang V-Buck",
-    "SendGift": "Kirim Hadiah!"
   },
   "AthenaGiftingFlowPurchasePanel": {
     "RetrySocialNameInfo": "{DisplayName} sekarang akan menerima",
@@ -4112,14 +4108,21 @@
     "JsonError": "Kesalahan server tipe {0}"
   },
   "EventPreview": {
-    "PauseFrameTooltip": "Frame tempat Sequence milik event membeku saat kamu masuk ke PIE dengan Pause on start dicentang. Dibatasi sesuai rentang tiap sequence.",
-    "PauseOnStartTooltip": "Bekukan Level Sequence milik event pada frame yang dipilih begitu kamu masuk ke PIE, sehingga kamu bisa mengendalikan playback secara manual untuk rekaman Take Recorder. Hanya untuk Editor/PIE.",
+    "WaitForUnpauseVolumeTooltip": "Tahan hingga seseorang berjalan melewati Volume Lanjutkan Pratinjau Event Spesial, alih-alih melanjutkan berdasarkan timer.",
+    "StartSecondsTooltip": "Seberapa jauh ke dalam fase yang dipilih untuk mulai, dalam detik, dihitung dari titik awal fase di urutannya. Dibatasi sesuai durasi sequence. Khusus Editor/PIE.",
+    "OpenMainEventSequence": "Buka sequence Event Utama",
+    "OpenMainSequenceTooltip": "Buka urutan event utama di Sequencer, lalu lompat ke bagian awal fase ini, saat tombol fase diklik.",
     "OpenSequenceTooltip": "Buka Level Sequence fase ini di Sequencer saat tombol fase diklik.",
-    "PauseOnStartMode": "Jeda saat memulai",
-    "UnpauseVolumeNote": "Untuk melanjutkan di PIE: tempatkan Volume Lanjutkan Pratinjau Event Spesial di dalam level, lalu arahkan pemain untuk melewatinya.",
-    "AtFrame": "pada frame",
+    "OpenMainEventSequenceTooltip": "Buka {0} di Sequencer.",
+    "PreviewPauseIndefiniteNote": "Mainkan memulai event di sini dan menahannya tanpa batas (Detik Lanjut Otomatis adalah 0 di Preferensi Editor). Jalankan Fort.SpecialEvent.Preview.Play untuk melanjutkan.",
+    "PreviewPauseVolumeNote": "Mainkan memulai event di sini dan menahan hingga seseorang berjalan melewati volume lanjutkan.",
+    "PreviewPauseAutoNote": "Mulai bermain memulai event di sini, menahan {0}dtk sementara layer fase dimuat, lalu lanjut.",
+    "StartOnSecond": "Mulai pada detik kedua",
+    "UnpauseWithVolume": "Lanjutkan dengan volume lanjutkan",
     "OpenSequenceSubtitle": "buka sequence",
-    "StronglyRecommendedTag": "Disarankan"
+    "StronglyRecommendedTag": "Disarankan",
+    "PreviewStartZeroNote": "{0}\n\nNol adalah frame pertama dari urutan, biasanya kosong. Masukkan waktu yang lebih lambat untuk mendarat di sesuatu yang bisa kamu lihat.",
+    "PreviewPauseSkippedNote": "{0} melewati tahanan — PIE memutarnya terus tanpa jeda. Pengaturan ini masih berlaku untuk setiap fase lain."
   },
   "EventTeamMatchHistoryEntry": {
     "MatchNumber": "#{0}",
@@ -4196,6 +4199,21 @@
     "SectionName": "Juno",
     "ExtensionName": "Peralatan Juno",
     "ConfigurePrefabTool": "Pracetak"
+  },
+  "FLimeAtomBuildingActorOverlapValidator": {
+    "AddingOverlappingActors": "Aktor Bangunan '{0}' tumpang tindih dengan {1} aktor lain: '{2}'",
+    "ValidatorName": "Validator Tumpang Tindih Aktor Bangunan",
+    "AtomValidationUtils_BuildingActorOKWithNoOverlaps": "Tumpang Tindih Diabaikan"
+  },
+  "FLimeAtomOverlapValidator": {
+    "AddingOverlappingActors": "Aktor '{0}' tumpang tindih dengan {1} aktor lain: '{2}'",
+    "DetailedCollisionOverlappingActorsMessage": "Aktor ({0}) tumpang tindih dengan aktor lain.",
+    "ActorNotCheckedForDetailedOverlaps": "Aktor ({0}) tidak diperiksa untuk overlap terperinci karena pemeriksaan tabrakan terperinci tidak bisa dijalankan; hasil fast-pass dilaporkan sebagai gantinya.",
+    "OverlapCheckSkippedNoWorld": "Aktor ({0}) tidak diperiksa untuk tumpang tindih karena tidak ada dalam dunia.",
+    "FixerName": "Perbaiki Tumpang Tindih",
+    "FixerTooltip": "Untuk masalah validasi Overlap, coba temukan posisi penempatan yang valid menggunakan snap konektivitas. Memperbaiki satu masalah demi satu masalah.",
+    "AtomValidationUtils_IgnoringValidation": "Mengabaikan Validasi",
+    "ValidatorName": "Validator Tumpang Tindih"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "Deposit {amount} {resourcetype}",
@@ -5093,9 +5111,14 @@
     "CreateAccountTitle": "Buat Akun",
     "CreateAccountPinFailed": "Gagal membuat akun yang tidak terhubung dengan akun Epic.",
     "LinkAccountTitle": "Tautkan Akun",
+    "NintendoPlatformName": "Nintendo",
+    "PlayStationPlatformName": "PlayStation",
     "ProceedWithoutLinking": "Melanjutkan tanpa menautkan akun ...",
     "GettingPinCode": "Meminta Kode Pemberian Pin...",
-    "LinkAccountFailed": "Berhasil membuat akun, tapi gagal menautkan.  Silakan coba lagi."
+    "SignInTitle": "Masuk",
+    "LinkAccountFailed": "Berhasil membuat akun, tapi gagal menautkan.  Silakan coba lagi.",
+    "XboxPlatformName": "Xbox",
+    "PlatformAccountFormat": "Akun {0} milikmu adalah"
   },
   "FortActivityBrowserListView": {
     "Manual_BR": "Battle Royale",
@@ -5988,6 +6011,7 @@
     "CheckCrossPlayPrivilege": "Memeriksa Privilese Permainan Lintas ...",
     "CheckUGCPrivilege": "Memeriksa Privilese UGC ...",
     "SilentClaimMfaReward": "Mengambil imbalan ...",
+    "CleanupForLogout": "Membersihkan ...",
     "DisconnectingFromLobby": "Membersihkan ...",
     "LogoutUsabilityExperiment": "Membersihkan ...",
     "FailedClientSettingsDownloadTitle": "Pengunduhan Cloud Gagal",
@@ -6035,6 +6059,7 @@
     "RegisterLockManager": "Mendaftarkan untuk manajer kunci ...",
     "DeletingCreds": "Menghapus autentikasi ...",
     "RemoveCachedSupervisedSettings": "Menghapus cache pengaturan yang diawasi ...",
+    "WaitForFrontend": "Returning to the main menu...",
     "StartVoiceChat": "Memulai obrolan suara ...",
     "DisconnectingFromVivox": "Menghentikan obrolan suara ...",
     "FailedPurchaseRedemptionNowRedeemedTitle": "Toko Sudah Tersedia!",
@@ -6171,7 +6196,9 @@
     "NotEnoughResourcesText": "Sumber dayamu tidak cukup!"
   },
   "FortPinGrantCodeInfoWidget": {
-    "ExpiringTime": "Kedaluwarsa dalam {0}"
+    "ExpiringTime": "Kedaluwarsa dalam {0}",
+    "ActivationURLPrompt": "Masuk ke",
+    "ActivationURLPromptWithQRCode": "Atau buka"
   },
   "FortPinModal": {
     "CreatePinRequest": "Masukkan PIN 6 digit yang baru untuk mengakses fitur yang terkunci di balik Kontrol Orang Tua.",
@@ -6184,6 +6211,8 @@
     "IncorrectPin": "PIN salah, silakan coba lagi",
     "PinAttemptsExceeded": "Upaya PIN terlampaui",
     "CilantroRequest": "Untuk memberikan lebih banyak waktu, masukan terlebih dahulu PIN Kontrol Orang Tuamu.",
+    "UnlockGamemodeConnectionError": "Kami tidak bisa memeriksa PIN milikmu. Periksa koneksimu dan coba lagi.",
+    "UnlockGamemodeError": "Kami tidak bisa memeriksa PIN milikmu. Coba lagi dalam beberapa menit.",
     "AcceptFriendRequestInfoTitle": "Apa yang bisa dilakukan oleh teman?",
     "DefaultOfferName": "penawaran ini",
     "LocalPlayerYour": "milikmu",
@@ -7100,6 +7129,7 @@
     "CameraAssistsCollection_Name": "Kamera",
     "CameraAssists_Name": "Bantuan Kamera",
     "JunoCombatAnyDirection_Disabled": "Arah Kamera",
+    "CameraShakeEnabled_Name": "Getaran Kamera",
     "CanReceiveGifts_Name": "Dapat Menerima Hadiah",
     "CanSeeOtherPlayersNames_Name": "Bisa Melihat Nama Non-Anggota Skuad",
     "OnlyPrimaryPlayerEditable": "Hanya dapat diubah oleh pemain utama.",
@@ -8526,6 +8556,7 @@
     "FollowCamera_Description_Switch": "Saat aktif, bergerak ke kiri atau kanan juga akan memutar kamera pada saat yang sama selama kamu tidak membidik atau menembak. Aktifkan ini kalau kamu kesulitan jika harus selalu menggunakan dua stik. Stik kanan tetap berfungsi normal, jadi kamu masih bisa membiasakan diri menggunakan stik kanan dengan mengaktifkan fitur ini.",
     "FollowCamera_Description": "Saat aktif, bergerak ke kiri atau kanan juga akan memutar kamera pada saat yang sama selama kamu tidak membidik atau menembak. Aktifkan ini kalau kamu kesulitan jika harus selalu menggunakan dua stik. Stik kanan tetap berfungsi normal, jadi kamu masih bisa membiasakan diri menggunakan stik kanan dengan mengaktifkan fitur ini.",
     "FollowCamera_Description_PS4_PS5": "Saat aktif, bergerak ke kiri atau kanan juga akan memutar kamera pada saat yang sama selama kamu tidak membidik atau menembak. Aktifkan ini kalau kamu kesulitan jika harus selalu menggunakan dua stik. Stik kanan tetap berfungsi normal, jadi kamu masih bisa membiasakan diri menggunakan stik kanan dengan mengaktifkan fitur ini.",
+    "CameraShakeEnabled_Description": "When on, the camera will shake in response to events such as explosions and impacts.",
     "AutoPickupWeaponsConsolePC_Description_Shorter": "Bila diaktifkan, senjata akan otomatis diambil ketika dilangkahi, kecuali jika inventarismu penuh.",
     "AutoPickupWeapons_Description_Shorter": "Bila diaktifkan, senjata akan otomatis diambil ketika dilangkahi, kecuali jika inventarismu penuh.",
     "AutoInteractConsumables_Description": "Bila diaktifkan, kamu akan secara otomatis mengonsumsi apel, jamur, dan item habis pakai lainnya saat kamu melihatnya.",
@@ -9826,6 +9857,7 @@
     "BannedFromWorld": "Kamu telah dilarang masuk ke dunia tempat kelompokmu berada.",
     "MfaRequiredForTournament": "Kamu harus mengaktifkan autentikasi dua faktor di akun Epic kamu agar bisa bermain dalam turnamen ini. Kunjungi {TurnOnMfaURL} untuk mengaktifkan.",
     "WrongNumberOfEventPlayers": "Kamu harus berada dalam kelompok lengkap untuk turnamen ini.",
+    "PartyMemberBannedFromWorld": "Kamu atau anggota kelompokmu diblokir dari dunia ini.",
     "MatchCapExceeded": "Kamu sudah memainkan jumlah pertandingan maksimum untuk event ini.Lihat Tab Bersaing untuk detail selengkapnya dan event mendatang.",
     "Error.AccountLevelTooLow": "Level akunmu ({0}) tidak memenuhi persyaratan minimum untuk bermain: {1}.",
     "Error.BRRankLevelTooLow": "Level peringkat Battle Royale kamu saat ini ({0}) tidak memenuhi persyaratan minimum untuk bermain: {1}.",
@@ -10094,6 +10126,7 @@
     "NotFriendsLongEnough": "Bisa menerima hadiah dalam {0} {1}|plural(one=hari,other=hari) lagi!",
     "NotAcceptingGifts": "Tidak menerima hadiah",
     "NotFriends": "Memberi hadiah hanya tersedia di antara teman.",
+    "NewGiftBoxReceived": "Opsi bungkus hadiah baru diperoleh!",
     "NotAFortnitePlayer": "Bukan pemain Fortnite",
     "OwnedMultiInstanceItems": "Dimiliki: <text color=\"fff\">{owned}</>",
     "OwnsItemFromBundle": "Dimiliki Sebagian",
@@ -10253,10 +10286,9 @@
     "PEGI_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 tahun",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
     "CLASSIND_AGE_18_Abbreviated": "18",
+    "PEGI_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 tahun",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
@@ -10290,6 +10322,7 @@
     "FPB_AGE_7": "7-9 Bimbingan Orang Tua",
     "FPB_AGE_7_Abbreviated": "7-9 Bimbingan Orang Tua",
     "ClassInd_AIInteraction_v11_0": "Interaksi AI",
+    "USK_AIGeneratedContent_v11_0": "Konten Buatan AI",
     "USK_AbstrakteGewalt": "Kekerasan Abstrak",
     "ACB_ActionViolence_v10_0": "Aksi Kekerasan",
     "ClassInd_AdolescentThemes": "Tema Remaja",
@@ -10354,6 +10387,8 @@
     "ACB_CrudeHumour": "Humor Kasar",
     "ACB_CrudeSexualHumour": "Humor Seksual Kasar",
     "ACB_CrudeSexualReferences": "Referensi Seksual Kasar",
+    "GEN_Cryptocurrency_v11_0": "mata uang kripto",
+    "PEGI_Cryptocurrency_v11_0": "mata uang kripto",
     "USK_DustereAtmosphare_v10_0": "Atmosfer Gelap",
     "IE_DigitalPurchases": "Pembelian Digital",
     "GEN_Discrimination": "Diskriminasi",
@@ -10406,6 +10441,7 @@
     "PEGI_Fear": "Takut",
     "RUS_Fear_v7_0": "Takut",
     "IGRS_FearHorror": "Takut/Horor",
+    "USK_FinancialSpeculationRisk_v11_0": "Risiko Spekulasi Finansial",
     "GRAC_AGE_12": "Untuk umur 12 tahun keatas",
     "GRAC_AGE_ALL": "Untuk semua umur",
     "ACB_AGE_G_Abbreviated": "G",
@@ -10419,6 +10455,8 @@
     "RUS_Gambling_v7_0": "Judi",
     "ACB_GamblingThemes_v9_0": "Tema Judi",
     "ESRB_GamblingThemes_v9_0": "Tema Judi",
+    "GEN_GamblingThemes_v11_0": "Tema Judi",
+    "PEGI_GamblingThemes_v11_0": "Tema Judi",
     "USK_SimulatedGambling_v8_0": "Tema Judi",
     "ClassInd_GamblingOrGamesOfChance": "Judi atau Permainan Untung-untungan",
     "USK_GlucksspielMitGeldeinsatz_v7_0": "Perjudian dengan Pembayaran Tunai",
@@ -10435,6 +10473,7 @@
     "ACB_HighImpactComedicViolence": "Kekerasan Komedi Berdampak Tinggi",
     "ACB_HighImpactCrudeHumour": "Humor Kasar Berdampak Tinggi",
     "ACB_HighImpactCrudeSexualReferences": "Referensi Seksual Kasar Berdampak Tinggi",
+    "ACB_HighImpactDisturbingThemes_v11_0": "Tema Mengganggu Berdampak Tinggi",
     "ACB_HighImpactDrugReferences": "Referensi Obat-obatan Berdampak Tinggi",
     "ACB_HighImpactDrugUse": "Penggunaan Obat-obatan Berdampak Tinggi",
     "ACB_HighImpactFamilyViolence_v10_0": "Kekerasan Keluarga Berdampak Tinggi",
@@ -10454,6 +10493,7 @@
     "ACB_HighImpactSexualReferences": "Referensi Seksual Berdampak Tinggi",
     "ACB_HighImpactSexualThemes": "Tema Seksual Berdampak Tinggi",
     "ACB_HighImpactSexualisedImagery": "Citra Seksual Berdampak Tinggi",
+    "ACB_HighImpactSimulatedGambling_v11_0": "Simulasi Perjudian Berdampak Tinggi",
     "ACB_HighImpactSportingViolence_v10_0": "Kekerasan Olahraga Berdampak Tinggi",
     "ACB_HighImpactSuggestiveThemes": "Tema Sugestif Berdampak Tinggi",
     "ACB_HighImpactSuicideReferences_v10_0": "Referensi BunDir Berdampak Tinggi",
@@ -10505,7 +10545,7 @@
     "IGRS_Language": "Bahasa",
     "PEGI_Language": "Bahasa",
     "RUS_Language_v7_0": "Bahasa",
-    "CERO_LanguageAndOthers": "Bahasa dan lainnya",
+    "CERO_LanguageAndOthers": "Bahasa/Lainnya",
     "ClassInd_DrogasLicitas": "Obat-obatan Legal",
     "ClassInd_LightAnimatedViolence": "Kekerasan Animasi Ringan",
     "CERO_Love": "Cinta",
@@ -10604,6 +10644,7 @@
     "PEGI_AGE_PG": "BIMBINGAN ORANG TUA DIREKOMENDASIKAN",
     "PEGI_AGE_12": "PEGI 12",
     "PEGI_AGE_16": "PEGI 16",
+    "PEGI_AGE_18": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "Bimbingan Orang Tua",
@@ -10612,6 +10653,8 @@
     "OFLC_AGE_8": "Bimbingan Orang Tua",
     "OFLC_AGE_8_Abbreviated": "Bimbingan Orang Tua",
     "PEGI_AGE_PG_Abbreviated": "Bimbingan Orang Tua",
+    "GEN_PaidRandomItems_v11_0": "Item Acak Berbayar",
+    "PEGI_PaidRandomItems_v11_0": "Item Acak Berbayar",
     "TCA_AGE_PG_12": "Bimbingan Orang Tua 12",
     "TCA_AGE_PG_15": "Bimbingan Orang Tua 15",
     "GEN_ParentalGuidanceRecommended": "Bimbingan Orang Tua Direkomendasikan",
@@ -10623,6 +10666,8 @@
     "ACB_PredatoryAnimalBehaviour": "Perilaku Hewan Predator",
     "FPB_Prejudice": "Prasangka",
     "USK_Handlungsdruck_v9_0": "Tekanan untuk Bertindak",
+    "GEN_PressureToPlay_v11_0": "Tekanan untuk Bermain",
+    "PEGI_PressureToPlay_v11_0": "Tekanan untuk Bermain",
     "USK_DruckZumVielspielen_v10_0": "Tekanan untuk Bermain Berlebihan",
     "USK_ProblematischeWerbeinhalte_v10_0": "Konten Iklan Problematik",
     "USK_ProblematischeRollenbilder_v10_0": "Panutan Problematik",
@@ -10657,6 +10702,8 @@
     "ClassInd_SexInsinuation": "Sindiran Seks",
     "ACB_SexScenes": "Adegan Seks",
     "ClassInd_SexScenes": "Adegan Seks",
+    "EPIC_CERO_Sex_Industry": "Industri hiburan dewasa",
+    "EPIC_CERO_Sexually_Suggestive_Imagery": "Ekspresi yang membangkitkan gairah seksual",
     "USK_SexErotik": "Seks/Erotisisme",
     "ACB_SexualActivityRewards": "Aktivitas Seksual Terkait Insentif dan Penghargaan",
     "ClassInd_ConteudoSexual": "Konten Seksual",
@@ -10703,6 +10750,7 @@
     "ACB_StrongCrimeThemes": "Tema Kejahatan yang Kuat",
     "ACB_StrongCrudeHumour": "Humor Kasar yang Kuat",
     "ACB_StrongCrudeSexualReferences": "Referensi Seksual Kasar yang Kuat",
+    "ACB_StrongDisturbingThemes_v11_0": "Tema Mengganggu yang Kuat",
     "ACB_StrongDrugReferences": "Referensi Obat-obatan Kuat",
     "ACB_StrongDrugUse": "Penggunaan Obat-obatan Kuat",
     "ACB_StrongFamilyViolence_v10_0": "Kekerasan Keluarga Kuat",
@@ -10746,13 +10794,20 @@
     "ACB_SuicideScenes_v10_0": "Adegan BunDir",
     "ACB_SupernaturalThemes": "Tema Supranatural",
     "ACB_SupernaturalViolence_v10_0": "Kekerasan Supernatural",
+    "ACB_SustainedThreat_v11_0": "Ancaman Berkelanjutan",
+    "EPIC_CERO_Swimsuits_Costumes": "Baju Renang/Kostum",
     "ESRB_AGE_T_Abbreviated": "T",
     "ESRB_AGE_T": "Remaja",
     "ClassInd_Tension": "Ketegangan",
     "ACB_Threat": "Ancaman",
+    "GEN_TimeLimitedOffers_v11_0": "Penawaran Berbatas Waktu",
+    "PEGI_TimeLimitedOffers_v11_0": "Penawaran Berbatas Waktu",
     "ESRB_TobaccoReference": "Referensi Tembakau",
     "USK_Tabakkonsum": "Penggunaan Tembakau",
     "TCA_TobaccoAndAlcohol": "Tembakau dan Alkohol",
+    "EPIC_CERO_Exposure_Underwear": "Paparan pakaian dalam",
+    "GEN_UnrestrictedCommunication_v11_0": "Komunikasi Tanpa Batas",
+    "PEGI_UnrestrictedCommunication_v11_0": "Komunikasi Tanpa Batas",
     "IE_UnrestrictedInternet": "Internet Tanpa Batas",
     "ESRB_UseofAlcohol": "Penggunaan Alkohol",
     "ESRB_UseofAlcoholandTobacco": "Penggunaan Alkohol dan Tembakau",
@@ -10815,11 +10870,7 @@
     "ClassInd_ViolenceAgainstVulnerablePersons": "Kekerasan terhadap Orang Rentan",
     "ESRB_ViolentReferences": "Referensi Kekerasan",
     "ACB_WarThemes": "Tema Perang",
-    "USK_WarThemes_v7_0": "Tema Perang",
-    "EPIC_CERO_Exposure_Underwear": "ä¸‹ç€ã®éœ²å‡º",
-    "EPIC_CERO_Swimsuits_Costumes": "æ°´ç€ãƒ»ã‚³ã‚¹ãƒãƒ¥ãƒ¼ãƒ ",
-    "EPIC_CERO_Sexually_Suggestive_Imagery": "æ€§çš„ãªã‚‚ã®ã‚’æƒ³èµ·ã•ã›ã‚‹è¡¨ç¾",
-    "EPIC_CERO_Sex_Industry": "æ€§é¢¨ä¿—æ¥­"
+    "USK_WarThemes_v7_0": "Tema Perang"
   },
   "InteractionPointWidget": {
     "DistanceTextFormatted": "{DistanceValue} m"
@@ -11152,19 +11203,23 @@
     "EditInPromptEditor": "Edit di Editor Prompt"
   },
   "LLMSession": {
+    "ErrorSource_Fact": "Fakta",
     "ErrorSource_InstructionPrompt": "Prompt Instruksi",
     "Error_SummaryPrompt": "Prompt instruksi melebihi batas",
     "CannotUseConversations": "Pengguna lokal tidak boleh menggunakan percakapan LLM",
+    "ErrorSource_Prompt": "Petunjuk",
     "ErrorSource_RegisteredActions": "Aksi Terdaftar",
     "Error_SummarySO": "Deskripsi bidang struktur melebihi batas",
     "ResonanceServiceUnavailable": "Layanan Resonance tidak tersedia",
     "SessionClosedBeforeExchange": "Sesi Resonance ditutup sebelum prompt dapat dikirim",
     "SessionClosedBeforeUpdate": "Sesi Resonance ditutup sebelum prompt dapat dikirim",
     "SessionClosedWhileQueued": "Sesi Resonance ditutup sebelum prompt dapat dikirim",
-    "Error_DetailsPrompt": "Jumlah karakter untuk prompt instruksi {CharacterName} melebihi batas maksimal {CharacterLimit} karakter.",
-    "Error_DetailsSO": "Jumlah karakter gabungan dari deskripsi bidang {Source} melebihi batas {CharacterLimit} karakter.",
+    "Error_DetailsPrompt": "Jumlah karakter untuk prompt instruksi {CharacterName} melebihi batas maksimal {Limit} karakter.",
+    "Error_DetailsSO": "Jumlah karakter gabungan dari deskripsi bidang {Source} melebihi batas {Limit} karakter.",
     "ModerationMsg": "Respons telah Dimoderasi",
     "Error_DetailsSchema": "Ada masalah saat menyusun Skema JSON dari struktur yang disediakan.",
+    "Error_SummaryBlocks": "Terlalu banyak referensi ke teks yang dibuat oleh AI",
+    "Error_DetailsBlocks": "Terlalu banyak referensi ke teks yang dibuat AI untuk {CharacterName} ({Source}, batas {Limit}). Berikan lebih sedikit referensi ke bagian teks yang dihasilkan AI.",
     "Error_SummarySchema": "Tidak dapat membuat skema",
     "StartSessionFailed": "Gagal memulai sesi Resonance",
     "UnknownRestriction": "Pembatasan Tak Dikenal"
@@ -11194,6 +11249,12 @@
   },
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "({0})"
+  },
+  "LimeAtomValidationValidators": {
+    "ValidationFailed": "LEGO® {0} tidak dapat menyelesaikan validasi, hasilnya mungkin tidak lengkap.",
+    "IssueCountErrors": "LEGO® {0} menemukan {1} {1}|plural(one=masalah,other=masalah). Ini melanggar pedoman LEGO®. Semua masalah harus diatasi, atau proyekmu berisiko gagal pada tahap moderasi. Jalankan validasi di panel Validasi LEGO® untuk meninjaunya",
+    "IssueCountWarnings": "LEGO® {0} menemukan {1} {1}|plural(one=peringatan,other=peringatan). Ini melanggar pedoman LEGO®. Semua masalah harus diatasi, atau proyekmu berisiko gagal pada tahap moderasi. Jalankan validasi di panel Validasi LEGO® untuk meninjau semuanya",
+    "MaxIssuesReached": "LEGO® {0} berhenti setelah menemukan jumlah maksimum masalah ({1}), jadi mungkin masih ada lagi. Ini melanggar pedoman LEGO®. Semua masalah harus diatasi, atau proyekmu berisiko gagal pada tahap moderasi."
   },
   "LiteUIKit": {
     "WidgetPaletteCategory": "KitUI Lite"
@@ -11960,7 +12021,8 @@
     "LogicType": "Nilai true dan false"
   },
   "PersonaPromptEditor": {
-    "EditFactText": "Edit Teks Fakta"
+    "EditFactText": "Edit Teks Fakta",
+    "SetResonanceConfiguration": "Set Konfigurasi Resonansi"
   },
   "PickerContext": {
     "UFortPickerContext.EmojiCategoryTitle": "Emoji",
@@ -12178,6 +12240,13 @@
   "ReportReasonDetails": {
     "CommunicationAbuseDetails": "Jika kamu mengaktifkan Pelaporan Suara dan ingin menyertakan rekaman audio dengan laporanmu, kamu dapat mengirimkan laporan suara melalui tab obrolan suara di Bilah Samping. Jika kamu mengaktifkan Pelaporan Teks dan ingin menyertakan transkrip obrolan teksmu dengan laporanmu, kamu dapat mengirimkan laporan obrolan teks melalui jendela obrolan teks."
   },
+  "ResonanceConfigurationPicker": {
+    "ResonanceConfigurationDefault": "Default",
+    "MultipleValues": "Beberapa Nilai",
+    "ResonanceConfigurationDeprecated": "{0} (Tidak digunakan lagi)",
+    "ResonanceConfigurationMissing": "{0} (tidak ada)",
+    "ResonanceConfigurationDuplicateLabel": "{0} ({1})"
+  },
   "Riding": {
     "DismountInput": "(Tahan) Turun",
     "JumpInAir": "(Di Udara) Lompat Turun",
@@ -12283,7 +12352,7 @@
   },
   "SeasonPassRequirement_PassCategoryGroupComplete": {
     "GroupComplete_Member_Incomplete": "Ambil semua hadiah {GroupName} lainnya",
-    "GroupComplete_Nonmember_Incomplete": "ambil semua hadiah dari {GroupName}"
+    "GroupComplete_Nonmember_Incomplete": "Ambil semua hadiah dari {GroupName}"
   },
   "SeasonPassRequirement_ReleaseVersion": {
     "Status_LockedReleaseVersion": "Segera hadir"
@@ -12387,6 +12456,10 @@
     "SplashTextName": "Profiler Metriks Spasial",
     "WindowTitle": "Profiler Metriks Spasial",
     "AppTitle": "Profiler Spasial"
+  },
+  "SpecialEventGameplayAnimNodes": {
+    "SpecialEventRewindPlayback_Tooltip": "Memainkan pose yang direkam saat jatuh ke belakang, selaras dengan jam pemutar ulang event spesial. Meneruskan pose input saat tidak memutar ulang.",
+    "SpecialEventRewindPlayback_Title": "Pemutaran Ulang Rekaman Event Spesial"
   },
   "SpectatorLensSettings": {
     "ApertureFNumber": "f/{Aperture}",
@@ -12922,9 +12995,6 @@
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "Kamu berhasil mengirimkan hadiah kepada <text color=\"FFF\">{DisplayName}</>!"
   },
-  "UAthenaGiftFlowConfirmedPanel": {
-    "RecipientInfo": "Kamu berhasil mengirimkan hadiah kepada <text color=\"FFF\">{DisplayName}</>!"
-  },
   "UAthenaLockerCategorySortConfig": {
     "AllGroupNameKey": "Semua",
     "CategoriesGroupNameKey": "Kategori",
@@ -13047,7 +13117,6 @@
     "PurchaseFailedToStart": "Kami menemukan kesalahan kritis saat memulai pembelianmu. Coba lagi nanti.",
     "PurchaseFailedToStartDueToMissingPrices": "Kami menemukan kesalahan kritis saat memproses pembelianmu. Coba lagi nanti.",
     "PurchaseHasNoNewEntitlements": "Kami menemukan kesalahan kritis pada pembelianmu. Tim kami telah dikerahkan untuk mengatasi masalah tersebut. Kami akan mengonfirmasi saat pembelianmu sudah selesai!",
-    "PurchaseBlockedDueToNoCTCCountryErrorCode": "Kami menemukan kesalahan kritis pada pembelianmu. Silakan perbarui versi iOS kamu ke versi terbaru yang tersedia dan coba lagi.",
     "MismatchedLocalUserAndStoreUser": "Akun Xbox berbeda dengan akun Microsoft Store kamu. Kamu tidak akan bisa melakukan pembelian baru sebelum masuk ke aplikasi Xbox dan Microsoft Store menggunakan akun yang sama.",
     "EULAFormat": "{0}\n\n{1}"
   },

@@ -368,6 +368,8 @@
     "231AF36049841BCCCB72619C0346D63B": "Style <Néant>",
     "06EEB84B4F23444589A9758F73B79CF5": "?",
     "892F58F84D92D5D260611CAD336AA6E0": "???",
+    "B14CFAD643402417AB3FD6B1B32B75CB": "???",
+    "DEBF4E2A47784C62A3FD27B10E7D79D8": "???",
     "6FCE2A4A45997CDAF9AD3B88BBEEBA16": "A",
     "8CC4A59940F77C4B19BBAF971F20D5C3": "A",
     "9AD70FCB49C057A8CE26F886558FA4F1": "A",
@@ -605,7 +607,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "Gros tonneau ultra",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Biplan",
     "5B5236944941BFD7DE82B8B05FE11D94": "Biplan",
-    "DF56207843F6244003548CA79CFAA0F4": "Biplan",
     "F5EB146E408C915363F761972AA43B8A": "Gâteau d'anniversaire",
     "AD9DF9A2455C274907AE29971466ADBA": "Épée",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "Épée",
@@ -1586,7 +1587,11 @@
     "CFBFEBC248741ED6E0FCC88CC754A22E": "Canon de pirate",
     "11286DCA40C6C1D1248DB4AB4FD95F92": "Boutique pirate",
     "3D5384AE463D8C77B1E6578A793F29D9": "Boutique pirate",
+    "5A823CFA4FD32ABE380CF5A3C886E487": "Boutique pirate",
+    "EE8BF7EC40A7B072DFBEEA830DDD5863": "Boutique pirate",
     "5771CEED4E3A98EAD847BFBFD4FA34A5": "Accès à la boutique pirate (2026)",
+    "7F7334F04E249310781F1CB69D100D8D": "Accès à la boutique pirate (2026)",
+    "5014942149F16C9E7F6A40A04864CCE8": "Accès à la boutique pirate (2027)",
     "7E0278EF4B5184B9FEB6EBA2547E1429": "Accès à la boutique pirate (2027)",
     "923CD0CD437F2EC013D0FCA6E8CFD824": "Pistolet",
     "AE872A134006CB20B62E40B07D5FDAFC": "Pistolet",
@@ -1606,6 +1611,8 @@
     "37A0DD2F4837BA7835216D877196C2CA": "Dégâts subis par des joueurs",
     "C57C049B4748282A4A892784AABBF09C": "PlayerName_default",
     "18F99A0D4BDBB73D3346019F9482B30A": "Veuillez réattribuer l'action {s}.",
+    "069C1FF040D0E48A95E61995B44640B3": "Pillez la boutique d'objets pendant 14 jours à partir de l'activation.",
+    "579B339F46238309C9A7919644F44803": "Pillez la boutique d'objets pendant 14 jours à partir de l'activation.",
     "81AFE9C84B9ACD45C44764B28EBF86C0": "Arc à ventouse",
     "4567895244A3DDF0A6347DB93EA4AB9A": "Bombe boogie-woogie réutilisable",
     "ECC1B5C641A0A7993449F39BB4F46B87": "Grenade répulsive réutilisable ",
@@ -1667,6 +1674,7 @@
     "FD23E7C946966E8E24F1ADA1EDA51CB1": "Pistolet-mitrailleur à tir rapide +",
     "BA4B1FDD40153AE8C9FC76ACC646E32C": "Un pistolet-mitrailleur à tir rapide doté d'un chargeur à la <Emphasized>capacité supérieure</>.",
     "86F951AB4B4721B924CABA82FEFC3EC7": "Boîte de munitions rare",
+    "B1CFA5584EBD1878822A699ECEB629A6": "Coffre rare",
     "101BBD144878EB1AA8CCD292737797AE": "Scanner de reconnaissance",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Recrue",
     "1C77EAFB46C48299170B7486AEFB6294": "Rouge orangé",
@@ -1796,7 +1804,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Vol de bouclier",
     "4F611C954A5378BFC1804C96BB3981FE": "Synergie du bouclier",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Lancer de bouclier",
-    "6FE5EF624909BEBF19A4F7A143733F40": "Canon de bateau",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Canon de bateau",
     "85A285654B56001B52E9ABBC806822EB": "Gadget Ondes de choc",
     "8E57565847BBBCA8EE6AD38208D056E1": "Grenade à onde de choc +",
@@ -2084,6 +2091,7 @@
     "A9F43F3A48770C515DF7A5AF1DF5A128": "Bientôt révélé...",
     "E01C6F584A3A7BA4F94BAB8231E0841B": "Bientôt révélé.",
     "060777BC47099F2DF28068980DCF0AFD": "Bientôt révélé... ",
+    "06F058FB4EE7E7F56D73D89FB36552DA": "Bientôt révélé... ",
     "499889C94D330A143D60249B468EE7BF": "Bientôt révélé... ",
     "4B1D57F64AA9FD8A596664A18AF6640E": "Bientôt révélé... ",
     "60D8C0614084FA6FCACF19866EF0FDBE": "Bientôt révélé... ",
@@ -2183,7 +2191,6 @@
     "2D63B0854707C30350F8B7A03551788D": "Objet utilitaire ",
     "CF3BD1EE41CFC0D5B59A619710C3BAE0": "Objet utilitaire Effet de zone Blazer argenté Bulle protectrice",
     "17E86A814E1BF4CEFB61E2BC6268CEE7": "Objet utilitaire de faille",
-    "2640FD984FA75748AC19FCBBD963DE79": "V-bucks",
     "36C0892442CACB9BDAD4C3B09F0BF96C": "V-bucks",
     "D6DDC6A9427A759E55A7BBB8A12736D1": "V-bucks",
     "9FBB32C24460E6E70940859CABCF1987": "Gain de V-bucks",
@@ -2196,7 +2203,6 @@
     "454B71ED42ED250EDBECF59B7A7D9643": "VK non testé",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "Une monnaie qui permet d'acheter des articles dans la boutique.",
     "67E0A04E48C18017454CB4B84AF5716F": "Une monnaie qui permet d'acheter des articles dans la boutique.",
-    "D35857B04A6D171C1C63A1A7DEAA0DD4": "Une monnaie qui permet d'acheter des articles dans la boutique.",
     "863EB9E944912130B5EAA6A39CC800BC": "Une monnaie qui permet d'acheter des articles dans la boutique.  Elle est gagnée par les développeurs/créateurs de jeux (comme les créateurs UEFN)",
     "D461D4C54C20240513787CBF1FDA9A57": "Tonneau double varial",
     "ABB98286476BE4B2D835939202B2B43D": "Culbute variale",
@@ -2693,9 +2699,6 @@
     "AlreadyOwnItemTitle": "Un problème s'est produit !",
     "AlreadyOwnBPDescription": "Vous allez recevoir un jeton de Passe de combat à offrir parce que <text color=\"FFF\">{DisplayName}</> a acheté le Passe de combat au même moment que l'envoi du cadeau.\n Vous pourrez l'utiliser pour offrir le Passe de combat à un autre ami. Si le jeton de cadeau n'est pas utilisé à la fin de la saison, il sera converti en 950 V-bucks qui seront ajoutés à votre compte."
   },
-  "AthenaGiftingFlowConfirmationScreen": {
-    "NewGiftBoxReceived": "Nouvelle option de paquet obtenue !"
-  },
   "AthenaGiftingFlowErrorsPanel": {
     "GenericErrorDescription": "Une erreur inconnue s'est produite.",
     "RecipientCantReceiveGiftsDescription": "<text color=\"FFF\">{DisplayName}</> ne semble pas pouvoir recevoir de cadeaux.",
@@ -2708,13 +2711,6 @@
     "RecipientCantReceiveGiftsTitle": "Un problème s'est produit !",
     "AlreadyOwnItemTitle": "Un problème s'est produit !",
     "AlreadyOwnBPDescription": "Vous allez recevoir un jeton de Passe de combat à offrir parce que <text color=\"FFF\">{DisplayName}</> a acheté le Passe de combat au même moment que l'envoi du cadeau.\n Vous pourrez l'utiliser pour offrir le Passe de combat à un autre ami. Si le jeton de cadeau n'est pas utilisé à la fin de la saison, il sera converti en 950 V-bucks qui seront ajoutés à votre compte."
-  },
-  "AthenaGiftingFlowPurchaseButton": {
-    "Continue": "Continuer",
-    "GetVBucks": "Obtenir des V-bucks",
-    "PurchaseGift": "Acheter le cadeau !",
-    "ReloadVBucks": "Compléter les V-bucks",
-    "SendGift": "Envoyer le cadeau !"
   },
   "AthenaGiftingFlowPurchasePanel": {
     "RetrySocialNameInfo": "{DisplayName} recevra désormais",
@@ -4112,14 +4108,21 @@
     "JsonError": "Erreur serveur de type {0}"
   },
   "EventPreview": {
-    "PauseFrameTooltip": "Bloque les séquences de l'événement sur l'image affichée lorsque vous entrez en mode Jouer dans l'éditeur avec la mise en pause au démarrage activée. Limité à la portée de chaque séquence.",
-    "PauseOnStartTooltip": "Figez les séquences de niveau de l'événement sur l'image choisie dès que vous entrez dans l'aperçu du jeu (PIE), afin de pouvoir contrôler la lecture manuellement pour l'enregistreur de prises. Éditeur/PIE uniquement.",
+    "WaitForUnpauseVolumeTooltip": "Maintenez jusqu'à ce que quelqu'un traverse un volume de réactivation de l'aperçu de l'Événement spécial, au lieu de reprendre avec un chrono.",
+    "StartSecondsTooltip": "À quelle distance dans la phase sélectionnée commencer, en secondes, à partir du début de la phase dans sa séquence. Limité à la longueur de la séquence. Uniquement dans l'éditeur/PIE.",
+    "OpenMainEventSequence": "Ouvrir la séquence du tournoi principal",
+    "OpenMainSequenceTooltip": "Ouvrir la séquence principale de l'événement dans Sequencer, en allant au point où commence cette phase, en cliquant sur le bouton de phase.",
     "OpenSequenceTooltip": "Ouvrir la séquence de niveau de cette phase dans Sequencer en cliquant sur le bouton de phase.",
-    "PauseOnStartMode": "Mettre en pause au démarrage",
-    "UnpauseVolumeNote": "Pour relancer dans le PiE : placez un volume de reprise de prévisualisation d'événement spécial dans le niveau, puis faites-y passer le joueur.",
-    "AtFrame": "à l'image",
+    "OpenMainEventSequenceTooltip": "Ouvrez {0} dans le séquenceur.",
+    "PreviewPauseIndefiniteNote": "Lancer démarre l'événement ici et le maintient indéfiniment (le paramètre Secondes de reprise automatique est défini sur 0 dans les préférences de l'éditeur). Exécutez Fort.SpecialEvent.Preview.Play pour continuer.",
+    "PreviewPauseVolumeNote": "Lancer démarre l'événement ici et le met en pause jusqu'à ce que quelqu'un traverse un volume de reprise.",
+    "PreviewPauseAutoNote": "Le jeu lance l'événement ici, attend {0} s pendant le chargement en continu des couches de la phase, puis continue.",
+    "StartOnSecond": "Démarrer à la seconde",
+    "UnpauseWithVolume": "Désactiver la pause avec le volume de reprise de la tempête",
     "OpenSequenceSubtitle": "ouvrir la séquence",
-    "StronglyRecommendedTag": "Recommandé"
+    "StronglyRecommendedTag": "Recommandé",
+    "PreviewStartZeroNote": "{0}\n\n0 correspond à la première image de la séquence, généralement vide. Saisissez une heure ultérieure pour atterrir sur quelque chose que vous pouvez voir.",
+    "PreviewPauseSkippedNote": "{0} passe l'arrêt — PIE le joue d'un bout à l'autre. Ces paramètres s'appliquent toujours à toutes les 2 phases."
   },
   "EventTeamMatchHistoryEntry": {
     "MatchNumber": "#{0}",
@@ -4196,6 +4199,21 @@
     "SectionName": "Juno",
     "ExtensionName": "JunoTools",
     "ConfigurePrefabTool": "Préfabriqué"
+  },
+  "FLimeAtomBuildingActorOverlapValidator": {
+    "AddingOverlappingActors": "L'acteur de construction \"{0}\" chevauche le ou les autres acteurs {1} : \"{2}\"",
+    "ValidatorName": "Validateur de chevauchement d'acteur de construction",
+    "AtomValidationUtils_BuildingActorOKWithNoOverlaps": "Chevauchements ignorés"
+  },
+  "FLimeAtomOverlapValidator": {
+    "AddingOverlappingActors": "L'acteur \"{0}\" chevauche le ou les autres acteurs {1} : \"{2}\"",
+    "DetailedCollisionOverlappingActorsMessage": "L'acteur ({0}) chevauche les autres acteurs.",
+    "ActorNotCheckedForDetailedOverlaps": "L'acteur ({0}) n'a pas été vérifié pour les chevauchements détaillés, car la vérification détaillée des collisions n'a pas pu s'exécuter ; le résultat du contrôle rapide est signalé à la place.",
+    "OverlapCheckSkippedNoWorld": "L'acteur ({0}) n'a pas été vérifié pour les chevauchements, car il ne se trouve pas dans un monde.",
+    "FixerName": "Réparer le chevauchement",
+    "FixerTooltip": "En cas de problème de validation des chevauchements, essayez de trouver une position de placement valide avec l'accrochage de connectivité. Corrige un problème à la fois.",
+    "AtomValidationUtils_IgnoringValidation": "Ignorer la validation",
+    "ValidatorName": "Validateur de chevauchement"
   },
   "FStateDrivenEvent_DepositResource": {
     "DepositResource": "Déposer {resourcetype} x{amount}",
@@ -5093,9 +5111,14 @@
     "CreateAccountTitle": "Créer un compte",
     "CreateAccountPinFailed": "Échec de la création d'un compte qui n'est pas associé à un compte Epic.",
     "LinkAccountTitle": "Associer un compte",
+    "NintendoPlatformName": "Nintendo",
+    "PlayStationPlatformName": "PlayStation",
     "ProceedWithoutLinking": "Poursuite de la procédure sans associer de compte...",
     "GettingPinCode": "Demande de code PIN...",
-    "LinkAccountFailed": "Le compte a bien été créé, mais l'association a échoué. Veuillez réessayer."
+    "SignInTitle": "Connexion",
+    "LinkAccountFailed": "Le compte a bien été créé, mais l'association a échoué. Veuillez réessayer.",
+    "XboxPlatformName": "Xbox",
+    "PlatformAccountFormat": "Votre compte {0} est"
   },
   "FortActivityBrowserListView": {
     "Manual_BR": "Battle Royale",
@@ -5988,6 +6011,7 @@
     "CheckCrossPlayPrivilege": "Vérification des privilèges multiplateforme...",
     "CheckUGCPrivilege": "Vérification des droits d'accès aux CGU...",
     "SilentClaimMfaReward": "Récupération des récompenses...",
+    "CleanupForLogout": "Nettoyage...",
     "DisconnectingFromLobby": "Nettoyage...",
     "LogoutUsabilityExperiment": "Nettoyage...",
     "FailedClientSettingsDownloadTitle": "Échec du téléchargement sur le cloud",
@@ -6035,6 +6059,7 @@
     "RegisterLockManager": "Enregistrement au gestionnaire de verrou...",
     "DeletingCreds": "Retrait de l'authentification…",
     "RemoveCachedSupervisedSettings": "Suppression des paramètres supervisés en cache...",
+    "WaitForFrontend": "Returning to the main menu...",
     "StartVoiceChat": "Démarrage de la discussion vocale...",
     "DisconnectingFromVivox": "Arrêt de la discussion vocale...",
     "FailedPurchaseRedemptionNowRedeemedTitle": "Boutique disponible !",
@@ -6171,7 +6196,9 @@
     "NotEnoughResourcesText": "Vous n'avez pas assez de ressources !"
   },
   "FortPinGrantCodeInfoWidget": {
-    "ExpiringTime": "Expiration dans {0} s..."
+    "ExpiringTime": "Expiration dans {0} s...",
+    "ActivationURLPrompt": "Accéder à",
+    "ActivationURLPromptWithQRCode": "Ou aller à"
   },
   "FortPinModal": {
     "CreatePinRequest": "Indiquez un nouveau code PIN à 6 chiffres de contrôle parental pour accéder aux fonctions restreintes par le contrôle parental.",
@@ -6184,6 +6211,8 @@
     "IncorrectPin": "Code PIN incorrect. Veuillez réessayer.",
     "PinAttemptsExceeded": "Nombre de tentatives dépassé.",
     "CilantroRequest": "Pour accorder plus de temps, veuillez saisir votre code PIN de contrôle parental.",
+    "UnlockGamemodeConnectionError": "Nous n'avons pas pu vérifier votre code PIN. Vérifiez votre connexion puis réessayez.",
+    "UnlockGamemodeError": "Nous n'avons pas pu vérifier votre code PIN. Réessayez dans quelques minutes.",
     "AcceptFriendRequestInfoTitle": "Que peuvent faire les amis ?",
     "DefaultOfferName": "cette offre",
     "LocalPlayerYour": "votre code PIN de contrôle parental",
@@ -7100,6 +7129,7 @@
     "CameraAssistsCollection_Name": "Caméra",
     "CameraAssists_Name": "Aide à la caméra",
     "JunoCombatAnyDirection_Disabled": "Direction de la caméra",
+    "CameraShakeEnabled_Name": "Tremblement de l'écran",
     "CanReceiveGifts_Name": "Recevoir des cadeaux",
     "CanSeeOtherPlayersNames_Name": "Afficher les noms des joueurs hors section",
     "OnlyPrimaryPlayerEditable": "Seul le joueur principal peut faire ce changement.",
@@ -8526,6 +8556,7 @@
     "FollowCamera_Description_Switch": "Lorsque ce paramètre est activé, se déplacer à gauche ou à droite tourne la caméra en même temps, sauf si vous êtes en train de viser ou de tirer. Activez ceci si vous éprouvez des difficultés à utiliser deux sticks en même temps. Le stick droit est toujours fonctionnel, donc vous pouvez tout de même vous familiariser avec son usage quand cette fonction est activée.",
     "FollowCamera_Description": "Lorsque ce paramètre est activé, se déplacer à gauche ou à droite tourne la caméra en même temps, sauf si vous êtes en train de viser ou de tirer. Activez ceci si vous éprouvez des difficultés à utiliser deux sticks en même temps. Le stick droit est toujours fonctionnel, donc vous pouvez tout de même vous familiariser avec son usage quand cette fonction est activée.",
     "FollowCamera_Description_PS4_PS5": "Lorsque ce paramètre est activé, se déplacer à gauche ou à droite tourne la caméra en même temps, sauf si vous êtes en train de viser ou de tirer. Activez ceci si vous éprouvez des difficultés à utiliser deux joysticks en même temps. Le joystick droit est toujours fonctionnel, donc vous pouvez tout de même vous familiariser avec son usage quand cette fonction est activée.",
+    "CameraShakeEnabled_Description": "When on, the camera will shake in response to events such as explosions and impacts.",
     "AutoPickupWeaponsConsolePC_Description_Shorter": "Lorsque cette option est activée, les armes sont automatiquement ramassées quand vous passez dessus. Si votre inventaire est plein, les armes ne seront pas ramassées même si l'option est activée.",
     "AutoPickupWeapons_Description_Shorter": "Lorsque cette option est activée, les armes sont automatiquement ramassées quand vous passez dessus. Si votre inventaire est plein, les armes ne seront pas ramassées même si l'option est activée.",
     "AutoInteractConsumables_Description": "Quand cette option est activée, vous consommez automatiquement des pommes, des champignons et d'autres objets à usage unique lorsque vous les regardez.",
@@ -9826,6 +9857,7 @@
     "BannedFromWorld": "Vous avez été exclu(e) du monde dans lequel votre groupe se trouve.",
     "MfaRequiredForTournament": "Pour pouvoir participer à ce tournoi, vous devez activer l'authentification à deux facteurs sur votre compte Epic. Rendez-vous sur {TurnOnMfaURL} pour l'activer.",
     "WrongNumberOfEventPlayers": "Vous devez être dans un groupe au complet pour ce tournoi.",
+    "PartyMemberBannedFromWorld": "Vous ou un membre de votre groupe êtes banni(e) de ce monde.",
     "MatchCapExceeded": "Vous avez participé au nombre maximum de parties pour cet événement. Consultez l'onglet Compétition pour en savoir plus sur les prochains événements.",
     "Error.AccountLevelTooLow": "Votre niveau de compte ({0}) ne remplit pas les critères pour jouer : {1}.",
     "Error.BRRankLevelTooLow": "Votre rang actuel dans Battle Royale ({0}) ne remplit pas le critère minimum pour jouer : {1}.",
@@ -10094,6 +10126,7 @@
     "NotFriendsLongEnough": "Pourra recevoir des cadeaux dans {0} {1}|plural(one=jour,other=jours) !",
     "NotAcceptingGifts": "N'accepte pas les cadeaux",
     "NotFriends": "Les cadeaux ne sont disponibles qu'entre amis.",
+    "NewGiftBoxReceived": "Nouvelle option de paquet obtenue !",
     "NotAFortnitePlayer": "Pas un joueur de Fortnite",
     "OwnedMultiInstanceItems": "Possédé : <text color=\"fff\">{owned}</>",
     "OwnsItemFromBundle": "Partiellement possédé",
@@ -10253,10 +10286,9 @@
     "PEGI_AGE_16_Abbreviated": "16",
     "USK_AGE_16_Abbreviated": "16",
     "CLASSIND_AGE_16": "16 ans",
-    "GEN_AGE_16": "16+",
-    "GEN_AGE_16_Abbreviated": "16+",
     "USK_AGE_16": "16+",
     "CLASSIND_AGE_18_Abbreviated": "18",
+    "PEGI_AGE_18_Abbreviated": "18",
     "CLASSIND_AGE_18": "18 ans",
     "GCAM_AGE_3": "3",
     "GCAM_AGE_3_Abbreviated": "3",
@@ -10290,6 +10322,7 @@
     "FPB_AGE_7": "7-9 PG",
     "FPB_AGE_7_Abbreviated": "7-9 PG",
     "ClassInd_AIInteraction_v11_0": "Interaction IA",
+    "USK_AIGeneratedContent_v11_0": "Contenu généré par l'IA",
     "USK_AbstrakteGewalt": "Violence abstraite",
     "ACB_ActionViolence_v10_0": "Violence d'action",
     "ClassInd_AdolescentThemes": "Thèmes adolescents",
@@ -10354,6 +10387,8 @@
     "ACB_CrudeHumour": "Humour grossier",
     "ACB_CrudeSexualHumour": "Humour sexuel grossier",
     "ACB_CrudeSexualReferences": "Références crues à la sexualité",
+    "GEN_Cryptocurrency_v11_0": "Cryptomonnaie",
+    "PEGI_Cryptocurrency_v11_0": "Cryptomonnaie",
     "USK_DustereAtmosphare_v10_0": "Atmosphère sombre",
     "IE_DigitalPurchases": "Achats numériques",
     "GEN_Discrimination": "Discrimination",
@@ -10406,6 +10441,7 @@
     "PEGI_Fear": "Peur",
     "RUS_Fear_v7_0": "Peur",
     "IGRS_FearHorror": "Peur/horreur",
+    "USK_FinancialSpeculationRisk_v11_0": "Risque de spéculation financière",
     "GRAC_AGE_12": "Pour les enfants de 12 ans et plus",
     "GRAC_AGE_ALL": "Tous les âges",
     "ACB_AGE_G_Abbreviated": "G",
@@ -10419,6 +10455,8 @@
     "RUS_Gambling_v7_0": "Jeux d'argent et de hasard",
     "ACB_GamblingThemes_v9_0": "Thèmes ayant trait aux jeux d’argent",
     "ESRB_GamblingThemes_v9_0": "Thèmes ayant trait aux jeux d’argent",
+    "GEN_GamblingThemes_v11_0": "Thèmes ayant trait aux jeux d’argent",
+    "PEGI_GamblingThemes_v11_0": "Thèmes ayant trait aux jeux d’argent",
     "USK_SimulatedGambling_v8_0": "Thèmes ayant trait aux jeux d’argent",
     "ClassInd_GamblingOrGamesOfChance": "Jeux d'argent ou de hasard",
     "USK_GlucksspielMitGeldeinsatz_v7_0": "Jeux d’argent avec gains en espèces",
@@ -10435,6 +10473,7 @@
     "ACB_HighImpactComedicViolence": "Violence comique à fort impact",
     "ACB_HighImpactCrudeHumour": "Humour grossier à fort impact",
     "ACB_HighImpactCrudeSexualReferences": "Références crues à la sexualité à fort impact",
+    "ACB_HighImpactDisturbingThemes_v11_0": "Thèmes dérangeants à fort impact",
     "ACB_HighImpactDrugReferences": "Références à la drogue à fort impact",
     "ACB_HighImpactDrugUse": "Consommation de drogue à fort impact",
     "ACB_HighImpactFamilyViolence_v10_0": "Violence familiale à fort impact",
@@ -10454,6 +10493,7 @@
     "ACB_HighImpactSexualReferences": "Références à la sexualité à fort impact",
     "ACB_HighImpactSexualThemes": "Thèmes sexuels à fort impact",
     "ACB_HighImpactSexualisedImagery": "Images sexualisées à fort impact",
+    "ACB_HighImpactSimulatedGambling_v11_0": "Jeux d'argent simulés à fort impact",
     "ACB_HighImpactSportingViolence_v10_0": "Violence dans un cadre sportif à fort impact",
     "ACB_HighImpactSuggestiveThemes": "Thèmes suggestifs à fort impact",
     "ACB_HighImpactSuicideReferences_v10_0": "Références au suicide à fort impact",
@@ -10505,7 +10545,7 @@
     "IGRS_Language": "Langue",
     "PEGI_Language": "Langue",
     "RUS_Language_v7_0": "Langue",
-    "CERO_LanguageAndOthers": "言葉その他",
+    "CERO_LanguageAndOthers": "Langues et autres",
     "ClassInd_DrogasLicitas": "Drogues licites",
     "ClassInd_LightAnimatedViolence": "Violence animée légère",
     "CERO_Love": "恋愛",
@@ -10604,6 +10644,7 @@
     "PEGI_AGE_PG": "ACCORD PARENTAL RECOMMANDÉ",
     "PEGI_AGE_12": "PEGI 12",
     "PEGI_AGE_16": "PEGI 16",
+    "PEGI_AGE_18": "PEGI 18",
     "PEGI_AGE_3": "PEGI 3",
     "PEGI_AGE_7": "PEGI 7",
     "ACB_AGE_PG_Abbreviated": "PG",
@@ -10612,6 +10653,8 @@
     "OFLC_AGE_8": "PG",
     "OFLC_AGE_8_Abbreviated": "PG",
     "PEGI_AGE_PG_Abbreviated": "PG",
+    "GEN_PaidRandomItems_v11_0": "Objets aléatoires payants",
+    "PEGI_PaidRandomItems_v11_0": "Objets aléatoires payants",
     "TCA_AGE_PG_12": "Accord parental 12",
     "TCA_AGE_PG_15": "Accord parental 15",
     "GEN_ParentalGuidanceRecommended": "Accord parental recommandé",
@@ -10623,6 +10666,8 @@
     "ACB_PredatoryAnimalBehaviour": "Comportement d’animal sauvage",
     "FPB_Prejudice": "Prejudice",
     "USK_Handlungsdruck_v9_0": "Pression pour agir",
+    "GEN_PressureToPlay_v11_0": "Appuyer pour jouer",
+    "PEGI_PressureToPlay_v11_0": "Appuyer pour jouer",
     "USK_DruckZumVielspielen_v10_0": "Pousse à un temps de jeu excessif",
     "USK_ProblematischeWerbeinhalte_v10_0": "Contenu publicitaire problématique",
     "USK_ProblematischeRollenbilder_v10_0": "Rôle-modèles problématiques",
@@ -10657,6 +10702,8 @@
     "ClassInd_SexInsinuation": "Insinuations sexuelles",
     "ACB_SexScenes": "Scènes de sexe",
     "ClassInd_SexScenes": "Scènes de sexe",
+    "EPIC_CERO_Sex_Industry": "Industrie du divertissement sexuel",
+    "EPIC_CERO_Sexually_Suggestive_Imagery": "Expression évoquant le sexe",
     "USK_SexErotik": "Sexe/érotisme",
     "ACB_SexualActivityRewards": "Activité sexuelle liée aux incentives et aux récompenses",
     "ClassInd_ConteudoSexual": "Contenu sexuel",
@@ -10703,6 +10750,7 @@
     "ACB_StrongCrimeThemes": "Thèmes de crime explicites",
     "ACB_StrongCrudeHumour": "Humour grossier explicite",
     "ACB_StrongCrudeSexualReferences": "Références crues à la sexualité explicites",
+    "ACB_StrongDisturbingThemes_v11_0": "Thèmes perturbants explicites",
     "ACB_StrongDrugReferences": "Références à la drogue explicites",
     "ACB_StrongDrugUse": "Consommation de drogue explicite",
     "ACB_StrongFamilyViolence_v10_0": "Forte violence familiale",
@@ -10746,13 +10794,20 @@
     "ACB_SuicideScenes_v10_0": "Scènes de suicide",
     "ACB_SupernaturalThemes": "Thèmes supernaturels",
     "ACB_SupernaturalViolence_v10_0": "Violence surnaturelle",
+    "ACB_SustainedThreat_v11_0": "Menace soutenue",
+    "EPIC_CERO_Swimsuits_Costumes": "Maillot de bain/Déguisement",
     "ESRB_AGE_T_Abbreviated": "Ados",
     "ESRB_AGE_T": "Adolescents",
     "ClassInd_Tension": "Tension",
     "ACB_Threat": "Menace",
+    "GEN_TimeLimitedOffers_v11_0": "Offres à durée limitée",
+    "PEGI_TimeLimitedOffers_v11_0": "Offres à durée limitée",
     "ESRB_TobaccoReference": "Mention de tabac",
     "USK_Tabakkonsum": "Consommation de tabac",
     "TCA_TobaccoAndAlcohol": "Tabac et alcool",
+    "EPIC_CERO_Exposure_Underwear": "Exposition aux sous-vêtements",
+    "GEN_UnrestrictedCommunication_v11_0": "Communication sans restriction",
+    "PEGI_UnrestrictedCommunication_v11_0": "Communication non restreinte",
     "IE_UnrestrictedInternet": "Accès non restreint à Internet",
     "ESRB_UseofAlcohol": "Usage d’alcool",
     "ESRB_UseofAlcoholandTobacco": "Consommation d'alcool et de tabac",
@@ -10815,11 +10870,7 @@
     "ClassInd_ViolenceAgainstVulnerablePersons": "Violence à l'encontre de personnes vulnérables",
     "ESRB_ViolentReferences": "Références violentes",
     "ACB_WarThemes": "Thèmes de guerre",
-    "USK_WarThemes_v7_0": "Sujets liés à la guerre",
-    "EPIC_CERO_Exposure_Underwear": "ä¸‹ç€ã®éœ²å‡º",
-    "EPIC_CERO_Swimsuits_Costumes": "æ°´ç€ãƒ»ã‚³ã‚¹ãƒãƒ¥ãƒ¼ãƒ ",
-    "EPIC_CERO_Sexually_Suggestive_Imagery": "æ€§çš„ãªã‚‚ã®ã‚’æƒ³èµ·ã•ã›ã‚‹è¡¨ç¾",
-    "EPIC_CERO_Sex_Industry": "æ€§é¢¨ä¿—æ¥­"
+    "USK_WarThemes_v7_0": "Sujets liés à la guerre"
   },
   "InteractionPointWidget": {
     "DistanceTextFormatted": "{DistanceValue}m"
@@ -11152,19 +11203,23 @@
     "EditInPromptEditor": "Modifier dans l'éditeur d'invites"
   },
   "LLMSession": {
+    "ErrorSource_Fact": "Fait",
     "ErrorSource_InstructionPrompt": "Texte d'instructions",
     "Error_SummaryPrompt": "La longueur de l'instruction a dépassé la limite",
     "CannotUseConversations": "L'utilisateur local n'est pas autorisé à utiliser les conversations LLM",
+    "ErrorSource_Prompt": "Invite",
     "ErrorSource_RegisteredActions": "Actions enregistrées",
     "Error_SummarySO": "La description des champs de structure a dépassé la limite",
     "ResonanceServiceUnavailable": "Le service Résonance est indisponible.",
     "SessionClosedBeforeExchange": "La session de Résonance s'est fermée avant que l'invitation ait pu être envoyée.",
     "SessionClosedBeforeUpdate": "La session de Résonance s'est fermée avant que l'invitation ait pu être envoyée.",
     "SessionClosedWhileQueued": "La session de Résonance s'est fermée avant que l'invitation ait pu être envoyée.",
-    "Error_DetailsPrompt": "Le nombre de caractères de l'instruction de {CharacterName} dépasse la limite de {CharacterLimit} caractères.",
-    "Error_DetailsSO": "Le nombre total de caractères des descriptions de champ dans {Source} dépasse la limite de {CharacterLimit} caractères.",
+    "Error_DetailsPrompt": "Le nombre de caractères de l'instruction de {CharacterName} dépasse la limite de {Limit} caractères.",
+    "Error_DetailsSO": "Le nombre total de caractères des descriptions de champ dans {Source} dépasse la limite de {Limit} caractères.",
     "ModerationMsg": "La réponse a été modérée",
     "Error_DetailsSchema": "Un problème est survenu lors de la construction d'un schéma JSON à partir de la structure fournie.",
+    "Error_SummaryBlocks": "Trop de références à du texte généré par IA",
+    "Error_DetailsBlocks": "Trop de références à du texte généré par IA pour {CharacterName} ({Source}, limite {Limit}). Faire référence à moins de segments de texte générés par l'IA.",
     "Error_SummarySchema": "Impossible de construire le schéma",
     "StartSessionFailed": "Impossible de démarrer la session Résonance",
     "UnknownRestriction": "Restriction inconnue"
@@ -11194,6 +11249,12 @@
   },
   "LfgFilterHeader": {
     "EntryNumberParenthesis": "({0})"
+  },
+  "LimeAtomValidationValidators": {
+    "ValidationFailed": "LEGO® {0} n'a pas pu terminer la validation, ses résultats peuvent être incomplets.",
+    "IssueCountErrors": "LEGO® {0} a trouvé {1} {1}|plural(one=problème,other=problèmes). Cela va à l'encontre des directives de LEGO®. Tous les problèmes doivent être corrigés, sinon votre projet risque d'être rejeté par la modération. Exécutez la validation dans le panneau Validation LEGO® pour les examiner",
+    "IssueCountWarnings": "LEGO® {0} a trouvé {1} {1}|plural(one=avertissement,other=avertissements). Cela va à l'encontre des directives de LEGO®. Tous les problèmes doivent être résolus, sinon votre projet risque d'être rejeté par la modération. Lancez la validation dans le panneau Validation LEGO® pour les examiner.",
+    "MaxIssuesReached": "LEGO® {0} s'est arrêté après avoir trouvé le nombre maximal de problèmes ({1}), donc il peut y en avoir d'autres. Cela va à l'encontre des directives de LEGO®. Tous les problèmes doivent être corrigés, sinon votre projet risque d'être rejeté par la modération."
   },
   "LiteUIKit": {
     "WidgetPaletteCategory": "UIKit Lite"
@@ -11960,7 +12021,8 @@
     "LogicType": "Valeur true et false"
   },
   "PersonaPromptEditor": {
-    "EditFactText": "Modifier les informations"
+    "EditFactText": "Modifier les informations",
+    "SetResonanceConfiguration": "Configuration de la résonance de l'ensemble"
   },
   "PickerContext": {
     "UFortPickerContext.EmojiCategoryTitle": "Émoticônes",
@@ -12178,6 +12240,13 @@
   "ReportReasonDetails": {
     "CommunicationAbuseDetails": "Si vous avez activé le signalement vocal et si vous souhaitez ajouter un enregistrement sonore à votre signalement, vous pouvez le faire dans l'onglet Discussion vocale de la barre latérale. Si vous avez activé le signalement textuel et si vous souhaitez ajouter un extrait de la discussion textuelle à votre signalement, vous pouvez le faire via l'onglet Discussion textuelle."
   },
+  "ResonanceConfigurationPicker": {
+    "ResonanceConfigurationDefault": "Par défaut",
+    "MultipleValues": "Valeurs multiples",
+    "ResonanceConfigurationDeprecated": "{0} (obsolète)",
+    "ResonanceConfigurationMissing": "{0} (manquant)",
+    "ResonanceConfigurationDuplicateLabel": "{0} ({1})"
+  },
   "Riding": {
     "DismountInput": "(maintenir) Descendre",
     "JumpInAir": "(en l'air) Descendre en sautant",
@@ -12387,6 +12456,10 @@
     "SplashTextName": "Profileur de métrique spatiale",
     "WindowTitle": "Profileur de métrique spatiale",
     "AppTitle": "Profileur spatial"
+  },
+  "SpecialEventGameplayAnimNodes": {
+    "SpecialEventRewindPlayback_Tooltip": "Joue les poses enregistrées pendant une chute en arrière, en cadence avec l'horloge de rembobinage de l'événement spécial. Transmet la pose d'entrée lorsqu'il n'y a pas de rembobinage.",
+    "SpecialEventRewindPlayback_Title": "Replay retour sur l'événement spécial"
   },
   "SpectatorLensSettings": {
     "ApertureFNumber": "f/{Aperture}",
@@ -12922,9 +12995,6 @@
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "Vous avez envoyé un cadeau à <text color=\"FFF\">{DisplayName}</> !"
   },
-  "UAthenaGiftFlowConfirmedPanel": {
-    "RecipientInfo": "Vous avez envoyé un cadeau à <text color=\"FFF\">{DisplayName}</> !"
-  },
   "UAthenaLockerCategorySortConfig": {
     "AllGroupNameKey": "Tout",
     "CategoriesGroupNameKey": "Catégories",
@@ -13047,7 +13117,6 @@
     "PurchaseFailedToStart": "Une erreur critique s'est produite lors du démarrage de votre achat. Veuillez réessayer ultérieurement.",
     "PurchaseFailedToStartDueToMissingPrices": "Une erreur critique s'est produite lors du démarrage de votre achat. Veuillez réessayer ultérieurement.",
     "PurchaseHasNoNewEntitlements": "Une erreur critique s'est produite lors de votre achat. Notre équipe tente de résoudre ce problème. Vous recevrez une confirmation lorsque votre achat sera réussi !",
-    "PurchaseBlockedDueToNoCTCCountryErrorCode": "Une erreur critique s'est produite lors de votre achat. Veuillez mettre à jour votre version d'iOS vers la dernière version disponible et réessayez.",
     "MismatchedLocalUserAndStoreUser": "Votre compte Xbox est différent de votre compte Microsoft Store. Vous devez vous connecter à l'application Xbox et au Microsoft Store avec le même compte pour effectuer de nouveaux achats.",
     "EULAFormat": "{0}\n\n{1}"
   },
