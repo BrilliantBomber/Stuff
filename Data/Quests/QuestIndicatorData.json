@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "FortQuestIndicatorData",
+    "Name": "QuestIndicatorData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestIndicatorData'",
+    "Package": "/Game/Quests/QuestIndicatorData",
+    "Properties": {
+      "DefaultQuestIcon": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Replay/T-Icon-Replay-Exclamation-L.T-Icon-Replay-Exclamation-L",
+        "SubPathString": ""
+      },
+      "QuestTagToIconDataTable": {
+        "ObjectName": "DataTable'QuestTagToIconDataRows'",
+        "ObjectPath": "/Game/Quests/QuestTagToIconDataRows.0"
+      },
+      "DefaultMapMarkerMaterial": {
+        "AssetPathName": "/Game/Athena/UI/Challenges/Art/MapIcons/M_UI_MapMarker_Default.M_UI_MapMarker_Default",
+        "SubPathString": ""
+      },
+      "QuestTagToCategoryDataTable": {
+        "ObjectName": "DataTable'QuestTagToCategoryDataRows'",
+        "ObjectPath": "/Game/Quests/QuestTagToCategoryDataRows.0"
+      }
+    }
+  }
+]
