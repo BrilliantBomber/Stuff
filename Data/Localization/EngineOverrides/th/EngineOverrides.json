@@ -703,7 +703,7 @@
     "WidgetName": "ชื่อวิดเจ็ต",
     "False": "เท็จ",
     "None": "ไม่มี",
-    "True": "True",
+    "True": "จริง",
     "OwnsFocusInexact": "จริง (ไม่ตรงทั้งหมด - จับคู่ตามคลาส)",
     "BindingModeActionBar": "{0} / แถบแอ็กชัน",
     "NodeSubtitleBindings": "การกำหนดปุ่ม {0}",
