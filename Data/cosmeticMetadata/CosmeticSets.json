@@ -24211,8 +24211,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "B8EABFB646576E80D42404BF1FAAD14A",
-          "SourceString": "Set_04",
-          "LocalizedString": "Set_04"
+          "SourceString": "Ember & Blade",
+          "LocalizedString": "Ember & Blade"
         },
         "Description": {
           "CultureInvariantString": null
@@ -24225,8 +24225,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "531B4B724B198239F710C29EE1DCB2F9",
-          "SourceString": "Set_02",
-          "LocalizedString": "Set_02"
+          "SourceString": "Scott Pilgrim",
+          "LocalizedString": "Scott Pilgrim"
         },
         "Description": {
           "CultureInvariantString": null
@@ -24253,8 +24253,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "FCF20D2641A60F75BA1BFC862EB3E189",
-          "SourceString": "Set_03",
-          "LocalizedString": "Set_03"
+          "SourceString": "Puss in Boots",
+          "LocalizedString": "Puss in Boots"
         },
         "Description": {
           "CultureInvariantString": null
@@ -24267,8 +24267,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "49B8EA7741212C221E4E5FAA33933582",
-          "SourceString": "Set_01",
-          "LocalizedString": "Set_01"
+          "SourceString": "Doki Doki Literature Club!",
+          "LocalizedString": "Doki Doki Literature Club!"
         },
         "Description": {
           "CultureInvariantString": null
